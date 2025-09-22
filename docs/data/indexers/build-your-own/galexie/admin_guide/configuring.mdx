@@ -14,12 +14,18 @@ sidebar_position: 20
 2. **Rename and Update the Configuration**
 
    Rename the file to `config.toml` and adjust settings as needed.
-
    - **Key Settings Include:**
+     - **Cloud Storage Service**
 
-     - **Google Cloud Storage (GCS) Bucket**
+       Specify the cloud storage service to be used to export ledger metadata. Currently only `GCS` and `S3` are supported
 
-       Specify the GCS bucket where Galexie will export Stellar ledger data. Update `destination_bucket_path` to the complete path of your GCS bucket, including subpaths if applicable.
+       ```toml
+       type = "GCS"
+       ```
+
+     - **Cloud Storage Bucket**
+
+       Specify the cloud storage bucket where Galexie will export Stellar ledger data. Update `destination_bucket_path` to the complete path of your bucket, including subpaths if applicable.
 
        ```toml
        destination_bucket_path = "stellar-network-data/testnet"
@@ -35,7 +41,7 @@ sidebar_position: 20
 
      - **Data Organization (Optional)**
 
-       Configure how the exported data is organized in the GCS bucket. The example below adds 1 ledger per file and organizes them in a directory of 64000 files.
+       Configure how the exported data is organized in the storage bucket. The example below adds 1 ledger per file and organizes them in a directory of 64000 files.
 
        ```toml
         # Number of ledgers stored in each file

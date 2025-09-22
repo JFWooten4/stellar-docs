@@ -5,6 +5,7 @@ sidebar_position: 20
 ---
 
 import { CodeExample } from "@site/src/components/CodeExample";
+import Details from "@theme/Details";
 
 Claimable balances were introduced in [CAP-0023](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0023.md) and are used to split a payment into two parts.
 
@@ -30,7 +31,6 @@ For basic parameters, see the Create Claimable Balance entry in our [List of Ope
 - **`Claim_Predicate_` Claimant**: an object that holds both the destination account that can claim the `ClaimableBalanceEntry` and a `ClaimPredicate` that must evaluate to true for the claim to succeed.
 
 - **`ClaimPredicate`**: a recursive data structure that can be used to construct complex conditionals using different `ClaimPredicateTypes`. Below are some examples with the `Claim_Predicate_` prefix removed for readability. Note that the SDKs expect the Unix timestamps to be expressed in seconds.
-
   - `UNCONDITIONAL`: Can claim at any time.
   - `BEFORE_RELATIVE_TIME(X)`: Can claim if the close time of the ledger including the claim is before X seconds, plus the ledger close time in which the `ClaimableBalanceEntry` was created.
     - `NOT( BEFORE_RELATIVE_TIME(X) )`: Can claim if the close time of the ledger including the claim is at or after X seconds, plus the ledger close time in which the ClaimableBalanceEntry was created.
@@ -148,16 +148,28 @@ except (BadRequestError, BadResponseError) as err:
 ```
 
 ```js
-const sdk = require("stellar-sdk");
+import * as StellarSdk from "@stellar/stellar-sdk";
 
-async function main() {
-  let server = new sdk.Server("https://horizon-testnet.stellar.org");
-
-  let A = sdk.Keypair.fromSecret(
-    "SAQLZCQA6AYUXK6JSKVPJ2MZ5K5IIABJOEQIG4RVBHX4PG2KMRKWXCHJ",
+/**
+ * Creates a claimable balance on Stellar testnet
+ * A claimable balance allows splitting a payment into two parts:
+ * 1. Sender creates the claimable balance
+ * 2. Recipient(s) can claim it later
+ */
+async function createClaimableBalance() {
+  // Connect to Stellar testnet RPC server
+  const server = new StellarSdk.rpc.Server(
+    "https://soroban-testnet.stellar.org",
   );
-  let B = sdk.Keypair.fromPublicKey(
-    "GAS4V4O2B7DW5T7IQRPEEVCRXMDZESKISR7DVIGKZQYYV3OSQ5SH5LVP",
+
+  const A = StellarSdk.Keypair.random();
+  const B = StellarSdk.Keypair.random();
+
+  console.log(
+    `Account A... public key: ${A.publicKey()}, secret: ${A.secret()}`,
+  );
+  console.log(
+    `Account B... public key: ${B.publicKey()}, secret: ${B.secret()}`,
   );
 
   let aAccount;
@@ -170,9 +182,9 @@ async function main() {
 
   // Create a claimable balance with our two above-described conditions.
   let soon = Math.ceil(Date.now() / 1000 + 60); // .now() is in ms
-  let bCanClaim = sdk.Claimant.predicateBeforeRelativeTime("60");
-  let aCanReclaim = sdk.Claimant.predicateNot(
-    sdk.Claimant.predicateBeforeAbsoluteTime(soon.toString()),
+  let bCanClaim = StellarSdk.Claimant.predicateBeforeRelativeTime("60");
+  let aCanReclaim = StellarSdk.Claimant.predicateNot(
+    StellarSdk.Claimant.predicateBeforeAbsoluteTime(soon.toString()),
   );
 
   let claimableBalanceEntry = sdk.Operation.createClaimableBalance({
@@ -184,9 +196,13 @@ async function main() {
     amount: "64",
   });
 
-  let tx = new sdk.TransactionBuilder(aAccount, { fee: sdk.BASE_FEE })
-    .addOperation(claimableBalanceEntry)
-    .setNetworkPassphrase(sdk.Networks.TESTNET)
+  // Build the transaction
+  console.log(`Building transaction...`);
+  const transaction = new StellarSdk.TransactionBuilder(aAccount, {
+    fee: StellarSdk.BASE_FEE,
+    networkPassphrase: StellarSdk.Networks.TESTNET,
+  })
+    .addOperation(claimableBalanceOp)
     .setTimeout(180)
     .build();
 
