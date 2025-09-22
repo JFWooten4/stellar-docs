@@ -32,6 +32,3 @@ yarn-error.log*
 .env
 
 stellar-cli-repo
-
-docs.log
-run.pid

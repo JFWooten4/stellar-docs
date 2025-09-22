@@ -36,7 +36,7 @@ const WayfindingWays: WayfindingItem[] = [
         Issue an asset or create a custom smart contract token.
       </Translate>
     ),
-    link: learnMoreLink("/docs/tokens/quickstart"),
+    link: learnMoreLink("#asset-issuers"),
   },
   {
     title: translate({
@@ -51,7 +51,7 @@ const WayfindingWays: WayfindingItem[] = [
         Write smart contracts on the Stellar network.
       </Translate>
     ),
-    link: learnMoreLink("/docs/build/smart-contracts/getting-started"),
+    link: learnMoreLink("#smart-contract-developers"),
   },
   {
     title: translate({
@@ -66,7 +66,7 @@ const WayfindingWays: WayfindingItem[] = [
         Learn about and set up an anchor.
       </Translate>
     ),
-    link: learnMoreLink("/docs/learn/fundamentals/anchors"),
+    link: learnMoreLink("#ramps-anchors"),
   },
   {
     title: translate({
@@ -81,7 +81,7 @@ const WayfindingWays: WayfindingItem[] = [
         Build a traditional wallet, dapp, or list Stellar assets on an exchange.
       </Translate>
     ),
-    link: learnMoreLink("/docs/build/apps/overview"),
+    link: learnMoreLink("#applications"),
   },
   {
     title: translate({
@@ -96,7 +96,7 @@ const WayfindingWays: WayfindingItem[] = [
         Set up a Horizon or RPC service.
       </Translate>
     ),
-    link: learnMoreLink("/docs/data/apis"),
+    link: learnMoreLink("#infrastructure-providers"),
   },
   {
     title: translate({
@@ -111,7 +111,7 @@ const WayfindingWays: WayfindingItem[] = [
         Use Hubble to perform analysis on Stellar network data.
       </Translate>
     ),
-    link: learnMoreLink("/docs/data/analytics"),
+    link: learnMoreLink("#analytics"),
   },
 ];
 

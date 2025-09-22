@@ -5,12 +5,6 @@ description: "Learn how assets work on the Stellar network, including issuing, t
 sidebar_position: 30
 ---
 
-:::info
-
-The term "custom token" has been deprecated in favor of "contract token". View the conversation in the [Stellar Developer Discord](https://discord.com/channels/897514728459468821/966788672164855829/1359276952971640953).
-
-:::
-
 # Assets
 
 import { CodeExample } from "@site/src/components/CodeExample";
@@ -21,7 +15,8 @@ Accounts on the Stellar network can be used to track, hold, and transfer any typ
 
 Assets exist in two forms on Stellar:
 
-"Classic" assets issued by Stellar accounts (`G...` addresses) and their built-in Stellar Asset Contract (SAC) implementation, and contract tokens issued by a deployed Wasm contract (`C...` addresses).
+1. "classic" assets issued by Stellar accounts (`G...` addresses) with their built-in Stellar Asset Contract (SAC) implementation and
+2. custom tokens issued by a deployed Wasm contract (`C...` addresses).
 
 Learn more about the differences in the [Assets and Tokens section](../../../tokens/README.mdx).
 
@@ -35,7 +30,7 @@ Classic assets on Stellar have two identifying characteristics: the asset code a
 
 An asset’s identifying code. There are three different formats: Alphanumeric 4, Alphanumeric 12, and liquidity pool shares.
 
-Learn about liquidity pool shares in the [Liquidity Pool section](../liquidity-on-stellar-sdex-liquidity-pools.mdx).
+Learn about liquidity pool shares in the [SDEX & Liquidity Pools Encyclopedia Entry](../../encyclopedia/sdex/liquidity-on-stellar-sdex-liquidity-pools.mdx).
 
 Learn more about asset codes in the [Naming an Asset section](../../../tokens/control-asset-access.mdx#naming-an-asset)
 
@@ -115,6 +110,6 @@ The Stellar CLI can deploy a Stellar Asset Contract for a Stellar asset. Deployi
 
 Learn more in the [SAC section](../../../tokens/stellar-asset-contract.mdx).
 
-## Token contracts
+## Custom token contracts
 
-Token contracts can be deployed on Stellar by deploying a contract that implements the [Token Interface](../../../tokens/token-interface.mdx), which is the same interface implemented by the [Stellar Asset Contract (SAC)](../../../tokens/stellar-asset-contract.mdx) for Stellar assets.
+Custom token contracts can be deployed on Stellar by deploying a contract that implements the [Token Interface](../../../tokens/token-interface.mdx), which is the same interface implemented by the [Stellar Asset Contract (SAC)](../../../tokens/stellar-asset-contract.mdx) for Stellar assets.

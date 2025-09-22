@@ -52,19 +52,6 @@ const accountLedgerKey = xdr.LedgerKey.ledgerKeyAccount(
 console.log(accountLedgerKey.toXDR("base64"));
 ```
 
-```python
-from stellar_sdk import Keypair, xdr
-
-public_key = "GALAXYVOIDAOPZTDLHILAJQKCVVFMD4IKLXLSZV5YHO7VY74IWZILUTO"
-account_ledger_key = xdr.LedgerKey(
-    type=xdr.LedgerEntryType.ACCOUNT,
-    account=xdr.LedgerKeyAccount(
-        account_id=Keypair.from_public_key(public_key).xdr_account_id()
-    ),
-)
-print(account_ledger_key.to_xdr())
-```
-
 </CodeExample>
 
 This will give you the full account details.
@@ -75,12 +62,6 @@ This will give you the full account details.
 const accountEntryData = (
   await s.getLedgerEntries(accountLedgerKey)
 ).entries[0].account();
-```
-
-```python
-account_entry_data = xdr.LedgerEntryData.from_xdr(
-    server.get_ledger_entries([account_ledger_key]).entries[0].xdr
-).account
 ```
 
 </CodeExample>
@@ -97,12 +78,6 @@ console.log(
     .seqNum()
     .toString()}`,
 );
-```
-
-```python
-print(
-    f"Account {public_key} has {account_entry_data.balance.int64} stroops of XLM and is on sequence number {account_entry_data.seq_num.sequence_number.int64}"
-)
 ```
 
 </CodeExample>
@@ -123,22 +98,6 @@ const trustlineLedgerKey = xdr.LedgerKey.ledgerKeyTrustLine(
     ).toTrustLineXDRObject(),
   }),
 );
-```
-
-```python
-trustline_ledger_key = xdr.LedgerKey(
-    type=xdr.LedgerEntryType.TRUSTLINE,
-    trust_line=xdr.LedgerKeyTrustLine(
-        account_id=Keypair.from_public_key(public_key).xdr_account_id(),
-        asset=Asset(
-            "USDC", "GA5ZSEJYB37JRC5AVCIA5MOP4RHTM335X2KGX3IHOJAPP5RE34K4KZVN"
-        ).to_trust_line_asset_xdr_object(),
-    ),
-)
-
-trustline_entry_data = xdr.LedgerEntryData.from_xdr(
-    server.get_ledger_entries([trustline_ledger_key]).entries[0].xdr
-).trust_line
 ```
 
 </CodeExample>
@@ -173,30 +132,401 @@ console.log(
   `Account ${publicKey} has ${trustlineEntryData
     .balance()
     .toString()} stroops of ${asset} with a limit of ${trustlineEntryData
-    .limit()
+    .balance()
     .toString()}`,
 );
 ```
 
-```python
-raw_asset = trustline_entry_data.asset
-asset: str = ""
+</CodeExample>
 
-if (
-    raw_asset.type == xdr.AssetType.ASSET_TYPE_CREDIT_ALPHANUM4
-    or raw_asset.type == xdr.AssetType.ASSET_TYPE_CREDIT_ALPHANUM12
-):
-    asset_obj = Asset.from_xdr_object(raw_asset)
-    asset = f"{asset_obj.code}:{asset_obj.issuer}"
-elif raw_asset.type == xdr.AssetType.ASSET_TYPE_POOL_SHARE:
-    asset_obj = LiquidityPoolId.from_xdr_object(raw_asset)
-    asset = f"{asset_obj.liquidity_pool_id}"
-else:
-    raise ValueError("Invalid asset type")
+### Offers
 
-print(
-    f"Account {public_key} has {trustline_entry_data.balance.int64} stroops of {asset} with a limit of {trustline_entry_data.limit.int64}"
-)
+An offer represents a live order on the DEX. Each offer is identified by its `offerID`. To construct a `LedgerKey` for an offer, you only need the offer ID:
+
+<CodeExample>
+
+```typescript
+const offerLedgerKey = xdr.LedgerKey.ledgerKeyOffer(
+  new xdr.LedgerKeyOffer({
+    offerID: 123456789n,
+  }),
+);
+console.log(offerLedgerKey.toXDR("base64"));
+```
+
+</CodeExample>
+
+Once you have the ledger entry, you can extract its fields:
+
+<CodeExample>
+
+```typescript
+const offerEntryData = (
+  await s.getLedgerEntries(offerLedgerKey)
+).entries[0].offer();
+
+console.log(`Offer ID: ${offerEntryData.offerId().toString()}`);
+console.log(`Seller: ${offerEntryData.sellerId().accountId()}`);
+console.log(`Amount: ${offerEntryData.amount().toString()}`); // of selling
+console.log(
+  `Price: ${offerEntryData.price().n().toString()} / ${offerEntryData.price().d().toString()}`,
+);
+```
+
+</CodeExample>
+
+You can then decode the selling and buying assets the same way you do for Trustlines, by inspecting `offerEntryData.selling()` and `offerEntryData.buying()` using the standard `xdr.Asset` parsing logic.
+
+### Claimable Balances
+
+A claimable balance represents assets that have been locked under certain claim conditions. Each claimable balance is identified by its `balanceId`, which is a 32-byte hash.
+
+To construct a `LedgerKey` for a claimable balance, you need the `balanceId` as a `Buffer` or `Uint8Array`:
+
+<CodeExample>
+
+```typescript
+const balanceIdHex =
+  "407a334017a508fb2bf41952c74f977b46147ed70b175717f8bacc0ca3f2cc5b";
+const balanceIdBytes = Buffer.from(balanceIdHex, "hex");
+
+const claimableBalanceLedgerKey = xdr.LedgerKey.ledgerKeyClaimableBalance(
+  new xdr.LedgerKeyClaimableBalance({
+    balanceID: xdr.ClaimableBalanceID.claimableBalanceIdTypeV0(balanceIdBytes),
+  }),
+);
+console.log(claimableBalanceLedgerKey.toXDR("base64"));
+```
+
+</CodeExample>
+
+Once you have the ledger entry, you can extract its fields:
+
+<CodeExample>
+
+```typescript
+const claimableBalanceEntryData = (
+  await s.getLedgerEntries(claimableBalanceLedgerKey)
+).entries[0].claimableBalance();
+
+console.log(`Amount: ${claimableBalanceEntryData.amount().toString()} stroops`);
+
+const asset = claimableBalanceEntryData.asset();
+// Decode asset similar to as in trustlines
+
+const claimants = claimableBalanceEntryData.claimants();
+
+if (claimableBalanceEntryData.ext().switch().value === 1) {
+  const flags = claimableBalanceEntryData.ext().v1().flags();
+  const clawbackEnabled =
+    (flags &
+      xdr.ClaimableBalanceFlags.claimableBalanceClawbackEnabledFlag()) !==
+    0;
+  console.log(`Clawback Enabled: ${clawbackEnabled}`);
+}
+```
+
+</CodeExample>
+
+#### Claimants and Predicates
+
+Claimable balances contain one or more claimants, each with a claim predicate. You can iterate through them as follows:
+
+<CodeExample>
+
+```typescript
+for (let i = 0; i < claimants.length; i++) {
+  const claimant = claimants[i].v0();
+  const destination = claimant.destination().accountId();
+  console.log(`Claimant ${i + 1}: ${destination}`);
+
+  const predicate = claimant.predicate();
+  const predicateType = predicate.switch().value;
+
+  switch (predicateType) {
+    case xdr.ClaimPredicateType.claimPredicateUnconditional().value:
+      console.log("Predicate: Unconditional");
+      break;
+    case xdr.ClaimPredicateType.claimPredicateBeforeAbsoluteTime().value:
+      console.log(`Predicate: Before Absolute Time = ${predicate.absBefore().toString()}`);
+      break;
+    case xdr.ClaimPredicateType.claimPredicateBeforeRelativeTime().value:
+      console.log(`Predicate: Before Relative Time = ${predicate.relBefore().toString()} seconds`);
+      break;
+    default:
+      console.log("Predicate: Complex predicate type (AND/OR/NOT)");
+      break;
+}
+```
+
+</CodeExample>
+
+#### Flags
+
+If the claimable balance has flags set (not `v0`), you can read them like this:
+
+<CodeExample>
+
+```typescript
+switch (claimableBalanceEntryData.ext().switch().value) {
+  case 0: // No flags
+    break;
+  case 1:
+    const flags = claimableBalanceEntryData.ext().v1().flags();
+    const clawbackEnabled = (flags & 1) !== 0; // claw = 0x1
+    console.log(`Clawback Enabled: ${clawbackEnabled}`);
+    break;
+}
+```
+
+</CodeExample>
+
+### Liquidity Pools
+
+A liquidity pool represents an Automated Market Maker holding two assets. Each liquidity pool is identified by its `liquidityPoolID`, which is a 32-byte hash.
+
+To construct a `LedgerKey` for an AMM, you need the liquidity-pool ID as a `Buffer` or `Uint8Array`. Core deterministicly stores this as a 64-char hex string.
+
+<CodeExample>
+
+```typescript
+const liquidityPoolIdHex =
+  "82f857462d5304e1ad7d5308fb6d90ff3e70ad8fb07b81d04b12d2cc867fc735";
+const liquidityPoolIdBytes = Buffer.from(liquidityPoolIdHex, "hex");
+
+const liquidityPoolLedgerKey = xdr.LedgerKey.ledgerKeyLiquidityPool(
+  new xdr.LedgerKeyLiquidityPool({
+    liquidityPoolID: liquidityPoolIdBytes,
+  }),
+);
+console.log(liquidityPoolLedgerKey.toXDR("base64"));
+```
+
+</CodeExample>
+
+Once you have the ledger entry, you can extract its fields:
+
+<CodeExample>
+
+```typescript
+const liquidityPoolEntryData = (
+  await s.getLedgerEntries(liquidityPoolLedgerKey)
+).entries[0].liquidityPool();
+
+console.log(
+  `Total Pool Shares: ${liquidityPoolEntryData.totalPoolShares().toString()}`,
+);
+console.log(
+  `Total Trustlines: ${liquidityPoolEntryData.poolSharesTrustLineCount().toString()}`,
+);
+
+const AMM = liquidityPoolEntryData.body();
+switch (AMM.switch().value) {
+  case xdr.LiquidityPoolType.liquidityPoolConstantProduct().value: {
+    const params = AMM.constantProduct().params();
+    const fee = params.fee(); // basis points
+    const assetA = params.assetA();
+    const assetB = params.assetB();
+    console.log(`Constant-Product Between: ${assetA} and ${assetB}`);
+    break;
+  }
+}
+```
+
+</CodeExample>
+
+### Offers
+
+An offer represents a live order on the DEX. Each offer is identified by its `offerID`. To construct a `LedgerKey` for an offer, you only need the offer ID:
+
+<CodeExample>
+
+```typescript
+const offerLedgerKey = xdr.LedgerKey.ledgerKeyOffer(
+  new xdr.LedgerKeyOffer({
+    offerID: 123456789n,
+  }),
+);
+console.log(offerLedgerKey.toXDR("base64"));
+```
+
+</CodeExample>
+
+Once you have the ledger entry, you can extract its fields:
+
+<CodeExample>
+
+```typescript
+const offerEntryData = (
+  await s.getLedgerEntries(offerLedgerKey)
+).entries[0].offer();
+
+console.log(`Offer ID: ${offerEntryData.offerId().toString()}`);
+console.log(`Seller: ${offerEntryData.sellerId().accountId()}`);
+console.log(`Amount: ${offerEntryData.amount().toString()}`); // of selling
+console.log(
+  `Price: ${offerEntryData.price().n().toString()} / ${offerEntryData.price().d().toString()}`,
+);
+```
+
+</CodeExample>
+
+You can then decode the selling and buying assets the same way you do for Trustlines, by inspecting `offerEntryData.selling()` and `offerEntryData.buying()` using the standard `xdr.Asset` parsing logic.
+
+### Claimable Balances
+
+A claimable balance represents assets that have been locked under certain claim conditions. Each claimable balance is identified by its `balanceId`, which is a 32-byte hash.
+
+To construct a `LedgerKey` for a claimable balance, you need the `balanceId` as a `Buffer` or `Uint8Array`:
+
+<CodeExample>
+
+```typescript
+const balanceIdHex =
+  "407a334017a508fb2bf41952c74f977b46147ed70b175717f8bacc0ca3f2cc5b";
+const balanceIdBytes = Buffer.from(balanceIdHex, "hex");
+
+const claimableBalanceLedgerKey = xdr.LedgerKey.ledgerKeyClaimableBalance(
+  new xdr.LedgerKeyClaimableBalance({
+    balanceID: xdr.ClaimableBalanceID.claimableBalanceIdTypeV0(balanceIdBytes),
+  }),
+);
+console.log(claimableBalanceLedgerKey.toXDR("base64"));
+```
+
+</CodeExample>
+
+Once you have the ledger entry, you can extract its fields:
+
+<CodeExample>
+
+```typescript
+const claimableBalanceEntryData = (
+  await s.getLedgerEntries(claimableBalanceLedgerKey)
+).entries[0].claimableBalance();
+
+console.log(`Amount: ${claimableBalanceEntryData.amount().toString()} stroops`);
+
+const asset = claimableBalanceEntryData.asset();
+// Decode asset similar to as in trustlines
+
+const claimants = claimableBalanceEntryData.claimants();
+
+if (claimableBalanceEntryData.ext().switch().value === 1) {
+  const flags = claimableBalanceEntryData.ext().v1().flags();
+  const clawbackEnabled =
+    (flags &
+      xdr.ClaimableBalanceFlags.claimableBalanceClawbackEnabledFlag()) !==
+    0;
+  console.log(`Clawback Enabled: ${clawbackEnabled}`);
+}
+```
+
+</CodeExample>
+
+#### Claimants and Predicates
+
+Claimable balances contain one or more claimants, each with a claim predicate. You can iterate through them as follows:
+
+<CodeExample>
+
+```typescript
+for (let i = 0; i < claimants.length; i++) {
+  const claimant = claimants[i].v0();
+  const destination = claimant.destination().accountId();
+  console.log(`Claimant ${i + 1}: ${destination}`);
+
+  const predicate = claimant.predicate();
+  const predicateType = predicate.switch().value;
+
+  switch (predicateType) {
+    case xdr.ClaimPredicateType.claimPredicateUnconditional().value:
+      console.log("Predicate: Unconditional");
+      break;
+    case xdr.ClaimPredicateType.claimPredicateBeforeAbsoluteTime().value:
+      console.log(`Predicate: Before Absolute Time = ${predicate.absBefore().toString()}`);
+      break;
+    case xdr.ClaimPredicateType.claimPredicateBeforeRelativeTime().value:
+      console.log(`Predicate: Before Relative Time = ${predicate.relBefore().toString()} seconds`);
+      break;
+    default:
+      console.log("Predicate: Complex predicate type (AND/OR/NOT)");
+      break;
+}
+```
+
+</CodeExample>
+
+#### Flags
+
+If the claimable balance has flags set (not `v0`), you can read them like this:
+
+<CodeExample>
+
+```typescript
+switch (claimableBalanceEntryData.ext().switch().value) {
+  case 0: // No flags
+    break;
+  case 1:
+    const flags = claimableBalanceEntryData.ext().v1().flags();
+    const clawbackEnabled = (flags & 1) !== 0; // claw = 0x1
+    console.log(`Clawback Enabled: ${clawbackEnabled}`);
+    break;
+}
+```
+
+</CodeExample>
+
+### Liquidity Pools
+
+A liquidity pool represents an Automated Market Maker holding two assets. Each liquidity pool is identified by its `liquidityPoolID`, which is a 32-byte hash.
+
+To construct a `LedgerKey` for an AMM, you need the liquidity-pool ID as a `Buffer` or `Uint8Array`. Core deterministicly stores this as a 64-char hex string.
+
+<CodeExample>
+
+```typescript
+const liquidityPoolIdHex =
+  "82f857462d5304e1ad7d5308fb6d90ff3e70ad8fb07b81d04b12d2cc867fc735";
+const liquidityPoolIdBytes = Buffer.from(liquidityPoolIdHex, "hex");
+
+const liquidityPoolLedgerKey = xdr.LedgerKey.ledgerKeyLiquidityPool(
+  new xdr.LedgerKeyLiquidityPool({
+    liquidityPoolID: liquidityPoolIdBytes,
+  }),
+);
+console.log(liquidityPoolLedgerKey.toXDR("base64"));
+```
+
+</CodeExample>
+
+Once you have the ledger entry, you can extract its fields:
+
+<CodeExample>
+
+```typescript
+const liquidityPoolEntryData = (
+  await s.getLedgerEntries(liquidityPoolLedgerKey)
+).entries[0].liquidityPool();
+
+console.log(
+  `Total Pool Shares: ${liquidityPoolEntryData.totalPoolShares().toString()}`,
+);
+console.log(
+  `Total Trustlines: ${liquidityPoolEntryData.poolSharesTrustLineCount().toString()}`,
+);
+
+const AMM = liquidityPoolEntryData.body();
+switch (AMM.switch().value) {
+  case xdr.LiquidityPoolType.liquidityPoolConstantProduct().value: {
+    const params = AMM.constantProduct().params();
+    const fee = params.fee(); // basis points
+    const assetA = params.assetA();
+    const assetB = params.assetB();
+    console.log(`Constant-Product Between: ${assetA} and ${assetB}`);
+    break;
+  }
+}
 ```
 
 </CodeExample>
@@ -403,6 +733,28 @@ Suppose we've deployed the [`increment` example contract] and want to find out w
 
 <CodeExample>
 
+```python
+from stellar_sdk import xdr, scval, Address
+
+def get_ledger_key_symbol(contract_id: str, symbol_text: str) -> str:
+    ledger_key = xdr.LedgerKey(
+        type=xdr.LedgerEntryType.CONTRACT_DATA,
+        contract_data=xdr.LedgerKeyContractData(
+            contract=Address(contract_id).to_xdr_sc_address(),
+            key=scval.to_symbol(symbol_text),
+            durability=xdr.ContractDataDurability.PERSISTENT
+        ),
+    )
+    return ledger_key.to_xdr()
+
+print(
+    get_ledger_key_symbol(
+        "CCPYZFKEAXHHS5VVW5J45TOU7S2EODJ7TZNJIA5LKDVL3PESCES6FNCI",
+        "COUNTER"
+    )
+)
+```
+
 ```typescript
 import { xdr, Address } from "@stellar/stellar-sdk";
 
@@ -428,28 +780,6 @@ const ledgerKey = getLedgerKeySymbol(
 );
 ```
 
-```python
-from stellar_sdk import xdr, scval, Address
-
-def get_ledger_key_symbol(contract_id: str, symbol_text: str) -> str:
-    ledger_key = xdr.LedgerKey(
-        type=xdr.LedgerEntryType.CONTRACT_DATA,
-        contract_data=xdr.LedgerKeyContractData(
-            contract=Address(contract_id).to_xdr_sc_address(),
-            key=scval.to_symbol(symbol_text),
-            durability=xdr.ContractDataDurability.PERSISTENT
-        ),
-    )
-    return ledger_key.to_xdr()
-
-print(
-    get_ledger_key_symbol(
-        "CCPYZFKEAXHHS5VVW5J45TOU7S2EODJ7TZNJIA5LKDVL3PESCES6FNCI",
-        "COUNTER"
-    )
-)
-```
-
 </CodeExample>
 
 ### Contract Wasm Code
@@ -467,20 +797,6 @@ Thus, fetching the contract code is a two-step process:
 #### 1. Find the ledger key for the contract instance
 
 <CodeExample>
-
-```typescript
-import { Contract } from "@stellar/stellar-sdk";
-
-function getLedgerKeyContractCode(contractId): xdr.LedgerKey {
-  return new Contract(contractId).getFootprint();
-}
-
-console.log(
-  getLedgerKeyContractCode(
-    "CCPYZFKEAXHHS5VVW5J45TOU7S2EODJ7TZNJIA5LKDVL3PESCES6FNCI",
-  ),
-);
-```
 
 ```python
 from stellar_sdk import xdr, Address
@@ -500,6 +816,20 @@ print(get_ledger_key_contract_code(
 ))
 ```
 
+```typescript
+import { Contract } from "@stellar/stellar-sdk";
+
+function getLedgerKeyContractCode(contractId): xdr.LedgerKey {
+  return new Contract(contractId).getFootprint();
+}
+
+console.log(
+  getLedgerKeyContractCode(
+    "CCPYZFKEAXHHS5VVW5J45TOU7S2EODJ7TZNJIA5LKDVL3PESCES6FNCI",
+  ),
+);
+```
+
 </CodeExample>
 
 Once we have the ledger entry (via `getLedgerEntries`, see [below](#actually-fetching-the-ledger-entry-data)), we can extract the Wasm hash:
@@ -509,22 +839,6 @@ Once we have the ledger entry (via `getLedgerEntries`, see [below](#actually-fet
 Now take the `xdr` field from the previous response's `result` object, and create a `LedgerKey` from the hash contained inside.
 
 <CodeExample>
-
-```typescript
-import { xdr } from "@stellar/stellar-sdk";
-
-function getLedgerKeyWasmId(
-  contractData: xdr.ContractDataEntry,
-): xdr.LedgerKey {
-  const wasmHash = contractData.val().instance().executable().wasmHash();
-
-  return xdr.LedgerKey.contractCode(
-    new xdr.LedgerKeyContractCode({
-      hash: wasmHash,
-    }),
-  );
-}
-```
 
 ```python
 from stellar_sdk import xdr
@@ -546,6 +860,22 @@ def get_ledger_key_wasm_id(
   return ledger_key
 ```
 
+```typescript
+import { xdr } from "@stellar/stellar-sdk";
+
+function getLedgerKeyWasmId(
+  contractData: xdr.ContractDataEntry,
+): xdr.LedgerKey {
+  const wasmHash = contractData.val().instance().executable().wasmHash();
+
+  return xdr.LedgerKey.contractCode(
+    new xdr.LedgerKeyContractCode({
+      hash: wasmHash,
+    }),
+  );
+}
+```
+
 </CodeExample>
 
 Now, finally we have a `LedgerKey` that correspond to the Wasm byte-code that has been deployed under the `contractId` we started out with so very long ago. This `LedgerKey` can be used in a final request to `getLedgerEntries`. In that response we will get a `LedgerEntryData` corresponding to a `ContractCodeEntry` which will contain the actual, deployed, real-life contract byte-code:
@@ -560,16 +890,6 @@ const theHashData: xdr.ContractDataEntry = await getLedgerEntries(
 const theCode: Buffer = await getLedgerEntries(getLedgerKeyWasmId(theHashData))
   .entries[0].contractCode()
   .code();
-```
-
-```python
-the_hash_data = xdr.LedgerEntryData.from_xdr(
-    server.get_ledger_entries([get_ledger_key_contract_code("C...")]).entries[0].xdr
-).contract_data
-
-the_code = xdr.LedgerEntryData.from_xdr(
-    server.get_ledger_entries([get_ledger_key_wasm_id(the_hash_data)]).entries[0].xdr
-).contract_code.code
 ```
 
 </CodeExample>
@@ -587,18 +907,8 @@ const s = new Server("https://soroban-testnet.stellar.org");
 const response = await s.getLedgerEntries(key1, key2, key3);
 
 const account = response.entries[0].account();
-const trustline = response.entries[1].trustline();
 const contractData = response.entries[2].contractData();
-```
-
-```python
-server = SorobanServer("https://soroban-testnet.stellar.org")
-
-# assume key1 is an account, key2 is a trustline, and key3 is contract data
-response = server.get_ledger_entries([key1, key2, key3])
-account = xdr.LedgerEntryData.from_xdr(response.entries[0].xdr).account
-trustline = xdr.LedgerEntryData.from_xdr(response.entries[1].xdr).trust_line
-contract_data = xdr.LedgerEntryData.from_xdr(response.entries[2].xdr).contract_data
+const contractCode = response.entries[1].contractCode();
 ```
 
 </CodeExample>
@@ -637,29 +947,3 @@ echo 'AAAAAAAAAAAL76GC5jcgEGfLG9+nptaB9m+R44oweeN3EcqhstdzhQ==' | stellar xdr de
 
 [`increment` example contract]: ../../../../../build/smart-contracts/getting-started/storing-data
 ["View XDR" page of the Stellar Lab]: https://lab.stellar.org/xdr/view?$=network$id=testnet&label=Testnet&horizonUrl=https:////horizon-testnet.stellar.org&rpcUrl=https:////soroban-testnet.stellar.org&passphrase=Test%20SDF%20Network%20/;%20September%202015;;
-
-## Using the Lab
-
-The `getLedgerEntries` method allows you to **read live ledger data directly** from the network. This includes entries such as **accounts**, **trustlines**, **offers**, **data**, **claimable balances**, **liquidity pools**, and more.
-
-It's especially useful for inspecting a contract's **current state**, **deployed code**, or any other ledger entry tied to your application. This method is often the **primary way to retrieve contract-related data** that may not surface through events or `simulateTransaction`.
-
-To retrieve a contract’s WASM byte-code, use the `ContractCode` ledger entry key.
-
-👉 [View getLedgerEntries on the Lab](https://lab.stellar.org/endpoints/rpc/get-ledger-entries?$=network$id=testnet&label=Testnet&horizonUrl=https:////horizon-testnet.stellar.org&rpcUrl=https:////soroban-testnet.stellar.org&passphrase=Test%20SDF%20Network%20/;%20September%202015;;)
-
-Using the [Stellar XDR to JSON library](https://github.com/stellar/js-stellar-xdr-json), the `getLedgerEntries` method can dynamically generate input fields based on XDR-encoded data. For example, consider the following XDR string:
-
-`AAAABgAAAAHMA/50/Q+w3Ni8UXWm/trxFBfAfl6De5kFttaMT0/ACwAAABAAAAABAAAAAgAAAA8AAAAHQ291bnRlcgAAAAASAAAAAAAAAAAg4dbAxsGAGICfBG3iT2cKGYQ6hK4sJWzZ6or1C5v6GAAAAAE=`
-
-Try it in [the Lab](https://lab.stellar.org/endpoints/rpc/get-ledger-entries?$=network$id=testnet&label=Testnet&horizonUrl=https:////horizon-testnet.stellar.org&rpcUrl=https:////soroban-testnet.stellar.org&passphrase=Test%20SDF%20Network%20/;%20September%202015;&endpoints$params$ledgerKeyEntries=%5B%22AAAABgAAAAHMA//50//Q+w3Ni8UXWm//trxFBfAfl6De5kFttaMT0//ACwAAABAAAAABAAAAAgAAAA8AAAAHQ291bnRlcgAAAAASAAAAAAAAAAAg4dbAxsGAGICfBG3iT2cKGYQ6hK4sJWzZ6or1C5v6GAAAAAE=%22%5D;;)
-
-![Lab: getledgerentries](/assets/api/rpc/getledgerentries-01.gif)
-
-Let's submit `getLedgerEntries` for the following XDR string:
-
-`AAAABgAAAAGUvl2TPOjIsxuZgSyt3Lf0d6R2iNYu4rKDuULTaMKUSgAAABAAAAABAAAAAgAAAA8AAAAHQmFsYW5jZQAAAAASAAAAAAAAAABdOuyYDwLteYrby3aOykd5c12LYrui/nhbXOgtejCSYAAAAAE=`
-
-Try it in [the Lab](https://lab.stellar.org/endpoints/rpc/get-ledger-entries?$=network$id=testnet&label=Testnet&horizonUrl=https:////horizon-testnet.stellar.org&rpcUrl=https:////soroban-testnet.stellar.org&passphrase=Test%20SDF%20Network%20/;%20September%202015;&endpoints$params$ledgerKeyEntries=%5B%22AAAABgAAAAGUvl2TPOjIsxuZgSyt3Lf0d6R2iNYu4rKDuULTaMKUSgAAABAAAAABAAAAAgAAAA8AAAAHQmFsYW5jZQAAAAASAAAAAAAAAABdOuyYDwLteYrby3aOykd5c12LYrui//nhbXOgtejCSYAAAAAE=%22%5D&xdrFormat=json;;)
-
-![Lab: getledgerentries-02](/assets/api/rpc/getledgerentries-02.gif)

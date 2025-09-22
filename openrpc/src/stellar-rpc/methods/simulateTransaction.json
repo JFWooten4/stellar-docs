@@ -85,13 +85,9 @@
                         "type": "object",
                         "properties": {
                             "type": {
-                                "type": "string",
-                                "enum": [
-                                    "created",
-                                    "updated",
-                                    "deleted"
-                                ],
-                                "description": "Indicates if the entry was created, updated, or deleted"
+                                "type": "integer",
+                                "enum": [1, 2, 3],
+                                "description": "Indicates if the entry was created (1), updated (2), or deleted (3)"
                             },
                             "key": {
                                 "type": "string",

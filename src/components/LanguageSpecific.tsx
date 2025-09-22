@@ -5,7 +5,6 @@ type LanguageProps = {
     kt?: JSX.Element;
     ts?: JSX.Element;
     flutter?: JSX.Element;
-    swift?: JSX.Element;
     fallback?: JSX.Element;
 };
 
@@ -30,8 +29,6 @@ const getToShow = (props: LanguageProps, cookie: String) => {
         toShow = props.ts || <></>;
     } else if (cookie == "dart") {
         toShow = props.flutter || <></>;
-    } else if (cookie == "swift") {
-        toShow = props.swift || <></>;
     }
 
     return toShow;

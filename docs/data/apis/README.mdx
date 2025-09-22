@@ -27,6 +27,8 @@ RPC is the recommended API for accessing and interacting with Stellar network da
 
 ## [Horizon](./horizon/README.mdx)
 
+Horizon is an API for accessing and interacting with Stellar network data, storing current, historical, and derived state in a single database but without smart contract data. It provides real-time data for transactional use, making it more resource-intensive to operate, and can be run independently or accessed through public infrastructure providers. Depending on the [Horizon Provider](./api-providers.mdx), Horizon instances may contain 1 year of data or full historical data for the Stellar network.
+
 :::warning
 
 Horizon is considered deprecated in favor of Stellar RPC. While it will continue to receive updates to maintain compatiblity with upcoming protocol releases, it won't receive significant new feature development.

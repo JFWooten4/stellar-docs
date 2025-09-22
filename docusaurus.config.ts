@@ -750,19 +750,15 @@ const config: Config = {
           title: "About",
           items: [
             {
-              label: "Podcast",
-              href: "https://stellar.org/block-by-block",
-            },
-            {
-              label: "Foundation",
+              label: "About SDF",
               href: "https://stellar.org/foundation",
             },
             {
-              label: "SDF Careers",
+              label: "Careers",
               href: "https://stellar.org/foundation/careers",
             },
             {
-              label: "Select Events",
+              label: "Events",
               href: "https://stellar.org/events",
             },
             {

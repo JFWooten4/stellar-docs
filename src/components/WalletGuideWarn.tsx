@@ -22,7 +22,6 @@ export const WalletGuideWarn: React.FC<WalletGuideWarnProps> = (props) => {
     const kt = langs.indexOf("Kotlin") != -1 ? admonition : <></>;
     const ts = langs.indexOf("TypeScript") != -1 ?  admonition: <></>;
     const flutter = langs.indexOf("Flutter") != -1 ? admonition : <></>;
-    const swift = langs.indexOf("Swift") != -1 ? admonition : <></>;
 
-    return <LanguageSpecific kt={kt} ts={ts} flutter={flutter} swift={swift} fallback={<></>}/>;
+    return <LanguageSpecific kt={kt} ts={ts} flutter={flutter} fallback={<></>}/>;
 };

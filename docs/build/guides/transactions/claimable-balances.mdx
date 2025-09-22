@@ -97,6 +97,12 @@ server = Server("https://horizon-testnet.stellar.org")
 A = Keypair.from_secret("SANRGB5VXZ52E7XDGH2BHVBFZR4S25AUQ4BR7SFXIQYT5J6W2OES2OP7")
 B = Keypair.from_public_key("GAAPSRMYNFAO3TDQTLNLKN76IQ3E6IQAKU23PSQX3BIV7RTEBXHQIWU6")
 
+
+server = Server("https://horizon-testnet.stellar.org")
+
+A = Keypair.from_secret("SANRGB5VXZ52E7XDGH2BHVBFZR4S25AUQ4BR7SFXIQYT5J6W2OES2OP7")
+B = Keypair.from_public_key("GAAPSRMYNFAO3TDQTLNLKN76IQ3E6IQAKU23PSQX3BIV7RTEBXHQIWU6")
+
 try:
   aAccount = server.load_account(A.public_key)
 except NotFoundError:
@@ -167,16 +173,38 @@ async function createClaimableBalance() {
 
   console.log(
     `Account A... public key: ${A.publicKey()}, secret: ${A.secret()}`,
+import * as StellarSdk from "@stellar/stellar-sdk";
+
+/**
+ * Creates a claimable balance on Stellar testnet
+ * A claimable balance allows splitting a payment into two parts:
+ * 1. Sender creates the claimable balance
+ * 2. Recipient(s) can claim it later
+ */
+async function createClaimableBalance() {
+  // Connect to Stellar testnet RPC server
+  const server = new StellarSdk.rpc.Server(
+    "https://soroban-testnet.stellar.org",
   );
+
+  const A = StellarSdk.Keypair.random();
+  const B = StellarSdk.Keypair.random();
+
+  console.log(
+    `Account A... public key: ${A.publicKey()}, secret: ${A.secret()}`,
+  );
+  console.log(
+    `Account B... public key: ${B.publicKey()}, secret: ${B.secret()}`,
   console.log(
     `Account B... public key: ${B.publicKey()}, secret: ${B.secret()}`,
   );
 
-  let aAccount;
-  try {
-    aAccount = await server.loadAccount(A.publicKey());
-  } catch (err) {
+  // NOTE: Proper error checks are omitted for brevity; always validate things!
+
+  let aAccount = await server.loadAccount(A.publicKey()).catch(function (err) {
     console.error(`Failed to load ${A.publicKey()}: ${err}`);
+  });
+  if (!aAccount) {
     return;
   }
 
@@ -185,17 +213,28 @@ async function createClaimableBalance() {
   let bCanClaim = StellarSdk.Claimant.predicateBeforeRelativeTime("60");
   let aCanReclaim = StellarSdk.Claimant.predicateNot(
     StellarSdk.Claimant.predicateBeforeAbsoluteTime(soon.toString()),
+  let bCanClaim = StellarSdk.Claimant.predicateBeforeRelativeTime("60");
+  let aCanReclaim = StellarSdk.Claimant.predicateNot(
+    StellarSdk.Claimant.predicateBeforeAbsoluteTime(soon.toString()),
   );
 
+  // Create the operation and submit it in a transaction.
   let claimableBalanceEntry = sdk.Operation.createClaimableBalance({
     claimants: [
       new sdk.Claimant(B.publicKey(), bCanClaim),
       new sdk.Claimant(A.publicKey(), aCanReclaim),
     ],
     asset: sdk.Asset.native(),
-    amount: "64",
+    amount: "420",
   });
 
+  // Build the transaction
+  console.log(`Building transaction...`);
+  const transaction = new StellarSdk.TransactionBuilder(aAccount, {
+    fee: StellarSdk.BASE_FEE,
+    networkPassphrase: StellarSdk.Networks.TESTNET,
+  })
+    .addOperation(claimableBalanceOp)
   // Build the transaction
   console.log(`Building transaction...`);
   const transaction = new StellarSdk.TransactionBuilder(aAccount, {
@@ -207,76 +246,14 @@ async function createClaimableBalance() {
     .build();
 
   tx.sign(A);
-
-  try {
-    let txResponse = await server.submitTransaction(tx);
-    console.log("Claimable balance created!");
-  } catch (err) {
-    console.error(`Tx submission failed: ${err}`);
-  }
-}
-
-main();
-```
-
-```java
-import org.stellar.sdk.*;
-import org.stellar.sdk.requests.RequestBuilder;
-import org.stellar.sdk.responses.AccountResponse;
-import org.stellar.sdk.responses.SubmitTransactionResponse;
-
-import java.util.ArrayList;
-import java.util.List;
-
-public class StellarClaimableBalance {
-  public static void main(String[] args) {
-    Network.useTestNetwork();
-    Server server = new Server("https://horizon-testnet.stellar.org");
-
-    KeyPair aKeypair = KeyPair.fromSecretSeed(
-      "SCZANGBA5YHTNYVVV4C3U252E2B6P6F5T3U6MM63WBSBZATAQI3EBTQ4"
-    );
-    String bPublicKey = "GA2C5RFPE6GCKMY3US5PAB6UZLKIGSPIUKSLRB6Q723BM2OARMDUYEJ5";
-
-    AccountResponse aAccount;
-    try {
-      aAccount = server.accounts().account(aKeypair.getAccountId());
-    } catch (Exception e) {
-      throw new RuntimeException("Failed to load account");
-    }
-
-    // Create a claimable balance with our two above-described conditions.
-    long soon = System.currentTimeMillis() / 1000L + 60;
-    ClaimPredicate bCanClaim = ClaimPredicate.BeforeRelativeTime(60L);
-    ClaimPredicate aCanReclaim = ClaimPredicate.Not(
-      ClaimPredicate.BeforeAbsoluteTime(soon)
-    );
-
-    List<Claimant> claimants = new ArrayList<>();
-    claimants.add(new Claimant(bPublicKey, bCanClaim));
-    claimants.add(new Claimant(aKeypair.getAccountId(), aCanReclaim));
-
-    CreateClaimableBalanceOperation entryCB = new CreateClaimableBalanceOperation.Builder(
-      AssetTypeNative.INSTANCE, "64", claimants
-    ).build();
-
-    // Build, sign, and submit the transaction
-    Transaction transaction = new Transaction.Builder(aAccount, Network.TESTNET)
-      .addOperation(entryCB)
-      .setBaseFee(Transaction.MIN_BASE_FEE)
-      .setTimeout(180)
-      .build();
-
-    transaction.sign(aKeypair);
-
-    try {
-      SubmitTransactionResponse response = server.submitTransaction(transaction);
-      System.out.println(response);
-      System.out.println("Claimable balance created!");
-    } catch (Exception e) {
-      throw new RuntimeException("Failed to submit transaction");
-    }
-  }
+  let txResponse = await server
+    .submitTransaction(tx)
+    .then(function () {
+      console.log("Claimable balance created!");
+    })
+    .catch(function (err) {
+      console.error(`Tx submission failed: ${err}`);
+    });
 }
 ```
 
@@ -284,50 +261,47 @@ public class StellarClaimableBalance {
 package main
 
 import (
-  "fmt"
-  "time"
+    "fmt"
+    "time"
 
-  sdk "github.com/stellar/go/clients/horizonclient"
-  "github.com/stellar/go/keypair"
-  "github.com/stellar/go/network"
-  "github.com/stellar/go/txnbuild"
+    sdk "github.com/stellar/go/clients/horizonclient"
+    "github.com/stellar/go/keypair"
+    "github.com/stellar/go/network"
+    "github.com/stellar/go/txnbuild"
 )
 
 func main() {
-  client := sdk.DefaultTestNetClient
+    client := sdk.DefaultTestNetClient
 
-  aKeys := keypair.MustParseFull(
-    "SCZANGBA5YHTNYVVV4C3U252E2B6P6F5T3U6MM63WBSBZATAQI3EBTQ4"
-  )
-  B := "GA2C5RFPE6GCKMY3US5PAB6UZLKIGSPIUKSLRB6Q723BM2OARMDUYEJ5"
+    // Suppose that these accounts exist and are funded accordingly:
+    A := "SCZANGBA5YHTNYVVV4C3U252E2B6P6F5T3U6MM63WBSBZATAQI3EBTQ4"
+    B := "GA2C5RFPE6GCKMY3US5PAB6UZLKIGSPIUKSLRB6Q723BM2OARMDUYEJ5"
 
-  aAccount, err := client.AccountDetail(
-    sdk.AccountRequest{
-      AccountID: aKeys.Address(),
-    }
-  )
-  if err != nil {
-    panic("Failed to load account A")
-  }
+    // Load the corresponding account for A.
+    aKeys := keypair.MustParseFull(A)
+    aAccount, err := client.AccountDetail(sdk.AccountRequest{
+        AccountID: aKeys.Address(),
+    })
+    check(err)
 
-  // Create a claimable balance with our two above-described conditions.
-  soon := time.Now().Add(time.Second * 60)
-  bCanClaim := txnbuild.BeforeRelativeTimePredicate(60)
-  aCanReclaim := txnbuild.NotPredicate(
-    txnbuild.BeforeAbsoluteTimePredicate(
-      soon.Unix()
+    // Create a claimable balance with our two above-described conditions.
+    soon := time.Now().Add(time.Second * 60)
+    bCanClaim := txnbuild.BeforeRelativeTimePredicate(60)
+    aCanReclaim := txnbuild.NotPredicate(
+        txnbuild.BeforeAbsoluteTimePredicate(soon.Unix()),
     )
-  )
-  claimants := []txnbuild.Claimant{
-    txnbuild.NewClaimant(B, bCanClaim),
-    txnbuild.NewClaimant(aKeys.Address(), aCanReclaim),
-  }
 
-  claimableBalanceEntry := txnbuild.CreateClaimableBalance{
-    Destinations: claimants,
-    Asset:        txnbuild.NativeAsset{},
-    Amount:       "64",
-  }
+    claimants := []txnbuild.Claimant{
+        txnbuild.NewClaimant(B, &bCanClaim),
+        txnbuild.NewClaimant(aKeys.Address(), &aCanReclaim),
+    }
+
+    // Create the operation and submit it in a transaction.
+    claimableBalanceEntry := txnbuild.CreateClaimableBalance{
+        Destinations: claimants,
+        Asset:        txnbuild.NativeAsset{},
+        Amount:       "420",
+    }
 
   tx, err := txnbuild.NewTransaction(
     txnbuild.TransactionParams{
@@ -357,9 +331,9 @@ func main() {
 
 ### Retrieval
 
-At this point, the `ClaimableBalanceEntry` exists in the ledger, but we’ll need its client balance ID to claim it, which can be done in several ways:
+At this point, the `ClaimableBalanceEntry` exists in the ledger, but we’ll need its Balance ID to claim it, which can be done in several ways:
 
-1. The submitter of the entry ($\mathcal{A}$) can retrieve the client balance ID before submitting the transaction;
+1. The submitter of the entry (Account A in this case) can retrieve the Balance ID before submitting the transaction;
 2. The submitter parses the XDR of the transaction result’s operations; or
 3. Someone queries the list of claimable balances.
 
@@ -484,8 +458,7 @@ try {
 ```go
 // Method 1: Suppose `tx` comes from the transaction built above.
 //           Notice that this can be done *before* submission.
-//           Use zero for `CreateClaimableBalance` first op.
-clientBalanceID, err := tx.ClaimableBalanceID(0)
+balanceId, err := tx.ClaimableBalanceID(0)
 check(err)
 fmt.Println("Balance ID (1):", clientBalanceID)
 
@@ -495,12 +468,12 @@ err = xdr.SafeUnmarshalBase64(txResp.ResultXdr, &txResult)
 check(err)
 
 if results, ok := txResult.OperationResults(); ok {
-  // We look at the first result since our first (and only) operation in the
-  // transaction was the CreateClaimableBalanceOp.
-  operationResult := results[0].MustTr().CreateClaimableBalanceResult
-  clientBalanceID, err := xdr.MarshalHex(operationResult.BalanceId)
-  check(err)
-  fmt.Println("Balance ID (2):", clientBalanceID)
+    // We look at the first result since our first (and only) operation in the
+    // transaction was the CreateClaimableBalanceOp.
+    operationResult := results[0].MustTr().CreateClaimableBalanceResult
+    balanceId, err := xdr.MarshalHex(operationResult.BalanceId)
+    check(err)
+    fmt.Println("Balance ID:", balanceId)
 }
 
 // Method 3: Account B could alternatively do something like:
@@ -543,12 +516,13 @@ except (BadRequestError, BadResponseError) as err:
 ```
 
 ```js
+let claimBalance = sdk.Operation.claimClaimableBalance({
+  balanceId: balanceId,
+});
+console.log(A.publicKey(), "claiming", balanceId);
+
 let tx = new sdk.TransactionBuilder(aAccount, { fee: sdk.BASE_FEE })
-  .addOperation(
-    sdk.Operation.claimClaimableBalance({
-      balanceId: clientBalanceID,
-    });
-  )
+  .addOperation(claimBalance)
   .setNetworkPassphrase(sdk.Networks.TESTNET)
   .setTimeout(180)
   .build();
@@ -557,38 +531,17 @@ tx.sign(A);
 await server.submitTransaction(tx).catch(function (err) {
   console.error(`Tx submission failed: ${err}`);
 });
-console.log(A.publicKey(), "claimed", clientBalanceID);
-```
-
-```java
-Transaction tx = new Transaction.Builder(aAccount, Network.TESTNET)
-    .addOperation(
-      new ClaimClaimableBalanceOperation.Builder(clientBalanceID).build();
-    )
-    .setBaseFee(tx.MIN_BASE_FEE)
-    .setTimeout(180)
-    .build();
-
-tx.sign(A);
-
-try {
-    SubmitTransactionResponse response = server.submitTransaction(tx);
-    System.out.println(A.getAccountId() + " claimed " + clientBalanceID);
-} catch (Exception e) {
-    System.err.println("Tx submission failed: " + e.getMessage());
-}
 ```
 
 ```go
+claimBalance := txnbuild.ClaimClaimableBalance{BalanceID: balanceId}
 tx, err = txnbuild.NewTransaction(
     txnbuild.TransactionParams{
-        SourceAccount:        &aAccount, // or Account B, depending on the condition!
+        SourceAccount:        aAccount.AccountID, // or Account B, depending on the condition!
         IncrementSequenceNum: true,
         BaseFee:              txnbuild.MinBaseFee,
         Timebounds:           txnbuild.NewInfiniteTimeout(),
-        Operations:           []txnbuild.Operation{
-          &txnbuild.ClaimClaimableBalance{BalanceID: clientBalanceID}
-        },
+        Operations:           []txnbuild.Operation{&claimBalance},
     },
 )
 check(err)
