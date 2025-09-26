@@ -27,7 +27,6 @@ You can deploy any kind of smart contract, including a liquidity pool ([example]
 
 :::
 
-interoperability
 
 KO'd:
 
@@ -48,6 +47,19 @@ Markets form on the basis of a [limit order book](https://wikipedia.org/wiki/Ord
 A priced order only expires when you remove it from the ledger, offering supporting liquidity in down markets or rational selling in exuberant ones. More offers between pairs add volume to the market depth, promoting stable conversion rates. You can rely on stable trades because offers are funded from wallet assets on a debit-basis; creating common, distributed, peer-to-peer trading interests.
 
 The ledger's innovation lies in _where_ these offers get stored, matched, and disclosed. To submit directly to network nodes, you can use the [Manage Buy Offer object](../../data/apis/horizon/api-reference/resources/operations/object/buy-offer.mdx) operation, specifying how much $\mathcal{A}$ you want to purchase with $\mathcal{A}$ at $\mathcal{z}$ price. The protocol calculates the cost of the trade in terms of `amount * price` and locks up the `selling` asset you offer in exchange as collateral, until the trade is (partially) executed or cancelled.
+
+<CodeExample>
+
+```psudocode
+BuyTradeOffer(
+  selling = APPLES,
+  buying = BANANAS,
+  amount = "100",
+  price = "4" // 🍎 per 🍌
+)
+```
+
+</CodeExample>
 
 Alternatively, you can specify exactly how much of an asset you want to sell at a specific price using the [Manage Sell Offer object](../../data/apis/horizon/api-reference/resources/operations/object/sell-offer.mdx) operation. Anyone viewing this public Horizon interface to the ledger will see your orders as validators first based on price. For orders placed at the same price, the order that was received earlier is given priority and is executed before the newer one.
 
@@ -82,6 +94,9 @@ When creating a buy order via the Manage Buy Offer operation, the price is speci
 When creating a sell order via the Manage Sell Offer operation, the price is specified as 1 unit of base currency (the asset being sold), in terms of the quote asset (the asset that is being bought). For example, if you’re selling 100 XLM in exchange for 40 USD, you would specify the price as `{40, 100}`, which would be the equivalent of 2.5 XLM for 1 USD (or \$.40 per XLM).
 
 ### Market Data
+
+
+_interoperability points here_
 
 > The SDEX facilitates seamless interoperability between different assets by combining orders in a unified order book. This design ensures that liquidity is concentrated, reducing spreads and improving execution for all participants.
 
