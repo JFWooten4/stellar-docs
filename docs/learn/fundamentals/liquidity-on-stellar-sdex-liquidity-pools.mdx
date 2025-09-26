@@ -27,6 +27,7 @@ You can deploy any kind of smart contract, including a liquidity pool ([example]
 
 :::
 
+integrated? concentrated? universal?
 
 KO'd:
 
@@ -50,19 +51,37 @@ The spread is the differnece between the most someone will poay for something an
 
 This barter bck and forth happens billions of times a day in the [limit order books](https://wikipedia.org/wiki/Order_book) of financial networks . They form the backbone of curreny, securities, and (yes) fruit markets . By acting together in an unknowing unison , the masses of individiuals bidding and offering their fair rates create the going "price."
 
-### 
+### New Orders
 
-This price is more than a number   , which might present a gain or loss from your ost. It's a tool for social orgnaizaiton that lets socierty organize efforts autonomously. 
-
-where individuals decide how much they will bid to purchase or ask to sell an asset. 
+This price is more than a number   , which might present a gain or loss from your ost. It's a tool for social orgnaizaiton that lets socierty organize efforts autonomously. And you can infuence it (maybe even a lot1) with your own trades of value into network assets.
 
 
 
-By keeping these orders concentrated on the SDEX's public [Horizon endpoints](../../data/apis/horizon/api-reference/resources/README.mdx), everyone can see the going market exchange rate. 
+introuce buy offer example 
 
 
 
-This transparent universal marketplace has the added benefit of obviating price oracles, proprietary contracts, or off-chain systems.
+sell offer exmaple 
+
+
+
+thgen i wan tthe example (full) of doing price lookups 
+
+
+obviating price oracles, proprietary contracts, or off-chain systems.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 A priced order only expires when you remove it from the ledger, offering supporting liquidity in down markets or rational selling in exuberant ones. More offers between pairs add volume to the market depth, promoting stable conversion rates. You can rely on stable trades because offers are funded from wallet assets on a debit-basis; creating common, distributed, peer-to-peer trading interests.
 
@@ -97,7 +116,7 @@ A couple of notes on order books on Stellar:
 
 To view an order book chart, see the [Order Book Wikipedia Page](https://en.wikipedia.org/wiki/Order_book). In addition, there are also plenty of video tutorials and articles out there that can help you understand how order books work in greater detail.
 
-### Order Execution
+#### Order Execution
 
 An account can create orders to buy or sell assets using the ManageBuyOffer`, `Manage Sell Offer`, or [`Create Passive Sell Offer`](./transactions/list-of-operations.mdx#create-passive-sell-offer) operations. The account must hold the asset it wants to exchange, and it must trust the issuer of the asset it is trying to buy.
 
@@ -338,9 +357,9 @@ func main() {
 
 </CodeExample>
 
-The more orders available to transact against, the more currency you can convert at any time without moving the market. Stellar stores these open orders as `offer` [objects](../../data/apis/horizon/api-reference/resources/offers/object.mdx) directly on chain. This transparency allows anyone to analyze the order book and understand the trading activity for any asset pair.
+The more orders available to transact against, the more currency you can convert at any time without moving the market. Stellar stores these open orders as `offer` objects directly on chain. This transparency allows anyone to analyze the order book and understand the trading activity for any asset pair.
 
-~~The network and by extension its [validators](https://stellarbeat.io) match orders based on the protocol rules of [Stellar Core](https://github.com/stellar/stellar-core/blob/fbb53d8ad42dcc12a046c9be949d654821a24d38/src/transactions/OfferExchange.cpp#L227-L550).~~
+~~The network and by extension its validators match orders based on the protocol rules of [Stellar Core](https://github.com/stellar/stellar-core/blob/fbb53d8ad42dcc12a046c9be949d654821a24d38/src/transactions/OfferExchange.cpp#L227-L550).~~
 
 > ?
 >
@@ -430,11 +449,15 @@ func getMidpointPrice(orderbook horizon.OrderBookSummary) (*float64, error) {
 
 :::note
 
-We have now found the price of `AstroDollar` as the response item's `base` asset. We can invert `price_r` from the [Horizon response](../../data/apis/horizon/api-reference/retrieve-an-order-book.api.mdx) to find the `counter` (`AstroPeso`) exchange rate. You can also [stream](../../data/apis/horizon/api-reference/structure/streaming) server updates to keep a view of the orderbook maerket up to date.
+We have now found the price of `AstroDollar` as the response item's `base` asset. We can invert `price_r` from the [_Horizon response_](../../data/apis/horizon/api-reference/retrieve-an-order-book.api.mdx) to find the `counter` (`AstroPeso`) exchange rate. You can also [_stream_](../../data/apis/horizon/api-reference/structure/streaming) server updates to keep a view of the orderbook maerket up to date.
+
+hmm i dont like this todo 
+
+i probbably ndont even need this wnetiole entire note 
 
 :::
 
-### Recent Trades
+### View Trades
 
 A more complete understanding of market liquitiy might incldue volume analysis. To affirm the fairness of this example price, we can also check up to 25 recent trade rates:
 
