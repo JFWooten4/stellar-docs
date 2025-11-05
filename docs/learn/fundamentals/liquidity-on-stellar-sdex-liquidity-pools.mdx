@@ -41,14 +41,20 @@ NO'd:
 - transparency
 - inclusion
 
+NO steps:
+
+* Introduce buy offer example
+* Introduce sell offer example
+* Include full example of doing price lookups
+* Emphasize obviating price oracles, proprietary contracts, or off-chain systems
+
+
 ## The Price-Time Orderbook {#orderbook}
 
-> whole thing here  down to  3  and we're  good 
 
+Markets are an intangible concept born when people want to exchange different goods. If one resource is scarce, it should take more of other assets to voluntarily trade it away. We record these  excanmge rates  through an An orderbook of outstanding orders to trade  two assets
 
-Markets are an intangible concept born when people want to exchange different goods. If one resource is scarce, it should take more of other assets to voluntarily trade it away. _We prefer_ an accessible, transparent, and efficient market with minimal transaction costs.
-
-Transaction costs can be thought of through legacy financial gatekeepers who control trade. The exchanges with high listing fees, brokers with strict customer requirements, or even the technical suite of APIs that let _some see a special spread_. Stellar has none of these.
+THe last agreement of prices becomes the c urrent valuer if using an accessible, transparent, and efficient market with minimal transaction costs. Trade breaks down from puire;y free marlkets trough legacy financial gatekeepers like The exchanges with high listing fees, brokers with strict customer requirements, or even the sotrage costs of physcial commodity deliveries. Stellar has none of these.
 
 The spread is the difference between the most someone will pay for something and the least someone will sell it for. Consider that I have apples and you have bananas. If I offer to give you one banana for five apples, you could counter with three apples each.
 
@@ -62,24 +68,13 @@ This barter back and forth happens billions of times a day in the [limit order b
 This price is more than a number, which might present a gain or loss from your cost. It's a tool for social organization that lets society organize efforts autonomously. And you can influence it (maybe even a lot!) with your own trades of value into network assets.
 
 
-introuce buy offer example 
-
-
-
-sell offer exmaple 
-
-
-
-thgen i wan tthe example (full) of doing price lookups 
-
-
-obviating price oracles, proprietary contracts, or off-chain systems.
 
 
 
 
 
 
+An orderbook is a record of outstanding orders on a network, and each record sits between two assets. The order book for this asset pair records every account wanting to sell wheat for sheep and every account wanting to sell sheep for wheat.
 
 
 
@@ -108,7 +103,6 @@ BuyTradeOffer(
 Alternatively, you can specify exactly how much of an asset you want to sell at a specific price using the [`Manage Sell Offer`](./transactions/list-of-operations.mdx#manage-sell-offer) operation. Anyone viewing this public Horizon interface to the ledger will see your orders as validators match first based on price. For orders placed at the same price, the order that was received earlier is given priority and is executed before the newer one.
 
 
-An order book is a record of outstanding orders on a network, and each record sits between two assets (wheat and sheep, for example). The order book for this asset pair records every account wanting to sell wheat for sheep and every account wanting to sell sheep for wheat. In traditional finance, buying is expressed as a “bid” order, and selling is expressed as an “ask” order (ask orders are also called offers).
 
 A couple of notes on order books on Stellar:
 
@@ -122,7 +116,7 @@ A couple of notes on order books on Stellar:
 
 #### Order Execution
 
-An account can create orders to buy or sell assets using the ManageBuyOffer`, `Manage Sell Offer`, or [`Create Passive Sell Offer`](./transactions/list-of-operations.mdx#create-passive-sell-offer) operations. The account must hold the asset it wants to exchange, and it must trust the issuer of the asset it is trying to buy.
+An account can create orders to buy or sell assets using the `ManageBuyOffer`, `Manage Sell Offer`, or [`Create Passive Sell Offer`](./transactions/list-of-operations.mdx#create-passive-sell-offer) operations. The account must hold the asset it wants to exchange, and it must trust the issuer of the asset it is trying to buy.
 
 Orders behave like limit orders in traditional markets. When an account initiates an order, it is checked against the existing order book for that asset pair. If the submitted order is a marketable order (for a marketable buy limit order, the limit price is at or above the ask price; for a marketable sell limit order, the limit price is at or below the bid price), it is filled at the existing order price for the available quantity at that price. If the order is not marketable (i.e., does not cross an existing order), the order is saved on the order book until it is either consumed by another order, consumed by a path payment, or canceled by the account that created the order.
 
