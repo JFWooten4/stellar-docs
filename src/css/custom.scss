@@ -236,3 +236,15 @@ select[data-testid="example-pairing-select"] {
   line-height: 1;
   display: inline-block;
 }
+
+/* Allow DocCard descriptions to wrap instead of clamping */
+.card.padding--lg .text--truncate[class*="cardDescription"] {
+  display: block !important;
+  white-space: normal !important;
+  overflow: visible;
+  text-overflow: initial;
+  -webkit-line-clamp: unset;
+  line-clamp: 10;
+  max-height: none;
+}
+

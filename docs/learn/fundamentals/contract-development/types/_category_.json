@@ -1,0 +1,12 @@
+{
+  "label": "Types",
+  "position": 9,
+  "link": {
+    "type": "doc",
+    "id": "learn/fundamentals/contract-development/types/README"
+  },
+  "description": "Get quick guides to Soroban value types, composite structures, and serialization tips for contract interfaces.",
+  "customProps": {
+    "description": "Get quick guides to Soroban value types, composite structures, and serialization tips for contract interfaces."
+  }
+}

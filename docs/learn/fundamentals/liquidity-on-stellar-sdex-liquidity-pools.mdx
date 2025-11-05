@@ -57,10 +57,8 @@ Markets are an intangible concept born when people want to exchange different go
 THe last agreement of prices becomes the c urrent valuer if using an accessible, transparent, and efficient market with minimal transaction costs. Trade breaks down from puire;y free marlkets trough legacy financial gatekeepers like The exchanges with high listing fees, brokers with strict customer requirements, or even the sotrage costs of physcial commodity deliveries. Stellar has none of these.
 
 
-This barter back and forth happens billions of times a day in the limit order books of financial networks, and you can see an exmaple  of it visualized in the [Wikipedia page](https://wikipedia.org/wiki/Order_book). They form the backbone of currency, securities, and (yes) fruit markets. By acting together in an unknowing unison, the masses of individuals bidding and offering their fair rates create the going "price."
+This barter back and forth happens billions of times a day in the limit order books of financial networks, and you can see an exmaple  of it visualized in the [Wikipedia page](https://wikipedia.org/wiki/Order_book). They form the backbone of currency, securities, and (yes) fruit markets. By acting together in an unknowing unison, the masses of individuals bidding and offering their fair rates create the going price.
 
-
-> endf change mod 
 
 ### New Orders
 
@@ -70,10 +68,6 @@ This price is more than a number, which might present a gain or loss from your c
 
 The spread is the difference between the most someone will pay for something and the least someone will sell it for. Consider that I have apples and you have bananas. If I offer to give you one banana for five apples, you could counter with three apples each.
 
-
-
-
-The order book for this asset pair records every account wanting to sell wheat for sheep and every account wanting to sell sheep for wheat.
 
 
 
@@ -101,13 +95,18 @@ BuyTradeOffer(
 
 Alternatively, you can specify exactly how much of an asset you want to sell at a specific price using the [`Manage Sell Offer`](./transactions/list-of-operations.mdx#manage-sell-offer) operation. Anyone viewing this public Horizon interface to the ledger will see your orders as validators match first based on price. For orders placed at the same price, the order that was received earlier is given priority and is executed before the newer one.
 
+The orderbook for this asset pair records every account wanting to sell Pples for bananas and every account wanting to sell bannasa  forapples.  UIt uses a  specific [ledger record](./stellar-data-structures/ledgers/entries.mdx#offer) to record   [offer objjkects](../../data/apis/horizon/api-reference/resources/offers/object.mdx) with associated metadata like trade amount, precise price, and offer  ID.
+Develoeprs are persently hard at work migrating this  infrtreraface to communtiy RPC nodes, which aare efficiently resource-aware; and archiving searche rs  can use the [Hubble interface](../../data/analytics/hubble/analyst-guide/queries-for-horizon-like-data.mdx#offers) queries.
 
 
-A couple of notes on order books on Stellar:
+
+:::note Stellar notes
 
 - The term “offers” usually refers specifically to selling through "ask" orders. However, in the protocol all orders are stored as selling—i.e., the system automatically converts buying "bid" orders to asks. Because of this, the terms “offer” and “order” are used interchangeably in the Stellar ecosystem.[^buys]
 - Order books contain all orders that are acceptable to parties on either side to make a trade.
 - Some assets will have a small or nonexistent order book between them. In these cases, Stellar facilitates path payments, which we’ll discuss later.
+
+:::
 
 [^buys]: When you create a buy offer using the [`createBuyOffer`](../../data/apis/horizon/api-reference/resources/operations/object/buy-offer.mdx) operation, it is internally converted and stored as a sell offer.
 

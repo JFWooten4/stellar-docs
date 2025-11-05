@@ -43,9 +43,10 @@ export const ListItem = (props) => {
         <Details summary={
           <summary>
             <Translate
-              id="components.AttributeTable.ListItem.ShowChildAttributes"
-              description="For hand-written API schema pages, a message to tell readers they can expand a section to see more sub-items">
-              Show child attributes
+              id="components.AttributeTable.ListItem.ShowChildAttributesFor"
+              description="For hand-written API schema pages, a message to tell readers they can expand a section to see more sub-items for the given attribute"
+              values={{ attributeName: <code>{name}</code> }}>
+              {"View {attributeName} attributes"}
             </Translate>
           </summary>
         }>
