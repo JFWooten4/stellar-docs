@@ -237,7 +237,7 @@ public class SendPaymentJavaExample {
 
     // do this in a loop, send payment once every 30 seconds
     while (true) {
-      // Build classic payment: 10 XLM, memo id, 180s timeout
+      // Build classic payment: 10 XLM, memo_id, 180s timeout
       Transaction tx = new TransactionBuilder(source, Network.TESTNET)
           .setBaseFee(Transaction.MIN_BASE_FEE)
           .addOperation(PaymentOperation.builder().destination(recipient.getAccountId()).asset(new AssetTypeNative())

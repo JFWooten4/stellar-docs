@@ -13,7 +13,7 @@ Resource limitations and fees only apply to smart contract transactions. Read mo
 
 
 
-### Per-transaction limits
+### Per-Transaction Limits
 
 These define the maximum amount of work a single Smart contract transaction can do.
 
@@ -31,17 +31,8 @@ These define the maximum amount of work a single Smart contract transaction can 
 
 [^disk-reads]: Most transactions don't perform any disk reads, as only archived entries and 'classic' entries (`G`-accounts, trustlines) are considered to be disk reads. Live smart contract state is in-memory and is not counted towards this limit.
 
-### TTL extension parameters
 
-These define TTL extension parameters.
-
-| Network Setting                  | Value    |
-| -------------------------------- | -------- |
-| Persistent entry TTL on creation | 120 days |
-| Temporary entry TTL on creation  | 1 day    |
-| Max ledger entry TTL extension   | 6 months |
-
-### Ledger-wide limits
+### Ledger-Wide Limits
 
 These define the maximum amount of work done by all the transactions in a single ledger (single block).
 
@@ -54,6 +45,16 @@ These define the maximum amount of work done by all the transactions in a single
 | Disk writes                         | 500 entries/143 KB |
 | Transactions size                   | 133 KB             |
 | Events+return value size bytes      | no explicit limit  |
+
+### TTL Extension Parameters
+
+These define contract data lifespans, also established through validator consensus.
+
+| Network Setting                  | Value    |
+| -------------------------------- | -------- |
+| Persistent entry TTL on creation | 120 days |
+| Temporary entry TTL on creation  | 1 day    |
+| Max ledger entry TTL extension   | 6 months |
 
 ## Resource Fees
 
