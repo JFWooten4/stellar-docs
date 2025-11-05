@@ -61,13 +61,13 @@ Anyone can deploy the instances of Stellar Asset Contract. Note, that the initia
 [stellar cli]: ../tools/cli/stellar-cli.mdx
 [stellar sdk]: ../tools/sdks/README.mdx
 
-## Interacting with classic Stellar assets
+## Interacting with native Stellar assets
 
 The Stellar Asset Contract is the only way for contracts to interact with Stellar assets, either the native XLM asset, or those issued by Stellar accounts.
 
 The issuer of the asset will be the administrator of the deployed contract. Because the Native Stellar token doesn't have an issuer, it will not have an administrator either. It also cannot be burned.
 
-After the contract has been deployed, users can use their classic account (for lumens) or trustline (for other assets) balance. There are some differences depending on if you are using a classic account `Address` vs a contract `Address` (corresponding either to a regular contract or to a custom account contract). The following section references some issuer and trustline flags from Stellar classic, which you can learn more about [here](./control-asset-access.mdx#controlling-access-to-an-asset-with-flags).
+After the contract has been deployed, users can use their classic account (for lumens) or trustline (for other assets) balance. There are some differences depending on if you are using a classic account `Address` vs a contract `Address` (corresponding either to a regular contract or to a custom account contract). The following section references some issuer and trustline flags from native Stellar, which you can learn more about [here](./control-asset-access.mdx#controlling-access-to-an-asset-with-flags).
 
 - Using `Address::Account`
   - The balance must exist in a trustline (or an account for the native balance). This means the contract will not store the balance in ContractData. If the trustline or account is missing, any function that tries to interact with that balance will fail.
@@ -83,7 +83,7 @@ After the contract has been deployed, users can use their classic account (for l
 
 ### Balance Authorization Required
 
-In the `Address::Contract` case, if the issuer has `AUTH_REQUIRED_FLAG` set, then the specified `Address::Contract` will need to be explicitly authorized with `set_auth` before it can receive a balance. This logic lines up with how trustlines interact with the `AUTH_REQUIRED_FLAG` issuer flag, allowing asset issuers to have the same control in Soroban as they do in Stellar classic. Read more about `AUTH_REQUIRED_FLAG` [here](./control-asset-access.mdx#authorization-required-0x1).
+In the `Address::Contract` case, if the issuer has `AUTH_REQUIRED_FLAG` set, then the specified `Address::Contract` will need to be explicitly authorized with `set_auth` before it can receive a balance. This logic lines up with how trustlines interact with the `AUTH_REQUIRED_FLAG` issuer flag, allowing asset issuers to have the same control in Soroban as they do in native Stellar. Read more about `AUTH_REQUIRED_FLAG` [here](./control-asset-access.mdx#authorization-required-0x1).
 
 ### Revoking Authorization
 
