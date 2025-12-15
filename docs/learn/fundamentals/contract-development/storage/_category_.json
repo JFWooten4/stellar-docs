@@ -1,0 +1,12 @@
+{
+  "label": "Storage",
+  "position": 10,
+  "link": {
+    "type": "doc",
+    "id": "learn/fundamentals/contract-development/storage/README"
+  },
+  "description": "Master Soroban storage costs, budgets, and patterns for persisting contract state without surprises.",
+  "customProps": {
+    "description": "Master Soroban storage costs, budgets, and patterns for persisting contract state without surprises."
+  }
+}

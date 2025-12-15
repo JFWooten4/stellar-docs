@@ -23,11 +23,11 @@ The SDEX works for all [assets](./stellar-data-structures/assets.mdx) on the net
 
 :::note
 
-You can deploy any kind of smart contract, including a liquidity pool ([example](../../build/smart-contracts/example-contracts/liquidity-pool.mdx)). However, these isolated silos can fragment the core network's layer-1 [pathfinding](../glossary.mdx#pathfinding). This page focuses on integrated infrastructure that optimizes prermissionless, equitible, and free markets.
+You can deploy any kind of smart contract, including a liquidity pool ([example](../../build/smart-contracts/example-contracts/liquidity-pool.mdx)). However, these isolated silos can fragment the core network's layer-1 [pathfinding](../glossary.mdx#pathfinding). This page focuses on infrastructure that optimizes prermissionless, equitible, and free markets.
 
 :::
 
-interoperability
+integrated? concentrated? universal?
 
 KO'd:
 
@@ -41,33 +41,80 @@ NO'd:
 - transparency
 - inclusion
 
+NO steps:
+
+* Introduce buy offer example
+* Introduce sell offer example
+* Include full example of doing price lookups
+* Emphasize obviating price oracles, proprietary contracts, or off-chain systems
+
+
 ## The Price-Time Orderbook {#orderbook}
 
-Markets form on the basis of a [limit order book](https://wikipedia.org/wiki/Order_book) where individuals decide how much they will bid to purchase or ask to sell an asset. By keeping these orders concentrated on the SDEX's public [Horizon endpoints](../../data/apis/horizon/api-reference/resources/README.mdx), everyone can see the going market exchange rate. This transparent universal marketplace has the added benefit of obviating price oracles, proprietary contracts, or off-chain systems.
 
-A priced order only expires when you remove it from the ledger, offering supporting liquidity in down markets or rational selling in exuberant ones. More offers between pairs add volume to the market depth, promoting stable conversion rates. You can rely on stable trades because offers are funded from wallet assets on a debit-basis; creating common, distributed, peer-to-peer trading interests.
+Markets are an intangible concept born when people want to exchange different goods. If one resource is scarce, it should take more of other assets to voluntarily trade it away. We record these  excanmge rates  through an An orderbook of outstanding orders to trade  two assets
 
-The ledger's innovation lies in _where_ these offers get stored, matched, and disclosed. To submit directly to network nodes, you can use the [Manage Buy Offer object](../../data/apis/horizon/api-reference/resources/operations/object/buy-offer.mdx) operation, specifying how much $\mathcal{A}$ you want to purchase with $\mathcal{A}$ at $\mathcal{z}$ price. The protocol calculates the cost of the trade in terms of `amount * price` and locks up the `selling` asset you offer in exchange as collateral, until the trade is (partially) executed or cancelled.
+THe last agreement of prices becomes the c urrent valuer if using an accessible, transparent, and efficient market with minimal transaction costs. Trade breaks down from puire;y free marlkets trough legacy financial gatekeepers like The exchanges with high listing fees, brokers with strict customer requirements, or even the sotrage costs of physcial commodity deliveries. Stellar has none of these.
 
-Alternatively, you can specify exactly how much of an asset you want to sell at a specific price using the [Manage Sell Offer object](../../data/apis/horizon/api-reference/resources/operations/object/sell-offer.mdx) operation. Anyone viewing this public Horizon interface to the ledger will see your orders as validators first based on price. For orders placed at the same price, the order that was received earlier is given priority and is executed before the newer one.
 
-#### "Order bookski"
+This barter back and forth happens billions of times a day in the limit order books of financial networks, and you can see an exmaple  of it visualized in the [Wikipedia page](https://wikipedia.org/wiki/Order_book). They form the backbone of currency, securities, and (yes) fruit markets. By acting together in an unknowing unison, the masses of individuals bidding and offering their fair rates create the going price.
 
-An order book is a record of outstanding orders on a network, and each record sits between two assets (wheat and sheep, for example). The order book for this asset pair records every account wanting to sell wheat for sheep and every account wanting to sell sheep for wheat. In traditional finance, buying is expressed as a “bid” order, and selling is expressed as an “ask” order (ask orders are also called offers).
 
-A couple of notes on order books on Stellar:
+### New Orders
 
-- The term “offers” usually refers specifically to ask orders. However, in the protocol all orders are stored as selling—i.e., the system automatically converts bids to asks. Because of this, the terms “offer” and “order” are used interchangeably in the Stellar ecosystem.[^buys]
+This price is more than a number, which might present a gain or loss from your cost. It's a tool for social organization that lets society organize efforts autonomously. And you can influence it (maybe even a lot!) with your own trades of value into network assets.
+
+
+
+The spread is the difference between the most someone will pay for something and the least someone will sell it for. Consider that I have apples and you have bananas. If I offer to give you one banana for five apples, you could counter with three apples each.
+
+
+
+
+
+
+
+
+
+A priced order only expires when you remove it from the ledger, offering supporting liquidity in down markets or rational selling in exuberant ones. More offers between pairs add volume to the market depth, promoting stable conversion rates. You can rely on stable trades because offers are funded from wallet assets on a debit basis—creating common, distributed, peer-to-peer trading interests.
+
+The ledger's innovation lies in _where_ these offers get stored, matched, and disclosed. To submit directly to network nodes, you can use the [`Manage Buy Offer`](./transactions/list-of-operations.mdx#manage-buy-offer) operation, specifying how much $\mathcal{A}$ you want to purchase with $\mathcal{B}$ at $\mathcal{z}$ price. The protocol calculates the cost of the trade in terms of `amount * price` and locks up the `selling` asset you offer in exchange as collateral, until the trade is (partially) executed or cancelled.
+
+<CodeExample>
+
+```psudocode
+BuyTradeOffer(
+  selling = APPLES,
+  buying = BANANAS,
+  amount = "100",
+  price = "4" // 🍎 per 🍌
+)
+```
+
+</CodeExample>
+
+Alternatively, you can specify exactly how much of an asset you want to sell at a specific price using the [`Manage Sell Offer`](./transactions/list-of-operations.mdx#manage-sell-offer) operation. Anyone viewing this public Horizon interface to the ledger will see your orders as validators match first based on price. For orders placed at the same price, the order that was received earlier is given priority and is executed before the newer one.
+
+The orderbook for this asset pair records every account wanting to sell Pples for bananas and every account wanting to sell bannasa  forapples.  UIt uses a  specific [ledger record](./stellar-data-structures/ledgers/entries.mdx#offer) to record   [offer objjkects](../../data/apis/horizon/api-reference/resources/offers/object.mdx) with associated metadata like trade amount, precise price, and offer  ID.
+Develoeprs are persently hard at work migrating this  infrtreraface to communtiy RPC nodes, which aare efficiently resource-aware; and archiving searche rs  can use the [Hubble interface](../../data/analytics/hubble/analyst-guide/queries-for-horizon-like-data.mdx#offers) queries.
+
+
+
+:::note Terminoplogy
+
+- The term “offers” usually refers specifically to selling through "ask" orders. However, in the protocol all orders are stored as selling—i.e., the system automatically converts buying "bid" orders to asks. Because of this, the terms “offer” and “order” are used interchangeably in the Stellar ecosystem.[^buys]
 - Order books contain all orders that are acceptable to parties on either side to make a trade.
 - Some assets will have a small or nonexistent order book between them. In these cases, Stellar facilitates path payments, which we’ll discuss later.
 
+:::
+
 [^buys]: When you create a buy offer using the [`createBuyOffer`](../../data/apis/horizon/api-reference/resources/operations/object/buy-offer.mdx) operation, it is internally converted and stored as a sell offer.
 
-To view an order book chart, see the [Order Book Wikipedia Page](https://en.wikipedia.org/wiki/Order_book). In addition, there are also plenty of video tutorials and articles out there that can help you understand how order books work in greater detail.
 
-### Order Execution
 
-An account can create orders to buy or sell assets using the [`Manage Buy Offer`](./transactions/list-of-operations.mdx#manage-buy-offer), [`Manage Sell Offer`](./transactions/list-of-operations.mdx#manage-sell-offer), or [`Create Passive Sell Offer`](./transactions/list-of-operations.mdx#create-passive-sell-offer) operations. The account must hold the asset it wants to exchange, and it must trust the issuer of the asset it is trying to buy.
+#### Order Execution
+
+An account can create orders to buy or sell assets using the `ManageBuyOffer`, `Manage Sell Offer`, or [`Create Passive Sell Offer`](./transactions/list-of-operations.mdx#create-passive-sell-offer) operations. The account must hold the asset it wants to exchange, and it must trust the issuer of the asset it is trying to buy.
 
 Orders behave like limit orders in traditional markets. When an account initiates an order, it is checked against the existing order book for that asset pair. If the submitted order is a marketable order (for a marketable buy limit order, the limit price is at or above the ask price; for a marketable sell limit order, the limit price is at or below the bid price), it is filled at the existing order price for the available quantity at that price. If the order is not marketable (i.e., does not cross an existing order), the order is saved on the order book until it is either consumed by another order, consumed by a path payment, or canceled by the account that created the order.
 
@@ -82,6 +129,9 @@ When creating a buy order via the Manage Buy Offer operation, the price is speci
 When creating a sell order via the Manage Sell Offer operation, the price is specified as 1 unit of base currency (the asset being sold), in terms of the quote asset (the asset that is being bought). For example, if you’re selling 100 XLM in exchange for 40 USD, you would specify the price as `{40, 100}`, which would be the equivalent of 2.5 XLM for 1 USD (or \$.40 per XLM).
 
 ### Market Data
+
+
+_interoperability points here_
 
 > The SDEX facilitates seamless interoperability between different assets by combining orders in a unified order book. This design ensures that liquidity is concentrated, reducing spreads and improving execution for all participants.
 
@@ -303,9 +353,9 @@ func main() {
 
 </CodeExample>
 
-The more orders available to transact against, the more currency you can convert at any time without moving the market. Stellar stores these open orders as `offer` [objects](../../data/apis/horizon/api-reference/resources/offers/object.mdx) directly on chain. This transparency allows anyone to analyze the order book and understand the trading activity for any asset pair.
+The more orders available to transact against, the more currency you can convert at any time without moving the market. Stellar stores these open orders as `offer` objects directly on chain. This transparency allows anyone to analyze the order book and understand the trading activity for any asset pair.
 
-~~The network and by extension its [validators](https://stellarbeat.io) match orders based on the protocol rules of [Stellar Core](https://github.com/stellar/stellar-core/blob/fbb53d8ad42dcc12a046c9be949d654821a24d38/src/transactions/OfferExchange.cpp#L227-L550).~~
+~~The network and by extension its validators match orders based on the protocol rules of [Stellar Core](https://github.com/stellar/stellar-core/blob/fbb53d8ad42dcc12a046c9be949d654821a24d38/src/transactions/OfferExchange.cpp#L227-L550).~~
 
 > ?
 >
@@ -395,11 +445,15 @@ func getMidpointPrice(orderbook horizon.OrderBookSummary) (*float64, error) {
 
 :::note
 
-We have now found the price of `AstroDollar` as the response item's `base` asset. We can invert `price_r` from the [Horizon response](../../data/apis/horizon/api-reference/retrieve-an-order-book.api.mdx) to find the `counter` (`AstroPeso`) exchange rate. You can also [stream](../../data/apis/horizon/api-reference/structure/streaming) server updates to keep a view of the orderbook maerket up to date.
+We have now found the price of `AstroDollar` as the response item's `base` asset. We can invert `price_r` from the [_Horizon response_](../../data/apis/horizon/api-reference/retrieve-an-order-book.api.mdx) to find the `counter` (`AstroPeso`) exchange rate. You can also [_stream_](../../data/apis/horizon/api-reference/structure/streaming) server updates to keep a view of the orderbook maerket up to date.
+
+hmm i dont like this todo 
+
+i probbably ndont even need this wnetiole entire note 
 
 :::
 
-### Recent Trades
+### View Trades
 
 A more complete understanding of market liquitiy might incldue volume analysis. To affirm the fairness of this example price, we can also check up to 25 recent trade rates:
 
@@ -1889,7 +1943,7 @@ When withdrawing from the AMM, the issuer will burn returned NANAs while keeping
 
 ### \\ Price and Operations
 
-Each order is quoted with an associated price and is represented as a ratio of the two assets in the order, one being the “quote asset” and the other being the “base asset.” This is to ensure there is no loss of precision when representing the price of the order (as opposed to storing the fraction as a floating-point number).
+Each order is quoted with an associated `strign` price and is represented as a ratio of the two assets in the order, one being the “quote asset” and the other being the “base asset.” This is to ensure there is no loss of precision when representing the price of the order (as opposed to storing the fraction as a floating-point number).
 
 Prices are specified as a `{numerator, denominator}` pair with both components of the fraction represented as 32-bit signed integers. The numerator is considered the base asset (like bananas), and the denominator is considered the quote asset (like dollars). When expressing a price of "Asset $\mathcal{A}$ in terms of Asset $\mathcal{B}$," the amount of $\mathcal{B}$ is the denominator (and therefore the quote asset), and $\mathcal{A}$ is the numerator (and therefore the base asset).
 

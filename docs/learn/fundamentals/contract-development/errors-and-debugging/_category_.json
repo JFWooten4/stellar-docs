@@ -1,0 +1,12 @@
+{
+  "label": "Errors & Debugging",
+  "position": 40,
+  "link": {
+    "type": "doc",
+    "id": "learn/fundamentals/contract-development/errors-and-debugging/README"
+  },
+  "description": "Diagnose Soroban failures with real error traces, decode result codes, and tighten feedback loops while you build.",
+  "customProps": {
+    "description": "Diagnose Soroban failures with real error traces, decode result codes, and tighten feedback loops while you build."
+  }
+}

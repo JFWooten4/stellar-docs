@@ -1,0 +1,12 @@
+{
+  "label": "Contract Interactions",
+  "position": 8,
+  "link": {
+    "type": "doc",
+    "id": "learn/fundamentals/contract-development/contract-interactions/README"
+  },
+  "description": "Explore how Soroban contracts talk to each other, invoke Stellar transactions, and run safe simulations before deployment.",
+  "customProps": {
+    "description": "Explore how Soroban contracts talk to each other, invoke Stellar transactions, and run safe simulations before deployment."
+  }
+}
