@@ -1,10 +1,4 @@
-/**
- * Copyright (c) Facebook, Inc.
- * Licensed under the MIT License.
- *
- * This file overrides Docusaurus' default DocCard component so we can tweak
- * the description fallback logic.
- */
+!! REQ TSX !!
 
 import React from "react";
 import clsx from "clsx";
