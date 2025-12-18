@@ -766,6 +766,8 @@ function getBalanceId(txResponse) {
   let creationResult = operationResult.value().createClaimableBalanceResult();
   return creationResult.balanceId().toXDR("hex");
 }
+// const claimableBalance = await server.getClaimableBalance(balanceId);
+
 
 function clawbackClaimable(issuerAccount, issuerKey, balanceId) {
   return server.submitTransaction(
