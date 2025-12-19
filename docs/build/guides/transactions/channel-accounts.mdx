@@ -30,7 +30,6 @@ Stellar validators are spread across the globe, making it challenging to guarant
 
 This guide walks through an example using channel accounts to send 500 payment operations in close ledgers. It uses a primary account ($A_P$) to hold [lumens](../../../learn/fundamentals/lumens.mdx) and five channel accounts for submitting transactions ($A_{C_{1\text{--}5}}$).
 
-
 ![Asset Allocation](/assets/channel-accounts/custody.png)
 
 ### Sequence Numbers
@@ -286,7 +285,6 @@ The simple solution of sending all 500 payments from $A_P$ would be rate-limited
 This approach ensures that the channel accounts only perform the necessary network submissions, while the primary account retains secure custody over the assets.
 
 :::
-
 
 <CodeExample>
 
@@ -607,7 +605,6 @@ The network only accepts the final transaction once it is wholly constructed and
 
 :::
 
-
 ## Configuration Requirements
 
 Channel accounts let you reliably send transactions without waiting for submission acknowledgments. While this greatly increases your potential transaction rate, channel accounts also introduce operational requirements. These considerations keep your operations in sync with [Stellar Core](https://github.com/stellar/stellar-core/tree/master) while maintaining high throughput.
@@ -636,7 +633,6 @@ Principally, channel account groups use two states for effective rotation:
    - **Assignment**: Distribute new transactions to these available accounts to maintain high throughput and avoid delays.
 
 Here's an example of what that might look like:
-
 
 <CodeExample>
 
@@ -954,6 +950,7 @@ func main() {
 ```
 
 </CodeExample>
+
 ### Bundle Size
 
 The bundle size is how many operations you fit in each transaction sent by channel accounts. While the network [defines a maximum](../../../networks/software-versions.mdx) [of 100](../../../validators/admin-guide/monitoring.mdx#general-node-information), it may take longer than desired for your flow of operations to reach this threshold. If that's the case, each channel can submit their own transaction each ledger with all incoming operations.

@@ -7,7 +7,6 @@ sidebar_position: 20
 import { CodeExample } from "@site/src/components/CodeExample";
 import Details from "@theme/Details";
 
-
 Claimable balances were introduced in [CAP-0023](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0023.md) and are used to split a payment into two parts.
 
 - Part 1: Sending account creates a payment, or ClaimableBalanceEntry, using the Create Claimable Balance operation.
@@ -25,9 +24,10 @@ Once a ClaimableBalanceEntry has been claimed, it is deleted.
 
 ### Create Claimable Balance
 
-For basic parameters, see the Create Claimable Balance entry in our [List of Operations section](../../../learn/fundamentals/transactions/list-of-operations.mdx#create-claimable-balance). (/* ⚠ Should probably be together */)
+For basic parameters, see the Create Claimable Balance entry in our [List of Operations section](../../../learn/fundamentals/transactions/list-of-operations.mdx#create-claimable-balance). (/_ ⚠ Should probably be together _/)
 
 #### Other Parameters
+
 - **`Claim_Predicate_` Claimant**: An object that holds both the destination account that can claim the `ClaimableBalanceEntry` and a `ClaimPredicate` that must evaluate to true for the claim to succeed.
 
 - **`ClaimPredicate`**: A recursive data structure that can be used to construct complex conditionals using different `ClaimPredicateTypes`. Below are some examples with the `Claim_Predicate_` prefix removed for readability. Note that the SDKs expect the Unix timestamps to be expressed in seconds.
@@ -46,7 +46,6 @@ For basic parameters, see the Create Claimable Balance entry in our [List of Ope
 For basic parameters, see the Claim Claimable Balance entry in our [List of Operations section](../../../learn/fundamentals/transactions/list-of-operations#claim-claimable-balance).
 
 This operation will load the `ClaimableBalanceEntry` that corresponds to the `ClientBalanceID` and then search for the source account of this operation in the list of claimants on the entry. If a match on the claimant is found, and the ClaimPredicate evaluates to true, then the ClaimableBalanceEntry can be claimed. The balance on the entry will be moved to the source account if there are no limit or trustline issues (for non-native assets), meaning the claimant must establish a trustline to the asset before claiming it.
-
 
 ### Clawback Claimable Balance
 
@@ -69,7 +68,6 @@ Each of these accounts can only claim the balance under unique conditions. $\mat
 [Currently](https://github.com/stellar/stellar-protocol/discussions/1504#discussioncomment-10117060), you cannot recover a claimable balance if none of the predicates can be fulfilled. The reclaim example below acts as a safety net for this situation.
 
 :::
-
 
 <Details summary="Click here to see helper functions">
 
@@ -398,7 +396,6 @@ At this point, the `ClaimableBalanceEntry` exists in the ledger, but we’ll nee
 3. Someone queries the list of claimable balances.
 
 Either party could also check the [`/effects`](../../../data/apis/horizon/api-reference/resources/effects/README.mdx) of the transaction or query [`/claimable_balances`](../../../data/apis/horizon/api-reference/resources/claimablebalances/README.mdx) with different filters in Horizon. Note that while (1) may be unavailable in some SDKs, as it’s just a helper, the other methods are universal.
-
 
 <CodeExample>
 
