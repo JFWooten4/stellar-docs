@@ -3,12 +3,12 @@ Kind: captions
 Language: en
 
 00:00:10.559 --> 00:00:11.830 align:start position:0%
- 
+
 Today<00:00:10.800><c> we're</c><00:00:11.040><c> going</c><00:00:11.120><c> to</c><00:00:11.200><c> be</c><00:00:11.360><c> talking</c><00:00:11.679><c> about</c>
 
 00:00:11.830 --> 00:00:11.840 align:start position:0%
 Today we're going to be talking about
- 
+
 
 00:00:11.840 --> 00:00:14.629 align:start position:0%
 Today we're going to be talking about
@@ -16,7 +16,7 @@ the<00:00:12.080><c> Kelp</c><00:00:12.719><c> GUI</c><00:00:13.519><c> where</c
 
 00:00:14.629 --> 00:00:14.639 align:start position:0%
 the Kelp GUI where anyone can create
- 
+
 
 00:00:14.639 --> 00:00:17.670 align:start position:0%
 the Kelp GUI where anyone can create
@@ -24,7 +24,7 @@ crypto.<00:00:15.920><c> My</c><00:00:16.160><c> name</c><00:00:16.320><c> is</c
 
 00:00:17.670 --> 00:00:17.680 align:start position:0%
 crypto. My name is Nicholas Har and I'm
- 
+
 
 00:00:17.680 --> 00:00:19.189 align:start position:0%
 crypto. My name is Nicholas Har and I'm
@@ -32,23 +32,23 @@ one<00:00:17.760><c> of</c><00:00:17.840><c> the</c><00:00:18.080><c> developers
 
 00:00:19.189 --> 00:00:19.199 align:start position:0%
 one of the developers for the Stellar
- 
+
 
 00:00:19.199 --> 00:00:23.029 align:start position:0%
 one of the developers for the Stellar
 Development<00:00:19.680><c> Foundation.</c>
 
 00:00:23.029 --> 00:00:23.039 align:start position:0%
- 
- 
+
+
 
 00:00:23.039 --> 00:00:25.670 align:start position:0%
- 
+
 We're<00:00:23.279><c> going</c><00:00:23.359><c> to</c><00:00:23.439><c> go</c><00:00:23.680><c> over</c><00:00:24.240><c> what</c><00:00:24.480><c> is</c><00:00:24.720><c> kelp,</c>
 
 00:00:25.670 --> 00:00:25.680 align:start position:0%
 We're going to go over what is kelp,
- 
+
 
 00:00:25.680 --> 00:00:28.630 align:start position:0%
 We're going to go over what is kelp,
@@ -56,7 +56,7 @@ what<00:00:25.840><c> is</c><00:00:26.000><c> a</c><00:00:26.160><c> Kelp</c><00
 
 00:00:28.630 --> 00:00:28.640 align:start position:0%
 what is a Kelp GUI version one. We're
- 
+
 
 00:00:28.640 --> 00:00:31.109 align:start position:0%
 what is a Kelp GUI version one. We're
@@ -64,7 +64,7 @@ going<00:00:28.800><c> to</c><00:00:28.880><c> see</c><00:00:29.039><c> some</c>
 
 00:00:31.109 --> 00:00:31.119 align:start position:0%
 going to see some screenshots and then
- 
+
 
 00:00:31.119 --> 00:00:33.430 align:start position:0%
 going to see some screenshots and then
@@ -72,7 +72,7 @@ we're<00:00:31.599><c> going</c><00:00:31.679><c> going</c><00:00:31.840><c> to<
 
 00:00:33.430 --> 00:00:33.440 align:start position:0%
 we're going going to go into a demo and
- 
+
 
 00:00:33.440 --> 00:00:35.190 align:start position:0%
 we're going going to go into a demo and
@@ -80,7 +80,7 @@ then<00:00:33.680><c> have</c><00:00:33.840><c> some</c><00:00:34.079><c> time</
 
 00:00:35.190 --> 00:00:35.200 align:start position:0%
 then have some time for questions later
- 
+
 
 00:00:35.200 --> 00:00:37.670 align:start position:0%
 then have some time for questions later
@@ -88,7 +88,7 @@ on.
 
 00:00:37.670 --> 00:00:37.680 align:start position:0%
 on.
- 
+
 
 00:00:37.680 --> 00:00:40.950 align:start position:0%
 on.
@@ -96,7 +96,7 @@ So<00:00:37.840><c> what</c><00:00:38.079><c> is</c><00:00:38.320><c> kelp?</c><
 
 00:00:40.950 --> 00:00:40.960 align:start position:0%
 So what is kelp? Kalp is a trading bot
- 
+
 
 00:00:40.960 --> 00:00:43.430 align:start position:0%
 So what is kelp? Kalp is a trading bot
@@ -104,7 +104,7 @@ that<00:00:41.200><c> has</c><00:00:41.280><c> a</c><00:00:41.520><c> command</c
 
 00:00:43.430 --> 00:00:43.440 align:start position:0%
 that has a command line interface. It
- 
+
 
 00:00:43.440 --> 00:00:45.110 align:start position:0%
 that has a command line interface. It
@@ -112,7 +112,7 @@ was<00:00:43.600><c> built</c><00:00:43.840><c> for</c><00:00:44.000><c> the</c>
 
 00:00:45.110 --> 00:00:45.120 align:start position:0%
 was built for the stellar decentralized
- 
+
 
 00:00:45.120 --> 00:00:47.430 align:start position:0%
 was built for the stellar decentralized
@@ -120,7 +120,7 @@ exchange<00:00:45.920><c> and</c><00:00:46.160><c> later</c><00:00:46.399><c> on
 
 00:00:47.430 --> 00:00:47.440 align:start position:0%
 exchange and later on we added support
- 
+
 
 00:00:47.440 --> 00:00:51.350 align:start position:0%
 exchange and later on we added support
@@ -128,7 +128,7 @@ for<00:00:47.680><c> over</c><00:00:48.079><c> 100</c><00:00:48.640><c> centrali
 
 00:00:51.350 --> 00:00:51.360 align:start position:0%
 for over 100 centralized exchanges.
- 
+
 
 00:00:51.360 --> 00:00:53.189 align:start position:0%
 for over 100 centralized exchanges.
@@ -136,7 +136,7 @@ You<00:00:51.600><c> can</c><00:00:51.760><c> customize</c><00:00:52.239><c> exi
 
 00:00:53.189 --> 00:00:53.199 align:start position:0%
 You can customize existing trading
- 
+
 
 00:00:53.199 --> 00:00:56.229 align:start position:0%
 You can customize existing trading
@@ -144,7 +144,7 @@ strategies<00:00:54.160><c> with</c><00:00:54.559><c> configuration</c><00:00:55
 
 00:00:56.229 --> 00:00:56.239 align:start position:0%
 strategies with configuration files.
- 
+
 
 00:00:56.239 --> 00:00:59.430 align:start position:0%
 strategies with configuration files.
@@ -152,7 +152,7 @@ Today<00:00:56.640><c> we</c><00:00:56.879><c> have</c><00:00:57.120><c> four</c
 
 00:00:59.430 --> 00:00:59.440 align:start position:0%
 Today we have four trading strategies.
- 
+
 
 00:00:59.440 --> 00:01:01.590 align:start position:0%
 Today we have four trading strategies.
@@ -160,7 +160,7 @@ You<00:00:59.680><c> can</c><00:00:59.840><c> create</c><00:01:00.160><c> new</c
 
 00:01:01.590 --> 00:01:01.600 align:start position:0%
 You can create new trading strategies by
- 
+
 
 00:01:01.600 --> 00:01:04.149 align:start position:0%
 You can create new trading strategies by
@@ -168,7 +168,7 @@ writing<00:01:01.920><c> your</c><00:01:02.160><c> own</c><00:01:02.399><c> code
 
 00:01:04.149 --> 00:01:04.159 align:start position:0%
 writing your own code. Gelp is written
- 
+
 
 00:01:04.159 --> 00:01:06.310 align:start position:0%
 writing your own code. Gelp is written
@@ -176,7 +176,7 @@ in<00:01:04.320><c> Golang.</c><00:01:05.199><c> So</c><00:01:05.360><c> any</c>
 
 00:01:06.310 --> 00:01:06.320 align:start position:0%
 in Golang. So any trading strategies
- 
+
 
 00:01:06.320 --> 00:01:07.590 align:start position:0%
 in Golang. So any trading strategies
@@ -184,7 +184,7 @@ that<00:01:06.479><c> you</c><00:01:06.640><c> write</c><00:01:06.799><c> would<
 
 00:01:07.590 --> 00:01:07.600 align:start position:0%
 that you write would need to be written
- 
+
 
 00:01:07.600 --> 00:01:10.230 align:start position:0%
 that you write would need to be written
@@ -192,7 +192,7 @@ in<00:01:07.760><c> Golang</c><00:01:08.240><c> today</c><00:01:09.200><c> with<
 
 00:01:10.230 --> 00:01:10.240 align:start position:0%
 in Golang today with the possibility of
- 
+
 
 00:01:10.240 --> 00:01:13.590 align:start position:0%
 in Golang today with the possibility of
@@ -200,7 +200,7 @@ supporting<00:01:10.640><c> more</c><00:01:10.880><c> languages</c><00:01:11.439
 
 00:01:13.590 --> 00:01:13.600 align:start position:0%
 supporting more languages in the future.
- 
+
 
 00:01:13.600 --> 00:01:15.910 align:start position:0%
 supporting more languages in the future.
@@ -208,23 +208,23 @@ We<00:01:13.840><c> open</c><00:01:14.159><c> sourced</c><00:01:14.560><c> Kelp<
 
 00:01:15.910 --> 00:01:15.920 align:start position:0%
 We open sourced Kelp in the summer of
- 
+
 
 00:01:15.920 --> 00:01:19.670 align:start position:0%
 We open sourced Kelp in the summer of
 2018.
 
 00:01:19.670 --> 00:01:19.680 align:start position:0%
- 
- 
+
+
 
 00:01:19.680 --> 00:01:22.870 align:start position:0%
- 
+
 The<00:01:19.920><c> Kelp</c><00:01:20.320><c> GUI</c><00:01:21.439><c> is</c><00:01:21.680><c> a</c><00:01:21.920><c> relatively</c><00:01:22.479><c> newer</c>
 
 00:01:22.870 --> 00:01:22.880 align:start position:0%
 The Kelp GUI is a relatively newer
- 
+
 
 00:01:22.880 --> 00:01:26.310 align:start position:0%
 The Kelp GUI is a relatively newer
@@ -232,7 +232,7 @@ addition<00:01:23.200><c> to</c><00:01:23.360><c> Kelp.</c><00:01:24.560><c> It<
 
 00:01:26.310 --> 00:01:26.320 align:start position:0%
 addition to Kelp. It is a GUI to manage
- 
+
 
 00:01:26.320 --> 00:01:29.190 align:start position:0%
 addition to Kelp. It is a GUI to manage
@@ -240,7 +240,7 @@ multiple<00:01:26.799><c> cut</c><00:01:27.119><c> bot</c><00:01:27.439><c> inst
 
 00:01:29.190 --> 00:01:29.200 align:start position:0%
 multiple cut bot instances.
- 
+
 
 00:01:29.200 --> 00:01:31.990 align:start position:0%
 multiple cut bot instances.
@@ -248,7 +248,7 @@ Today,<00:01:29.680><c> it</c><00:01:29.920><c> does</c><00:01:30.159><c> not</c
 
 00:01:31.990 --> 00:01:32.000 align:start position:0%
 Today, it does not work on centralized
- 
+
 
 00:01:32.000 --> 00:01:33.830 align:start position:0%
 Today, it does not work on centralized
@@ -256,23 +256,23 @@ exchanges<00:01:32.479><c> and</c><00:01:32.720><c> only</c><00:01:32.960><c> wo
 
 00:01:33.830 --> 00:01:33.840 align:start position:0%
 exchanges and only works on the Stella
- 
+
 
 00:01:33.840 --> 00:01:37.510 align:start position:0%
 exchanges and only works on the Stella
 decentralized<00:01:34.479><c> exchange.</c>
 
 00:01:37.510 --> 00:01:37.520 align:start position:0%
- 
- 
+
+
 
 00:01:37.520 --> 00:01:39.590 align:start position:0%
- 
+
 We<00:01:38.000><c> start</c><00:01:38.240><c> off</c><00:01:38.479><c> with</c><00:01:38.640><c> just</c><00:01:38.960><c> one</c><00:01:39.200><c> trading</c>
 
 00:01:39.590 --> 00:01:39.600 align:start position:0%
 We start off with just one trading
- 
+
 
 00:01:39.600 --> 00:01:42.469 align:start position:0%
 We start off with just one trading
@@ -280,7 +280,7 @@ strategy<00:01:40.400><c> to</c><00:01:41.200><c> make</c><00:01:41.439><c> it</
 
 00:01:42.469 --> 00:01:42.479 align:start position:0%
 strategy to make it easier for people to
- 
+
 
 00:01:42.479 --> 00:01:45.590 align:start position:0%
 strategy to make it easier for people to
@@ -288,7 +288,7 @@ learn<00:01:42.720><c> how</c><00:01:42.880><c> the</c><00:01:43.040><c> UI</c><
 
 00:01:45.590 --> 00:01:45.600 align:start position:0%
 learn how the UI works. You can't create
- 
+
 
 00:01:45.600 --> 00:01:48.149 align:start position:0%
 learn how the UI works. You can't create
@@ -296,7 +296,7 @@ new<00:01:45.840><c> trading</c><00:01:46.159><c> strategies</c><00:01:46.799><c
 
 00:01:48.149 --> 00:01:48.159 align:start position:0%
 new trading strategies today, but in the
- 
+
 
 00:01:48.159 --> 00:01:49.670 align:start position:0%
 new trading strategies today, but in the
@@ -304,7 +304,7 @@ future,<00:01:48.479><c> any</c><00:01:48.720><c> trading</c><00:01:49.040><c> s
 
 00:01:49.670 --> 00:01:49.680 align:start position:0%
 future, any trading strategies that are
- 
+
 
 00:01:49.680 --> 00:01:51.350 align:start position:0%
 future, any trading strategies that are
@@ -312,7 +312,7 @@ created<00:01:49.920><c> on</c><00:01:50.159><c> kelp</c><00:01:50.560><c> will<
 
 00:01:51.350 --> 00:01:51.360 align:start position:0%
 created on kelp will automatically be
- 
+
 
 00:01:51.360 --> 00:01:54.149 align:start position:0%
 created on kelp will automatically be
@@ -320,7 +320,7 @@ supported<00:01:51.759><c> by</c><00:01:52.000><c> the</c><00:01:52.159><c> UI.<
 
 00:01:54.149 --> 00:01:54.159 align:start position:0%
 supported by the UI.
- 
+
 
 00:01:54.159 --> 00:01:56.389 align:start position:0%
 supported by the UI.
@@ -328,7 +328,7 @@ In<00:01:54.479><c> addition</c><00:01:54.720><c> to</c><00:01:54.880><c> writin
 
 00:01:56.389 --> 00:01:56.399 align:start position:0%
 In addition to writing the back end for
- 
+
 
 00:01:56.399 --> 00:01:58.950 align:start position:0%
 In addition to writing the back end for
@@ -336,7 +336,7 @@ the<00:01:56.560><c> UI</c><00:01:56.960><c> in</c><00:01:57.119><c> Golang,</c>
 
 00:01:58.950 --> 00:01:58.960 align:start position:0%
 the UI in Golang, we added support for
- 
+
 
 00:01:58.960 --> 00:02:01.990 align:start position:0%
 the UI in Golang, we added support for
@@ -344,7 +344,7 @@ React<00:01:59.439><c> for</c><00:01:59.600><c> the</c><00:01:59.759><c> front</
 
 00:02:01.990 --> 00:02:02.000 align:start position:0%
 React for the front end.
- 
+
 
 00:02:02.000 --> 00:02:04.550 align:start position:0%
 React for the front end.
@@ -352,7 +352,7 @@ The<00:02:02.240><c> UI</c><00:02:02.640><c> was</c><00:02:02.799><c> open</c><0
 
 00:02:04.550 --> 00:02:04.560 align:start position:0%
 The UI was open sourced in the summer of
- 
+
 
 00:02:04.560 --> 00:02:08.070 align:start position:0%
 The UI was open sourced in the summer of
@@ -360,7 +360,7 @@ The UI was open sourced in the summer of
 
 00:02:08.070 --> 00:02:08.080 align:start position:0%
 2019 and only last month did we release
- 
+
 
 00:02:08.080 --> 00:02:12.470 align:start position:0%
 2019 and only last month did we release
@@ -368,7 +368,7 @@ the<00:02:08.319><c> first</c><00:02:08.640><c> release</c><00:02:09.039><c> can
 
 00:02:12.470 --> 00:02:12.480 align:start position:0%
 the first release candidate of the UI.
- 
+
 
 00:02:12.480 --> 00:02:15.190 align:start position:0%
 the first release candidate of the UI.
@@ -376,7 +376,7 @@ We<00:02:12.800><c> have</c><00:02:12.959><c> an</c><00:02:13.200><c> integratio
 
 00:02:15.190 --> 00:02:15.200 align:start position:0%
 We have an integration for the CCXT REST
- 
+
 
 00:02:15.200 --> 00:02:17.430 align:start position:0%
 We have an integration for the CCXT REST
@@ -384,7 +384,7 @@ server<00:02:15.760><c> which</c><00:02:16.080><c> gives</c><00:02:16.239><c> yo
 
 00:02:17.430 --> 00:02:17.440 align:start position:0%
 server which gives you native access to
- 
+
 
 00:02:17.440 --> 00:02:20.390 align:start position:0%
 server which gives you native access to
@@ -392,7 +392,7 @@ data<00:02:17.760><c> from</c><00:02:18.080><c> all</c><00:02:18.239><c> of</c><
 
 00:02:20.390 --> 00:02:20.400 align:start position:0%
 data from all of those 100 exchanges
- 
+
 
 00:02:20.400 --> 00:02:22.070 align:start position:0%
 data from all of those 100 exchanges
@@ -400,7 +400,7 @@ directly<00:02:20.800><c> into</c><00:02:20.959><c> the</c><00:02:21.120><c> UI<
 
 00:02:22.070 --> 00:02:22.080 align:start position:0%
 directly into the UI without any
- 
+
 
 00:02:22.080 --> 00:02:24.309 align:start position:0%
 directly into the UI without any
@@ -408,7 +408,7 @@ additional<00:02:22.480><c> installations.</c>
 
 00:02:24.309 --> 00:02:24.319 align:start position:0%
 additional installations.
- 
+
 
 00:02:24.319 --> 00:02:25.990 align:start position:0%
 additional installations.
@@ -416,7 +416,7 @@ You<00:02:24.480><c> can</c><00:02:24.640><c> download</c><00:02:24.959><c> it</
 
 00:02:25.990 --> 00:02:26.000 align:start position:0%
 You can download it as a desktop
- 
+
 
 00:02:26.000 --> 00:02:28.869 align:start position:0%
 You can download it as a desktop
@@ -424,7 +424,7 @@ application<00:02:27.280><c> and</c><00:02:27.680><c> very</c><00:02:28.000><c> 
 
 00:02:28.869 --> 00:02:28.879 align:start position:0%
 application and very soon you will be
- 
+
 
 00:02:28.879 --> 00:02:30.710 align:start position:0%
 application and very soon you will be
@@ -432,31 +432,31 @@ able<00:02:29.040><c> to</c><00:02:29.120><c> run</c><00:02:29.280><c> it</c><00
 
 00:02:30.710 --> 00:02:30.720 align:start position:0%
 able to run it in a hosted test net
- 
+
 
 00:02:30.720 --> 00:02:35.589 align:start position:0%
 able to run it in a hosted test net
 environment<00:02:31.120><c> as</c><00:02:31.360><c> well.</c>
 
 00:02:35.589 --> 00:02:35.599 align:start position:0%
- 
- 
+
+
 
 00:02:35.599 --> 00:02:39.990 align:start position:0%
- 
+
 Let's<00:02:35.920><c> go</c><00:02:36.080><c> ahead</c><00:02:36.319><c> and</c><00:02:36.480><c> see</c><00:02:36.640><c> some</c><00:02:36.959><c> screenshots.</c>
 
 00:02:39.990 --> 00:02:40.000 align:start position:0%
- 
- 
+
+
 
 00:02:40.000 --> 00:02:42.790 align:start position:0%
- 
+
 So<00:02:40.319><c> this</c><00:02:40.480><c> is</c><00:02:40.560><c> what</c><00:02:40.879><c> kelp</c><00:02:41.280><c> look</c><00:02:41.519><c> like</c><00:02:42.319><c> when</c><00:02:42.560><c> you</c>
 
 00:02:42.790 --> 00:02:42.800 align:start position:0%
 So this is what kelp look like when you
- 
+
 
 00:02:42.800 --> 00:02:46.390 align:start position:0%
 So this is what kelp look like when you
@@ -464,7 +464,7 @@ first<00:02:42.959><c> load</c><00:02:43.280><c> the</c><00:02:43.440><c> applic
 
 00:02:46.390 --> 00:02:46.400 align:start position:0%
 first load the application.
- 
+
 
 00:02:46.400 --> 00:02:48.710 align:start position:0%
 first load the application.
@@ -472,7 +472,7 @@ You<00:02:46.640><c> have</c><00:02:46.800><c> two</c><00:02:47.040><c> options.
 
 00:02:48.710 --> 00:02:48.720 align:start position:0%
 You have two options. The first one is
- 
+
 
 00:02:48.720 --> 00:02:51.270 align:start position:0%
 You have two options. The first one is
@@ -480,7 +480,7 @@ to<00:02:48.879><c> autogenerate</c><00:02:49.440><c> your</c><00:02:49.680><c> 
 
 00:02:51.270 --> 00:02:51.280 align:start position:0%
 to autogenerate your first test bot.
- 
+
 
 00:02:51.280 --> 00:02:52.869 align:start position:0%
 to autogenerate your first test bot.
@@ -488,7 +488,7 @@ This<00:02:51.440><c> is</c><00:02:51.599><c> for</c><00:02:51.840><c> people</c
 
 00:02:52.869 --> 00:02:52.879 align:start position:0%
 This is for people who are first-time
- 
+
 
 00:02:52.879 --> 00:02:55.830 align:start position:0%
 This is for people who are first-time
@@ -496,7 +496,7 @@ users<00:02:53.120><c> of</c><00:02:53.360><c> kelp</c><00:02:54.400><c> and</c>
 
 00:02:55.830 --> 00:02:55.840 align:start position:0%
 users of kelp and gives them a starter
- 
+
 
 00:02:55.840 --> 00:02:59.110 align:start position:0%
 users of kelp and gives them a starter
@@ -504,7 +504,7 @@ bot<00:02:56.160><c> that</c><00:02:56.319><c> they</c><00:02:56.560><c> can</c>
 
 00:02:59.110 --> 00:02:59.120 align:start position:0%
 bot that they can use. We have a video
- 
+
 
 00:02:59.120 --> 00:03:01.110 align:start position:0%
 bot that they can use. We have a video
@@ -512,7 +512,7 @@ that<00:02:59.360><c> we</c><00:02:59.599><c> uploaded</c><00:03:00.160><c> with
 
 00:03:01.110 --> 00:03:01.120 align:start position:0%
 that we uploaded with the blog post
- 
+
 
 00:03:01.120 --> 00:03:03.190 align:start position:0%
 that we uploaded with the blog post
@@ -520,7 +520,7 @@ announcement<00:03:01.519><c> of</c><00:03:01.680><c> the</c><00:03:01.920><c> k
 
 00:03:03.190 --> 00:03:03.200 align:start position:0%
 announcement of the kelp y that walks
- 
+
 
 00:03:03.200 --> 00:03:05.030 align:start position:0%
 announcement of the kelp y that walks
@@ -528,7 +528,7 @@ you<00:03:03.360><c> through</c><00:03:03.599><c> creating</c><00:03:04.000><c> 
 
 00:03:05.030 --> 00:03:05.040 align:start position:0%
 you through creating your first test bot
- 
+
 
 00:03:05.040 --> 00:03:07.509 align:start position:0%
 you through creating your first test bot
@@ -536,7 +536,7 @@ through<00:03:05.200><c> auto</c><00:03:05.519><c> generation.</c>
 
 00:03:07.509 --> 00:03:07.519 align:start position:0%
 through auto generation.
- 
+
 
 00:03:07.519 --> 00:03:09.750 align:start position:0%
 through auto generation.
@@ -544,7 +544,7 @@ The<00:03:07.840><c> second</c><00:03:08.080><c> option</c><00:03:08.319><c> is<
 
 00:03:09.750 --> 00:03:09.760 align:start position:0%
 The second option is to create your own
- 
+
 
 00:03:09.760 --> 00:03:11.670 align:start position:0%
 The second option is to create your own
@@ -552,7 +552,7 @@ bot,<00:03:10.480><c> which</c><00:03:10.720><c> gives</c><00:03:10.959><c> you<
 
 00:03:11.670 --> 00:03:11.680 align:start position:0%
 bot, which gives you a little more
- 
+
 
 00:03:11.680 --> 00:03:13.750 align:start position:0%
 bot, which gives you a little more
@@ -560,23 +560,23 @@ controls<00:03:12.159><c> over</c><00:03:12.560><c> the</c><00:03:12.800><c> par
 
 00:03:13.750 --> 00:03:13.760 align:start position:0%
 controls over the parameters of your
- 
+
 
 00:03:13.760 --> 00:03:17.110 align:start position:0%
 controls over the parameters of your
 bot.
 
 00:03:17.110 --> 00:03:17.120 align:start position:0%
- 
- 
+
+
 
 00:03:17.120 --> 00:03:19.830 align:start position:0%
- 
+
 On<00:03:17.280><c> the</c><00:03:17.519><c> top</c><00:03:17.680><c> left,</c><00:03:18.080><c> you</c><00:03:18.319><c> can</c><00:03:18.400><c> see</c><00:03:18.560><c> the</c><00:03:18.879><c> version</c>
 
 00:03:19.830 --> 00:03:19.840 align:start position:0%
 On the top left, you can see the version
- 
+
 
 00:03:19.840 --> 00:03:22.550 align:start position:0%
 On the top left, you can see the version
@@ -584,7 +584,7 @@ being<00:03:20.080><c> used</c><00:03:20.400><c> for</c><00:03:20.560><c> this</
 
 00:03:22.550 --> 00:03:22.560 align:start position:0%
 being used for this UI,
- 
+
 
 00:03:22.560 --> 00:03:24.710 align:start position:0%
 being used for this UI,
@@ -592,23 +592,23 @@ and<00:03:22.800><c> you</c><00:03:23.040><c> also</c><00:03:23.280><c> have</c>
 
 00:03:24.710 --> 00:03:24.720 align:start position:0%
 and you also have an option to quit the
- 
+
 
 00:03:24.720 --> 00:03:31.270 align:start position:0%
 and you also have an option to quit the
 application<00:03:25.280><c> when</c><00:03:25.599><c> you're</c><00:03:25.920><c> done</c><00:03:26.239><c> using</c><00:03:26.480><c> it.</c>
 
 00:03:31.270 --> 00:03:31.280 align:start position:0%
- 
- 
+
+
 
 00:03:31.280 --> 00:03:33.589 align:start position:0%
- 
+
 This<00:03:31.440><c> is</c><00:03:31.599><c> a</c><00:03:31.840><c> screen</c><00:03:32.080><c> to</c><00:03:32.319><c> create</c><00:03:32.560><c> a</c><00:03:32.799><c> new</c><00:03:33.040><c> bot</c><00:03:33.360><c> or</c>
 
 00:03:33.589 --> 00:03:33.599 align:start position:0%
 This is a screen to create a new bot or
- 
+
 
 00:03:33.599 --> 00:03:37.430 align:start position:0%
 This is a screen to create a new bot or
@@ -616,7 +616,7 @@ to<00:03:33.760><c> edit</c><00:03:34.000><c> an</c><00:03:34.239><c> existing</
 
 00:03:37.430 --> 00:03:37.440 align:start position:0%
 to edit an existing bot.
- 
+
 
 00:03:37.440 --> 00:03:39.589 align:start position:0%
 to edit an existing bot.
@@ -624,7 +624,7 @@ You<00:03:37.680><c> enter</c><00:03:37.920><c> your</c><00:03:38.159><c> secret
 
 00:03:39.589 --> 00:03:39.599 align:start position:0%
 You enter your secret key over here and
- 
+
 
 00:03:39.599 --> 00:03:41.030 align:start position:0%
 You enter your secret key over here and
@@ -632,7 +632,7 @@ you<00:03:39.760><c> can</c><00:03:39.840><c> see</c><00:03:39.920><c> the</c><0
 
 00:03:41.030 --> 00:03:41.040 align:start position:0%
 you can see the corresponding public
- 
+
 
 00:03:41.040 --> 00:03:43.670 align:start position:0%
 you can see the corresponding public
@@ -640,7 +640,7 @@ key.<00:03:42.239><c> You</c><00:03:42.400><c> enter</c><00:03:42.640><c> the</c
 
 00:03:43.670 --> 00:03:43.680 align:start position:0%
 key. You enter the assets that you want
- 
+
 
 00:03:43.680 --> 00:03:46.869 align:start position:0%
 key. You enter the assets that you want
@@ -648,7 +648,7 @@ to<00:03:43.840><c> trade.</c><00:03:45.040><c> For</c><00:03:45.280><c> XLM,</c
 
 00:03:46.869 --> 00:03:46.879 align:start position:0%
 to trade. For XLM, you don't have any
- 
+
 
 00:03:46.879 --> 00:03:48.949 align:start position:0%
 to trade. For XLM, you don't have any
@@ -656,7 +656,7 @@ issuer.<00:03:47.519><c> But</c><00:03:47.680><c> for</c><00:03:47.840><c> all</
 
 00:03:48.949 --> 00:03:48.959 align:start position:0%
 issuer. But for all other assets, you
- 
+
 
 00:03:48.959 --> 00:03:52.149 align:start position:0%
 issuer. But for all other assets, you
@@ -664,7 +664,7 @@ have<00:03:49.120><c> an</c><00:03:49.360><c> asset</c><00:03:49.760><c> issuer.
 
 00:03:52.149 --> 00:03:52.159 align:start position:0%
 have an asset issuer.
- 
+
 
 00:03:52.159 --> 00:03:54.309 align:start position:0%
 have an asset issuer.
@@ -672,7 +672,7 @@ Coupon<00:03:52.560><c> out</c><00:03:52.799><c> here</c><00:03:53.040><c> is</c
 
 00:03:54.309 --> 00:03:54.319 align:start position:0%
 Coupon out here is just a token asset
- 
+
 
 00:03:54.319 --> 00:03:55.750 align:start position:0%
 Coupon out here is just a token asset
@@ -680,23 +680,23 @@ that<00:03:54.480><c> we</c><00:03:54.720><c> use.</c><00:03:54.959><c> This</c>
 
 00:03:55.750 --> 00:03:55.760 align:start position:0%
 that we use. This could represent
- 
+
 
 00:03:55.760 --> 00:04:01.670 align:start position:0%
 that we use. This could represent
 anything.<00:03:56.239><c> It</c><00:03:56.480><c> is</c><00:03:56.640><c> just</c><00:03:56.879><c> a</c><00:03:57.120><c> test</c><00:03:57.439><c> market.</c>
 
 00:04:01.670 --> 00:04:01.680 align:start position:0%
- 
- 
+
+
 
 00:04:01.680 --> 00:04:03.589 align:start position:0%
- 
+
 This<00:04:02.000><c> is</c><00:04:02.080><c> the</c><00:04:02.319><c> price</c><00:04:02.640><c> feed</c><00:04:02.959><c> section</c><00:04:03.280><c> for</c><00:04:03.439><c> the</c>
 
 00:04:03.589 --> 00:04:03.599 align:start position:0%
 This is the price feed section for the
- 
+
 
 00:04:03.599 --> 00:04:06.070 align:start position:0%
 This is the price feed section for the
@@ -704,7 +704,7 @@ buy<00:04:03.920><c> sell</c><00:04:04.239><c> strategy</c><00:04:04.879><c> whi
 
 00:04:06.070 --> 00:04:06.080 align:start position:0%
 buy sell strategy which is the the first
- 
+
 
 00:04:06.080 --> 00:04:07.670 align:start position:0%
 buy sell strategy which is the the first
@@ -712,7 +712,7 @@ strategy<00:04:06.480><c> that</c><00:04:06.640><c> you</c><00:04:06.799><c> are
 
 00:04:07.670 --> 00:04:07.680 align:start position:0%
 strategy that you are allowed to use on
- 
+
 
 00:04:07.680 --> 00:04:10.149 align:start position:0%
 strategy that you are allowed to use on
@@ -720,7 +720,7 @@ the<00:04:07.840><c> UI.</c>
 
 00:04:10.149 --> 00:04:10.159 align:start position:0%
 the UI.
- 
+
 
 00:04:10.159 --> 00:04:12.229 align:start position:0%
 the UI.
@@ -728,7 +728,7 @@ The<00:04:10.400><c> price</c><00:04:10.720><c> feed</c><00:04:11.120><c> allows
 
 00:04:12.229 --> 00:04:12.239 align:start position:0%
 The price feed allows you to set the
- 
+
 
 00:04:12.239 --> 00:04:15.110 align:start position:0%
 The price feed allows you to set the
@@ -736,7 +736,7 @@ prices<00:04:13.040><c> for</c><00:04:13.280><c> the</c><00:04:13.439><c> base</
 
 00:04:15.110 --> 00:04:15.120 align:start position:0%
 prices for the base asset and the quote
- 
+
 
 00:04:15.120 --> 00:04:18.390 align:start position:0%
 prices for the base asset and the quote
@@ -744,7 +744,7 @@ asset<00:04:15.599><c> described</c><00:04:16.079><c> on</c><00:04:16.320><c> th
 
 00:04:18.390 --> 00:04:18.400 align:start position:0%
 asset described on the previous page.
- 
+
 
 00:04:18.400 --> 00:04:21.030 align:start position:0%
 asset described on the previous page.
@@ -752,7 +752,7 @@ The<00:04:18.639><c> base</c><00:04:18.959><c> asset</c><00:04:19.680><c> is</c>
 
 00:04:21.030 --> 00:04:21.040 align:start position:0%
 The base asset is always set as a
- 
+
 
 00:04:21.040 --> 00:04:23.670 align:start position:0%
 The base asset is always set as a
@@ -760,7 +760,7 @@ numerator.<00:04:22.240><c> In</c><00:04:22.479><c> this</c><00:04:22.720><c> ca
 
 00:04:23.670 --> 00:04:23.680 align:start position:0%
 numerator. In this case, because our
- 
+
 
 00:04:23.680 --> 00:04:26.150 align:start position:0%
 numerator. In this case, because our
@@ -768,7 +768,7 @@ base<00:04:23.919><c> asset</c><00:04:24.240><c> was</c><00:04:24.479><c> XLM,</
 
 00:04:26.150 --> 00:04:26.160 align:start position:0%
 base asset was XLM, we've chosen to
- 
+
 
 00:04:26.160 --> 00:04:30.710 align:start position:0%
 base asset was XLM, we've chosen to
@@ -776,7 +776,7 @@ price<00:04:26.479><c> it</c><00:04:26.960><c> as</c><00:04:27.919><c> the</c><0
 
 00:04:30.710 --> 00:04:30.720 align:start position:0%
 price it as the XLM USDT price from
- 
+
 
 00:04:30.720 --> 00:04:33.110 align:start position:0%
 price it as the XLM USDT price from
@@ -784,7 +784,7 @@ Binance<00:04:31.680><c> under</c><00:04:32.000><c> the</c><00:04:32.160><c> cen
 
 00:04:33.110 --> 00:04:33.120 align:start position:0%
 Binance under the centralized exchange
- 
+
 
 00:04:33.120 --> 00:04:35.670 align:start position:0%
 Binance under the centralized exchange
@@ -792,7 +792,7 @@ section.<00:04:34.080><c> And</c><00:04:34.240><c> you</c><00:04:34.400><c> can<
 
 00:04:35.670 --> 00:04:35.680 align:start position:0%
 section. And you can see a sample price
- 
+
 
 00:04:35.680 --> 00:04:38.469 align:start position:0%
 section. And you can see a sample price
@@ -800,7 +800,7 @@ out<00:04:35.919><c> here</c><00:04:36.080><c> in</c><00:04:36.320><c> the</c><0
 
 00:04:38.469 --> 00:04:38.479 align:start position:0%
 out here in the screenshot.
- 
+
 
 00:04:38.479 --> 00:04:40.310 align:start position:0%
 out here in the screenshot.
@@ -808,7 +808,7 @@ For<00:04:38.720><c> the</c><00:04:38.880><c> denominator,</c><00:04:39.759><c> 
 
 00:04:40.310 --> 00:04:40.320 align:start position:0%
 For the denominator, we're going to
- 
+
 
 00:04:40.320 --> 00:04:43.990 align:start position:0%
 For the denominator, we're going to
@@ -816,7 +816,7 @@ price<00:04:40.560><c> the</c><00:04:40.800><c> coupon</c><00:04:41.199><c> asse
 
 00:04:43.990 --> 00:04:44.000 align:start position:0%
 price the coupon asset as one unit of US
- 
+
 
 00:04:44.000 --> 00:04:48.230 align:start position:0%
 price the coupon asset as one unit of US
@@ -824,7 +824,7 @@ dollar.<00:04:44.880><c> So,</c><00:04:46.160><c> we</c><00:04:46.400><c> use</c
 
 00:04:48.230 --> 00:04:48.240 align:start position:0%
 dollar. So, we use the fixed value of
- 
+
 
 00:04:48.240 --> 00:04:50.310 align:start position:0%
 dollar. So, we use the fixed value of
@@ -832,7 +832,7 @@ dollar. So, we use the fixed value of
 
 00:04:50.310 --> 00:04:50.320 align:start position:0%
 1.0.
- 
+
 
 00:04:50.320 --> 00:04:53.189 align:start position:0%
 1.0.
@@ -840,7 +840,7 @@ Again,<00:04:50.720><c> coupon</c><00:04:51.199><c> here</c><00:04:51.440><c> is
 
 00:04:53.189 --> 00:04:53.199 align:start position:0%
 Again, coupon here is can represent any
- 
+
 
 00:04:53.199 --> 00:04:55.590 align:start position:0%
 Again, coupon here is can represent any
@@ -848,7 +848,7 @@ asset.<00:04:53.680><c> For</c><00:04:53.919><c> the</c><00:04:54.080><c> purpos
 
 00:04:55.590 --> 00:04:55.600 align:start position:0%
 asset. For the purposes of this video
- 
+
 
 00:04:55.600 --> 00:04:57.830 align:start position:0%
 asset. For the purposes of this video
@@ -856,23 +856,23 @@ and<00:04:55.919><c> this</c><00:04:56.080><c> demo,</c><00:04:57.280><c> we're<
 
 00:04:57.830 --> 00:04:57.840 align:start position:0%
 and this demo, we're going to be
- 
+
 
 00:04:57.840 --> 00:05:02.230 align:start position:0%
 and this demo, we're going to be
 treating<00:04:58.080><c> it</c><00:04:58.240><c> as</c><00:04:58.400><c> a</c><00:04:58.639><c> US</c><00:04:58.960><c> dollar.</c>
 
 00:05:02.230 --> 00:05:02.240 align:start position:0%
- 
- 
+
+
 
 00:05:02.240 --> 00:05:03.909 align:start position:0%
- 
+
 This<00:05:02.479><c> box</c><00:05:02.800><c> out</c><00:05:02.960><c> here</c><00:05:03.199><c> tells</c><00:05:03.440><c> you</c><00:05:03.520><c> what</c><00:05:03.680><c> the</c>
 
 00:05:03.909 --> 00:05:03.919 align:start position:0%
 This box out here tells you what the
- 
+
 
 00:05:03.919 --> 00:05:07.510 align:start position:0%
 This box out here tells you what the
@@ -880,7 +880,7 @@ final<00:05:04.160><c> calculation</c><00:05:04.800><c> is</c><00:05:05.360><c> 
 
 00:05:07.510 --> 00:05:07.520 align:start position:0%
 final calculation is of your price. You
- 
+
 
 00:05:07.520 --> 00:05:09.749 align:start position:0%
 final calculation is of your price. You
@@ -888,7 +888,7 @@ can<00:05:07.680><c> see</c><00:05:07.840><c> how</c><00:05:08.000><c> the</c><0
 
 00:05:09.749 --> 00:05:09.759 align:start position:0%
 can see how the price is derived. We
- 
+
 
 00:05:09.759 --> 00:05:12.550 align:start position:0%
 can see how the price is derived. We
@@ -896,7 +896,7 @@ basically<00:05:10.240><c> take</c><00:05:10.720><c> the</c><00:05:11.360><c> pr
 
 00:05:12.550 --> 00:05:12.560 align:start position:0%
 basically take the price of the XLM
- 
+
 
 00:05:12.560 --> 00:05:15.670 align:start position:0%
 basically take the price of the XLM
@@ -904,7 +904,7 @@ coupon<00:05:13.600><c> market.</c><00:05:14.560><c> We</c><00:05:14.800><c> tak
 
 00:05:15.670 --> 00:05:15.680 align:start position:0%
 coupon market. We take the price of the
- 
+
 
 00:05:15.680 --> 00:05:18.629 align:start position:0%
 coupon market. We take the price of the
@@ -912,23 +912,23 @@ numerator<00:05:16.160><c> divided</c><00:05:16.560><c> by</c><00:05:16.720><c> 
 
 00:05:18.629 --> 00:05:18.639 align:start position:0%
 numerator divided by the denominator
- 
+
 
 00:05:18.639 --> 00:05:23.430 align:start position:0%
 numerator divided by the denominator
 and<00:05:18.880><c> then</c><00:05:19.039><c> we</c><00:05:19.199><c> get</c><00:05:19.360><c> the</c><00:05:19.600><c> final</c><00:05:19.919><c> price.</c>
 
 00:05:23.430 --> 00:05:23.440 align:start position:0%
- 
- 
+
+
 
 00:05:23.440 --> 00:05:25.189 align:start position:0%
- 
+
 The<00:05:23.680><c> sentence</c><00:05:24.080><c> makes</c><00:05:24.320><c> it</c><00:05:24.560><c> easier</c><00:05:24.880><c> to</c>
 
 00:05:25.189 --> 00:05:25.199 align:start position:0%
 The sentence makes it easier to
- 
+
 
 00:05:25.199 --> 00:05:28.390 align:start position:0%
 The sentence makes it easier to
@@ -936,7 +936,7 @@ understand<00:05:25.840><c> how</c><00:05:26.080><c> you</c><00:05:26.240><c> ar
 
 00:05:28.390 --> 00:05:28.400 align:start position:0%
 understand how you are pricing the asset
- 
+
 
 00:05:28.400 --> 00:05:30.150 align:start position:0%
 understand how you are pricing the asset
@@ -944,7 +944,7 @@ which<00:05:28.639><c> we</c><00:05:28.800><c> will</c><00:05:28.960><c> go</c><
 
 00:05:30.150 --> 00:05:30.160 align:start position:0%
 which we will go into more detail in the
- 
+
 
 00:05:30.160 --> 00:05:31.830 align:start position:0%
 which we will go into more detail in the
@@ -952,7 +952,7 @@ demo.
 
 00:05:31.830 --> 00:05:31.840 align:start position:0%
 demo.
- 
+
 
 00:05:31.840 --> 00:05:34.310 align:start position:0%
 demo.
@@ -960,7 +960,7 @@ At<00:05:32.000><c> the</c><00:05:32.160><c> end</c><00:05:32.320><c> here,</c><
 
 00:05:34.310 --> 00:05:34.320 align:start position:0%
 At the end here, we have some levels
- 
+
 
 00:05:34.320 --> 00:05:37.590 align:start position:0%
 At the end here, we have some levels
@@ -968,7 +968,7 @@ that<00:05:35.199><c> tell</c><00:05:35.440><c> you</c><00:05:35.680><c> how</c>
 
 00:05:37.590 --> 00:05:37.600 align:start position:0%
 that tell you how you can price the
- 
+
 
 00:05:37.600 --> 00:05:40.469 align:start position:0%
 that tell you how you can price the
@@ -976,7 +976,7 @@ different<00:05:38.880><c> levels</c>
 
 00:05:40.469 --> 00:05:40.479 align:start position:0%
 different levels
- 
+
 
 00:05:40.479 --> 00:05:43.029 align:start position:0%
 different levels
@@ -984,7 +984,7 @@ that<00:05:40.960><c> spread</c><00:05:41.360><c> out</c><00:05:41.759><c> from<
 
 00:05:43.029 --> 00:05:43.039 align:start position:0%
 that spread out from the center mid
- 
+
 
 00:05:43.039 --> 00:05:45.189 align:start position:0%
 that spread out from the center mid
@@ -992,23 +992,23 @@ price<00:05:43.280><c> that</c><00:05:43.520><c> has</c><00:05:43.759><c> been</
 
 00:05:45.189 --> 00:05:45.199 align:start position:0%
 price that has been set over here of
- 
+
 
 00:05:45.199 --> 00:05:50.150 align:start position:0%
 price that has been set over here of
 06192.
 
 00:05:50.150 --> 00:05:50.160 align:start position:0%
- 
- 
+
+
 
 00:05:50.160 --> 00:05:52.550 align:start position:0%
- 
+
 Once<00:05:50.479><c> you've</c><00:05:50.720><c> created</c><00:05:50.960><c> a</c><00:05:51.120><c> few</c><00:05:51.280><c> bots,</c><00:05:52.240><c> this</c><00:05:52.400><c> is</c>
 
 00:05:52.550 --> 00:05:52.560 align:start position:0%
 Once you've created a few bots, this is
- 
+
 
 00:05:52.560 --> 00:05:55.029 align:start position:0%
 Once you've created a few bots, this is
@@ -1016,7 +1016,7 @@ how<00:05:53.280><c> your</c><00:05:53.520><c> kelp</c><00:05:53.840><c> applica
 
 00:05:55.029 --> 00:05:55.039 align:start position:0%
 how your kelp application or your kelp
- 
+
 
 00:05:55.039 --> 00:05:57.510 align:start position:0%
 how your kelp application or your kelp
@@ -1024,7 +1024,7 @@ forest<00:05:55.440><c> is</c><00:05:55.600><c> going</c><00:05:55.759><c> to</c
 
 00:05:57.510 --> 00:05:57.520 align:start position:0%
 forest is going to look like. We have
- 
+
 
 00:05:57.520 --> 00:05:59.990 align:start position:0%
 forest is going to look like. We have
@@ -1032,7 +1032,7 @@ the<00:05:57.759><c> first</c><00:05:58.000><c> autogenerated</c><00:05:58.880><
 
 00:05:59.990 --> 00:06:00.000 align:start position:0%
 the first autogenerated bot of George
- 
+
 
 00:06:00.000 --> 00:06:03.029 align:start position:0%
 the first autogenerated bot of George
@@ -1040,7 +1040,7 @@ the<00:06:00.240><c> auspicious</c><00:06:00.800><c> octopus.</c><00:06:02.080><
 
 00:06:03.029 --> 00:06:03.039 align:start position:0%
 the auspicious octopus. We've created
- 
+
 
 00:06:03.039 --> 00:06:06.230 align:start position:0%
 the auspicious octopus. We've created
@@ -1048,7 +1048,7 @@ two<00:06:03.280><c> more</c><00:06:03.440><c> bots,</c><00:06:04.160><c> Harry<
 
 00:06:06.230 --> 00:06:06.240 align:start position:0%
 two more bots, Harry the harmless habuka
- 
+
 
 00:06:06.240 --> 00:06:10.150 align:start position:0%
 two more bots, Harry the harmless habuka
@@ -1056,7 +1056,7 @@ and<00:06:06.479><c> Jerry</c><00:06:06.800><c> the</c><00:06:06.960><c> unsight
 
 00:06:10.150 --> 00:06:10.160 align:start position:0%
 and Jerry the unsightly shrimp.
- 
+
 
 00:06:10.160 --> 00:06:12.070 align:start position:0%
 and Jerry the unsightly shrimp.
@@ -1064,7 +1064,7 @@ If<00:06:10.319><c> you</c><00:06:10.479><c> take</c><00:06:10.639><c> a</c><00:
 
 00:06:12.070 --> 00:06:12.080 align:start position:0%
 If you take a look on the left side, you
- 
+
 
 00:06:12.080 --> 00:06:14.629 align:start position:0%
 If you take a look on the left side, you
@@ -1072,7 +1072,7 @@ can<00:06:12.160><c> see</c><00:06:12.319><c> the</c><00:06:12.560><c> markets</
 
 00:06:14.629 --> 00:06:14.639 align:start position:0%
 can see the markets and the balances of
- 
+
 
 00:06:14.639 --> 00:06:18.309 align:start position:0%
 can see the markets and the balances of
@@ -1080,7 +1080,7 @@ these<00:06:14.960><c> bots</c><00:06:15.680><c> for</c><00:06:15.919><c> those<
 
 00:06:18.309 --> 00:06:18.319 align:start position:0%
 these bots for those tokens. So George
- 
+
 
 00:06:18.319 --> 00:06:21.749 align:start position:0%
 these bots for those tokens. So George
@@ -1088,7 +1088,7 @@ has<00:06:18.960><c> about</c><00:06:19.280><c> 9,799.99</c>
 
 00:06:21.749 --> 00:06:21.759 align:start position:0%
 has about 9,799.99
- 
+
 
 00:06:21.759 --> 00:06:27.029 align:start position:0%
 has about 9,799.99
@@ -1096,7 +1096,7 @@ lumens<00:06:23.120><c> and</c><00:06:24.000><c> 1,0</c><00:06:24.960><c> coupon
 
 00:06:27.029 --> 00:06:27.039 align:start position:0%
 lumens and 1,0 coupon tokens.
- 
+
 
 00:06:27.039 --> 00:06:30.469 align:start position:0%
 lumens and 1,0 coupon tokens.
@@ -1104,7 +1104,7 @@ Similarly,<00:06:28.080><c> Harry</c><00:06:28.720><c> has</c><00:06:29.520><c> 
 
 00:06:30.469 --> 00:06:30.479 align:start position:0%
 Similarly, Harry has is trading in the
- 
+
 
 00:06:30.479 --> 00:06:33.590 align:start position:0%
 Similarly, Harry has is trading in the
@@ -1112,7 +1112,7 @@ Bitcoin<00:06:30.800><c> and</c><00:06:31.039><c> USD</c><00:06:31.440><c> marke
 
 00:06:33.590 --> 00:06:33.600 align:start position:0%
 Bitcoin and USD market and Harry has no
- 
+
 
 00:06:33.600 --> 00:06:36.070 align:start position:0%
 Bitcoin and USD market and Harry has no
@@ -1120,7 +1120,7 @@ balance<00:06:33.919><c> in</c><00:06:34.080><c> either</c><00:06:34.400><c> of<
 
 00:06:36.070 --> 00:06:36.080 align:start position:0%
 balance in either of those markets. And
- 
+
 
 00:06:36.080 --> 00:06:38.710 align:start position:0%
 balance in either of those markets. And
@@ -1128,7 +1128,7 @@ Jerry<00:06:36.560><c> is</c><00:06:36.800><c> trading</c><00:06:37.199><c> in</
 
 00:06:38.710 --> 00:06:38.720 align:start position:0%
 Jerry is trading in the Lumen BTC market
- 
+
 
 00:06:38.720 --> 00:06:42.790 align:start position:0%
 Jerry is trading in the Lumen BTC market
@@ -1136,7 +1136,7 @@ and<00:06:38.960><c> has</c><00:06:39.280><c> close</c><00:06:39.520><c> to</c><
 
 00:06:42.790 --> 00:06:42.800 align:start position:0%
 and has close to to 10,000 lumens.
- 
+
 
 00:06:42.800 --> 00:06:45.350 align:start position:0%
 and has close to to 10,000 lumens.
@@ -1144,7 +1144,7 @@ The<00:06:43.039><c> spread</c><00:06:43.440><c> for</c><00:06:43.680><c> both</
 
 00:06:45.350 --> 00:06:45.360 align:start position:0%
 The spread for both of Harry and Jerry
- 
+
 
 00:06:45.360 --> 00:06:47.110 align:start position:0%
 The spread for both of Harry and Jerry
@@ -1152,23 +1152,23 @@ are<00:06:45.520><c> negative</c><00:06:45.840><c> one</c><00:06:46.160><c> beca
 
 00:06:47.110 --> 00:06:47.120 align:start position:0%
 are negative one because no market
- 
+
 
 00:06:47.120 --> 00:06:50.870 align:start position:0%
 are negative one because no market
-exists.<00:06:48.400><c> Um</c><00:06:48.800><c> whereas</c><00:06:49.280><c> George</c><00:06:49.600><c> is</c><00:06:49.919><c> currently</c>
+exists.<00:06:48.400><c></c><00:06:48.800><c> whereas</c><00:06:49.280><c> George</c><00:06:49.600><c> is</c><00:06:49.919><c> currently</c>
 
 00:06:50.870 --> 00:06:50.880 align:start position:0%
-exists. Um whereas George is currently
- 
+exists. whereas George is currently
+
 
 00:06:50.880 --> 00:06:53.189 align:start position:0%
-exists. Um whereas George is currently
+exists. whereas George is currently
 running<00:06:51.520><c> and</c><00:06:51.759><c> has</c><00:06:52.000><c> created</c><00:06:52.240><c> a</c><00:06:52.479><c> market</c><00:06:52.720><c> with</c><00:06:52.960><c> a</c>
 
 00:06:53.189 --> 00:06:53.199 align:start position:0%
 running and has created a market with a
- 
+
 
 00:06:53.199 --> 00:06:57.510 align:start position:0%
 running and has created a market with a
@@ -1176,7 +1176,7 @@ spread<00:06:54.240><c> close</c><00:06:54.720><c> to</c><00:06:55.600><c> 0.20%
 
 00:06:57.510 --> 00:06:57.520 align:start position:0%
 spread close to 0.20%.
- 
+
 
 00:06:57.520 --> 00:06:58.790 align:start position:0%
 spread close to 0.20%.
@@ -1184,7 +1184,7 @@ This<00:06:57.680><c> spread</c><00:06:58.000><c> out</c><00:06:58.240><c> here<
 
 00:06:58.790 --> 00:06:58.800 align:start position:0%
 This spread out here does not
- 
+
 
 00:06:58.800 --> 00:07:00.629 align:start position:0%
 This spread out here does not
@@ -1192,7 +1192,7 @@ necessarily<00:06:59.360><c> indicate</c><00:06:59.759><c> the</c><00:07:00.080>
 
 00:07:00.629 --> 00:07:00.639 align:start position:0%
 necessarily indicate the spread that
- 
+
 
 00:07:00.639 --> 00:07:02.710 align:start position:0%
 necessarily indicate the spread that
@@ -1200,23 +1200,23 @@ George<00:07:01.039><c> is</c><00:07:01.280><c> creating,</c><00:07:01.680><c> b
 
 00:07:02.710 --> 00:07:02.720 align:start position:0%
 George is creating, but it is the spread
- 
+
 
 00:07:02.720 --> 00:07:06.390 align:start position:0%
 George is creating, but it is the spread
 of<00:07:02.880><c> the</c><00:07:03.120><c> market.</c>
 
 00:07:06.390 --> 00:07:06.400 align:start position:0%
- 
- 
+
+
 
 00:07:06.400 --> 00:07:09.350 align:start position:0%
- 
+
 You<00:07:06.639><c> can</c><00:07:06.720><c> also</c><00:07:07.120><c> see</c><00:07:07.599><c> how</c><00:07:08.240><c> often</c><00:07:08.560><c> the</c><00:07:08.800><c> bot</c><00:07:09.120><c> is</c>
 
 00:07:09.350 --> 00:07:09.360 align:start position:0%
 You can also see how often the bot is
- 
+
 
 00:07:09.360 --> 00:07:13.749 align:start position:0%
 You can also see how often the bot is
@@ -1224,7 +1224,7 @@ updated.<00:07:10.319><c> This</c><00:07:10.560><c> is</c><00:07:11.520><c> a</c
 
 00:07:13.749 --> 00:07:13.759 align:start position:0%
 updated. This is a check on the last
- 
+
 
 00:07:13.759 --> 00:07:16.309 align:start position:0%
 updated. This is a check on the last
@@ -1232,7 +1232,7 @@ time<00:07:14.240><c> that</c><00:07:14.720><c> we</c><00:07:15.039><c> got</c><
 
 00:07:16.309 --> 00:07:16.319 align:start position:0%
 time that we got information about the
- 
+
 
 00:07:16.319 --> 00:07:18.070 align:start position:0%
 time that we got information about the
@@ -1240,7 +1240,7 @@ spread<00:07:16.560><c> and</c><00:07:16.720><c> the</c><00:07:16.880><c> bids</
 
 00:07:18.070 --> 00:07:18.080 align:start position:0%
 spread and the bids and the asks for
- 
+
 
 00:07:18.080 --> 00:07:20.629 align:start position:0%
 spread and the bids and the asks for
@@ -1248,7 +1248,7 @@ this<00:07:18.240><c> given</c><00:07:18.560><c> bot.</c><00:07:19.759><c> This<
 
 00:07:20.629 --> 00:07:20.639 align:start position:0%
 this given bot. This typically runs
- 
+
 
 00:07:20.639 --> 00:07:24.390 align:start position:0%
 this given bot. This typically runs
@@ -1256,7 +1256,7 @@ about<00:07:20.880><c> 5</c><00:07:21.199><c> seconds</c><00:07:21.520><c> by</c
 
 00:07:24.390 --> 00:07:24.400 align:start position:0%
 about 5 seconds by default for the UI.
- 
+
 
 00:07:24.400 --> 00:07:26.469 align:start position:0%
 about 5 seconds by default for the UI.
@@ -1264,7 +1264,7 @@ If<00:07:24.639><c> you</c><00:07:24.800><c> click</c><00:07:25.120><c> on</c><0
 
 00:07:26.469 --> 00:07:26.479 align:start position:0%
 If you click on the three button menu
- 
+
 
 00:07:26.479 --> 00:07:29.749 align:start position:0%
 If you click on the three button menu
@@ -1272,7 +1272,7 @@ over<00:07:26.720><c> here,</c><00:07:27.520><c> you</c><00:07:27.759><c> have</
 
 00:07:29.749 --> 00:07:29.759 align:start position:0%
 over here, you have the option to select
- 
+
 
 00:07:29.759 --> 00:07:32.710 align:start position:0%
 over here, you have the option to select
@@ -1280,7 +1280,7 @@ to<00:07:30.080><c> see</c><00:07:30.400><c> the</c><00:07:30.880><c> offers</c>
 
 00:07:32.710 --> 00:07:32.720 align:start position:0%
 to see the offers and the market for
- 
+
 
 00:07:32.720 --> 00:07:35.510 align:start position:0%
 to see the offers and the market for
@@ -1288,7 +1288,7 @@ this<00:07:32.960><c> given</c><00:07:33.199><c> bot</c><00:07:33.840><c> and</c
 
 00:07:35.510 --> 00:07:35.520 align:start position:0%
 this given bot and also the to edit the
- 
+
 
 00:07:35.520 --> 00:07:38.390 align:start position:0%
 this given bot and also the to edit the
@@ -1296,39 +1296,39 @@ bot<00:07:35.919><c> if</c><00:07:36.080><c> it</c><00:07:36.240><c> is</c><00:0
 
 00:07:38.390 --> 00:07:38.400 align:start position:0%
 bot if it is in the stop mode. You could
- 
+
 
 00:07:38.400 --> 00:07:43.830 align:start position:0%
 bot if it is in the stop mode. You could
 also<00:07:38.560><c> delete</c><00:07:38.880><c> the</c><00:07:39.039><c> bot</c><00:07:39.280><c> if</c><00:07:39.440><c> you</c><00:07:39.599><c> wanted.</c>
 
 00:07:43.830 --> 00:07:43.840 align:start position:0%
- 
- 
+
+
 
 00:07:43.840 --> 00:07:46.309 align:start position:0%
- 
+
 Let's<00:07:44.160><c> go</c><00:07:44.319><c> ahead</c><00:07:44.560><c> and</c><00:07:44.880><c> see</c><00:07:45.039><c> a</c><00:07:45.280><c> demo</c><00:07:45.680><c> of</c><00:07:45.919><c> how</c><00:07:46.080><c> the</c>
 
 00:07:46.309 --> 00:07:46.319 align:start position:0%
 Let's go ahead and see a demo of how the
- 
+
 
 00:07:46.319 --> 00:07:54.309 align:start position:0%
 Let's go ahead and see a demo of how the
 bot<00:07:46.800><c> works.</c>
 
 00:07:54.309 --> 00:07:54.319 align:start position:0%
- 
- 
+
+
 
 00:07:54.319 --> 00:07:56.150 align:start position:0%
- 
+
 So,<00:07:54.560><c> I've</c><00:07:54.800><c> started</c><00:07:55.120><c> up</c><00:07:55.280><c> the</c><00:07:55.440><c> bot</c><00:07:55.759><c> in</c><00:07:55.919><c> my</c>
 
 00:07:56.150 --> 00:07:56.160 align:start position:0%
 So, I've started up the bot in my
- 
+
 
 00:07:56.160 --> 00:07:58.710 align:start position:0%
 So, I've started up the bot in my
@@ -1336,7 +1336,7 @@ machine
 
 00:07:58.710 --> 00:07:58.720 align:start position:0%
 machine
- 
+
 
 00:07:58.720 --> 00:08:02.790 align:start position:0%
 machine
@@ -1344,7 +1344,7 @@ and<00:08:00.080><c> we</c><00:08:00.319><c> see</c><00:08:00.479><c> the</c><00
 
 00:08:02.790 --> 00:08:02.800 align:start position:0%
 and we see the first screen out here.
- 
+
 
 00:08:02.800 --> 00:08:05.189 align:start position:0%
 and we see the first screen out here.
@@ -1352,23 +1352,23 @@ So,<00:08:03.120><c> I'm</c><00:08:03.360><c> going</c><00:08:03.440><c> to</c><
 
 00:08:05.189 --> 00:08:05.199 align:start position:0%
 So, I'm going to go ahead and create the
- 
+
 
 00:08:05.199 --> 00:08:09.589 align:start position:0%
 So, I'm going to go ahead and create the
 first<00:08:06.160><c> bot</c><00:08:06.560><c> manually.</c>
 
 00:08:09.589 --> 00:08:09.599 align:start position:0%
- 
- 
+
+
 
 00:08:09.599 --> 00:08:11.830 align:start position:0%
- 
+
 So<00:08:09.919><c> we</c><00:08:10.160><c> have</c><00:08:10.720><c> Madison</c><00:08:11.120><c> the</c><00:08:11.360><c> glamorous</c>
 
 00:08:11.830 --> 00:08:11.840 align:start position:0%
 So we have Madison the glamorous
- 
+
 
 00:08:11.840 --> 00:08:16.150 align:start position:0%
 So we have Madison the glamorous
@@ -1376,7 +1376,7 @@ sawfish.<00:08:13.280><c> Let's</c><00:08:13.680><c> create</c><00:08:14.000><c>
 
 00:08:16.150 --> 00:08:16.160 align:start position:0%
 sawfish. Let's create a new secret key.
- 
+
 
 00:08:16.160 --> 00:08:18.550 align:start position:0%
 sawfish. Let's create a new secret key.
@@ -1384,7 +1384,7 @@ So<00:08:16.400><c> the</c>
 
 00:08:18.550 --> 00:08:18.560 align:start position:0%
 So the
- 
+
 
 00:08:18.560 --> 00:08:21.270 align:start position:0%
 So the
@@ -1392,7 +1392,7 @@ bot<00:08:18.960><c> will</c><00:08:19.199><c> automatically</c><00:08:20.560><c
 
 00:08:21.270 --> 00:08:21.280 align:start position:0%
 bot will automatically create a new
- 
+
 
 00:08:21.280 --> 00:08:22.869 align:start position:0%
 bot will automatically create a new
@@ -1400,7 +1400,7 @@ secret<00:08:21.599><c> key</c><00:08:21.840><c> for</c><00:08:22.000><c> us</c>
 
 00:08:22.869 --> 00:08:22.879 align:start position:0%
 secret key for us and create the
- 
+
 
 00:08:22.879 --> 00:08:24.469 align:start position:0%
 secret key for us and create the
@@ -1408,7 +1408,7 @@ relevant<00:08:23.280><c> trust</c><00:08:23.520><c> lines.</c><00:08:23.919><c>
 
 00:08:24.469 --> 00:08:24.479 align:start position:0%
 relevant trust lines. So we don't have
- 
+
 
 00:08:24.479 --> 00:08:26.629 align:start position:0%
 relevant trust lines. So we don't have
@@ -1416,23 +1416,23 @@ to<00:08:24.560><c> worry</c><00:08:24.800><c> about</c><00:08:25.039><c> that.<
 
 00:08:26.629 --> 00:08:26.639 align:start position:0%
 to worry about that.
- 
+
 
 00:08:26.639 --> 00:08:32.550 align:start position:0%
 to worry about that.
 Let's<00:08:27.039><c> trade</c><00:08:27.440><c> in</c><00:08:27.759><c> the</c><00:08:28.240><c> USD</c><00:08:28.879><c> and</c><00:08:29.120><c> euro</c><00:08:29.520><c> market.</c>
 
 00:08:32.550 --> 00:08:32.560 align:start position:0%
- 
- 
+
+
 
 00:08:32.560 --> 00:08:35.029 align:start position:0%
- 
+
 Now<00:08:33.039><c> we</c><00:08:33.279><c> are</c><00:08:33.360><c> trading</c><00:08:33.680><c> on</c><00:08:33.839><c> the</c><00:08:34.320><c> test</c><00:08:34.640><c> network</c>
 
 00:08:35.029 --> 00:08:35.039 align:start position:0%
 Now we are trading on the test network
- 
+
 
 00:08:35.039 --> 00:08:38.149 align:start position:0%
 Now we are trading on the test network
@@ -1440,23 +1440,23 @@ out<00:08:35.279><c> here</c><00:08:35.839><c> and</c><00:08:36.080><c> for</c><
 
 00:08:38.149 --> 00:08:38.159 align:start position:0%
 out here and for simplicity let's use
- 
+
 
 00:08:38.159 --> 00:08:46.949 align:start position:0%
 out here and for simplicity let's use
 the<00:08:38.479><c> default</c><00:08:38.959><c> asset</c><00:08:39.360><c> issuer</c><00:08:39.839><c> that</c><00:08:40.000><c> we</c><00:08:40.240><c> have.</c>
 
 00:08:46.949 --> 00:08:46.959 align:start position:0%
- 
- 
+
+
 
 00:08:46.959 --> 00:08:49.910 align:start position:0%
- 
+
 So<00:08:47.200><c> I'm</c><00:08:47.360><c> going</c><00:08:47.440><c> to</c><00:08:47.600><c> paste</c><00:08:47.920><c> that</c><00:08:49.279><c> in</c><00:08:49.519><c> both</c><00:08:49.760><c> of</c>
 
 00:08:49.910 --> 00:08:49.920 align:start position:0%
 So I'm going to paste that in both of
- 
+
 
 00:08:49.920 --> 00:08:51.670 align:start position:0%
 So I'm going to paste that in both of
@@ -1464,7 +1464,7 @@ these
 
 00:08:51.670 --> 00:08:51.680 align:start position:0%
 these
- 
+
 
 00:08:51.680 --> 00:08:55.430 align:start position:0%
 these
@@ -1472,7 +1472,7 @@ token<00:08:52.080><c> issuer</c><00:08:52.959><c> spaces.</c><00:08:54.399><c> 
 
 00:08:55.430 --> 00:08:55.440 align:start position:0%
 token issuer spaces. Now, one advantage
- 
+
 
 00:08:55.440 --> 00:08:58.630 align:start position:0%
 token issuer spaces. Now, one advantage
@@ -1480,7 +1480,7 @@ of<00:08:55.680><c> using</c><00:08:56.000><c> the</c><00:08:56.320><c> default<
 
 00:08:58.630 --> 00:08:58.640 align:start position:0%
 of using the default asset issuer is
- 
+
 
 00:08:58.640 --> 00:09:01.670 align:start position:0%
 of using the default asset issuer is
@@ -1488,7 +1488,7 @@ that<00:08:58.959><c> the</c><00:08:59.120><c> bot</c><00:08:59.519><c> is</c><0
 
 00:09:01.670 --> 00:09:01.680 align:start position:0%
 that the bot is going to create
- 
+
 
 00:09:01.680 --> 00:09:06.150 align:start position:0%
 that the bot is going to create
@@ -1496,7 +1496,7 @@ and<00:09:02.000><c> fund</c><00:09:02.560><c> the</c><00:09:03.839><c> account<
 
 00:09:06.150 --> 00:09:06.160 align:start position:0%
 and fund the account with 1,000 units of
- 
+
 
 00:09:06.160 --> 00:09:08.710 align:start position:0%
 and fund the account with 1,000 units of
@@ -1504,7 +1504,7 @@ each<00:09:06.320><c> of</c><00:09:06.480><c> these</c><00:09:06.720><c> tokens.
 
 00:09:08.710 --> 00:09:08.720 align:start position:0%
 each of these tokens.
- 
+
 
 00:09:08.720 --> 00:09:11.509 align:start position:0%
 each of these tokens.
@@ -1512,7 +1512,7 @@ Now,<00:09:08.880><c> if</c><00:09:09.120><c> we</c><00:09:09.200><c> go</c><00:
 
 00:09:11.509 --> 00:09:11.519 align:start position:0%
 Now, if we go to the advanced settings,
- 
+
 
 00:09:11.519 --> 00:09:14.949 align:start position:0%
 Now, if we go to the advanced settings,
@@ -1520,7 +1520,7 @@ we<00:09:11.839><c> can</c><00:09:12.000><c> see</c><00:09:12.560><c> how</c><00
 
 00:09:14.949 --> 00:09:14.959 align:start position:0%
 we can see how often this bot runs. So,
- 
+
 
 00:09:14.959 --> 00:09:17.269 align:start position:0%
 we can see how often this bot runs. So,
@@ -1528,7 +1528,7 @@ by<00:09:15.200><c> default,</c><00:09:15.519><c> it</c><00:09:15.760><c> runs</
 
 00:09:17.269 --> 00:09:17.279 align:start position:0%
 by default, it runs once every 60
- 
+
 
 00:09:17.279 --> 00:09:20.070 align:start position:0%
 by default, it runs once every 60
@@ -1536,7 +1536,7 @@ seconds.<00:09:18.640><c> For</c><00:09:18.880><c> the</c><00:09:19.040><c> purp
 
 00:09:20.070 --> 00:09:20.080 align:start position:0%
 seconds. For the purposes of this this
- 
+
 
 00:09:20.080 --> 00:09:24.790 align:start position:0%
 seconds. For the purposes of this this
@@ -1544,7 +1544,7 @@ demo,<00:09:20.800><c> let's</c><00:09:21.120><c> change</c><00:09:21.360><c> th
 
 00:09:24.790 --> 00:09:24.800 align:start position:0%
 demo, let's change this to 6 seconds.
- 
+
 
 00:09:24.800 --> 00:09:27.590 align:start position:0%
 demo, let's change this to 6 seconds.
@@ -1552,7 +1552,7 @@ We<00:09:25.040><c> also</c><00:09:25.360><c> have</c><00:09:25.519><c> a</c><00
 
 00:09:27.590 --> 00:09:27.600 align:start position:0%
 We also have a randomized delay by
- 
+
 
 00:09:27.600 --> 00:09:30.230 align:start position:0%
 We also have a randomized delay by
@@ -1560,7 +1560,7 @@ default,<00:09:27.920><c> which</c><00:09:28.080><c> is</c><00:09:28.240><c> set
 
 00:09:30.230 --> 00:09:30.240 align:start position:0%
 default, which is set to 15 seconds.
- 
+
 
 00:09:30.240 --> 00:09:33.990 align:start position:0%
 default, which is set to 15 seconds.
@@ -1568,7 +1568,7 @@ Let's<00:09:30.560><c> set</c><00:09:30.720><c> that</c><00:09:30.959><c> to</c>
 
 00:09:33.990 --> 00:09:34.000 align:start position:0%
 Let's set that to zero for now.
- 
+
 
 00:09:34.000 --> 00:09:35.430 align:start position:0%
 Let's set that to zero for now.
@@ -1576,7 +1576,7 @@ There<00:09:34.160><c> are</c><00:09:34.320><c> some</c><00:09:34.480><c> more</
 
 00:09:35.430 --> 00:09:35.440 align:start position:0%
 There are some more advanced settings
- 
+
 
 00:09:35.440 --> 00:09:37.269 align:start position:0%
 There are some more advanced settings
@@ -1584,23 +1584,23 @@ out<00:09:35.600><c> here,</c><00:09:35.839><c> which</c><00:09:36.000><c> I</c>
 
 00:09:37.269 --> 00:09:37.279 align:start position:0%
 out here, which I won't go into detail
- 
+
 
 00:09:37.279 --> 00:09:42.470 align:start position:0%
 out here, which I won't go into detail
 for<00:09:37.600><c> this</c><00:09:37.839><c> video.</c>
 
 00:09:42.470 --> 00:09:42.480 align:start position:0%
- 
- 
+
+
 
 00:09:42.480 --> 00:09:46.550 align:start position:0%
- 
+
 When<00:09:42.720><c> we</c><00:09:42.959><c> want</c><00:09:43.120><c> to</c><00:09:43.360><c> price</c><00:09:44.720><c> this</c><00:09:45.040><c> market,</c>
 
 00:09:46.550 --> 00:09:46.560 align:start position:0%
 When we want to price this market,
- 
+
 
 00:09:46.560 --> 00:09:49.590 align:start position:0%
 When we want to price this market,
@@ -1608,7 +1608,7 @@ let's<00:09:46.959><c> try</c><00:09:47.200><c> and</c><00:09:47.920><c> set</c>
 
 00:09:49.590 --> 00:09:49.600 align:start position:0%
 let's try and set the best price for the
- 
+
 
 00:09:49.600 --> 00:09:52.550 align:start position:0%
 let's try and set the best price for the
@@ -1616,7 +1616,7 @@ USD<00:09:50.160><c> token.</c><00:09:51.200><c> Now,</c><00:09:51.519><c> becau
 
 00:09:52.550 --> 00:09:52.560 align:start position:0%
 USD token. Now, because this is a dollar
- 
+
 
 00:09:52.560 --> 00:09:54.630 align:start position:0%
 USD token. Now, because this is a dollar
@@ -1624,7 +1624,7 @@ and<00:09:52.880><c> we're</c><00:09:53.120><c> generally</c><00:09:53.600><c> u
 
 00:09:54.630 --> 00:09:54.640 align:start position:0%
 and we're generally using the dollar
- 
+
 
 00:09:54.640 --> 00:09:57.670 align:start position:0%
 and we're generally using the dollar
@@ -1632,7 +1632,7 @@ denominator<00:09:55.519><c> values,</c><00:09:56.800><c> we</c><00:09:57.040><c
 
 00:09:57.670 --> 00:09:57.680 align:start position:0%
 denominator values, we can actually just
- 
+
 
 00:09:57.680 --> 00:10:01.509 align:start position:0%
 denominator values, we can actually just
@@ -1640,7 +1640,7 @@ use<00:09:57.839><c> a</c><00:09:58.000><c> fixed</c><00:09:58.320><c> price</c>
 
 00:10:01.509 --> 00:10:01.519 align:start position:0%
 use a fixed price of one.
- 
+
 
 00:10:01.519 --> 00:10:03.190 align:start position:0%
 use a fixed price of one.
@@ -1648,7 +1648,7 @@ However,<00:10:01.839><c> for</c><00:10:02.080><c> the</c><00:10:02.240><c> deno
 
 00:10:03.190 --> 00:10:03.200 align:start position:0%
 However, for the denominator, we're
- 
+
 
 00:10:03.200 --> 00:10:05.990 align:start position:0%
 However, for the denominator, we're
@@ -1656,7 +1656,7 @@ pricing<00:10:03.600><c> the</c><00:10:03.760><c> euro</c><00:10:04.080><c> toke
 
 00:10:05.990 --> 00:10:06.000 align:start position:0%
 pricing the euro token. For that, we
- 
+
 
 00:10:06.000 --> 00:10:08.310 align:start position:0%
 pricing the euro token. For that, we
@@ -1664,7 +1664,7 @@ actually<00:10:06.320><c> want</c><00:10:06.480><c> to</c><00:10:06.720><c> use<
 
 00:10:08.310 --> 00:10:08.320 align:start position:0%
 actually want to use the price of the
- 
+
 
 00:10:08.320 --> 00:10:11.509 align:start position:0%
 actually want to use the price of the
@@ -1672,7 +1672,7 @@ euro.<00:10:09.440><c> So,</c><00:10:09.680><c> let's</c><00:10:09.920><c> go</c
 
 00:10:11.509 --> 00:10:11.519 align:start position:0%
 euro. So, let's go to fiat, which uses
- 
+
 
 00:10:11.519 --> 00:10:14.550 align:start position:0%
 euro. So, let's go to fiat, which uses
@@ -1680,23 +1680,23 @@ the<00:10:11.760><c> currency</c><00:10:12.240><c> layer</c><00:10:12.399><c> AP
 
 00:10:14.550 --> 00:10:14.560 align:start position:0%
 the currency layer API. Let's select
- 
+
 
 00:10:14.560 --> 00:10:19.269 align:start position:0%
 the currency layer API. Let's select
 euro.
 
 00:10:19.269 --> 00:10:19.279 align:start position:0%
- 
- 
+
+
 
 00:10:19.279 --> 00:10:20.949 align:start position:0%
- 
+
 Now,<00:10:19.519><c> you</c><00:10:19.760><c> notice</c><00:10:20.079><c> that</c><00:10:20.320><c> it</c><00:10:20.480><c> says</c><00:10:20.640><c> that</c><00:10:20.800><c> the</c>
 
 00:10:20.949 --> 00:10:20.959 align:start position:0%
 Now, you notice that it says that the
- 
+
 
 00:10:20.959 --> 00:10:23.750 align:start position:0%
 Now, you notice that it says that the
@@ -1704,7 +1704,7 @@ price<00:10:21.279><c> is</c><00:10:21.440><c> missing.</c><00:10:22.640><c> It<
 
 00:10:23.750 --> 00:10:23.760 align:start position:0%
 price is missing. It also has an error
- 
+
 
 00:10:23.760 --> 00:10:25.269 align:start position:0%
 price is missing. It also has an error
@@ -1712,7 +1712,7 @@ message<00:10:24.000><c> out</c><00:10:24.240><c> here</c><00:10:24.480><c> that
 
 00:10:25.269 --> 00:10:25.279 align:start position:0%
 message out here that says that we have
- 
+
 
 00:10:25.279 --> 00:10:27.990 align:start position:0%
 message out here that says that we have
@@ -1720,7 +1720,7 @@ an<00:10:25.440><c> invalid</c><00:10:25.839><c> API</c><00:10:26.320><c> key.</
 
 00:10:27.990 --> 00:10:28.000 align:start position:0%
 an invalid API key. Of course, because
- 
+
 
 00:10:28.000 --> 00:10:30.790 align:start position:0%
 an invalid API key. Of course, because
@@ -1728,7 +1728,7 @@ we<00:10:28.240><c> don't</c><00:10:28.399><c> have</c><00:10:28.480><c> an</c><
 
 00:10:30.790 --> 00:10:30.800 align:start position:0%
 we don't have an API key out here. So,
- 
+
 
 00:10:30.800 --> 00:10:35.350 align:start position:0%
 we don't have an API key out here. So,
@@ -1736,7 +1736,7 @@ I've<00:10:31.040><c> signed</c><00:10:31.279><c> up</c><00:10:31.519><c> for</c
 
 00:10:35.350 --> 00:10:35.360 align:start position:0%
 I've signed up for a free account for
- 
+
 
 00:10:35.360 --> 00:10:37.910 align:start position:0%
 I've signed up for a free account for
@@ -1744,7 +1744,7 @@ currency<00:10:35.920><c> layer.</c><00:10:36.959><c> So,</c><00:10:37.200><c> I
 
 00:10:37.910 --> 00:10:37.920 align:start position:0%
 currency layer. So, I'm going to go
- 
+
 
 00:10:37.920 --> 00:10:40.310 align:start position:0%
 currency layer. So, I'm going to go
@@ -1752,7 +1752,7 @@ ahead<00:10:38.160><c> and</c><00:10:38.320><c> use</c><00:10:38.560><c> that</c
 
 00:10:40.310 --> 00:10:40.320 align:start position:0%
 ahead and use that key.
- 
+
 
 00:10:40.320 --> 00:10:42.310 align:start position:0%
 ahead and use that key.
@@ -1760,7 +1760,7 @@ I'm<00:10:40.560><c> going</c><00:10:40.640><c> to</c><00:10:40.720><c> refresh<
 
 00:10:42.310 --> 00:10:42.320 align:start position:0%
 I'm going to refresh this price. And as
- 
+
 
 00:10:42.320 --> 00:10:45.509 align:start position:0%
 I'm going to refresh this price. And as
@@ -1768,7 +1768,7 @@ you<00:10:42.480><c> can</c><00:10:42.640><c> see,</c><00:10:43.440><c> the</c><
 
 00:10:45.509 --> 00:10:45.519 align:start position:0%
 you can see, the price is updated. It's
- 
+
 
 00:10:45.519 --> 00:10:48.310 align:start position:0%
 you can see, the price is updated. It's
@@ -1776,7 +1776,7 @@ always<00:10:46.000><c> good</c><00:10:46.320><c> to</c><00:10:46.640><c> do</c>
 
 00:10:48.310 --> 00:10:48.320 align:start position:0%
 always good to do a sanity check on the
- 
+
 
 00:10:48.320 --> 00:10:50.389 align:start position:0%
 always good to do a sanity check on the
@@ -1784,7 +1784,7 @@ prices<00:10:48.640><c> that</c><00:10:48.880><c> you</c><00:10:49.040><c> get</
 
 00:10:50.389 --> 00:10:50.399 align:start position:0%
 prices that you get over here because
- 
+
 
 00:10:50.399 --> 00:10:52.550 align:start position:0%
 prices that you get over here because
@@ -1792,7 +1792,7 @@ these<00:10:50.800><c> are</c><00:10:51.040><c> the</c><00:10:51.279><c> prices<
 
 00:10:52.550 --> 00:10:52.560 align:start position:0%
 these are the prices that the bot is
- 
+
 
 00:10:52.560 --> 00:10:54.790 align:start position:0%
 these are the prices that the bot is
@@ -1800,23 +1800,23 @@ going<00:10:52.720><c> to</c><00:10:52.880><c> see</c><00:10:53.120><c> when</c>
 
 00:10:54.790 --> 00:10:54.800 align:start position:0%
 going to see when it's running on a
- 
+
 
 00:10:54.800 --> 00:10:59.670 align:start position:0%
 going to see when it's running on a
 continuous<00:10:55.279><c> basis.</c><00:10:56.399><c> 1.088</c>
 
 00:10:59.670 --> 00:10:59.680 align:start position:0%
- 
- 
+
+
 
 00:10:59.680 --> 00:11:02.150 align:start position:0%
- 
+
 as<00:10:59.920><c> a</c><00:11:00.160><c> price</c><00:11:00.399><c> for</c><00:11:00.560><c> the</c><00:11:00.720><c> euro</c><00:11:01.440><c> makes</c><00:11:01.760><c> sense</c>
 
 00:11:02.150 --> 00:11:02.160 align:start position:0%
 as a price for the euro makes sense
- 
+
 
 00:11:02.160 --> 00:11:04.630 align:start position:0%
 as a price for the euro makes sense
@@ -1824,7 +1824,7 @@ because<00:11:02.560><c> a</c><00:11:02.800><c> euro</c><00:11:03.200><c> is</c>
 
 00:11:04.630 --> 00:11:04.640 align:start position:0%
 because a euro is worth more than a
- 
+
 
 00:11:04.640 --> 00:11:06.710 align:start position:0%
 because a euro is worth more than a
@@ -1832,7 +1832,7 @@ dollar.
 
 00:11:06.710 --> 00:11:06.720 align:start position:0%
 dollar.
- 
+
 
 00:11:06.720 --> 00:11:08.870 align:start position:0%
 dollar.
@@ -1840,7 +1840,7 @@ Now,<00:11:07.200><c> one</c><00:11:07.440><c> thing</c><00:11:07.600><c> to</c>
 
 00:11:08.870 --> 00:11:08.880 align:start position:0%
 Now, one thing to note about these price
- 
+
 
 00:11:08.880 --> 00:11:11.430 align:start position:0%
 Now, one thing to note about these price
@@ -1848,7 +1848,7 @@ feeds<00:11:09.279><c> is</c><00:11:09.680><c> that</c><00:11:10.000><c> the</c>
 
 00:11:11.430 --> 00:11:11.440 align:start position:0%
 feeds is that the this price that you
- 
+
 
 00:11:11.440 --> 00:11:13.350 align:start position:0%
 feeds is that the this price that you
@@ -1856,7 +1856,7 @@ see<00:11:11.600><c> out</c><00:11:11.760><c> here</c><00:11:12.000><c> is</c><0
 
 00:11:13.350 --> 00:11:13.360 align:start position:0%
 see out here is not the price that is
- 
+
 
 00:11:13.360 --> 00:11:16.790 align:start position:0%
 see out here is not the price that is
@@ -1864,7 +1864,7 @@ hardcoded<00:11:14.079><c> into</c><00:11:14.320><c> the</c><00:11:14.480><c> bo
 
 00:11:16.790 --> 00:11:16.800 align:start position:0%
 hardcoded into the bot. The bot is going
- 
+
 
 00:11:16.800 --> 00:11:19.670 align:start position:0%
 hardcoded into the bot. The bot is going
@@ -1872,7 +1872,7 @@ to<00:11:17.120><c> run</c><00:11:17.440><c> the</c><00:11:17.680><c> same</c><0
 
 00:11:19.670 --> 00:11:19.680 align:start position:0%
 to run the same query at every time
- 
+
 
 00:11:19.680 --> 00:11:21.030 align:start position:0%
 to run the same query at every time
@@ -1880,7 +1880,7 @@ interval<00:11:20.000><c> that</c><00:11:20.160><c> it</c><00:11:20.399><c> runs
 
 00:11:21.030 --> 00:11:21.040 align:start position:0%
 interval that it runs, which we
- 
+
 
 00:11:21.040 --> 00:11:23.430 align:start position:0%
 interval that it runs, which we
@@ -1888,7 +1888,7 @@ previously<00:11:21.440><c> set</c><00:11:21.760><c> to</c><00:11:22.079><c> 6</
 
 00:11:23.430 --> 00:11:23.440 align:start position:0%
 previously set to 6 seconds. So, it's
- 
+
 
 00:11:23.440 --> 00:11:25.509 align:start position:0%
 previously set to 6 seconds. So, it's
@@ -1896,7 +1896,7 @@ going<00:11:23.600><c> to</c><00:11:23.760><c> get</c><00:11:23.920><c> a</c><00
 
 00:11:25.509 --> 00:11:25.519 align:start position:0%
 going to get a price that moves with the
- 
+
 
 00:11:25.519 --> 00:11:27.990 align:start position:0%
 going to get a price that moves with the
@@ -1904,7 +1904,7 @@ market<00:11:26.000><c> as</c><00:11:26.240><c> you</c><00:11:26.480><c> have</c
 
 00:11:27.990 --> 00:11:28.000 align:start position:0%
 market as you have set for this price
- 
+
 
 00:11:28.000 --> 00:11:30.870 align:start position:0%
 market as you have set for this price
@@ -1912,7 +1912,7 @@ feed.<00:11:28.720><c> So,</c><00:11:28.959><c> this</c><00:11:29.120><c> is</c>
 
 00:11:30.870 --> 00:11:30.880 align:start position:0%
 feed. So, this is a very active and
- 
+
 
 00:11:30.880 --> 00:11:33.990 align:start position:0%
 feed. So, this is a very active and
@@ -1920,7 +1920,7 @@ dynamic<00:11:31.279><c> price</c><00:11:31.600><c> feed.</c>
 
 00:11:33.990 --> 00:11:34.000 align:start position:0%
 dynamic price feed.
- 
+
 
 00:11:34.000 --> 00:11:36.550 align:start position:0%
 dynamic price feed.
@@ -1928,7 +1928,7 @@ As<00:11:34.240><c> you</c><00:11:34.399><c> can</c><00:11:34.560><c> see,</c><0
 
 00:11:36.550 --> 00:11:36.560 align:start position:0%
 As you can see, we run the calculation
- 
+
 
 00:11:36.560 --> 00:11:38.949 align:start position:0%
 As you can see, we run the calculation
@@ -1936,7 +1936,7 @@ of<00:11:36.880><c> taking</c><00:11:37.279><c> the</c><00:11:37.839><c> net</c>
 
 00:11:38.949 --> 00:11:38.959 align:start position:0%
 of taking the net price that we will
- 
+
 
 00:11:38.959 --> 00:11:44.310 align:start position:0%
 of taking the net price that we will
@@ -1944,7 +1944,7 @@ get,<00:11:39.360><c> which</c><00:11:39.600><c> is1</c><00:11:40.640><c> US</c>
 
 00:11:44.310 --> 00:11:44.320 align:start position:0%
 get, which is1 US divided by 1.0888
- 
+
 
 00:11:44.320 --> 00:11:46.310 align:start position:0%
 get, which is1 US divided by 1.0888
@@ -1952,23 +1952,23 @@ for<00:11:44.560><c> the</c><00:11:44.720><c> euro</c><00:11:45.040><c> price,</
 
 00:11:46.310 --> 00:11:46.320 align:start position:0%
 for the euro price, which gives us
- 
+
 
 00:11:46.320 --> 00:11:49.910 align:start position:0%
 for the euro price, which gives us
 0.91844.
 
 00:11:49.910 --> 00:11:49.920 align:start position:0%
- 
- 
+
+
 
 00:11:49.920 --> 00:11:52.230 align:start position:0%
- 
+
 The<00:11:50.160><c> sentence</c><00:11:50.560><c> helps</c><00:11:50.959><c> explain</c><00:11:51.279><c> that,</c><00:11:52.000><c> which</c>
 
 00:11:52.230 --> 00:11:52.240 align:start position:0%
 The sentence helps explain that, which
- 
+
 
 00:11:52.240 --> 00:11:54.710 align:start position:0%
 The sentence helps explain that, which
@@ -1976,7 +1976,7 @@ is<00:11:52.560><c> you</c><00:11:52.720><c> are</c><00:11:52.880><c> valuing</c
 
 00:11:54.710 --> 00:11:54.720 align:start position:0%
 is you are valuing one unit of the US
- 
+
 
 00:11:54.720 --> 00:11:57.509 align:start position:0%
 is you are valuing one unit of the US
@@ -1984,7 +1984,7 @@ dollar<00:11:55.279><c> at</c><00:11:55.600><c> 0.91844</c>
 
 00:11:57.509 --> 00:11:57.519 align:start position:0%
 dollar at 0.91844
- 
+
 
 00:11:57.519 --> 00:12:00.389 align:start position:0%
 dollar at 0.91844
@@ -1992,7 +1992,7 @@ units<00:11:57.920><c> of</c><00:11:58.160><c> a</c><00:11:58.320><c> euro.</c><
 
 00:12:00.389 --> 00:12:00.399 align:start position:0%
 units of a euro. This makes sense
- 
+
 
 00:12:00.399 --> 00:12:02.790 align:start position:0%
 units of a euro. This makes sense
@@ -2000,55 +2000,55 @@ because<00:12:00.720><c> a</c><00:12:00.959><c> euro</c><00:12:01.279><c> is</c>
 
 00:12:02.790 --> 00:12:02.800 align:start position:0%
 because a euro is worth more than a US
- 
+
 
 00:12:02.800 --> 00:12:06.710 align:start position:0%
 because a euro is worth more than a US
 dollar.
 
 00:12:06.710 --> 00:12:06.720 align:start position:0%
- 
- 
+
+
 
 00:12:06.720 --> 00:12:09.269 align:start position:0%
- 
+
 Now<00:12:06.880><c> we</c><00:12:07.120><c> come</c><00:12:07.279><c> to</c><00:12:07.440><c> the</c><00:12:07.600><c> levels.</c><00:12:08.639><c> By</c><00:12:08.959><c> default,</c>
 
 00:12:09.269 --> 00:12:09.279 align:start position:0%
 Now we come to the levels. By default,
- 
+
 
 00:12:09.279 --> 00:12:14.069 align:start position:0%
 Now we come to the levels. By default,
 the<00:12:09.440><c> bot</c><00:12:09.760><c> starts</c><00:12:10.000><c> out</c><00:12:10.240><c> with</c><00:12:10.480><c> four</c><00:12:10.800><c> levels.</c>
 
 00:12:14.069 --> 00:12:14.079 align:start position:0%
- 
- 
+
+
 
 00:12:14.079 --> 00:12:17.350 align:start position:0%
- 
+
 Why<00:12:14.240><c> don't</c><00:12:14.480><c> we</c><00:12:14.880><c> change</c><00:12:15.279><c> these</c><00:12:15.680><c> amounts</c><00:12:16.800><c> to</c><00:12:17.040><c> be</c>
 
 00:12:17.350 --> 00:12:17.360 align:start position:0%
 Why don't we change these amounts to be
- 
+
 
 00:12:17.360 --> 00:12:25.110 align:start position:0%
 Why don't we change these amounts to be
 50<00:12:18.639><c> just</c><00:12:18.880><c> for</c><00:12:19.040><c> the</c><00:12:19.200><c> purposes</c><00:12:19.519><c> of</c><00:12:19.680><c> this</c><00:12:19.920><c> demo.</c>
 
 00:12:25.110 --> 00:12:25.120 align:start position:0%
- 
- 
+
+
 
 00:12:25.120 --> 00:12:28.710 align:start position:0%
- 
+
 And<00:12:25.360><c> it's</c><00:12:25.600><c> being</c><00:12:26.560><c> set</c><00:12:26.959><c> at</c><00:12:27.279><c> a</c><00:12:27.600><c> spread</c><00:12:28.000><c> value</c><00:12:28.399><c> of</c>
 
 00:12:28.710 --> 00:12:28.720 align:start position:0%
 And it's being set at a spread value of
- 
+
 
 00:12:28.720 --> 00:12:30.790 align:start position:0%
 And it's being set at a spread value of
@@ -2056,7 +2056,7 @@ And it's being set at a spread value of
 
 00:12:30.790 --> 00:12:30.800 align:start position:0%
 0.1%
- 
+
 
 00:12:30.800 --> 00:12:33.269 align:start position:0%
 0.1%
@@ -2064,7 +2064,7 @@ from<00:12:31.120><c> the</c><00:12:31.360><c> mid</c><00:12:31.680><c> price.</
 
 00:12:33.269 --> 00:12:33.279 align:start position:0%
 from the mid price. Which means that the
- 
+
 
 00:12:33.279 --> 00:12:38.069 align:start position:0%
 from the mid price. Which means that the
@@ -2072,31 +2072,31 @@ bid<00:12:33.600><c> ask</c><00:12:33.920><c> spread</c><00:12:34.320><c> is</c>
 
 00:12:38.069 --> 00:12:38.079 align:start position:0%
 bid ask spread is 0.2% here, 0.3% here,
- 
+
 
 00:12:38.079 --> 00:12:43.910 align:start position:0%
 bid ask spread is 0.2% here, 0.3% here,
 0.4%<00:12:39.519><c> and</c><00:12:39.760><c> 0.5%.</c>
 
 00:12:43.910 --> 00:12:43.920 align:start position:0%
- 
- 
+
+
 
 00:12:43.920 --> 00:12:48.069 align:start position:0%
- 
+
 Let's<00:12:44.240><c> create</c><00:12:44.480><c> this</c><00:12:44.720><c> bot.</c>
 
 00:12:48.069 --> 00:12:48.079 align:start position:0%
- 
- 
+
+
 
 00:12:48.079 --> 00:12:50.230 align:start position:0%
- 
+
 So<00:12:48.320><c> this</c><00:12:48.560><c> bot</c><00:12:48.959><c> is</c><00:12:49.200><c> now</c><00:12:49.360><c> in</c><00:12:49.600><c> the</c><00:12:49.760><c> process</c><00:12:50.000><c> of</c>
 
 00:12:50.230 --> 00:12:50.240 align:start position:0%
 So this bot is now in the process of
- 
+
 
 00:12:50.240 --> 00:12:52.710 align:start position:0%
 So this bot is now in the process of
@@ -2104,7 +2104,7 @@ initializing<00:12:51.279><c> which</c><00:12:51.519><c> means</c><00:12:52.079>
 
 00:12:52.710 --> 00:12:52.720 align:start position:0%
 initializing which means that the
- 
+
 
 00:12:52.720 --> 00:12:54.710 align:start position:0%
 initializing which means that the
@@ -2112,7 +2112,7 @@ application<00:12:53.360><c> is</c><00:12:53.680><c> creating</c><00:12:54.000><
 
 00:12:54.710 --> 00:12:54.720 align:start position:0%
 application is creating the necessary
- 
+
 
 00:12:54.720 --> 00:12:57.430 align:start position:0%
 application is creating the necessary
@@ -2120,7 +2120,7 @@ trust<00:12:55.040><c> lines</c><00:12:56.000><c> and</c><00:12:56.320><c> issui
 
 00:12:57.430 --> 00:12:57.440 align:start position:0%
 trust lines and issuing the relevant
- 
+
 
 00:12:57.440 --> 00:13:00.550 align:start position:0%
 trust lines and issuing the relevant
@@ -2128,7 +2128,7 @@ assets<00:12:58.480><c> to</c><00:12:58.720><c> the</c><00:12:58.959><c> the</c>
 
 00:13:00.550 --> 00:13:00.560 align:start position:0%
 assets to the the new secret key account
- 
+
 
 00:13:00.560 --> 00:13:03.829 align:start position:0%
 assets to the the new secret key account
@@ -2136,7 +2136,7 @@ that<00:13:00.800><c> we</c><00:13:01.040><c> created.</c><00:13:02.320><c> This
 
 00:13:03.829 --> 00:13:03.839 align:start position:0%
 that we created. This usually takes a
- 
+
 
 00:13:03.839 --> 00:13:06.389 align:start position:0%
 that we created. This usually takes a
@@ -2144,7 +2144,7 @@ little<00:13:04.000><c> bit</c><00:13:04.160><c> of</c><00:13:04.320><c> time</c
 
 00:13:06.389 --> 00:13:06.399 align:start position:0%
 little bit of time and it seems like
- 
+
 
 00:13:06.399 --> 00:13:10.470 align:start position:0%
 little bit of time and it seems like
@@ -2152,7 +2152,7 @@ we're<00:13:06.639><c> done.</c><00:13:07.680><c> So</c><00:13:09.120><c> as</c>
 
 00:13:10.470 --> 00:13:10.480 align:start position:0%
 we're done. So as you can see we have a
- 
+
 
 00:13:10.480 --> 00:13:13.269 align:start position:0%
 we're done. So as you can see we have a
@@ -2160,7 +2160,7 @@ th00and<00:13:10.720><c> units</c><00:13:11.040><c> of</c><00:13:11.200><c> the<
 
 00:13:13.269 --> 00:13:13.279 align:start position:0%
 th00and units of the of USD as well as
- 
+
 
 00:13:13.279 --> 00:13:15.910 align:start position:0%
 th00and units of the of USD as well as
@@ -2168,7 +2168,7 @@ the<00:13:13.440><c> euro.</c><00:13:14.079><c> And</c><00:13:14.240><c> if</c><
 
 00:13:15.910 --> 00:13:15.920 align:start position:0%
 the euro. And if we hover over to this I
- 
+
 
 00:13:15.920 --> 00:13:19.350 align:start position:0%
 the euro. And if we hover over to this I
@@ -2176,7 +2176,7 @@ icon,<00:13:16.320><c> we</c><00:13:16.480><c> can</c><00:13:16.639><c> see</c><
 
 00:13:19.350 --> 00:13:19.360 align:start position:0%
 icon, we can see the asset issuer.
- 
+
 
 00:13:19.360 --> 00:13:20.870 align:start position:0%
 icon, we can see the asset issuer.
@@ -2184,23 +2184,23 @@ And<00:13:19.519><c> the</c><00:13:19.680><c> spread,</c><00:13:20.000><c> of</c
 
 00:13:20.870 --> 00:13:20.880 align:start position:0%
 And the spread, of course, is negative
- 
+
 
 00:13:20.880 --> 00:13:25.430 align:start position:0%
 And the spread, of course, is negative
 one<00:13:21.200><c> because</c><00:13:21.440><c> we</c><00:13:21.680><c> don't</c><00:13:21.760><c> have</c><00:13:21.839><c> a</c><00:13:22.079><c> market</c><00:13:22.399><c> yet.</c>
 
 00:13:25.430 --> 00:13:25.440 align:start position:0%
- 
- 
+
+
 
 00:13:25.440 --> 00:13:28.550 align:start position:0%
- 
+
 Now,<00:13:25.680><c> let's</c><00:13:26.079><c> create</c><00:13:26.560><c> a</c><00:13:26.959><c> second</c><00:13:27.279><c> bot</c><00:13:28.000><c> that</c><00:13:28.320><c> is</c>
 
 00:13:28.550 --> 00:13:28.560 align:start position:0%
 Now, let's create a second bot that is
- 
+
 
 00:13:28.560 --> 00:13:30.629 align:start position:0%
 Now, let's create a second bot that is
@@ -2208,7 +2208,7 @@ going<00:13:28.800><c> to</c>
 
 00:13:30.629 --> 00:13:30.639 align:start position:0%
 going to
- 
+
 
 00:13:30.639 --> 00:13:33.509 align:start position:0%
 going to
@@ -2216,7 +2216,7 @@ compete<00:13:31.120><c> with</c><00:13:31.360><c> the</c><00:13:31.600><c> firs
 
 00:13:33.509 --> 00:13:33.519 align:start position:0%
 compete with the first bot before we
- 
+
 
 00:13:33.519 --> 00:13:35.590 align:start position:0%
 compete with the first bot before we
@@ -2224,39 +2224,39 @@ start<00:13:33.760><c> any</c><00:13:34.000><c> of</c><00:13:34.160><c> them.</c
 
 00:13:35.590 --> 00:13:35.600 align:start position:0%
 start any of them. So, we're going to
- 
+
 
 00:13:35.600 --> 00:13:39.829 align:start position:0%
 start any of them. So, we're going to
 follow<00:13:35.920><c> the</c><00:13:36.240><c> same</c><00:13:36.560><c> process,</c>
 
 00:13:39.829 --> 00:13:39.839 align:start position:0%
- 
- 
+
+
 
 00:13:39.839 --> 00:13:41.509 align:start position:0%
- 
+
 but<00:13:40.160><c> I'm</c><00:13:40.399><c> just</c><00:13:40.560><c> going</c><00:13:40.720><c> to</c><00:13:40.800><c> do</c><00:13:40.880><c> this</c><00:13:41.120><c> a</c><00:13:41.360><c> little</c>
 
 00:13:41.509 --> 00:13:41.519 align:start position:0%
 but I'm just going to do this a little
- 
+
 
 00:13:41.519 --> 00:13:51.990 align:start position:0%
 but I'm just going to do this a little
 quicker.
 
 00:13:51.990 --> 00:13:52.000 align:start position:0%
- 
- 
+
+
 
 00:13:52.000 --> 00:13:54.150 align:start position:0%
- 
+
 We're<00:13:52.240><c> going</c><00:13:52.320><c> to</c><00:13:52.480><c> set</c><00:13:52.639><c> this</c><00:13:52.880><c> to</c><00:13:53.120><c> be</c><00:13:53.600><c> around</c><00:13:53.920><c> the</c>
 
 00:13:54.150 --> 00:13:54.160 align:start position:0%
 We're going to set this to be around the
- 
+
 
 00:13:54.160 --> 00:13:56.710 align:start position:0%
 We're going to set this to be around the
@@ -2264,39 +2264,39 @@ same<00:13:54.399><c> time</c><00:13:54.639><c> interval</c><00:13:55.920><c> ju
 
 00:13:56.710 --> 00:13:56.720 align:start position:0%
 same time interval just for the purpose
- 
+
 
 00:13:56.720 --> 00:14:17.430 align:start position:0%
 same time interval just for the purpose
 of<00:13:56.959><c> this</c><00:13:57.120><c> demo.</c>
 
 00:14:17.430 --> 00:14:17.440 align:start position:0%
- 
- 
+
+
 
 00:14:17.440 --> 00:14:19.509 align:start position:0%
- 
+
 writing<00:14:17.920><c> our</c><00:14:18.079><c> sanity</c><00:14:18.480><c> checks.</c><00:14:18.880><c> We</c><00:14:19.040><c> get</c><00:14:19.199><c> about</c>
 
 00:14:19.509 --> 00:14:19.519 align:start position:0%
 writing our sanity checks. We get about
- 
+
 
 00:14:19.519 --> 00:14:24.710 align:start position:0%
 writing our sanity checks. We get about
 the<00:14:19.760><c> same</c><00:14:20.079><c> price.</c><00:14:20.560><c> So</c><00:14:20.720><c> that's</c><00:14:21.440><c> right.</c>
 
 00:14:24.710 --> 00:14:24.720 align:start position:0%
- 
- 
+
+
 
 00:14:24.720 --> 00:14:26.550 align:start position:0%
- 
+
 We<00:14:24.959><c> can</c><00:14:25.120><c> just</c><00:14:25.279><c> leave</c><00:14:25.440><c> this</c><00:14:25.680><c> at</c><00:14:25.920><c> 100.</c><00:14:26.320><c> That's</c>
 
 00:14:26.550 --> 00:14:26.560 align:start position:0%
 We can just leave this at 100. That's
- 
+
 
 00:14:26.560 --> 00:14:29.670 align:start position:0%
 We can just leave this at 100. That's
@@ -2304,7 +2304,7 @@ fine.<00:14:27.839><c> Now,</c>
 
 00:14:29.670 --> 00:14:29.680 align:start position:0%
 fine. Now,
- 
+
 
 00:14:29.680 --> 00:14:32.470 align:start position:0%
 fine. Now,
@@ -2312,39 +2312,39 @@ we<00:14:29.920><c> want</c><00:14:30.160><c> these</c><00:14:31.040><c> bots</c
 
 00:14:32.470 --> 00:14:32.480 align:start position:0%
 we want these bots to compete with each
- 
+
 
 00:14:32.480 --> 00:14:36.069 align:start position:0%
 we want these bots to compete with each
-other.<00:14:33.120><c> Now,</c><00:14:33.680><c> normally,</c><00:14:35.040><c> um,</c><00:14:35.440><c> we</c><00:14:35.680><c> would</c><00:14:35.839><c> not</c>
+other.<00:14:33.120><c> Now,</c><00:14:33.680><c> normally,</c><00:14:35.040><c>,</c><00:14:35.440><c> we</c><00:14:35.680><c> would</c><00:14:35.839><c> not</c>
 
 00:14:36.069 --> 00:14:36.079 align:start position:0%
-other. Now, normally, um, we would not
- 
+other. Now, normally,, we would not
+
 
 00:14:36.079 --> 00:14:38.790 align:start position:0%
-other. Now, normally, um, we would not
+other. Now, normally,, we would not
 force<00:14:36.480><c> these</c><00:14:36.800><c> bots</c><00:14:37.199><c> to</c><00:14:37.440><c> compete,</c><00:14:38.240><c> but</c><00:14:38.560><c> I'm</c>
 
 00:14:38.790 --> 00:14:38.800 align:start position:0%
 force these bots to compete, but I'm
- 
+
 
 00:14:38.800 --> 00:14:42.949 align:start position:0%
 force these bots to compete, but I'm
-trying<00:14:39.120><c> to</c><00:14:39.600><c> show</c><00:14:40.000><c> a</c><00:14:40.399><c> specific,</c><00:14:41.839><c> uh,</c><00:14:42.480><c> example</c>
+trying<00:14:39.120><c> to</c><00:14:39.600><c> show</c><00:14:40.000><c> a</c><00:14:40.399><c> specific,</c><00:14:41.839><c>,</c><00:14:42.480><c> example</c>
 
 00:14:42.949 --> 00:14:42.959 align:start position:0%
-trying to show a specific, uh, example
- 
+trying to show a specific,, example
+
 
 00:14:42.959 --> 00:14:46.629 align:start position:0%
-trying to show a specific, uh, example
+trying to show a specific,, example
 out<00:14:43.199><c> here,</c><00:14:43.920><c> which</c><00:14:44.480><c> allows</c><00:14:45.279><c> this</c><00:14:45.839><c> the</c><00:14:46.320><c> second</c>
 
 00:14:46.629 --> 00:14:46.639 align:start position:0%
 out here, which allows this the second
- 
+
 
 00:14:46.639 --> 00:14:49.189 align:start position:0%
 out here, which allows this the second
@@ -2352,7 +2352,7 @@ bot<00:14:47.040><c> to</c><00:14:47.279><c> purchase</c><00:14:47.920><c> all</
 
 00:14:49.189 --> 00:14:49.199 align:start position:0%
 bot to purchase all of the US dollars
- 
+
 
 00:14:49.199 --> 00:14:51.110 align:start position:0%
 bot to purchase all of the US dollars
@@ -2360,23 +2360,23 @@ from<00:14:49.360><c> the</c><00:14:49.600><c> first</c><00:14:49.760><c> bot.</
 
 00:14:51.110 --> 00:14:51.120 align:start position:0%
 from the first bot. So, I'm
- 
+
 
 00:14:51.120 --> 00:14:56.550 align:start position:0%
 from the first bot. So, I'm
 intentionally<00:14:52.000><c> mispricing</c><00:14:52.800><c> the</c><00:14:53.120><c> second</c><00:14:53.360><c> bot.</c>
 
 00:14:56.550 --> 00:14:56.560 align:start position:0%
- 
- 
+
+
 
 00:14:56.560 --> 00:15:02.550 align:start position:0%
- 
+
 I<00:14:56.880><c> do</c><00:14:57.040><c> that</c><00:14:57.360><c> by</c><00:14:58.000><c> adding</c><00:14:59.360><c> a</c><00:14:59.519><c> 0.05</c><00:15:00.240><c> 05</c><00:15:01.600><c> cent</c>
 
 00:15:02.550 --> 00:15:02.560 align:start position:0%
 I do that by adding a 0.05 05 cent
- 
+
 
 00:15:02.560 --> 00:15:07.350 align:start position:0%
 I do that by adding a 0.05 05 cent
@@ -2384,7 +2384,7 @@ offset<00:15:03.279><c> to</c><00:15:03.519><c> this</c><00:15:03.680><c> bot's<
 
 00:15:07.350 --> 00:15:07.360 align:start position:0%
 offset to this bot's price. Now, usually
- 
+
 
 00:15:07.360 --> 00:15:09.910 align:start position:0%
 offset to this bot's price. Now, usually
@@ -2392,7 +2392,7 @@ this<00:15:07.760><c> advanced</c><00:15:08.560><c> setting</c><00:15:08.959><c>
 
 00:15:09.910 --> 00:15:09.920 align:start position:0%
 this advanced setting section is there
- 
+
 
 00:15:09.920 --> 00:15:12.710 align:start position:0%
 this advanced setting section is there
@@ -2400,7 +2400,7 @@ to<00:15:10.160><c> correct</c><00:15:10.560><c> any</c><00:15:10.959><c> prices
 
 00:15:12.710 --> 00:15:12.720 align:start position:0%
 to correct any prices that I might see.
- 
+
 
 00:15:12.720 --> 00:15:15.110 align:start position:0%
 to correct any prices that I might see.
@@ -2408,7 +2408,7 @@ So,<00:15:12.959><c> for</c><00:15:13.120><c> example,</c><00:15:13.680><c> if</
 
 00:15:15.110 --> 00:15:15.120 align:start position:0%
 So, for example, if I was to go to the
- 
+
 
 00:15:15.120 --> 00:15:18.230 align:start position:0%
 So, for example, if I was to go to the
@@ -2416,7 +2416,7 @@ Google<00:15:16.079><c> website</c><00:15:16.560><c> and</c><00:15:16.880><c> fi
 
 00:15:18.230 --> 00:15:18.240 align:start position:0%
 Google website and find a price for a
- 
+
 
 00:15:18.240 --> 00:15:20.470 align:start position:0%
 Google website and find a price for a
@@ -2424,7 +2424,7 @@ token<00:15:18.639><c> and</c><00:15:18.800><c> that's</c><00:15:18.959><c> the<
 
 00:15:20.470 --> 00:15:20.480 align:start position:0%
 token and that's the one I chose to use
- 
+
 
 00:15:20.480 --> 00:15:23.110 align:start position:0%
 token and that's the one I chose to use
@@ -2432,7 +2432,7 @@ or<00:15:20.800><c> if</c><00:15:20.959><c> there</c><00:15:21.199><c> was</c><0
 
 00:15:23.110 --> 00:15:23.120 align:start position:0%
 or if there was a price that my bank was
- 
+
 
 00:15:23.120 --> 00:15:25.670 align:start position:0%
 or if there was a price that my bank was
@@ -2440,7 +2440,7 @@ giving<00:15:23.360><c> me</c><00:15:23.519><c> and</c><00:15:23.760><c> I</c><0
 
 00:15:25.670 --> 00:15:25.680 align:start position:0%
 giving me and I wanted the currency
- 
+
 
 00:15:25.680 --> 00:15:27.990 align:start position:0%
 giving me and I wanted the currency
@@ -2448,7 +2448,7 @@ layer<00:15:25.920><c> price</c><00:15:26.160><c> feed</c><00:15:26.480><c> to</
 
 00:15:27.990 --> 00:15:28.000 align:start position:0%
 layer price feed to come closer to that,
- 
+
 
 00:15:28.000 --> 00:15:30.069 align:start position:0%
 layer price feed to come closer to that,
@@ -2456,7 +2456,7 @@ we<00:15:28.320><c> have</c><00:15:28.399><c> a</c><00:15:28.720><c> way</c><00:
 
 00:15:30.069 --> 00:15:30.079 align:start position:0%
 we have a way of
- 
+
 
 00:15:30.079 --> 00:15:32.710 align:start position:0%
 we have a way of
@@ -2464,7 +2464,7 @@ adjusting<00:15:30.639><c> the</c><00:15:30.880><c> price</c><00:15:31.199><c> f
 
 00:15:32.710 --> 00:15:32.720 align:start position:0%
 adjusting the price feed once we receive
- 
+
 
 00:15:32.720 --> 00:15:35.910 align:start position:0%
 adjusting the price feed once we receive
@@ -2472,7 +2472,7 @@ the<00:15:32.959><c> price</c><00:15:33.199><c> feed</c><00:15:34.000><c> by</c>
 
 00:15:35.910 --> 00:15:35.920 align:start position:0%
 the price feed by setting the offset
- 
+
 
 00:15:35.920 --> 00:15:38.310 align:start position:0%
 the price feed by setting the offset
@@ -2480,7 +2480,7 @@ percentage<00:15:36.560><c> which</c><00:15:36.800><c> can</c><00:15:36.959><c> 
 
 00:15:38.310 --> 00:15:38.320 align:start position:0%
 percentage which can be a negative value
- 
+
 
 00:15:38.320 --> 00:15:40.230 align:start position:0%
 percentage which can be a negative value
@@ -2488,7 +2488,7 @@ and<00:15:38.560><c> the</c><00:15:38.720><c> offset</c><00:15:39.199><c> as</c>
 
 00:15:40.230 --> 00:15:40.240 align:start position:0%
 and the offset as well which can be a
- 
+
 
 00:15:40.240 --> 00:15:42.710 align:start position:0%
 and the offset as well which can be a
@@ -2496,7 +2496,7 @@ positive<00:15:40.480><c> or</c><00:15:40.720><c> negative</c><00:15:41.040><c> 
 
 00:15:42.710 --> 00:15:42.720 align:start position:0%
 positive or negative value and this
- 
+
 
 00:15:42.720 --> 00:15:44.710 align:start position:0%
 positive or negative value and this
@@ -2504,7 +2504,7 @@ allows<00:15:43.040><c> us</c><00:15:43.199><c> to</c><00:15:43.360><c> make</c>
 
 00:15:44.710 --> 00:15:44.720 align:start position:0%
 allows us to make any corrections in the
- 
+
 
 00:15:44.720 --> 00:15:48.069 align:start position:0%
 allows us to make any corrections in the
@@ -2512,7 +2512,7 @@ price<00:15:45.360><c> that</c><00:15:45.600><c> we</c><00:15:45.760><c> get.</c
 
 00:15:48.069 --> 00:15:48.079 align:start position:0%
 price that we get. So in this video I'm
- 
+
 
 00:15:48.079 --> 00:15:51.110 align:start position:0%
 price that we get. So in this video I'm
@@ -2520,7 +2520,7 @@ misusing<00:15:49.040><c> this</c><00:15:49.920><c> advanced</c><00:15:50.560><c
 
 00:15:51.110 --> 00:15:51.120 align:start position:0%
 misusing this advanced setting
- 
+
 
 00:15:51.120 --> 00:15:52.790 align:start position:0%
 misusing this advanced setting
@@ -2528,7 +2528,7 @@ intentionally<00:15:51.839><c> just</c><00:15:52.000><c> for</c><00:15:52.160><c
 
 00:15:52.790 --> 00:15:52.800 align:start position:0%
 intentionally just for the purposes of
- 
+
 
 00:15:52.800 --> 00:15:55.269 align:start position:0%
 intentionally just for the purposes of
@@ -2536,39 +2536,39 @@ this<00:15:52.959><c> demo.</c>
 
 00:15:55.269 --> 00:15:55.279 align:start position:0%
 this demo.
- 
+
 
 00:15:55.279 --> 00:16:03.189 align:start position:0%
 this demo.
 Let's<00:15:55.600><c> go</c><00:15:55.680><c> ahead</c><00:15:55.920><c> and</c><00:15:56.079><c> create</c><00:15:56.399><c> this</c><00:15:56.800><c> bot.</c>
 
 00:16:03.189 --> 00:16:03.199 align:start position:0%
- 
- 
+
+
 
 00:16:03.199 --> 00:16:05.110 align:start position:0%
- 
+
 So<00:16:03.519><c> Madison</c><00:16:04.000><c> was</c><00:16:04.160><c> the</c><00:16:04.320><c> first</c><00:16:04.480><c> bot</c><00:16:04.800><c> that</c><00:16:04.959><c> we</c>
 
 00:16:05.110 --> 00:16:05.120 align:start position:0%
 So Madison was the first bot that we
- 
+
 
 00:16:05.120 --> 00:16:13.030 align:start position:0%
 So Madison was the first bot that we
 created<00:16:05.279><c> and</c><00:16:05.519><c> Joshua</c><00:16:06.000><c> was</c><00:16:06.160><c> the</c><00:16:06.320><c> second</c><00:16:06.560><c> one.</c>
 
 00:16:13.030 --> 00:16:13.040 align:start position:0%
- 
- 
+
+
 
 00:16:13.040 --> 00:16:14.870 align:start position:0%
- 
+
 If<00:16:13.279><c> I</c><00:16:13.440><c> click</c><00:16:13.600><c> on</c><00:16:13.839><c> show</c><00:16:14.160><c> market,</c><00:16:14.480><c> it's</c><00:16:14.720><c> going</c><00:16:14.800><c> to</c>
 
 00:16:14.870 --> 00:16:14.880 align:start position:0%
 If I click on show market, it's going to
- 
+
 
 00:16:14.880 --> 00:16:17.590 align:start position:0%
 If I click on show market, it's going to
@@ -2576,23 +2576,23 @@ open<00:16:15.040><c> up</c><00:16:15.199><c> the</c><00:16:15.440><c> screen</c
 
 00:16:17.590 --> 00:16:17.600 align:start position:0%
 open up the screen on the second window.
- 
+
 
 00:16:17.600 --> 00:16:25.749 align:start position:0%
 open up the screen on the second window.
 Let's<00:16:17.920><c> see</c><00:16:18.079><c> that.</c>
 
 00:16:25.749 --> 00:16:25.759 align:start position:0%
- 
- 
+
+
 
 00:16:25.759 --> 00:16:28.069 align:start position:0%
- 
+
 Now<00:16:26.000><c> you</c><00:16:26.240><c> can</c><00:16:26.399><c> see</c><00:16:26.720><c> we</c><00:16:26.959><c> have</c><00:16:27.040><c> the</c><00:16:27.279><c> USD</c><00:16:27.759><c> euro</c>
 
 00:16:28.069 --> 00:16:28.079 align:start position:0%
 Now you can see we have the USD euro
- 
+
 
 00:16:28.079 --> 00:16:31.829 align:start position:0%
 Now you can see we have the USD euro
@@ -2600,7 +2600,7 @@ market<00:16:28.639><c> for</c><00:16:28.959><c> the</c><00:16:29.120><c> same</
 
 00:16:31.829 --> 00:16:31.839 align:start position:0%
 market for the same token issuer but
- 
+
 
 00:16:31.839 --> 00:16:35.189 align:start position:0%
 market for the same token issuer but
@@ -2608,7 +2608,7 @@ there's<00:16:32.079><c> no</c><00:16:32.320><c> market.</c><00:16:33.360><c> Le
 
 00:16:35.189 --> 00:16:35.199 align:start position:0%
 there's no market. Let's start the bot
- 
+
 
 00:16:35.199 --> 00:16:38.310 align:start position:0%
 there's no market. Let's start the bot
@@ -2616,7 +2616,7 @@ for<00:16:35.519><c> the</c><00:16:35.839><c> first</c><00:16:37.120><c> part</c
 
 00:16:38.310 --> 00:16:38.320 align:start position:0%
 for the first part which is Madison.
- 
+
 
 00:16:38.320 --> 00:16:39.509 align:start position:0%
 for the first part which is Madison.
@@ -2624,23 +2624,23 @@ This<00:16:38.480><c> is</c><00:16:38.560><c> the</c><00:16:38.720><c> one</c><0
 
 00:16:39.509 --> 00:16:39.519 align:start position:0%
 This is the one that is priced
- 
+
 
 00:16:39.519 --> 00:16:44.069 align:start position:0%
 This is the one that is priced
 correctly.
 
 00:16:44.069 --> 00:16:44.079 align:start position:0%
- 
- 
+
+
 
 00:16:44.079 --> 00:16:45.990 align:start position:0%
- 
+
 What<00:16:44.320><c> we're</c><00:16:44.480><c> going</c><00:16:44.560><c> to</c><00:16:44.720><c> see</c><00:16:44.959><c> is</c><00:16:45.440><c> that</c><00:16:45.759><c> there</c>
 
 00:16:45.990 --> 00:16:46.000 align:start position:0%
 What we're going to see is that there
- 
+
 
 00:16:46.000 --> 00:16:48.550 align:start position:0%
 What we're going to see is that there
@@ -2648,47 +2648,47 @@ are<00:16:46.240><c> some</c><00:16:46.480><c> bids</c><00:16:46.800><c> and</c>
 
 00:16:48.550 --> 00:16:48.560 align:start position:0%
 are some bids and asks placed against
- 
+
 
 00:16:48.560 --> 00:16:55.030 align:start position:0%
 are some bids and asks placed against
 this<00:16:48.800><c> bot.</c>
 
 00:16:55.030 --> 00:16:55.040 align:start position:0%
- 
- 
+
+
 
 00:16:55.040 --> 00:16:57.269 align:start position:0%
- 
+
 So<00:16:55.279><c> you</c><00:16:55.519><c> can</c><00:16:55.680><c> see</c><00:16:55.759><c> that</c><00:16:56.000><c> the</c><00:16:56.320><c> bot</c><00:16:56.720><c> is</c><00:16:56.959><c> pricing</c>
 
 00:16:57.269 --> 00:16:57.279 align:start position:0%
 So you can see that the bot is pricing
- 
+
 
 00:16:57.279 --> 00:17:03.910 align:start position:0%
 So you can see that the bot is pricing
 this<00:16:57.600><c> asset</c><00:16:58.079><c> at</c><00:16:58.480><c> close</c><00:16:58.880><c> to</c><00:16:59.839><c> 918</c>
 
 00:17:03.910 --> 00:17:03.920 align:start position:0%
- 
- 
+
+
 
 00:17:03.920 --> 00:17:10.549 align:start position:0%
- 
+
 with<00:17:04.079><c> a</c><00:17:04.319><c> spread</c><00:17:04.559><c> of</c><00:17:04.799><c> 0.20%.</c>
 
 00:17:10.549 --> 00:17:10.559 align:start position:0%
- 
- 
+
+
 
 00:17:10.559 --> 00:17:13.750 align:start position:0%
- 
+
 Now<00:17:10.880><c> let's</c><00:17:11.520><c> start</c><00:17:11.839><c> the</c><00:17:12.079><c> second</c><00:17:12.319><c> bot.</c><00:17:13.520><c> What</c>
 
 00:17:13.750 --> 00:17:13.760 align:start position:0%
 Now let's start the second bot. What
- 
+
 
 00:17:13.760 --> 00:17:15.750 align:start position:0%
 Now let's start the second bot. What
@@ -2696,7 +2696,7 @@ we're<00:17:13.919><c> going</c><00:17:14.000><c> to</c><00:17:14.160><c> see</c
 
 00:17:15.750 --> 00:17:15.760 align:start position:0%
 we're going to see is that this th00and
- 
+
 
 00:17:15.760 --> 00:17:17.829 align:start position:0%
 we're going to see is that this th00and
@@ -2704,7 +2704,7 @@ USD<00:17:16.160><c> balance</c><00:17:16.480><c> is</c><00:17:16.720><c> going<
 
 00:17:17.829 --> 00:17:17.839 align:start position:0%
 USD balance is going to get trained out
- 
+
 
 00:17:17.839 --> 00:17:19.510 align:start position:0%
 USD balance is going to get trained out
@@ -2712,7 +2712,7 @@ and<00:17:18.079><c> the</c><00:17:18.240><c> euro</c><00:17:18.559><c> balance<
 
 00:17:19.510 --> 00:17:19.520 align:start position:0%
 and the euro balance is going to
- 
+
 
 00:17:19.520 --> 00:17:21.990 align:start position:0%
 and the euro balance is going to
@@ -2720,7 +2720,7 @@ increase<00:17:19.839><c> for</c><00:17:20.079><c> Madison</c><00:17:20.880><c> 
 
 00:17:21.990 --> 00:17:22.000 align:start position:0%
 increase for Madison whereas Joshua is
- 
+
 
 00:17:22.000 --> 00:17:24.870 align:start position:0%
 increase for Madison whereas Joshua is
@@ -2728,7 +2728,7 @@ going<00:17:22.079><c> to</c><00:17:22.240><c> see</c><00:17:22.400><c> an</c><0
 
 00:17:24.870 --> 00:17:24.880 align:start position:0%
 going to see an increase in the USD
- 
+
 
 00:17:24.880 --> 00:17:26.870 align:start position:0%
 going to see an increase in the USD
@@ -2736,7 +2736,7 @@ balance<00:17:25.280><c> and</c><00:17:25.520><c> a</c><00:17:25.679><c> decreas
 
 00:17:26.870 --> 00:17:26.880 align:start position:0%
 balance and a decrease in the euro
- 
+
 
 00:17:26.880 --> 00:17:29.669 align:start position:0%
 balance and a decrease in the euro
@@ -2744,7 +2744,7 @@ balance.<00:17:28.240><c> So</c><00:17:28.480><c> what</c><00:17:28.640><c> is</
 
 00:17:29.669 --> 00:17:29.679 align:start position:0%
 balance. So what is actually happening
- 
+
 
 00:17:29.679 --> 00:17:31.669 align:start position:0%
 balance. So what is actually happening
@@ -2752,7 +2752,7 @@ is<00:17:29.919><c> that</c><00:17:30.240><c> Joshua</c><00:17:30.720><c> is</c>
 
 00:17:31.669 --> 00:17:31.679 align:start position:0%
 is that Joshua is being priced if you
- 
+
 
 00:17:31.679 --> 00:17:33.590 align:start position:0%
 is that Joshua is being priced if you
@@ -2760,7 +2760,7 @@ look<00:17:31.840><c> at</c><00:17:31.919><c> the</c><00:17:32.000><c> mouse</c>
 
 00:17:33.590 --> 00:17:33.600 align:start position:0%
 look at the mouse cursor on the right
- 
+
 
 00:17:33.600 --> 00:17:36.630 align:start position:0%
 look at the mouse cursor on the right
@@ -2768,7 +2768,7 @@ side<00:17:33.840><c> over</c><00:17:34.080><c> here</c><00:17:34.880><c> and</c
 
 00:17:36.630 --> 00:17:36.640 align:start position:0%
 side over here and the asks of Joshua
- 
+
 
 00:17:36.640 --> 00:17:38.950 align:start position:0%
 side over here and the asks of Joshua
@@ -2776,7 +2776,7 @@ are<00:17:36.880><c> hitting</c><00:17:37.200><c> against</c><00:17:37.919><c> s
 
 00:17:38.950 --> 00:17:38.960 align:start position:0%
 are hitting against sorry the bids of
- 
+
 
 00:17:38.960 --> 00:17:41.270 align:start position:0%
 are hitting against sorry the bids of
@@ -2784,7 +2784,7 @@ Joshua<00:17:39.440><c> are</c><00:17:39.679><c> hitting</c><00:17:40.000><c> ag
 
 00:17:41.270 --> 00:17:41.280 align:start position:0%
 Joshua are hitting against the asks of
- 
+
 
 00:17:41.280 --> 00:17:44.150 align:start position:0%
 Joshua are hitting against the asks of
@@ -2792,23 +2792,23 @@ Madison<00:17:42.640><c> which</c><00:17:42.880><c> are</c><00:17:43.039><c> the
 
 00:17:44.150 --> 00:17:44.160 align:start position:0%
 Madison which are then crossing over and
- 
+
 
 00:17:44.160 --> 00:17:50.230 align:start position:0%
 Madison which are then crossing over and
 then<00:17:44.320><c> we</c><00:17:44.559><c> get</c><00:17:44.720><c> some</c><00:17:44.880><c> trades.</c>
 
 00:17:50.230 --> 00:17:50.240 align:start position:0%
- 
- 
+
+
 
 00:17:50.240 --> 00:17:52.150 align:start position:0%
- 
+
 So<00:17:50.480><c> this</c><00:17:50.640><c> is</c><00:17:50.799><c> being</c><00:17:50.960><c> run</c><00:17:51.280><c> once</c><00:17:51.600><c> every</c><00:17:51.919><c> 6</c>
 
 00:17:52.150 --> 00:17:52.160 align:start position:0%
 So this is being run once every 6
- 
+
 
 00:17:52.160 --> 00:17:54.950 align:start position:0%
 So this is being run once every 6
@@ -2816,7 +2816,7 @@ seconds.<00:17:53.120><c> So</c><00:17:53.440><c> pretty</c><00:17:53.679><c> so
 
 00:17:54.950 --> 00:17:54.960 align:start position:0%
 seconds. So pretty soon we will see the
- 
+
 
 00:17:54.960 --> 00:17:58.470 align:start position:0%
 seconds. So pretty soon we will see the
@@ -2824,7 +2824,7 @@ entire<00:17:55.360><c> amount</c><00:17:55.760><c> getting</c><00:17:56.080><c>
 
 00:17:58.470 --> 00:17:58.480 align:start position:0%
 entire amount getting trained.
- 
+
 
 00:17:58.480 --> 00:18:00.470 align:start position:0%
 entire amount getting trained.
@@ -2832,7 +2832,7 @@ You<00:17:58.720><c> can</c><00:17:58.880><c> also</c><00:17:59.120><c> see</c><
 
 00:18:00.470 --> 00:18:00.480 align:start position:0%
 You can also see out here that we have
- 
+
 
 00:18:00.480 --> 00:18:05.510 align:start position:0%
 You can also see out here that we have
@@ -2840,7 +2840,7 @@ two<00:18:00.799><c> additional</c><00:18:01.679><c> bids</c><00:18:02.880><c> a
 
 00:18:05.510 --> 00:18:05.520 align:start position:0%
 two additional bids at 96 which is
- 
+
 
 00:18:05.520 --> 00:18:09.830 align:start position:0%
 two additional bids at 96 which is
@@ -2848,7 +2848,7 @@ higher<00:18:05.840><c> than</c><00:18:06.559><c> Madison's</c><00:18:07.919><c>
 
 00:18:09.830 --> 00:18:09.840 align:start position:0%
 higher than Madison's bids.
- 
+
 
 00:18:09.840 --> 00:18:14.870 align:start position:0%
 higher than Madison's bids.
@@ -2856,7 +2856,7 @@ The<00:18:10.080><c> reason</c><00:18:10.320><c> is</c><00:18:10.559><c> because
 
 00:18:14.870 --> 00:18:14.880 align:start position:0%
 The reason is because Joshua now has
- 
+
 
 00:18:14.880 --> 00:18:16.950 align:start position:0%
 The reason is because Joshua now has
@@ -2864,47 +2864,47 @@ enough
 
 00:18:16.950 --> 00:18:16.960 align:start position:0%
 enough
- 
+
 
 00:18:16.960 --> 00:18:21.350 align:start position:0%
 enough
-uh<00:18:17.600><c> dollars</c><00:18:18.480><c> to</c><00:18:18.799><c> be</c><00:18:19.679><c> placing</c><00:18:20.000><c> these</c><00:18:20.240><c> bids</c><00:18:20.640><c> but</c>
+<00:18:17.600><c> dollars</c><00:18:18.480><c> to</c><00:18:18.799><c> be</c><00:18:19.679><c> placing</c><00:18:20.000><c> these</c><00:18:20.240><c> bids</c><00:18:20.640><c> but</c>
 
 00:18:21.350 --> 00:18:21.360 align:start position:0%
-uh dollars to be placing these bids but
- 
+ dollars to be placing these bids but
+
 
 00:18:21.360 --> 00:18:27.190 align:start position:0%
-uh dollars to be placing these bids but
+ dollars to be placing these bids but
 Madison<00:18:21.840><c> is</c><00:18:22.080><c> not</c><00:18:22.320><c> able</c><00:18:22.559><c> to</c><00:18:22.720><c> consume</c><00:18:23.120><c> them.</c>
 
 00:18:27.190 --> 00:18:27.200 align:start position:0%
- 
- 
+
+
 
 00:18:27.200 --> 00:18:29.430 align:start position:0%
- 
+
 So<00:18:27.840><c> Joshua's</c><00:18:28.400><c> bids</c><00:18:28.640><c> would</c><00:18:28.799><c> then</c><00:18:28.960><c> lie</c><00:18:29.200><c> on</c><00:18:29.360><c> the</c>
 
 00:18:29.430 --> 00:18:29.440 align:start position:0%
 So Joshua's bids would then lie on the
- 
+
 
 00:18:29.440 --> 00:18:33.350 align:start position:0%
 So Joshua's bids would then lie on the
 order<00:18:29.760><c> book.</c>
 
 00:18:33.350 --> 00:18:33.360 align:start position:0%
- 
- 
+
+
 
 00:18:33.360 --> 00:18:35.110 align:start position:0%
- 
+
 So<00:18:33.600><c> it</c><00:18:33.760><c> looks</c><00:18:33.919><c> like</c><00:18:34.160><c> looks</c><00:18:34.480><c> like</c><00:18:34.559><c> we're</c><00:18:34.880><c> about</c>
 
 00:18:35.110 --> 00:18:35.120 align:start position:0%
 So it looks like looks like we're about
- 
+
 
 00:18:35.120 --> 00:18:38.630 align:start position:0%
 So it looks like looks like we're about
@@ -2912,7 +2912,7 @@ done<00:18:35.360><c> here.</c><00:18:36.160><c> Madison</c><00:18:36.640><c> ha
 
 00:18:38.630 --> 00:18:38.640 align:start position:0%
 done here. Madison has 0.2
- 
+
 
 00:18:38.640 --> 00:18:42.470 align:start position:0%
 done here. Madison has 0.2
@@ -2920,7 +2920,7 @@ left<00:18:39.600><c> and</c><00:18:40.640><c> Joshua</c><00:18:41.120><c> has</
 
 00:18:42.470 --> 00:18:42.480 align:start position:0%
 left and Joshua has pretty much the
- 
+
 
 00:18:42.480 --> 00:18:44.630 align:start position:0%
 left and Joshua has pretty much the
@@ -2928,7 +2928,7 @@ entire<00:18:42.799><c> amount</c><00:18:43.039><c> of</c><00:18:43.200><c> the<
 
 00:18:44.630 --> 00:18:44.640 align:start position:0%
 entire amount of the $2,000 USD
- 
+
 
 00:18:44.640 --> 00:18:47.590 align:start position:0%
 entire amount of the $2,000 USD
@@ -2936,7 +2936,7 @@ initially<00:18:45.200><c> allocated</c><00:18:45.679><c> for</c><00:18:45.840><
 
 00:18:47.590 --> 00:18:47.600 align:start position:0%
 initially allocated for these bonds. You
- 
+
 
 00:18:47.600 --> 00:18:49.430 align:start position:0%
 initially allocated for these bonds. You
@@ -2944,7 +2944,7 @@ can<00:18:47.760><c> also</c><00:18:48.000><c> see</c><00:18:48.080><c> that</c>
 
 00:18:49.430 --> 00:18:49.440 align:start position:0%
 can also see that the bids and the asks
- 
+
 
 00:18:49.440 --> 00:18:52.230 align:start position:0%
 can also see that the bids and the asks
@@ -2952,23 +2952,23 @@ have<00:18:49.600><c> changed</c><00:18:50.160><c> depending</c><00:18:50.640><c
 
 00:18:52.230 --> 00:18:52.240 align:start position:0%
 have changed depending on how these
- 
+
 
 00:18:52.240 --> 00:18:56.310 align:start position:0%
 have changed depending on how these
 orders<00:18:52.640><c> were</c><00:18:52.880><c> placed</c><00:18:53.120><c> and</c><00:18:53.360><c> consumed.</c>
 
 00:18:56.310 --> 00:18:56.320 align:start position:0%
- 
- 
+
+
 
 00:18:56.320 --> 00:19:00.150 align:start position:0%
- 
+
 Now<00:18:56.559><c> getting</c><00:18:56.880><c> back</c><00:18:57.039><c> to</c><00:18:57.120><c> the</c><00:18:57.280><c> curl</c><00:18:57.679><c> window.</c>
 
 00:19:00.150 --> 00:19:00.160 align:start position:0%
 Now getting back to the curl window.
- 
+
 
 00:19:00.160 --> 00:19:04.230 align:start position:0%
 Now getting back to the curl window.
@@ -2976,7 +2976,7 @@ So<00:19:00.640><c> we</c><00:19:00.799><c> are</c><00:19:00.960><c> now</c><00:
 
 00:19:04.230 --> 00:19:04.240 align:start position:0%
 So we are now ready to stop these bugs
- 
+
 
 00:19:04.240 --> 00:19:06.310 align:start position:0%
 So we are now ready to stop these bugs
@@ -2984,7 +2984,7 @@ and<00:19:04.559><c> quit</c><00:19:04.720><c> the</c><00:19:04.960><c> applicat
 
 00:19:06.310 --> 00:19:06.320 align:start position:0%
 and quit the application. But before we
- 
+
 
 00:19:06.320 --> 00:19:08.230 align:start position:0%
 and quit the application. But before we
@@ -2992,7 +2992,7 @@ quit<00:19:06.480><c> the</c><00:19:06.720><c> application,</c><00:19:07.440><c>
 
 00:19:08.230 --> 00:19:08.240 align:start position:0%
 quit the application, we should be very
- 
+
 
 00:19:08.240 --> 00:19:11.029 align:start position:0%
 quit the application, we should be very
@@ -3000,7 +3000,7 @@ careful<00:19:08.559><c> to</c><00:19:09.120><c> hit</c><00:19:09.360><c> the</c
 
 00:19:11.029 --> 00:19:11.039 align:start position:0%
 careful to hit the stop button. Because
- 
+
 
 00:19:11.039 --> 00:19:13.350 align:start position:0%
 careful to hit the stop button. Because
@@ -3008,7 +3008,7 @@ if<00:19:11.280><c> we</c><00:19:11.440><c> don't</c><00:19:11.679><c> do</c><00
 
 00:19:13.350 --> 00:19:13.360 align:start position:0%
 if we don't do that, then these bots
- 
+
 
 00:19:13.360 --> 00:19:15.430 align:start position:0%
 if we don't do that, then these bots
@@ -3016,7 +3016,7 @@ will<00:19:13.840><c> although</c><00:19:14.240><c> they</c><00:19:14.480><c> wi
 
 00:19:15.430 --> 00:19:15.440 align:start position:0%
 will although they will be stopped
- 
+
 
 00:19:15.440 --> 00:19:17.990 align:start position:0%
 will although they will be stopped
@@ -3024,7 +3024,7 @@ running,<00:19:16.000><c> these</c><00:19:16.400><c> orders</c><00:19:16.799><c>
 
 00:19:17.990 --> 00:19:18.000 align:start position:0%
 running, these orders of one bid, four
- 
+
 
 00:19:18.000 --> 00:19:20.070 align:start position:0%
 running, these orders of one bid, four
@@ -3032,7 +3032,7 @@ asks,<00:19:18.400><c> and</c><00:19:18.559><c> four</c><00:19:18.799><c> bids</
 
 00:19:20.070 --> 00:19:20.080 align:start position:0%
 asks, and four bids and zero ask would
- 
+
 
 00:19:20.080 --> 00:19:21.909 align:start position:0%
 asks, and four bids and zero ask would
@@ -3040,7 +3040,7 @@ still<00:19:20.240><c> remain</c><00:19:20.480><c> on</c><00:19:20.720><c> the</
 
 00:19:21.909 --> 00:19:21.919 align:start position:0%
 still remain on the order book, which
- 
+
 
 00:19:21.919 --> 00:19:24.150 align:start position:0%
 still remain on the order book, which
@@ -3048,7 +3048,7 @@ would<00:19:22.080><c> then</c><00:19:22.640><c> potentially</c><00:19:23.200><c
 
 00:19:24.150 --> 00:19:24.160 align:start position:0%
 would then potentially see some trades
- 
+
 
 00:19:24.160 --> 00:19:26.789 align:start position:0%
 would then potentially see some trades
@@ -3056,7 +3056,7 @@ happening<00:19:24.640><c> without</c><00:19:25.360><c> us</c><00:19:25.679><c> 
 
 00:19:26.789 --> 00:19:26.799 align:start position:0%
 happening without us having expected it.
- 
+
 
 00:19:26.799 --> 00:19:28.710 align:start position:0%
 happening without us having expected it.
@@ -3064,7 +3064,7 @@ So<00:19:27.039><c> it's</c><00:19:27.280><c> always</c><00:19:27.600><c> import
 
 00:19:28.710 --> 00:19:28.720 align:start position:0%
 So it's always important to stop these
- 
+
 
 00:19:28.720 --> 00:19:32.470 align:start position:0%
 So it's always important to stop these
@@ -3072,7 +3072,7 @@ bots.<00:19:29.280><c> Let's</c><00:19:29.520><c> go</c><00:19:29.600><c> ahead<
 
 00:19:32.470 --> 00:19:32.480 align:start position:0%
 bots. Let's go ahead and do that.
- 
+
 
 00:19:32.480 --> 00:19:34.710 align:start position:0%
 bots. Let's go ahead and do that.
@@ -3080,7 +3080,7 @@ In<00:19:32.799><c> the</c><00:19:32.960><c> process</c><00:19:33.200><c> of</c>
 
 00:19:34.710 --> 00:19:34.720 align:start position:0%
 In the process of stopping these bots,
- 
+
 
 00:19:34.720 --> 00:19:36.630 align:start position:0%
 In the process of stopping these bots,
@@ -3088,7 +3088,7 @@ the<00:19:34.960><c> application</c>
 
 00:19:36.630 --> 00:19:36.640 align:start position:0%
 the application
- 
+
 
 00:19:36.640 --> 00:19:38.549 align:start position:0%
 the application
@@ -3096,23 +3096,23 @@ kills<00:19:36.960><c> the</c><00:19:37.120><c> bots</c><00:19:37.520><c> as</c>
 
 00:19:38.549 --> 00:19:38.559 align:start position:0%
 kills the bots as well as deletes the
- 
+
 
 00:19:38.559 --> 00:19:44.150 align:start position:0%
 kills the bots as well as deletes the
 offers<00:19:38.960><c> associated</c><00:19:39.440><c> with</c><00:19:39.679><c> the</c><00:19:39.840><c> bot.</c>
 
 00:19:44.150 --> 00:19:44.160 align:start position:0%
- 
- 
+
+
 
 00:19:44.160 --> 00:19:45.990 align:start position:0%
- 
+
 As<00:19:44.400><c> you</c><00:19:44.559><c> can</c><00:19:44.640><c> see,</c><00:19:44.799><c> these</c><00:19:45.120><c> bids</c><00:19:45.360><c> and</c><00:19:45.520><c> asks</c><00:19:45.840><c> have</c>
 
 00:19:45.990 --> 00:19:46.000 align:start position:0%
 As you can see, these bids and asks have
- 
+
 
 00:19:46.000 --> 00:19:47.990 align:start position:0%
 As you can see, these bids and asks have
@@ -3120,7 +3120,7 @@ gone<00:19:46.240><c> to</c><00:19:46.400><c> zero.</c>
 
 00:19:47.990 --> 00:19:48.000 align:start position:0%
 gone to zero.
- 
+
 
 00:19:48.000 --> 00:19:49.590 align:start position:0%
 gone to zero.
@@ -3128,31 +3128,31 @@ And<00:19:48.160><c> the</c><00:19:48.320><c> spread</c><00:19:48.559><c> has</c
 
 00:19:49.590 --> 00:19:49.600 align:start position:0%
 And the spread has gone back to negative
- 
+
 
 00:19:49.600 --> 00:19:55.350 align:start position:0%
 And the spread has gone back to negative
 one<00:19:50.480><c> as</c><00:19:50.640><c> you</c><00:19:50.880><c> can</c><00:19:50.960><c> see</c><00:19:51.520><c> in</c><00:19:51.760><c> the</c><00:19:51.919><c> window.</c>
 
 00:19:55.350 --> 00:19:55.360 align:start position:0%
- 
- 
+
+
 
 00:19:55.360 --> 00:20:02.630 align:start position:0%
- 
+
 So,<00:19:55.600><c> let's</c><00:19:55.840><c> go</c><00:19:56.000><c> back</c><00:19:56.320><c> to</c><00:19:56.559><c> the</c><00:19:56.880><c> presentation.</c>
 
 00:20:02.630 --> 00:20:02.640 align:start position:0%
- 
- 
+
+
 
 00:20:02.640 --> 00:20:05.110 align:start position:0%
- 
+
 So<00:20:02.960><c> in</c><00:20:03.280><c> summary,</c>
 
 00:20:05.110 --> 00:20:05.120 align:start position:0%
 So in summary,
- 
+
 
 00:20:05.120 --> 00:20:07.990 align:start position:0%
 So in summary,
@@ -3160,7 +3160,7 @@ we<00:20:05.440><c> went</c><00:20:05.600><c> through</c><00:20:06.080><c> what<
 
 00:20:07.990 --> 00:20:08.000 align:start position:0%
 we went through what is scalp, what is
- 
+
 
 00:20:08.000 --> 00:20:10.470 align:start position:0%
 we went through what is scalp, what is
@@ -3168,7 +3168,7 @@ the<00:20:08.080><c> kelp</c><00:20:08.640><c> GUI</c><00:20:09.200><c> version<
 
 00:20:10.470 --> 00:20:10.480 align:start position:0%
 the kelp GUI version one, some
- 
+
 
 00:20:10.480 --> 00:20:12.710 align:start position:0%
 the kelp GUI version one, some
@@ -3176,7 +3176,7 @@ improvements<00:20:10.960><c> that</c><00:20:11.200><c> we</c><00:20:11.360><c> 
 
 00:20:12.710 --> 00:20:12.720 align:start position:0%
 improvements that we would have in the
- 
+
 
 00:20:12.720 --> 00:20:15.750 align:start position:0%
 improvements that we would have in the
@@ -3184,7 +3184,7 @@ UI,<00:20:13.760><c> the</c><00:20:14.000><c> screenshots,</c><00:20:14.640><c> 
 
 00:20:15.750 --> 00:20:15.760 align:start position:0%
 UI, the screenshots, and a demo of how
- 
+
 
 00:20:15.760 --> 00:20:17.909 align:start position:0%
 UI, the screenshots, and a demo of how
@@ -3192,7 +3192,7 @@ you<00:20:15.919><c> can</c><00:20:16.160><c> create</c><00:20:16.480><c> two</c
 
 00:20:17.909 --> 00:20:17.919 align:start position:0%
 you can create two bots in the UI to
- 
+
 
 00:20:17.919 --> 00:20:20.870 align:start position:0%
 you can create two bots in the UI to
@@ -3200,23 +3200,23 @@ trade<00:20:18.160><c> against</c><00:20:18.480><c> each</c><00:20:18.720><c> ot
 
 00:20:20.870 --> 00:20:20.880 align:start position:0%
 trade against each other.
- 
+
 
 00:20:20.880 --> 00:21:01.510 align:start position:0%
 trade against each other.
 Let's<00:20:21.120><c> go</c><00:20:21.360><c> into</c><00:20:21.840><c> some</c><00:20:22.160><c> questions.</c>
 
 00:21:01.510 --> 00:21:01.520 align:start position:0%
- 
- 
+
+
 
 00:21:01.520 --> 00:21:03.590 align:start position:0%
- 
+
 Thank<00:21:01.760><c> you</c><00:21:01.919><c> everyone</c><00:21:02.240><c> for</c><00:21:02.480><c> attending</c><00:21:03.280><c> this</c>
 
 00:21:03.590 --> 00:21:03.600 align:start position:0%
 Thank you everyone for attending this
- 
+
 
 00:21:03.600 --> 00:21:06.789 align:start position:0%
 Thank you everyone for attending this
@@ -3224,7 +3224,7 @@ session<00:21:04.080><c> and</c><00:21:04.320><c> I</c><00:21:04.559><c> hope</c
 
 00:21:06.789 --> 00:21:06.799 align:start position:0%
 session and I hope that you all learned
- 
+
 
 00:21:06.799 --> 00:21:09.510 align:start position:0%
 session and I hope that you all learned
@@ -3232,9 +3232,8 @@ something<00:21:07.039><c> about</c><00:21:07.280><c> the</c><00:21:07.520><c> c
 
 00:21:09.510 --> 00:21:09.520 align:start position:0%
 something about the cali today. Thank
- 
+
 
 00:21:09.520 --> 00:21:12.520 align:start position:0%
 something about the cali today. Thank
 you.
-
