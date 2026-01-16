@@ -63,9 +63,9 @@ your own projects like what the what
 the how did you get get into blockchain
 the how did you get get into blockchain
 the how did you get get into blockchain
-and how did you get into to Stella in in
-and how did you get into to Stella in in
-and how did you get into to Stella in in
+and how did you get into to Stellar in in
+and how did you get into to Stellar in in
+and how did you get into to Stellar in in
 the way you are because you're very
 the way you are because you're very
 the way you are because you're very
@@ -1302,9 +1302,9 @@ bit your project. Basically, it's a way
 to map your GitHub profile to your
 to map your GitHub profile to your
 to map your GitHub profile to your
-Stella address. That's one of the main
-Stella address. That's one of the main
-Stella address. That's one of the main
+ Stellar address. That's one of the main
+ Stellar address. That's one of the main
+ Stellar address. That's one of the main
 feature. And the other feature is just
 feature. And the other feature is just
 feature. And the other feature is just
@@ -1527,9 +1527,9 @@ quickly on the wallet side because
 here there was a there was something to
 here there was a there was something to
 here there was a there was something to
-sign I'm using the stella wallet kit. So
-sign I'm using the stella wallet kit. So
-sign I'm using the stella wallet kit. So
+sign I'm using the Stellar wallet kit. So
+sign I'm using the Stellar wallet kit. So
+sign I'm using the Stellar wallet kit. So
 this is
 this is
 this is
@@ -1965,9 +1965,9 @@ goes to IPFS. So I can actually open the
 the link and you will show how it
 is. Yeah, it's
 is. Yeah, it's
-[Music]
-[Music]
-[Music]
+
+
+
 loading. It's funny. It's loading faster
 loading. It's funny. It's loading faster
 loading. It's funny. It's loading faster

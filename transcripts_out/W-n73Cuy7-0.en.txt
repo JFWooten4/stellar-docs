@@ -879,9 +879,9 @@ like on the public block Explorer on the
 public
 public
 public
-Stella Network this is Annie this is an
-Stella Network this is Annie this is an
-Stella Network this is Annie this is an
+ Stellar Network this is Annie this is an
+ Stellar Network this is Annie this is an
+ Stellar Network this is Annie this is an
 account on the public network with its
 account on the public network with its
 account on the public network with its

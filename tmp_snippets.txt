@@ -98,7 +98,7 @@ Two weeks later the group revisited CAP-0042 with its updated language and run-t
 <YouTube ID="uAkvN1WtQbY" />
 
 With CAP-0042 nearly ready for submission, the group walked through the last edits needed to land multi-part transact
-2022-03-11-create-innovative-nfts-on.mdx: my name is uncle liu i'm a program manager at the stella development foundation and i'll kick off today's workshop and this weekend's hackathon you must know me
+2022-03-11-create-innovative-nfts-on.mdx: my name is uncle liu i'm a program manager at the Stellar development foundation and i'll kick off today's workshop and this weekend's hackathon you must know me
 2022-03-15-from-bootcamp-to-the.mdx: my name is ankur liu i'm a program manager at the stellar development foundation or sdf for short um sdf just quickly about sdf sdf is a non-profit organization founded in 2014 to support the development and growth of the open source stellar network and so before we begin a little context so stellar was founded in 2014 after bitcoin before
 2022-04-28.mdx: import YouTube from "@site/src/components/YouTube";
 

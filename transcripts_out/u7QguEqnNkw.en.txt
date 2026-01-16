@@ -69,7 +69,7 @@ balance approach is really to
 to make it so that any participant in
 the ecosystem when they're
 interacting with an asset that exists on
-Stella today in a truck being held in a
+ Stellar today in a truck being held in a
 trust line
 they only have one place to look for
 they for that account so that account
@@ -1305,7 +1305,7 @@ discuss
 yeah so George was mentioning
 something to me
 around how payments and transfers
-work so like payments on Stella and
+work so like payments on Stellar and
 something that we haven't really
 discussed is okay so if this if there is
 a single balance or this is even

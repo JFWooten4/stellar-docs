@@ -636,15 +636,15 @@ we can also see if we have some time
 at the end of it of it
 at the end of it of it
 at the end of it of it
-but we can move to Stella expert and
-but we can move to Stella expert and
-but we can move to Stella expert and
+but we can move to Stellar expert and
+but we can move to Stellar expert and
+but we can move to Stellar expert and
 that should be a tool that is known by
 that should be a tool that is known by
 that should be a tool that is known by
-most Stella developers it was
-most Stella developers it was
-most Stella developers it was
+most Stellar developers it was
+most Stellar developers it was
+most Stellar developers it was
 probably the first tool I started using
 probably the first tool I started using
 probably the first tool I started using
@@ -795,9 +795,9 @@ that can invoke some other contracts and
 provide
 provide
 provide
-[Music]
-[Music]
-[Music]
+
+
+
 
 
 

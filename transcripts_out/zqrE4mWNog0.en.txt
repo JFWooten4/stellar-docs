@@ -1,8 +1,8 @@
 hello everyone and welcome to this
 hello everyone and welcome to this
-week's Stella developer meeting a little
-week's Stella developer meeting a little
-week's Stella developer meeting a little
+week's Stellar developer meeting a little
+week's Stellar developer meeting a little
+week's Stellar developer meeting a little
 bit earlier than usual but the reason
 bit earlier than usual but the reason
 bit earlier than usual but the reason
@@ -603,15 +603,15 @@ so Alice will re receive the the the
 tokens so if everything's
 tokens so if everything's
 tokens so if everything's
-[Music]
-[Music]
-[Music]
+
+
+
 fine we should have our contract
 fine we should have our contract
 fine we should have our contract
-[Music]
-[Music]
-[Music]
+
+
+
 so yeah this is fine it gets it got
 so yeah this is fine it gets it got
 so yeah this is fine it gets it got
@@ -951,7 +951,7 @@ what design considerations were made for
 the library considering classic sorban
 the library considering classic sorban
 the library considering classic sorban
-and How Stella classic assets
+and How Stellar classic assets
 work yeah I can I can maybe maybe
 work yeah I can I can maybe maybe
 partially give an answer and O you're
@@ -1137,9 +1137,9 @@ also from L again any highlights or
 low lights you can share about the
 low lights you can share about the
 low lights you can share about the
-Stella sorond architecture compared to
-Stella sorond architecture compared to
-Stella sorond architecture compared to
+ Stellar sorond architecture compared to
+ Stellar sorond architecture compared to
+ Stellar sorond architecture compared to
 other blockchains since you have work
 other blockchains since you have work
 other blockchains since you have work

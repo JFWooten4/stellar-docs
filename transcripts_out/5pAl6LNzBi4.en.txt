@@ -80,7 +80,7 @@ nicola if we're ready to discuss that
 if that's where we should start
 maybe yeah like we can
 maybe
-[Music]
+
 like just go over like a quick overview
 of like what's going on in that cap and
 then
@@ -575,7 +575,7 @@ full separation between i o and and
 and execution
 so this one you can
 bid
-[Music]
+
 second
 market that i
 have in the proposal is for reading and
@@ -684,7 +684,7 @@ voted
 by the
 or determined by the validators
 so at before submitting a transaction
-[Music]
+
 you have to know basically what those
 parameters are
 
@@ -1284,7 +1284,7 @@ state expiration
 so state expiration here means that
 you have to
 basically
-[Music]
+
 pay for
 market market price of storage
 

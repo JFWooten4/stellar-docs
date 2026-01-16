@@ -484,7 +484,7 @@ any kind of delegation mechanism
 
 i i think it's a little bit awkward
 because
-[Music]
+
 well first of all we actually come up
 with a delegation mechanism that we can
 all agree on which is
@@ -672,7 +672,7 @@ we just want to make sure that classic
 assets will operate in in smartland
 and
 
-[Music]
+
 you know basically like asset issuers
 still have their
 infrastructure intact and and they
@@ -1282,7 +1282,7 @@ other models that we could use for the
 canonical representation of an asset
 that we could discuss or is it premature
 to just to get into that right now
-[Music]
+
 i mean in a way you know you know like
 in cap 49 for example the the wrapped
 asset is a canonical

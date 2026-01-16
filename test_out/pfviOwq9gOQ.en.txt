@@ -192,7 +192,7 @@ say github
 github.comstellar
 github.comstellar
 github.comstellar
-[Music]
+
 and we're going to say sorbon astro
 and we're going to say sorbon astro
 template. Cool. No demo effect today. As
@@ -1098,9 +1098,9 @@ mpm install@stellar
 for slash freighter API.
 for slash freighter API.
 for slash freighter API.
-[Music]
-[Music]
-[Music]
+
+
+
 And here we're going to create a
 And here we're going to create a
 And here we're going to create a
@@ -1677,9 +1677,9 @@ freighter is locked. So
 let's just go ahead and do this here.
 let's just go ahead and do this here.
 let's just go ahead and do this here.
-[Music]
-[Music]
-[Music]
+
+
+
 If public key set public key logged in
 If public key set public key logged in
 If public key set public key logged in

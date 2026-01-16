@@ -18,9 +18,9 @@ of you who's been in the community for a
 while. They have been they have been
 while. They have been they have been
 while. They have been they have been
-building on Stella for yeah way longer
-building on Stella for yeah way longer
-building on Stella for yeah way longer
+building on Stellar for yeah way longer
+building on Stellar for yeah way longer
+building on Stellar for yeah way longer
 than I have. So welcome guys and yeah
 than I have. So welcome guys and yeah
 than I have. So welcome guys and yeah
@@ -1314,9 +1314,9 @@ and then then invest for the first time
 you can use stellar C cli
 you can use stellar C cli
 you can use stellar C cli
-[Music]
-[Music]
-[Music]
+
+
+
 with the same with this instructions
 and then
 and then
@@ -1536,9 +1536,9 @@ yeah.
 the the hackathon. So right now we have
 the the hackathon. So right now we have
 the the hackathon. So right now we have
-the the Stella hacks. I'll just share a
-the the Stella hacks. I'll just share a
-the the Stella hacks. I'll just share a
+the the Stellar hacks. I'll just share a
+the the Stellar hacks. I'll just share a
+the the Stellar hacks. I'll just share a
 link for the hackathon. And this
 link for the hackathon. And this
 link for the hackathon. And this
@@ -1575,9 +1575,9 @@ here we go.
 &gt;&gt; Yeah.
 &gt;&gt; So, this is the second second
 &gt;&gt; So, this is the second second
-hackathon we're doing with Stella hacks.
-hackathon we're doing with Stella hacks.
-hackathon we're doing with Stella hacks.
+hackathon we're doing with Stellar hacks.
+hackathon we're doing with Stellar hacks.
+hackathon we're doing with Stellar hacks.
 the first one was integrating
 the first one was integrating
 the first one was integrating
@@ -1620,9 +1620,9 @@ wallets a smart wallet using source and
 or the findex it will be great.
 or the findex it will be great.
 or the findex it will be great.
-[Music]
-[Music]
-[Music]
+
+
+
 So you can use our APIs the Pasi kit
 So you can use our APIs the Pasi kit
 So you can use our APIs the Pasi kit

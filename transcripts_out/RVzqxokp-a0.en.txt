@@ -664,7 +664,7 @@ smart contract world right and say like
 well these aren't smart contracts and
 avoid their smart contracts intended to
 interoperate with the legacy
-[Music]
+
 stellar accounts and so to just kind of
 like
 expose that

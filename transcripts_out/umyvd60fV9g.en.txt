@@ -1149,9 +1149,9 @@ key security properties to go over so as
 you can see bitcoin and ethereum prefer
 you can see bitcoin and ethereum prefer
 you can see bitcoin and ethereum prefer
-liveness and stella prefers safety and
-liveness and stella prefers safety and
-liveness and stella prefers safety and
+liveness and Stellar prefers safety and
+liveness and Stellar prefers safety and
+liveness and Stellar prefers safety and
 you're probably very confused because i
 you're probably very confused because i
 you're probably very confused because i

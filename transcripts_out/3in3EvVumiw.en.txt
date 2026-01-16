@@ -866,7 +866,7 @@ a64 and then two string
 it's probably a hexia
 that's our contract ID Maybe
 ish
-[Music]
+
 wish that was
 that was not that was the actual xdr
 value this was the
@@ -1070,12 +1070,12 @@ those other types
 
 yeah that's what I got that flavor of
 design really comes from like the way
-that xdr like the the Stella Network
+that xdr like the the Stellar Network
 uses xdr for structuring
 all of the data they get stored and
 that's just a really common way of
 solving that problem in the XTR
-[Music]
+
 
 I'm trying to see there are a few other
 questions here that I guess we can

@@ -3733,8 +3733,8 @@ the transaction itself and
 the transaction itself and
 the transaction itself and
 as opposed to
-[Music]
-[Music]
+
+
 i don't see how like that you can make
 i don't see how like that you can make
 i don't see how like that you can make
@@ -3786,9 +3786,9 @@ combine
 the
 the
 the
-[Music]
-[Music]
-[Music]
+
+
+
 groups and apply order like make them
 groups and apply order like make them
 groups and apply order like make them
@@ -4090,8 +4090,8 @@ vectors and yeah
 vectors and yeah
 vectors and yeah
 i would like that more
-[Music]
-[Music]
+
+
 so we are getting close to the hour and
 so we are getting close to the hour and
 so we are getting close to the hour and
@@ -4167,9 +4167,9 @@ that there's going to be some
 configuration
 configuration
 configuration
-[Music]
-[Music]
-[Music]
+
+
+
 some way of configuring stellar core to
 some way of configuring stellar core to
 some way of configuring stellar core to

@@ -2952,9 +2952,9 @@ limitations there. Good question.
 you have a demo app that's built on
 you have a demo app that's built on
 you have a demo app that's built on
-Stella that are using this.
-Stella that are using this.
-Stella that are using this.
+ Stellar that are using this.
+ Stellar that are using this.
+ Stellar that are using this.
 &gt;&gt; Yeah, we do.
 &gt;&gt; Yeah, we do.
 &gt;&gt; Yeah, we do.

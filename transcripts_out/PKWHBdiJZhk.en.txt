@@ -3312,9 +3312,9 @@ choose to send to the Bitcoin address
 they're doing withdraw on that anchor
 they're doing withdraw on that anchor
 they're doing withdraw on that anchor
-[Music]
-[Music]
-[Music]
+
+
+
 but it's behind the scenes the client
 but it's behind the scenes the client
 but it's behind the scenes the client

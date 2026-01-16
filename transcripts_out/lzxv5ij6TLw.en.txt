@@ -447,9 +447,9 @@ memos that I'll link this discussion
 topic
 topic
 topic
-[Music]
-[Music]
-[Music]
+
+
+
 from from
 from from
 from from
@@ -1332,9 +1332,9 @@ basically all described events that what
 we do with
 we do with
 we do with
-[Music]
-[Music]
-[Music]
+
+
+
 u with the transaction
 u with the transaction
 u with the transaction
@@ -2139,7 +2139,7 @@ arbitr transaction for
 example
 example
 example
-[Music]
+
 yeah in terms of the system
 yeah in terms of the system
 requirements again the cup doesn't
@@ -2268,9 +2268,9 @@ settings so you know that to enable any
 parallelism Network quote to
 happen Okay
 happen Okay
-[Music]
-[Music]
-[Music]
+
+
+
 then to the structure okay I already
 then to the structure okay I already
 then to the structure okay I already
@@ -2943,9 +2943,9 @@ sure it is correct to just omit
 them and
 them and
 them and
-[Music]
-[Music]
-[Music]
+
+
+
 whether we want to update meta I have
 whether we want to update meta I have
 whether we want to update meta I have
@@ -2976,9 +2976,9 @@ final for it after applying every
 transaction in The Ledger
 transaction in The Ledger
 transaction in The Ledger
-[Music]
-[Music]
-[Music]
+
+
+
 I like that's potentially a
 I like that's potentially a
 I like that's potentially a

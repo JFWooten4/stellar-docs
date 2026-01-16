@@ -142,7 +142,7 @@ and structurally it wouldn't make
 sense
 but
 
-[Music]
+
 what we're what we're doing here is also
 allowing structured values as keys
 rather than
@@ -152,7 +152,7 @@ you will in the case of using it as a
 string here but the api is encouraging
 users to have fairly structured values
 so they can have fairly rich keys
-[Music]
+
 and
 implicit to all of this is that
 there's there's a parallel access and
@@ -308,7 +308,7 @@ touching the disk doing a seek doing a
 read
 all of that overhead is
 
-[Music]
+
 potentially quite high and and so it's
 it can be worth trying to amortize that
 overhead and read more than one item if
@@ -333,7 +333,7 @@ so that that pushes you in the opposite
 direction of having
 fine grained
 data and
-[Music]
+
 that problem actually just magnifies
 itself when you start talking about
 parallelism because again your footprint
@@ -426,7 +426,7 @@ will just read all their data at once at
 the beginning of a transaction set
 execution and then write it back at the
 end so that
-[Music]
+
 that kind of thing is is naturally
 incompatible with something like dynamic
 range queries
@@ -484,7 +484,7 @@ i'm not sure that it is a ton of work
 like it would would be my first reaction
 in the sense that
 
-[Music]
+
 i don't
 know
 so so so for example you know we could
@@ -607,7 +607,7 @@ happening or something like that
 they can re-architect the contract to
 essentially sacrifice concurrency
 
-[Music]
+
 to get rid of the ability to
 have that kind of concern so so you know
 at the extreme end your footprint is
@@ -915,7 +915,7 @@ is that i'm i'm a little bit
 well i'll be honest i'm a little bit
 behind on on this entire aspect of the
 interactions
-[Music]
+
 if you're dealing with a case where
 people do use the simplest and safest
 approach
@@ -1774,7 +1774,7 @@ right i think
 it's we need to have to kind of to solve
 those problems what i'm saying is that
 we don't need to
-[Music]
+
 because like the things that i've heard
 so far they are in the context of a cap
 and in the context of the cap

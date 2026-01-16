@@ -12,9 +12,9 @@ quickart is a local stellar network
 environment. So quickart is a docker
 environment. So quickart is a docker
 environment. So quickart is a docker
-image that bundles stella core with
-image that bundles stella core with
-image that bundles stella core with
+image that bundles Stellar core with
+image that bundles Stellar core with
+image that bundles Stellar core with
 horizon RPC friendbot and a database.
 horizon RPC friendbot and a database.
 horizon RPC friendbot and a database.
@@ -63,18 +63,18 @@ volume on your local machine and persist
 the database and the
 configurations. It's very easy to set up
 configurations. It's very easy to set up
-quick start. All you need is Stella CLI
-quick start. All you need is Stella CLI
-quick start. All you need is Stella CLI
+quick start. All you need is Stellar CLI
+quick start. All you need is Stellar CLI
+quick start. All you need is Stellar CLI
 and Docker installed on your local
 and Docker installed on your local
 and Docker installed on your local
 machine and then you can use the CLI
 machine and then you can use the CLI
 machine and then you can use the CLI
-command Stella network container start
-command Stella network container start
-command Stella network container start
+command Stellar network container start
+command Stellar network container start
+command Stellar network container start
 to set up quick start on your local
 to set up quick start on your local
 to set up quick start on your local
@@ -96,12 +96,12 @@ give a quick intro to how to actually
 use it in practice. And two ways to use
 use it in practice. And two ways to use
 use it in practice. And two ways to use
-it is to use Stella Lab. You can connect
-it is to use Stella Lab. You can connect
-it is to use Stella Lab. You can connect
-Stella Lab to quick
-Stella Lab to quick
-Stella Lab to quick
+it is to use Stellar Lab. You can connect
+it is to use Stellar Lab. You can connect
+it is to use Stellar Lab. You can connect
+ Stellar Lab to quick
+ Stellar Lab to quick
+ Stellar Lab to quick
 start or you can deploy a smart
 start or you can deploy a smart
 start or you can deploy a smart
@@ -198,9 +198,9 @@ Okay, so here we have the
 terminal. First, if you remember, we can
 terminal. First, if you remember, we can
 terminal. First, if you remember, we can
-use a command from the Stella CLI to set
-use a command from the Stella CLI to set
-use a command from the Stella CLI to set
+use a command from the Stellar CLI to set
+use a command from the Stellar CLI to set
+use a command from the Stellar CLI to set
 up
 up
 up
@@ -291,9 +291,9 @@ same
 way. Now let's try to
 way. Now let's try to
 way. Now let's try to
-connect Stella Lab instead of using the
-connect Stella Lab instead of using the
-connect Stella Lab instead of using the
+connect Stellar Lab instead of using the
+connect Stellar Lab instead of using the
+connect Stellar Lab instead of using the
 the terminal
 I have still a lab in this window. And
 I have still a lab in this window. And
@@ -331,8 +331,8 @@ as if we were using the public test net.
 as if we were using the public test net.
 as if we were using the public test net.
 So let's switch to the custom network.
-So now Stella Lab is connected to our
-So now Stella Lab is connected to our
+So now Stellar Lab is connected to our
+So now Stellar Lab is connected to our
 quick
 quick
 quick

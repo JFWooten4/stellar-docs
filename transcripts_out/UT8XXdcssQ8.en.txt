@@ -1,8 +1,8 @@
 Hello and welcome to this week's
 Hello and welcome to this week's
-Stella developer meeting. Today I have a
-Stella developer meeting. Today I have a
-Stella developer meeting. Today I have a
+ Stellar developer meeting. Today I have a
+ Stellar developer meeting. Today I have a
+ Stellar developer meeting. Today I have a
 guest from Open Sein. I have Bram.
 guest from Open Sein. I have Bram.
 guest from Open Sein. I have Bram.
@@ -1419,9 +1419,9 @@ which says open source tools and over
 here in the relayers there's no not yet
 here in the relayers there's no not yet
 here in the relayers there's no not yet
-Stella support coming soon but in the
-Stella support coming soon but in the
-Stella support coming soon but in the
+ Stellar support coming soon but in the
+ Stellar support coming soon but in the
+ Stellar support coming soon but in the
 open zeppeline monitors we also give
 open zeppeline monitors we also give
 open zeppeline monitors we also give

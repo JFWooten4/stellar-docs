@@ -1855,8 +1855,8 @@ make a payment you'll just fail because
 make a payment you'll just fail because
 make a payment you'll just fail because
 you're blacklisted
-[Music]
-[Music]
+
+
 is there a next question we should move
 is there a next question we should move
 is there a next question we should move
@@ -2022,7 +2022,7 @@ support interoperability with these
 features of stellar assets
 features of stellar assets
 features of stellar assets
-[Music]
+
 right so i think what it comes down to i
 right so i think what it comes down to i
 think is that
@@ -3201,9 +3201,9 @@ hold an asset i'm assuming that we're
 going to have some way of saying that
 going to have some way of saying that
 going to have some way of saying that
-like on stella like on classic
-like on stella like on classic
-like on stella like on classic
+like on Stellar like on classic
+like on Stellar like on classic
+like on Stellar like on classic
 you have to explicitly say that
 you have to explicitly say that
 you have to explicitly say that
@@ -4779,9 +4779,9 @@ classic right now
 just
 just
 just
-[Music]
-[Music]
-[Music]
+
+
+
 fyi
 fyi
 fyi

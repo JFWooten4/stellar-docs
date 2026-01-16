@@ -267,9 +267,9 @@ is possible to record different mode
 async
 async
 async
-[Music]
-[Music]
-[Music]
+
+
+
 or different tokens spent or different
 or different tokens spent or different
 or different tokens spent or different
@@ -423,9 +423,9 @@ The Proposal also
 includes
 includes
 includes
-[Music]
-[Music]
-[Music]
+
+
+
 that generalized Finance Management okay
 that generalized Finance Management okay
 that generalized Finance Management okay
@@ -588,9 +588,9 @@ yeah I think that's pretty much it on
 the high level
 the high level
 the high level
-[Music]
-[Music]
-[Music]
+
+
+
 
 
 

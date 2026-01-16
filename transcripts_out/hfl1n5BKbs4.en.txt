@@ -1,8 +1,8 @@
 hello everyone and welcome to this
 hello everyone and welcome to this
-week's Stella developer meeting today
-week's Stella developer meeting today
-week's Stella developer meeting today
+week's Stellar developer meeting today
+week's Stellar developer meeting today
+week's Stellar developer meeting today
 we have the team from blend joining
 we have the team from blend joining
 we have the team from blend joining
@@ -54,12 +54,12 @@ competition competitive audit and formal
 verification competition within the
 verification competition within the
 verification competition within the
-Stella ecosystem so it's an amazing
-Stella ecosystem so it's an amazing
-Stella ecosystem so it's an amazing
-opportunity for Stella devs to try their
-opportunity for Stella devs to try their
-opportunity for Stella devs to try their
+ Stellar ecosystem so it's an amazing
+ Stellar ecosystem so it's an amazing
+ Stellar ecosystem so it's an amazing
+opportunity for Stellar devs to try their
+opportunity for Stellar devs to try their
+opportunity for Stellar devs to try their
 hand on competing to find bugs and write
 hand on competing to find bugs and write
 hand on competing to find bugs and write

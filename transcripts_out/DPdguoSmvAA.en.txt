@@ -238,7 +238,7 @@ based on who signs the transactions or
 given temporary permissions to some
 contracts and the possibilities are
 basically endless
-[Music]
+
 
 so yeah this was it on the requirements
 topic and this kind of only started
@@ -795,7 +795,7 @@ everything needs to be built manually
 like like prefighters basically is the
 best thing we can probably provide out
 with that or you know just go with
-[Music]
+
 the approach of
 erc28 approach right therapy just always
 saying the single call and then did do a

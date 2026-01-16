@@ -1497,9 +1497,9 @@ time you created and I think there's
 probably a constant Factor
 probably a constant Factor
 probably a constant Factor
-[Music]
-[Music]
-[Music]
+
+
+
 I did want to bring Ian from
 I did want to bring Ian from
 I did want to bring Ian from
@@ -2763,9 +2763,9 @@ a function that allows you to to
 compute the
 compute the
 compute the
-[Music]
-[Music]
-[Music]
+
+
+
 like if you want to go from a number of
 like if you want to go from a number of
 like if you want to go from a number of

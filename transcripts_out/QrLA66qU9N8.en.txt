@@ -1,8 +1,8 @@
 okay hello everyone welcome to this
 okay hello everyone welcome to this
-week's Stella developer meeting and
-week's Stella developer meeting and
-week's Stella developer meeting and
+week's Stellar developer meeting and
+week's Stellar developer meeting and
+week's Stellar developer meeting and
 today I have a couple of guests so let
 today I have a couple of guests so let
 today I have a couple of guests so let
@@ -165,9 +165,9 @@ when you're kind of sourcing your data
 from somewhere
 from somewhere
 from somewhere
-[Music]
-[Music]
-[Music]
+
+
+
 else and kind of the really cool
 else and kind of the really cool
 else and kind of the really cool
@@ -1530,9 +1530,9 @@ signing status and automatically
 detected validity period
 detected validity period
 detected validity period
-[Music]
-[Music]
-[Music]
+
+
+
 and the key part of it
 and the key part of it
 and the key part of it

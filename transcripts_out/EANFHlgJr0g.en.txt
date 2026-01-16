@@ -1,11 +1,11 @@
-[Music]
-[Music]
+
+
 foreign
 hello everyone
 hello everyone
-[Music]
-[Music]
-[Music]
+
+
+
 Paul can hear me
 Paul can hear me
 Paul can hear me
@@ -21,7 +21,7 @@ volume is it good enough
 yeah you're all good
 thank you
 thank you
-[Music]
+
 actually
 actually
 get out of the camera hi hi hi everyone
@@ -561,9 +561,9 @@ sorbon and he's going to show us a bit
 about what he's been working on
 about what he's been working on
 about what he's been working on
-[Music]
-[Music]
-[Music]
+
+
+
 hello everyone I'm gonna start buying
 hello everyone I'm gonna start buying
 hello everyone I'm gonna start buying
@@ -639,9 +639,9 @@ so I'll just get started with the
 hello world part
 hello world part
 hello world part
-[Music]
-[Music]
-[Music]
+
+
+
 all right so what do we have here
 all right so what do we have here
 all right so what do we have here
@@ -909,7 +909,7 @@ let's go ahead and copy this
 from here
 from here
 from here
-[Music]
+
 okay
 okay
 all right compile this again and that
@@ -1527,7 +1527,7 @@ all right so I'm handing it off Back
 To You Paul
 To You Paul
 To You Paul
-[Music]
+
 we go okay I'm back thanks
 we go okay I'm back thanks
 Morgan can we get the slides up again
@@ -1974,9 +1974,9 @@ contracts work on sarban and get some of
 the basics of those in foreign
 I'm Paul's back too hey Paul
 I'm Paul's back too hey Paul
-[Music]
-[Music]
-[Music]
+
+
+
 I am muscle back yeah
 I am muscle back yeah
 I am muscle back yeah
@@ -2034,9 +2034,9 @@ to storage and preserving things in
 The Ledger
 The Ledger
 The Ledger
-[Music]
-[Music]
-[Music]
+
+
+
 so as I open this up
 so as I open this up
 so as I open this up
@@ -2046,9 +2046,9 @@ I want to hide my face and then focus on
 the code again if
 the code again if
 the code again if
-[Music]
-[Music]
-[Music]
+
+
+
 all right perfect so we we're back to
 all right perfect so we we're back to
 all right perfect so we we're back to
@@ -2058,9 +2058,9 @@ a brand new project I think we should
 rename this to
 rename this to
 rename this to
-[Music]
-[Music]
-[Music]
+
+
+
 speak
 so we're working on the state on on
 so we're working on the state on on
@@ -2280,9 +2280,9 @@ from the SDK and we're going to declare
 another contract
 another contract
 another contract
-[Music]
-[Music]
-[Music]
+
+
+
 on track okay and then we're going to
 on track okay and then we're going to
 on track okay and then we're going to
@@ -2292,9 +2292,9 @@ implement this contract with a couple of
 functions
 functions
 functions
-[Music]
-[Music]
-[Music]
+
+
+
 let's clear this
 let's clear this
 let's clear this
@@ -2391,7 +2391,7 @@ compiles again
 
 let me back out of this
 let me back out of this
-[Music]
+
 oh
 oh
 we don't need to back out of this we're
@@ -2523,9 +2523,9 @@ it's gonna be u32
 and
 and
 and
-[Music]
-[Music]
-[Music]
+
+
+
 42
 42
 42
@@ -2586,9 +2586,9 @@ logging and we're going to reference
 storage okay
 storage okay
 storage okay
-[Music]
-[Music]
-[Music]
+
+
+
 compile this
 compile this
 compile this
@@ -3082,8 +3082,8 @@ in there
 in there
 in there
 and let's see what that returns
-[Music]
-[Music]
+
+
 we probably need to do some matching
 we probably need to do some matching
 we probably need to do some matching
@@ -3093,12 +3093,12 @@ here
 
 
 
-[Music]
+
 foreign
 foreign
-[Music]
-[Music]
-[Music]
+
+
+
 type I think I'm going a little over the
 type I think I'm going a little over the
 type I think I'm going a little over the

@@ -1170,9 +1170,9 @@ saw of these aggregate resources
 as opposed to
 as opposed to
 as opposed to
-[Music]
-[Music]
-[Music]
+
+
+
 kind of stepping outside of that and
 kind of stepping outside of that and
 kind of stepping outside of that and
@@ -1542,9 +1542,9 @@ actually a transaction that is related
 to
 to
 to
-[Music]
-[Music]
-[Music]
+
+
+
 
 
 
@@ -1563,9 +1563,9 @@ value is the initial and inner and value
 of this transaction
 of this transaction
 of this transaction
-[Music]
-[Music]
-[Music]
+
+
+
 is actually off chain
 is actually off chain
 is actually off chain
@@ -1665,9 +1665,9 @@ you know you're trying to pay your
 
 
 
-[Music]
-[Music]
-[Music]
+
+
+
 at a store right like he
 at a store right like he
 at a store right like he
@@ -2193,9 +2193,9 @@ anymore and you have to retune it so a
 key question is as the kind of things
 key question is as the kind of things
 key question is as the kind of things
-that happen on Stella evolve how will we
-that happen on Stella evolve how will we
-that happen on Stella evolve how will we
+that happen on Stellar evolve how will we
+that happen on Stellar evolve how will we
+that happen on Stellar evolve how will we
 adjust or adapt to that
 adjust or adapt to that
 adjust or adapt to that

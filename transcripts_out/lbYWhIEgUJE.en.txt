@@ -762,9 +762,9 @@ we can actually rely on some of the
 
 
 
-[Music]
-[Music]
-[Music]
+
+
+
 a contract between validators that
 a contract between validators that
 a contract between validators that
@@ -825,9 +825,9 @@ with i think a system that
 
 
 
-[Music]
-[Music]
-[Music]
+
+
+
 yeah that's realized more on this on
 yeah that's realized more on this on
 yeah that's realized more on this on

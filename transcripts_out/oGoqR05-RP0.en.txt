@@ -626,7 +626,7 @@ prevent that but we should discourage it
 right like it would be a bummer
 if
 
-[Music]
+
 you know at some point we want to have
 like really cheap payments and trades
 right and so
@@ -1521,7 +1521,7 @@ different topic but still related to
 like code versioning stuff
 that i was talking to darth about
 yesterday afternoon
-[Music]
+
 was about like
 maybe the state of like and like start
 had some reasons that this is like maybe
