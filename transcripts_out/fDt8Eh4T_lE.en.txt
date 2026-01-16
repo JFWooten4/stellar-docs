@@ -753,9 +753,9 @@ voted for Y and let's see what other
 nodes do when they receive those
 nodes do when they receive those
 nodes do when they receive those
-messages so nodes 1 2 &amp; 4 receive vote
-messages so nodes 1 2 &amp; 4 receive vote
-messages so nodes 1 2 &amp; 4 receive vote
+messages so nodes 1 2 & 4 receive vote
+messages so nodes 1 2 & 4 receive vote
+messages so nodes 1 2 & 4 receive vote
 for X from 3 and you know they have 3 in
 for X from 3 and you know they have 3 in
 for X from 3 and you know they have 3 in
@@ -801,9 +801,9 @@ soon as those messages get through nodes
 may proceed and accept statement X and
 may proceed and accept statement X and
 may proceed and accept statement X and
-so we can we can see that 1 2 &amp; 3
-so we can we can see that 1 2 &amp; 3
-so we can we can see that 1 2 &amp; 3
+so we can we can see that 1 2 & 3
+so we can we can see that 1 2 & 3
+so we can we can see that 1 2 & 3
 accepted X and you know maybe some
 accepted X and you know maybe some
 accepted X and you know maybe some
@@ -867,9 +867,9 @@ for 6 and 5 is also blocking set for 7
 so referring to our rule number 3 again
 so referring to our rule number 3 again
 so referring to our rule number 3 again
-here accepted blocking set accepted 6 &amp;
-here accepted blocking set accepted 6 &amp;
-here accepted blocking set accepted 6 &amp;
+here accepted blocking set accepted 6 &
+here accepted blocking set accepted 6 &
+here accepted blocking set accepted 6 &
 7 can accept X as well so at this point
 7 can accept X as well so at this point
 7 can accept X as well so at this point

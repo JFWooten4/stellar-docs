@@ -1573,7 +1573,7 @@ previous votes a node may accept a if
 00:09:40.030 --> 00:09:42.870 align:start position:0%
 previous votes a node may accept a if
 either<00:09:40.590><c> every</c><00:09:41.590><c> node</c><00:09:41.860><c> in</c><00:09:42.070><c> its</c><00:09:42.280><c> quorum</c><00:09:42.610><c> slice</c>
-
+&
 00:09:42.870 --> 00:09:42.880 align:start position:0%
 either every node in its quorum slice
 
@@ -1669,7 +1669,7 @@ because a blocking said accepted
 00:10:18.529 --> 00:10:21.190 align:start position:0%
 because a blocking said accepted
 something<00:10:18.770><c> else</c><00:10:19.040><c> or</c><00:10:19.610><c> it</c><00:10:20.089><c> might</c><00:10:20.360><c> it</c><00:10:20.690><c> might</c><00:10:20.750><c> just</c>
-
+&
 00:10:21.190 --> 00:10:21.200 align:start position:0%
 something else or it might it might just
 
@@ -1801,7 +1801,7 @@ quorum<00:11:06.020><c> slice</c><00:11:06.260><c> accepted</c><00:11:06.980><c>
 00:11:09.800 --> 00:11:09.810 align:start position:0%
 
 
-
+&
 00:11:09.810 --> 00:11:14.370 align:start position:0%
 
 all<00:11:10.810><c> right</c><00:11:10.990><c> a</c><00:11:11.680><c> little</c><00:11:11.980><c> demo</c><00:11:12.340><c> here</c><00:11:12.460><c> to</c><00:11:13.050><c> see</c><00:11:14.050><c> how</c>
