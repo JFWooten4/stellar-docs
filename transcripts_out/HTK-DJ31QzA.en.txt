@@ -234,9 +234,9 @@ asked but i'm going to pass it to graden
 
 
 
-grading i guess to start off with is
-grading i guess to start off with is
-grading i guess to start off with is
+grading I guess to start off with is
+grading I guess to start off with is
+grading I guess to start off with is
 there anything that you want to tell us
 there anything that you want to tell us
 there anything that you want to tell us
@@ -249,9 +249,9 @@ that you have that you'd like to discuss
 about it today
 thanks yeah there's there's lots to
 thanks yeah there's there's lots to
-discuss here i i want to give a
-discuss here i i want to give a
-discuss here i i want to give a
+discuss here I want to give a
+discuss here I want to give a
+discuss here I want to give a
 little bit of background because this
 little bit of background because this
 little bit of background because this
@@ -807,15 +807,15 @@ so that sort of gives a little bit of
 background on it
 background on it
 background on it
-there was one other thing i wanted to
-there was one other thing i wanted to
-there was one other thing i wanted to
+there was one other thing I wanted to
+there was one other thing I wanted to
+there was one other thing I wanted to
 mention
-gradient i actually do have one
-gradient i actually do have one
-high-level question for you i know
-high-level question for you i know
-high-level question for you i know
+gradient I actually do have one
+gradient I actually do have one
+high-level question for you I know
+high-level question for you I know
+high-level question for you I know
 you've you go into this in detail in
 you've you go into this in detail in
 you've you go into this in detail in
@@ -834,9 +834,9 @@ object split because that's something
 that is very unique in the world of
 that is very unique in the world of
 that is very unique in the world of
-blockchains i think that elrond is
-blockchains i think that elrond is
-blockchains i think that elrond is
+blockchains I think that elrond is
+blockchains I think that elrond is
+blockchains I think that elrond is
 the only other blockchain that we saw
 the only other blockchain that we saw
 the only other blockchain that we saw
@@ -861,9 +861,9 @@ so an analogy that a lot of people
 have this was actually the thing i
 have this was actually the thing i
 have this was actually the thing i
-wanted to talk about i just remembered
-wanted to talk about i just remembered
-wanted to talk about i just remembered
+wanted to talk about I just remembered
+wanted to talk about I just remembered
+wanted to talk about I just remembered
 so i'm glad you brought it up
 so i'm glad you brought it up
 so i'm glad you brought it up
@@ -873,9 +873,9 @@ there's this analogy that a lot of
 people have have been using while we're
 people have have been using while we're
 people have have been using while we're
-talking about this that i thought it
-talking about this that i thought it
-talking about this that i thought it
+talking about this that I thought it
+talking about this that I thought it
+talking about this that I thought it
 would be good to bring up here which
 would be good to bring up here which
 would be good to bring up here which
@@ -1065,9 +1065,9 @@ so that we're approaching this
 this model and as you said it's the same
 this model and as you said it's the same
 this model and as you said it's the same
-model that that i think the lra
-model that that i think the lra
-model that that i think the lra
+model that that I think the lra
+model that that I think the lra
+model that that I think the lra
 network uses
 network uses
 network uses
@@ -1212,9 +1212,9 @@ and so you can you can write code in
 whatever language you're you're writing
 whatever language you're you're writing
 whatever language you're you're writing
-and i think most of our smart contract
-and i think most of our smart contract
-and i think most of our smart contract
+and I think most of our smart contract
+and I think most of our smart contract
+and I think most of our smart contract
 source languages are going to be
 source languages are going to be
 source languages are going to be
@@ -1305,9 +1305,9 @@ benefits
 
 
 
-one of the benefits i haven't mentioned
-one of the benefits i haven't mentioned
-one of the benefits i haven't mentioned
+one of the benefits I haven't mentioned
+one of the benefits I haven't mentioned
+one of the benefits I haven't mentioned
 yet so much but it's in the rationale
 yet so much but it's in the rationale
 yet so much but it's in the rationale
@@ -1503,9 +1503,9 @@ types or whatever and in order to pass
 data from one from one contract to
 data from one from one contract to
 data from one from one contract to
-another i mean a contract is just a
-another i mean a contract is just a
-another i mean a contract is just a
+another I mean a contract is just a
+another I mean a contract is just a
+another I mean a contract is just a
 program and for for two programs to
 program and for for two programs to
 program and for for two programs to
@@ -1671,9 +1671,9 @@ data format so
 
 
 
-so i tried to lay some of them out in
-so i tried to lay some of them out in
-so i tried to lay some of them out in
+so I tried to lay some of them out in
+so I tried to lay some of them out in
+so I tried to lay some of them out in
 the rationale section here but it really
 the rationale section here but it really
 the rationale section here but it really
@@ -1755,9 +1755,9 @@ to work that will also change our
 strategy very dramatically so
 strategy very dramatically so
 strategy very dramatically so
-i've talked a lot right now i don't know
-i've talked a lot right now i don't know
-i've talked a lot right now i don't know
+i've talked a lot right now I don't know
+i've talked a lot right now I don't know
+i've talked a lot right now I don't know
 if you have any other questions or
 if you have any other questions or
 if you have any other questions or
@@ -1797,9 +1797,9 @@ your sort of mvp first pass what host
 objects do you include as your
 objects do you include as your
 objects do you include as your
-baseline so i actually have one
-baseline so i actually have one
-baseline so i actually have one
+baseline so I actually have one
+baseline so I actually have one
+baseline so I actually have one
 follow-up question before we go deep
 follow-up question before we go deep
 follow-up question before we go deep
@@ -1893,9 +1893,9 @@ and disk resources on the validators
 it will be a lot more expensive to do it
 it will be a lot more expensive to do it
 it will be a lot more expensive to do it
-that way and so i i think you'll just
-that way and so i i think you'll just
-that way and so i i think you'll just
+that way and so I think you'll just
+that way and so I think you'll just
+that way and so I think you'll just
 my hope anyway is
 my hope anyway is
 my hope anyway is
@@ -1939,8 +1939,8 @@ in general do people feel pretty good
 in general do people feel pretty good
 in general do people feel pretty good
 about this model
-i mean so so i have kind of a meta
-i mean so so i have kind of a meta
+i mean so so I have kind of a meta
+i mean so so I have kind of a meta
 comment which is that
 comment which is that
 comment which is that
@@ -1965,9 +1965,9 @@ change of this scope without like a
 requirements document first to reference
 requirements document first to reference
 requirements document first to reference
-so like i have a bunch of nits but to
-so like i have a bunch of nits but to
-so like i have a bunch of nits but to
+so like I have a bunch of nits but to
+so like I have a bunch of nits but to
+so like I have a bunch of nits but to
 some extent it's gonna be like who knows
 some extent it's gonna be like who knows
 some extent it's gonna be like who knows
@@ -1983,18 +1983,18 @@ and aren't right
 so
 so
 so
-so i have like i have huge concerns
-so i have like i have huge concerns
-so i have like i have huge concerns
+so I have like I have huge concerns
+so I have like I have huge concerns
+so I have like I have huge concerns
 about the about the use of floating
 about the about the use of floating
 about the about the use of floating
 point values for example it just seems
 point values for example it just seems
 point values for example it just seems
-like i can think of like a million bugs
-like i can think of like a million bugs
-like i can think of like a million bugs
+like I can think of like a million bugs
+like I can think of like a million bugs
+like I can think of like a million bugs
 that like really
 that like really
 that like really
@@ -2104,8 +2104,8 @@ contracts on stellar right
 contracts on stellar right
 contracts on stellar right
 okay
-that makes sense i can work on that
-that makes sense i can work on that
+that makes sense I can work on that
+that makes sense I can work on that
 maybe in the meantime if you have
 maybe in the meantime if you have
 maybe in the meantime if you have
@@ -2172,9 +2172,9 @@ your own floating point now personally
 myself i'm a little bit more of a
 myself i'm a little bit more of a
 myself i'm a little bit more of a
-floating point believer so i i'm not
-floating point believer so i i'm not
-floating point believer so i i'm not
+floating point believer so I i'm not
+floating point believer so I i'm not
+floating point believer so I i'm not
 as concerned about that there are
 as concerned about that there are
 as concerned about that there are
@@ -2211,9 +2211,9 @@ that's that
 and 754 has not actually changed in
 and 754 has not actually changed in
 and 754 has not actually changed in
-40 years so i mean i think that's
-40 years so i mean i think that's
-40 years so i mean i think that's
+40 years so I mean I think that's
+40 years so I mean I think that's
+40 years so I mean I think that's
 actually a fairly stable thing to point
 actually a fairly stable thing to point
 actually a fairly stable thing to point
@@ -2238,9 +2238,9 @@ two cpus shipped in my lifetime that had
 bugs and they were they were like very
 bugs and they were they were like very
 bugs and they were they were like very
-high priority fixes so i i i think
-high priority fixes so i i i think
-high priority fixes so i i i think
+high priority fixes so I think
+high priority fixes so I think
+high priority fixes so I think
 saying like that
 saying like that
 saying like that
@@ -2274,9 +2274,9 @@ we need floating point if zero of them
 need floating point then it seems crazy
 need floating point then it seems crazy
 need floating point then it seems crazy
-i i i i agree that we can we can decide
-i i i i agree that we can we can decide
-i i i i agree that we can we can decide
+i I agree that we can we can decide
+i I agree that we can we can decide
+i I agree that we can we can decide
 whether or not to have floating point i
 whether or not to have floating point i
 whether or not to have floating point i
@@ -2316,9 +2316,9 @@ not a an accessible format in lesson
 you you you only have access to the 64
 you you you only have access to the 64
 you you you only have access to the 64
-all the operations but i find it like
-all the operations but i find it like
-all the operations but i find it like
+all the operations but I find it like
+all the operations but I find it like
+all the operations but I find it like
 there's like a bug in the run time that
 there's like a bug in the run time that
 there's like a bug in the run time that
@@ -2352,9 +2352,9 @@ requirement for floating points before
 getting too too deep into
 getting too too deep into
 getting too too deep into
-what might go wrong i think it's the
-what might go wrong i think it's the
-what might go wrong i think it's the
+what might go wrong I think it's the
+what might go wrong I think it's the
+what might go wrong I think it's the
 right one okay
 so so tell me you're making that you're
 so so tell me you're making that you're
@@ -2376,9 +2376,9 @@ there other like concerns
 like that that we should get into now
 like that that we should get into now
 like that that we should get into now
-well i think like the big one is
-well i think like the big one is
-well i think like the big one is
+well I think like the big one is
+well I think like the big one is
+well I think like the big one is
 concurrency right like do we
 concurrency right like do we
 concurrency right like do we
@@ -2424,9 +2424,9 @@ pretty early and it needs to be driven
 by by requirements
 by by requirements
 by by requirements
-yeah i can i can speak to that a little
-yeah i can i can speak to that a little
-yeah i can i can speak to that a little
+yeah I can I can speak to that a little
+yeah I can I can speak to that a little
+yeah I can I can speak to that a little
 bit that that is
 bit that that is
 bit that that is
@@ -2478,9 +2478,9 @@ there is essentially no
 there are there are no concurrent
 there are there are no concurrent
 there are there are no concurrent
-host objects in in this model and i i'm
-host objects in in this model and i i'm
-host objects in in this model and i i'm
+host objects in in this model and I i'm
+host objects in in this model and I i'm
+host objects in in this model and I i'm
 happy to spell that fact that that
 happy to spell that fact that that
 happy to spell that fact that that
@@ -2559,9 +2559,9 @@ transactions that we have planned
 includes a
 includes a
 includes a
-sort of i guess a trick or a standard
-sort of i guess a trick or a standard
-sort of i guess a trick or a standard
+sort of I guess a trick or a standard
+sort of I guess a trick or a standard
+sort of I guess a trick or a standard
 pattern from the deterministic database
 pattern from the deterministic database
 pattern from the deterministic database
@@ -2604,9 +2604,9 @@ requirement for concurrency control
 because the the concurrent executions
 because the the concurrent executions
 because the the concurrent executions
-are all on disjoint data i think so an
-are all on disjoint data i think so an
-are all on disjoint data i think so an
+are all on disjoint data I think so an
+are all on disjoint data I think so an
+are all on disjoint data I think so an
 account id for example it's a type that
 account id for example it's a type that
 account id for example it's a type that
@@ -2647,14 +2647,14 @@ non-overlapping partitions and then run
 non-overlapping partitions and then run
 non-overlapping partitions and then run
 concurrently
-so i i agree it's a it's a concern it's
-so i i agree it's a it's a concern it's
+so I agree it's a it's a concern it's
+so I agree it's a it's a concern it's
 something that we have been thinking
 something that we have been thinking
 something that we have been thinking
-quite quite a lot about i i don't think
-quite quite a lot about i i don't think
-quite quite a lot about i i don't think
+quite quite a lot about I don't think
+quite quite a lot about I don't think
+quite quite a lot about I don't think
 most of its contents show up in this cap
 most of its contents show up in this cap
 most of its contents show up in this cap
@@ -2739,9 +2739,9 @@ in the lessons back
 the
 the
 the
-there are as i said there are two
-there are as i said there are two
-there are as i said there are two
+there are as I said there are two
+there are as I said there are two
+there are as I said there are two
 floating point idiosyncrasies they're
 floating point idiosyncrasies they're
 floating point idiosyncrasies they're
@@ -2856,15 +2856,15 @@ so what happens if you right shift the
 a 32-bit integer by
 a 32-bit integer by
 a 32-bit integer by
-32. i i don't know off the top of my
-32. i i don't know off the top of my
-32. i i don't know off the top of my
+32. I don't know off the top of my
+32. I don't know off the top of my
+32. I don't know off the top of my
 head you'd have to you'd have to look at
 head you'd have to you'd have to look at
 head you'd have to you'd have to look at
-the spec i don't have the glass inspect
-the spec i don't have the glass inspect
-the spec i don't have the glass inspect
+the spec I don't have the glass inspect
+the spec I don't have the glass inspect
+the spec I don't have the glass inspect
 memorized but
 memorized but
 memorized but
@@ -2877,9 +2877,9 @@ it's it it's very very well well defined
 it's one of the most well-defined vms
 it's one of the most well-defined vms
 it's one of the most well-defined vms
-out there i think probably that's ever
-out there i think probably that's ever
-out there i think probably that's ever
+out there I think probably that's ever
+out there I think probably that's ever
+out there I think probably that's ever
 been done
 there was something else you were
 there was something else you were
@@ -2928,18 +2928,18 @@ a completely reasonable objection that
 caveat that one might have to this cap
 caveat that one might have to this cap
 caveat that one might have to this cap
-is i don't think it's possible to
-is i don't think it's possible to
-is i don't think it's possible to
+is I don't think it's possible to
+is I don't think it's possible to
+is I don't think it's possible to
 specify functions on this
 specify functions on this
 specify functions on this
 data type unambiguously so you know we
 data type unambiguously so you know we
 data type unambiguously so you know we
-should leave it out and i think
-should leave it out and i think
-should leave it out and i think
+should leave it out and I think
+should leave it out and I think
+should leave it out and I think
 that's that's
 that's that's
 that's that's
@@ -2994,12 +2994,12 @@ can we figure out a reasonable worst
 case cost model and and make sure that
 case cost model and and make sure that
 case cost model and and make sure that
-that's correct i think we probably
-that's correct i think we probably
-that's correct i think we probably
-can that's why i include big numbers i
-can that's why i include big numbers i
-can that's why i include big numbers i
+that's correct I think we probably
+that's correct I think we probably
+that's correct I think we probably
+can that's why I include big numbers i
+can that's why I include big numbers i
+can that's why I include big numbers i
 think big numbers are reasonably well
 think big numbers are reasonably well
 think big numbers are reasonably well
@@ -3015,9 +3015,9 @@ at the heart of fear of non-determinism
 or fear of impossibility of bounding
 or fear of impossibility of bounding
 or fear of impossibility of bounding
-cost models i think that's something
-cost models i think that's something
-cost models i think that's something
+cost models I think that's something
+cost models I think that's something
+cost models I think that's something
 that would be a very reasonable
 that would be a very reasonable
 that would be a very reasonable
@@ -3045,9 +3045,9 @@ or is that something
 that's just a bunch of unnecessary work
 that's just a bunch of unnecessary work
 that's just a bunch of unnecessary work
-i don't i mean the thing is we don't
-i don't i mean the thing is we don't
-i don't i mean the thing is we don't
+i don't I mean the thing is we don't
+i don't I mean the thing is we don't
+i don't I mean the thing is we don't
 really we don't have at least i'm not
 really we don't have at least i'm not
 really we don't have at least i'm not
@@ -3087,9 +3087,9 @@ is that it is really incomplete it's not
 it's not a whole feature in and of
 it's not a whole feature in and of
 it's not a whole feature in and of
-itself i say in the preamble to it that
-itself i say in the preamble to it that
-itself i say in the preamble to it that
+itself I say in the preamble to it that
+itself I say in the preamble to it that
+itself I say in the preamble to it that
 there's actually nothing new that a user
 there's actually nothing new that a user
 there's actually nothing new that a user
@@ -3129,9 +3129,9 @@ it's just like for context if if you
 like i'm happy to add that
 like i'm happy to add that
 like i'm happy to add that
-no it's okay i think we are going to
-no it's okay i think we are going to
-no it's okay i think we are going to
+no it's okay I think we are going to
+no it's okay I think we are going to
+no it's okay I think we are going to
 have those other caps like the host
 have those other caps like the host
 have those other caps like the host
@@ -3142,8 +3142,8 @@ need to
 need to
 need to
 to kind of lay out as well right
-and we have a different cap i think that
-and we have a different cap i think that
+and we have a different cap I think that
+and we have a different cap I think that
 would be around
 would be around
 would be around
@@ -3198,9 +3198,9 @@ i think we want probably
 yeah now is going to say real
 yeah now is going to say real
 yeah now is going to say real
-quick like yeah i think we want to
-quick like yeah i think we want to
-quick like yeah i think we want to
+quick like yeah I think we want to
+quick like yeah I think we want to
+quick like yeah I think we want to
 leave some time to also talk about the
 leave some time to also talk about the
 leave some time to also talk about the
@@ -3213,9 +3213,9 @@ oh yeah
 what
 what
 what
-so i i guess i'm also trying to
-so i i guess i'm also trying to
-so i i guess i'm also trying to
+so I guess i'm also trying to
+so I guess i'm also trying to
+so I guess i'm also trying to
 understand like so you can have like a
 understand like so you can have like a
 understand like so you can have like a
@@ -3282,9 +3282,9 @@ like what's the relationship between
 those and like the fundamental values
 those and like the fundamental values
 those and like the fundamental values
-then i see okay yeah yeah sure
-then i see okay yeah yeah sure
-then i see okay yeah yeah sure
+then I see okay yeah yeah sure
+then I see okay yeah yeah sure
+then I see okay yeah yeah sure
 happy to talk about that so so the
 happy to talk about that so so the
 happy to talk about that so so the
@@ -3342,9 +3342,9 @@ those four
 so
 so
 so
-well i see what you're saying we don't
-well i see what you're saying we don't
-well i see what you're saying we don't
+well I see what you're saying we don't
+well I see what you're saying we don't
+well I see what you're saying we don't
 have for example a 64-bit integer like
 have for example a 64-bit integer like
 have for example a 64-bit integer like
@@ -3360,9 +3360,9 @@ one of these tagged things
 yeah so so what comes what comes later
 yeah so so what comes what comes later
 yeah so so what comes what comes later
-on is is and i i should i should
-on is is and i i should i should
-on is is and i i should i should
+on is is and I should I should
+on is is and I should I should
+on is is and I should I should
 actually clarify sort of that layering
 actually clarify sort of that layering
 actually clarify sort of that layering
@@ -3408,12 +3408,12 @@ the next agenda item which is
 interoperability
 there are a couple of questions here
 there are a couple of questions here
-that i think
-that i think
-that i think
-yeah i think we can ask more questions
-yeah i think we can ask more questions
-yeah i think we can ask more questions
+that I think
+that I think
+that I think
+yeah I think we can ask more questions
+yeah I think we can ask more questions
+yeah I think we can ask more questions
 on the dev meeting list on the on the
 on the dev meeting list on the on the
 on the dev meeting list on the on the
@@ -3591,9 +3591,9 @@ it still ends up being gated by some
 smart contract is that what the question
 smart contract is that what the question
 smart contract is that what the question
-is i can supply an example but
-is i can supply an example but
-is i can supply an example but
+is I can supply an example but
+is I can supply an example but
+is I can supply an example but
 i mean understand the use case it's more
 i mean understand the use case it's more
 i mean understand the use case it's more
@@ -3714,15 +3714,15 @@ that or do we want to just say hey i
 can't do that from smart
 can't do that from smart
 can't do that from smart
-i mean i think that yeah this is exactly
-i mean i think that yeah this is exactly
-i mean i think that yeah this is exactly
+i mean I think that yeah this is exactly
+i mean I think that yeah this is exactly
+i mean I think that yeah this is exactly
 getting to the to the core of like what
 getting to the to the core of like what
 getting to the to the core of like what
-why i want the requirements that can be
-why i want the requirements that can be
-why i want the requirements that can be
+why I want the requirements that can be
+why I want the requirements that can be
+why I want the requirements that can be
 because like one thing that like
 because like one thing that like
 because like one thing that like
@@ -3828,9 +3828,9 @@ using the same objects but again it
 boils down to requirements
 boils down to requirements
 boils down to requirements
-so i can you know while we don't have
-so i can you know while we don't have
-so i can you know while we don't have
+so I can you know while we don't have
+so I can you know while we don't have
+so I can you know while we don't have
 this document of requirements i'm happy
 this document of requirements i'm happy
 this document of requirements i'm happy
@@ -3954,15 +3954,15 @@ the smart contract but like we would
 keep the same framework
 keep the same framework
 keep the same framework
-or not right yeah i think we're like i
-or not right yeah i think we're like i
-or not right yeah i think we're like i
-think i think you're getting into
-think i think you're getting into
-think i think you're getting into
-implementation here i just i'm
-implementation here i just i'm
-implementation here i just i'm
+or not right yeah I think we're like i
+or not right yeah I think we're like i
+or not right yeah I think we're like i
+think I think you're getting into
+think I think you're getting into
+think I think you're getting into
+implementation here I just i'm
+implementation here I just i'm
+implementation here I just i'm
 getting into
 getting into
 getting into
@@ -3999,9 +3999,9 @@ is not in here is any kind of
 capability right
 capability right
 capability right
-that i can tell
-that i can tell
-that i can tell
+that I can tell
+that I can tell
+that I can tell
 so like if
 so like if
 so like if
@@ -4110,18 +4110,18 @@ but in this world like you could
 still imagine the kind of case where you
 still imagine the kind of case where you
 still imagine the kind of case where you
-want like a one-off right like i want to
-want like a one-off right like i want to
-want like a one-off right like i want to
+want like a one-off right like I want to
+want like a one-off right like I want to
+want like a one-off right like I want to
 allow this contract to like withdraw
 allow this contract to like withdraw
 allow this contract to like withdraw
 funds from my account right now a
 funds from my account right now a
 funds from my account right now a
-certain amount that i believe is going
-certain amount that i believe is going
-certain amount that i believe is going
+certain amount that I believe is going
+certain amount that I believe is going
+certain amount that I believe is going
 to be withdrawn like 100 or something
 to be withdrawn like 100 or something
 to be withdrawn like 100 or something
@@ -4176,9 +4176,9 @@ this is a payment for fifty dollars
 signed
 signed
 signed
-and that's where i think these kinds of
-and that's where i think these kinds of
-and that's where i think these kinds of
+and that's where I think these kinds of
+and that's where I think these kinds of
+and that's where I think these kinds of
 privileges come in like either you give
 privileges come in like either you give
 privileges come in like either you give
@@ -4206,9 +4206,9 @@ what do you think about this david
 
 
 
-i mean yeah i think that that it cannot
-i mean yeah i think that that it cannot
-i mean yeah i think that that it cannot
+i mean yeah I think that that it cannot
+i mean yeah I think that that it cannot
+i mean yeah I think that that it cannot
 sound like a broken record but like
 sound like a broken record but like
 sound like a broken record but like
@@ -4293,15 +4293,15 @@ to avoid you know a kind of confused
 deputy problem
 so
 so
-without knowing the requirements i would
-without knowing the requirements i would
-without knowing the requirements i would
-say like i i would like to
-say like i i would like to
-say like i i would like to
-i i it seems to me like maybe a good
-i i it seems to me like maybe a good
-i i it seems to me like maybe a good
+without knowing the requirements I would
+without knowing the requirements I would
+without knowing the requirements I would
+say like I would like to
+say like I would like to
+say like I would like to
+i I it seems to me like maybe a good
+i I it seems to me like maybe a good
+i I it seems to me like maybe a good
 idea to have privileges be like a really
 idea to have privileges be like a really
 idea to have privileges be like a really
@@ -4314,9 +4314,9 @@ but again
 it's a little abstract right now yeah
 it's a little abstract right now yeah
 it's a little abstract right now yeah
-definitely if i can just chime in on on
-definitely if i can just chime in on on
-definitely if i can just chime in on on
+definitely if I can just chime in on on
+definitely if I can just chime in on on
+definitely if I can just chime in on on
 one thing with respect to
 one thing with respect to
 one thing with respect to
@@ -4350,12 +4350,12 @@ getting the getting the sort of
 privilege model right from the start is
 privilege model right from the start is
 privilege model right from the start is
-probably a good idea like i don't know
-probably a good idea like i don't know
-probably a good idea like i don't know
-there's i mean there's no concept of a
-there's i mean there's no concept of a
-there's i mean there's no concept of a
+probably a good idea like I don't know
+probably a good idea like I don't know
+probably a good idea like I don't know
+there's I mean there's no concept of a
+there's I mean there's no concept of a
+there's I mean there's no concept of a
 privileged operation here because there
 privileged operation here because there
 privileged operation here because there
@@ -4380,9 +4380,9 @@ doesn't necessarily hold this gap
 one one thing on the topic of
 one one thing on the topic of
 one one thing on the topic of
-privileges that i think is relevant here
-privileges that i think is relevant here
-privileges that i think is relevant here
+privileges that I think is relevant here
+privileges that I think is relevant here
+privileges that I think is relevant here
 is like the bigger we make the like
 is like the bigger we make the like
 is like the bigger we make the like
@@ -4410,9 +4410,9 @@ make from what account to what account
 for what asset that's like the whole
 for what asset that's like the whole
 for what asset that's like the whole
-space i think it's sort of unless that's
-space i think it's sort of unless that's
-space i think it's sort of unless that's
+space I think it's sort of unless that's
+space I think it's sort of unless that's
+space I think it's sort of unless that's
 right
 right
 right
@@ -4449,9 +4449,9 @@ so
 like we've talked about privileges
 like we've talked about privileges
 like we've talked about privileges
-and permissions before but i don't think
-and permissions before but i don't think
-and permissions before but i don't think
+and permissions before but I don't think
+and permissions before but I don't think
+and permissions before but I don't think
 we've really talked about
 we've really talked about
 we've really talked about
@@ -4497,9 +4497,9 @@ don't give them access to what they want
 to do
 to do
 to do
-i mean i guess one of the things i'm
-i mean i guess one of the things i'm
-i mean i guess one of the things i'm
+i mean I guess one of the things i'm
+i mean I guess one of the things i'm
+i mean I guess one of the things i'm
 saying is that stellar actually does
 saying is that stellar actually does
 saying is that stellar actually does
@@ -4596,9 +4596,9 @@ stuff to my account at medium signing
 rate
 rate
 rate
-what am i authorizing it to do though
-what am i authorizing it to do though
-what am i authorizing it to do though
+what am I authorizing it to do though
+what am I authorizing it to do though
+what am I authorizing it to do though
 like
 like
 like
@@ -4620,9 +4620,9 @@ contract is code so this can only do
 what the code can do right so sure sure
 what the code can do right so sure sure
 what the code can do right so sure sure
-but i mean like what it might do could
-but i mean like what it might do could
-but i mean like what it might do could
+but I mean like what it might do could
+but I mean like what it might do could
+but I mean like what it might do could
 be complicated
 be complicated
 be complicated
@@ -4656,12 +4656,12 @@ extract that amount from my account and
 send it to the contract
 send it to the contract
 send it to the contract
-i there's no way i can know what the
-i there's no way i can know what the
-i there's no way i can know what the
-contract is going to do when i sign for
-contract is going to do when i sign for
-contract is going to do when i sign for
+i there's no way I can know what the
+i there's no way I can know what the
+i there's no way I can know what the
+contract is going to do when I sign for
+contract is going to do when I sign for
+contract is going to do when I sign for
 it but at the time you add that contract
 it but at the time you add that contract
 it but at the time you add that contract
@@ -4684,8 +4684,8 @@ i mean you decided you wanted to this
 i mean you decided you wanted to this
 i mean you decided you wanted to this
 contract have access to your account
-sure yeah but like i don't necessarily
-sure yeah but like i don't necessarily
+sure yeah but like I don't necessarily
+sure yeah but like I don't necessarily
 want to give it unfettered control over
 want to give it unfettered control over
 want to give it unfettered control over
@@ -4755,9 +4755,9 @@ that question there's general consensus
 on in this room and the answer is yes
 on in this room and the answer is yes
 on in this room and the answer is yes
-okay well i need to be convinced like
-okay well i need to be convinced like
-okay well i need to be convinced like
+okay well I need to be convinced like
+okay well I need to be convinced like
+okay well I need to be convinced like
 i'm not saying that you can't but don't
 i'm not saying that you can't but don't
 i'm not saying that you can't but don't
@@ -4806,9 +4806,9 @@ authority to
 the indirection point
 the indirection point
 the indirection point
-with permission and saying i give
-with permission and saying i give
-with permission and saying i give
+with permission and saying I give
+with permission and saying I give
+with permission and saying I give
 permission to this indirection point
 permission to this indirection point
 permission to this indirection point
@@ -4848,9 +4848,9 @@ contracts or via whatever indirection
 system you build
 system you build
 system you build
-but i just want to say we are pretty
-but i just want to say we are pretty
-but i just want to say we are pretty
+but I just want to say we are pretty
+but I just want to say we are pretty
+but I just want to say we are pretty
 much out of time so if this if this
 much out of time so if this if this
 much out of time so if this if this
@@ -4863,9 +4863,9 @@ ask it
 if not maybe we hold off
 if not maybe we hold off
 if not maybe we hold off
-well i was just saying like you can have
-well i was just saying like you can have
-well i was just saying like you can have
+well I was just saying like you can have
+well I was just saying like you can have
+well I was just saying like you can have
 your contract not have direct access to
 your contract not have direct access to
 your contract not have direct access to
@@ -4918,8 +4918,8 @@ need to answer and do it quick with john
 need to answer and do it quick with john
 need to answer and do it quick with john
 cannon
-cool i mean i think that we should ask
-cool i mean i think that we should ask
+cool I mean I think that we should ask
+cool I mean I think that we should ask
 that offline and just verify that that
 that offline and just verify that that
 that offline and just verify that that
@@ -4929,7 +4929,7 @@ works for everybody and look at
 calendars
 calendars
 calendars
-and i can do that after this meeting
+and I can do that after this meeting
 awesome
 awesome
 thanks everybody

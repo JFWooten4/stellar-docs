@@ -600,9 +600,9 @@ even in in that way it will be probably
 more more reliable than using Stellar
 more more reliable than using Stellar
 more more reliable than using Stellar
-tool yeah I I don't think store Thomas
-tool yeah I I don't think store Thomas
-tool yeah I I don't think store Thomas
+tool yeah I don't think store Thomas
+tool yeah I don't think store Thomas
+tool yeah I don't think store Thomas
 on the table so my question is rather
 on the table so my question is rather
 on the table so my question is rather
@@ -681,9 +681,9 @@ information directly from the contract
 via the contract function call
 via the contract function call
 via the contract function call
-I I I think it's possible
-I I I think it's possible
-I I I think it's possible
+I I think it's possible
+I I think it's possible
+I I think it's possible
 to come up with
 to come up with
 to come up with
@@ -723,9 +723,9 @@ can be called for example on every
 access to the underlying systems
 access to the underlying systems
 access to the underlying systems
-but I I don't really
-but I I don't really
-but I I don't really
+but I don't really
+but I don't really
+but I don't really
 see whether or other
 see whether or other
 see whether or other
@@ -771,9 +771,9 @@ it seems like yes this sometimes
 just like just explain where I'm
 just like just explain where I'm
 just like just explain where I'm
-coming from I I just feel a bit of
-coming from I I just feel a bit of
-coming from I I just feel a bit of
+coming from I just feel a bit of
+coming from I just feel a bit of
+coming from I just feel a bit of
 disconnected we like a lot of the
 disconnected we like a lot of the
 disconnected we like a lot of the
@@ -969,9 +969,9 @@ whatever number of decimals you've been
 assuming so that would be kind of like
 assuming so that would be kind of like
 assuming so that would be kind of like
-trying or I I suppose trying to Value
-trying or I I suppose trying to Value
-trying or I I suppose trying to Value
+trying or I suppose trying to Value
+trying or I suppose trying to Value
+trying or I suppose trying to Value
 some set of tokens would be really the
 some set of tokens would be really the
 some set of tokens would be really the
@@ -1587,9 +1587,9 @@ yeah
 to be clear I think the cross-contract
 to be clear I think the cross-contract
 to be clear I think the cross-contract
-case is actually like I I recognize that
-case is actually like I I recognize that
-case is actually like I I recognize that
+case is actually like I recognize that
+case is actually like I recognize that
+case is actually like I recognize that
 there are use cases for that but I think
 there are use cases for that but I think
 there are use cases for that but I think
@@ -2004,9 +2004,9 @@ entries and so it just feels like a poor
 user experience
 user experience
 user experience
-oh I I mean in the current proposal
-oh I I mean in the current proposal
-oh I I mean in the current proposal
+oh I mean in the current proposal
+oh I mean in the current proposal
+oh I mean in the current proposal
 right you still can Bounce Around
 right you still can Bounce Around
 right you still can Bounce Around
@@ -2484,9 +2484,9 @@ tolerance
 so it's likely more
 so it's likely more
 so it's likely more
-it's I I guess yeah no it's definitely
-it's I I guess yeah no it's definitely
-it's I I guess yeah no it's definitely
+it's I guess yeah no it's definitely
+it's I guess yeah no it's definitely
+it's I guess yeah no it's definitely
 strict send with the slippage tolerance
 got it but the amount you send is set
 got it but the amount you send is set
@@ -2538,12 +2538,12 @@ just something that is a product of
 token Heaven only strict sense
 token Heaven only strict sense
 token Heaven only strict sense
-yeah I I hear you and and it is
-yeah I I hear you and and it is
-yeah I I hear you and and it is
-difficult to know I I this is anecdotal
-difficult to know I I this is anecdotal
-difficult to know I I this is anecdotal
+yeah I hear you and and it is
+yeah I hear you and and it is
+yeah I hear you and and it is
+difficult to know I this is anecdotal
+difficult to know I this is anecdotal
+difficult to know I this is anecdotal
 but I can tell you that throughout the
 but I can tell you that throughout the
 but I can tell you that throughout the
@@ -2571,9 +2571,9 @@ it's it's it's a bit easier to perceive
 you know I'm gonna put this amount in
 you know I'm gonna put this amount in
 you know I'm gonna put this amount in
-and I I recognize that the amount coming
-and I I recognize that the amount coming
-and I I recognize that the amount coming
+and I recognize that the amount coming
+and I recognize that the amount coming
+and I recognize that the amount coming
 out can be like dependent on market
 out can be like dependent on market
 out can be like dependent on market
@@ -3729,9 +3729,9 @@ for providing proper secure support
 
 
 
-and and I I don't think they're not
-and and I I don't think they're not
-and and I I don't think they're not
+and and I don't think they're not
+and and I don't think they're not
+and and I don't think they're not
 they're necessarily like mutually
 they're necessarily like mutually
 they're necessarily like mutually

@@ -1507,8 +1507,8 @@ to okay Alex doesn't want to talk I
 to okay Alex doesn't want to talk I
 to okay Alex doesn't want to talk I
 don't know if you want
-to yeah no I I just you know my comment
-to yeah no I I just you know my comment
+to yeah no I just you know my comment
+to yeah no I just you know my comment
 was basically my preference just
 was basically my preference just
 was basically my preference just
@@ -1746,9 +1746,9 @@ representation not some other
 representation
 yes yeah I think that's right yeah I
 yes yeah I think that's right yeah I
-understand that concern I I I I
-understand that concern I I I I
-understand that concern I I I I
+understand that concern I I
+understand that concern I I
+understand that concern I I
 personally when I look at these four
 personally when I look at these four
 personally when I look at these four
@@ -1998,9 +1998,9 @@ is that it sort of
 pushes everything towards that MOX
 pushes everything towards that MOX
 pushes everything towards that MOX
-address format I I don't know if that
-address format I I don't know if that
-address format I I don't know if that
+address format I don't know if that
+address format I don't know if that
+address format I don't know if that
 would really change adoption of it
 would really change adoption of it
 would really change adoption of it
@@ -2388,9 +2388,9 @@ ingesting this data and converting and
 serving at however you want right so
 serving at however you want right so
 serving at however you want right so
-does it really matter I I think the
-does it really matter I I think the
-does it really matter I I think the
+does it really matter I think the
+does it really matter I think the
+does it really matter I think the
 point about breakage though is very
 point about breakage though is very
 point about breakage though is very
@@ -2427,9 +2427,9 @@ not going to be able to decode it
 because it's it'll be a different
 because it's it'll be a different
 because it's it'll be a different
-format yeah I I think it's really some
-format yeah I I think it's really some
-format yeah I I think it's really some
+format yeah I think it's really some
+format yeah I think it's really some
+format yeah I think it's really some
 confusion because I think we might be
 confusion because I think we might be
 confusion because I think we might be
@@ -2718,9 +2718,9 @@ and you drop in an M address it
 immediately drops you into a page about
 immediately drops you into a page about
 immediately drops you into a page about
-the G address so I I don't actually
-the G address so I I don't actually
-the G address so I I don't actually
+the G address so I don't actually
+the G address so I don't actually
+the G address so I don't actually
 think we need to have complete
 think we need to have complete
 think we need to have complete
@@ -2970,9 +2970,9 @@ sure I mean I don't know I don't want to
 put you know exchanges in in you know in
 put you know exchanges in in you know in
 put you know exchanges in in you know in
-trouble but I I imagine that the
-trouble but I I imagine that the
-trouble but I I imagine that the
+trouble but I imagine that the
+trouble but I imagine that the
+trouble but I imagine that the
 This president's order is not
 This president's order is not
 This president's order is not
@@ -3363,9 +3363,9 @@ specified okay I guess for this we'll
 like to me that yeah like the we this
 like to me that yeah like the we this
 like to me that yeah like the we this
-discussion is more like I I see the
-discussion is more like I I see the
-discussion is more like I I see the
+discussion is more like I see the
+discussion is more like I see the
+discussion is more like I see the
 historical stuff as more like as a best
 historical stuff as more like as a best
 historical stuff as more like as a best

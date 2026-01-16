@@ -42,9 +42,9 @@ we're live streaming them so that anyone
 who's out there can follow along but
 who's out there can follow along but
 who's out there can follow along but
-again i do want to point out it's
-again i do want to point out it's
-again i do want to point out it's
+again I do want to point out it's
+again I do want to point out it's
+again I do want to point out it's
 technical so if you are watching this
 technical so if you are watching this
 technical so if you are watching this
@@ -87,9 +87,9 @@ not actually address them in this
 meeting although if they're super
 meeting although if they're super
 meeting although if they're super
-germaine i may bring them up
-germaine i may bring them up
-germaine i may bring them up
+germaine I may bring them up
+germaine I may bring them up
+germaine I may bring them up
 today we are focusing specifically as i
 today we are focusing specifically as i
 today we are focusing specifically as i
@@ -186,9 +186,9 @@ i believe that
 you know the question is
 you know the question is
 you know the question is
-i i think that there are a couple of
-i i think that there are a couple of
-i i think that there are a couple of
+i I think that there are a couple of
+i I think that there are a couple of
+i I think that there are a couple of
 questions that came up on the mailing
 questions that came up on the mailing
 questions that came up on the mailing
@@ -201,9 +201,9 @@ transactions failing during execution
 that came up during the last meeting but
 that came up during the last meeting but
 that came up during the last meeting but
-to start with i think we should sort of
-to start with i think we should sort of
-to start with i think we should sort of
+to start with I think we should sort of
+to start with I think we should sort of
+to start with I think we should sort of
 try to deal with the outstanding
 try to deal with the outstanding
 try to deal with the outstanding
@@ -217,26 +217,26 @@ of those questions with us so that we
 of those questions with us so that we
 of those questions with us so that we
 can start to discuss it
-i was looking yeah i didn't have
-i was looking yeah i didn't have
+i was looking yeah I didn't have
+i was looking yeah I didn't have
 those questions open hold on sorry
 those questions open hold on sorry
 those questions open hold on sorry
 so yeah so
 so yeah so
 so yeah so
-yeah i guess like the first question was
-yeah i guess like the first question was
-yeah i guess like the first question was
+yeah I guess like the first question was
+yeah I guess like the first question was
+yeah I guess like the first question was
 more of a
 more of a
 more of a
 of a minor
 of a minor
 of a minor
-minor thing that i that i
-minor thing that i that i
-minor thing that i that i
+minor thing that I that i
+minor thing that I that i
+minor thing that I that i
 didn't we didn't discuss but that maybe
 didn't we didn't discuss but that maybe
 didn't we didn't discuss but that maybe
@@ -282,15 +282,15 @@ kind of yeah make
 like track this new less modified
 like track this new less modified
 like track this new less modified
-basically in each account i mean it
-basically in each account i mean it
-basically in each account i mean it
+basically in each account I mean it
+basically in each account I mean it
+basically in each account I mean it
 seems like
 seems like
 seems like
-from an implementation i mean the reason
-from an implementation i mean the reason
-from an implementation i mean the reason
+from an implementation I mean the reason
+from an implementation I mean the reason
+from an implementation I mean the reason
 i mentioned that as a flag right instead
 i mentioned that as a flag right instead
 i mentioned that as a flag right instead
@@ -339,12 +339,12 @@ much simpler because now we can actually
 just test that part like in a solution
 just test that part like in a solution
 just test that part like in a solution
-fairly easily whereas i know that lee
-fairly easily whereas i know that lee
-fairly easily whereas i know that lee
-in the past raised the issue and i think
-in the past raised the issue and i think
-in the past raised the issue and i think
+fairly easily whereas I know that lee
+fairly easily whereas I know that lee
+fairly easily whereas I know that lee
+in the past raised the issue and I think
+in the past raised the issue and I think
+in the past raised the issue and I think
 that's true that we would have to rework
 that's true that we would have to rework
 that's true that we would have to rework
@@ -354,9 +354,9 @@ a bunch of tests
 given the the way they are written today
 given the the way they are written today
 given the the way they are written today
-in core at least i don't know in outside
-in core at least i don't know in outside
-in core at least i don't know in outside
+in core at least I don't know in outside
+in core at least I don't know in outside
+in core at least I don't know in outside
 i mean it seems like a pretty big foot
 i mean it seems like a pretty big foot
 i mean it seems like a pretty big foot
@@ -420,12 +420,12 @@ yeah would
 not be enabled
 not be enabled
 not be enabled
-yeah so i don't know if it's yeah
-yeah so i don't know if it's yeah
-yeah so i don't know if it's yeah
-like preconditions i think that the cap
-like preconditions i think that the cap
-like preconditions i think that the cap
+yeah so I don't know if it's yeah
+yeah so I don't know if it's yeah
+yeah so I don't know if it's yeah
+like preconditions I think that the cap
+like preconditions I think that the cap
+like preconditions I think that the cap
 says that
 says that
 says that
@@ -441,9 +441,9 @@ there it's treated as zero
 yeah it's exactly it would be zero
 yeah it's exactly it would be zero
 yeah it's exactly it would be zero
-so i don't know
-so i don't know
-so i don't know
+so I don't know
+so I don't know
+so I don't know
 i think if you added the flag we could
 i think if you added the flag we could
 i think if you added the flag we could
@@ -492,21 +492,21 @@ that account actually has this flag set
 so i'm
 so i'm
 so i'm
-really i don't understand what benefit
-really i don't understand what benefit
-really i don't understand what benefit
-could possibly outweigh like i was
-could possibly outweigh like i was
-could possibly outweigh like i was
+really I don't understand what benefit
+really I don't understand what benefit
+really I don't understand what benefit
+could possibly outweigh like I was
+could possibly outweigh like I was
+could possibly outweigh like I was
 saying it's a faster implementation so
 saying it's a faster implementation so
 saying it's a faster implementation so
 you know if we if if you know if
 you know if we if if you know if
 you know if we if if you know if
-no i just wanted to mention because i
-no i just wanted to mention because i
-no i just wanted to mention because i
+no I just wanted to mention because i
+no I just wanted to mention because i
+no I just wanted to mention because i
 know that was raised before and and and
 know that was raised before and and and
 know that was raised before and and and
@@ -537,18 +537,18 @@ better like what what the complication
 is of having it
 is of having it
 is of having it
-it's around the setup i think of test
-it's around the setup i think of test
-it's around the setup i think of test
+it's around the setup I think of test
+it's around the setup I think of test
+it's around the setup I think of test
 code like a lot of times we're
 code like a lot of times we're
 code like a lot of times we're
 creating accounts we're doing all those
 creating accounts we're doing all those
 creating accounts we're doing all those
-things and i think
-things and i think
-things and i think
+things and I think
+things and I think
+things and I think
 those accounts are created
 those accounts are created
 those accounts are created
@@ -594,12 +594,12 @@ versions this would be invalid an
 invalid ledger state
 invalid ledger state
 invalid ledger state
-so i think there's a bunch of
-so i think there's a bunch of
-so i think there's a bunch of
-refactoring that needs to be done i mean
-refactoring that needs to be done i mean
-refactoring that needs to be done i mean
+so I think there's a bunch of
+so I think there's a bunch of
+so I think there's a bunch of
+refactoring that needs to be done I mean
+refactoring that needs to be done I mean
+refactoring that needs to be done I mean
 they've been involved ledger state
 they've been involved ledger state
 they've been involved ledger state
@@ -609,9 +609,9 @@ well an account with such an extension
 is not valid as of today right
 is not valid as of today right
 is not valid as of today right
-so i mean what what happened when you
-so i mean what what happened when you
-so i mean what what happened when you
+so I mean what what happened when you
+so I mean what what happened when you
+so I mean what what happened when you
 upgraded to account entry extension v2
 upgraded to account entry extension v2
 upgraded to account entry extension v2
@@ -624,9 +624,9 @@ beyond v2 was an opt-in right like it
 was only when you were
 was only when you were
 was only when you were
-using i mean from everyone to each
-using i mean from everyone to each
-using i mean from everyone to each
+using I mean from everyone to each
+using I mean from everyone to each
+using I mean from everyone to each
 other liabilities right so that's what
 other liabilities right so that's what
 other liabilities right so that's what
@@ -657,9 +657,9 @@ clarify something here is the
 the way that the proposal is currently
 the way that the proposal is currently
 the way that the proposal is currently
-written i i think what i'm understanding
-written i i think what i'm understanding
-written i i think what i'm understanding
+written I think what i'm understanding
+written I think what i'm understanding
+written I think what i'm understanding
 is that
 is that
 is that
@@ -723,12 +723,12 @@ so you're saying that right now if i
 create a new
 create a new
 create a new
-you're saying that right now if i create
-you're saying that right now if i create
-you're saying that right now if i create
-a new account i don't get an account
-a new account i don't get an account
-a new account i don't get an account
+you're saying that right now if I create
+you're saying that right now if I create
+you're saying that right now if I create
+a new account I don't get an account
+a new account I don't get an account
+a new account I don't get an account
 entry extension v2 correct you you just
 entry extension v2 correct you you just
 entry extension v2 correct you you just
@@ -738,18 +738,18 @@ now maybe there's an argument that we
 should go and fix our tests anyway
 should go and fix our tests anyway
 should go and fix our tests anyway
-yeah i mean that's why i was saying like
-yeah i mean that's why i was saying like
-yeah i mean that's why i was saying like
+yeah I mean that's why I was saying like
+yeah I mean that's why I was saying like
+yeah I mean that's why I was saying like
 it's a it's a trade-off right like can i
 it's a it's a trade-off right like can i
 it's a it's a trade-off right like can i
-write you can i write you like an xdr
-write you can i write you like an xdr
-write you can i write you like an xdr
-converter that will automatically i mean
-converter that will automatically i mean
-converter that will automatically i mean
+write you can I write you like an xdr
+write you can I write you like an xdr
+write you can I write you like an xdr
+converter that will automatically I mean
+converter that will automatically I mean
+converter that will automatically I mean
 it seems like we could
 i mean do the tests have like specific
 i mean do the tests have like specific
@@ -781,8 +781,8 @@ template magic invalid xdr at as of
 template magic invalid xdr at as of
 template magic invalid xdr at as of
 currently
-so if i just
-so if i just
+so if I just
+so if I just
 so if you just write a an unmarching
 so if you just write a an unmarching
 so if you just write a an unmarching
@@ -807,9 +807,9 @@ need is that one function
 no not really
 no not really
 no not really
-like i mean yes yes you could in
-like i mean yes yes you could in
-like i mean yes yes you could in
+like I mean yes yes you could in
+like I mean yes yes you could in
+like I mean yes yes you could in
 principle do that
 principle do that
 principle do that
@@ -1014,9 +1014,9 @@ but i'm saying the extension it has
 nothing to do with how extensions are
 nothing to do with how extensions are
 nothing to do with how extensions are
-set up right but which should i mean
-set up right but which should i mean
-set up right but which should i mean
+set up right but which should I mean
+set up right but which should I mean
+set up right but which should I mean
 shouldn't that be one of the benefits of
 shouldn't that be one of the benefits of
 shouldn't that be one of the benefits of
@@ -1047,9 +1047,9 @@ we would also have had to rewrite the
 tests if we'd done it the original way
 tests if we'd done it the original way
 tests if we'd done it the original way
-that i did the extension so i don't i
-that i did the extension so i don't i
-that i did the extension so i don't i
+that I did the extension so I don't i
+that I did the extension so I don't i
+that I did the extension so I don't i
 don't see what we've won by this latest
 don't see what we've won by this latest
 don't see what we've won by this latest
@@ -1101,15 +1101,15 @@ to rewrite a bunch of tests is that
 correct
 correct
 correct
-yeah i mean like the so the reason going
-yeah i mean like the so the reason going
-yeah i mean like the so the reason going
-back to the question i was asking right
-back to the question i was asking right
-back to the question i was asking right
-the reason i was asking the question
-the reason i was asking the question
-the reason i was asking the question
+yeah I mean like the so the reason going
+yeah I mean like the so the reason going
+yeah I mean like the so the reason going
+back to the question I was asking right
+back to the question I was asking right
+back to the question I was asking right
+the reason I was asking the question
+the reason I was asking the question
+the reason I was asking the question
 was to see
 was to see
 was to see
@@ -1143,9 +1143,9 @@ time like we just need exactly it's it's
 going to be a bit of a time sync but
 going to be a bit of a time sync but
 going to be a bit of a time sync but
-that's that's okay i mean if we're
-that's that's okay i mean if we're
-that's that's okay i mean if we're
+that's that's okay I mean if we're
+that's that's okay I mean if we're
+that's that's okay I mean if we're
 saying it's basically a non-starter to
 saying it's basically a non-starter to
 saying it's basically a non-starter to
@@ -1176,15 +1176,15 @@ let's take it offline
 regardless it's test test hackery right
 regardless it's test test hackery right
 regardless it's test test hackery right
-yeah so yeah i wanna i wanna just
-yeah so yeah i wanna i wanna just
-yeah so yeah i wanna i wanna just
+yeah so yeah I wanna I wanna just
+yeah so yeah I wanna I wanna just
+yeah so yeah I wanna I wanna just
 exactly one thing about like if we do if
 exactly one thing about like if we do if
 exactly one thing about like if we do if
-we were to introduce a flag i think it
-we were to introduce a flag i think it
-we were to introduce a flag i think it
+we were to introduce a flag I think it
+we were to introduce a flag I think it
+we were to introduce a flag I think it
 would have
 would have
 would have
@@ -1281,9 +1281,9 @@ this one should be a lot easier
 yeah the unsigned thing so my question
 yeah the unsigned thing so my question
 yeah the unsigned thing so my question
-was like i don't remember what
-was like i don't remember what
-was like i don't remember what
+was like I don't remember what
+was like I don't remember what
+was like I don't remember what
 happened there but like
 happened there but like
 happened there but like
@@ -1308,9 +1308,9 @@ that you know nobody cares
 i'm actually not true i'm
 i'm actually not true i'm
 i'm actually not true i'm
-not so sure i i'm pretty sure we do
-not so sure i i'm pretty sure we do
-not so sure i i'm pretty sure we do
+not so sure I i'm pretty sure we do
+not so sure I i'm pretty sure we do
+not so sure I i'm pretty sure we do
 have in historical data transactions
 have in historical data transactions
 have in historical data transactions
@@ -1344,27 +1344,27 @@ complicated
 so i'm not sure it's actually delighted
 so i'm not sure it's actually delighted
 so i'm not sure it's actually delighted
-to leave it unsigned i originally had it
-to leave it unsigned i originally had it
-to leave it unsigned i originally had it
-unsigned and then i feel like
-unsigned and then i feel like
-unsigned and then i feel like
-people objected to that i mean all i
-people objected to that i mean all i
-people objected to that i mean all i
-want is like i think all our time points
-want is like i think all our time points
-want is like i think all our time points
+to leave it unsigned I originally had it
+to leave it unsigned I originally had it
+to leave it unsigned I originally had it
+unsigned and then I feel like
+unsigned and then I feel like
+unsigned and then I feel like
+people objected to that I mean all i
+people objected to that I mean all i
+people objected to that I mean all i
+want is like I think all our time points
+want is like I think all our time points
+want is like I think all our time points
 should be like a type def right so it's
 should be like a type def right so it's
 should be like a type def right so it's
 like
 like
 like
-the only thing worse i mean i think
-the only thing worse i mean i think
-the only thing worse i mean i think
+the only thing worse I mean I think
+the only thing worse I mean I think
+the only thing worse I mean I think
 either signed or unsigned is fine it's
 either signed or unsigned is fine it's
 either signed or unsigned is fine it's
@@ -1407,21 +1407,21 @@ i mean we're there so
 oh yeah okay
 oh yeah okay
 oh yeah okay
-so i guess
-so i guess
-so i guess
+so I guess
+so I guess
+so I guess
 out of luck on this one
 out of luck on this one
 out of luck on this one
-so i mean i i so i i really don't care i
-so i mean i i so i i really don't care i
-so i mean i i so i i really don't care i
+so I mean I so I really don't care i
+so I mean I so I really don't care i
+so I mean I so I really don't care i
 just want to be the same as other things
 just want to be the same as other things
 just want to be the same as other things
-so i guess i'll keep it unsigned and you
-so i guess i'll keep it unsigned and you
-so i guess i'll keep it unsigned and you
+so I guess i'll keep it unsigned and you
+so I guess i'll keep it unsigned and you
+so I guess i'll keep it unsigned and you
 know
 know
 know
@@ -1431,9 +1431,9 @@ we we can add we can regular
 transactions that's kind of the the
 transactions that's kind of the the
 transactions that's kind of the the
-concern i have here is that it changes
-concern i have here is that it changes
-concern i have here is that it changes
+concern I have here is that it changes
+concern I have here is that it changes
+concern I have here is that it changes
 regular transactions
 so
 so
@@ -1525,8 +1525,8 @@ yeah
 yeah
 yeah
 so like the first question is that
-so yeah so i think that the
-so yeah so i think that the
+so yeah so I think that the
+so yeah so I think that the
 the criteria b
 the criteria b
 the criteria b
@@ -1548,15 +1548,15 @@ are actually allowing
 transactions to be accumulated if we
 transactions to be accumulated if we
 transactions to be accumulated if we
-receive them out of order and i think
-receive them out of order and i think
-receive them out of order and i think
+receive them out of order and I think
+receive them out of order and I think
+receive them out of order and I think
 this is probably not the intent
 that's the first question
 that's the first question
-oh so in other words i say don't forward
-oh so in other words i say don't forward
-oh so in other words i say don't forward
+oh so in other words I say don't forward
+oh so in other words I say don't forward
+oh so in other words I say don't forward
 it but you should it should be stronger
 it but you should it should be stronger
 it but you should it should be stronger
@@ -1581,7 +1581,7 @@ that's a good point right e is actually
 it should be it shouldn't have this
 it should be it shouldn't have this
 it should be it shouldn't have this
-lower sequence number i think on the
+lower sequence number I think on the
 does that make sense wait what do you
 does that make sense wait what do you
 mean there shouldn't be no you
@@ -1641,9 +1641,9 @@ transactions with lower sequence numbers
 on the same source account okay so wait
 on the same source account okay so wait
 on the same source account okay so wait
-so what's and you're saying b i should
-so what's and you're saying b i should
-so what's and you're saying b i should
+so what's and you're saying b I should
+so what's and you're saying b I should
+so what's and you're saying b I should
 say and in case b should also throw it
 say and in case b should also throw it
 say and in case b should also throw it
@@ -1728,12 +1728,12 @@ but here
 
 so if you receive
 so if you receive
-so in your example i have two right
-so in your example i have two right
-so in your example i have two right
-and i have two and that and then i
-and i have two and that and then i
-and i have two and that and then i
+so in your example I have two right
+so in your example I have two right
+so in your example I have two right
+and I have two and that and then i
+and I have two and that and then i
+and I have two and that and then i
 receive one what happens
 receive one what happens
 receive one what happens
@@ -1785,9 +1785,9 @@ a block you know you'll still nominate a
 block that has it but is that a good
 block that has it but is that a good
 block that has it but is that a good
-property i mean it sounds kind of weird
-property i mean it sounds kind of weird
-property i mean it sounds kind of weird
+property I mean it sounds kind of weird
+property I mean it sounds kind of weird
+property I mean it sounds kind of weird
 we already have this it's exactly we
 we already have this it's exactly we
 we already have this it's exactly we
@@ -1899,24 +1899,24 @@ so so you know you might as well like
 keep them the most number of
 keep them the most number of
 keep them the most number of
-transactions valid i mean if you're if
-transactions valid i mean if you're if
-transactions valid i mean if you're if
+transactions valid I mean if you're if
+transactions valid I mean if you're if
+transactions valid I mean if you're if
 you
 you
 you
 are strongly opposed to this we could i
 are strongly opposed to this we could i
 are strongly opposed to this we could i
-i i guess doesn't really matter we could
-i i guess doesn't really matter we could
-i i guess doesn't really matter we could
-we could favor the other one but i don't
-we could favor the other one but i don't
-we could favor the other one but i don't
-i don't see i mean i like it sounds like
-i don't see i mean i like it sounds like
-i don't see i mean i like it sounds like
+i I guess doesn't really matter we could
+i I guess doesn't really matter we could
+i I guess doesn't really matter we could
+we could favor the other one but I don't
+we could favor the other one but I don't
+we could favor the other one but I don't
+i don't see I mean I like it sounds like
+i don't see I mean I like it sounds like
+i don't see I mean I like it sounds like
 kind of arbitrary so that's why i'm i'm
 kind of arbitrary so that's why i'm i'm
 kind of arbitrary so that's why i'm i'm
@@ -1981,8 +1981,8 @@ this works so
 this works so
 this works so
 
-so like you know the reason i did this
-so like you know the reason i did this
+so like you know the reason I did this
+so like you know the reason I did this
 is because
 is because
 is because
@@ -2010,9 +2010,9 @@ second transaction too soon like
 you know
 i don't strongly care if you want it the
 i don't strongly care if you want it the
-other way around i can do it around it
-other way around i can do it around it
-other way around i can do it around it
+other way around I can do it around it
+other way around I can do it around it
+other way around I can do it around it
 has some implication right from a dos
 has some implication right from a dos
 has some implication right from a dos
@@ -2085,9 +2085,9 @@ the that transaction that was in the
 transaction queue gets discarded
 transaction queue gets discarded
 transaction queue gets discarded
-because i have a lower sequencing number
-because i have a lower sequencing number
-because i have a lower sequencing number
+because I have a lower sequencing number
+because I have a lower sequencing number
+because I have a lower sequencing number
 i'm not currently discarding it i
 i'm not currently discarding it i
 i'm not currently discarding it i
@@ -2100,21 +2100,21 @@ currently you're just not forwarding it
 so just to be clear david what you're
 so just to be clear david what you're
 so just to be clear david what you're
-suggesting is like imagine that i have
-suggesting is like imagine that i have
-suggesting is like imagine that i have
-seen like currency numbers 10 i submit a
-seen like currency numbers 10 i submit a
-seen like currency numbers 10 i submit a
+suggesting is like imagine that I have
+suggesting is like imagine that I have
+suggesting is like imagine that I have
+seen like currency numbers 10 I submit a
+seen like currency numbers 10 I submit a
+seen like currency numbers 10 I submit a
 transaction with minstic 10 actual seek
 transaction with minstic 10 actual seek
 transaction with minstic 10 actual seek
 12
 12
 12
-and then i later receive
-and then i later receive
-and then i later receive
+and then I later receive
+and then I later receive
+and then I later receive
 seek 11.
 seek 11.
 seek 11.
@@ -2148,9 +2148,9 @@ either one it's the same way like if you
 see
 see
 see
-i mean i really i think it's very
-i mean i really i think it's very
-i mean i really i think it's very
+i mean I really I think it's very
+i mean I really I think it's very
+i mean I really I think it's very
 similar to the to the to the multiple
 similar to the to the to the multiple
 similar to the to the to the multiple
@@ -2217,12 +2217,12 @@ that's a big difference against this and
 i think that's what nico was saying
 i think that's what nico was saying
 i think that's what nico was saying
-like i think i forget what multiplier we
-like i think i forget what multiplier we
-like i think i forget what multiplier we
-use i forgot if we ended up using two or
-use i forgot if we ended up using two or
-use i forgot if we ended up using two or
+like I think I forget what multiplier we
+like I think I forget what multiplier we
+like I think I forget what multiplier we
+use I forgot if we ended up using two or
+use I forgot if we ended up using two or
+use I forgot if we ended up using two or
 ten we debated about it for a long time
 ten we debated about it for a long time
 ten we debated about it for a long time
@@ -2241,21 +2241,21 @@ times with the
 like the scenario that i've been trying
 like the scenario that i've been trying
 like the scenario that i've been trying
-to think about while i was rereading
-to think about while i was rereading
-to think about while i was rereading
+to think about while I was rereading
+to think about while I was rereading
+to think about while I was rereading
 your thing repeatedly is like
 your thing repeatedly is like
 your thing repeatedly is like
-what if i have two transactions
-what if i have two transactions
-what if i have two transactions
+what if I have two transactions
+what if I have two transactions
+what if I have two transactions
 and they can't both execute because of
 and they can't both execute because of
 and they can't both execute because of
-fees i don't have enough balance to pay
-fees i don't have enough balance to pay
-fees i don't have enough balance to pay
+fees I don't have enough balance to pay
+fees I don't have enough balance to pay
+fees I don't have enough balance to pay
 both fees
 both fees
 both fees
@@ -2274,18 +2274,18 @@ the fees be the fees make the two
 transactions mutually exclusive
 transactions mutually exclusive
 transactions mutually exclusive
-which one do i take
-which one do i take
-which one do i take
-because then i do end up throwing out
-because then i do end up throwing out
-because then i do end up throwing out
+which one do I take
+which one do I take
+which one do I take
+because then I do end up throwing out
+because then I do end up throwing out
+because then I do end up throwing out
 the future one
 the future one
 the future one
-if i take the other one
-if i take the other one
-if i take the other one
+if I take the other one
+if I take the other one
+if I take the other one
 and how do you implement this and what's
 and how do you implement this and what's
 and how do you implement this and what's
@@ -2331,7 +2331,7 @@ well then you would throw that out i
 guess right
 guess right
 guess right
-but i wouldn't accepted 12
+but I wouldn't accepted 12
 because you kind of so you're in in the
 because you kind of so you're in in the
 so for pending transactions you're
@@ -2349,9 +2349,9 @@ i'd have to go and check how we do this
 for fee bumps
 for fee bumps
 for fee bumps
-i don't i don't remember if we reject
-i don't i don't remember if we reject
-i don't i don't remember if we reject
+i don't I don't remember if we reject
+i don't I don't remember if we reject
+i don't I don't remember if we reject
 the fee bump if you wouldn't have the
 the fee bump if you wouldn't have the
 the fee bump if you wouldn't have the
@@ -2391,21 +2391,21 @@ would make this a little bit trickier
 david where it's like like then you have
 david where it's like like then you have
 david where it's like like then you have
-to handle the case like oh like i have
-to handle the case like oh like i have
-to handle the case like oh like i have
-this earlier transaction but i don't
-this earlier transaction but i don't
-this earlier transaction but i don't
+to handle the case like oh like I have
+to handle the case like oh like I have
+to handle the case like oh like I have
+this earlier transaction but I don't
+this earlier transaction but I don't
+this earlier transaction but I don't
 have a fee for it we should make it
 have a fee for it we should make it
 have a fee for it we should make it
 symmetric against the
 symmetric against the
 symmetric against the
-the female case i guess
-the female case i guess
-the female case i guess
+the female case I guess
+the female case I guess
+the female case I guess
 
 so wait so you're you're saying that
 so wait so you're you're saying that
@@ -2421,9 +2421,9 @@ yeah the outer like
 oh it doesn't really matter like it like
 oh it doesn't really matter like it like
 oh it doesn't really matter like it like
-i both i have both a
-i both i have both a
-i both i have both a
+i both I have both a
+i both I have both a
+i both I have both a
 a normal transaction and a fee bump
 a normal transaction and a fee bump
 a normal transaction and a fee bump
@@ -2442,9 +2442,9 @@ prioritize one or the other
 does it even have to be on a
 does it even have to be on a
 does it even have to be on a
-different account i think it could even
-different account i think it could even
-different account i think it could even
+different account I think it could even
+different account I think it could even
+different account I think it could even
 work on the same account
 work on the same account
 work on the same account
@@ -2478,9 +2478,9 @@ different source accounts right
 and
 and
 and
-if i can only pay for two out of those
-if i can only pay for two out of those
-if i can only pay for two out of those
+if I can only pay for two out of those
+if I can only pay for two out of those
+if I can only pay for two out of those
 three then like different validators are
 three then like different validators are
 three then like different validators are
@@ -2496,18 +2496,18 @@ right so
 this seems like a very similar
 this seems like a very similar
 this seems like a very similar
-situation so i don't know why no it's
-situation so i don't know why no it's
-situation so i don't know why no it's
+situation so I don't know why no it's
+situation so I don't know why no it's
+situation so I don't know why no it's
 not it is similar if you
 not it is similar if you
 not it is similar if you
 
 
 
-that's that's what i was teasing out
-that's that's what i was teasing out
-that's that's what i was teasing out
+that's that's what I was teasing out
+that's that's what I was teasing out
+that's that's what I was teasing out
 right like what you what you described
 right like what you what you described
 right like what you what you described
@@ -2583,9 +2583,9 @@ and right now you're saying that 10 is
 valid
 valid
 valid
-so if 10 is valid i need to discard 11.
-so if 10 is valid i need to discard 11.
-so if 10 is valid i need to discard 11.
+so if 10 is valid I need to discard 11.
+so if 10 is valid I need to discard 11.
+so if 10 is valid I need to discard 11.
 that's the difference here is that
 that's the difference here is that
 that's the difference here is that
@@ -2625,9 +2625,9 @@ and at the end only one gets actually in
 the queue which is the the smaller one
 the queue which is the the smaller one
 the queue which is the the smaller one
-so i use all this capacity on the
-so i use all this capacity on the
-so i use all this capacity on the
+so I use all this capacity on the
+so I use all this capacity on the
+so I use all this capacity on the
 overlay right
 overlay right
 overlay right
@@ -2649,7 +2649,7 @@ if we pick no no no you don't need you
 so highest has the same problem right
 it's what you want to do is the first
 it's what you want to do is the first
-one wins i think
+one wins I think
 independent of the sequence number the
 independent of the sequence number the
 first string don't care
@@ -2718,24 +2718,24 @@ in my example where i
 i create three bumps any two of the
 i create three bumps any two of the
 i create three bumps any two of the
-three are okay and i basically flood
-three are okay and i basically flood
-three are okay and i basically flood
+three are okay and I basically flood
+three are okay and I basically flood
+three are okay and I basically flood
 different pairs of them to different
 different pairs of them to different
 different pairs of them to different
 validators they'll each forward like the
 validators they'll each forward like the
 validators they'll each forward like the
-first two that they got i mean it's the
-first two that they got i mean it's the
-first two that they got i mean it's the
+first two that they got I mean it's the
+first two that they got I mean it's the
+first two that they got I mean it's the
 same with p bunk it's the same if you
 same with p bunk it's the same if you
 same with p bunk it's the same if you
-have like you know if i submit two
-have like you know if i submit two
-have like you know if i submit two
+have like you know if I submit two
+have like you know if I submit two
+have like you know if I submit two
 transactions with the same fee and same
 transactions with the same fee and same
 transactions with the same fee and same
@@ -2820,9 +2820,9 @@ like if you say for example all that
 the
 the
 the
-i i need the transaction to be
-i i need the transaction to be
-i i need the transaction to be
+i I need the transaction to be
+i I need the transaction to be
+i I need the transaction to be
 submitted you know like five ledgers
 submitted you know like five ledgers
 submitted you know like five ledgers
@@ -2832,9 +2832,9 @@ from now well obviously it's invalid
 right now
 right now
 right now
-right and one thing you know i guess
-right and one thing you know i guess
-right and one thing you know i guess
+right and one thing you know I guess
+right and one thing you know I guess
+right and one thing you know I guess
 my question is kind of
 my question is kind of
 my question is kind of
@@ -2898,24 +2898,24 @@ of transactions today right
 so basically like you end up nominating
 so basically like you end up nominating
 so basically like you end up nominating
-a transaction set i see the pre i see
-a transaction set i see the pre i see
-a transaction set i see the pre i see
+a transaction set I see the pre I see
+a transaction set I see the pre I see
+a transaction set I see the pre I see
 the hash of that transaction set in the
 the hash of that transaction set in the
 the hash of that transaction set in the
 nomination message
 nomination message
 nomination message
-and i turn around and i'm like i don't
-and i turn around and i'm like i don't
-and i turn around and i'm like i don't
+and I turn around and i'm like I don't
+and I turn around and i'm like I don't
+and I turn around and i'm like I don't
 know what that transaction set is and
 know what that transaction set is and
 know what that transaction set is and
-then i have downloaded all the
-then i have downloaded all the
-then i have downloaded all the
+then I have downloaded all the
+then I have downloaded all the
+then I have downloaded all the
 transactions anyway sorry
 transactions anyway sorry
 transactions anyway sorry
@@ -2937,9 +2937,9 @@ pretty sure that's right okay yeah
 that's the way to do it right now okay
 that's the way to do it right now okay
 that's the way to do it right now okay
-well then that's easy so i think the the
-well then that's easy so i think the the
-well then that's easy so i think the the
+well then that's easy so I think the the
+well then that's easy so I think the the
+well then that's easy so I think the the
 the simple change is you
 the simple change is you
 the simple change is you
@@ -3054,9 +3054,9 @@ contracts
 pretty badly
 pretty badly
 pretty badly
-so the question i had was
-so the question i had was
-so the question i had was
+so the question I had was
+so the question I had was
+so the question I had was
 should we just not allow people
 should we just not allow people
 should we just not allow people
@@ -3082,8 +3082,8 @@ combined with
 
 
 
-yeah like minsektom i mean yeah you
-yeah like minsektom i mean yeah you
+yeah like minsektom I mean yeah you
+yeah like minsektom I mean yeah you
 can't combine those the two
 can't combine those the two
 can't combine those the two
@@ -3102,9 +3102,9 @@ and and the age
 restriction
 what would that
 what would that
-i think i did we're in the two-way
-i think i did we're in the two-way
-i think i did we're in the two-way
+i think I did we're in the two-way
+i think I did we're in the two-way
+i think I did we're in the two-way
 payment channel or so imagine yeah right
 payment channel or so imagine yeah right
 payment channel or so imagine yeah right
@@ -3117,9 +3117,9 @@ for payment channel doesn't have this
 problem because the two transactions ci
 problem because the two transactions ci
 problem because the two transactions ci
-and the i they actually have very
-and the i they actually have very
-and the i they actually have very
+and the I they actually have very
+and the I they actually have very
+and the I they actually have very
 different purpose right
 different purpose right
 different purpose right
@@ -3141,9 +3141,9 @@ periods yeah imagine if
 yeah but imagine if you try to do like a
 yeah but imagine if you try to do like a
 yeah but imagine if you try to do like a
-and i know we're actually looking at
-and i know we're actually looking at
-and i know we're actually looking at
+and I know we're actually looking at
+and I know we're actually looking at
+and I know we're actually looking at
 that at some point where it was actually
 that at some point where it was actually
 that at some point where it was actually
@@ -3162,9 +3162,9 @@ right
 if you have
 if you have
 if you have
-i'm not sure i understand so you're
-i'm not sure i understand so you're
-i'm not sure i understand so you're
+i'm not sure I understand so you're
+i'm not sure I understand so you're
+i'm not sure I understand so you're
 saying that you would make it so that
 saying that you would make it so that
 saying that you would make it so that
@@ -3195,9 +3195,9 @@ imagine you have a contract for your lrc
 in the ai to be combined right
 in the ai to be combined right
 in the ai to be combined right
-at that point i don't know what that
-at that point i don't know what that
-at that point i don't know what that
+at that point I don't know what that
+at that point I don't know what that
+at that point I don't know what that
 means
 means
 means
@@ -3231,9 +3231,9 @@ yep you have one that is just the jump
 and then you have another one that
 and then you have another one that
 and then you have another one that
-oh i don't know like it's a different
-oh i don't know like it's a different
-oh i don't know like it's a different
+oh I don't know like it's a different
+oh I don't know like it's a different
+oh I don't know like it's a different
 protocol right like i'm not talking
 protocol right like i'm not talking
 protocol right like i'm not talking
@@ -3339,9 +3339,9 @@ transactions be submitted or not
 but they will have the delay
 but they will have the delay
 but they will have the delay
-said yeah i see yeah you could do that
-said yeah i see yeah you could do that
-said yeah i see yeah you could do that
+said yeah I see yeah you could do that
+said yeah I see yeah you could do that
+said yeah I see yeah you could do that
 basically like you jump and then you
 basically like you jump and then you
 basically like you jump and then you
@@ -3384,21 +3384,21 @@ like the assumption with those things is
 that you can always
 
 
-like you know i because i have the more
-like you know i because i have the more
-like you know i because i have the more
-recent version of that transaction i can
-recent version of that transaction i can
-recent version of that transaction i can
+like you know I because I have the more
+like you know I because I have the more
+like you know I because I have the more
+recent version of that transaction I can
+recent version of that transaction I can
+recent version of that transaction I can
 always submit it in a way
 always submit it in a way
 always submit it in a way
 but here it's not the case anymore and i
 but here it's not the case anymore and i
 but here it's not the case anymore and i
-have because i can submit those state
-have because i can submit those state
-have because i can submit those state
+have because I can submit those state
+have because I can submit those state
+have because I can submit those state
 ones
 in the contract right and
 in the contract right and
@@ -3444,9 +3444,9 @@ certainly i'm i'm confused can you
 
 
 
-like imagine that i clarify something
-like imagine that i clarify something
-like imagine that i clarify something
+like imagine that I clarify something
+like imagine that I clarify something
+like imagine that I clarify something
 is this
 is this
 is this
@@ -3579,12 +3579,12 @@ the min seek
 the min seek age is one day
 the min seek age is one day
 the min seek age is one day
-what you're i think what nico's saying
-what you're i think what nico's saying
-what you're i think what nico's saying
-but i could be wrong
-but i could be wrong
-but i could be wrong
+what you're I think what nico's saying
+what you're I think what nico's saying
+what you're I think what nico's saying
+but I could be wrong
+but I could be wrong
+but I could be wrong
 is that you actually might incur a
 is that you actually might incur a
 is that you actually might incur a
@@ -3603,9 +3603,9 @@ the last one
 is that what you're saying nico or is
 is that what you're saying nico or is
 is that what you're saying nico or is
-that not i mean yeah like for the delay
-that not i mean yeah like for the delay
-that not i mean yeah like for the delay
+that not I mean yeah like for the delay
+that not I mean yeah like for the delay
+that not I mean yeah like for the delay
 ones that's exactly what will happen
 ones that's exactly what will happen
 ones that's exactly what will happen
@@ -3642,12 +3642,12 @@ those would be like ones with conditions
 that are going to be absolute
 i mean
 i mean
-yes of course if you i can give you a
-yes of course if you i can give you a
-yes of course if you i can give you a
-protocol where when i throw in time
-protocol where when i throw in time
-protocol where when i throw in time
+yes of course if you I can give you a
+yes of course if you I can give you a
+yes of course if you I can give you a
+protocol where when I throw in time
+protocol where when I throw in time
+protocol where when I throw in time
 bounds or ledger bounds like it doesn't
 bounds or ledger bounds like it doesn't
 bounds or ledger bounds like it doesn't
@@ -3672,15 +3672,15 @@ way right
 i just don't see it what i'm saying is
 i just don't see it what i'm saying is
 i just don't see it what i'm saying is
-that i don't see right now a use case
-that i don't see right now a use case
-that i don't see right now a use case
+that I don't see right now a use case
+that I don't see right now a use case
+that I don't see right now a use case
 where you would put both
 where you would put both
 where you would put both
-i can only i can only think of bad
-i can only i can only think of bad
-i can only i can only think of bad
+i can only I can only think of bad
+i can only I can only think of bad
+i can only I can only think of bad
 things so you can put both
 things so you can put both
 things so you can put both
@@ -3726,12 +3726,12 @@ throwing them all into one
 one tx giant tx conditions v2
 one tx giant tx conditions v2
 one tx giant tx conditions v2
-i mean like yeah i i i don't think
-i mean like yeah i i i don't think
-i mean like yeah i i i don't think
-it's yeah maybe annoying i don't hate
-it's yeah maybe annoying i don't hate
-it's yeah maybe annoying i don't hate
+i mean like yeah I don't think
+i mean like yeah I don't think
+i mean like yeah I don't think
+it's yeah maybe annoying I don't hate
+it's yeah maybe annoying I don't hate
+it's yeah maybe annoying I don't hate
 that if that's if that's necessary to go
 that if that's if that's necessary to go
 that if that's if that's necessary to go
@@ -3741,18 +3741,18 @@ in
 
 
 
-i i don't i don't see it i guess i'm not
-i i don't i don't see it i guess i'm not
-i i don't i don't see it i guess i'm not
+i I don't I don't see it I guess i'm not
+i I don't I don't see it I guess i'm not
+i I don't I don't see it I guess i'm not
 yeah i'm not maybe explaining very well
 yeah i'm not maybe explaining very well
 yeah i'm not maybe explaining very well
 like the
 like the
 like the
-like i know that we were when we were
-like i know that we were when we were
-like i know that we were when we were
+like I know that we were when we were
+like I know that we were when we were
+like I know that we were when we were
 looking earlier at this protocol
 looking earlier at this protocol
 looking earlier at this protocol
@@ -3792,15 +3792,15 @@ they can trip on on those present
 transactions
 transactions
 transactions
-i i don't object to that if we want two
-i i don't object to that if we want two
-i i don't object to that if we want two
+i I don't object to that if we want two
+i I don't object to that if we want two
+i I don't object to that if we want two
 flavors of tx conditions
 flavors of tx conditions
 flavors of tx conditions
-i can do that i can see you know there's
-i can do that i can see you know there's
-i can do that i can see you know there's
+i can do that I can see you know there's
+i can do that I can see you know there's
+i can do that I can see you know there's
 some benefit in terms of like
 some benefit in terms of like
 some benefit in terms of like
@@ -3828,9 +3828,9 @@ just have core
 not allow those two things fields to be
 not allow those two things fields to be
 not allow those two things fields to be
-set at the same time i was going to ask
-set at the same time i was going to ask
-set at the same time i was going to ask
+set at the same time I was going to ask
+set at the same time I was going to ask
+set at the same time I was going to ask
 the same question like
 i mean that seems like the worst of all
 i mean that seems like the worst of all
@@ -3852,18 +3852,18 @@ transactions that look valid because xdr
 is valid but they violate some rules so
 is valid but they violate some rules so
 is valid but they violate some rules so
-that that i don't like
-that that i don't like
-that that i don't like
+that that I don't like
+that that I don't like
+that that I don't like
 plus you don't get the benefit of the
 plus you don't get the benefit of the
 plus you don't get the benefit of the
 more compact transactions
 more compact transactions
 more compact transactions
-so i would suggest either keeping it
-so i would suggest either keeping it
-so i would suggest either keeping it
+so I would suggest either keeping it
+so I would suggest either keeping it
+so I would suggest either keeping it
 this way or having two different kinds
 this way or having two different kinds
 this way or having two different kinds
@@ -3873,9 +3873,9 @@ of tx conditions
 i think can we maybe take this on
 i think can we maybe take this on
 i think can we maybe take this on
-offline like i'm yeah i feel like
-offline like i'm yeah i feel like
-offline like i'm yeah i feel like
+offline like i'm yeah I feel like
+offline like i'm yeah I feel like
+offline like i'm yeah I feel like
 crosstalk syntax at this point right but
 crosstalk syntax at this point right but
 crosstalk syntax at this point right but
@@ -3903,9 +3903,9 @@ there that although we could use an
 error
 error
 error
-actually i do have a
-actually i do have a
-actually i do have a
+actually I do have a
+actually I do have a
+actually I do have a
 a potential a use for this
 a potential a use for this
 a potential a use for this
@@ -3972,9 +3972,9 @@ this
 so it's a binary choice and it's pretty
 so it's a binary choice and it's pretty
 so it's a binary choice and it's pretty
-clear what it is so i think moving it
-clear what it is so i think moving it
-clear what it is so i think moving it
+clear what it is so I think moving it
+clear what it is so I think moving it
+clear what it is so I think moving it
 offline and just trying to find a way to
 offline and just trying to find a way to
 offline and just trying to find a way to
@@ -3999,12 +3999,12 @@ do this
 
 
 
-it probably is nico i think niko's point
-it probably is nico i think niko's point
-it probably is nico i think niko's point
-sounds right but like i don't think
-sounds right but like i don't think
-sounds right but like i don't think
+it probably is nico I think niko's point
+it probably is nico I think niko's point
+it probably is nico I think niko's point
+sounds right but like I don't think
+sounds right but like I don't think
+sounds right but like I don't think
 any of the rest of us had actually
 any of the rest of us had actually
 any of the rest of us had actually
@@ -4018,8 +4018,8 @@ offline to think about that yeah okay
 offline to think about that yeah okay
 offline to think about that yeah okay
 what else we got here we got six minutes
-now more questions i'm sorry i took over
-now more questions i'm sorry i took over
+now more questions i'm sorry I took over
+now more questions i'm sorry I took over
 the meeting
 the meeting
 the meeting
@@ -4050,9 +4050,9 @@ talks about
 
 
 
-like i think dual validation right in
-like i think dual validation right in
-like i think dual validation right in
+like I think dual validation right in
+like I think dual validation right in
+like I think dual validation right in
 the dark
 the dark
 the dark
@@ -4068,9 +4068,9 @@ nomination basically and then what
 happens later right when you actually
 happens later right when you actually
 happens later right when you actually
-apply i think this is what this is
-apply i think this is what this is
-apply i think this is what this is
+apply I think this is what this is
+apply I think this is what this is
+apply I think this is what this is
 really about
 so there's a thing that says all but
 so there's a thing that says all but
@@ -4134,9 +4134,9 @@ like basically special cases where you
 can put two transactions
 can put two transactions
 can put two transactions
-yeah i mean
-yeah i mean
-yeah i mean
+yeah I mean
+yeah I mean
+yeah I mean
 you often might want to do that like you
 you often might want to do that like you
 you often might want to do that like you
@@ -4360,20 +4360,20 @@ order right
 order right
 order right
 press you know if you think of
-of i think what we are talking about
-of i think what we are talking about
+of I think what we are talking about
+of I think what we are talking about
 earlier is that okay if there's any
 earlier is that okay if there's any
 earlier is that okay if there's any
 transaction in the queue
 transaction in the queue
 transaction in the queue
-you know i don't i can't add the
-you know i don't i can't add the
-you know i don't i can't add the
-condition for example if i can
-condition for example if i can
-condition for example if i can
+you know I don't I can't add the
+you know I don't I can't add the
+you know I don't I can't add the
+condition for example if I can
+condition for example if I can
+condition for example if I can
 i can't add that transaction sorry
 right but that's why we already talked
 right but that's why we already talked
@@ -4392,12 +4392,12 @@ provide a counterpoint to nico like i
 i think there could be merit to
 i think there could be merit to
 i think there could be merit to
-pipelining and i don't think
-pipelining and i don't think
-pipelining and i don't think
-like i don't think compared to the
-like i don't think compared to the
-like i don't think compared to the
+pipelining and I don't think
+pipelining and I don't think
+pipelining and I don't think
+like I don't think compared to the
+like I don't think compared to the
+like I don't think compared to the
 already
 already
 already
@@ -4407,9 +4407,9 @@ very large amount of condition checking
 that we do in especially in the
 that we do in especially in the
 that we do in especially in the
-transaction queue i don't think this
-transaction queue i don't think this
-transaction queue i don't think this
+transaction queue I don't think this
+transaction queue I don't think this
+transaction queue I don't think this
 would be a very material change that's
 would be a very material change that's
 would be a very material change that's
@@ -4425,9 +4425,9 @@ if we think that this kind of pipelining
 situation is like not only possible but
 situation is like not only possible but
 situation is like not only possible but
-plausible and i think it probably is
-plausible and i think it probably is
-plausible and i think it probably is
+plausible and I think it probably is
+plausible and I think it probably is
+plausible and I think it probably is
 i don't think it's that bad personally
 at this point we're also out of time so
 at this point we're also out of time so
@@ -4437,19 +4437,19 @@ okay so okay are you okay with that nico
 or do you still you're still not
 or do you still you're still not
 or do you still you're still not
-convinced no i say it's probably fine
-convinced no i say it's probably fine
-convinced no i say it's probably fine
+convinced no I say it's probably fine
+convinced no I say it's probably fine
+convinced no I say it's probably fine
 yeah it's just
 yeah it's just
 yeah it's just
-more conditions like i said
-more conditions like i said
-more conditions like i said
+more conditions like I said
+more conditions like I said
+more conditions like I said
 okay
 okay
 okay
-this one i do think it's useful so
+this one I do think it's useful so
 okay cool
 okay cool
 so leave this one as is because it's
@@ -4458,9 +4458,9 @@ so leave this one as is because it's
 useful and possible
 useful and possible
 useful and possible
-unless you know obviously i think that
-unless you know obviously i think that
-unless you know obviously i think that
+unless you know obviously I think that
+unless you know obviously I think that
+unless you know obviously I think that
 perhaps what happens now is that we move
 perhaps what happens now is that we move
 perhaps what happens now is that we move

@@ -850,8 +850,8 @@ only question is really performance at
 only question is really performance at
 only question is really performance at
 this point.
-Yeah, I I disagree on the cost type
-Yeah, I I disagree on the cost type
+Yeah, I disagree on the cost type
+Yeah, I disagree on the cost type
 part. because I think doing two
 part. because I think doing two
 part. because I think doing two
@@ -951,9 +951,9 @@ argument, but it can have only like
 couple of values. But
 couple of values. But
 couple of values. But
- I don't know. I I would really try to
- I don't know. I I would really try to
- I don't know. I I would really try to
+ I don't know. I would really try to
+ I don't know. I would really try to
+ I don't know. I would really try to
 stay with the building blocks and do
 stay with the building blocks and do
 stay with the building blocks and do
@@ -1194,9 +1194,9 @@ added up all the metered cost for
 arithmetic. They are about 2.5 million.
 arithmetic. They are about 2.5 million.
 arithmetic. They are about 2.5 million.
-So I I would say number one would be
-So I I would say number one would be
-So I I would say number one would be
+So I would say number one would be
+So I would say number one would be
+So I would say number one would be
 much more closer to that. there's
 much more closer to that. there's
 much more closer to that. there's
@@ -1270,8 +1270,8 @@ that.
  Okay.
  Okay.
 Okay.
-Yeah. I I don't know the in terms of CPU
-Yeah. I I don't know the in terms of CPU
+Yeah. I don't know the in terms of CPU
+Yeah. I don't know the in terms of CPU
 cost. I don't know how much they will be
 cost. I don't know how much they will be
 cost. I don't know how much they will be
@@ -1302,9 +1302,9 @@ level
 again for the complexity I
 again for the complexity I
 again for the complexity I
-sure I get the argument like I I think
-sure I get the argument like I I think
-sure I get the argument like I I think
+sure I get the argument like I think
+sure I get the argument like I think
+sure I get the argument like I think
 really complexity
 really complexity
 really complexity
@@ -1899,9 +1899,9 @@ circum library and see what they
 correspond to in terms of other stuff in
 correspond to in terms of other stuff in
 correspond to in terms of other stuff in
-specific projects because I I so far
-specific projects because I I so far
-specific projects because I I so far
+specific projects because I so far
+specific projects because I so far
+specific projects because I so far
 I've replaced them with something that
 I've replaced them with something that
 I've replaced them with something that

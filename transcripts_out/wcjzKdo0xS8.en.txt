@@ -30,9 +30,9 @@ we live stream these meetings so that
 anyone who is interested can follow
 anyone who is interested can follow
 anyone who is interested can follow
-along i do want to note it's a technical
-along i do want to note it's a technical
-along i do want to note it's a technical
+along I do want to note it's a technical
+along I do want to note it's a technical
+along I do want to note it's a technical
 discussion so if you're watching you
 discussion so if you're watching you
 discussion so if you're watching you
@@ -81,9 +81,9 @@ incorporate them but we do have this
 very specific goal
 very specific goal
 very specific goal
-as i said today's discussion focuses on
-as i said today's discussion focuses on
-as i said today's discussion focuses on
+as I said today's discussion focuses on
+as I said today's discussion focuses on
+as I said today's discussion focuses on
 a single cap cap 38 and this meeting is
 a single cap cap 38 and this meeting is
 a single cap cap 38 and this meeting is
@@ -288,9 +288,9 @@ overall network liquidity
 that said back to the technical
 that said back to the technical
 that said back to the technical
-discussion as i mentioned at this point
-discussion as i mentioned at this point
-discussion as i mentioned at this point
+discussion as I mentioned at this point
+discussion as I mentioned at this point
+discussion as I mentioned at this point
 cap38 has already been approved and
 cap38 has already been approved and
 cap38 has already been approved and
@@ -342,9 +342,9 @@ implementation
 review
 review
 review
-so before we do that i i i'm just
-so before we do that i i i'm just
-so before we do that i i i'm just
+so before we do that I i'm just
+so before we do that I i'm just
+so before we do that I i'm just
 gonna walk through them one by one but
 gonna walk through them one by one but
 gonna walk through them one by one but
@@ -372,9 +372,9 @@ first change removed liquidity pool id
 from union in liquidity pool entry
 from union in liquidity pool entry
 from union in liquidity pool entry
-and so i guess my question is does
-and so i guess my question is does
-and so i guess my question is does
+and so I guess my question is does
+and so I guess my question is does
+and so I guess my question is does
 anyone have any questions about this
 anyone have any questions about this
 anyone have any questions about this
@@ -382,8 +382,8 @@ does this change make sense
 does this change make sense
 does this change make sense
 are there any concerns
-so when we did this i think siddharth
-so when we did this i think siddharth
+so when we did this I think siddharth
+so when we did this I think siddharth
 might have made this change yes
 might have made this change yes
 might have made this change yes
@@ -399,9 +399,9 @@ sir do you want to talk about or do you
 want me to
 want me to
 want me to
-yeah i can talk about it so the
-yeah i can talk about it so the
-yeah i can talk about it so the
+yeah I can talk about it so the
+yeah I can talk about it so the
+yeah I can talk about it so the
 reasoning for this is that the
 reasoning for this is that the
 reasoning for this is that the
@@ -495,15 +495,15 @@ anyway for that so
 that's my intuition at least
 that's my intuition at least
 that's my intuition at least
-i see nico nodding so i think he
-i see nico nodding so i think he
-i see nico nodding so i think he
+i see nico nodding so I think he
+i see nico nodding so I think he
+i see nico nodding so I think he
 probably agrees with that
-okay i think we're fine then if nobody
-okay i think we're fine then if nobody
-objects i mean
-objects i mean
-objects i mean
+okay I think we're fine then if nobody
+okay I think we're fine then if nobody
+objects I mean
+objects I mean
+objects I mean
 i don't expect any of these changes to
 i don't expect any of these changes to
 i don't expect any of these changes to
@@ -526,8 +526,8 @@ second change use clean adam and manage
 second change use clean adam and manage
 second change use clean adam and manage
 offer success results
-this one was a change that i made the
-this one was a change that i made the
+this one was a change that I made the
+this one was a change that I made the
 
 
 
@@ -537,9 +537,9 @@ the main gap here was that like when i
 originally
 originally
 originally
-when i originally drew up the cap
-when i originally drew up the cap
-when i originally drew up the cap
+when I originally drew up the cap
+when I originally drew up the cap
+when I originally drew up the cap
 i had kind of assumed like oh we
 i had kind of assumed like oh we
 i had kind of assumed like oh we
@@ -606,12 +606,12 @@ my so when i
 that's a good question justin
 that's a good question justin
 that's a good question justin
-when i wrote this i thought the answer
-when i wrote this i thought the answer
-when i wrote this i thought the answer
-was like approximately no one i thought
-was like approximately no one i thought
-was like approximately no one i thought
+when I wrote this I thought the answer
+when I wrote this I thought the answer
+when I wrote this I thought the answer
+was like approximately no one I thought
+was like approximately no one I thought
+was like approximately no one I thought
 that it was basically just like horizon
 that it was basically just like horizon
 that it was basically just like horizon
@@ -645,18 +645,18 @@ for trading operations rolled into them
 i don't interact with the sdks that much
 i don't interact with the sdks that much
 i don't interact with the sdks that much
-so i i wasn't aware of that
-so i i wasn't aware of that
-so i i wasn't aware of that
-perhaps i would have changed the
-perhaps i would have changed the
-perhaps i would have changed the
+so I wasn't aware of that
+so I wasn't aware of that
+so I wasn't aware of that
+perhaps I would have changed the
+perhaps I would have changed the
+perhaps I would have changed the
 calculus a little bit on this but having
 calculus a little bit on this but having
 calculus a little bit on this but having
-already done the work i think it doesn't
-already done the work i think it doesn't
-already done the work i think it doesn't
+already done the work I think it doesn't
+already done the work I think it doesn't
+already done the work I think it doesn't
 but at this point i'd my expectation is
 but at this point i'd my expectation is
 but at this point i'd my expectation is
@@ -727,11 +727,11 @@ and changed validation results for
 and changed validation results for
 and changed validation results for
 revoke sponsorship to all be malformed
-you understand or should i you made one
-you understand or should i you made one
-of the changes i made the other
-of the changes i made the other
-of the changes i made the other
+you understand or should I you made one
+you understand or should I you made one
+of the changes I made the other
+of the changes I made the other
+of the changes I made the other
 you can go ahead okay
 you can go ahead okay
 you can go ahead okay
@@ -747,9 +747,9 @@ throwback actually
 to
 to
 to
-to i guess that was protocol 15 or 14
-to i guess that was protocol 15 or 14
-to i guess that was protocol 15 or 14
+to I guess that was protocol 15 or 14
+to I guess that was protocol 15 or 14
+to I guess that was protocol 15 or 14
 when there was a a side issue with the
 when there was a a side issue with the
 when there was a a side issue with the
@@ -829,8 +829,8 @@ questions
 all right the next one is changed
 all right the next one is changed
 to m32t in liquidity pool use count
-yeah i can take this this is this is
-yeah i can take this this is this is
+yeah I can take this this is this is
+yeah I can take this this is this is
 following
 following
 following
@@ -972,9 +972,9 @@ yeah completely misunderstood sorry
 about that
 about that
 about that
-no problem i feel like that's what we're
-no problem i feel like that's what we're
-no problem i feel like that's what we're
+no problem I feel like that's what we're
+no problem I feel like that's what we're
+no problem I feel like that's what we're
 here for it's just like make sure that
 here for it's just like make sure that
 here for it's just like make sure that
@@ -1077,12 +1077,12 @@ implement expected behavior as far as i
 can tell
 can tell
 can tell
-is there i mean well i think this is a
-is there i mean well i think this is a
-is there i mean well i think this is a
-more general question i feel like at
-more general question i feel like at
-more general question i feel like at
+is there I mean well I think this is a
+is there I mean well I think this is a
+is there I mean well I think this is a
+more general question I feel like at
+more general question I feel like at
+more general question I feel like at
 some point we may want to
 some point we may want to
 some point we may want to
@@ -1107,9 +1107,9 @@ about that and also that we probably
 don't want to talk about it right now
 don't want to talk about it right now
 don't want to talk about it right now
-nico and i have been talking about it a
-nico and i have been talking about it a
-nico and i have been talking about it a
+nico and I have been talking about it a
+nico and I have been talking about it a
+nico and I have been talking about it a
 bit actually and it it turns out that
 bit actually and it it turns out that
 bit actually and it it turns out that
@@ -1198,14 +1198,14 @@ and that doesn't quite make sense
 and that doesn't quite make sense
 and that doesn't quite make sense
 so
-yeah so i believe that the
-yeah so i believe that the
+yeah so I believe that the
+yeah so I believe that the
 so
 so
 so
-one like the i think the biggest
-one like the i think the biggest
-one like the i think the biggest
+one like the I think the biggest
+one like the I think the biggest
+one like the I think the biggest
 change that you can withdraw if you're
 change that you can withdraw if you're
 change that you can withdraw if you're
@@ -1260,9 +1260,9 @@ the off maintained liability state
 and you can't but you can't deposit
 and you can't but you can't deposit
 and you can't but you can't deposit
-which is i think was the old behavior as
-which is i think was the old behavior as
-which is i think was the old behavior as
+which is I think was the old behavior as
+which is I think was the old behavior as
+which is I think was the old behavior as
 well you can't deposit if you're not
 well you can't deposit if you're not
 well you can't deposit if you're not
@@ -1275,24 +1275,24 @@ so just to check my understanding this
 means that for example
 means that for example
 means that for example
-if i am an
-if i am an
-if i am an
+if I am an
+if I am an
+if I am an
 issuer
 issuer
 issuer
-of an author required asset and i don't
-of an author required asset and i don't
-of an author required asset and i don't
+of an author required asset and I don't
+of an author required asset and I don't
+of an author required asset and I don't
 want there to be an asset between like
 want there to be an asset between like
 want there to be an asset between like
 my mark my market between my asset and
 my mark my market between my asset and
 my mark my market between my asset and
-say asset x i could basically revoke
-say asset x i could basically revoke
-say asset x i could basically revoke
+say asset x I could basically revoke
+say asset x I could basically revoke
+say asset x I could basically revoke
 authorization from everyone who's
 authorization from everyone who's
 authorization from everyone who's
@@ -1324,11 +1324,11 @@ happens with zero amount
 yeah one sec
 yeah one sec
 let's see
-sorry i need to take a look at this
-sorry i need to take a look at this
+sorry I need to take a look at this
+sorry I need to take a look at this
 change
-so i believe that this change is
-so i believe that this change is
+so I believe that this change is
+so I believe that this change is
 specifying
 specifying
 specifying
@@ -1417,8 +1417,8 @@ that asset so this just specifies
 that asset so this just specifies
 that asset so this just specifies
 those those cases
-i'm actually confused i didn't
-i'm actually confused i didn't
+i'm actually confused I didn't
+i'm actually confused I didn't
 understand
 understand
 understand
@@ -1551,18 +1551,18 @@ and like you know in weird edge cases
 you get a claimable balance instead
 you get a claimable balance instead
 you get a claimable balance instead
-sorry i i wasn't clear we create camel
-sorry i i wasn't clear we create camel
-sorry i i wasn't clear we create camel
+sorry I wasn't clear we create camel
+sorry I wasn't clear we create camel
+sorry I wasn't clear we create camel
 bounce every time we don't even attempt
 bounce every time we don't even attempt
 bounce every time we don't even attempt
 to send it back
 to send it back
 to send it back
-oh i see okay yeah yeah that was the
-oh i see okay yeah yeah that was the
-oh i see okay yeah yeah that was the
+oh I see okay yeah yeah that was the
+oh I see okay yeah yeah that was the
+oh I see okay yeah yeah that was the
 game
 game
 game
@@ -1590,9 +1590,9 @@ and we acknowledge that this is like
 really really quirky
 really really quirky
 really really quirky
-like siddharth and i spent many many
-like siddharth and i spent many many
-like siddharth and i spent many many
+like siddharth and I spent many many
+like siddharth and I spent many many
+like siddharth and I spent many many
 hours on the phone trying to figure out
 hours on the phone trying to figure out
 hours on the phone trying to figure out
@@ -1620,9 +1620,9 @@ or they only grow upon like a manage
 offer operation that you can control but
 offer operation that you can control but
 offer operation that you can control but
-here like imagine i deposit into a
-here like imagine i deposit into a
-here like imagine i deposit into a
+here like imagine I deposit into a
+here like imagine I deposit into a
+here like imagine I deposit into a
 liquidity pool
 liquidity pool
 liquidity pool
@@ -1668,12 +1668,12 @@ mysterious
 
 
 
-i think there could be i mean
-i think there could be i mean
-i think there could be i mean
-if we were starting from scratch i feel
-if we were starting from scratch i feel
-if we were starting from scratch i feel
+i think there could be I mean
+i think there could be I mean
+i think there could be I mean
+if we were starting from scratch I feel
+if we were starting from scratch I feel
+if we were starting from scratch I feel
 like a better design would be to say you
 like a better design would be to say you
 like a better design would be to say you
@@ -1725,12 +1725,12 @@ but that's not the world we reside in
 but maybe in the future it will be
 but maybe in the future it will be
 but maybe in the future it will be
-so and by the way i just did a
-so and by the way i just did a
-so and by the way i just did a
-looked at the ledger i think yesterday
-looked at the ledger i think yesterday
-looked at the ledger i think yesterday
+so and by the way I just did a
+so and by the way I just did a
+so and by the way I just did a
+looked at the ledger I think yesterday
+looked at the ledger I think yesterday
+looked at the ledger I think yesterday
 and it was like thousands of accounts at
 and it was like thousands of accounts at
 and it was like thousands of accounts at
@@ -1752,9 +1752,9 @@ it's actually a thing that people do now
 it was it was in the tens the last
 it was it was in the tens the last
 it was it was in the tens the last
-time i checked which i think was in
-time i checked which i think was in
-time i checked which i think was in
+time I checked which I think was in
+time I checked which I think was in
+time I checked which I think was in
 march or april when we were issuing
 march or april when we were issuing
 march or april when we were issuing
@@ -1824,9 +1824,9 @@ i mean one thing we could do is we like
 this is not really a protocol discussion
 this is not really a protocol discussion
 this is not really a protocol discussion
-but i agree that like education is a
-but i agree that like education is a
-but i agree that like education is a
+but I agree that like education is a
+but I agree that like education is a
+but I agree that like education is a
 part of what we do and so it's it's not
 part of what we do and so it's it's not
 part of what we do and so it's it's not
@@ -1906,26 +1906,26 @@ most
 most
 most
 like sensible way
-yeah i guess like the the the
-yeah i guess like the the the
+yeah I guess like the the the
+yeah I guess like the the the
 question here is more like yeah what's
 question here is more like yeah what's
 question here is more like yeah what's
 the level of support of for claimable
 the level of support of for claimable
 the level of support of for claimable
-balances in the ecosystem today i think
-balances in the ecosystem today i think
-balances in the ecosystem today i think
+balances in the ecosystem today I think
+balances in the ecosystem today I think
+balances in the ecosystem today I think
 it's much better than
 it's much better than
 it's much better than
 like even like two months ago
 like even like two months ago
 like even like two months ago
-but i don't know where we are yeah i
-but i don't know where we are yeah i
-but i don't know where we are yeah i
+but I don't know where we are yeah i
+but I don't know where we are yeah i
+but I don't know where we are yeah i
 feel like a few months ago there was
 feel like a few months ago there was
 feel like a few months ago there was
@@ -1993,8 +1993,8 @@ i know it's not strictly protocol
 i know it's not strictly protocol
 i know it's not strictly protocol
 discussion but thank you
-and i believe we're at we are where we
-and i believe we're at we are where we
+and I believe we're at we are where we
+and I believe we're at we are where we
 landed at this is what it is this is the
 landed at this is what it is this is the
 landed at this is what it is this is the
@@ -2080,14 +2080,14 @@ fixed incorrect error specification for
 fixed incorrect error specification for
 fixed incorrect error specification for
 path payments
-oh yeah i remember this one
-oh yeah i remember this one
+oh yeah I remember this one
+oh yeah I remember this one
 
 
 
-probably though i would not be surprised
-probably though i would not be surprised
-probably though i would not be surprised
+probably though I would not be surprised
+probably though I would not be surprised
+probably though I would not be surprised
 if people have things to say about this
 if people have things to say about this
 if people have things to say about this
@@ -2160,9 +2160,9 @@ like imagine you know the original like
 the original draft of the original
 the original draft of the original
 the original draft of the original
-language i should say it's like in the
-language i should say it's like in the
-language i should say it's like in the
+language I should say it's like in the
+language I should say it's like in the
+language I should say it's like in the
 first hop you know you're going from a
 first hop you know you're going from a
 first hop you know you're going from a
@@ -2187,24 +2187,24 @@ the
 liquidity pools
 liquidity pools
 liquidity pools
-and then it's like well actually if i in
-and then it's like well actually if i in
-and then it's like well actually if i in
-the first path if i had actually take or
-the first path if i had actually take or
-the first path if i had actually take or
-sorry in the first hop if i had taken
-sorry in the first hop if i had taken
-sorry in the first hop if i had taken
+and then it's like well actually if I in
+and then it's like well actually if I in
+and then it's like well actually if I in
+the first path if I had actually take or
+the first path if I had actually take or
+the first path if I had actually take or
+sorry in the first hop if I had taken
+sorry in the first hop if I had taken
+sorry in the first hop if I had taken
 the path to the liquidity pool i'm not
 the path to the liquidity pool i'm not
 the path to the liquidity pool i'm not
 necessarily going to end up in the same
 necessarily going to end up in the same
 necessarily going to end up in the same
-state as if i had taken the path to the
-state as if i had taken the path to the
-state as if i had taken the path to the
+state as if I had taken the path to the
+state as if I had taken the path to the
+state as if I had taken the path to the
 other side
 other side
 other side
@@ -2277,9 +2277,9 @@ to try to understand this and try to
 figure out how to write the right stuff
 figure out how to write the right stuff
 figure out how to write the right stuff
-but i don't know if it's very
-but i don't know if it's very
-but i don't know if it's very
+but I don't know if it's very
+but I don't know if it's very
+but I don't know if it's very
 enlightening to get into the weeds about
 enlightening to get into the weeds about
 enlightening to get into the weeds about
@@ -2331,15 +2331,15 @@ that might be more pertinent
 you could well actually you know what
 you could well actually you know what
 you could well actually you know what
-i'm gonna mess it up if i try and do it
-i'm gonna mess it up if i try and do it
-i'm gonna mess it up if i try and do it
+i'm gonna mess it up if I try and do it
+i'm gonna mess it up if I try and do it
+i'm gonna mess it up if I try and do it
 off the top of my head let me look at
 off the top of my head let me look at
 off the top of my head let me look at
-the example that i wrote here and just
-the example that i wrote here and just
-the example that i wrote here and just
+the example that I wrote here and just
+the example that I wrote here and just
+the example that I wrote here and just
 walk through that
 walk through that
 walk through that
@@ -2457,9 +2457,9 @@ price constraints on the path payment
 and so the original language said like
 and so the original language said like
 and so the original language said like
-well i should have returned to the too
-well i should have returned to the too
-well i should have returned to the too
+well I should have returned to the too
+well I should have returned to the too
+well I should have returned to the too
 few offers
 few offers
 few offers
@@ -2475,9 +2475,9 @@ if in a long multi-hop payment it might
 not even be possible for me to figure
 not even be possible for me to figure
 not even be possible for me to figure
-out what i should have returned without
-out what i should have returned without
-out what i should have returned without
+out what I should have returned without
+out what I should have returned without
+out what I should have returned without
 having to go and rerun it all in the
 having to go and rerun it all in the
 having to go and rerun it all in the
@@ -2530,17 +2530,17 @@ okay okay
 okay okay
 okay okay
 i do believe that is correct
-yeah i think the first time i said it i
-yeah i think the first time i said it i
+yeah I think the first time I said it i
+yeah I think the first time I said it i
 said something that would have implied
 said something that would have implied
 said something that would have implied
 that that wasn't true but that's right i
 that that wasn't true but that's right i
 that that wasn't true but that's right i
-think that's where i was getting
-think that's where i was getting
-think that's where i was getting
+think that's where I was getting
+think that's where I was getting
+think that's where I was getting
 confused
 confused
 confused
@@ -2571,9 +2571,9 @@ of the liquidity pool
 like if the look
 like if the look
 like if the look
-this can only i don't remember for which
-this can only i don't remember for which
-this can only i don't remember for which
+this can only I don't remember for which
+this can only I don't remember for which
+this can only I don't remember for which
 this can only happen for path payment
 this can only happen for path payment
 this can only happen for path payment
@@ -2595,9 +2595,9 @@ exactly the exchange rate but it's
 pretty close so let's pretend
 pretty close so let's pretend
 pretty close so let's pretend
-and and then i sent a pass payment
-and and then i sent a pass payment
-and and then i sent a pass payment
+and and then I sent a pass payment
+and and then I sent a pass payment
+and and then I sent a pass payment
 strict receive
 strict receive
 strict receive
@@ -2710,8 +2710,8 @@ just need to do something
 just need to do something
 just need to do something
 consistent and predictable basically
-yeah i can take this so this is i
-yeah i can take this so this is i
+yeah I can take this so this is i
+yeah I can take this so this is i
 mentioned this earlier but
 mentioned this earlier but
 mentioned this earlier but
@@ -2772,9 +2772,9 @@ how many
 entries you are currently sponsoring
 entries you are currently sponsoring
 entries you are currently sponsoring
-and that has a limit i believe it's
-and that has a limit i believe it's
-and that has a limit i believe it's
+and that has a limit I believe it's
+and that has a limit I believe it's
+and that has a limit I believe it's
 in 32 max or you and 32 max
 in 32 max or you and 32 max
 in 32 max or you and 32 max
@@ -2796,9 +2796,9 @@ theoretically get to that amount
 i see if you have a lot of that yeah
 i see if you have a lot of that yeah
 i see if you have a lot of that yeah
-yeah the limit if i should be a little
-yeah the limit if i should be a little
-yeah the limit if i should be a little
+yeah the limit if I should be a little
+yeah the limit if I should be a little
+yeah the limit if I should be a little
 more accurate the limit is actually
 more accurate the limit is actually
 more accurate the limit is actually
@@ -2916,9 +2916,9 @@ all right the final change removed new
 claimable balance id type
 claimable balance id type
 claimable balance id type
-yeah so i can i can take this as well so
-yeah so i can i can take this as well so
-yeah so i can i can take this as well so
+yeah so I can I can take this as well so
+yeah so I can I can take this as well so
+yeah so I can I can take this as well so
 in the original cap invitation
 in the original cap invitation
 in the original cap invitation
@@ -2983,8 +2983,8 @@ type and the object that we had the
 type and the object that we had the
 type and the object that we had the
 passion
-yeah i think originally we thought that
-yeah i think originally we thought that
+yeah I think originally we thought that
+yeah I think originally we thought that
 maybe by having this extra type we could
 maybe by having this extra type we could
 maybe by having this extra type we could
@@ -3012,9 +3012,9 @@ claimable balance anyways so
 this was actually
 this was actually
 this was actually
-kind of useless i mean like
-kind of useless i mean like
-kind of useless i mean like
+kind of useless I mean like
+kind of useless I mean like
+kind of useless I mean like
 like for existing playmobil balances you
 like for existing playmobil balances you
 like for existing playmobil balances you
@@ -3042,9 +3042,9 @@ and now
 
 
 
-and i feel like you know i definitely
-and i feel like you know i definitely
-and i feel like you know i definitely
+and I feel like you know I definitely
+and I feel like you know I definitely
+and I feel like you know I definitely
 learned something about some of the
 learned something about some of the
 learned something about some of the
@@ -3076,8 +3076,8 @@ undo any of those changes does that seem
 undo any of those changes does that seem
 undo any of those changes does that seem
 correct
-yeah i have
-yeah i have
+yeah I have
+yeah I have
 
 
 
@@ -3120,9 +3120,9 @@ shares or refund them to you or
 something like give people like
 something like give people like
 something like give people like
-basically like i want to avoid like the
-basically like i want to avoid like the
-basically like i want to avoid like the
+basically like I want to avoid like the
+basically like I want to avoid like the
+basically like I want to avoid like the
 next time we revise this being in a
 next time we revise this being in a
 next time we revise this being in a
@@ -3201,9 +3201,9 @@ and we did do that with the order book
 once and
 once and
 once and
-it was fine and i could imagine needing
-it was fine and i could imagine needing
-it was fine and i could imagine needing
+it was fine and I could imagine needing
+it was fine and I could imagine needing
+it was fine and I could imagine needing
 to do the same thing in this context i
 to do the same thing in this context i
 to do the same thing in this context i
@@ -3268,8 +3268,8 @@ would be this
 would be this
 would be this
 like development life cycle
-so i guess that then there is an
-so i guess that then there is an
+so I guess that then there is an
+so I guess that then there is an
 additive request which makes sense and
 additive request which makes sense and
 additive request which makes sense and
@@ -3282,18 +3282,18 @@ than that we feel that these
 these changes
 these changes
 these changes
-i mean am i okay voting for this but
-i mean am i okay voting for this but
-i mean am i okay voting for this but
+i mean am I okay voting for this but
+i mean am I okay voting for this but
+i mean am I okay voting for this but
 authorizing like one sentence to be
 authorizing like one sentence to be
 authorizing like one sentence to be
 inserted before it's you know
 inserted before it's you know
 inserted before it's you know
-finalized like i don't want to drag this
-finalized like i don't want to drag this
-finalized like i don't want to drag this
+finalized like I don't want to drag this
+finalized like I don't want to drag this
+finalized like I don't want to drag this
 into another protocol meeting it's like
 into another protocol meeting it's like
 into another protocol meeting it's like
@@ -3303,12 +3303,12 @@ a very minor thing that doesn't matter
 for today so
 for today so
 for today so
-and if if we didn't do this i would
-and if if we didn't do this i would
-and if if we didn't do this i would
-still be okay with this i just think it
-still be okay with this i just think it
-still be okay with this i just think it
+and if if we didn't do this I would
+and if if we didn't do this I would
+and if if we didn't do this I would
+still be okay with this I just think it
+still be okay with this I just think it
+still be okay with this I just think it
 would be nice to do
 would be nice to do
 would be nice to do
@@ -3333,18 +3333,18 @@ okay cool is there anything else that
 that is pressing that that anyone wants
 that is pressing that that anyone wants
 that is pressing that that anyone wants
-to bring up if not i think we're done
-to bring up if not i think we're done
-to bring up if not i think we're done
+to bring up if not I think we're done
+to bring up if not I think we're done
+to bring up if not I think we're done
 for today
 for today
 for today
 there were any questions in the chat
 there were any questions in the chat
 there were any questions in the chat
-before we hang out i don't know
-before we hang out i don't know
-before we hang out i don't know
+before we hang out I don't know
+before we hang out I don't know
+before we hang out I don't know
 
 everything was so congratulations
 everything was so congratulations
@@ -3363,9 +3363,9 @@ has reached the end of its development
 life cycle and now it is ready
 life cycle and now it is ready
 life cycle and now it is ready
-to go out into the world i mean it's
-to go out into the world i mean it's
-to go out into the world i mean it's
+to go out into the world I mean it's
+to go out into the world I mean it's
+to go out into the world I mean it's
 already on the test net in protocol 18
 already on the test net in protocol 18
 already on the test net in protocol 18

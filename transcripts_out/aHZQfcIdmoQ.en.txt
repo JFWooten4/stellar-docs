@@ -39,9 +39,9 @@ designed to evolve the protocol to meet
 ecosystem needs
 ecosystem needs
 ecosystem needs
-and before we start i do want to point
-and before we start i do want to point
-and before we start i do want to point
+and before we start I do want to point
+and before we start I do want to point
+and before we start I do want to point
 out that this is a technical discussion
 out that this is a technical discussion
 out that this is a technical discussion
@@ -63,9 +63,9 @@ them
 both of which are linked to in the event
 both of which are linked to in the event
 both of which are linked to in the event
-description before we dive in i also
-description before we dive in i also
-description before we dive in i also
+description before we dive in I also
+description before we dive in I also
+description before we dive in I also
 want to give a quick
 want to give a quick
 want to give a quick
@@ -342,15 +342,15 @@ that's where we're starting today
 and i'm gonna open it up for
 and i'm gonna open it up for
 and i'm gonna open it up for
-discussion and also if i got any of that
-discussion and also if i got any of that
-discussion and also if i got any of that
+discussion and also if I got any of that
+discussion and also if I got any of that
+discussion and also if I got any of that
 wrong
 wrong
 wrong
-please say so because i want to make
-please say so because i want to make
-please say so because i want to make
+please say so because I want to make
+please say so because I want to make
+please say so because I want to make
 sure that we're representing this
 sure that we're representing this
 sure that we're representing this
@@ -358,32 +358,32 @@ correctly
 correctly
 correctly
 so who wants to start
-maybe i can't stop given that i was the
-maybe i can't stop given that i was the
-last to talk i think on that mainly on
-last to talk i think on that mainly on
-last to talk i think on that mainly on
+maybe I can't stop given that I was the
+maybe I can't stop given that I was the
+last to talk I think on that mainly on
+last to talk I think on that mainly on
+last to talk I think on that mainly on
 the dev mailing list
 the dev mailing list
 the dev mailing list
 so that people can take it from there
 so that people can take it from there
 so that people can take it from there
-so i think yeah like we had like a
-so i think yeah like we had like a
-so i think yeah like we had like a
-a good exchange i think with marcus
-a good exchange i think with marcus
-a good exchange i think with marcus
+so I think yeah like we had like a
+so I think yeah like we had like a
+so I think yeah like we had like a
+a good exchange I think with marcus
+a good exchange I think with marcus
+a good exchange I think with marcus
 on the on that mainly so it's like
 on the on that mainly so it's like
 on the on that mainly so it's like
 the
 the
 the
-i think it we we reached a point i think
-i think it we we reached a point i think
-i think it we we reached a point i think
+i think it we we reached a point I think
+i think it we we reached a point I think
+i think it we we reached a point I think
 in that thread
 in that thread
 in that thread
@@ -399,9 +399,9 @@ as a as something that can be done on
 top of capital e8
 top of capital e8
 top of capital e8
-and i think as if as a framework i think
-and i think as if as a framework i think
-and i think as if as a framework i think
+and I think as if as a framework I think
+and I think as if as a framework I think
+and I think as if as a framework I think
 where we ended up
 where we ended up
 where we ended up
@@ -429,9 +429,9 @@ basically deal breakers for
 not doing like just capital eight
 not doing like just capital eight
 not doing like just capital eight
-so like the main concerns concern i had
-so like the main concerns concern i had
-so like the main concerns concern i had
+so like the main concerns concern I had
+so like the main concerns concern I had
+so like the main concerns concern I had
 in that in that thread was and actually
 in that in that thread was and actually
 in that in that thread was and actually
@@ -465,9 +465,9 @@ didn't actually anticipate that we had
 so much complexity
 so much complexity
 so much complexity
-like up front i thought the hard
-like up front i thought the hard
-like up front i thought the hard
+like up front I thought the hard
+like up front I thought the hard
+like up front I thought the hard
 stuff was going to be around
 stuff was going to be around
 stuff was going to be around
@@ -516,9 +516,9 @@ like the the things for example
 interleaving okay interleaving is better
 interleaving okay interleaving is better
 interleaving okay interleaving is better
-like i think nobody
-like i think nobody
-like i think nobody
+like I think nobody
+like I think nobody
+like I think nobody
 disagrees with that but can we not
 disagrees with that but can we not
 disagrees with that but can we not
@@ -546,9 +546,9 @@ how to get this amm solution out the
 door
 door
 door
-quicker i think there was like a
-quicker i think there was like a
-quicker i think there was like a
+quicker I think there was like a
+quicker I think there was like a
+quicker I think there was like a
 a potentially other thing that was the
 a potentially other thing that was the
 a potentially other thing that was the
@@ -594,9 +594,9 @@ i don't think is necessary like to
 to get a first version out both are
 to get a first version out both are
 to get a first version out both are
-interesting but i i think the
-interesting but i i think the
-interesting but i i think the
+interesting but I think the
+interesting but I think the
+interesting but I think the
 where we are right now is it looks like
 where we are right now is it looks like
 where we are right now is it looks like
@@ -690,27 +690,27 @@ like the markets become so
 inefficient that that things are just
 inefficient that that things are just
 inefficient that that things are just
-unusable like those i think we're
-unusable like those i think we're
-unusable like those i think we're
+unusable like those I think we're
+unusable like those I think we're
+unusable like those I think we're
 we're raised on the
 we're raised on the
 we're raised on the
 on the mailing list
 on the mailing list
 on the mailing list
-and i think at this point it's just like
-and i think at this point it's just like
-and i think at this point it's just like
+and I think at this point it's just like
+and I think at this point it's just like
+and I think at this point it's just like
 we don't we don't know
 we don't we don't know
 we don't we don't know
-yeah and i think yeah maybe yeah
-yeah and i think yeah maybe yeah
-yeah and i think yeah maybe yeah
-i i would say like i think i don't i
-i i would say like i think i don't i
-i i would say like i think i don't i
+yeah and I think yeah maybe yeah
+yeah and I think yeah maybe yeah
+yeah and I think yeah maybe yeah
+i I would say like I think I don't i
+i I would say like I think I don't i
+i I would say like I think I don't i
 haven't heard a disagreement for
 haven't heard a disagreement for
 haven't heard a disagreement for
@@ -792,9 +792,9 @@ liquidity offers and that they aren't
 really patterns aren't really well
 really patterns aren't really well
 really patterns aren't really well
-supported in the ecosystem i don't think
-supported in the ecosystem i don't think
-supported in the ecosystem i don't think
+supported in the ecosystem I don't think
+supported in the ecosystem I don't think
+supported in the ecosystem I don't think
 i mean definitely not like stellar acts
 i mean definitely not like stellar acts
 i mean definitely not like stellar acts
@@ -825,9 +825,9 @@ to warrant core going all the way to cap
 37
 37
 37
-and like i said on the mailing list i
-and like i said on the mailing list i
-and like i said on the mailing list i
+and like I said on the mailing list i
+and like I said on the mailing list i
+and like I said on the mailing list i
 think the arbitrage thing is
 think the arbitrage thing is
 think the arbitrage thing is
@@ -861,15 +861,15 @@ like later basically if it seems
 worth it so
 worth it so
 worth it so
-yeah but i don't know if anyone
-yeah but i don't know if anyone
-yeah but i don't know if anyone
+yeah but I don't know if anyone
+yeah but I don't know if anyone
+yeah but I don't know if anyone
 disagrees like like
 disagrees like like
 disagrees like like
 does anyone actually disagree here so
-i mean i i guess the question that i
-i mean i i guess the question that i
+i mean I guess the question that i
+i mean I guess the question that i
 have is so
 have is so
 have is so
@@ -879,9 +879,9 @@ i understand that a ui that that's
 something that can be solved later
 something that can be solved later
 something that can be solved later
-i i and i guess my question is about
-i i and i guess my question is about
-i i and i guess my question is about
+i I and I guess my question is about
+i I and I guess my question is about
+i I and I guess my question is about
 arbitrage
 arbitrage
 arbitrage
@@ -912,9 +912,9 @@ better to deal with that as a separate
 issue
 issue
 issue
-but i guess what the the the question
-but i guess what the the the question
-but i guess what the the the question
+but I guess what the the the question
+but I guess what the the the question
+but I guess what the the the question
 is
 is there a way to actually understand
 is there a way to actually understand
@@ -954,9 +954,9 @@ with cat38 and and basically why
 i can take that jet if you want oh
 i can take that jet if you want oh
 i can take that jet if you want oh
-like i i think there are like two type
-like i i think there are like two type
-like i i think there are like two type
+like I think there are like two type
+like I think there are like two type
+like I think there are like two type
 of problems right with that comes with
 of problems right with that comes with
 of problems right with that comes with
@@ -1065,9 +1065,9 @@ that were
 with a lot of failed transactions
 with a lot of failed transactions
 with a lot of failed transactions
-and i think that could be the type of
-and i think that could be the type of
-and i think that could be the type of
+and I think that could be the type of
+and I think that could be the type of
+and I think that could be the type of
 things that happens
 things that happens
 things that happens
@@ -1095,9 +1095,9 @@ network
 is is actually
 is is actually
 is is actually
-kind of not that bad i mean it's it
-kind of not that bad i mean it's it
-kind of not that bad i mean it's it
+kind of not that bad I mean it's it
+kind of not that bad I mean it's it
+kind of not that bad I mean it's it
 doesn't
 doesn't
 doesn't
@@ -1137,9 +1137,9 @@ this was not acceptable so we we we
 found ways to fix that
 found ways to fix that
 found ways to fix that
-but we had a good stress test i guess
-but we had a good stress test i guess
-but we had a good stress test i guess
+but we had a good stress test I guess
+but we had a good stress test I guess
+but we had a good stress test I guess
 so yeah like
 so yeah like
 so yeah like
@@ -1167,12 +1167,12 @@ dancering systems have all the straight
 transactions
 transactions
 transactions
-and and that i think we have to
-and and that i think we have to
-and and that i think we have to
-to be mindful of that i think that's
-to be mindful of that i think that's
-to be mindful of that i think that's
+and and that I think we have to
+and and that I think we have to
+and and that I think we have to
+to be mindful of that I think that's
+to be mindful of that I think that's
+to be mindful of that I think that's
 kind of the the thing for me that is
 kind of the the thing for me that is
 kind of the the thing for me that is
@@ -1182,9 +1182,9 @@ where this is potentially annoying
 but that's something that we can
 but that's something that we can
 but that's something that we can
-improve of our time i think it's like
-improve of our time i think it's like
-improve of our time i think it's like
+improve of our time I think it's like
+improve of our time I think it's like
+improve of our time I think it's like
 for example horizon right now
 for example horizon right now
 for example horizon right now
@@ -1203,9 +1203,9 @@ bit better
 and we have also similar ideas with
 and we have also similar ideas with
 and we have also similar ideas with
-in core i think we have to deal with
-in core i think we have to deal with
-in core i think we have to deal with
+in core I think we have to deal with
+in core I think we have to deal with
+in core I think we have to deal with
 that regardless because we have like
 that regardless because we have like
 that regardless because we have like
@@ -1215,9 +1215,9 @@ some
 historical data already with a bunch of
 historical data already with a bunch of
 historical data already with a bunch of
-failed transactions and i think when
-failed transactions and i think when
-failed transactions and i think when
+failed transactions and I think when
+failed transactions and I think when
+failed transactions and I think when
 people want to
 people want to
 people want to
@@ -1227,15 +1227,15 @@ rebuild historical data
 i mean like the meta for example based
 i mean like the meta for example based
 i mean like the meta for example based
-on those old ledgers i think we want to
-on those old ledgers i think we want to
-on those old ledgers i think we want to
+on those old ledgers I think we want to
+on those old ledgers I think we want to
+on those old ledgers I think we want to
 be
 be
 be
-to do that efficiently so i think we
-to do that efficiently so i think we
-to do that efficiently so i think we
+to do that efficiently so I think we
+to do that efficiently so I think we
+to do that efficiently so I think we
 will find ways to
 will find ways to
 will find ways to
@@ -1281,12 +1281,12 @@ horizon could potentially be like
 more load than you would we would want
 more load than you would we would want
 more load than you would we would want
-so i think we should deal with arbitrage
-so i think we should deal with arbitrage
-so i think we should deal with arbitrage
-i'm not convinced it'll like like i said
-i'm not convinced it'll like like i said
-i'm not convinced it'll like like i said
+so I think we should deal with arbitrage
+so I think we should deal with arbitrage
+so I think we should deal with arbitrage
+i'm not convinced it'll like like I said
+i'm not convinced it'll like like I said
+i'm not convinced it'll like like I said
 in the 90s i'm not convinced that going
 in the 90s i'm not convinced that going
 in the 90s i'm not convinced that going
@@ -1329,12 +1329,12 @@ our arbitrage regardless so we should be
 working on that kind of in parallel
 working on that kind of in parallel
 working on that kind of in parallel
-it's kind of my thoughts i mean just
-it's kind of my thoughts i mean just
-it's kind of my thoughts i mean just
-kind of for the record you know i know
-kind of for the record you know i know
-kind of for the record you know i know
+it's kind of my thoughts I mean just
+it's kind of my thoughts I mean just
+it's kind of my thoughts I mean just
+kind of for the record you know I know
+kind of for the record you know I know
+kind of for the record you know I know
 this isn't on the table so my
 this isn't on the table so my
 this isn't on the table so my
@@ -1350,9 +1350,9 @@ the the real priority is to not
 let the the perfect be the enemy of the
 let the the perfect be the enemy of the
 let the the perfect be the enemy of the
-good in this project so what i would you
-good in this project so what i would you
-good in this project so what i would you
+good in this project so what I would you
+good in this project so what I would you
+good in this project so what I would you
 know my ideal solution
 know my ideal solution
 know my ideal solution
@@ -1380,9 +1380,9 @@ cap 38 are a little bit too linked with
 the
 the
 the
-with the order bike i mean i've talked
-with the order bike i mean i've talked
-with the order bike i mean i've talked
+with the order bike I mean i've talked
+with the order bike I mean i've talked
+with the order bike I mean i've talked
 to some of you privately
 to some of you privately
 to some of you privately
@@ -1452,9 +1452,9 @@ the way you thought you were going to
 be able to offload it
 be able to offload it
 be able to offload it
-so well i think that you know sort of
-so well i think that you know sort of
-so well i think that you know sort of
+so well I think that you know sort of
+so well I think that you know sort of
+so well I think that you know sort of
 where where we're headed is
 where where we're headed is
 where where we're headed is
@@ -1566,9 +1566,9 @@ yeah that would be even that would be
 even one step further
 even one step further
 even one step further
-this would be a real i think a even
-this would be a real i think a even
-this would be a real i think a even
+this would be a real I think a even
+this would be a real I think a even
+this would be a real I think a even
 bigger
 bigger
 bigger
@@ -1584,9 +1584,9 @@ path payments aren't widely adopted
 in the ecosystem
 in the ecosystem
 in the ecosystem
-but i think the kind of bigger picture
-but i think the kind of bigger picture
-but i think the kind of bigger picture
+but I think the kind of bigger picture
+but I think the kind of bigger picture
+but I think the kind of bigger picture
 on doing anything like that is no matter
 on doing anything like that is no matter
 on doing anything like that is no matter
@@ -1674,18 +1674,18 @@ later
 yeah and just in case it wasn't clear
 yeah and just in case it wasn't clear
 yeah and just in case it wasn't clear
-like i did end up being sort of
-like i did end up being sort of
-like i did end up being sort of
+like I did end up being sort of
+like I did end up being sort of
+like I did end up being sort of
 persuaded
 persuaded
 persuaded
 by this argument
 by this argument
 by this argument
-so and again like i think that the
-so and again like i think that the
-so and again like i think that the
+so and again like I think that the
+so and again like I think that the
+so and again like I think that the
 fact that cap 37 is the potential
 fact that cap 37 is the potential
 fact that cap 37 is the potential
@@ -1743,9 +1743,9 @@ and do it in like a sort of first step
 way
 way
 way
-that can lead to other things and i mean
-that can lead to other things and i mean
-that can lead to other things and i mean
+that can lead to other things and I mean
+that can lead to other things and I mean
+that can lead to other things and I mean
 it feels like that's what everyone's
 it feels like that's what everyone's
 it feels like that's what everyone's
@@ -1774,8 +1774,8 @@ generally
 generally
 generally
 make sense
-because i guess then i i just wonder if
-because i guess then i i just wonder if
+because I guess then I just wonder if
+because I guess then I just wonder if
 we are at the point where it is time to
 we are at the point where it is time to
 we are at the point where it is time to
@@ -1842,12 +1842,12 @@ start to work on an implementation with
 an eye towards including it in the next
 an eye towards including it in the next
 an eye towards including it in the next
-protocol release i mean
-protocol release i mean
-protocol release i mean
-i guess i i feel like we're at the time
-i guess i i feel like we're at the time
-i guess i i feel like we're at the time
+protocol release I mean
+protocol release I mean
+protocol release I mean
+i guess I feel like we're at the time
+i guess I feel like we're at the time
+i guess I feel like we're at the time
 when it may be time to
 when it may be time to
 when it may be time to
@@ -1861,8 +1861,8 @@ does anyone object the idea of doing
 does anyone object the idea of doing
 does anyone object the idea of doing
 that is there any blocker
-one question i had about cap 38 as if
-one question i had about cap 38 as if
+one question I had about cap 38 as if
+one question I had about cap 38 as if
 things do turn out to be bad
 things do turn out to be bad
 things do turn out to be bad
@@ -1875,9 +1875,9 @@ this is time to pull the plug or pause
 the amm
 the amm
 the amm
-or something like that i know we have a
-or something like that i know we have a
-or something like that i know we have a
+or something like that I know we have a
+or something like that I know we have a
+or something like that I know we have a
 mechanism in the cat to
 mechanism in the cat to
 mechanism in the cat to
@@ -1941,9 +1941,9 @@ do we normally think about that now or
 do we want to think about it
 do we want to think about it
 do we want to think about it
-then i think we have the tools for that
-then i think we have the tools for that
-then i think we have the tools for that
+then I think we have the tools for that
+then I think we have the tools for that
+then I think we have the tools for that
 i think like the
 i think like the
 i think like the
@@ -1968,9 +1968,9 @@ to vote
 for the change right
 for the change right
 for the change right
-so yeah i think it was
-so yeah i think it was
-so yeah i think it was
+so yeah I think it was
+so yeah I think it was
+so yeah I think it was
 it would have to be you know more only
 it would have to be you know more only
 it would have to be you know more only
@@ -2085,9 +2085,9 @@ going to lose money
 you know if we were in that kind of a
 you know if we were in that kind of a
 you know if we were in that kind of a
-situation i think that it would not be
-situation i think that it would not be
-situation i think that it would not be
+situation I think that it would not be
+situation I think that it would not be
+situation I think that it would not be
 hard to convince
 hard to convince
 hard to convince
@@ -2098,8 +2098,8 @@ let that happen
 let that happen
 let that happen
 i think short of that
-person i have a hard time imagining that
-person i have a hard time imagining that
+person I have a hard time imagining that
+person I have a hard time imagining that
 people would vote you know
 people would vote you know
 people would vote you know
@@ -2202,9 +2202,9 @@ expectations that
 we're always happy of the outcome no
 we're always happy of the outcome no
 we're always happy of the outcome no
-but i think eric's concern is
-but i think eric's concern is
-but i think eric's concern is
+but I think eric's concern is
+but I think eric's concern is
+but I think eric's concern is
 is actually the same than you know
 is actually the same than you know
 is actually the same than you know
@@ -2226,9 +2226,9 @@ like more than they should it's annoying
 i think it's yeah it's a nuisance and in
 i think it's yeah it's a nuisance and in
 i think it's yeah it's a nuisance and in
-that case i think we'd have to
-that case i think we'd have to
-that case i think we'd have to
+that case I think we'd have to
+that case I think we'd have to
+that case I think we'd have to
 probably like figure out
 probably like figure out
 probably like figure out
@@ -2238,9 +2238,9 @@ you know in a more accelerated way like
 mitigations for
 mitigations for
 mitigations for
-arbitrage yeah i think that's kind of
-arbitrage yeah i think that's kind of
-arbitrage yeah i think that's kind of
+arbitrage yeah I think that's kind of
+arbitrage yeah I think that's kind of
+arbitrage yeah I think that's kind of
 yeah exactly
 yeah exactly
 yeah exactly
@@ -2265,15 +2265,15 @@ issues and so from my perspective the
 risk is
 risk is
 risk is
-the second one and i want to get ahead
-the second one and i want to get ahead
-the second one and i want to get ahead
-of that so i think my takeaway from this
-of that so i think my takeaway from this
-of that so i think my takeaway from this
-is i should
-is i should
-is i should
+the second one and I want to get ahead
+the second one and I want to get ahead
+the second one and I want to get ahead
+of that so I think my takeaway from this
+of that so I think my takeaway from this
+of that so I think my takeaway from this
+is I should
+is I should
+is I should
 accelerate plans to deal with that
 accelerate plans to deal with that
 accelerate plans to deal with that
@@ -2305,8 +2305,8 @@ is over 100 transactions per second
 is over 100 transactions per second
 is over 100 transactions per second
 so you know it's already substantial
-yeah i mean as the baseline of
-yeah i mean as the baseline of
+yeah I mean as the baseline of
+yeah I mean as the baseline of
 successful transactions goes up
 successful transactions goes up
 successful transactions goes up
@@ -2409,9 +2409,9 @@ i think this is one of those like
 dynamic analysis type of things it's
 dynamic analysis type of things it's
 dynamic analysis type of things it's
-it's very very hard to predict i mean
-it's very very hard to predict i mean
-it's very very hard to predict i mean
+it's very very hard to predict I mean
+it's very very hard to predict I mean
+it's very very hard to predict I mean
 we're all considering this kind of like
 we're all considering this kind of like
 we're all considering this kind of like
@@ -2439,9 +2439,9 @@ one of the things that we're like
 perhaps this does increase the amount of
 perhaps this does increase the amount of
 perhaps this does increase the amount of
-arbitrage i suspect it will at least a
-arbitrage i suspect it will at least a
-arbitrage i suspect it will at least a
+arbitrage I suspect it will at least a
+arbitrage I suspect it will at least a
+arbitrage I suspect it will at least a
 bit
 bit
 bit
@@ -2497,17 +2497,17 @@ like a totally plausible
 like a totally plausible
 like a totally plausible
 outcome
-great i mean it feels like eric did that
-great i mean it feels like eric did that
+great I mean it feels like eric did that
+great I mean it feels like eric did that
 sort of address your concerns do you
 sort of address your concerns do you
 sort of address your concerns do you
 have more questions
 have more questions
 have more questions
-the address is my concern i have one
-the address is my concern i have one
-the address is my concern i have one
+the address is my concern I have one
+the address is my concern I have one
+the address is my concern I have one
 other question
 other question
 other question
@@ -2532,9 +2532,9 @@ deposit pull shares and retrieve pool
 shares and everything else
 shares and everything else
 shares and everything else
-have we thought about that i mean it
-have we thought about that i mean it
-have we thought about that i mean it
+have we thought about that I mean it
+have we thought about that I mean it
+have we thought about that I mean it
 works for unison
 i mean we've got a lot of room to run
 i mean we've got a lot of room to run
@@ -2574,15 +2574,15 @@ this idea would have gained traction and
 everyone would love it
 everyone would love it
 everyone would love it
-i mean i mean if amms are super popular
-i mean i mean if amms are super popular
-i mean i mean if amms are super popular
+i mean I mean if amms are super popular
+i mean I mean if amms are super popular
+i mean I mean if amms are super popular
 i mean they require way less
 i mean they require way less
 i mean they require way less
-transactions i think most of the
-transactions i think most of the
-transactions i think most of the
+transactions I think most of the
+transactions I think most of the
+transactions I think most of the
 transactions on the network now are
 transactions on the network now are
 transactions on the network now are
@@ -2610,9 +2610,9 @@ kind of just want to do it now live on
 this call but
 this call but
 this call but
-before i do that i'll just get like real
-before i do that i'll just get like real
-before i do that i'll just get like real
+before I do that i'll just get like real
+before I do that i'll just get like real
+before I do that i'll just get like real
 procedural and say does anyone like
 procedural and say does anyone like
 procedural and say does anyone like
@@ -2628,9 +2628,9 @@ in which case we can conduct the vote
 asynchronously over email
 asynchronously over email
 asynchronously over email
-yeah cool okay so then i think we should
-yeah cool okay so then i think we should
-yeah cool okay so then i think we should
+yeah cool okay so then I think we should
+yeah cool okay so then I think we should
+yeah cool okay so then I think we should
 have a vote here to move
 have a vote here to move
 have a vote here to move
@@ -2697,9 +2697,9 @@ it requires unanimous consent from all
 of them to move the cap into accepted
 of them to move the cap into accepted
 of them to move the cap into accepted
-and so i will it is jed
-and so i will it is jed
-and so i will it is jed
+and so I will it is jed
+and so I will it is jed
+and so I will it is jed
 david and nicolas so let's start with
 david and nicolas so let's start with
 david and nicolas so let's start with
@@ -2758,17 +2758,17 @@ like should cap37 now be adjusted to
 like should cap37 now be adjusted to
 like should cap37 now be adjusted to
 be layered on top of cap 38
-yeah yeah i think that makes sense i
-yeah yeah i think that makes sense i
-mean i i think
-mean i i think
-mean i i think
+yeah yeah I think that makes sense i
+yeah yeah I think that makes sense i
+mean I think
+mean I think
+mean I think
 i'm not saying that we would implement
 i'm not saying that we would implement
 i'm not saying that we would implement
-this stuff immediately i think part of
-this stuff immediately i think part of
-this stuff immediately i think part of
+this stuff immediately I think part of
+this stuff immediately I think part of
+this stuff immediately I think part of
 it is that we want to see what the
 it is that we want to see what the
 it is that we want to see what the
@@ -2817,9 +2817,9 @@ sort of graft it on to cap 38 in the
 future
 future
 future
-yeah i think there are some changes to
-yeah i think there are some changes to
-yeah i think there are some changes to
+yeah I think there are some changes to
+yeah I think there are some changes to
+yeah I think there are some changes to
 cap 37 that would be worth making
 cap 37 that would be worth making
 cap 37 that would be worth making
@@ -2886,9 +2886,9 @@ associated which is kind of annoying
 again that easy fix but just like
 again that easy fix but just like
 again that easy fix but just like
-basically i would encourage cap 37
-basically i would encourage cap 37
-basically i would encourage cap 37
+basically I would encourage cap 37
+basically I would encourage cap 37
+basically I would encourage cap 37
 the you know revision to continue and
 the you know revision to continue and
 the you know revision to continue and

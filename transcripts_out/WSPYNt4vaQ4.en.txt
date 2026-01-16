@@ -1,5 +1,5 @@
 hey everybody welcome to the q a session
-for jump cannon and i think
+for jump cannon and I think
 yeah jeff neal already asked three
 questions
 if we want to jump into those his
@@ -54,13 +54,13 @@ initial projects
 in the pipeline for the end of year
 when you when you do the release
 so can you repeat the beginning of the
-question i missed that
+question I missed that
 so let me let me try again do you
 have any projects in the pipeline
 for the initial release
 we're talking with several companies
 that are interested in building on
-stellar i can't disclose names right
+stellar I can't disclose names right
 now because nothing is is finalized
 but you know like the
 
@@ -81,19 +81,19 @@ a dow building platform
 so
 cool yeah
 great answer yeah
-yeah i think i'm still i'm stealing this
+yeah I think i'm still i'm stealing this
 from jason our ceo oh he has he's also
 expressed an interest in the past and
-having like a dow dow i mean it's got a
+having like a dow dow I mean it's got a
 ring to it
 john jove
 what what's going on with the token
 contract it's in progress
-it exists although i i actually don't
+it exists although I actually don't
 think i've posted anything publicly
-really about it i mean lee and i were
+really about it I mean lee and I were
 just talking about it a second ago but
-maybe i should actually post a link
+maybe I should actually post a link
 to the repo it lives in
 but
 tell us a bit about the token contract
@@ -106,14 +106,14 @@ that like everything is done in the
 style of eip 2612 permits so there's
 lots of signatures being passed around
 that makes it really flexible
-what i what is built so now what is
+what I what is built so now what is
 built so far isn't actually like
 compliant with the spec that we
 published for it
 but i'm going to work on getting it
 closer to spec in the next couple of
 days
-so probably by like i don't know i don't
+so probably by like I don't know I don't
 want to say the end of this week but the
 end of next week it'll probably be
 pretty close and pretty reasonable it
@@ -141,7 +141,7 @@ classic erc20 approved flow
 so you know basically at the beginning
 of the whole erc experience or the erc20
 experience what you would do is you're
-like okay i have this contract i want to
+like okay I have this contract I want to
 interact with it i'm going to approve it
 to transfer balance from my account and
 so you submit a transaction
@@ -201,9 +201,9 @@ like you know me passing around a
 signature and letting somebody else act
 on it makes these kind of gases
 concepts much much easier very cool
-that's exactly what i was about to say
+that's exactly what I was about to say
 we have another question from the
-audience sorry if i mispronounced
+audience sorry if I mispronounced
 your name but jason godev asked given
 that stellar has some built-in
 operations that serve off-chain scripts
@@ -217,12 +217,12 @@ protocol is consist consists of around
 which doesn't really allow you
 to
 to like you know express a lot of
-things so say for example that i wanna
+things so say for example that I wanna
 introduce an amm that is that's
 built on a curve that's not supported by
 the native amms on stellar like table
 swap
-or let's say that i want to have like
+or let's say that I want to have like
 a you know like a trust minimized
 lending protocol
 or kind of like a non-trivial size
@@ -241,13 +241,13 @@ status of the sdk
 what should we be expecting for this
 like july iteration
 and what are you
-lee most excited about yeah i mean we're
+lee most excited about yeah I mean we're
 still we're still working on the sdk
 john has proven that you can build
 something with it which is fantastic
 at this point
 the api is still relatively unstable
-so i mean as as we talked just before
+so I mean as as we talked just before
 
 just before
 this event i'm
@@ -268,7 +268,7 @@ have a lot of the building blocks
 the primitives there
 in a
 somewhat stable state even though the
-sdk is in flash blocks i do want to
+sdk is in flash blocks I do want to
 emphasize that it is quite sleek like
 the stuff that works when it it's pretty
 cool it's very kind of easy to use so
@@ -315,11 +315,11 @@ can go and see what it does by following
 that through in my particular case
 right now like tomer's advice was good
 all of those functions are in lib.rs
-but i actually have a like a refactor
+but I actually have a like a refactor
 that changes that and puts them all off
 into a separate file so that would still
 allow you to find the right stuff
-and i think the other thing to look out
+and I think the other thing to look out
 for too is you'll also see types that
 are
 that have an attribute like contract
@@ -334,9 +334,9 @@ looking for that contrapti tag you
 know types that are going to be
 interesting for you to look at
 lee can you talk a bit about testing
-in our contracts i know that testing is
+in our contracts I know that testing is
 like a big issue in the world of you
-know solidity smart contracts i know
+know solidity smart contracts I know
 there are a lot of frameworks to
 facilitate that
 what's what's my strategy as a person
@@ -404,7 +404,7 @@ the values of variables
 and different things like that
 step three debug a smart contract that's
 pretty pretty wild
-okay i see we have a bunch of people
+okay I see we have a bunch of people
 joined we are talking about jump cannon
 
 type of stuff that we're gonna see
@@ -412,7 +412,7 @@ coming in the next few weeks
 and we're happy to take questions
 and we have a question in the text chat
 from matthias he says with smart
-contract support i wonder if you see a
+contract support I wonder if you see a
 possibility to build an infrastructure
 like layer two of apps tap chain
 side chains using stellar as their layer
@@ -465,10 +465,10 @@ think about this but like
 someone wants to get involved what's the
 best way for them to to start getting
 involved so
-right now i would say that things are
+right now I would say that things are
 kind of like all over the place in terms
 of you know you can start reading
-caps i would like i said before i
+caps I would like I said before i
 think the the best entry point right now
 is through
 john's contract because it's the most
@@ -494,7 +494,7 @@ start developing for this you don't even
 need to have
 to be talking to a stellar network all
 you need is like this local sandbox
-that's in the sdk i also have another
+that's in the sdk I also have another
 question from matthias in terms of
 infrastructure what would be your top
 number one priority for smart contracts
@@ -505,7 +505,7 @@ time frame q3 slash q4 2022 so
 infrastructure
 number one priority
 allow people to build smart contracts
-yeah i would say that the the composable
+yeah I would say that the the composable
 like defy
 lego blocks so things like
 amm specifically the type of amms
@@ -515,11 +515,11 @@ swap things like uni swap v3
 definitely
 interesting interested in seeing
 things like compound
-and i would love to see some
+and I would love to see some
 infrastructure for to start building
 downs
 no one on this call has this question
-but definitely when i start to talk to
+but definitely when I start to talk to
 people about
 about this process the first question
 that people have is like oh is this evm
@@ -591,17 +591,17 @@ build on evm compatible using jump
 cannon smart contracts like
 aurora.dev or near something to think
 about to bring to some
-ethereum projects i guess not really
+ethereum projects I guess not really
 a question so much as a statement
 did end with a question mark though yeah
 in my defense
-and i posted the the wazon blog and
+and I posted the the wazon blog and
 the live chat channel
 awesome
-yeah i think aurora is a really is a
+yeah I think aurora is a really is a
 really interesting
 is a really interesting example of
-you know i think both near and and
+you know I think both near and and
 avalanche
 you know recognize that evm is not
 really what they want to build on but at
@@ -635,23 +635,23 @@ and the parallelism that you get from
 near you you don't get in aurora right
 and if you look at the actual tps
 numbers then they are like extremely low
-so i think there's like you know there
+so I think there's like you know there
 are pros and cons to every approach
 all right and moots has joined the
 chat you have a question
-yeah i was just hoping to ask about
-an update towards 55 i believe was
+yeah I was just hoping to ask about
+an update towards 55 I believe was
 the number
 i think the last
 stellar dev chat we had was
 on some of the fee mechanics
 specifically the
 underlying state exploration
-and i know that was a few weeks ago and
-with july 4th and all i wasn't paying a
-ton a ton of close attention so i was
+and I know that was a few weeks ago and
+with july 4th and all I wasn't paying a
+ton a ton of close attention so I was
 wondering if there was any updates you
-could provide and i know it might not be
+could provide and I know it might not be
 fair since niko's not here
 but just kind of regarding that
 no that's great niko's not here so we
@@ -662,7 +662,7 @@ we haven't
 there are some internal efforts to
 to come up with
 like opposing caps
-so i i think that cap 55 in its
+so I think that cap 55 in its
 current form
 you know we all acknowledge that it's
 a it's a huge
@@ -697,7 +697,7 @@ both contract developers and for
 users to make sure that you know
 important state just doesn't like
 disappear into the abyss
-on that topic i highly recommend the
+on that topic I highly recommend the
 talk given by the geth lead developer
 last month in prague
 around this
@@ -729,7 +729,7 @@ background
 or will developers need to create their
 own wrapped versions that users will
 need to trade between
-this one's for me i can tell
+this one's for me I can tell
 
 so
 this is a good question
@@ -770,33 +770,33 @@ smart contract assuming that the native
 contract we're providing is widely
 adopted i'm saying
 same question regarding nfts
-sorry i think i just cut you off john
-but i think you were just going to read
+sorry I think I just cut you off john
+but I think you were just going to read
 that question out right
-yeah i was going to do that i was also
+yeah I was going to do that I was also
 going to ask if jason was the ceo and
-then i asked that question
+then I asked that question
 with regard to the
 to the nfts
 tomer has asked me the same question
 about like what we should be doing for
 like nft interoperability against like
 classic nfts
-and i basically told tomer like i
+and I basically told tomer like i
 haven't thought about and i'll think
 about it in august
-so i don't know the answers to that
+so I don't know the answers to that
 question yet
 
 tomer might have some insights on that
 regard in terms of what he thinks should
 happen so i'll turn it over to tomorrow
 here
-yeah i think that's a that's a very
+yeah I think that's a that's a very
 good question that we need to to figure
 out
 i don't think fred is in the audience
-right now but i would love to get fred's
+right now but I would love to get fred's
 take on it whether we need to have
 this like
 opinionated like default nft contract
@@ -815,7 +815,7 @@ it just be
 like this regular token with you know
 with like zero decimal places
 
-those are open questions and i think we
+those are open questions and I think we
 need to kind of like survey
 nft contracts in the ecosystem to better
 understand that
@@ -830,7 +830,7 @@ education in preparation for jump
 cannons launch
 smooth onboarding for devs
 no not yet but that's definitely
-planned you know like i said right
+planned you know like I said right
 now the you know the docs and the
 materials are just like not in a place
 where
@@ -842,7 +842,7 @@ the recording so seashells has
 wished us all a happy thursday
 we have pantheon wants to speak
 here you go
-i just i don't know if you can answer
+i just I don't know if you can answer
 this quickly or not it's more of a
 security question as to do you see
 any security flaws with this platform or
@@ -891,12 +891,12 @@ program that will include
 grants for auditing
 but at the end of the day
 there
-how should i put it
+how should I put it
 you know like
 shitty code will exist and it will be
 unsafe
 you can never stop it but
-yeah i just want to know the
+yeah I just want to know the
 likelihood and like
 sort of the the system that's being
 created the the possibility of of
@@ -950,7 +950,7 @@ palatable so maybe we'll see issuers
 move to
 minting on the smart side but i'm not
 sure
-so i think we're we passed the 35
+so I think we're we passed the 35
 minute mark and if there are no other
 questions maybe we can call it a
 day

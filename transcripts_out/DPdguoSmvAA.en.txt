@@ -667,7 +667,7 @@ positive effect of contracts being more
 generic without like specifically
 according to the classic accounts
 
-yeah I I would add to that that like my
+yeah I would add to that that like my
 mental model of this is similar to what
 we're doing with a stellar asset
 contract
@@ -840,7 +840,7 @@ maybe just yet but
 the point is like maybe we can make
 things a little bit immature and they
 are described now but yeah I I'd say
-creep white is like I I wouldn't look at
+creep white is like I wouldn't look at
 prepare the downside it's actually quite
 an upside because also Alternatives
 we've looked at well discussing like
@@ -980,7 +980,7 @@ besides maybe I don't know user signing
 that they approve spending as much as
 contract wants but again we don't remove
 this possibility either so basically
-yeah I I think like the contract should
+yeah I think like the contract should
 be reading just in a certain way to kind
 of allow for specifying an upper
 bound not an exact amount that needs to

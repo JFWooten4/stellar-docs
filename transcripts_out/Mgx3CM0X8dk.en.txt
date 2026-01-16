@@ -672,9 +672,9 @@ you know complicate the interface a
 little bit more
 little bit more
 little bit more
-yeah I I still didn't quite understand
-yeah I I still didn't quite understand
-yeah I I still didn't quite understand
+yeah I still didn't quite understand
+yeah I still didn't quite understand
+yeah I still didn't quite understand
 this example maybe that's because I
 this example maybe that's because I
 this example maybe that's because I
@@ -1471,8 +1471,8 @@ has like a much narrow impact on on what
 has like a much narrow impact on on what
 has like a much narrow impact on on what
 the result is
-I'm arguing for it if I I suspect maybe
-I'm arguing for it if I I suspect maybe
+I'm arguing for it if I suspect maybe
+I'm arguing for it if I suspect maybe
 I'm misunderstanding something with your
 I'm misunderstanding something with your
 I'm misunderstanding something with your
@@ -3396,9 +3396,9 @@ little bit more and figure out a simpler
 maybe easier solution
 do we actually need that to be in the
 do we actually need that to be in the
-protocol I I think if we like I thought
-protocol I I think if we like I thought
-protocol I I think if we like I thought
+protocol I think if we like I thought
+protocol I think if we like I thought
+protocol I think if we like I thought
 last time we discussed having like a
 last time we discussed having like a
 last time we discussed having like a
@@ -3969,9 +3969,9 @@ yeah
 yeah like the thing that Britain yeah
 yeah like the thing that Britain yeah
 yeah like the thing that Britain yeah
-you brought up I I think it's something
-you brought up I I think it's something
-you brought up I I think it's something
+you brought up I think it's something
+you brought up I think it's something
+you brought up I think it's something
 that I
 that I
 that I
@@ -4029,9 +4029,9 @@ effect coverage in the absorband in the
 actual code base for how we produce
 actual code base for how we produce
 actual code base for how we produce
-those events that I I don't feel very
-those events that I I don't feel very
-those events that I I don't feel very
+those events that I don't feel very
+those events that I don't feel very
+those events that I don't feel very
 good actually
 good actually
 good actually

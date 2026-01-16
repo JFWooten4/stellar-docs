@@ -2277,9 +2277,9 @@ some things might be vulnerable and
 these are wouldn't know about that but
 these are wouldn't know about that but
 these are wouldn't know about that but
-I'm yeah I I don't have a good
-I'm yeah I I don't have a good
-I'm yeah I I don't have a good
+I'm yeah I don't have a good
+I'm yeah I don't have a good
+I'm yeah I don't have a good
 understanding of how prevalent would
 understanding of how prevalent would
 understanding of how prevalent would
@@ -2401,8 +2401,8 @@ that's calling them
 that's calling them
 that's calling them
 
-yeah I saw I I understand that the
-yeah I saw I I understand that the
+yeah I saw I understand that the
+yeah I saw I understand that the
 proposal basically says okay there's the
 proposal basically says okay there's the
 proposal basically says okay there's the
@@ -2871,9 +2871,9 @@ I think that was done intentionally but
 I don't recall the reason
 I don't recall the reason
 I don't recall the reason
-I no I I don't think there is reasons
-I no I I don't think there is reasons
-I no I I don't think there is reasons
+I no I don't think there is reasons
+I no I don't think there is reasons
+I no I don't think there is reasons
 okay
 yeah I mean
 yeah I mean
@@ -3498,9 +3498,9 @@ and replace the transaction
 doesn't make sense
 doesn't make sense
 doesn't make sense
-yeah I I mean the transaction replay
-yeah I I mean the transaction replay
-yeah I I mean the transaction replay
+yeah I mean the transaction replay
+yeah I mean the transaction replay
+yeah I mean the transaction replay
 but basically again frontrun is kind of
 but basically again frontrun is kind of
 but basically again frontrun is kind of

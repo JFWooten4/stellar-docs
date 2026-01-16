@@ -1266,9 +1266,9 @@ you would need at least three and
 through thresholds you can add any
 through thresholds you can add any
 through thresholds you can add any
-number of i guess up to 20 thresholds to
-number of i guess up to 20 thresholds to
-number of i guess up to 20 thresholds to
+number of I guess up to 20 thresholds to
+number of I guess up to 20 thresholds to
+number of I guess up to 20 thresholds to
 agree very complex secure logic to
 agree very complex secure logic to
 agree very complex secure logic to

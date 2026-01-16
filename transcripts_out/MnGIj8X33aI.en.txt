@@ -3256,9 +3256,9 @@ kyc the beneficiary because that in that
 case the beneficiary would be a merchant
 case the beneficiary would be a merchant
 case the beneficiary would be a merchant
-but i don't think i think that's out of
-but i don't think i think that's out of
-but i don't think i think that's out of
+but I don't think I think that's out of
+but I don't think I think that's out of
+but I don't think I think that's out of
 scope for this specification when you're
 scope for this specification when you're
 scope for this specification when you're

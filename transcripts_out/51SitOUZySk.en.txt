@@ -1611,9 +1611,9 @@ with some inputs and then generate
 the proofs and all that so here is just
 the proofs and all that so here is just
 the proofs and all that so here is just
-defining the the input I I did did here
-defining the the input I I did did here
-defining the the input I I did did here
+defining the the input I did did here
+defining the the input I did did here
+defining the the input I did did here
 which is exactly what it's using so it
 which is exactly what it's using so it
 which is exactly what it's using so it
@@ -1674,9 +1674,9 @@ input basically
 like I think the witness is it private
 like I think the witness is it private
 like I think the witness is it private
-or just probably I I don't I forgot the
-or just probably I I don't I forgot the
-or just probably I I don't I forgot the
+or just probably I don't I forgot the
+or just probably I don't I forgot the
+or just probably I don't I forgot the
 exact terminology but it's possible that
 exact terminology but it's possible that
 exact terminology but it's possible that
@@ -2079,9 +2079,9 @@ outputs it's a it will be a different
 one than what we gener earlier because
 one than what we gener earlier because
 one than what we gener earlier because
-there an entropy I I because of the
-there an entropy I I because of the
-there an entropy I I because of the
+there an entropy I because of the
+there an entropy I because of the
+there an entropy I because of the
 random randomness but but I did this
 random randomness but but I did this
 random randomness but but I did this

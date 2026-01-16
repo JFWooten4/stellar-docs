@@ -1377,9 +1377,9 @@ that but John you think you can add this
 language before final comment period
 language before final comment period
 language before final comment period
-yeah I I mean like we make modifications
-yeah I I mean like we make modifications
-yeah I I mean like we make modifications
+yeah I mean like we make modifications
+yeah I mean like we make modifications
+yeah I mean like we make modifications
 to these during implementation also and
 to these during implementation also and
 to these during implementation also and
@@ -1824,9 +1824,9 @@ right
 consensus is still running like he can't
 consensus is still running like he can't
 consensus is still running like he can't
-change the transaction set I mean I I do
-change the transaction set I mean I I do
-change the transaction set I mean I I do
+change the transaction set I mean I do
+change the transaction set I mean I do
+change the transaction set I mean I do
 see other ways of doing this and I
 see other ways of doing this and I
 see other ways of doing this and I
@@ -2232,9 +2232,9 @@ you can't you can't do the bump sequence
 trick without that and you can because
 trick without that and you can because
 trick without that and you can because
-of the way I I mean at least though I'm
-of the way I I mean at least though I'm
-of the way I I mean at least though I'm
+of the way I mean at least though I'm
+of the way I mean at least though I'm
+of the way I mean at least though I'm
 not saying this is the right answer but
 not saying this is the right answer but
 not saying this is the right answer but
@@ -2385,9 +2385,9 @@ that it would be it'd be good to think
 about it a little more just from the
 about it a little more just from the
 about it a little more just from the
-perspective that like I I want to try to
-perspective that like I I want to try to
-perspective that like I I want to try to
+perspective that like I want to try to
+perspective that like I want to try to
+perspective that like I want to try to
 understand that that da scenario well
 understand that that da scenario well
 understand that that da scenario well
@@ -3366,9 +3366,9 @@ we have clear definitions of what those
 things means right yeah yeah I think
 things means right yeah yeah I think
 things means right yeah yeah I think
-just to chime in again I I think like
-just to chime in again I I think like
-just to chime in again I I think like
+just to chime in again I think like
+just to chime in again I think like
+just to chime in again I think like
 what we're describing maybe is a little
 what we're describing maybe is a little
 what we're describing maybe is a little

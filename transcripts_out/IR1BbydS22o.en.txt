@@ -1,8 +1,8 @@
 hello hello hello everyone
 hello hello hello everyone
-my name is tyler van der hoeven and i am
-my name is tyler van der hoeven and i am
-my name is tyler van der hoeven and i am
+my name is tyler van der hoeven and I am
+my name is tyler van der hoeven and I am
+my name is tyler van der hoeven and I am
 very excited
 very excited
 very excited
@@ -90,9 +90,9 @@ that i've wanted to build
 kind of filling in the gap between
 kind of filling in the gap between
 kind of filling in the gap between
-what i would call
-what i would call
-what i would call
+what I would call
+what I would call
+what I would call
 normie devs you know just developers
 normie devs you know just developers
 normie devs you know just developers
@@ -117,15 +117,15 @@ wanting to introduce them to
 cryptocurrency but having a bit of a gap
 cryptocurrency but having a bit of a gap
 cryptocurrency but having a bit of a gap
-like where where do i get them started
-like where where do i get them started
-like where where do i get them started
-where do i sort of plant them i can't
-where do i sort of plant them i can't
-where do i sort of plant them i can't
-just send them documentation i want to
-just send them documentation i want to
-just send them documentation i want to
+like where where do I get them started
+like where where do I get them started
+like where where do I get them started
+where do I sort of plant them I can't
+where do I sort of plant them I can't
+where do I sort of plant them I can't
+just send them documentation I want to
+just send them documentation I want to
+just send them documentation I want to
 give them a nice landing pad
 give them a nice landing pad
 give them a nice landing pad
@@ -210,9 +210,9 @@ challenge it's a gamified
 application that i've built so
 application that i've built so
 application that i've built so
-right after scf i started working on
-right after scf i started working on
-right after scf i started working on
+right after scf I started working on
+right after scf I started working on
+right after scf I started working on
 stellar quest so this has been a
 stellar quest so this has been a
 stellar quest so this has been a
@@ -240,9 +240,9 @@ it's all built on cloudflare worker
 technology i'm kind of a
 technology i'm kind of a
 technology i'm kind of a
-aws lambda i love serverless technology
-aws lambda i love serverless technology
-aws lambda i love serverless technology
+aws lambda I love serverless technology
+aws lambda I love serverless technology
+aws lambda I love serverless technology
 but really wanted to try
 but really wanted to try
 but really wanted to try
@@ -270,27 +270,27 @@ hosted on versal so for those of you who
 are interested
 are interested
 are interested
-in that sort of thing i think it's
-in that sort of thing i think it's
-in that sort of thing i think it's
-fascinating i really enjoyed working
-fascinating i really enjoyed working
-fascinating i really enjoyed working
+in that sort of thing I think it's
+in that sort of thing I think it's
+in that sort of thing I think it's
+fascinating I really enjoyed working
+fascinating I really enjoyed working
+fascinating I really enjoyed working
 with those
 with those
 with those
-tech i love stencil js and cloudflare
-tech i love stencil js and cloudflare
-tech i love stencil js and cloudflare
+tech I love stencil js and cloudflare
+tech I love stencil js and cloudflare
+tech I love stencil js and cloudflare
 workers was a real joy to work with
 workers was a real joy to work with
 workers was a real joy to work with
 definitely looking forward to using that
 definitely looking forward to using that
 definitely looking forward to using that
-moving forward i don't have a fancy
-moving forward i don't have a fancy
-moving forward i don't have a fancy
+moving forward I don't have a fancy
+moving forward I don't have a fancy
+moving forward I don't have a fancy
 slide deck
 slide deck
 slide deck
@@ -315,9 +315,9 @@ on twitter and again i'm the ecosystem
 evangelist at the
 evangelist at the
 evangelist at the
-stellar development foundation i don't
-stellar development foundation i don't
-stellar development foundation i don't
+stellar development foundation I don't
+stellar development foundation I don't
+stellar development foundation I don't
 have a big slide deck
 have a big slide deck
 have a big slide deck
@@ -411,9 +411,9 @@ won't affect us too much unless of
 course it's cloudflare that's
 course it's cloudflare that's
 course it's cloudflare that's
-having the outage but i think it's just
-having the outage but i think it's just
-having the outage but i think it's just
+having the outage but I think it's just
+having the outage but I think it's just
+having the outage but I think it's just
 run kit so
 run kit so
 run kit so
@@ -606,9 +606,9 @@ be sure and send them the link which
 will be quest.stellar.org
 will be quest.stellar.org
 will be quest.stellar.org
-quest.stuller.org i'm not sure i include
-quest.stuller.org i'm not sure i include
-quest.stuller.org i'm not sure i include
+quest.stuller.org i'm not sure I include
+quest.stuller.org i'm not sure I include
+quest.stuller.org i'm not sure I include
 that in any slides so
 that in any slides so
 that in any slides so
@@ -849,9 +849,9 @@ dev groups or just continue to launch
 these from
 these from
 these from
-the foundation i would love to see
-the foundation i would love to see
-the foundation i would love to see
+the foundation I would love to see
+the foundation I would love to see
+the foundation I would love to see
 partnerships happen where there's lots
 partnerships happen where there's lots
 partnerships happen where there's lots
@@ -936,9 +936,9 @@ up a little community to support each
 other
 other
 other
-there's another thing i think worth
-there's another thing i think worth
-there's another thing i think worth
+there's another thing I think worth
+there's another thing I think worth
+there's another thing I think worth
 calling out on the login there's a
 calling out on the login there's a
 calling out on the login there's a
@@ -1125,9 +1125,9 @@ really just can't figure it out and you
 don't feel like jumping into discord or
 don't feel like jumping into discord or
 don't feel like jumping into discord or
-asking for help which i really strongly
-asking for help which i really strongly
-asking for help which i really strongly
+asking for help which I really strongly
+asking for help which I really strongly
+asking for help which I really strongly
 suggest that you do you know try and get
 suggest that you do you know try and get
 suggest that you do you know try and get
@@ -1209,9 +1209,9 @@ i've got one waiting here for challenge
 one
 one
 one
-and it looks like i got first place in
-and it looks like i got first place in
-and it looks like i got first place in
+and it looks like I got first place in
+and it looks like I got first place in
+and it looks like I got first place in
 this lucky me
 this lucky me
 this lucky me
@@ -1233,9 +1233,9 @@ challenge one
 see again this beautiful badge here
 see again this beautiful badge here
 see again this beautiful badge here
-and now i have the ability to claim this
-and now i have the ability to claim this
-and now i have the ability to claim this
+and now I have the ability to claim this
+and now I have the ability to claim this
+and now I have the ability to claim this
 and so this is going to trigger
 and so this is going to trigger
 and so this is going to trigger
@@ -1383,18 +1383,18 @@ you want to claim a prize so it's
 possible that i've actually got
 possible that i've actually got
 possible that i've actually got
-a session variable looks like it i don't
-a session variable looks like it i don't
-a session variable looks like it i don't
+a session variable looks like it I don't
+a session variable looks like it I don't
+a session variable looks like it I don't
 right now so it'll pop a session
 right now so it'll pop a session
 right now so it'll pop a session
 variable in there
 variable in there
 variable in there
-when i run the implicit mode so when i
-when i run the implicit mode so when i
-when i run the implicit mode so when i
+when I run the implicit mode so when i
+when I run the implicit mode so when i
+when I run the implicit mode so when i
 first click claim it should pop up that
 first click claim it should pop up that
 first click claim it should pop up that
@@ -1431,9 +1431,9 @@ assuming that that error happened after
 yep we have that session
 yep we have that session
 yep we have that session
-so if i go and claim this again it
-so if i go and claim this again it
-so if i go and claim this again it
+so if I go and claim this again it
+so if I go and claim this again it
+so if I go and claim this again it
 shouldn't do the pop-up it should just
 shouldn't do the pop-up it should just
 shouldn't do the pop-up it should just
@@ -1497,9 +1497,9 @@ to wrap that whole signed
 transaction in a fee bump transaction
 transaction in a fee bump transaction
 transaction in a fee bump transaction
-so that your users or i guess sell
-so that your users or i guess sell
-so that your users or i guess sell
+so that your users or I guess sell
+so that your users or I guess sell
+so that your users or I guess sell
 request users never have to pay
 request users never have to pay
 request users never have to pay
@@ -1509,18 +1509,18 @@ fees themselves i'll be consuming all of
 the fees
 the fees
 the fees
-but i still get the really high
-but i still get the really high
-but i still get the really high
+but I still get the really high
+but I still get the really high
+but I still get the really high
 throughput so if a lot of people are
 throughput so if a lot of people are
 throughput so if a lot of people are
 claiming
 claiming
 claiming
-prizes at the same time i don't have to
-prizes at the same time i don't have to
-prizes at the same time i don't have to
+prizes at the same time I don't have to
+prizes at the same time I don't have to
+prizes at the same time I don't have to
 worry about the sequence number because
 worry about the sequence number because
 worry about the sequence number because
@@ -1686,9 +1686,9 @@ our onca team looking through if there's
 any questions if there aren't
 any questions if there aren't
 any questions if there aren't
-you know if i explain everything so well
-you know if i explain everything so well
-you know if i explain everything so well
+you know if I explain everything so well
+you know if I explain everything so well
+you know if I explain everything so well
 of course there are no questions
 of course there are no questions
 of course there are no questions
@@ -1719,9 +1719,9 @@ that's an excellent question glad you
 asked it it has to do with
 asked it it has to do with
 asked it it has to do with
-the fact that i'm real i really tried to
-the fact that i'm real i really tried to
-the fact that i'm real i really tried to
+the fact that i'm real I really tried to
+the fact that i'm real I really tried to
+the fact that i'm real I really tried to
 use cloudflare
 use cloudflare
 use cloudflare
@@ -1788,9 +1788,9 @@ cloudflare actually announced last week
 a more real-time synced
 a more real-time synced
 a more real-time synced
-they called durable objects i think it's
-they called durable objects i think it's
-they called durable objects i think it's
+they called durable objects I think it's
+they called durable objects I think it's
+they called durable objects I think it's
 in beta right now so once it
 in beta right now so once it
 in beta right now so once it
@@ -1839,15 +1839,15 @@ protocol 13
 i'm sorry protocol wait 14 goes live
 i'm sorry protocol wait 14 goes live
 i'm sorry protocol wait 14 goes live
-i think it's 13. i think the last one
-i think it's 13. i think the last one
-i think it's 13. i think the last one
+i think it's 13. I think the last one
+i think it's 13. I think the last one
+i think it's 13. I think the last one
 was 12.
 was 12.
 was 12.
-i'm a seller person i can actually
-i'm a seller person i can actually
-i'm a seller person i can actually
+i'm a seller person I can actually
+i'm a seller person I can actually
+i'm a seller person I can actually
 remember goes live with claimable
 remember goes live with claimable
 remember goes live with claimable
@@ -1872,9 +1872,9 @@ a custom
 asset that's stored on the blockchain
 asset that's stored on the blockchain
 asset that's stored on the blockchain
-which means i have to open up a truss
-which means i have to open up a truss
-which means i have to open up a truss
+which means I have to open up a truss
+which means I have to open up a truss
+which means I have to open up a truss
 line
 line
 line
@@ -1890,9 +1890,9 @@ opening up a truss line and issuing
 an asset that happens
 an asset that happens
 an asset that happens
-where i have to kind of just sit
-where i have to kind of just sit
-where i have to kind of just sit
+where I have to kind of just sit
+where I have to kind of just sit
+where I have to kind of just sit
 there and wait until
 there and wait until
 there and wait until
@@ -1902,9 +1902,9 @@ you're immediately asking like hey i'm
 ready to receive this prize
 ready to receive this prize
 ready to receive this prize
-once claimable balances exist i can just
-once claimable balances exist i can just
-once claimable balances exist i can just
+once claimable balances exist I can just
+once claimable balances exist I can just
+once claimable balances exist I can just
 say oh this person won this prize i'm
 say oh this person won this prize i'm
 say oh this person won this prize i'm
@@ -1962,9 +1962,9 @@ you're eligible for the prize but
 for some reason you decide not to claim
 for some reason you decide not to claim
 for some reason you decide not to claim
-it i can
-it i can
-it i can
+it I can
+it I can
+it I can
 leave myself as a claimant on that
 leave myself as a claimant on that
 leave myself as a claimant on that
@@ -2004,9 +2004,9 @@ and are attempting to claim their prizes
 if their account
 if their account
 if their account
-doesn't exist on the ledger yet i put
-doesn't exist on the ledger yet i put
-doesn't exist on the ledger yet i put
+doesn't exist on the ledger yet I put
+doesn't exist on the ledger yet I put
+doesn't exist on the ledger yet I put
 down
 down
 down
@@ -2034,18 +2034,18 @@ has a 0.5 lumen reserve that's required
 for
 for
 for
-for you to hold that asset so i give
-for you to hold that asset so i give
-for you to hold that asset so i give
+for you to hold that asset so I give
+for you to hold that asset so I give
+for you to hold that asset so I give
 you all those lumens right now into your
 you all those lumens right now into your
 you all those lumens right now into your
 account it'll be really nice once we
 account it'll be really nice once we
 account it'll be really nice once we
-have sponsor reserves where i can just
-have sponsor reserves where i can just
-have sponsor reserves where i can just
+have sponsor reserves where I can just
+have sponsor reserves where I can just
+have sponsor reserves where I can just
 sponsor those
 sponsor those
 sponsor those

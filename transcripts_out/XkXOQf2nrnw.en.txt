@@ -66,9 +66,9 @@ and convert them to and from the usd
 token on the stellar network
 token on the stellar network
 token on the stellar network
-like i said we've soft launched this
-like i said we've soft launched this
-like i said we've soft launched this
+like I said we've soft launched this
+like I said we've soft launched this
+like I said we've soft launched this
 week our first market is argentina
 week our first market is argentina
 week our first market is argentina
@@ -591,9 +591,9 @@ asset info that fetches these minimums
 and maximums
 and maximums
 and maximums
-it does not have i don't think it has or
-it does not have i don't think it has or
-it does not have i don't think it has or
+it does not have I don't think it has or
+it does not have I don't think it has or
+it does not have I don't think it has or
 it has inconsistent support for
 it has inconsistent support for
 it has inconsistent support for
@@ -1113,9 +1113,9 @@ countries is
 vibrant eligible to use
 vibrant eligible to use
 vibrant eligible to use
-so right now i think
-so right now i think
-so right now i think
+so right now I think
+so right now I think
+so right now I think
 i haven't looked at the actual app store
 i haven't looked at the actual app store
 i haven't looked at the actual app store
@@ -1155,9 +1155,9 @@ social media and
 you know getting people install the app
 you know getting people install the app
 you know getting people install the app
-is focused in argentina but i think you
-is focused in argentina but i think you
-is focused in argentina but i think you
+is focused in argentina but I think you
+is focused in argentina but I think you
+is focused in argentina but I think you
 can
 can
 can
@@ -1167,9 +1167,9 @@ someone asked can payment be reversed
 from user input
 from user input
 from user input
-address error so i think it's possible
-address error so i think it's possible
-address error so i think it's possible
+address error so I think it's possible
+address error so I think it's possible
+address error so I think it's possible
 to do
 to do
 to do
@@ -1251,9 +1251,9 @@ so so each party will have either had to
 get funds from someone else or
 get funds from someone else or
 get funds from someone else or
-or done a deposit like i showed you to
-or done a deposit like i showed you to
-or done a deposit like i showed you to
+or done a deposit like I showed you to
+or done a deposit like I showed you to
+or done a deposit like I showed you to
 to have money in the app
 someone asked are these libraries for
 someone asked are these libraries for
@@ -1272,9 +1272,9 @@ and there there isn't any any project
 to port it to other languages
 to port it to other languages
 to port it to other languages
-the go i i don't intimately know the
-the go i i don't intimately know the
-the go i i don't intimately know the
+the go I don't intimately know the
+the go I don't intimately know the
+the go I don't intimately know the
 state of the go sdk it may
 state of the go sdk it may
 state of the go sdk it may

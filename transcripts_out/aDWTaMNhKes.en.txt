@@ -213,9 +213,9 @@ allowances and we go with persistent
 allowances
 allowances
 allowances
-yeah I I think I I don't actually
-yeah I I think I I don't actually
-yeah I I think I I don't actually
+yeah I think I don't actually
+yeah I think I don't actually
+yeah I think I don't actually
 want to upload the token interface with
 want to upload the token interface with
 want to upload the token interface with
@@ -426,9 +426,9 @@ used during the
 execution time for multiple calls but
 execution time for multiple calls but
 execution time for multiple calls but
-you know I I guess the main issue here
-you know I I guess the main issue here
-you know I I guess the main issue here
+you know I guess the main issue here
+you know I guess the main issue here
+you know I guess the main issue here
 is that
 is that
 is that
@@ -438,9 +438,9 @@ since
 this thing like this does not exist for
 this thing like this does not exist for
 this thing like this does not exist for
-example in a cage yet right I I guess
-example in a cage yet right I I guess
-example in a cage yet right I I guess
+example in a cage yet right I guess
+example in a cage yet right I guess
+example in a cage yet right I guess
 run many users of that because well
 run many users of that because well
 run many users of that because well
@@ -661,8 +661,8 @@ that you would use except for you know
 that you would use except for you know
 that you would use except for you know
 these these educations
-that is a very strong opinion I I can
-that is a very strong opinion I I can
+that is a very strong opinion I can
+that is a very strong opinion I can
 imagine finding use cases for it but if
 imagine finding use cases for it but if
 imagine finding use cases for it but if
@@ -1270,8 +1270,8 @@ I saw some folks had some
 I saw some folks had some
 I saw some folks had some
 I won't say that so and that's
-so I I do feel like there's there's one
-so I I do feel like there's there's one
+so I do feel like there's there's one
+so I do feel like there's there's one
 possible solution that is not
 possible solution that is not
 possible solution that is not
@@ -1758,9 +1758,9 @@ but it's just sophisticated
 yeah I think I think there's there's
 yeah I think I think there's there's
 yeah I think I think there's there's
-basically no way for us to I I agree
-basically no way for us to I I agree
-basically no way for us to I I agree
+basically no way for us to I agree
+basically no way for us to I agree
+basically no way for us to I agree
 with Gemma here I think there's there's
 with Gemma here I think there's there's
 with Gemma here I think there's there's
@@ -1977,9 +1977,9 @@ foreign
 there's one aspect of the way this
 there's one aspect of the way this
 there's one aspect of the way this
-we're implementing this that I I saw
-we're implementing this that I I saw
-we're implementing this that I I saw
+we're implementing this that I saw
+we're implementing this that I saw
+we're implementing this that I saw
 getting discussed in Discord
 getting discussed in Discord
 getting discussed in Discord

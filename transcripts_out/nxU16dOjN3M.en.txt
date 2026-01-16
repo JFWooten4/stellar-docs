@@ -954,9 +954,9 @@ can build on top of that like whatever
 you need.
 you need.
 you need.
- Great. Do you have any I I know you
- Great. Do you have any I I know you
- Great. Do you have any I I know you
+ Great. Do you have any I know you
+ Great. Do you have any I know you
+ Great. Do you have any I know you
 you you mentioned that the the
 you you mentioned that the the
 you you mentioned that the the
@@ -1080,9 +1080,9 @@ extensive and it should get people up
 and running.
 and running.
 and running.
- Yeah, I I have I have actually gone
- Yeah, I I have I have actually gone
- Yeah, I I have I have actually gone
+ Yeah, I have I have actually gone
+ Yeah, I have I have actually gone
+ Yeah, I have I have actually gone
 through the the read me and and taking a
 through the the read me and and taking a
 through the the read me and and taking a
@@ -1176,9 +1176,9 @@ first u when it goes live. It seems like
 an easy way for me to test out the the
 an easy way for me to test out the the
 an easy way for me to test out the the
-the tool. I I don't necessarily need to
-the tool. I I don't necessarily need to
-the tool. I I don't necessarily need to
+the tool. I don't necessarily need to
+the tool. I don't necessarily need to
+the tool. I don't necessarily need to
 to spin up my own infrastructure for
 to spin up my own infrastructure for
 to spin up my own infrastructure for

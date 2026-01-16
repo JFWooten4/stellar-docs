@@ -153,9 +153,9 @@ without spending a lot of time on on
 setting up their environment.
 setting up their environment.
 setting up their environment.
- Exactly. I I think you said it all and
- Exactly. I I think you said it all and
- Exactly. I I think you said it all and
+ Exactly. I think you said it all and
+ Exactly. I think you said it all and
+ Exactly. I think you said it all and
 it's what I think it's great about it is
 it's what I think it's great about it is
 it's what I think it's great about it is
@@ -192,9 +192,9 @@ in the way you feel more comfortable and
 can really move fast and try things
 can really move fast and try things
 can really move fast and try things
-really fast. So I I love it. I've been
-really fast. So I I love it. I've been
-really fast. So I I love it. I've been
+really fast. So I love it. I've been
+really fast. So I love it. I've been
+really fast. So I love it. I've been
 working ser for for for some time and
 working ser for for for some time and
 working ser for for for some time and
@@ -1971,9 +1971,9 @@ object and here we can see the the
 return value. So it's saying hello FIFO
 return value. So it's saying hello FIFO
 return value. So it's saying hello FIFO
-with the parameter that I I use. So if I
-with the parameter that I I use. So if I
-with the parameter that I I use. So if I
+with the parameter that I use. So if I
+with the parameter that I use. So if I
+with the parameter that I use. So if I
 say something different like hello John
 say something different like hello John
 say something different like hello John
@@ -3204,9 +3204,9 @@ scaffold generate and let me see the
 options we have here. So basically
 options we have here. So basically
 options we have here. So basically
-sorry I I can generate contracts. So
-sorry I I can generate contracts. So
-sorry I I can generate contracts. So
+sorry I can generate contracts. So
+sorry I can generate contracts. So
+sorry I can generate contracts. So
 generate contract h and there you go. So
 generate contract h and there you go. So
 generate contract h and there you go. So
@@ -3669,9 +3669,9 @@ we have any questions or if like to open
 up for anyone.
 up for anyone.
 up for anyone.
- I I think we pretty much caught up
- I I think we pretty much caught up
- I I think we pretty much caught up
+ I think we pretty much caught up
+ I think we pretty much caught up
+ I think we pretty much caught up
 questions, but if anyone has
 questions, but if anyone has
 questions, but if anyone has
@@ -3702,9 +3702,9 @@ you don't need to have a ton of tooling
 set up. it's all built in. It makes
 set up. it's all built in. It makes
 set up. it's all built in. It makes
-it very very easy. So yeah, I I I
-it very very easy. So yeah, I I I
-it very very easy. So yeah, I I I
+it very very easy. So yeah, I I
+it very very easy. So yeah, I I
+it very very easy. So yeah, I I
 downloaded the and ran the the latest
 downloaded the and ran the the latest
 downloaded the and ran the the latest
@@ -3714,9 +3714,9 @@ that's at least the public one last
 night and it was super easy to get up
 night and it was super easy to get up
 night and it was super easy to get up
-and running as as soon as I I figured
-and running as as soon as I I figured
-and running as as soon as I I figured
+and running as as soon as I figured
+and running as as soon as I figured
+and running as as soon as I figured
 out that I needed to have my my Docker
 out that I needed to have my my Docker
 out that I needed to have my my Docker
@@ -3837,9 +3837,9 @@ your project and and start coding.
 that I didn't even touch here because of
 that I didn't even touch here because of
 that I didn't even touch here because of
-the time. But if I I I really suggest
-the time. But if I I I really suggest
-the time. But if I I I really suggest
+the time. But if I really suggest
+the time. But if I really suggest
+the time. But if I really suggest
 you guys have a look. For example, we
 you guys have a look. For example, we
 you guys have a look. For example, we
@@ -3909,9 +3909,9 @@ What is the best way to to to let you
 guys know?
 guys know?
 guys know?
- I I encourage everyone to directly open
- I I encourage everyone to directly open
- I I encourage everyone to directly open
+ I encourage everyone to directly open
+ I encourage everyone to directly open
+ I encourage everyone to directly open
 a niche on the repository because we are
 a niche on the repository because we are
 a niche on the repository because we are
@@ -3960,15 +3960,15 @@ so much and I think we will probably do
 another update at a later time but
 another update at a later time but
 another update at a later time but
-until then I I would encourage everyone
-until then I I would encourage everyone
-until then I I would encourage everyone
+until then I would encourage everyone
+until then I would encourage everyone
+until then I would encourage everyone
 who builds on Stellar to try it out.
 who builds on Stellar to try it out.
 who builds on Stellar to try it out.
-It it's really impressive. I I love how
-It it's really impressive. I I love how
-It it's really impressive. I I love how
+It it's really impressive. I love how
+It it's really impressive. I love how
+It it's really impressive. I love how
 how much is included how much you
 how much is included how much you
 how much is included how much you

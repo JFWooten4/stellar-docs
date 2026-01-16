@@ -3,9 +3,9 @@ justin rice i'm the vp of the ecosystem
 at the stellar development foundation
 at the stellar development foundation
 at the stellar development foundation
-where i work with people to understand
-where i work with people to understand
-where i work with people to understand
+where I work with people to understand
+where I work with people to understand
+where I work with people to understand
 how to use the network developers and
 how to use the network developers and
 how to use the network developers and
@@ -93,9 +93,9 @@ technical deep dive interstellar
 quick agenda i'll explain how the
 quick agenda i'll explain how the
 quick agenda i'll explain how the
-stellar network works i guess i just
-stellar network works i guess i just
-stellar network works i guess i just
+stellar network works I guess I just
+stellar network works I guess I just
+stellar network works I guess I just
 sort of went through this give it to
 sort of went through this give it to
 sort of went through this give it to
@@ -189,18 +189,18 @@ college nice and you guys are all
 students can you please mute your
 students can you please mute your
 students can you please mute your
-microphones thank you i thought that was
-microphones thank you i thought that was
-microphones thank you i thought that was
+microphones thank you I thought that was
+microphones thank you I thought that was
+microphones thank you I thought that was
 like a like just like coming in hot with
 like a like just like coming in hot with
 like a like just like coming in hot with
 a question at the top
 a question at the top
 a question at the top
-and i would i approved that
-and i would i approved that
-and i would i approved that
+and I would I approved that
+and I would I approved that
+and I would I approved that
 that level of verve and engagement
 that level of verve and engagement
 that level of verve and engagement
@@ -405,9 +405,9 @@ you can use that to do some interesting
 things we won't get into it right now
 things we won't get into it right now
 things we won't get into it right now
-but when i say operations you can kind
-but when i say operations you can kind
-but when i say operations you can kind
+but when I say operations you can kind
+but when I say operations you can kind
+but when I say operations you can kind
 of think transactions
 of think transactions
 of think transactions
@@ -633,9 +633,9 @@ on the other hand
 ethereum acts as a general purpose
 ethereum acts as a general purpose
 ethereum acts as a general purpose
-decentralized computer so what i mean
-decentralized computer so what i mean
-decentralized computer so what i mean
+decentralized computer so what I mean
+decentralized computer so what I mean
+decentralized computer so what I mean
 here is that it provides infrastructure
 here is that it provides infrastructure
 here is that it provides infrastructure
@@ -696,9 +696,9 @@ which we're going to discuss in a lot
 more detail in the next slide but for
 more detail in the next slide but for
 more detail in the next slide but for
-now i also wanted to know that ethereum
-now i also wanted to know that ethereum
-now i also wanted to know that ethereum
+now I also wanted to know that ethereum
+now I also wanted to know that ethereum
+now I also wanted to know that ethereum
 is actually
 is actually
 is actually
@@ -762,9 +762,9 @@ differentiates all these consensus
 mechanisms
 mechanisms
 mechanisms
-so first i just want to kind of step
-so first i just want to kind of step
-so first i just want to kind of step
+so first I just want to kind of step
+so first I just want to kind of step
+so first I just want to kind of step
 back and emphasize that a consensus
 back and emphasize that a consensus
 back and emphasize that a consensus
@@ -906,9 +906,9 @@ can start working on the next block on
 top of that newly created block
 top of that newly created block
 top of that newly created block
-so here again i want to kind of
-so here again i want to kind of
-so here again i want to kind of
+so here again I want to kind of
+so here again I want to kind of
+so here again I want to kind of
 emphasize that validators on the network
 emphasize that validators on the network
 emphasize that validators on the network
@@ -1167,9 +1167,9 @@ time on the actual computer science
 theory here but the most important
 theory here but the most important
 theory here but the most important
-important point that i want to convey is
-important point that i want to convey is
-important point that i want to convey is
+important point that I want to convey is
+important point that I want to convey is
+important point that I want to convey is
 that there are three desired properties
 that there are three desired properties
 that there are three desired properties
@@ -1575,9 +1575,9 @@ again we averaged the data over the past
 as you can see it's quite different acro
 as you can see it's quite different acro
 as you can see it's quite different acro
-across these networks and i just
-across these networks and i just
-across these networks and i just
+across these networks and I just
+across these networks and I just
+across these networks and I just
 also wanted to kind of point out that
 also wanted to kind of point out that
 also wanted to kind of point out that
@@ -1593,9 +1593,9 @@ a particular transaction to be included
 in the block but kind of the most
 in the block but kind of the most
 in the block but kind of the most
-important point that that i want to make
-important point that that i want to make
-important point that that i want to make
+important point that that I want to make
+important point that that I want to make
+important point that that I want to make
 here is that is the order of magnitude
 here is that is the order of magnitude
 here is that is the order of magnitude
@@ -1698,9 +1698,9 @@ all right so we just talked a lot about
 a lot of things and the final feature
 a lot of things and the final feature
 a lot of things and the final feature
-that i want to talk about is resistance
-that i want to talk about is resistance
-that i want to talk about is resistance
+that I want to talk about is resistance
+that I want to talk about is resistance
+that I want to talk about is resistance
 to 51 attacks so what are these attacks
 to 51 attacks so what are these attacks
 to 51 attacks so what are these attacks
@@ -1857,9 +1857,9 @@ it is resistant to malicious actors and
 liveness to prevent forks
 liveness to prevent forks
 liveness to prevent forks
-and i know i just said a bunch of things
-and i know i just said a bunch of things
-and i know i just said a bunch of things
+and I know I just said a bunch of things
+and I know I just said a bunch of things
+and I know I just said a bunch of things
 i'm going to stop here and see if there
 i'm going to stop here and see if there
 i'm going to stop here and see if there
@@ -1905,9 +1905,9 @@ really encourage you guys to ask
 questions
 questions
 questions
-yes yeah hi i was wondering if so if
-yes yeah hi i was wondering if so if
-yes yeah hi i was wondering if so if
+yes yeah hi I was wondering if so if
+yes yeah hi I was wondering if so if
+yes yeah hi I was wondering if so if
 when you're talking about security or
 when you're talking about security or
 when you're talking about security or
@@ -1929,9 +1929,9 @@ faster on like stellar like why would
 anyone choose to value liveliness
 anyone choose to value liveliness
 anyone choose to value liveliness
-i i think it's just that those
-i i think it's just that those
-i i think it's just that those
+i I think it's just that those
+i I think it's just that those
+i I think it's just that those
 consensus protocols are like completely
 consensus protocols are like completely
 consensus protocols are like completely
@@ -1990,8 +1990,8 @@ of the network at the time so
 of the network at the time so
 of the network at the time so
 i i'm not sure that
-well you know one thing i i sometimes
-well you know one thing i i sometimes
+well you know one thing I sometimes
+well you know one thing I sometimes
 think about with stellar is like the
 think about with stellar is like the
 think about with stellar is like the
@@ -2037,9 +2037,9 @@ right like you actually have to
 coordinate validators if a network holds
 coordinate validators if a network holds
 coordinate validators if a network holds
-and so i almost also think that like one
-and so i almost also think that like one
-and so i almost also think that like one
+and so I almost also think that like one
+and so I almost also think that like one
+and so I almost also think that like one
 feature one necessity for like a network
 feature one necessity for like a network
 feature one necessity for like a network
@@ -2052,9 +2052,9 @@ that validators have to be able to find
 one another right to restart the network
 one another right to restart the network
 one another right to restart the network
-if something goes wrong and i think on a
-if something goes wrong and i think on a
-if something goes wrong and i think on a
+if something goes wrong and I think on a
+if something goes wrong and I think on a
+if something goes wrong and I think on a
 lot of like in in networks that are
 lot of like in in networks that are
 lot of like in in networks that are
@@ -2071,8 +2071,8 @@ i don't even know if that would be
 i don't even know if that would be
 i don't even know if that would be
 possible
-yeah and i think like because stellar
-yeah and i think like because stellar
+yeah and I think like because stellar
+yeah and I think like because stellar
 was designed for payments like it was
 was designed for payments like it was
 was designed for payments like it was
@@ -2241,9 +2241,9 @@ court advancement proposals caps this is
 a method that we sort of came up with
 a method that we sort of came up with
 a method that we sort of came up with
-the foundation actually i don't even
-the foundation actually i don't even
-the foundation actually i don't even
+the foundation actually I don't even
+the foundation actually I don't even
+the foundation actually I don't even
 know who started it but at this point it
 know who started it but at this point it
 know who started it but at this point it
@@ -2694,9 +2694,9 @@ and to understand what that means and
 how to use it we're going to do
 how to use it we're going to do
 how to use it we're going to do
-something quickly right now i hope this
-something quickly right now i hope this
-something quickly right now i hope this
+something quickly right now I hope this
+something quickly right now I hope this
+something quickly right now I hope this
 works we're going to issue an asset so
 works we're going to issue an asset so
 works we're going to issue an asset so
@@ -2802,9 +2802,9 @@ to prevent spam in real life you'd have
 to fund it with real lumens but again
 to fund it with real lumens but again
 to fund it with real lumens but again
-we're on the test network so i can just
-we're on the test network so i can just
-we're on the test network so i can just
+we're on the test network so I can just
+we're on the test network so I can just
+we're on the test network so I can just
 get test network lumens now this account
 get test network lumens now this account
 get test network lumens now this account
@@ -2833,8 +2833,8 @@ and again i've
 and again i've
 and again i've
 generated that key pair
-that i need to fund it and so
-that i need to fund it and so
+that I need to fund it and so
+that I need to fund it and so
 again this is stellar laboratory and
 again this is stellar laboratory and
 again this is stellar laboratory and
@@ -2872,11 +2872,11 @@ that second account that we created
 that second account that we created
 that second account that we created
 which is the distribution account
-i'm adding it here i say fetch the next
-i'm adding it here i say fetch the next
-sequence number i set the fee
-sequence number i set the fee
-sequence number i set the fee
+i'm adding it here I say fetch the next
+i'm adding it here I say fetch the next
+sequence number I set the fee
+sequence number I set the fee
+sequence number I set the fee
 i'm not going to worry about time
 i'm not going to worry about time
 i'm not going to worry about time
@@ -2913,9 +2913,9 @@ i'm trusting the issuer account for an
 asset called you shy i'm basically
 asset called you shy i'm basically
 asset called you shy i'm basically
-going to see that i have generated the
-going to see that i have generated the
-going to see that i have generated the
+going to see that I have generated the
+going to see that I have generated the
+going to see that I have generated the
 right transaction envelope
 right transaction envelope
 right transaction envelope
@@ -2926,23 +2926,23 @@ transaction signer
 transaction signer
 transaction signer
 let's hope this works
-so i need for that i need the secret key
-so i need for that i need the secret key
-if you recall i need the secret key of
-if you recall i need the secret key of
-if you recall i need the secret key of
+so I need for that I need the secret key
+so I need for that I need the secret key
+if you recall I need the secret key of
+if you recall I need the secret key of
+if you recall I need the secret key of
 the
 the
 the
 account
-and then i can submit the transaction in
-and then i can submit the transaction in
+and then I can submit the transaction in
+and then I can submit the transaction in
 the transactions
 this is a three to five seconds as you
 this is a three to five seconds as you
-can see i submitted the transaction and
-can see i submitted the transaction and
-can see i submitted the transaction and
+can see I submitted the transaction and
+can see I submitted the transaction and
+can see I submitted the transaction and
 the transaction is complete again this
 the transaction is complete again this
 the transaction is complete again this
@@ -2986,14 +2986,14 @@ distribution account
 distribution account
 distribution account
 here is a distribution account
-i'm going to send i don't know 13 13 13.
-i'm going to send i don't know 13 13 13.
+i'm going to send I don't know 13 13 13.
+i'm going to send I don't know 13 13 13.
 not many
 not many
 not many
-again i can sign
-again i can sign
-again i can sign
+again I can sign
+again I can sign
+again I can sign
 this with the public key for the issuing
 this with the public key for the issuing
 this with the public key for the issuing
@@ -3009,7 +3009,7 @@ but i'm going to wrap it all together so
 nicely in the end
 nicely in the end
 nicely in the end
-and once i sign it
+and once I sign it
 i can submit the transaction let's hope
 i can submit the transaction let's hope
 it works
@@ -3018,9 +3018,9 @@ it works
 transaction submitted okay
 transaction submitted okay
 transaction submitted okay
-so what i just did was that i basically
-so what i just did was that i basically
-so what i just did was that i basically
+so what I just did was that I basically
+so what I just did was that I basically
+so what I just did was that I basically
 created two accounts one is a issuing
 created two accounts one is a issuing
 created two accounts one is a issuing
@@ -3033,9 +3033,9 @@ the asset in a distribution account the
 distribution account essentially linked
 distribution account essentially linked
 distribution account essentially linked
-to the issuing account and said i trust
-to the issuing account and said i trust
-to the issuing account and said i trust
+to the issuing account and said I trust
+to the issuing account and said I trust
+to the issuing account and said I trust
 you to send me an asset and the issuing
 you to send me an asset and the issuing
 you to send me an asset and the issuing
@@ -3069,9 +3069,9 @@ this interface
 or you can do it with an sdk now one
 or you can do it with an sdk now one
 or you can do it with an sdk now one
-final thing as i mentioned horizon is an
-final thing as i mentioned horizon is an
-final thing as i mentioned horizon is an
+final thing as I mentioned horizon is an
+final thing as I mentioned horizon is an
+final thing as I mentioned horizon is an
 endpoint
 endpoint
 endpoint
@@ -3090,9 +3090,9 @@ actually show you how to construct
 various queries to the horizon endpoints
 various queries to the horizon endpoints
 various queries to the horizon endpoints
-so right now if i go to horizon and i
-so right now if i go to horizon and i
-so right now if i go to horizon and i
+so right now if I go to horizon and i
+so right now if I go to horizon and i
+so right now if I go to horizon and i
 sort of query the
 sort of query the
 sort of query the
@@ -3126,9 +3126,9 @@ asset
 so
 so
 so
-what i essentially did was issue into
-what i essentially did was issue into
-what i essentially did was issue into
+what I essentially did was issue into
+what I essentially did was issue into
+what I essentially did was issue into
 this account a new asset that never
 this account a new asset that never
 this account a new asset that never
@@ -3180,15 +3180,15 @@ view actions on the stellar network and
 i can it's set up to view the test
 i can it's set up to view the test
 i can it's set up to view the test
-network so i can actually go to a
-network so i can actually go to a
-network so i can actually go to a
+network so I can actually go to a
+network so I can actually go to a
+network so I can actually go to a
 totally different third-party interface
 totally different third-party interface
 totally different third-party interface
-i can look up the key right and i can
-i can look up the key right and i can
-i can look up the key right and i can
+i can look up the key right and I can
+i can look up the key right and I can
+i can look up the key right and I can
 see that oh look there is
 see that oh look there is
 see that oh look there is
@@ -3232,8 +3232,8 @@ and so that is
 and so that is
 and so that is
 asset issuance on
-now i accidentally stopped sharing my
-now i accidentally stopped sharing my
+now I accidentally stopped sharing my
+now I accidentally stopped sharing my
 presentation
 sorry
 sorry
@@ -3306,15 +3306,15 @@ wants to build on stellar you can get
 started immediately
 started immediately
 started immediately
-i guess the final thing that i do want
-i guess the final thing that i do want
-i guess the final thing that i do want
+i guess the final thing that I do want
+i guess the final thing that I do want
+i guess the final thing that I do want
 to say oh no there's way more
 to say oh no there's way more
 to say oh no there's way more
-the next thing that i want to say is
-the next thing that i want to say is
-the next thing that i want to say is
+the next thing that I want to say is
+the next thing that I want to say is
+the next thing that I want to say is
 that also if you're interested in
 that also if you're interested in
 that also if you're interested in
@@ -3411,9 +3411,9 @@ and actually that was it so if you
 want to find out more about stellar
 want to find out more about stellar
 want to find out more about stellar
-go to stuller.org again i recommend
-go to stuller.org again i recommend
-go to stuller.org again i recommend
+go to stuller.org again I recommend
+go to stuller.org again I recommend
+go to stuller.org again I recommend
 using
 using
 using

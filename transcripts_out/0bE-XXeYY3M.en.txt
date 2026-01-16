@@ -81,9 +81,9 @@ we're definitely we're broadcasting it
 so that you can all everyone out there
 so that you can all everyone out there
 so that you can all everyone out there
-can see the gears turning but i also
-can see the gears turning but i also
-can see the gears turning but i also
+can see the gears turning but I also
+can see the gears turning but I also
+can see the gears turning but I also
 want to say there's a complimentary
 want to say there's a complimentary
 want to say there's a complimentary
@@ -114,9 +114,9 @@ description i'm going to talk about more
 in a second
 in a second
 in a second
-but first i just want to say last
-but first i just want to say last
-but first i just want to say last
+but first I just want to say last
+but first I just want to say last
+but first I just want to say last
 meeting we started talking about two
 meeting we started talking about two
 meeting we started talking about two
@@ -189,9 +189,9 @@ mailing list
 this is a technical discussion so if you
 this is a technical discussion so if you
 this is a technical discussion so if you
-want to follow along i suggest reading
-want to follow along i suggest reading
-want to follow along i suggest reading
+want to follow along I suggest reading
+want to follow along I suggest reading
+want to follow along I suggest reading
 the caps both of them
 the caps both of them
 the caps both of them
@@ -204,9 +204,9 @@ threads about them which are linked to
 in the event description
 in the event description
 in the event description
-so one thing i just want to mention real
-so one thing i just want to mention real
-so one thing i just want to mention real
+so one thing I just want to mention real
+so one thing I just want to mention real
+so one thing I just want to mention real
 quick is that this morning orbit lens
 quick is that this morning orbit lens
 quick is that this morning orbit lens
@@ -225,27 +225,27 @@ he did raise some issues about the
 ongoing amen discussion in a blog post
 ongoing amen discussion in a blog post
 ongoing amen discussion in a blog post
-and there's a lot there i don't think
-and there's a lot there i don't think
-and there's a lot there i don't think
+and there's a lot there I don't think
+and there's a lot there I don't think
+and there's a lot there I don't think
 anyone here has had a chance to fully
 anyone here has had a chance to fully
 anyone here has had a chance to fully
 process it quite yet
 process it quite yet
 process it quite yet
-but i imagine that people will have
-but i imagine that people will have
-but i imagine that people will have
+but I imagine that people will have
+but I imagine that people will have
+but I imagine that people will have
 thoughts and what makes sense to me is
 thoughts and what makes sense to me is
 thoughts and what makes sense to me is
 to discuss the points he raises on that
 to discuss the points he raises on that
 to discuss the points he raises on that
-stellar dev google group i mentioned
-stellar dev google group i mentioned
-stellar dev google group i mentioned
+stellar dev google group I mentioned
+stellar dev google group I mentioned
+stellar dev google group I mentioned
 earlier
 earlier
 earlier
@@ -489,9 +489,9 @@ will be redeemed back to the owner
 this approach will require the issuer to
 this approach will require the issuer to
 this approach will require the issuer to
-look up all pool trust lines that i want
-look up all pool trust lines that i want
-look up all pool trust lines that i want
+look up all pool trust lines that I want
+look up all pool trust lines that I want
+look up all pool trust lines that I want
 to revoke off from
 to revoke off from
 to revoke off from
@@ -591,9 +591,9 @@ already authorization required this
 was also discussed on the mailing list
 was also discussed on the mailing list
 was also discussed on the mailing list
-but i think this is an
-but i think this is an
-but i think this is an
+but I think this is an
+but I think this is an
+but I think this is an
 interesting an interesting addition
 interesting an interesting addition
 interesting an interesting addition
@@ -627,9 +627,9 @@ most things would just kind of
 transition seamlessly
 transition seamlessly
 transition seamlessly
-which i think is a cool advantage but i
-which i think is a cool advantage but i
-which i think is a cool advantage but i
+which I think is a cool advantage but i
+which I think is a cool advantage but i
+which I think is a cool advantage but i
 think there are some pros and cons to
 think there are some pros and cons to
 think there are some pros and cons to
@@ -637,8 +637,8 @@ that
 i mean is it worth just outlining the
 i mean is it worth just outlining the
 pros and cons to that
-i mean i think the major con is that
-i mean i think the major con is that
+i mean I think the major con is that
+i mean I think the major con is that
 it's just
 it's just
 it's just
@@ -651,51 +651,51 @@ to figure out
 what's gonna what's gonna happen
 what's gonna what's gonna happen
 what's gonna what's gonna happen
-basically it's like okay i have to look
-basically it's like okay i have to look
-basically it's like okay i have to look
-at this flag but i also have to pair it
-at this flag but i also have to pair it
-at this flag but i also have to pair it
+basically it's like okay I have to look
+basically it's like okay I have to look
+basically it's like okay I have to look
+at this flag but I also have to pair it
+at this flag but I also have to pair it
+at this flag but I also have to pair it
 up against this other flag
 up against this other flag
 up against this other flag
-and i think that's kind of the major
-and i think that's kind of the major
-and i think that's kind of the major
+and I think that's kind of the major
+and I think that's kind of the major
+and I think that's kind of the major
 thing like oh you know i'm looking at
 thing like oh you know i'm looking at
 thing like oh you know i'm looking at
 some asset can i
 some asset can i
 some asset can i
-can i put it in a liquidity pool it's
-can i put it in a liquidity pool it's
-can i put it in a liquidity pool it's
+can I put it in a liquidity pool it's
+can I put it in a liquidity pool it's
+can I put it in a liquidity pool it's
 not as obvious in that case
 not as obvious in that case
 not as obvious in that case
-so i think that that's probably
-so i think that that's probably
-so i think that that's probably
+so I think that that's probably
+so I think that that's probably
+so I think that that's probably
 the biggest
 the biggest
 the biggest
 drawback of that kind of an additional
 drawback of that kind of an additional
 drawback of that kind of an additional
-step and i think lee was trying to say
-step and i think lee was trying to say
-step and i think lee was trying to say
+step and I think lee was trying to say
+step and I think lee was trying to say
+step and I think lee was trying to say
 something a second ago so i'm gonna let
 something a second ago so i'm gonna let
 something a second ago so i'm gonna let
 him jump in
 him jump in
 him jump in
-yeah sorry i wasn't i was muted
-yeah sorry i wasn't i was muted
-yeah sorry i wasn't i was muted
+yeah sorry I wasn't I was muted
+yeah sorry I wasn't I was muted
+yeah sorry I wasn't I was muted
 how would it work if you
 how would it work if you
 how would it work if you
@@ -720,15 +720,15 @@ issuer need to also indicate that the
 asset can continue to be used in pools
 asset can continue to be used in pools
 asset can continue to be used in pools
-it's an open question that i hadn't
-it's an open question that i hadn't
-it's an open question that i hadn't
+it's an open question that I hadn't
+it's an open question that I hadn't
+it's an open question that I hadn't
 even considered yet
 even considered yet
 even considered yet
-so it's a it's a good question i think
-so it's a it's a good question i think
-so it's a it's a good question i think
+so it's a it's a good question I think
+so it's a it's a good question I think
+so it's a it's a good question I think
 that that's another aspect of the
 that that's another aspect of the
 that that's another aspect of the
@@ -790,11 +790,11 @@ the or of is this flag explicitly set
 the or of is this flag explicitly set
 the or of is this flag explicitly set
 and the not of auth required
-yeah i think where the reason i ask it
-yeah i think where the reason i ask it
-is because i think like we're trying to
-is because i think like we're trying to
-is because i think like we're trying to
+yeah I think where the reason I ask it
+yeah I think where the reason I ask it
+is because I think like we're trying to
+is because I think like we're trying to
+is because I think like we're trying to
 we're talking about adding that to make
 we're talking about adding that to make
 we're talking about adding that to make
@@ -849,9 +849,9 @@ you'll be kind of unfortunate if you
 couldn't use those in amms
 no they see nobody does that
 no they see nobody does that
-nobody says i promise i'm not going to
-nobody says i promise i'm not going to
-nobody says i promise i'm not going to
+nobody says I promise i'm not going to
+nobody says I promise i'm not going to
+nobody says I promise i'm not going to
 revoke this asset i'm going to make it
 revoke this asset i'm going to make it
 revoke this asset i'm going to make it
@@ -870,15 +870,15 @@ promise that you're not going to
 suddenly turn on off
 suddenly turn on off
 suddenly turn on off
-the required flag right i mean like we
-the required flag right i mean like we
-the required flag right i mean like we
+the required flag right I mean like we
+the required flag right I mean like we
+the required flag right I mean like we
 have
 have
 have
-the like to me the we and i think i
-the like to me the we and i think i
-the like to me the we and i think i
+the like to me the we and I think i
+the like to me the we and I think i
+the like to me the we and I think i
 mentioned that on the main english the
 mentioned that on the main english the
 mentioned that on the main english the
@@ -888,9 +888,9 @@ degenerate case of this is actually the
 xlm right it's basically a
 xlm right it's basically a
 xlm right it's basically a
-are not required immutable so i think
-are not required immutable so i think
-are not required immutable so i think
+are not required immutable so I think
+are not required immutable so I think
+are not required immutable so I think
 in my mind it has to work the same way
 in my mind it has to work the same way
 in my mind it has to work the same way
@@ -903,9 +903,9 @@ know
 you know this type of assets and those
 you know this type of assets and those
 you know this type of assets and those
-type of assets i think we want
-type of assets i think we want
-type of assets i think we want
+type of assets I think we want
+type of assets I think we want
+type of assets I think we want
 to have them on the network they are
 to have them on the network they are
 to have them on the network they are
@@ -942,12 +942,12 @@ yeah that's correct the author immutable
 flag is almost
 flag is almost
 flag is almost
-not used at all i think maybe one issue
-not used at all i think maybe one issue
-not used at all i think maybe one issue
-where i need to look that up
-where i need to look that up
-where i need to look that up
+not used at all I think maybe one issue
+not used at all I think maybe one issue
+not used at all I think maybe one issue
+where I need to look that up
+where I need to look that up
+where I need to look that up
 but usually when issuers want to
 but usually when issuers want to
 but usually when issuers want to
@@ -987,9 +987,9 @@ it would be a bummer if those assets
 couldn't work with the amm
 couldn't work with the amm
 couldn't work with the amm
-if i would probably want it
-if i would probably want it
-if i would probably want it
+if I would probably want it
+if I would probably want it
+if I would probably want it
 you know a default on thing unless the
 you know a default on thing unless the
 you know a default on thing unless the
@@ -1077,9 +1077,9 @@ in it like the pure
 you know untouchable form
 you know untouchable form
 you know untouchable form
-and so i guess the other sort of
-and so i guess the other sort of
-and so i guess the other sort of
+and so I guess the other sort of
+and so I guess the other sort of
+and so I guess the other sort of
 question about the current state of the
 question about the current state of the
 question about the current state of the
@@ -1125,9 +1125,9 @@ give them like you know
 a month's notice or something
 i can't think of such assets because i
 i can't think of such assets because i
-feel like i wouldn't i want this
-feel like i wouldn't i want this
-feel like i wouldn't i want this
+feel like I wouldn't I want this
+feel like I wouldn't I want this
+feel like I wouldn't I want this
 you know of course we want the mm to be
 you know of course we want the mm to be
 you know of course we want the mm to be
@@ -1266,9 +1266,9 @@ then maybe we don't have to jump through
 any of these hoops at all
 any of these hoops at all
 any of these hoops at all
-so i think both the both this edge case
-so i think both the both this edge case
-so i think both the both this edge case
+so I think both the both this edge case
+so I think both the both this edge case
+so I think both the both this edge case
 and the edge case that
 and the edge case that
 and the edge case that
@@ -1284,7 +1284,7 @@ i'm having a hard time thinking about
 anyone that will actually be affected
 anyone that will actually be affected
 anyone that will actually be affected
-by this in the ecosystem i think that
+by this in the ecosystem I think that
 you know if we would have asked a lot of
 you know if we would have asked a lot of
 assets like that in the ecosystem then i
@@ -1323,15 +1323,15 @@ of like
 you know and your point comes into play
 you know and your point comes into play
 you know and your point comes into play
-in reality i just don't think it matters
-in reality i just don't think it matters
-in reality i just don't think it matters
-all that much i think
-all that much i think
-all that much i think
-i think i think what you suggest john is
-i think i think what you suggest john is
-i think i think what you suggest john is
+in reality I just don't think it matters
+in reality I just don't think it matters
+in reality I just don't think it matters
+all that much I think
+all that much I think
+all that much I think
+i think I think what you suggest john is
+i think I think what you suggest john is
+i think I think what you suggest john is
 probably
 probably
 probably
@@ -1353,12 +1353,12 @@ you know like a new asset
 you know liquidity cool stuff
 you know liquidity cool stuff
 you know liquidity cool stuff
-yeah i i just don't think it matters all
-yeah i i just don't think it matters all
-yeah i i just don't think it matters all
-that much like i vote for for what you
-that much like i vote for for what you
-that much like i vote for for what you
+yeah I just don't think it matters all
+yeah I just don't think it matters all
+yeah I just don't think it matters all
+that much like I vote for for what you
+that much like I vote for for what you
+that much like I vote for for what you
 said john
 said john
 said john
@@ -1374,9 +1374,9 @@ there's like
 a special handling required
 yes required or not just
 yes required or not just
-like in general because i think that's
-like in general because i think that's
-like in general because i think that's
+like in general because I think that's
+like in general because I think that's
+like in general because I think that's
 kind of one of the distinctions we are
 kind of one of the distinctions we are
 kind of one of the distinctions we are
@@ -1404,9 +1404,9 @@ that like there's probably nobody who
 would
 would
 would
-mind right that's what i was confused
-mind right that's what i was confused
-mind right that's what i was confused
+mind right that's what I was confused
+mind right that's what I was confused
+mind right that's what I was confused
 about too like
 about too like
 about too like
@@ -1428,18 +1428,18 @@ to be set or are you saying that we
 should do
 should do
 should do
-one of the things that either i was
-one of the things that either i was
-one of the things that either i was
+one of the things that either I was
+one of the things that either I was
+one of the things that either I was
 suggesting david was suggesting any of
 suggesting david was suggesting any of
 suggesting david was suggesting any of
 us were suggesting i'm a little confused
 us were suggesting i'm a little confused
 us were suggesting i'm a little confused
-so i thought we were discussing a
-so i thought we were discussing a
-so i thought we were discussing a
+so I thought we were discussing a
+so I thought we were discussing a
+so I thought we were discussing a
 dedicated flag
 dedicated flag
 dedicated flag
@@ -1452,9 +1452,9 @@ default for
 for author required assets
 for author required assets
 for author required assets
-yeah so i was i was supporting that
-yeah so i was i was supporting that
-yeah so i was i was supporting that
+yeah so I was I was supporting that
+yeah so I was I was supporting that
+yeah so I was I was supporting that
 so in other words if you have an off
 so in other words if you have an off
 so in other words if you have an off
@@ -1473,9 +1473,9 @@ this auth required asset is now can now
 be used in liquidity equals
 be used in liquidity equals
 be used in liquidity equals
-yeah that is indeed what i agreed with
-yeah that is indeed what i agreed with
-yeah that is indeed what i agreed with
+yeah that is indeed what I agreed with
+yeah that is indeed what I agreed with
+yeah that is indeed what I agreed with
 yeah
 yeah
 yeah
@@ -1506,9 +1506,9 @@ you set this flag with low signing
 weight
 weight
 weight
-i mean i guess
-i mean i guess
-i mean i guess
+i mean I guess
+i mean I guess
+i mean I guess
 i'd rather
 i'd rather
 i'd rather
@@ -1521,9 +1521,9 @@ default right for the same reason like
 auth required isn't the default
 auth required isn't the default
 auth required isn't the default
-you know i would like it if inhibit amm
-you know i would like it if inhibit amm
-you know i would like it if inhibit amm
+you know I would like it if inhibit amm
+you know I would like it if inhibit amm
+you know I would like it if inhibit amm
 weren't
 weren't
 weren't
@@ -1608,9 +1608,9 @@ essentially get like invalid or
 changed
 changed
 changed
-right oh i see so you're suggesting like
-right oh i see so you're suggesting like
-right oh i see so you're suggesting like
+right oh I see so you're suggesting like
+right oh I see so you're suggesting like
+right oh I see so you're suggesting like
 a big database migration on the protocol
 a big database migration on the protocol
 a big database migration on the protocol
@@ -1638,9 +1638,9 @@ required we actually set the flag when
 we introduce it
 we introduce it
 we introduce it
-is that is that what you're i wasn't
-is that is that what you're i wasn't
-is that is that what you're i wasn't
+is that is that what you're I wasn't
+is that is that what you're I wasn't
+is that is that what you're I wasn't
 thinking about that
 thinking about that
 thinking about that
@@ -1722,9 +1722,9 @@ three different decisions about what
 your assets can behave like
 your assets can behave like
 your assets can behave like
-then i feel fine going forward and it's
-then i feel fine going forward and it's
-then i feel fine going forward and it's
+then I feel fine going forward and it's
+then I feel fine going forward and it's
+then I feel fine going forward and it's
 just a question of do we have like
 just a question of do we have like
 just a question of do we have like
@@ -1750,8 +1750,8 @@ this and the thing goes live then it
 this and the thing goes live then it
 this and the thing goes live then it
 would run into problems
-can i flip this discussion over for a
-can i flip this discussion over for a
+can I flip this discussion over for a
+can I flip this discussion over for a
 second now and say like
 second now and say like
 second now and say like
@@ -1807,8 +1807,8 @@ but that's not sort of that's not
 but that's not sort of that's not
 but that's not sort of that's not
 semantically equivalent
-so the the question is i i
-so the the question is i i
+so the the question is I i
+so the the question is I i
 actually see these things as almost
 actually see these things as almost
 actually see these things as almost
@@ -1836,9 +1836,9 @@ do you want a tighter like control of
 like the market in your asset
 and they seem like different questions
 and they seem like different questions
-and i could imagine different
-and i could imagine different
-and i could imagine different
+and I could imagine different
+and I could imagine different
+and I could imagine different
 asset issuers to answering different
 asset issuers to answering different
 asset issuers to answering different
@@ -1972,8 +1972,8 @@ you have today
 you have today
 you have today
 it's like
-it's it's variably bad i guess is the
-it's it's variably bad i guess is the
+it's it's variably bad I guess is the
+it's it's variably bad I guess is the
 best way to characterize it
 best way to characterize it
 best way to characterize it
@@ -2064,9 +2064,9 @@ so like for example if we were in this
 world that would add you know
 world that would add you know
 world that would add you know
-eight times as many indices as i think
-eight times as many indices as i think
-eight times as many indices as i think
+eight times as many indices as I think
+eight times as many indices as I think
+eight times as many indices as I think
 the trustline table currently has
 the trustline table currently has
 the trustline table currently has
@@ -2142,9 +2142,9 @@ one b one one b three right as opposed
 to many b3s
 to many b3s
 to many b3s
-yeah so i mean like that could be a
-yeah so i mean like that could be a
-yeah so i mean like that could be a
+yeah so I mean like that could be a
+yeah so I mean like that could be a
+yeah so I mean like that could be a
 better implementation but then we have
 better implementation but then we have
 better implementation but then we have
@@ -2164,8 +2164,8 @@ is there someone that disagrees with
 is there someone that disagrees with
 is there someone that disagrees with
 that
-okay i agree okay
-okay i agree okay
+okay I agree okay
+okay I agree okay
 so you know in that case you know
 so you know in that case you know
 so you know in that case you know
@@ -2223,9 +2223,9 @@ whether the implementation is a show
 stopper blocker
 stopper blocker
 stopper blocker
-or is there more is there more i guess
-or is there more is there more i guess
-or is there more is there more i guess
+or is there more is there more I guess
+or is there more is there more I guess
+or is there more is there more I guess
 the only
 the only
 the only
@@ -2251,8 +2251,8 @@ have less work to do and we can deliver
 have less work to do and we can deliver
 have less work to do and we can deliver
 this sooner
-oh i can i can reach out to some
-oh i can i can reach out to some
+oh I can I can reach out to some
+oh I can I can reach out to some
 viewers
 viewers
 viewers
@@ -2262,9 +2262,9 @@ and and see if that's a
 if that's a showstopper in any way
 if that's a showstopper in any way
 if that's a showstopper in any way
-intuitively i can't think of any issuer
-intuitively i can't think of any issuer
-intuitively i can't think of any issuer
+intuitively I can't think of any issuer
+intuitively I can't think of any issuer
+intuitively I can't think of any issuer
 that will
 that will
 that will
@@ -2280,12 +2280,12 @@ in liquidity pools
 but i'm not sure
 but i'm not sure
 but i'm not sure
-is there like to the extent i would
-is there like to the extent i would
-is there like to the extent i would
-imagine people doing that i could
-imagine people doing that i could
-imagine people doing that i could
+is there like to the extent I would
+is there like to the extent I would
+is there like to the extent I would
+imagine people doing that I could
+imagine people doing that I could
+imagine people doing that I could
 imagine a situation where
 imagine a situation where
 imagine a situation where
@@ -2382,15 +2382,15 @@ control and it's mapped up against some
 sep
 sep
 sep
-which number i can't remember right now
-which number i can't remember right now
-which number i can't remember right now
+which number I can't remember right now
+which number I can't remember right now
+which number I can't remember right now
 
 
 
-so i can't i can't really see how adding
-so i can't i can't really see how adding
-so i can't i can't really see how adding
+so I can't I can't really see how adding
+so I can't I can't really see how adding
+so I can't I can't really see how adding
 this feature
 this feature
 this feature
@@ -2415,9 +2415,9 @@ basically it applies to both the mms and
 the decks
 the decks
 the decks
-and it says it says like i actually
-and it says it says like i actually
-and it says it says like i actually
+and it says it says like I actually
+and it says it says like I actually
+and it says it says like I actually
 have to authorize
 have to authorize
 have to authorize
@@ -2448,9 +2448,9 @@ like blanket inhibiting
 amms it's definitely an interesting idea
 amms it's definitely an interesting idea
 amms it's definitely an interesting idea
-not one that i've heard before i think
-not one that i've heard before i think
-not one that i've heard before i think
+not one that i've heard before I think
+not one that i've heard before I think
+not one that i've heard before I think
 tomer can find out what people really
 tomer can find out what people really
 tomer can find out what people really
@@ -2514,9 +2514,9 @@ weird like it's hard for me to imagine
 what that use case is but maybe it's
 what that use case is but maybe it's
 what that use case is but maybe it's
-there i don't know
-yeah i think given that you know we
-yeah i think given that you know we
+there I don't know
+yeah I think given that you know we
+yeah I think given that you know we
 don't have this feature around the decks
 don't have this feature around the decks
 don't have this feature around the decks
@@ -2541,12 +2541,12 @@ traded on the decks
 
 
 
-you know i think we're probably in the
-you know i think we're probably in the
-you know i think we're probably in the
+you know I think we're probably in the
+you know I think we're probably in the
+you know I think we're probably in the
 same boat with liquidity pools
-okay maybe let's call today well i mean
-okay maybe let's call today well i mean
+okay maybe let's call today well I mean
+okay maybe let's call today well I mean
 in in fairness
 in in fairness
 in in fairness
@@ -2602,8 +2602,8 @@ otherwise afraid of blockchain by
 otherwise afraid of blockchain by
 otherwise afraid of blockchain by
 making it less unknown
-but again this would be i guess a
-but again this would be i guess a
+but again this would be I guess a
+but again this would be I guess a
 separate proposal so
 separate proposal so
 separate proposal so
@@ -2742,9 +2742,9 @@ problem
 i'd be like super enthusiastic about it
 i'd be like super enthusiastic about it
 i'd be like super enthusiastic about it
-i've had i think three calls of
-i've had i think three calls of
-i've had i think three calls of
+i've had I think three calls of
+i've had I think three calls of
+i've had I think three calls of
 siddharth but we've like tried to think
 siddharth but we've like tried to think
 siddharth but we've like tried to think
@@ -2778,9 +2778,9 @@ lee does that answer your question more
 or less
 or less
 or less
-yeah i i think
-yeah i i think
-yeah i i think
+yeah I think
+yeah I think
+yeah I think
 i would like to understand what all the
 i would like to understand what all the
 i would like to understand what all the
@@ -2790,15 +2790,15 @@ cases are where
 the claim will balance would be required
 the claim will balance would be required
 the claim will balance would be required
-i i can assume
-i i can assume
-i i can assume
+i I can assume
+i I can assume
+i I can assume
 i can maybe think of one but i'm not i'm
 i can maybe think of one but i'm not i'm
 i can maybe think of one but i'm not i'm
-not really sure if i certainly
-not really sure if i certainly
-not really sure if i certainly
+not really sure if I certainly
+not really sure if I certainly
+not really sure if I certainly
 understand the problem
 so some examples of some cases where you
 so some examples of some cases where you
@@ -2835,9 +2835,9 @@ an
 a usda usdb pool
 a usda usdb pool
 a usda usdb pool
-but i don't have the trust time for usdb
-but i don't have the trust time for usdb
-but i don't have the trust time for usdb
+but I don't have the trust time for usdb
+but I don't have the trust time for usdb
+but I don't have the trust time for usdb
 anymore because all my usdd is in the
 anymore because all my usdd is in the
 anymore because all my usdd is in the
@@ -2883,9 +2883,9 @@ usdb that you would have gotten they're
 all kind of variations on this problem
 all kind of variations on this problem
 all kind of variations on this problem
-or it's like oh i also have some order
-or it's like oh i also have some order
-or it's like oh i also have some order
+or it's like oh I also have some order
+or it's like oh I also have some order
+or it's like oh I also have some order
 book
 offers and their five liabilities and
 offers and their five liabilities and
@@ -2949,9 +2949,9 @@ largely with funny names that have this
 condition
 condition
 condition
-and so i don't think anybody serious
-and so i don't think anybody serious
-and so i don't think anybody serious
+and so I don't think anybody serious
+and so I don't think anybody serious
+and so I don't think anybody serious
 has this problem
 has this problem
 has this problem
@@ -2991,9 +2991,9 @@ that
 but you can you can read more about that
 but you can you can read more about that
 but you can you can read more about that
-on the mailing list because i don't even
-on the mailing list because i don't even
-on the mailing list because i don't even
+on the mailing list because I don't even
+on the mailing list because I don't even
+on the mailing list because I don't even
 remember what was in that post entirely
 great any other questions or topics that
 great any other questions or topics that

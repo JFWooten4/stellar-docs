@@ -324,9 +324,9 @@ background or something like that but in
 either case it's it's a lot of work
 either case it's it's a lot of work
 either case it's it's a lot of work
-for Downstream systems a lot of disk i o
-for Downstream systems a lot of disk i o
-for Downstream systems a lot of disk i o
+for Downstream systems a lot of disk I o
+for Downstream systems a lot of disk I o
+for Downstream systems a lot of disk I o
 and things like that so those are these
 and things like that so those are these
 and things like that so those are these
@@ -2455,8 +2455,8 @@ which will be explicitly managed by a
 which will be explicitly managed by a
 which will be explicitly managed by a
 wallet
-because I I agree it's kind of needed
-because I I agree it's kind of needed
+because I agree it's kind of needed
+because I agree it's kind of needed
 the one thing that maybe like I'm
 the one thing that maybe like I'm
 the one thing that maybe like I'm
@@ -3286,8 +3286,8 @@ assuming that it will be funded by
 assuming that it will be funded by
 assuming that it will be funded by
 someone else
-like I I want to see like a activity
-like I I want to see like a activity
+like I want to see like a activity
+like I want to see like a activity
 right on that contract from the owner
 right on that contract from the owner
 right on that contract from the owner
@@ -3447,9 +3447,9 @@ fragment system or anything and
 again wait
 again wait
 again wait
-I think I I went around here but in dth
-I think I I went around here but in dth
-I think I I went around here but in dth
+I think I went around here but in dth
+I think I went around here but in dth
+I think I went around here but in dth
 for all like a lot of the things I
 for all like a lot of the things I
 for all like a lot of the things I
@@ -4386,9 +4386,9 @@ guess is that my nature with the
 contract data you said through the time
 contract data you said through the time
 contract data you said through the time
-yeah so I I don't know if you have
-yeah so I I don't know if you have
-yeah so I I don't know if you have
+yeah so I don't know if you have
+yeah so I don't know if you have
+yeah so I don't know if you have
 enough time to get it shipped into the
 enough time to get it shipped into the
 enough time to get it shipped into the

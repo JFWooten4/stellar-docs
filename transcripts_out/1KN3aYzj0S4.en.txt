@@ -879,9 +879,9 @@ actually a very good design I like it
 excuse me I'm wondering in terms of
 excuse me I'm wondering in terms of
 excuse me I'm wondering in terms of
-staging this work I I it's quite
-staging this work I I it's quite
-staging this work I I it's quite
+staging this work I it's quite
+staging this work I it's quite
+staging this work I it's quite
 complicated and involved in some some
 complicated and involved in some some
 complicated and involved in some some
@@ -1128,9 +1128,9 @@ has to
 adhere to every every nonce update
 adhere to every every nonce update
 adhere to every every nonce update
-certainly I I wonder about the nonsense
-certainly I I wonder about the nonsense
-certainly I I wonder about the nonsense
+certainly I wonder about the nonsense
+certainly I wonder about the nonsense
+certainly I wonder about the nonsense
 that are maintained by the auth system
 that are maintained by the auth system
 that are maintained by the auth system
@@ -1248,9 +1248,9 @@ cold entries if you think about it right
 so yeah I think thinking about this a
 so yeah I think thinking about this a
 so yeah I think thinking about this a
-bit I I I sort of retract my concern
-bit I I I sort of retract my concern
-bit I I I sort of retract my concern
+bit I sort of retract my concern
+bit I sort of retract my concern
+bit I sort of retract my concern
 because I think you're right that if if
 because I think you're right that if if
 because I think you're right that if if
@@ -1275,9 +1275,9 @@ the things that use that storage such
 that they they would they would become
 that they they would they would become
 that they they would they would become
-invalid at the same moment so I I can
-invalid at the same moment so I I can
-invalid at the same moment so I I can
+invalid at the same moment so I can
+invalid at the same moment so I can
+invalid at the same moment so I can
 see that being quite quite a viable
 see that being quite quite a viable
 see that being quite quite a viable
@@ -1359,9 +1359,9 @@ like time to hit the thesaurus we
 already have something in a system
 already have something in a system
 already have something in a system
-called an archive I I just feel like
-called an archive I I just feel like
-called an archive I I just feel like
+called an archive I just feel like
+called an archive I just feel like
+called an archive I just feel like
 we gotta use a different word for this
 we gotta use a different word for this
 we gotta use a different word for this
@@ -2137,8 +2137,8 @@ for explanation I don't want to steal
 for explanation I don't want to steal
 for explanation I don't want to steal
 the time it's definitely
-like I I need to make more research
-like I I need to make more research
+like I need to make more research
+like I need to make more research
 on this and probably we should get back
 on this and probably we should get back
 on this and probably we should get back
@@ -2694,9 +2694,9 @@ defeats the purpose of the archive in
 the first place
 the first place
 the first place
-yeah I I just want to remind way
-yeah I I just want to remind way
-yeah I I just want to remind way
+yeah I just want to remind way
+yeah I just want to remind way
+yeah I just want to remind way
 basically we still need to maintain
 basically we still need to maintain
 basically we still need to maintain
@@ -3277,8 +3277,8 @@ super nice people that maybe on I
 super nice people that maybe on I
 super nice people that maybe on I
 mean not trying to game the system
-yeah I I thought like the the front
-yeah I I thought like the the front
+yeah I thought like the the front
+yeah I thought like the the front
 running I did was just to like if
 running I did was just to like if
 running I did was just to like if
@@ -3438,9 +3438,9 @@ yeah I think this is like a a key
 property that we need to have right
 property that we need to have right
 property that we need to have right
-because I I know like one of the earlier
-because I I know like one of the earlier
-because I I know like one of the earlier
+because I know like one of the earlier
+because I know like one of the earlier
+because I know like one of the earlier
 drafts
 drafts
 drafts
@@ -4068,9 +4068,9 @@ their inbound I was a token payer record
 which is a little bit awkward right
 which is a little bit awkward right
 which is a little bit awkward right
-because I I just want to trade why would
-because I I just want to trade why would
-because I I just want to trade why would
+because I just want to trade why would
+because I just want to trade why would
+because I just want to trade why would
 it charge me more and you know I then
 it charge me more and you know I then
 it charge me more and you know I then

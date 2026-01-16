@@ -255,12 +255,12 @@ to fix this you know you can tie the
 balance and this flag in a single Ledger
 entry
 but it just it just adds some
-complexity but I I but I think we do
+complexity but I but I think we do
 need to either not allow author required
 Assets in sorbon or
 you know allow them using using a
 mechanism like this
-so I I feel like if you want to allow
+so I feel like if you want to allow
 author required that's a story about
 like this is probably the best or
 something similar is the best thing we
@@ -557,7 +557,7 @@ concerns
 do you have the answers that you need to
 move forward
 I believe I do so before the author
-choir solution I think I I need to
+choir solution I think I need to
 rework what I have a little bits to make
 sure that the
 the non-wrap scenario doesn't doesn't
@@ -573,7 +573,7 @@ else
 I need to look at
 well I think there is maybe like a
 symmetry question there right like
-that I I was just thinking about that is
+that I was just thinking about that is
 when I think of the building token
 contract versus the more generic
 interface right that we are exposing
@@ -635,7 +635,7 @@ in right it doesn't execute wasn't but
 if you have these hooks they would be in
 wasm right so you would you take the
 performance set
-and in that case I I don't know you
+and in that case I don't know you
 could argue that
 they should you should be using a
 different tone contract altogether like
@@ -839,7 +839,7 @@ the rap classic asset token and the new
 token
 not the best ux but it's doable right
 now
-I I think you'd have I I gotta think
+I I think you'd have I gotta think
 about this you might have issues with
 like how would you do a lot like that
 would have to exist as a
@@ -863,7 +863,7 @@ authorized but yeah that's true
 okay yeah let me let me think about this
 okay it feels like we're sort of winding
 down here
-so I I think we're done for the day
+so I think we're done for the day
 thanks Sid for for putting this out
 there thanks for answering the questions
 thanks for thinking about it and to

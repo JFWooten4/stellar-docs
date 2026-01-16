@@ -1239,9 +1239,9 @@ something here
 specifically yeah yeah so I think one
 specifically yeah yeah so I think one
 specifically yeah yeah so I think one
-thing I I think was interesting you you
-thing I I think was interesting you you
-thing I I think was interesting you you
+thing I think was interesting you you
+thing I think was interesting you you
+thing I think was interesting you you
 talked about
 talked about
 talked about
@@ -1593,9 +1593,9 @@ actually need to render first and second
 argument as this m spring key so you
 argument as this m spring key so you
 argument as this m spring key so you
-know I I doubt this will work
-know I I doubt this will work
-know I I doubt this will work
+know I doubt this will work
+know I doubt this will work
+know I doubt this will work
 and this is honestly like how again I
 and this is honestly like how again I
 and this is honestly like how again I
@@ -2712,9 +2712,9 @@ thinking too yeah my point was just
 to move them out of the topics in
 to move them out of the topics in
 to move them out of the topics in
-general I mean I I think in general the
-general I mean I I think in general the
-general I mean I I think in general the
+general I mean I think in general the
+general I mean I think in general the
+general I mean I think in general the
 memo probably don't belong there like
 memo probably don't belong there like
 memo probably don't belong there like
@@ -2733,9 +2733,9 @@ that you could filter on that you
 know most people are going to want to
 know most people are going to want to
 know most people are going to want to
-filter on because I I think maybe George
-filter on because I I think maybe George
-filter on because I I think maybe George
+filter on because I think maybe George
+filter on because I think maybe George
+filter on because I think maybe George
 you can confirm this like I think the
 you can confirm this like I think the
 you can confirm this like I think the
@@ -2752,8 +2752,8 @@ more topics it's like
 more topics it's like
 more topics it's like
 PE
-yeah yeah I I agree I don't think the
-yeah yeah I I agree I don't think the
+yeah yeah I agree I don't think the
+yeah yeah I agree I don't think the
 memo needs to be a topic but the and for
 memo needs to be a topic but the and for
 memo needs to be a topic but the and for
@@ -2856,9 +2856,9 @@ we have two events so then they have to
 figure out not double processing them
 figure out not double processing them
 figure out not double processing them
-not double counting them and I I I
-not double counting them and I I I
-not double counting them and I I I
+not double counting them and I I
+not double counting them and I I
+not double counting them and I I
 think we shouldn't not do this for that
 think we shouldn't not do this for that
 think we shouldn't not do this for that
@@ -2898,9 +2898,9 @@ invocations I don't double count the
 other one or something like
 other one or something like
 other one or something like
-that yeah unfortunately I I feel like
-that yeah unfortunately I I feel like
-that yeah unfortunately I I feel like
+that yeah unfortunately I feel like
+that yeah unfortunately I feel like
+that yeah unfortunately I feel like
 invocation w't help here like there was
 invocation w't help here like there was
 invocation w't help here like there was
@@ -2989,8 +2989,8 @@ the data field and make it a map
 the data field and make it a map
 the data field and make it a map
 is that right does that sound
-good I I guess have a question I don't
-good I I guess have a question I don't
+good I guess have a question I don't
+good I guess have a question I don't
 know how like consumers of those things
 know how like consumers of those things
 know how like consumers of those things
@@ -3093,9 +3093,9 @@ approach we absolutely should spike out
 what the develop contract developer
 what the develop contract developer
 what the develop contract developer
-experiences because I I don't think
-experiences because I I don't think
-experiences because I I don't think
+experiences because I don't think
+experiences because I don't think
+experiences because I don't think
 for something that I suspect will be as
 for something that I suspect will be as
 for something that I suspect will be as

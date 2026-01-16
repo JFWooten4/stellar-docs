@@ -1,4 +1,4 @@
-okay so i think we're gonna
+okay so I think we're gonna
 get started and hopefully david will
 soon join
 so hey everyone welcome to another
@@ -33,8 +33,8 @@ for the discussion so let's do this
 graded can you kick this off with a
 review of cap53
 yeah just give me one second all right
-got it yeah sorry i just i had the
-pull request open and then i actually
+got it yeah sorry I just I had the
+pull request open and then I actually
 wanted to switch over to the merged
 version of it
 so this is a fairly straightforward cap
@@ -71,7 +71,7 @@ have to do with interoperability
 where we we want there to be something a
 little bit
 a little bit more general
-or i say sort of a less general more
+or I say sort of a less general more
 interoperable more generally understood
 more widely understood structure to the
 data than just a byte buffer a lot of
@@ -97,7 +97,7 @@ contract to another it has to transform
 it so there's a whole interoperability
 angle here which we wanted to address
 in in the cat 46 data model and we're
-carrying that forward here and i think a
+carrying that forward here and I think a
 lot of the the concerns
 only make sense when considered in
 terms of persistent data but this is the
@@ -248,7 +248,7 @@ recommendation in this in this gap
 and what we what we're prototyping is a
 fairly standard technique from the
 literature which is often called
-reconnaissance queries i think i'm
+reconnaissance queries I think i'm
 using them here i'm using the term
 recording footprint recording here which
 is that you just run the transaction
@@ -303,7 +303,7 @@ doing a point read on a key value store
 necessarily has some overhead it has it
 has data framing overhead it has
 serialization overhead it involves going
-to the i o system at all it involves
+to the I o system at all it involves
 touching the disk doing a seek doing a
 read
 all of that overhead is
@@ -317,7 +317,7 @@ item you don't necessarily
 want to to pay that on on a bit by
 bit or bite by bite basis you want to
 bring in a bunch of bytes at a time when
-you do an i o and so that amortization
+you do an I o and so that amortization
 tension pushes you towards
 larger ios
 in a larger granularity of storage
@@ -371,7 +371,7 @@ be very open about that and and so
 that's why the key type is is
 literally just an arbitrary value
 
-i think that's all i really had to say
+i think that's all I really had to say
 about that there's not a lot in this in
 this gap it's actually quite small and
 it it kind of just does exactly what
@@ -400,7 +400,7 @@ example like a classic or the book is
 probably like not a great fit for this
 which is
 okay with us
-yeah and i mean there
+yeah and I mean there
 it's a good point which is that in in in
 in a broader sense
 a static footprint actually bounds the i
@@ -439,7 +439,7 @@ have to be just a small string or a
 number or something you can store
 a map that has a bunch of stuff in it
 and then do a range query on that map
-it's just that when you do an i o you're
+it's just that when you do an I o you're
 going to get the entire map is going to
 come off the disk so you have to sort of
 navigate that trade off yourself maybe
@@ -447,39 +447,39 @@ shard your map into a bunch of different
 sub maps or something like that if
 you're interested in not loading and
 storing the whole thing every time
-when i tried to to use a very early
+when I tried to to use a very early
 version of this design
 like a month ago or something
 one of the kind of like
-annoyances that i quickly encountered
+annoyances that I quickly encountered
 was like
-when i wanted to
+when I wanted to
 you know partition my namespace i
 basically was like okay well
 i need some kind of key that is a tuple
-and so i just used like the sc valve
+and so I just used like the sc valve
 option
-and i just like
+and I just like
 pumped a vec full of stuff and then use
-it as my key that's i got like a
+it as my key that's I got like a
 petition namespace the thing was like
 doing that seemed like kind of
 inefficient
-because it's like okay like i need a
+because it's like okay like I need a
 three like you know a three tuple as my
-key so i like go i create a vector
+key so I like go I create a vector
 host function
-i push into it post function i push into
-it again host function i push into again
+i push into it post function I push into
+it again host function I push into again
 host function
-and then i call
+and then I call
 the like you know get function host
 function again
 and it just seems like a ton of work to
 get a single piece of data
 so do you have any thoughts about that
 
-off hand i guess i'm i'm
+off hand I guess i'm i'm
 i'm not sure that it is a ton of work
 like it would would be my first reaction
 in the sense that
@@ -497,12 +497,12 @@ know we could we could
 reflect those usage patterns in function
 signatures as conveniences but i'm not
 sure they would do any less work
-and i don't think the calls in and out
+and I don't think the calls in and out
 of the vm are actually all that
-expensive i think you're only talking
+expensive I think you're only talking
 about one extra op code and
 a couple of like like a push and a call
-so from a user perspective i think you
+so from a user perspective I think you
 have a good point and
 i think
 if the sdk can't make that pattern
@@ -544,13 +544,13 @@ just have them as conveniences and then
 you only wonder how to use this
 arbitrary vector sort of approach if
 you're if you're doing something weird
-yeah i mean as as long as the cost of
+yeah I mean as as long as the cost of
 doing all the push functions isn't
 particularly high
 then it it doesn't really matter to me
 because you could always put sdk support
-to do this indeed i just built my own
-thing that like i could pass the
+to do this indeed I just built my own
+thing that like I could pass the
 functions to and inside the parameters
 too and it would through the vect
 back out at me so it would look a lot
@@ -558,15 +558,15 @@ less disgusting
 we could generalize that of course as
 long as the cost isn't high at the
 protocol level so
-i think so i think the cost of a
+i think so I think the cost of a
 function call is is fairly
-small function call and i again
+small function call and I again
 absolutely it's the case that if if we
-measure this and it's miserable i mean
-the other thing is that i don't i don't
+measure this and it's miserable I mean
+the other thing is that I don't I don't
 honestly think there's
-masses of i o operations in the normal
-contract path right i think you're only
+masses of I o operations in the normal
+contract path right I think you're only
 talking about a couple of
 point accesses per contract call anyway
 so
@@ -589,7 +589,7 @@ one participant of that contra contract
 could prevent another participant from
 interacting with it
 yes absolutely this is
-as far as i can tell this is basically
+as far as I can tell this is basically
 always the case with concurrency control
 if you have any kind of concurrency
 control mechanism somewhere
@@ -639,7 +639,7 @@ then you may have to move back towards
 that and
 i don't
 i don't personally know a way to avoid
-that i think if we did any kind of
+that I think if we did any kind of
 dynamic locking we would be in exactly
 the same situation where someone could
 just flood the system with with
@@ -670,11 +670,11 @@ because people are contending on a hot
 resource so
 it's there's there's there aren't a lot
 of free lunches in concurrency control
-and and i i kind of feel like that's a
+and and I kind of feel like that's a
 natural trait of you
-that answer the question i know it's not
+that answer the question I know it's not
 like a fun answer
-no yeah i think i think that makes a lot
+no yeah I think I think that makes a lot
 of sense
 the fact that the proposal really gives
 the contract developer a lot of control
@@ -689,7 +689,7 @@ came to life thanks for that
 great
 cool so let's let's dial up on the
 contentious or the contention levels
-john i think this is probably the third
+john I think this is probably the third
 iteration of smart contract
 interactions
 so for those of you who are here at last
@@ -697,7 +697,7 @@ week's meeting you might recall that we
 had a pretty big debate about this
 and
 i was in the interest of actually
-agreeing on something i decided to just
+agreeing on something I decided to just
 remove all the functionality from the
 proposal which sounds a little backwards
 but
@@ -761,7 +761,7 @@ by signer key the signer weight for an
 account by signer key kind of hard to
 say
 i added a verified 25 519 function
-which i think is also in cap 51 which is
+which I think is also in cap 51 which is
 being written at the same time
 and that's that's pretty much it
 so any questions about this
@@ -797,7 +797,7 @@ kind of is exactly what you would expect
 
 but right above that there's another
 example that uses the like the single
-key version that i was proposing as the
+key version that I was proposing as the
 invoker signature last
 week
 and so this this framework basically
@@ -828,12 +828,12 @@ internal function that the contract
 provides
 that's a contract function that's not
 exported
-so i can imagine
+so I can imagine
 so i've had to write code like this
 for
 for our sdks when we were
 implementing sept10 and
-i was yeah i think it was septum
+i was yeah I think it was septum
 and one thing that
 is quite difficult to get riders
 iterating over a set of signatures
@@ -860,7 +860,7 @@ that that's definitely possible
 
 i mean my like kind of ideal universe
 here
-in the sense of like what i hope people
+in the sense of like what I hope people
 would do is probably somebody would
 deploy one contract that has like a
 unified key structure a unified signer
@@ -886,12 +886,12 @@ relies on as an ecosystem standard you
 don't have to rely on it but if you do
 you kind of get compatibility across the
 entire universe for free
-that's what i would hope would happen
+that's what I would hope would happen
 instead of everybody rolling their own
 but like yes at the very worst case
 everybody rolls their own and if you
 don't know how to roll your own for
-example like i didn't account for the
+example like I didn't account for the
 for the repeated keys in this example
 working too fast
 you can get yourself in trouble
@@ -910,7 +910,7 @@ contract that is really safe and easy to
 audit you should use the simplest
 authorization scheme possible
 which is that
-all right can i ask a follow-up question
+all right can I ask a follow-up question
 is that i'm i'm a little bit
 well i'll be honest i'm a little bit
 behind on on this entire aspect of the
@@ -956,10 +956,10 @@ on-chain you probably need to do at
 least one 80 25 5 19 signature
 verification or ecdsa signature
 verification
-so i it probably could be like a little
+so I it probably could be like a little
 lighter than this but probably not
 significantly lighter than this
-well i guess this
+well I guess this
 i'm i'm just being my typical trying
 to shave things down approach
 this feels to me like
@@ -978,8 +978,8 @@ thing
 so
 yes and no
 because like
-even though i think that everybody will
-be conservative i still think the ideal
+even though I think that everybody will
+be conservative I still think the ideal
 universe of everybody being conservative
 is them all using a single
 you know contract that implements this
@@ -999,8 +999,8 @@ standardized
 signature verifier we could always
 deploy a native version of that that's
 super fast
-i see i see so so so you are
-i'm not i want to make sure i'm not
+i see I see so so so you are
+i'm not I want to make sure i'm not
 promising you that that's ever going to
 happen no no no no i'm not i'm not
 hearing your promise i'm just trying to
@@ -1053,7 +1053,7 @@ mutability concern because they're
 choosing to build that into their
 contract at build time
 there are some trade-offs there like
-i i i think it would generally be a
+i I think it would generally be a
 thing that would would would occur that
 people would probably provide some of
 these like very standardized off
@@ -1062,22 +1062,22 @@ based off of seller accounts or stuff in
 a library that you can use
 but if you want like a stateful system
 like lee you were talking about aliases
-and that's why i keep coming back to
+and that's why I keep coming back to
 this like the stateful system is only
 really useful if your state lives in a
 centralized place that
 that people can rely on you know like
 it would be really annoying for me to
 have to go and set my alias in every
-single contract that i use
-like i could
+single contract that I use
+like I could
 but it just that just seems really
 irritating
 i think people would much prefer a
 system where if that's an option
 there is some global contract for that
 state limits basically
-i guess well i guess people could you
+i guess well I guess people could you
 could have a really simple contract it's
 just like an aliasing contract and you
 could have library code that uses that i
@@ -1099,12 +1099,12 @@ i wouldn't necessarily call it like a
 smart wallet
 it's kind of tangentially related i
 guess it would be what i'm really saying
-is like i sign using key x
+is like I sign using key x
 but my public key always stays as y and
 i can change x to x prime or x double
 prime or x triple prime but my public
 key always stays y
-yeah so for context i think the aliasing
+yeah so for context I think the aliasing
 came about because we were talking about
 how do we replicate what exists on
 stellar today in the smart world
@@ -1117,7 +1117,7 @@ identifier and then you can attach other
 keys to it
 and so stellar accounts provide these
 two concepts aliasing and then multisig
-and i think
+and I think
 
 you know there's been the concern
 address
@@ -1127,7 +1127,7 @@ on classic
 over on smart because
 there's a lot of trade-offs with doing
 that but the aliasing
-alone is is like a feature that i think
+alone is is like a feature that I think
 that's worth
 worth us exploring like what will that
 look like because it allows people to do
@@ -1136,7 +1136,7 @@ or
 have multiple
 devices or using the same key
 or using the same address
-and if i understand correctly john
+and if I understand correctly john
 you're saying that that aliasing
 capability could actually just be a
 contract
@@ -1147,7 +1147,7 @@ probably need a bit more time to
 get into the weeds
 john could you elaborate a little bit on
 how you see replay prevention happening
-so i see in the cap that there's this
+so I see in the cap that there's this
 announce
 that that concept exists
 yeah could you elaborate a little bit
@@ -1157,8 +1157,8 @@ yeah i'm happy to do that
 so this whole replay prevention thing
 gets kind of annoying in this proposal
 that's one of like the big downsides
-of this approach that i pointed out in
-cat 50 when i said like why we shouldn't
+of this approach that I pointed out in
+cat 50 when I said like why we shouldn't
 do this
 which is basically like every contract
 ends up implementing their own replay
@@ -1223,23 +1223,23 @@ confused deputy problems then it becomes
 impossible to use the sequence number
 as a replay prevention tool
 so there's a lot of trade-offs here
-basically like i can imagine an argument
+basically like I can imagine an argument
 where we just say like hey like
 people should be cognizant of their
 confused deputy problems etc
-and we make that an option again i don't
-know if i would personally feel good
+and we make that an option again I don't
+know if I would personally feel good
 about that
 because confused deputy problems are
 like a very difficult foot gun to deal
-with i think like they're an easy thing
+with I think like they're an easy thing
 to overlook
 so
 i don't know but basically yes every
 every contract is building their own
 replay prevention or relying on it from
 somewhere else on chain
-got it i think
+got it I think
 one nice side effect of
 
 not exposing the transaction source
@@ -1273,16 +1273,16 @@ you don't get like you would have to
 then modify the contract to make it work
 with a relay
 yeah definitely you mentioned this to me
-like i don't know a week ago or
+like I don't know a week ago or
 something and that idea really kind of
-stuck in my head when i was writing this
-so i totally agree with you that that's
+stuck in my head when I was writing this
+so I totally agree with you that that's
 a huge advantage of this design
 i think something that i've i've heard i
 think maybe grading like raises a
 concern is
 if we encourage people to write their
-own replaying mechanisms which i don't
+own replaying mechanisms which I don't
 think we can actually really get away
 from so maybe it's not worth having this
 conversation but
@@ -1305,7 +1305,7 @@ aggressive way
 i haven't given that too much thought
 honestly
 but like
-i i mean
+i I mean
 my general kind of perspective on this
 is you know it costs money to use the
 blockchain and people will be
@@ -1318,20 +1318,20 @@ mechanism
 because it makes the rest of your
 contract much simpler or maybe it's the
 only way to even do it
-then i think people will do that but in
-the absence of that need i think people
+then I think people will do that but in
+the absence of that need I think people
 will favor the super simple mechanism
 that's
-cheap whether i can guarantee that i
+cheap whether I can guarantee that i
 don't know and whether we can provide
 some utilities
-i'm not really sure i mean like a really
+i'm not really sure I mean like a really
 simple replay mechanism like a sequence
 number is basically like you have a map
 you look it up you check you increment
 that's it
 it it could be hard to make it much
-simpler i mean like we could provide
+simpler I mean like we could provide
 some like library functionality that
 literally does that exact thing
 but the thing is if you have an account
@@ -1342,7 +1342,7 @@ and then the helper is not actually
 helpful in that case
 so
 that's kind of the main perspective
-there but i i have been thinking in
+there but I have been thinking in
 general this is like a bit of an aside
 that it would be really helpful if the
 sdk provided some
@@ -1351,7 +1351,7 @@ sc val map type which is like a map
 in the sense of like a conventional map
 but i've also been thinking like
 sometimes it's like you want to look at
-the data as in like i have a bunch of
+the data as in like I have a bunch of
 data stored in different ledger entries
 and be cool if there was a like a map
 type that did that very easily instead
@@ -1360,7 +1360,7 @@ contract gap etc in cap 53.
 so maybe there's some interplay between
 that and a replay prevention mechanism
 that we could learn from
-yeah i mean i think that
+yeah I mean I think that
 yeah all those things are going to
 like as we develop like even basic
 applications will factor you know like
@@ -1376,7 +1376,7 @@ different type of like replay
 prevention
 like
 i think that's kind of the nice thing
-about this proposal is that i know in
+about this proposal is that I know in
 the past we discussed like
 you know potentially doing
 very different things like where you
@@ -1395,12 +1395,12 @@ and then you end up with like much
 simpler client-side code
 so
 yeah
-and can i ask
+and can I ask
 it don't question but you have a
 function in here called knots of
 how does that work what does that do
 it's just a contract internal
-function i don't know if the com
+function I don't know if the com
 comments emphasize that they don't
 it's not a host function
 basically it just it just reads the data
@@ -1413,19 +1413,19 @@ maintained data associated with an
 address
 yeah exactly contract maintain did i
 want to say but yeah
-okay in in general i mean i i
-i'm a broken record i don't want to
+okay in in general I mean I i
+i'm a broken record I don't want to
 waste too much time with this but i'm i
-am i am extremely nervous about
+am I am extremely nervous about
 suggesting that users roll their own
-authentication mechanisms i think this
+authentication mechanisms I think this
 is just this is just asking for disaster
 but
 i understand that we've been around this
 like
 a lot so
 
-you don't need to convince me i mean
+you don't need to convince me I mean
 providing the really really simple
 authorization that mechanism is the only
 one
@@ -1444,7 +1444,7 @@ so i'm
 i would love to not have users writing
 this code but
 okay so
-you know obviously i think we need to
+you know obviously I think we need to
 dispense the value in this proposal
 in the meantime we have 10 minutes
 remaining and i'd love to hand it over
@@ -1471,9 +1471,9 @@ assault provided
 by the contract
 
 i mean if there are any questions there
-we can talk about it but i think the
+we can talk about it but I think the
 more interesting thing are these two
-other points i want to bring up one is
+other points I want to bring up one is
 mutability
 which is do we plan on adding
 like initially the cap right now does
@@ -1488,12 +1488,12 @@ the second thing is
 we allow contracts to be removed so the
 cap has a host function
 to remove the contract code entry
-so i think we can start with
+so I think we can start with
 the immutability question
 right if so if we do allow mutable
 contracts in the future a big question
 was how do we deal with versioning
-and i was taking the approach that
+and I was taking the approach that
 let the contracts deal with it so for
 contract a calls contract b and contract
 b is mutable
@@ -1505,9 +1505,9 @@ had some issues with this
 
 graham you want you want to talk about
 this
-well i think they're just
-i i i keep coming back to the
-general sense i have that
+well I think they're just
+i I keep coming back to the
+general sense I have that
 cross-contract calls are
 something like dynamic linking or or
 package dependencies in software in
@@ -1535,7 +1535,7 @@ reproducing any of the infrastructure
 that would be normal to
 support
 points on that
-natural tension so i think i think it is
+natural tension so I think I think it is
 worth trying to provide some of the
 building blocks that people are going to
 provide themselves anyway because
@@ -1546,7 +1546,7 @@ versions of the versioning system and
 you have to like opt into different
 versioning regimes depending on which
 ecosystem you're
-adhering your contract to like i i
+adhering your contract to like I i
 understand there's just there's this
 natural tendency in our conversations
 here to try to push everything to the
@@ -1557,7 +1557,7 @@ that just
 solved the problem however contract
 users would like them to but that
 that is not actually as much of a
-solution as i think it sounds that
+solution as I think it sounds that
 that really strongly introduces the
 possibility of totally incompatible
 regimes developing in parallel or
@@ -1565,7 +1565,7 @@ inadequate regimes that
 miss some important aspect of the design
 because they were
 cobbled together in a hurry
-so i i wouldn't
+so I wouldn't
 mind us spending enough time to
 be able to provide the basics which is
 like
@@ -1573,7 +1573,7 @@ i want to pin to a version
 i want to pin to
 
 a major version and only get security
-updates or i want to follow
+updates or I want to follow
 you know any new features and additions
 that people had including modifications
 upgrades whatever
@@ -1607,7 +1607,7 @@ immutable exactly the same thing or
 immutable
 whatever the person up to updated that
 contract with
-the thing is that i mean you have a
+the thing is that I mean you have a
 bunch of
 of things that feel like if we if we do
 that at the kind of protocol layer we're
@@ -1633,18 +1633,18 @@ like
 or like you know the organization or
 whatever that is the
 the publisher right over have a contract
-yeah i agree we don't we don't have any
+yeah I agree we don't we don't have any
 notion about that i'm i'm i'm advocating
 for us to come up with a notion rather
 than
-saying but that notion like i think
+saying but that notion like I think
 it becomes
 i think
-in that space i don't think you can
+in that space I don't think you can
 necessarily come up with a one size fits
 all
 because it's not like in you know in
-in like normal i mean they say like
+in like normal I mean they say like
 normal software like you have a company
 and they ship their their their thing
 and and that's kind of it like here
@@ -1653,7 +1653,7 @@ specific version right as a as a
 my installer basically is going to just
 grab
 cause the os right to grab that version
-that i depend on
+that I depend on
 only in a
 blockchain type of situation
 if that other version like the cost of
@@ -1661,7 +1661,7 @@ of of
 keeping that other version around
 is actually on the
 on whoever deployed that contract
-so if you say like oh i want to pin all
+so if you say like oh I want to pin all
 version like everything is always pinned
 i think that that the implication there
 would be well okay the publisher is now
@@ -1678,17 +1678,17 @@ immutable not immutable but mutable so
 you can mutate them
 and
 
-if i ever want to have a pinned
-version i vendor it is that what you're
+if I ever want to have a pinned
+version I vendor it is that what you're
 saying
-not necessarily so i think it's like
+not necessarily so I think it's like
 yeah you could have always vendor of
 course
 
 i mean that's a solution and i'm i'm
-okay with that i just i think we have to
+okay with that I just I think we have to
 think through the scenario is what i'm
-saying and i think if if what we're
+saying and I think if if what we're
 saying is we're not going to give any
 thought to the scenarios whatsoever and
 then we're going to tell everyone to
@@ -1707,14 +1707,14 @@ can provide
 versus things that are actually baked at
 the protocol layer
 
-like i think that if you have a way to
+like I think that if you have a way to
 say
 because you know you'll also also
 have the other problem right of
 contract discovery on the network like
 you know which net which contract do i
 trust you know versus the ones that
-i partially trust versus the one i don't
+i partially trust versus the one I don't
 trust right
 there are some that were basically
 you trust you try that contract that
@@ -1732,30 +1732,30 @@ problems there
 
 so so some of these data yeah like the
 mutability
-aspect i think that's actually yeah
+aspect I think that's actually yeah
 that's a property of the of the contract
 so that you know basically
-can i even
+can I even
 directly depend on this from my contract
 or is it potentially going to change
 under me but then you have a different
-problem i think that
+problem I think that
 is kind of like when you do you
 know like with you know when you have
 your manifest files when you're when you
 decide that you're going to pin your
 dependencies right in your own program
 that decision
-is something where i think we have to
+is something where I think we have to
 just develop the the right tooling
 but it's not something that actually the
 the you know the network doesn't
-shouldn't have i think an opinion on
+shouldn't have I think an opinion on
 on
 you know like the this
 even the schema of of how you pin
 things
-like i said i guess i'm saying that the
+like I said I guess i'm saying that the
 network has to provide whatever is
 necessary to support it so we we come up
 with what we want we come up with what
@@ -1765,12 +1765,12 @@ conversations we we we talk about
 like
 bad things can happen and then we throw
 up our hands and say obviously we can't
-solve it like no no we have i think we
-don't fight this one i agree we just try
+solve it like no no we have I think we
+don't fight this one I agree we just try
 to figure out what the pattern is and
 then figure out what the network needs
 to actually support it
-right i think
+right I think
 it's we need to have to kind of to solve
 those problems what i'm saying is that
 we don't need to
@@ -1782,7 +1782,7 @@ we are saying this is going to be like
 we kind of forced a specific model at
 the
 protocol layer
-oh and i see a raised hand who is that
+oh and I see a raised hand who is that
 i think
 i think it needs to be in a cup like
 it needs to be in the design rationale
@@ -1794,7 +1794,7 @@ provide in the design rationale this is
 how we expect it will be used this is
 how we expect it will solve this problem
 of versioning
-i mean i think like at least i can
+i mean I think like at least I can
 already see like there are some gaps
 here you know if we say that
 you're going to do
@@ -1817,7 +1817,7 @@ you know how do contracts do that
 that seems rather complex
 yeah and especially
 yeah and actually like yeah in the
-context of cap 53 i agree that it's also
+context of cap 53 I agree that it's also
 you would change your like if your id on
 the network is your contract like your
 you know the contract is your id type of
@@ -1828,7 +1828,7 @@ like if you upgrade that contract
 we got a request to speak from the
 audience
 i know you don't know how to take them
-i'm not i don't think after
+i'm not I don't think after
 right
 it's android question
 hello can you
@@ -1842,24 +1842,24 @@ discussing
 i am a week away from dropping a
 tokenized community with a coin that i'm
 bringing over from raleigh into solana
-and i want to develop on stellar and
+and I want to develop on stellar and
 i've looked up online there's some
 people that you know help you punch i
 you know i'm just trying to understand
-based on what i know
+based on what I know
 with moving forward
-i mean who can i connect with so that i
+i mean who can I connect with so that i
 can understand the liquidity and how the
 stellar network works
-and how i can make sure that that same
+and how I can make sure that that same
 liquidity i'm probably going to lose it
-but how i can transfer over to the
+but how I can transfer over to the
 stellar network and really make sure
-that i look at all aspects of where i'm
+that I look at all aspects of where i'm
 launching so they don't have to wrap and
 do it differently in a month do you know
 what i'm saying
-yeah cassandra i appreciate the question
+yeah cassandra I appreciate the question
 this specific conversation is about
 a very like specific topic technical
 topic
@@ -1871,19 +1871,19 @@ for example
 ask that question and i'll be happy
 to help you there okay thank you i'm
 just looking for a personal contact i'm
-not bringing in the conversation i just
+not bringing in the conversation I just
 i can't find anyone and i've left a
 couple messages in the chat but i'm not
 sure who to talk to so who is just
 speaking and then i'll tag you
 okay so
-we're we're over time and i think
+we're we're over time and I think
 there's some really interesting
 discussions here that we probably need
 to continue either on the jump cannon
 dev channel here on discord or on the
 mailing list
-so i think we should go with that
+so I think we should go with that
 thank you all for joining and tuning in
 and have a great rest of your day
 you

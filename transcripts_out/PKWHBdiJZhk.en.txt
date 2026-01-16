@@ -2985,9 +2985,9 @@ receiving anchor and showing it in the
 in the wallet similar to how step 24
 in the wallet similar to how step 24
 in the wallet similar to how step 24
-does it I I don't actually think we're
-does it I I don't actually think we're
-does it I I don't actually think we're
+does it I don't actually think we're
+does it I don't actually think we're
+does it I don't actually think we're
 going to need to get there
 going to need to get there
 going to need to get there
@@ -3093,9 +3093,9 @@ wanted to discuss before before we end
 the roundtable for today yeah I have one
 the roundtable for today yeah I have one
 the roundtable for today yeah I have one
-more thing actually because I I said
-more thing actually because I I said
-more thing actually because I I said
+more thing actually because I said
+more thing actually because I said
+more thing actually because I said
 that like two paths that we are
 that like two paths that we are
 that like two paths that we are

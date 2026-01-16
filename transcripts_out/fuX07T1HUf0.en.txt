@@ -291,9 +291,9 @@ network would be tricky. So you know how
 risky it is to break the network.
 risky it is to break the network.
 risky it is to break the network.
-Yeah. So I I do agree with you. these
-Yeah. So I I do agree with you. these
-Yeah. So I I do agree with you. these
+Yeah. So I do agree with you. these
+Yeah. So I do agree with you. these
+Yeah. So I do agree with you. these
 are pretty kind of you know low-level
 are pretty kind of you know low-level
 are pretty kind of you know low-level
@@ -510,9 +510,9 @@ like relative values like might have
 some potential issues like so for
 some potential issues like so for
 some potential issues like so for
-instance I I think I like the limited
-instance I I think I like the limited
-instance I I think I like the limited
+instance I think I like the limited
+instance I think I like the limited
+instance I think I like the limited
 bounds a little bit better than relative
 bounds a little bit better than relative
 bounds a little bit better than relative
@@ -1617,9 +1617,9 @@ only cap that is still not fully
 finalized.
 finalized.
 finalized.
-and I I hope this timing will be
-and I I hope this timing will be
-and I I hope this timing will be
+and I hope this timing will be
+and I hope this timing will be
+and I hope this timing will be
 the last small that we kind of clarify.
 yeah that's pretty much it.
 yeah that's pretty much it.
@@ -1716,9 +1716,9 @@ and it's too much room for
 centralization.
 centralization.
 centralization.
-So I I mean we are obviously open to the
-So I I mean we are obviously open to the
-So I I mean we are obviously open to the
+So I mean we are obviously open to the
+So I mean we are obviously open to the
+So I mean we are obviously open to the
 feedback but yeah as I said objectively
 feedback but yeah as I said objectively
 feedback but yeah as I said objectively
@@ -1755,9 +1755,9 @@ executable.
 , yeah, for cap 67, the timing of
 , yeah, for cap 67, the timing of
 , yeah, for cap 67, the timing of
-the fees. I I don't think this has been
-the fees. I I don't think this has been
-the fees. I I don't think this has been
+the fees. I don't think this has been
+the fees. I don't think this has been
+the fees. I don't think this has been
 finalized. We need to finalize this I
 finalized. We need to finalize this I
 finalized. We need to finalize this I
@@ -1809,9 +1809,9 @@ Yeah, I think I think I
 I I don't want to read just rehash what
 I I don't want to read just rehash what
 I I don't want to read just rehash what
-, we discussed about I I think I was
-, we discussed about I I think I was
-, we discussed about I I think I was
+, we discussed about I think I was
+, we discussed about I think I was
+, we discussed about I think I was
 just like a little bit fuzzy on it. ,
 just like a little bit fuzzy on it. ,
 just like a little bit fuzzy on it. ,
@@ -1825,8 +1825,8 @@ that's Yeah, because we split it. We we
 that's Yeah, because we split it. We we
 that's Yeah, because we split it. We we
 That's right. We split up into
-So I I guess I kind of like like here is
-So I I guess I kind of like like here is
+So I guess I kind of like like here is
+So I guess I kind of like like here is
 my point of view on this like
 my point of view on this like
 my point of view on this like
@@ -2139,9 +2139,9 @@ than do that.
 So given that like like for for the site
 So given that like like for for the site
 So given that like like for for the site
-versus non-sack like I I kind of get the
-versus non-sack like I I kind of get the
-versus non-sack like I I kind of get the
+versus non-sack like I kind of get the
+versus non-sack like I kind of get the
+versus non-sack like I kind of get the
 concern but we cannot really hide the
 concern but we cannot really hide the
 concern but we cannot really hide the

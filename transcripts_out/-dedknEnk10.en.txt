@@ -12,7 +12,7 @@ since this is a pretty technical
 discussion if you want to follow along i
 urge you to take a look at those caps if
 you're interested in joining the
-discussion i urge you to join the
+discussion I urge you to join the
 stellar dev mailing list and if you want
 to also follow along with jump cannon
 development more generally
@@ -28,7 +28,7 @@ that we're talking about if as you're
 listening if you have questions
 the best thing to do is to put them in
 live chat in text i'll do my best to
-monitor it i mean the goal here is to
+monitor it I mean the goal here is to
 actually have substantive discussion
 that moves forward some of these changes
 and that answers questions and allows
@@ -43,10 +43,10 @@ the end of the intro
 everybody here it looks like
 looks like we got a full house
 okay cool
-so i guess to start off with we we have
+so I guess to start off with we we have
 an agenda that has
 like
-and i guess we can just like sort of
+and I guess we can just like sort of
 start with what's at the top of the
 agenda
 i also know that there's some questions
@@ -54,20 +54,20 @@ about interoperability that we may
 want to address
 i think maybe we start with
 46
-removal of box agenda item i i put a
-bunch of i i put a bunch of agenda items
+removal of box agenda item I put a
+bunch of I put a bunch of agenda items
 on here you can hear me
 everyone hear me yeah we can hear you at
-least i can hear you yes okay
-yeah i put a bunch of agenda items on
+least I can hear you yes okay
+yeah I put a bunch of agenda items on
 here but they're all really
-straightforward so i can just
+straightforward so I can just
 grease them really quickly
 boxes in cat46 it's a it's an object
-that contains a value i think this is
+that contains a value I think this is
 actually just an artifact of the notion
 that we might have had mutable objects
-because i think as far as i can tell
+because I think as far as I can tell
 it's it's basically indistinguishable as
 long as we have immutable objects and we
 haven't ratified pointers there's
@@ -78,7 +78,7 @@ and i'm happy to get rid of it until we
 discover or some reason to bring it back
 in the future
 go on once
-go on twice i guess i have a maybe a
+go on twice I guess I have a maybe a
 question yep
 so is that does does that mean if if
 later we decide to have mutable host
@@ -86,7 +86,7 @@ objects
 they would just have to be boxed like
 that that's right that's right that's it
 we'll just bring back so it's actually
-completely back i mean forward
+completely back I mean forward
 compatible but yeah we're just bringing
 we're just bringing the object like back
 in the future it's just that since we
@@ -95,11 +95,11 @@ then we might not delete it
 yeah makes sense
 okay
 so
-yeah i just
-as a part of deleting this i want to get
+yeah I just
+as a part of deleting this I want to get
 rid of the cycle this gets rid of our
 only cycle click reference in the
-structure when i get i want to get rid
+structure when I get I want to get rid
 of the option on the box so we
 definitely can bring this back later on
 but if we do bring this later on
@@ -115,7 +115,7 @@ we can move stellar coordinates equals
 plus 20 or we can back port it to c plus
 17.
 yeah that's a so somewhat bigger kettle
-of fish but i mean we have a
+of fish but I mean we have a
 workaround anyway if we really really
 need it we really need to bring it back
 we can move to an optional box like this
@@ -145,7 +145,7 @@ positive numbers
 i don't personally care i'm perfectly
 happy to have the word pause in there i
 think it's reasonably easy for people to
-understand i could also put in non-neg
+understand I could also put in non-neg
 or n n or something like that but i
 figure terminology wise i've got you all
 here
@@ -154,9 +154,9 @@ this right now so please commit to a
 terminology does anyone have a
 preference
 i think non-nag is confined if that's
-more accurate but i don't really care i
-personally i think u63 was fine but yeah
-not like is fine too i did too i don't
+more accurate but I don't really care i
+personally I think u63 was fine but yeah
+not like is fine too I did too I don't
 care
 i like u63 personally it's short and it
 says what it means
@@ -179,7 +179,7 @@ using too like you know if we were
 writing contracts in zig u63 would
 actually make sense it'd actually be a
 thing
-i mean the thing is like i don't think
+i mean the thing is like I don't think
 the weird reaction is to the name i
 think the weird reaction is to the
 concept but then in context it makes
@@ -188,14 +188,14 @@ accurate name but
 this seems like a mega bike shed thing
 it is a megabyte shed
 i'll go back to u63 if everyone wants
-you 63 but i will not entertain another
+you 63 but I will not entertain another
 comment on this after this meeting so
-this is it yes thank you i mean it's
+this is it yes thank you I mean it's
 like boolean right like boolean is not
 one bit in most like if you have a
 variable like that right it's already
 the same thing so i'm fine with i'm
-actually i prefer u63 as well because it
+actually I prefer u63 as well because it
 actually tells you what it is
 everyone wants you 63 okay we're going
 back to u63
@@ -220,7 +220,7 @@ tidier we actually had like like in the
 implementation we had pages and pages
 of sql code for both of these types and
 they're pretty much identical cedric
-and i worked through this stuff and then
+and I worked through this stuff and then
 they really only differ on a you know
 one field which is whether there's an
 additional sub key
@@ -239,11 +239,11 @@ contracts or the the owning contracts
 own wasm code and then we just do our
 binary and sc binary type
 and so we implemented that it seems to
-work fine i have not updated the cap
-yet i want to run that by everyone make
+work fine I have not updated the cap
+yet I want to run that by everyone make
 sure everyone's okay with it it it leans
 us a little bit towards mutable
-contracts but i believe a lot of our
+contracts but I believe a lot of our
 design discussion has been drifting in
 that direction anyway it does not wet us
 to that we do not have to we could also
@@ -253,13 +253,13 @@ but it sort of
 has that tendency of treating code and
 data as the same thing
 which at some level they are
-so i i spoke to siddharth about this
+so I spoke to siddharth about this
 yesterday quite a bit in the afternoon
 but one of the one of my main concerns
 around
 mutable code and this is much more about
 the mutable code aspect of it than about
-the merging them the merging it i care
+the merging them the merging it I care
 less
 about other than the fact that it like
 makes them like default mutable and we
@@ -290,7 +290,7 @@ but like we don't have answers to
 those questions yet or at least i
 haven't heard answers to those kinds of
 questions yet
-no i agree we don't we we did however
+no I agree we don't we we did however
 have in cat 47 a function for writing
 
 a contract code entry so whatever that
@@ -303,7 +303,7 @@ the this is observable by anything after
 like immediately after whereas here i
 think we we have to decide and we
 probably cannot make this actually
-this cannot be true i think
+this cannot be true I think
 because this is going to be
 probably scoped with the tied up to
 the lifetime of the
@@ -319,13 +319,13 @@ actually deviating from what we do for
 data
 so we have to really
 you know specify this and think about it
-very hard that's exactly what i was
+very hard that's exactly what I was
 saying nico you just said yeah
-no i know like it's it's kind of scary
+no I know like it's it's kind of scary
 in a way that
 i don't know what the right answer is on
 i
-know you see i don't i don't actually
+know you see I don't I don't actually
 think this is this is particularly scary
 i think there are really only two
 possible options and they're both fine
@@ -347,15 +347,15 @@ windows
 the file's locked on windows while it's
 executing on unix you can rewrite the
 file
-as far as i know
-because i do upgrades of running
+as far as I know
+because I do upgrades of running
 programs all the time and it works
-like if i if i upgrade chrome while it's
-running if i if i do apt-get install
+like if I if I upgrade chrome while it's
+running if I if I do apt-get install
 bash it works in my backup i'm telling
-you i literally just tested this and
-i get e busy i mean this is kind of a
-side note but i think what you're doing
+you I literally just tested this and
+i get e busy I mean this is kind of a
+side note but I think what you're doing
 when you upgrade is you're unlinking the
 file and creating a new file but you
 can't you can't like write to an inode
@@ -366,7 +366,7 @@ i know my point is it's it's totally
 doable in some contexts and in other
 contexts you block it and those are the
 only two options here so
-and i think they're both fine there are
+and I think they're both fine there are
 other options okay there's the only two
 reasonable options the other one is what
 hot patch your existing running program
@@ -374,7 +374,7 @@ which you're not going to do no there's
 at least one other option which is like
 you can't update something while it's
 running you have to delegate that's
-blocked that's what i just said that's
+blocked that's what I just said that's
 the other option block or allow
 what what exactly do you mean by block i
 guess it fails you try to make the right
@@ -384,13 +384,13 @@ what right right right to the running
 the right to the running code fail
 because we decided
 but then how do you actually do the
-update i guess like you're just saying
+update I guess like you're just saying
 you can't mutate it you can't take your
 own you can you can mutate someone
 else's
 okay but like that needs a lot of
 specification in and of itself
-and i was providing an example of how
+and I was providing an example of how
 you can do that you can't just like i
 can't just modify your contract right
 like there's obvious that's obviously
@@ -411,10 +411,10 @@ that i'm like
 it's like sure maybe you have two
 high-level options allow or block but
 like block has many sub-options
-okay i i i don't i don't see this is
+okay I don't I don't see this is
 i don't see this is relating to the
 question which is do we store this as a
-ledger entry or not i agree that
+ledger entry or not I agree that
 individual host functions need to have
 semantics defined for them but okay i
 guess what i'm getting at is
@@ -433,7 +433,7 @@ what i'm going to specify that agent
 files are currently immutable
 even if it's stored as data no the
 currently running contract is immutable
-but we as i just said we have no
+but we as I just said we have no
 mechanism to write to a not running
 contract or not a good mechanism we
 should just make it immutable if it's
@@ -443,7 +443,7 @@ the mutability problem from the
 representation problem okay
 then we can make progress because like i
 i don't want to approve this if we don't
-have like i don't want to prove it in
+have like I don't want to prove it in
 the mutable case if we don't have a good
 story about me to build and we don't
 right now gotcha okay so only only
@@ -482,7 +482,7 @@ little bit in yet another one of the
 threads this week which is like is there
 any kind of delegation mechanism
 
-i i think it's a little bit awkward
+i I think it's a little bit awkward
 because
 
 well first of all we actually come up
@@ -507,7 +507,7 @@ just
 any sort of future
 limiting something we can do in the
 future
-i don't think so because again i think i
+i don't think so because again I think i
 think
 
 47 already has a function called write
@@ -524,7 +524,7 @@ john was really
 adamant about like let's let's ship
 without and see what happens and
 you know
-i can i can live with that because we
+i can I can live with that because we
 it's true like we could we could make
 the wrong
 delegation mechanism and then we'd be
@@ -532,15 +532,15 @@ stuck supporting it forever so
 make sense
 zoomed in focused on the representation
 question nobody has any real objections
-okay i think it's really not contentious
-okay so the final thing i had on the
+okay I think it's really not contentious
+okay so the final thing I had on the
 agenda which is the footprint type
 which is like even less contentious
 i'll just be extending cat53 with a new
 data type which is called footprint and
 it just contains two lists of ledger
 keys the only really possibly
-contentious aspect of this i think is
+contentious aspect of this I think is
 whether ledger keys full keys should be
 there or whether they should be
 restricted to only contract data
@@ -552,9 +552,9 @@ that it means that we are essentially
 fixing
 the impossibility of interacting with
 other ledger entries into the protocol
-going forward and i think the
+going forward and I think the
 interoperability question
-still leaves that open so i was assuming
+still leaves that open so I was assuming
 that they would be a full electric key
 at least that in conversation with john
 he again
@@ -594,29 +594,29 @@ have questions
 
 are we switching now on onto like acid
 and drop stuff is that that where we are
-yeah yeah yeah so i think that all we've
+yeah yeah yeah so I think that all we've
 sort of gone through all of the existing
 stuff on the agenda and the only thing
 that was a big question mark was the
-asset interoperability stuff and i think
+asset interoperability stuff and I think
 that that's where we are at this point
-yeah i mean i think the only real thing
+yeah I mean I think the only real thing
 to talk about here which like
 we have not
 been able to come to agreement on is
 just like what are even the requirements
 what are we trying to achieve
 me nico tomer lee talk about this prop
-like this problem i don't know like
+like this problem I don't know like
 three times a week right now
-and i don't even think we're all talking
-about the same thing so i think we just
+and I don't even think we're all talking
+about the same thing so I think we just
 need to talk about
 our feelings
 so anybody can take before from that
-yeah i love talking about my feelings so
+yeah I love talking about my feelings so
 i'll start
-yeah so i think you know the basic
+yeah so I think you know the basic
 requirement
 from asset interop in my opinion is so
 let's
@@ -624,7 +624,7 @@ maybe it's worth thinking about like the
 full spectrum of of interop or about the
 edges and where we are in the middle
 so
-you know i think like on one
+you know I think like on one
 extreme interop
 thing we just do nothing right and
 this is you can look for example at
@@ -635,7 +635,7 @@ whatsoever and if you want to interrupt
 with the parent chain you need to go
 through
 you know various bridging solutions
-so i think that's a very extreme
+so I think that's a very extreme
 version which is no interop at all
 and it basically means that we're not
 taking advantage of the existing stellar
@@ -660,9 +660,9 @@ idiosyncrasies and in the classic
 protocol to the new world so
 i think we need to find somewhere in
 between
-and i would say that even though
+and I would say that even though
 there are a lot of disagreements in this
-in this room i think the basic thing
+in this room I think the basic thing
 that we agree on is that
 assets are the main point of
 interoperability like we're not trying
@@ -689,18 +689,18 @@ oh maybe i'll i'll pick it up
 because yeah like with the without a
 change it's kind of like that's
 the part that's right that is kind of
-reloaded i would say
+reloaded I would say
 like the
 like
 as soon as you as we say
 there's basically like
 there are two parts to it right there is
 the
-do i expect
+do I expect
 on day one
 as soon as we have like
 smart cr smart contract capabilities
-can i use
+can I use
 any classic asset on the network kind of
 automatically right
 or not
@@ -787,7 +787,7 @@ but for that it's an opt-in so that
 means you don't get automatically like
 everybody you know every classic asset
 kind of shows up on day one
-yeah so i think cable balances are a
+yeah so I think cable balances are a
 really good
 example
 you know they're a fairly novel
@@ -797,7 +797,7 @@ specific stellar wallets it we we
 haven't even seen support for them
 and with major service providers
 so it's worth you know when i'm when
-i'm talking about minimal change i think
+i'm talking about minimal change I think
 it's worth
 dividing this into the different
 stakeholders that we're talking about
@@ -813,7 +813,7 @@ like these folks
 you know take the path of least
 resistance it's been even difficult to
 get muxed accounts implemented with
-these folks so i would say that from
+these folks so I would say that from
 their perspective
 we
 like zero change is preferable
@@ -829,7 +829,7 @@ so you know on the wallet side itself
 and from a user perspective that's
 trying to use the smart side it's
 definitely okay to introduce some
-some changes and can i have actually
+some changes and can I have actually
 have a question on exchanges like when
 you say like exchanges don't need to
 make sure well like exchanges today
@@ -842,7 +842,7 @@ usdc it's relevant because there is a
 group of exchanges that support usdc and
 don't right
 it's growing you know and it's growing
-but like over time do you i mean
+but like over time do you I mean
 wouldn't you expect
 people like if they are like any good
 assets being issued on the
@@ -856,7 +856,7 @@ they're not issuing tokens right they
 are it's more like they have a wallet in
 classic and you want their water to
 continue to work
-right and i mean i think at some point
+right and I mean I think at some point
 if they decide that smart assets are
 interesting and they want to opt in to
 make the changes great but they they're
@@ -864,7 +864,7 @@ probably not going to be the first
 people to do it's probably going to take
 them a while and it sounds like we just
 don't want to break them
-yeah that's fine but like i don't think
+yeah that's fine but like I don't think
 we we ne
 none of the proposals so far are saying
 we would break classic wallets
@@ -887,18 +887,18 @@ i get that i'm just kind of a bit
 skeptical about
 like the
 for exchanges in particular that
-they won't do like basically i think
+they won't do like basically I think
 there are two types of exchanges the
 exchanges that are going to be
 supporting whatever the latest set of
-functions i mean they are going to kind
+functions I mean they are going to kind
 of keep up maybe like you know with some
 delay but they are kind of keeping up
 and then you have others that are very
 conservative and going to be slow
-and i think that's why for example i
+and I think that's why for example i
 think we don't have still
-usdc on coinbase i think right stellar
+usdc on coinbase I think right stellar
 usdc
 coinbase
 according to foreign sources doesn't
@@ -918,7 +918,7 @@ and then it's hard to create that
 demand without you know these assets
 supporting supported domain exchanges
 
-but i think like the main thing i'm
+but I think like the main thing i'm
 trying to together here is that like
 it's hard to get exchanges to to do
 changes and the service providers as
@@ -970,7 +970,7 @@ as a classic asset
 like think of like you know nfts or all
 sorts of random things like that
 yeah
-so as i said like if you if you if you
+so as I said like if you if you if you
 issue on classic then you have the
 entire breadth of like classic tooling
 available at your disposal right now
@@ -1017,7 +1017,7 @@ program those assets than to be able to
 create some new ecosystem that's not
 that's more divorced from the existing
 one
-so i think there are
+so I think there are
 it's probably both david because
 you're gonna have yes you're gonna have
 you know the the stable coins usdc and
@@ -1035,8 +1035,8 @@ transferable as regular payment on
 the classic side and maybe that helps
 with
 with implementation but we will
-see these assets but but i mean i guess
-i mean put another way like when i talk
+see these assets but but I mean I guess
+i mean put another way like when I talk
 to people who are using stellar right
 it's it's it's often kind of two things
 that draw them stellar like sort of the
@@ -1077,7 +1077,7 @@ whole new smart contract to implement
 this we just want somehow
 like unilaterally people can write
 contracts that do things with usdc
-yeah i think we're getting into a lot of
+yeah I think we're getting into a lot of
 speculation and somewhat like religious
 discussions here
 john can you help us like fine tune
@@ -1111,7 +1111,7 @@ you be able to take a smart asset and
 easily send it back to the
 classic side
 
-that access is more speculative i think
+that access is more speculative I think
 but those are kind of like the three
 angles that one might look at this
 problem
@@ -1130,17 +1130,17 @@ baked in contracts for for assets
 like people don't
 actually innovate all that much with
 assets
-and like i guess my question to you
+and like I guess my question to you
 is like can we make those like canonical
 assets on stellar be the existing
 assets
 maybe
-i mean i think you'd be making a lot of
+i mean I think you'd be making a lot of
 sacrifices to do so
 are they sacrifices worth making making
 not to me
 what are the sacrifices
-i mean i think the biggest sacrifice is
+i mean I think the biggest sacrifice is
 just like do we really want to have
 a 64-bit balance for everything
 
@@ -1159,28 +1159,28 @@ we have all this compliance stuff baked
 in it's pretty unwieldy for a variety of
 reasons
 do we want to be married to that for the
-rest of eternity i don't so
+rest of eternity I don't so
 i guess what i'm getting at is
 you can shoehorn anything into anything
 send you
 i have a really strong opinion about the
-should you question but i do have
+should you question but I do have
 i participated briefly the last time
-around and i just want to do ads since
+around and I just want to do ads since
 you're already doing requirements
 gathering here a somewhat
 narrow version of of what feel like
-the requirements i would want to add to
-this question i don't actually have very
-strong opinions about the assets i do
+the requirements I would want to add to
+this question I don't actually have very
+strong opinions about the assets I do
 have fairly strong opinions about two
-minor points and i think they i think
+minor points and I think they I think
 there's a wide variety of ways to
 achieve these but if we're writing
-things down if possible i would like
+things down if possible I would like
 to request that users not be in charge
 of non-management unless they really
-really want to i think
+really want to I think
 if we're in a situation where the user
 has to figure out how to operate a
 cryptography api safely and correctly
@@ -1196,13 +1196,13 @@ simple signature that's fairly
 impossible to misuse i'm kind of okay
 with most of those approaches but
 cryptography apis become error-prone
-really really quickly and i don't want
+really really quickly and I don't want
 to surface a lot of that to users unless
 they ask for it unless they're going out
-of their way to say i personally want to
+of their way to say I personally want to
 do some some fancy cryptography for the
 average person who's just creating an
-asset i really want them to not be
+asset I really want them to not be
 forced to copy paste and possibly get
 wrong the use of a cryptography api
 
@@ -1221,11 +1221,11 @@ execution performance perspective to
 factor it out as well so i'm just
 i know the authorization point is not
 the only part of interrupt but to me
-it's the only part that i actually care
-about i do not care about the other
+it's the only part that I actually care
+about I do not care about the other
 aspects
-right so i think that what you just
-described i think is that's kind of what
+right so I think that what you just
+described I think is that's kind of what
 is touched on in all this
 
 yeah in cap 52
@@ -1236,12 +1236,12 @@ is
 and going back to that right is it is is
 different it's different and that's why
 they are like things done in a certain
-way in cap 52 but i do agree that
+way in cap 52 but I do agree that
 i know as we try to figure out like the
 actual
 interrupt story with classic it would be
 we can
-avoid having i mean having like a
+avoid having I mean having like a
 yeah like good
 solid
 base implementation that people can just
@@ -1261,7 +1261,7 @@ and user writing your own authorization
 group is just a disaster
 we have too many crickets
 can somebody make it
-i don't like well i do have a
+i don't like well I do have a
 question so returning to to what
 tomorrow
 sort of started this threat this
@@ -1326,16 +1326,16 @@ well are there other questions that
 people want to bring up now in the last
 nine minutes that would help sort of
 move the conversation forward or should
-we just call it i mean we got through a
+we just call it I mean we got through a
 lot today
 i'll let people think for a minute
-okay i think that's a wrap then
+okay I think that's a wrap then
 so thanks again everybody for joining
 the discussion anyone who's watching
 obviously we're going to post this you
 know to archive it on youtube later so
 if you want to re re-watch this which i
-mean who doesn't right i watch these
+mean who doesn't right I watch these
 things six or seven times you can
 watch them there on youtube and
 also if you want to participate in the

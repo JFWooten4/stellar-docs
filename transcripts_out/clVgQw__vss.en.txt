@@ -849,9 +849,9 @@ straightforward feature to communicate
 with how contract developers should use
 with how contract developers should use
 with how contract developers should use
-it like I I don't think they have a good
-it like I I don't think they have a good
-it like I I don't think they have a good
+it like I don't think they have a good
+it like I don't think they have a good
+it like I don't think they have a good
 strategy for this now
 strategy for this now
 strategy for this now
@@ -3030,9 +3030,9 @@ to write the manual pumps it's
 both complicated and those are wrong
 both complicated and those are wrong
 both complicated and those are wrong
-yeah and I I think we really need to
-yeah and I I think we really need to
-yeah and I I think we really need to
+yeah and I think we really need to
+yeah and I think we really need to
+yeah and I think we really need to
 think about the initial balances like
 think about the initial balances like
 think about the initial balances like
@@ -3315,12 +3315,12 @@ additional bumps provide those Bumps
 by the footprint interface
 yeah I think I think that sounds really
 yeah I think I think that sounds really
-good I I and I just sort of lean further
-good I I and I just sort of lean further
-good I I and I just sort of lean further
-on it I do think I I assume we're still
-on it I do think I I assume we're still
-on it I do think I I assume we're still
+good I and I just sort of lean further
+good I and I just sort of lean further
+good I and I just sort of lean further
+on it I do think I assume we're still
+on it I do think I assume we're still
+on it I do think I assume we're still
 talking about the contract still is the
 talking about the contract still is the
 talking about the contract still is the
@@ -3429,9 +3429,9 @@ motivation to do so
 I think oh sorry timer no I just
 I think oh sorry timer no I just
 I think oh sorry timer no I just
-wanted to say that I I wouldn't put too
-wanted to say that I I wouldn't put too
-wanted to say that I I wouldn't put too
+wanted to say that I wouldn't put too
+wanted to say that I wouldn't put too
+wanted to say that I wouldn't put too
 much effort into protecting against like
 much effort into protecting against like
 much effort into protecting against like
@@ -3465,9 +3465,9 @@ it's a fight you can't win
 yeah I actually yeah I think that's
 yeah I actually yeah I think that's
 yeah I actually yeah I think that's
-yeah I I wanted to say I I don't fully
-yeah I I wanted to say I I don't fully
-yeah I I wanted to say I I don't fully
+yeah I wanted to say I don't fully
+yeah I wanted to say I don't fully
+yeah I wanted to say I don't fully
 agree with this because really if you
 agree with this because really if you
 agree with this because really if you
@@ -3648,9 +3648,9 @@ you know let's not focus too heavily on
 malicious
 malicious
 malicious
-I get it I I think this design
-I get it I I think this design
-I get it I I think this design
+I get it I think this design
+I get it I think this design
+I get it I think this design
 does
 does
 does

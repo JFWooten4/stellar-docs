@@ -137,7 +137,7 @@ there where we actually replicate
 electrostline semantics in sorbon
 
 like
-I I think I I I think we should like I I
+I I think I think we should like I I
 I'm still I'm still like support on
 that side in that you know that question
 the thing you mentioned about how
@@ -363,7 +363,7 @@ when you do a transfer
 in either case if you have a bug you're
 kind of you know in trouble so I think
 it doesn't like from that point of view
-implementation wide I I don't think it
+implementation wide I don't think it
 has you know much consequences
 actually
 yeah I agree with you I think from an
@@ -733,7 +733,7 @@ I think that's a like a strong argument
 to
 you know to keep the you know the
 smart stuff on the smart side
-I don't I I don't think that's
+I don't I don't think that's
 necessarily what David was saying
 it's like he like I think the idea is
 more like if you have
@@ -886,7 +886,7 @@ other use cases I just want to ensure
 like as we were discussing this is there
 any limitations to use cases dependent
 upon this decision
-so I I do want to mention that if you
+so I do want to mention that if you
 look at the dock at the top section
 there's semantics you can create pure
 soroban tokens that either adhere to our
@@ -909,7 +909,7 @@ have
 you know you can have a a much bigger
 your balance because the standard token
 contracts
-have an i and and into a 128 integer
+have an I and and into a 128 integer
 type instead of the the kind of like the
 sine 64-bit integer that we have in in
 Stellar assets so there are there are
@@ -968,7 +968,7 @@ effectively always be the same you know
 if as long as it's the standard token
 contract but
 
-but I I do agree I think personally
+but I do agree I think personally
 though this is a pretty easy
 adjustment that we can make so like you
 you know just having a get available
@@ -1066,7 +1066,7 @@ interested in adding the opt-in
 semantics even for dual balances even
 for single balances
 it are you persuaded in any way
-leader muted yeah I I feel like I want
+leader muted yeah I feel like I want
 to think about it a bit more but I like
 this second model is
 I think
@@ -1207,7 +1207,7 @@ interact with anything on Stellar
 I would at least expect that
 the way that kind of works to be
 consistent
-and I I think from you know not
+and I think from you know not
 having thought about this too long yet
 like option 2.2 kind of speaks the most
 to me like at the current moment
@@ -1244,7 +1244,7 @@ that and make it clear to users is is
 quite confusing
 and then just says like a little
 second part during during the
-conversation after I I popped up here
+conversation after I popped up here
 I don't really see a reason why we can't
 have two separate token contracts
 you know ones that are actually going

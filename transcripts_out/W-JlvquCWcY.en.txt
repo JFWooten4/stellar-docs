@@ -30,9 +30,9 @@ talking about data analytics on stellar
 so the goal of our team as well as a lot
 so the goal of our team as well as a lot
 so the goal of our team as well as a lot
-of the work that i do at sdf
-of the work that i do at sdf
-of the work that i do at sdf
+of the work that I do at sdf
+of the work that I do at sdf
+of the work that I do at sdf
 is to do the fundamental meta work that
 is to do the fundamental meta work that
 is to do the fundamental meta work that
@@ -174,9 +174,9 @@ in the interest of time and network
 connections over the talk
 connections over the talk
 connections over the talk
-i'm not going to live code but i will
-i'm not going to live code but i will
-i'm not going to live code but i will
+i'm not going to live code but I will
+i'm not going to live code but I will
+i'm not going to live code but I will
 share links for folks do their own
 share links for folks do their own
 share links for folks do their own
@@ -207,9 +207,9 @@ questions of the youtube chat
 and i'll be answering those questions at
 and i'll be answering those questions at
 and i'll be answering those questions at
-the end to make sure i get through all
-the end to make sure i get through all
-the end to make sure i get through all
+the end to make sure I get through all
+the end to make sure I get through all
+the end to make sure I get through all
 this material
 this material
 this material
@@ -615,9 +615,9 @@ second the cloud scale warehouse this
 needed a bunch of capabilities
 needed a bunch of capabilities
 needed a bunch of capabilities
-determined by what i just said
-determined by what i just said
-determined by what i just said
+determined by what I just said
+determined by what I just said
+determined by what I just said
 it had to have scripting abilities
 it had to have scripting abilities
 it had to have scripting abilities
@@ -924,9 +924,9 @@ easy to integrate within our
 organization
 organization
 organization
-and i suspect that organizations that
-and i suspect that organizations that
-and i suspect that organizations that
+and I suspect that organizations that
+and I suspect that organizations that
+and I suspect that organizations that
 run on microsoft like microsoft teams or
 run on microsoft like microsoft teams or
 run on microsoft like microsoft teams or
@@ -936,9 +936,9 @@ whatever
 might have similar experience with azure
 might have similar experience with azure
 might have similar experience with azure
-so i do think it probably determines
-so i do think it probably determines
-so i do think it probably determines
+so I do think it probably determines
+so I do think it probably determines
+so I do think it probably determines
 live organizational needs
 third for metrics we decided to use
 third for metrics we decided to use
@@ -981,9 +981,9 @@ folks and it keeps data tabular so you
 can pretty easily connect
 can pretty easily connect
 can pretty easily connect
-here's whatever the table i got out and
-here's whatever the table i got out and
-here's whatever the table i got out and
+here's whatever the table I got out and
+here's whatever the table I got out and
+here's whatever the table I got out and
 here's how it looks on the actual
 here's how it looks on the actual
 here's how it looks on the actual
@@ -1041,9 +1041,9 @@ really cool event driven architecture
 really simple really powerful and
 really simple really powerful and
 really simple really powerful and
-honestly i think that
-honestly i think that
-honestly i think that
+honestly I think that
+honestly I think that
+honestly I think that
 this sort of way to automate metrics is
 this sort of way to automate metrics is
 this sort of way to automate metrics is
@@ -1086,9 +1086,9 @@ use drag and drop
 and some sql and we also wanted to be
 and some sql and we also wanted to be
 and some sql and we also wanted to be
-open source so i tried a lot of tools
-open source so i tried a lot of tools
-open source so i tried a lot of tools
+open source so I tried a lot of tools
+open source so I tried a lot of tools
+open source so I tried a lot of tools
 that
 that
 that
@@ -1218,9 +1218,9 @@ about an intermediate solution
 and four exploring data is painful so
 and four exploring data is painful so
 and four exploring data is painful so
-you'll notice i didn't actually talk
-you'll notice i didn't actually talk
-you'll notice i didn't actually talk
+you'll notice I didn't actually talk
+you'll notice I didn't actually talk
+you'll notice I didn't actually talk
 about a data science platform above
 about a data science platform above
 about a data science platform above
@@ -1413,9 +1413,9 @@ that you can now condition
 filter group so on so forth
 filter group so on so forth
 filter group so on so forth
-once again i want to say that like the
-once again i want to say that like the
-once again i want to say that like the
+once again I want to say that like the
+once again I want to say that like the
+once again I want to say that like the
 queries are not the focus of this
 queries are not the focus of this
 queries are not the focus of this
@@ -1443,9 +1443,9 @@ can make these queries we also put out a
 blog post earlier this summer
 blog post earlier this summer
 blog post earlier this summer
-that covers a lot of this and i highly
-that covers a lot of this and i highly
-that covers a lot of this and i highly
+that covers a lot of this and I highly
+that covers a lot of this and I highly
+that covers a lot of this and I highly
 recommend checking it out
 so forth and finally let's talk about
 so forth and finally let's talk about
@@ -1716,9 +1716,9 @@ a desire to try to figure out how to do
 it i'm very happy to talk about it
 it i'm very happy to talk about it
 it i'm very happy to talk about it
-so that's all for me i hope you really
-so that's all for me i hope you really
-so that's all for me i hope you really
+so that's all for me I hope you really
+so that's all for me I hope you really
+so that's all for me I hope you really
 enjoyed hearing about this pipeline and
 enjoyed hearing about this pipeline and
 enjoyed hearing about this pipeline and
@@ -1737,15 +1737,15 @@ set that you wish existed
 so i'll start by plugging again the two
 so i'll start by plugging again the two
 so i'll start by plugging again the two
-things that i just said
-things that i just said
-things that i just said
-because i think they enable a lot of the
-because i think they enable a lot of the
-because i think they enable a lot of the
-cool projects so for one i think it
-cool projects so for one i think it
-cool projects so for one i think it
+things that I just said
+things that I just said
+things that I just said
+because I think they enable a lot of the
+because I think they enable a lot of the
+because I think they enable a lot of the
+cool projects so for one I think it
+cool projects so for one I think it
+cool projects so for one I think it
 should be really easy to see
 should be really easy to see
 should be really easy to see
@@ -1803,9 +1803,9 @@ when you have really good rates on
 stellar it makes the whole network work
 stellar it makes the whole network work
 stellar it makes the whole network work
-and i think that applications that
-and i think that applications that
-and i think that applications that
+and I think that applications that
+and I think that applications that
+and I think that applications that
 surface information like that like the
 surface information like that like the
 surface information like that like the
@@ -1818,9 +1818,9 @@ are the most useful to leverage this
 data set in the short term
 data set in the short term
 data set in the short term
-longer term things that i think would be
-longer term things that i think would be
-longer term things that i think would be
+longer term things that I think would be
+longer term things that I think would be
+longer term things that I think would be
 cool that leveraged this data set
 cool that leveraged this data set
 cool that leveraged this data set
@@ -1851,9 +1851,9 @@ and one of the things that with vibrant
 sdf has started working on
 sdf has started working on
 sdf has started working on
-and i think that if there were projects
-and i think that if there were projects
-and i think that if there were projects
+and I think that if there were projects
+and I think that if there were projects
+and I think that if there were projects
 that demonstrated that longitudinal
 that demonstrated that longitudinal
 that demonstrated that longitudinal
@@ -1893,9 +1893,9 @@ i will say that you don't need to
 understand the engineering aspect of
 understand the engineering aspect of
 understand the engineering aspect of
-what i just talked about to use the data
-what i just talked about to use the data
-what i just talked about to use the data
+what I just talked about to use the data
+what I just talked about to use the data
+what I just talked about to use the data
 set
 set
 set
@@ -1959,9 +1959,9 @@ few layer ones that can actually do
 layer two things like that
 layer two things like that
 layer two things like that
-so i think demonstrating that value like
-so i think demonstrating that value like
-so i think demonstrating that value like
+so I think demonstrating that value like
+so I think demonstrating that value like
+so I think demonstrating that value like
 that exists
 that exists
 that exists
@@ -1974,9 +1974,9 @@ just a payments platform with xlm
 there's all this other stuff you can do
 there's all this other stuff you can do
 there's all this other stuff you can do
-on top of it i think that's one of the
-on top of it i think that's one of the
-on top of it i think that's one of the
+on top of it I think that's one of the
+on top of it I think that's one of the
+on top of it I think that's one of the
 things that becomes a lot easier
 things that becomes a lot easier
 things that becomes a lot easier

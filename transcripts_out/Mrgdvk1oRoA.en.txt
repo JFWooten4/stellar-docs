@@ -6,9 +6,9 @@ welcome to the the engineering talk
 we are going to begin momentarily
 we are going to begin momentarily
 we are going to begin momentarily
-one thing i will say and i think
-one thing i will say and i think
-one thing i will say and i think
+one thing I will say and I think
+one thing I will say and I think
+one thing I will say and I think
 our host has posted
 our host has posted
 our host has posted
@@ -99,9 +99,9 @@ this presentation
 so let's go ahead and begin
 so let's go ahead and begin
 so let's go ahead and begin
-so like i just said polaris is a
-so like i just said polaris is a
-so like i just said polaris is a
+so like I just said polaris is a
+so like I just said polaris is a
+so like I just said polaris is a
 django anchor app
 django anchor app
 django anchor app
@@ -195,9 +195,9 @@ endpoints they're all going to have info
 endpoints they're all going to have
 endpoints they're all going to have
 endpoints they're all going to have
-what the step describes and when i say
-what the step describes and when i say
-what the step describes and when i say
+what the step describes and when I say
+what the step describes and when I say
+what the step describes and when I say
 the set sorry i'm just going to
 the set sorry i'm just going to
 the set sorry i'm just going to
@@ -354,15 +354,15 @@ anchor in brazil
 you know me as the developer of
 you know me as the developer of
 you know me as the developer of
-polaris i don't know
-polaris i don't know
-polaris i don't know
-what bank you're connecting with i don't
-what bank you're connecting with i don't
-what bank you're connecting with i don't
-know what api you're using i don't know
-know what api you're using i don't know
-know what api you're using i don't know
+polaris I don't know
+polaris I don't know
+polaris I don't know
+what bank you're connecting with I don't
+what bank you're connecting with I don't
+what bank you're connecting with I don't
+know what api you're using I don't know
+know what api you're using I don't know
+know what api you're using I don't know
 anything about that
 anything about that
 anything about that
@@ -624,9 +624,9 @@ it's used as demonstration so you can
 show
 show
 show
-or show i can show how people you
-or show i can show how people you
-or show i can show how people you
+or show I can show how people you
+or show I can show how people you
+or show I can show how people you
 know
 know
 know
@@ -846,9 +846,9 @@ environment
 so actually sorry before i
 so actually sorry before i
 so actually sorry before i
-before i dive into the code here i do
-before i dive into the code here i do
-before i dive into the code here i do
+before I dive into the code here I do
+before I dive into the code here I do
+before I dive into the code here I do
 want to show you
 want to show you
 want to show you
@@ -930,9 +930,9 @@ interactive page the user is going to
 see
 see
 see
-so if i was a user this is the first
-so if i was a user this is the first
-so if i was a user this is the first
+so if I was a user this is the first
+so if I was a user this is the first
+so if I was a user this is the first
 form that would be presented to me
 form that would be presented to me
 form that would be presented to me
@@ -948,9 +948,9 @@ and and here is the amount field that's
 asking me
 asking me
 asking me
-you know to specify how much i plan to
-you know to specify how much i plan to
-you know to specify how much i plan to
+you know to specify how much I plan to
+you know to specify how much I plan to
+you know to specify how much I plan to
 deposit
 deposit
 deposit
@@ -1041,9 +1041,9 @@ so let's go ahead and do that and so
 now
 now
 now
-django polaris after i submitted the
-django polaris after i submitted the
-django polaris after i submitted the
+django polaris after I submitted the
+django polaris after I submitted the
+django polaris after I submitted the
 amount is going to go ahead and work on
 amount is going to go ahead and work on
 amount is going to go ahead and work on
@@ -1059,18 +1059,18 @@ executing on the the transaction as
 you can see
 you can see
 you can see
-and now it's complete so if i were to go
-and now it's complete so if i were to go
-and now it's complete so if i were to go
+and now it's complete so if I were to go
+and now it's complete so if I were to go
+and now it's complete so if I were to go
 to
 to
 to
-my account right now i could show you
-my account right now i could show you
-my account right now i could show you
-that i have at least 100
-that i have at least 100
-that i have at least 100
+my account right now I could show you
+my account right now I could show you
+my account right now I could show you
+that I have at least 100
+that I have at least 100
+that I have at least 100
 srt in my account and i'm not going to
 srt in my account and i'm not going to
 srt in my account and i'm not going to
@@ -1089,15 +1089,15 @@ kind of a page that displays all the
 information on the transaction so
 information on the transaction so
 information on the transaction so
-i sent them 100 supposedly i was charged
-i sent them 100 supposedly i was charged
-i sent them 100 supposedly i was charged
+i sent them 100 supposedly I was charged
+i sent them 100 supposedly I was charged
+i sent them 100 supposedly I was charged
 a dollar and one cents
 a dollar and one cents
 a dollar and one cents
-and the amount that i actually received
-and the amount that i actually received
-and the amount that i actually received
+and the amount that I actually received
+and the amount that I actually received
+and the amount that I actually received
 in my seller account the amount of srt
 in my seller account the amount of srt
 in my seller account the amount of srt
@@ -1155,15 +1155,15 @@ something happens because something
 always happens in demos
 always happens in demos
 always happens in demos
-but let's see how far we get i think
-but let's see how far we get i think
-but let's see how far we get i think
+but let's see how far we get I think
+but let's see how far we get I think
+but let's see how far we get I think
 we're gonna be able to do it
 we're gonna be able to do it
 we're gonna be able to do it
-so like i was saying with any python
-so like i was saying with any python
-so like i was saying with any python
+so like I was saying with any python
+so like I was saying with any python
+so like I was saying with any python
 project
 project
 project
@@ -1179,9 +1179,9 @@ virtual environment right now using
 python 3.
 python 3.
 python 3.
-and i have a little shortcut that
-and i have a little shortcut that
-and i have a little shortcut that
+and I have a little shortcut that
+and I have a little shortcut that
+and I have a little shortcut that
 activates the virtual environment
 activates the virtual environment
 activates the virtual environment
@@ -1206,9 +1206,9 @@ okay so now i'm in a virtual
 environment this little enclosed box
 environment this little enclosed box
 environment this little enclosed box
-where i can install my own packages and
-where i can install my own packages and
-where i can install my own packages and
+where I can install my own packages and
+where I can install my own packages and
+where I can install my own packages and
 make sure
 make sure
 make sure
@@ -1281,9 +1281,9 @@ different information and it's not
 organized in one
 organized in one
 organized in one
-way where i can just kind of scroll
-way where i can just kind of scroll
-way where i can just kind of scroll
+way where I can just kind of scroll
+way where I can just kind of scroll
+way where I can just kind of scroll
 through so the first that we're gonna
 through so the first that we're gonna
 through so the first that we're gonna
@@ -1350,9 +1350,9 @@ going to create a django project now
 this is
 this is
 this is
-yeah so i have this function called or
-yeah so i have this function called or
-yeah so i have this function called or
+yeah so I have this function called or
+yeah so I have this function called or
+yeah so I have this function called or
 this command line tool called django
 this command line tool called django
 this command line tool called django
@@ -1374,9 +1374,9 @@ and i'm going to call it app it's going
 to be super generic okay
 to be super generic okay
 to be super generic okay
-now if i look i actually have an app
-now if i look i actually have an app
-now if i look i actually have an app
+now if I look I actually have an app
+now if I look I actually have an app
+now if I look I actually have an app
 folder and you can see it in my
 folder and you can see it in my
 folder and you can see it in my
@@ -1392,9 +1392,9 @@ manage.pi script is basically the
 entry point to all of django's
 entry point to all of django's
 entry point to all of django's
-functionality so whenever i run
-functionality so whenever i run
-functionality so whenever i run
+functionality so whenever I run
+functionality so whenever I run
+functionality so whenever I run
 python within the django context i'm
 python within the django context i'm
 python within the django context i'm
@@ -1557,9 +1557,9 @@ because django so this is a project
 right this app
 right this app
 right this app
-is a project but within the app i know
-is a project but within the app i know
-is a project but within the app i know
+is a project but within the app I know
+is a project but within the app I know
+is a project but within the app I know
 that
 that
 that
@@ -1572,9 +1572,9 @@ confused here but within the app
 directory we have a django
 directory we have a django
 directory we have a django
-application called app so i can change
-application called app so i can change
-application called app so i can change
+application called app so I can change
+application called app so I can change
+application called app so I can change
 the name of this
 the name of this
 the name of this
@@ -1767,9 +1767,9 @@ so let's go into there and polaris has a
 few environment variables
 few environment variables
 few environment variables
-right there that i need to just stick in
-right there that i need to just stick in
-right there that i need to just stick in
+right there that I need to just stick in
+right there that I need to just stick in
+right there that I need to just stick in
 the the file
 the the file
 the the file
@@ -1848,9 +1848,9 @@ to import include and then we're also
 going to import polaris.urls
 going to import polaris.urls
 going to import polaris.urls
-cool and so i don't know if you're
-cool and so i don't know if you're
-cool and so i don't know if you're
+cool and so I don't know if you're
+cool and so I don't know if you're
+cool and so I don't know if you're
 familiar
 familiar
 familiar
@@ -1896,9 +1896,9 @@ oh you know what it's cause pycharm
 doesn't know where my virtual
 doesn't know where my virtual
 doesn't know where my virtual
-environment is i was going to go into
-environment is i was going to go into
-environment is i was going to go into
+environment is I was going to go into
+environment is I was going to go into
+environment is I was going to go into
 the source code and show you what's
 the source code and show you what's
 the source code and show you what's
@@ -2340,15 +2340,15 @@ we're going to go to installed apps oh
 actually it's a middleware
 actually it's a middleware
 actually it's a middleware
-this is another thing i need to fix the
-this is another thing i need to fix the
-this is another thing i need to fix the
+this is another thing I need to fix the
+this is another thing I need to fix the
+this is another thing I need to fix the
 documentation will be updated
 documentation will be updated
 documentation will be updated
-by the time i release 1.0 django is her
-by the time i release 1.0 django is her
-by the time i release 1.0 django is her
+by the time I release 1.0 django is her
+by the time I release 1.0 django is her
+by the time I release 1.0 django is her
 polaris is at
 polaris is at
 polaris is at
@@ -2544,9 +2544,9 @@ environment environment variable
 but we do so what's the problem here
 but we do so what's the problem here
 but we do so what's the problem here
-oh i know we don't have our settings
-oh i know we don't have our settings
-oh i know we don't have our settings
+oh I know we don't have our settings
+oh I know we don't have our settings
+oh I know we don't have our settings
 file our django project isn't aware of
 file our django project isn't aware of
 file our django project isn't aware of
@@ -2634,9 +2634,9 @@ that's in the same
 file as the other environment
 file as the other environment
 file as the other environment
-so or as the other variables so i wonder
-so or as the other variables so i wonder
-so or as the other variables so i wonder
+so or as the other variables so I wonder
+so or as the other variables so I wonder
+so or as the other variables so I wonder
 why this is complaining about
 that but not the signing seed server jwt
 that but not the signing seed server jwt
@@ -2647,11 +2647,11 @@ spacing between the environment and or
 spacing between the environment and or
 spacing between the environment and or
 the equal sign
-yeah it was i guess okay we have one
-yeah it was i guess okay we have one
-more step that i glossed over i guess
-more step that i glossed over i guess
-more step that i glossed over i guess
+yeah it was I guess okay we have one
+yeah it was I guess okay we have one
+more step that I glossed over I guess
+more step that I glossed over I guess
+more step that I glossed over I guess
 there's one more middleware oh right
 there's one more middleware oh right
 there's one more middleware oh right
@@ -2814,9 +2814,9 @@ static assets that we're going to use
 within our application so that's great
 within our application so that's great
 within our application so that's great
-and i think now that we have everything
-and i think now that we have everything
-and i think now that we have everything
+and I think now that we have everything
+and I think now that we have everything
+and I think now that we have everything
 set up from a configuration standpoint
 set up from a configuration standpoint
 set up from a configuration standpoint
@@ -2955,9 +2955,9 @@ or no it's going to be m.d.b
 and then within actually so i'm gonna
 and then within actually so i'm gonna
 and then within actually so i'm gonna
-look at a project that i ran through
-look at a project that i ran through
-look at a project that i ran through
+look at a project that I ran through
+look at a project that I ran through
+look at a project that I ran through
 prior to building this because i've done
 prior to building this because i've done
 prior to building this because i've done
@@ -3253,8 +3253,8 @@ account of srt
 and it's going to allow my polaris to
 and it's going to allow my polaris to
 control the distribution account
-cool okay so i just added the
-cool okay so i just added the
+cool okay so I just added the
+cool okay so I just added the
 distribution seed
 distribution seed
 distribution seed
@@ -3267,9 +3267,9 @@ just look at the distribution account
 it generates the account from the seed
 it generates the account from the seed
 it generates the account from the seed
-that i entered so
-that i entered so
-that i entered so
+that I entered so
+that I entered so
+that I entered so
 that's available as well okay
 that's available as well okay
 that's available as well okay
@@ -3573,9 +3573,9 @@ now it's actually not auto completing
 which is kind of annoying i'm going to
 which is kind of annoying i'm going to
 which is kind of annoying i'm going to
-see if i can configure
-see if i can configure
-see if i can configure
+see if I can configure
+see if I can configure
+see if I can configure
 the virtual environment right now so it
 the virtual environment right now so it
 the virtual environment right now so it
@@ -3643,23 +3643,23 @@ why does it say that it doesn't have any
 why does it say that it doesn't have any
 why does it say that it doesn't have any
 of this
-that's concerning i don't know what's
-that's concerning i don't know what's
+that's concerning I don't know what's
+that's concerning I don't know what's
 going on
 going on
 going on
 with the highlighting right now i
 with the highlighting right now i
 with the highlighting right now i
-thought i just configured my
-thought i just configured my
-thought i just configured my
+thought I just configured my
+thought I just configured my
+thought I just configured my
 my virtual environment correctly but
 my virtual environment correctly but
 my virtual environment correctly but
-maybe i didn't i'm not going to spend
-maybe i didn't i'm not going to spend
-maybe i didn't i'm not going to spend
+maybe I didn't i'm not going to spend
+maybe I didn't i'm not going to spend
+maybe I didn't i'm not going to spend
 too much more time on this
 too much more time on this
 too much more time on this
@@ -3669,9 +3669,9 @@ yeah actually this is not right this is
 our this is my system python
 our this is my system python
 our this is my system python
-let's add the environment that i have
-let's add the environment that i have
-let's add the environment that i have
+let's add the environment that I have
+let's add the environment that I have
+let's add the environment that I have
 in my
 there we go okay now we're using the
 there we go okay now we're using the
@@ -4113,9 +4113,9 @@ so now we have our tummle let's see
 how far we can get
 how far we can get
 how far we can get
-in the demo that i showed you earlier so
-in the demo that i showed you earlier so
-in the demo that i showed you earlier so
+in the demo that I showed you earlier so
+in the demo that I showed you earlier so
+in the demo that I showed you earlier so
 let's go to
 let's go to
 let's go to
@@ -4164,9 +4164,9 @@ so what happens here okay
 well that's good so we have so let's
 well that's good so we have so let's
 well that's good so we have so let's
-take a step back for a second i will
-take a step back for a second i will
-take a step back for a second i will
+take a step back for a second I will
+take a step back for a second I will
+take a step back for a second I will
 actually go through a little bit what's
 actually go through a little bit what's
 actually go through a little bit what's
@@ -4317,9 +4317,9 @@ there's no fee right so it's just a
 hundred dollars total
 hundred dollars total
 hundred dollars total
-and when i deposit okay that's a pilaris
-and when i deposit okay that's a pilaris
-and when i deposit okay that's a pilaris
+and when I deposit okay that's a pilaris
+and when I deposit okay that's a pilaris
+and when I deposit okay that's a pilaris
 thing if you wait too long on the first
 thing if you wait too long on the first
 thing if you wait too long on the first
@@ -4381,8 +4381,8 @@ see what happens
 okay let's try that one more time
 okay let's try that one more time
 let's restart this service
-oh actually yeah i think that's still
-oh actually yeah i think that's still
+oh actually yeah I think that's still
+oh actually yeah I think that's still
 that makes sense the code
 that makes sense the code
 that makes sense the code
@@ -4440,9 +4440,9 @@ your banking connection and see if i
 have sent
 have sent
 have sent
-the deposit that you have that i have
-the deposit that you have that i have
-the deposit that you have that i have
+the deposit that you have that I have
+the deposit that you have that I have
+the deposit that you have that I have
 initiated
 initiated
 initiated
@@ -4590,9 +4590,9 @@ once and just check once for pending
 deposits or we could
 deposits or we could
 deposits or we could
-loop and and run this i misspelled it it
-loop and and run this i misspelled it it
-loop and and run this i misspelled it it
+loop and and run this I misspelled it it
+loop and and run this I misspelled it it
+loop and and run this I misspelled it it
 sounds like
 sounds like
 sounds like
@@ -4662,9 +4662,9 @@ pending deposits function
 and it comes with a bunch of type ending
 and it comes with a bunch of type ending
 and it comes with a bunch of type ending
-that i don't have import
-that i don't have import
-that i don't have import
+that I don't have import
+that I don't have import
+that I don't have import
 imported currently
 okay and we actually are just going to
 okay and we actually are just going to
@@ -4758,21 +4758,21 @@ it's always running
 okay it's still giving me problems
 okay it's still giving me problems
 okay it's still giving me problems
-because i actually haven't even
-because i actually haven't even
-because i actually haven't even
+because I actually haven't even
+because I actually haven't even
+because I actually haven't even
 registered this function right
 registered this function right
 registered this function right
-so now i have my tomo but i also have my
-so now i have my tomo but i also have my
-so now i have my tomo but i also have my
+so now I have my tomo but I also have my
+so now I have my tomo but I also have my
+so now I have my tomo but I also have my
 rails integration class
 rails integration class
 rails integration class
-so i want to register my rails
-so i want to register my rails
-so i want to register my rails
+so I want to register my rails
+so I want to register my rails
+so I want to register my rails
 integration class with
 integration class with
 integration class with
@@ -4791,9 +4791,9 @@ and running the pull pending deposits
 function was successful
 function was successful
 function was successful
-and i have my server running so let's go
-and i have my server running so let's go
-and i have my server running so let's go
+and I have my server running so let's go
+and I have my server running so let's go
+and I have my server running so let's go
 through a
 through a
 through a
@@ -4812,9 +4812,9 @@ deposit 100
 and polaris is just going to move on
 and polaris is just going to move on
 and polaris is just going to move on
-it's going to assume that i sent it
-it's going to assume that i sent it
-it's going to assume that i sent it
+it's going to assume that I sent it
+it's going to assume that I sent it
+it's going to assume that I sent it
 so stellar is actually executing the
 so stellar is actually executing the
 so stellar is actually executing the
@@ -4827,21 +4827,21 @@ and it's actually on the seller network
 it's giving me srt
 it's giving me srt
 it's giving me srt
-in the tote in the wallet that i used
-in the tote in the wallet that i used
-in the tote in the wallet that i used
-boom there you go complete so if i were
-boom there you go complete so if i were
-boom there you go complete so if i were
+in the tote in the wallet that I used
+in the tote in the wallet that I used
+in the tote in the wallet that I used
+boom there you go complete so if I were
+boom there you go complete so if I were
+boom there you go complete so if I were
 to look at the account that i'm using
 to look at the account that i'm using
 to look at the account that i'm using
 for this wallet right now
 for this wallet right now
 for this wallet right now
-i would see that i have at least 100 srt
-i would see that i have at least 100 srt
-i would see that i have at least 100 srt
+i would see that I have at least 100 srt
+i would see that I have at least 100 srt
+i would see that I have at least 100 srt
 in my account
 in my account
 in my account
@@ -4878,27 +4878,27 @@ flow working
 now there are other integration
 now there are other integration
 now there are other integration
-functions that i need to implement for
-functions that i need to implement for
-functions that i need to implement for
+functions that I need to implement for
+functions that I need to implement for
+functions that I need to implement for
 withdraw
 withdraw
 withdraw
-i think at this point i have to decide
-i think at this point i have to decide
-i think at this point i have to decide
-do i want to in terms of timing do i
-do i want to in terms of timing do i
-do i want to in terms of timing do i
+i think at this point I have to decide
+i think at this point I have to decide
+i think at this point I have to decide
+do I want to in terms of timing do i
+do I want to in terms of timing do i
+do I want to in terms of timing do i
 want to go further down
 want to go further down
 want to go further down
 and build build out the deposit flow or
 and build build out the deposit flow or
 and build build out the deposit flow or
-do i want to build with draw flow
-do i want to build with draw flow
-do i want to build with draw flow
+do I want to build with draw flow
+do I want to build with draw flow
+do I want to build with draw flow
 and just not go into detail in the
 and just not go into detail in the
 and just not go into detail in the
@@ -5124,9 +5124,9 @@ we run the pull putting deposits or
 sorry pull pending deposits deposits
 sorry pull pending deposits deposits
 sorry pull pending deposits deposits
-process that i showed earlier there's
-process that i showed earlier there's
-process that i showed earlier there's
+process that I showed earlier there's
+process that I showed earlier there's
+process that I showed earlier there's
 also three others for withdraw and i'm
 also three others for withdraw and i'm
 also three others for withdraw and i'm
@@ -5136,9 +5136,9 @@ just going to speed through this because
 we're going to do some some questions
 we're going to do some some questions
 we're going to do some some questions
-afterwards and i don't want to go too
-afterwards and i don't want to go too
-afterwards and i don't want to go too
+afterwards and I don't want to go too
+afterwards and I don't want to go too
+afterwards and I don't want to go too
 far over
 far over
 far over
@@ -5310,9 +5310,9 @@ this multi-process application by
 building
 building
 building
-oh man i need to start my
-oh man i need to start my
-oh man i need to start my
+oh man I need to start my
+oh man I need to start my
+oh man I need to start my
 my docker daemon that's loading up
 my docker daemon that's loading up
 my docker daemon that's loading up
@@ -5334,9 +5334,9 @@ i will just probably be working
 through this and demonstrating
 through this and demonstrating
 through this and demonstrating
-that withdrawal flow as i answer
-that withdrawal flow as i answer
-that withdrawal flow as i answer
+that withdrawal flow as I answer
+that withdrawal flow as I answer
+that withdrawal flow as I answer
 questions
 questions
 questions
@@ -5523,9 +5523,9 @@ going to run the run server command
 and actually run our application okay
 and actually run our application okay
 and actually run our application okay
-so now if i run docker compose up
-so now if i run docker compose up
-so now if i run docker compose up
+so now if I run docker compose up
+so now if I run docker compose up
+so now if I run docker compose up
 hopefully this works yay
 hopefully this works yay
 hopefully this works yay
@@ -5718,9 +5718,9 @@ and to make a 1.0 release that will be
 coming soon
 coming soon
 coming soon
-okay cool i think we're done in terms of
-okay cool i think we're done in terms of
-okay cool i think we're done in terms of
+okay cool I think we're done in terms of
+okay cool I think we're done in terms of
+okay cool I think we're done in terms of
 demonstration
 demonstration
 demonstration
@@ -5790,9 +5790,9 @@ via key base or however you want to
 contact us
 i'm trying to think if there's anything
 i'm trying to think if there's anything
-else that i should mention
-else that i should mention
-else that i should mention
+else that I should mention
+else that I should mention
+else that I should mention
 so this we did step 24
 so this we did step 24
 so this we did step 24
@@ -5908,8 +5908,8 @@ currency you can do that using polaris
 currency you can do that using polaris
 currency you can do that using polaris
 step31 integration
-okay so i think that's it for
-okay so i think that's it for
+okay so I think that's it for
+okay so I think that's it for
 questions
 questions
 questions

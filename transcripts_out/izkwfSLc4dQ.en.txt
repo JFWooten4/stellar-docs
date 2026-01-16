@@ -1005,9 +1005,9 @@ pass keys are really essential for
 moving on in the future just to ensure a
 moving on in the future just to ensure a
 moving on in the future just to ensure a
-better user experience I I think as
-better user experience I I think as
-better user experience I I think as
+better user experience I think as
+better user experience I think as
+better user experience I think as
 we go along for for the everyday folk
 we go along for for the everyday folk
 we go along for for the everyday folk
@@ -1266,9 +1266,9 @@ we can start seeing how this works
 behind the scenes and and to answer
 behind the scenes and and to answer
 behind the scenes and and to answer
-twitch I I I did not connect to Twitch
-twitch I I I did not connect to Twitch
-twitch I I I did not connect to Twitch
+twitch I did not connect to Twitch
+twitch I did not connect to Twitch
+twitch I did not connect to Twitch
 so I cannot chat but but yes Hoops
 so I cannot chat but but yes Hoops
 so I cannot chat but but yes Hoops
@@ -1530,9 +1530,9 @@ could build on top of it and make make
 your own
 your own
 your own
-interfaces I I think that's good for
-interfaces I I think that's good for
-interfaces I I think that's good for
+interfaces I think that's good for
+interfaces I think that's good for
+interfaces I think that's good for
 everyone that's what absolutely
 thank you we are unfortunately running
 thank you we are unfortunately running

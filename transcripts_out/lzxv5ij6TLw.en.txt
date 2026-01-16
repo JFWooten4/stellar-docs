@@ -591,9 +591,9 @@ the San event could be a MX address it
 could be an M address instead of a g
 could be an M address instead of a g
 could be an M address instead of a g
-address or a c address and I I think
-address or a c address and I I think
-address or a c address and I I think
+address or a c address and I think
+address or a c address and I think
+address or a c address and I think
 that is like very not noncontroversial
 that is like very not noncontroversial
 that is like very not noncontroversial
@@ -1054,8 +1054,8 @@ zero problems is
 Parson looks like George has something
 Parson looks like George has something
 to say but I can't bring him up on
-stage there oh okay yeah I I actually
-stage there oh okay yeah I I actually
+stage there oh okay yeah I actually
+stage there oh okay yeah I actually
 didn't have anything to say I think
 didn't have anything to say I think
 didn't have anything to say I think
@@ -1128,9 +1128,9 @@ can you hear me
 well yeah I can hear you yeah okay great
 well yeah I can hear you yeah okay great
 well yeah I can hear you yeah okay great
-so I I have a couple thoughts on this
-so I I have a couple thoughts on this
-so I I have a couple thoughts on this
+so I have a couple thoughts on this
+so I have a couple thoughts on this
+so I have a couple thoughts on this
 first if the meta size increase is
 first if the meta size increase is
 first if the meta size increase is
@@ -1152,9 +1152,9 @@ at least I don't see a good reason
 for not making Z
 for not making Z
 for not making Z
-so I I don't think and the same goes
-so I I don't think and the same goes
-so I I don't think and the same goes
+so I don't think and the same goes
+so I don't think and the same goes
+so I don't think and the same goes
 actually for The Ledger changes
 actually for The Ledger changes
 actually for The Ledger changes
@@ -1492,8 +1492,8 @@ everybody about how this works versus
 everybody about how this works versus
 everybody about how this works versus
 say ethereum and other
-things yeah and I I I'll make sure to
-things yeah and I I I'll make sure to
+things yeah and I I'll make sure to
+things yeah and I I'll make sure to
 clarify in the the cap that nothing's
 clarify in the the cap that nothing's
 clarify in the the cap that nothing's
@@ -3034,8 +3034,8 @@ it
 it
 it
 so that's my opinion
-and I I mean you either need special
-and I I mean you either need special
+and I mean you either need special
+and I mean you either need special
 Logic for merges or you need special
 Logic for merges or you need special
 Logic for merges or you need special

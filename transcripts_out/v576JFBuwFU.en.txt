@@ -195,9 +195,9 @@ as easy as sending an email
 and ethereum
 and ethereum
 and ethereum
-oh sorry i think my mic had some of my
-oh sorry i think my mic had some of my
-oh sorry i think my mic had some of my
+oh sorry I think my mic had some of my
+oh sorry I think my mic had some of my
+oh sorry I think my mic had some of my
 hair
 hair
 hair
@@ -504,9 +504,9 @@ stellar developer discord including the
 live chat for today's workshop so
 live chat for today's workshop so
 live chat for today's workshop so
-definitely i recommend if you want to
-definitely i recommend if you want to
-definitely i recommend if you want to
+definitely I recommend if you want to
+definitely I recommend if you want to
+definitely I recommend if you want to
 ask any questions
 ask any questions
 ask any questions
@@ -534,9 +534,9 @@ well so if you're not able to scan it
 please look it up in your email
 please look it up in your email
 please look it up in your email
-and now i leave this up for a bit while
-and now i leave this up for a bit while
-and now i leave this up for a bit while
+and now I leave this up for a bit while
+and now I leave this up for a bit while
+and now I leave this up for a bit while
 i give the word to tyler to actually
 i give the word to tyler to actually
 i give the word to tyler to actually
@@ -588,12 +588,12 @@ built on
 specifically the stellar blockchain
 specifically the stellar blockchain
 specifically the stellar blockchain
-but who am i my name is tyler van der
-but who am i my name is tyler van der
-but who am i my name is tyler van der
-hoeven and i lead ecosystem engineering
-hoeven and i lead ecosystem engineering
-hoeven and i lead ecosystem engineering
+but who am I my name is tyler van der
+but who am I my name is tyler van der
+but who am I my name is tyler van der
+hoeven and I lead ecosystem engineering
+hoeven and I lead ecosystem engineering
+hoeven and I lead ecosystem engineering
 at the stellar development foundation
 at the stellar development foundation
 at the stellar development foundation
@@ -777,18 +777,18 @@ spend a little time covering a specific
 use case involving creator economies
 use case involving creator economies
 use case involving creator economies
-this is an area i believe is ripe for
-this is an area i believe is ripe for
-this is an area i believe is ripe for
+this is an area I believe is ripe for
+this is an area I believe is ripe for
+this is an area I believe is ripe for
 innovation and upset so as you're
 innovation and upset so as you're
 innovation and upset so as you're
 thinking through in your heads what
 thinking through in your heads what
 thinking through in your heads what
-might i build with nfts or what should i
-might i build with nfts or what should i
-might i build with nfts or what should i
+might I build with nfts or what should i
+might I build with nfts or what should i
+might I build with nfts or what should i
 produce for this hackathon or even
 produce for this hackathon or even
 produce for this hackathon or even
@@ -984,9 +984,9 @@ all right nfts explained
 let's cover some terminology there's
 let's cover some terminology there's
 let's cover some terminology there's
-really only three main terms that i feel
-really only three main terms that i feel
-really only three main terms that i feel
+really only three main terms that I feel
+really only three main terms that I feel
+really only three main terms that I feel
 like we really need to define at the
 like we really need to define at the
 like we really need to define at the
@@ -1146,9 +1146,9 @@ the
 in the this sort of trifecta of nfts
 in the this sort of trifecta of nfts
 in the this sort of trifecta of nfts
-more generally and this i define as a
-more generally and this i define as a
-more generally and this i define as a
+more generally and this I define as a
+more generally and this I define as a
+more generally and this I define as a
 decentralized computer function
 decentralized computer function
 decentralized computer function
@@ -1263,9 +1263,9 @@ eventually nefarious middlemen
 and this is a revolutionary concept
 and this is a revolutionary concept
 and this is a revolutionary concept
-and i really want to i really want it to
-and i really want to i really want it to
-and i really want to i really want it to
+and I really want to I really want it to
+and I really want to I really want it to
+and I really want to I really want it to
 sink in
 sink in
 sink in
@@ -1479,9 +1479,9 @@ with those we already enjoy and
 appreciate
 appreciate
 appreciate
-so i really consider this to be a
-so i really consider this to be a
-so i really consider this to be a
+so I really consider this to be a
+so I really consider this to be a
+so I really consider this to be a
 greenfield space for innovation
 greenfield space for innovation
 greenfield space for innovation
@@ -1752,15 +1752,15 @@ from this foundation of accessibility
 comes reliability
 comes reliability
 comes reliability
-but i don't i don't really mean or i
-but i don't i don't really mean or i
-but i don't i don't really mean or i
+but I don't I don't really mean or i
+but I don't I don't really mean or i
+but I don't I don't really mean or i
 don't just mean that the network stays
 don't just mean that the network stays
 don't just mean that the network stays
-up i more primarily mean the reliability
-up i more primarily mean the reliability
-up i more primarily mean the reliability
+up I more primarily mean the reliability
+up I more primarily mean the reliability
+up I more primarily mean the reliability
 that comes from the actual governance
 that comes from the actual governance
 that comes from the actual governance
@@ -1950,9 +1950,9 @@ so this is over on lightmint
 this is one of my
 this is one of my
 this is one of my
-nft projects that i built way back when
-nft projects that i built way back when
-nft projects that i built way back when
+nft projects that I built way back when
+nft projects that I built way back when
+nft projects that I built way back when
 i was getting started
 i was getting started
 i was getting started
@@ -2178,9 +2178,9 @@ and stored metadata
 for that
 for that
 for that
-we turn to a project that i launched
-we turn to a project that i launched
-we turn to a project that i launched
+we turn to a project that I launched
+we turn to a project that I launched
+we turn to a project that I launched
 in fall last year
 so nft.klpl.com
 so nft.klpl.com
@@ -2304,12 +2304,12 @@ does look like they've kind of uncovered
 the wizard in the middle so the secret's
 the wizard in the middle so the secret's
 the wizard in the middle so the secret's
-been revealed i guess
-been revealed i guess
-been revealed i guess
-if i were to log in with my albedo
-if i were to log in with my albedo
-if i were to log in with my albedo
+been revealed I guess
+been revealed I guess
+been revealed I guess
+if I were to log in with my albedo
+if I were to log in with my albedo
+if I were to log in with my albedo
 account which is one of our if you've
 account which is one of our if you've
 account which is one of our if you've
@@ -2319,9 +2319,9 @@ ever used metamask this is kind of
 similar
 you can see my
 you can see my
-my plot token that i purchased
-my plot token that i purchased
-my plot token that i purchased
+my plot token that I purchased
+my plot token that I purchased
+my plot token that I purchased
 somewhere down in here
 somewhere down in here
 somewhere down in here
@@ -2865,9 +2865,9 @@ q a so if you're interested excited
 intrigued
 intrigued
 intrigued
-i know i am
-i know i am
-i know i am
+i know I am
+i know I am
+i know I am
 but before we before we go to that
 but before we before we go to that
 but before we before we go to that
@@ -2943,15 +2943,15 @@ yeah sorry the question is does the
 go let's go back just real quick to the
 go let's go back just real quick to the
 go let's go back just real quick to the
-first question so that i can read that
-first question so that i can read that
-first question so that i can read that
+first question so that I can read that
+first question so that I can read that
+first question so that I can read that
 off again
 no no just ask me the first question
 no no just ask me the first question
-again just so i can get it for the folks
-again just so i can get it for the folks
-again just so i can get it for the folks
+again just so I can get it for the folks
+again just so I can get it for the folks
+again just so I can get it for the folks
 on online does it need to be fully
 on online does it need to be fully
 on online does it need to be fully
@@ -3048,9 +3048,9 @@ getting into some code
 before we do though
 before we do though
 before we do though
-i've got two slides left that i want to
-i've got two slides left that i want to
-i've got two slides left that i want to
+i've got two slides left that I want to
+i've got two slides left that I want to
+i've got two slides left that I want to
 cover about both the technical blueprint
 cover about both the technical blueprint
 cover about both the technical blueprint
@@ -3301,8 +3301,8 @@ quick to
 quick to
 quick to
 mirror my displays
-so that i can
-so that i can
+so that I can
+so that I can
 code here
 so inside our project and i'll give you
 so inside our project and i'll give you
@@ -3393,9 +3393,9 @@ html much today so we'll go ahead and
 close those ones up
 close those ones up
 close those ones up
-what i want to walk through more
-what i want to walk through more
-what i want to walk through more
+what I want to walk through more
+what I want to walk through more
+what I want to walk through more
 particularly
 particularly
 particularly
@@ -4116,9 +4116,9 @@ once it's signed we can submit it to the
 network
 network
 network
-at this point i think it's probably
-at this point i think it's probably
-at this point i think it's probably
+at this point I think it's probably
+at this point I think it's probably
+at this point I think it's probably
 worth actually going to the server and
 worth actually going to the server and
 worth actually going to the server and
@@ -4458,9 +4458,9 @@ those up later but 15 that's kind of our
 max right now we're i'm allowed to do
 max right now we're i'm allowed to do
 max right now we're i'm allowed to do
-anything is the issuing account i have
-anything is the issuing account i have
-anything is the issuing account i have
+anything is the issuing account I have
+anything is the issuing account I have
+anything is the issuing account I have
 full control over this asset
 full control over this asset
 full control over this asset
@@ -4494,12 +4494,12 @@ the address for the the original mentor
 so that when we come back in the future
 so that when we come back in the future
 so that when we come back in the future
-and we're trying to make offers i know
-and we're trying to make offers i know
-and we're trying to make offers i know
-who am i supposed to send the royalty
-who am i supposed to send the royalty
-who am i supposed to send the royalty
+and we're trying to make offers I know
+and we're trying to make offers I know
+and we're trying to make offers I know
+who am I supposed to send the royalty
+who am I supposed to send the royalty
+who am I supposed to send the royalty
 payment to this is where i'm going to
 payment to this is where i'm going to
 payment to this is where i'm going to
@@ -4602,12 +4602,12 @@ authorized true and authorized false
 this is kind of the
 this is kind of the
 this is kind of the
-what do i want to allow
-what do i want to allow
-what do i want to allow
-that i couldn't
-that i couldn't
-that i couldn't
+what do I want to allow
+what do I want to allow
+what do I want to allow
+that I couldn't
+that I couldn't
+that I couldn't
 if this asset were not authorized so
 if this asset were not authorized so
 if this asset were not authorized so
@@ -4854,9 +4854,9 @@ so this is where you're really going to
 start to look at what kind of creative
 start to look at what kind of creative
 start to look at what kind of creative
-interesting things do i want to do
-interesting things do i want to do
-interesting things do i want to do
+interesting things do I want to do
+interesting things do I want to do
+interesting things do I want to do
 in my case it's royalty payments so
 in my case it's royalty payments so
 in my case it's royalty payments so
@@ -4944,21 +4944,21 @@ you can enter the the sale price for it
 i don't actually have any nfts at the
 i don't actually have any nfts at the
 i don't actually have any nfts at the
-moment i think if i go to
-moment i think if i go to
-moment i think if i go to
-one of my i think
-one of my i think
-one of my i think
+moment I think if I go to
+moment I think if I go to
+moment I think if I go to
+one of my I think
+one of my I think
+one of my I think
 this one
 this one
 this one
 holds it at the moment
 holds it at the moment
 holds it at the moment
-so i can go and sell that
-so i can go and sell that
-so i can go and sell that
+so I can go and sell that
+so I can go and sell that
+so I can go and sell that
 that little modal pops up we'll put in
 that little modal pops up we'll put in
 that little modal pops up we'll put in
@@ -5064,18 +5064,18 @@ to be buying an nft
 or you're going to be
 or you're going to be
 or you're going to be
-buying i guess xlm right so
-buying i guess xlm right so
-buying i guess xlm right so
+buying I guess xlm right so
+buying I guess xlm right so
+buying I guess xlm right so
 it's always going to be putting out this
 it's always going to be putting out this
 it's always going to be putting out this
-offer of i want to give an nft and
-offer of i want to give an nft and
-offer of i want to give an nft and
-receive xlm or i want to get an nft
-receive xlm or i want to get an nft
-receive xlm or i want to get an nft
+offer of I want to give an nft and
+offer of I want to give an nft and
+offer of I want to give an nft and
+receive xlm or I want to get an nft
+receive xlm or I want to get an nft
+receive xlm or I want to get an nft
 and give
 and give
 and give
@@ -5799,9 +5799,9 @@ and we're sending up to
 the price for whatever the nft exists as
 the price for whatever the nft exists as
 the price for whatever the nft exists as
-in our case it's a 55 lumens i think at
-in our case it's a 55 lumens i think at
-in our case it's a 55 lumens i think at
+in our case it's a 55 lumens I think at
+in our case it's a 55 lumens I think at
+in our case it's a 55 lumens I think at
 this point
 this point
 this point
@@ -5946,9 +5946,9 @@ you can't sort of
 time it or or interes intercept this
 time it or or interes intercept this
 time it or or interes intercept this
-transaction and say like oh i got my nft
-transaction and say like oh i got my nft
-transaction and say like oh i got my nft
+transaction and say like oh I got my nft
+transaction and say like oh I got my nft
+transaction and say like oh I got my nft
 i'm going to kill this transaction and
 i'm going to kill this transaction and
 i'm going to kill this transaction and
@@ -6210,9 +6210,9 @@ down and now anytime this auth server is
 called if it's being run by five
 called if it's being run by five
 called if it's being run by five
-different machines one decides i don't
-different machines one decides i don't
-different machines one decides i don't
+different machines one decides I don't
+different machines one decides I don't
+different machines one decides I don't
 want to run this anymore the four others
 want to run this anymore the four others
 want to run this anymore the four others
@@ -6357,9 +6357,9 @@ nfts on the interface so when you when
 you have this ui
 you have this ui
 you have this ui
-how am i how am i supposed to show
-how am i how am i supposed to show
-how am i how am i supposed to show
+how am I how am I supposed to show
+how am I how am I supposed to show
+how am I how am I supposed to show
 just the offers for my nft project just
 just the offers for my nft project just
 just the offers for my nft project just
@@ -6447,9 +6447,9 @@ offers on sellers these are not just the
 ones that are involved in my nft project
 ones that are involved in my nft project
 ones that are involved in my nft project
-so how am i going to filter
-so how am i going to filter
-so how am i going to filter
+so how am I going to filter
+so how am I going to filter
+so how am I going to filter
 all of the offers on stellar to only
 all of the offers on stellar to only
 all of the offers on stellar to only
@@ -6642,9 +6642,9 @@ you can't just add a say like hey you
 sponsor my account please it has to be
 sponsor my account please it has to be
 sponsor my account please it has to be
-signed for i need to give permission for
-signed for i need to give permission for
-signed for i need to give permission for
+signed for I need to give permission for
+signed for I need to give permission for
+signed for I need to give permission for
 your account to be signed for so we can
 your account to be signed for so we can
 your account to be signed for so we can
@@ -6663,18 +6663,18 @@ now they're signed for
 so that when we go to horizon we say i
 so that when we go to horizon we say i
 so that when we go to horizon we say i
-would like to get all the offers i only
-would like to get all the offers i only
-would like to get all the offers i only
+would like to get all the offers I only
+would like to get all the offers I only
+would like to get all the offers I only
 want the offers that are sponsored by a
 want the offers that are sponsored by a
 want the offers that are sponsored by a
 specific account and that specific
 specific account and that specific
 specific account and that specific
-account is something that i the auth the
-account is something that i the auth the
-account is something that i the auth the
+account is something that I the auth the
+account is something that I the auth the
+account is something that I the auth the
 authorized
 authorized
 authorized
@@ -6855,9 +6855,9 @@ things might work great but if you're
 not careful somebody else could say like
 not careful somebody else could say like
 not careful somebody else could say like
-ha ha i've found a vulnerability i found
-ha ha i've found a vulnerability i found
-ha ha i've found a vulnerability i found
+ha ha i've found a vulnerability I found
+ha ha i've found a vulnerability I found
+ha ha i've found a vulnerability I found
 a way to insert my nfts into your
 a way to insert my nfts into your
 a way to insert my nfts into your
@@ -7017,9 +7017,9 @@ left yourself as a signer you could go
 actually in the future and issue more
 actually in the future and issue more
 actually in the future and issue more
-nfts i don't think so
-nfts i don't think so
-nfts i don't think so
+nfts I don't think so
+nfts I don't think so
+nfts I don't think so
 right now on stellar without actually
 right now on stellar without actually
 right now on stellar without actually
@@ -7188,15 +7188,15 @@ that hash
 inside of the signer array of your
 inside of the signer array of your
 inside of the signer array of your
-account sort of saying i give my
-account sort of saying i give my
-account sort of saying i give my
+account sort of saying I give my
+account sort of saying I give my
+account sort of saying I give my
 pre-authorization that if you can ever
 pre-authorization that if you can ever
 pre-authorization that if you can ever
-find this transaction again i give my
-find this transaction again i give my
-find this transaction again i give my
+find this transaction again I give my
+find this transaction again I give my
+find this transaction again I give my
 permission to sign off on it and so what
 permission to sign off on it and so what
 permission to sign off on it and so what
@@ -7242,9 +7242,9 @@ my account but i'm creating a
 pre-authorized transaction to guarantee
 pre-authorized transaction to guarantee
 pre-authorized transaction to guarantee
-that at this point in the future i will
-that at this point in the future i will
-that at this point in the future i will
+that at this point in the future I will
+that at this point in the future I will
+that at this point in the future I will
 lock my account so give me six months to
 lock my account so give me six months to
 lock my account so give me six months to

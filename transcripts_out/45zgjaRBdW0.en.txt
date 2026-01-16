@@ -811,8 +811,8 @@ yeah that's that's the only reason we're
 yeah that's that's the only reason we're
 yeah that's that's the only reason we're
 putting it in in sorbon itself
-so what does that I I would say I mean
-so what does that I I would say I mean
+so what does that I would say I mean
+so what does that I would say I mean
 approach one is not hard either in the
 approach one is not hard either in the
 approach one is not hard either in the
@@ -1377,9 +1377,9 @@ would submit and then that that's how
 that would be flooded right but to be
 that would be flooded right but to be
 that would be flooded right but to be
-honest I I do feel like approach one is
-honest I I do feel like approach one is
-honest I I do feel like approach one is
+honest I do feel like approach one is
+honest I do feel like approach one is
+honest I do feel like approach one is
 an extension of the current experience
 an extension of the current experience
 an extension of the current experience
@@ -1851,9 +1851,9 @@ accessible through the this dedicated
 operation
 operation
 operation
-no I I mean the same about the current
-no I I mean the same about the current
-no I I mean the same about the current
+no I mean the same about the current
+no I mean the same about the current
+no I mean the same about the current
 invoke host function transaction
 invoke host function transaction
 invoke host function transaction
@@ -2280,9 +2280,9 @@ probably right like maybe you can make
 it work with just a ledger key but like
 it work with just a ledger key but like
 it work with just a ledger key but like
-that I you know for now I I think it's
-that I you know for now I I think it's
-that I you know for now I I think it's
+that I you know for now I think it's
+that I you know for now I think it's
+that I you know for now I think it's
 still a joke
 right right
 right right
