@@ -71,7 +71,7 @@ just sort of set up the discussion
 for the rest of the meeting
 yeah I can do that so this cap is
 about a standardized token contract
-on sorbon or what we call now the the
+on Soroban or what we call now the the
 built-in token contract
 and you know we already have an
 initial implementation of this that
@@ -229,7 +229,7 @@ off acquired assets
 that's true but I
 Jake has mentioned that there are
 some partners that are off the choir
-that want to participate in sorbon so
+that want to participate in Soroban so
 that wouldn't be possible in that case
 it depend you know it depends on what
 we what we want to do with those assets
@@ -257,7 +257,7 @@ entry
 but it just it just adds some
 complexity but I but I think we do
 need to either not allow author required
-Assets in sorbon or
+Assets in Soroban or
 you know allow them using using a
 mechanism like this
 so I feel like if you want to allow
@@ -310,7 +310,7 @@ fairly large audience so I would
 I don't know if you know going forward
 with an approach where
 arth required assets just simply aren't
-usable on sorbon is is I mean we could
+usable on Soroban is is I mean we could
 do it
 but it's going to cut off some some
 use cases or for organizations that
@@ -335,7 +335,7 @@ today that's looking to
 you know participate in like amms
 and
 and other like deep iconstructs on
-sorbon but the asset they would like to
+Soroban but the asset they would like to
 to use
 they are planning on using author
 required
@@ -369,7 +369,7 @@ support because it's supported on the
 the classic side and right if you have a
 an asset that is clawbackable
 on classic and you move it over to
-sorbon then you know it's a control you
+Soroban then you know it's a control you
 want to give the issue and it can be it
 can be disabled
 I I do agree that quadak versus Burns
@@ -470,7 +470,7 @@ I I think this is something we should
 discuss because to me you know clawback
 already exists on Stellar right so and
 it works
-almost the same on sorbon so it made
+almost the same on Soroban so it made
 sense to me to to change the name but
 if enough people it like I think it's
 something we should discuss
@@ -508,7 +508,7 @@ authorized flag so that that is how it
 works on classic like you need the
 trust line to to get authorized by the
 issuer
-and on sorbon we would imitate the
+and on Soroban we would imitate the
 same at the the admin or the the admin
 on sorbond would need to explicitly
 authorize
@@ -787,7 +787,7 @@ is a swap essentially a swap capability
 you have the import export
 functions which you know allow you to
 essentially swap
-a token in classic with one in sorbon
+a token in classic with one in Soroban
 and if we are if the story that we're
 developing
 is that if you want to you know be

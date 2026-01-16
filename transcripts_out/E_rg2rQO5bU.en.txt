@@ -192,9 +192,9 @@ yet and so we are staging this in two
 parts we have a part of the project that
 parts we have a part of the project that
 parts we have a part of the project that
-needs to be done when we launch sorbon
-needs to be done when we launch sorbon
-needs to be done when we launch sorbon
+needs to be done when we launch Soroban
+needs to be done when we launch Soroban
+needs to be done when we launch Soroban
 pubnet and then a second part that we
 pubnet and then a second part that we
 pubnet and then a second part that we
@@ -231,9 +231,9 @@ want to have the unique storage and
 recreable storage interface finalized
 recreable storage interface finalized
 recreable storage interface finalized
-and exposed in the sorbon SDK
-and exposed in the sorbon SDK
-and exposed in the sorbon SDK
+and exposed in the Soroban SDK
+and exposed in the Soroban SDK
+and exposed in the Soroban SDK
 but we won't actually turn on on state
 but we won't actually turn on on state
 but we won't actually turn on on state
@@ -966,9 +966,9 @@ important part of this is that the
 current rent balance of the entry is
 current rent balance of the entry is
 current rent balance of the entry is
-exposed within sorbon and so the smart
-exposed within sorbon and so the smart
-exposed within sorbon and so the smart
+exposed within Soroban and so the smart
+exposed within Soroban and so the smart
+exposed within Soroban and so the smart
 contract itself can check the current
 contract itself can check the current
 contract itself can check the current
@@ -1350,9 +1350,9 @@ this has to be a archive or protocol
 specific special use case I think the
 specific special use case I think the
 specific special use case I think the
-current sorbon SDK already supports this
-current sorbon SDK already supports this
-current sorbon SDK already supports this
+current Soroban SDK already supports this
+current Soroban SDK already supports this
+current Soroban SDK already supports this
 they're just beyond the onus of the
 they're just beyond the onus of the
 they're just beyond the onus of the

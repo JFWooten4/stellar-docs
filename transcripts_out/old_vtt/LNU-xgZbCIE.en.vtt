@@ -572,22 +572,22 @@ overall just becomes IM manageable
 
 00:02:56.120 --> 00:02:58.949 align:start position:0%
 overall just becomes IM manageable
-so<00:02:56.319><c> you</c><00:02:56.440><c> see</c><00:02:56.720><c> here</c><00:02:56.959><c> on</c><00:02:57.239><c> line</c><00:02:57.640><c> three</c><00:02:58.120><c> you</c><00:02:58.440><c> sorbon</c>
+so<00:02:56.319><c> you</c><00:02:56.440><c> see</c><00:02:56.720><c> here</c><00:02:56.959><c> on</c><00:02:57.239><c> line</c><00:02:57.640><c> three</c><00:02:58.120><c> you</c><00:02:58.440><c> Soroban</c>
 
 00:02:58.949 --> 00:02:58.959 align:start position:0%
-so you see here on line three you sorbon
+so you see here on line three you Soroban
 
 
 00:02:58.959 --> 00:03:02.430 align:start position:0%
-so you see here on line three you sorbon
-SDK<00:03:00.319><c> this</c><00:03:00.440><c> is</c><00:03:00.680><c> because</c><00:03:01.159><c></c><00:03:01.280><c> sorbon</c><00:03:01.800><c> uses</c><00:03:02.159><c> a</c>
+so you see here on line three you Soroban
+SDK<00:03:00.319><c> this</c><00:03:00.440><c> is</c><00:03:00.680><c> because</c><00:03:01.159><c></c><00:03:01.280><c> Soroban</c><00:03:01.800><c> uses</c><00:03:02.159><c> a</c>
 
 00:03:02.430 --> 00:03:02.440 align:start position:0%
-SDK this is because sorbon uses a
+SDK this is because Soroban uses a
 
 
 00:03:02.440 --> 00:03:05.070 align:start position:0%
-SDK this is because sorbon uses a
+SDK this is because Soroban uses a
 special<00:03:02.959><c> dialect</c><00:03:03.519><c> of</c><00:03:03.720><c> rust</c><00:03:04.680><c></c><00:03:04.799><c> with</c>
 
 00:03:05.070 --> 00:03:05.080 align:start position:0%
@@ -1348,14 +1348,14 @@ is a certain type of data type for
 
 00:07:22.759 --> 00:07:24.510 align:start position:0%
 is a certain type of data type for
-sorbon<00:07:23.280><c> smart</c><00:07:23.639><c> contracts</c><00:07:24.160><c> of</c><00:07:24.280><c> which</c><00:07:24.440><c> there</c>
+Soroban<00:07:23.280><c> smart</c><00:07:23.639><c> contracts</c><00:07:24.160><c> of</c><00:07:24.280><c> which</c><00:07:24.440><c> there</c>
 
 00:07:24.510 --> 00:07:24.520 align:start position:0%
-sorbon smart contracts of which there
+Soroban smart contracts of which there
 
 
 00:07:24.520 --> 00:07:26.990 align:start position:0%
-sorbon smart contracts of which there
+Soroban smart contracts of which there
 are<00:07:24.759><c> three</c><00:07:25.360><c> temporary</c><00:07:25.960><c> persistent</c><00:07:26.680><c> and</c>
 
 00:07:26.990 --> 00:07:27.000 align:start position:0%
@@ -2284,14 +2284,14 @@ rules all right so we set a new title
 
 00:13:10.519 --> 00:13:11.910 align:start position:0%
 rules all right so we set a new title
-instead<00:13:10.760><c> of</c><00:13:10.839><c> sorbon</c><00:13:11.279><c> rules</c><00:13:11.560><c> we'll</c><00:13:11.680><c> say</c>
+instead<00:13:10.760><c> of</c><00:13:10.839><c> Soroban</c><00:13:11.279><c> rules</c><00:13:11.560><c> we'll</c><00:13:11.680><c> say</c>
 
 00:13:11.910 --> 00:13:11.920 align:start position:0%
-instead of sorbon rules we'll say
+instead of Soroban rules we'll say
 
 
 00:13:11.920 --> 00:13:14.110 align:start position:0%
-instead of sorbon rules we'll say
+instead of Soroban rules we'll say
 Stellar<00:13:12.320><c> rules</c><00:13:12.600><c> we</c><00:13:12.720><c> go</c><00:13:12.800><c> ahead</c><00:13:12.959><c> and</c><00:13:13.199><c> get</c><00:13:13.480><c> that</c>
 
 00:13:14.110 --> 00:13:14.120 align:start position:0%
@@ -3124,14 +3124,14 @@ Tomo file you see a backwards compatible
 
 00:18:15.480 --> 00:18:21.510 align:start position:0%
 Tomo file you see a backwards compatible
-SDK<00:18:16.480><c></c><00:18:16.640><c> s</c><00:18:17.080><c> sorbon</c><00:18:17.640><c> SDK</c><00:18:18.760><c> 20.3</c><00:18:20.240><c> point2</c><00:18:21.240><c></c><00:18:21.400><c> this</c>
+SDK<00:18:16.480><c></c><00:18:16.640><c> s</c><00:18:17.080><c> Soroban</c><00:18:17.640><c> SDK</c><00:18:18.760><c> 20.3</c><00:18:20.240><c> point2</c><00:18:21.240><c></c><00:18:21.400><c> this</c>
 
 00:18:21.510 --> 00:18:21.520 align:start position:0%
-SDK s sorbon SDK 20.3 point2 this
+SDK s Soroban SDK 20.3 point2 this
 
 
 00:18:21.520 --> 00:18:23.390 align:start position:0%
-SDK s sorbon SDK 20.3 point2 this
+SDK s Soroban SDK 20.3 point2 this
 is<00:18:21.720><c> a</c><00:18:21.960><c> local</c><00:18:22.360><c> issue</c><00:18:22.640><c> so</c><00:18:22.840><c> I'm</c><00:18:22.960><c> just</c><00:18:23.039><c> going</c><00:18:23.159><c> to</c><00:18:23.320><c> go</c>
 
 00:18:23.390 --> 00:18:23.400 align:start position:0%
@@ -5628,14 +5628,14 @@ space on the Ledger again on line three
 
 00:32:29.440 --> 00:32:32.750 align:start position:0%
 space on the Ledger again on line three
-you<00:32:29.559><c> see</c><00:32:29.960><c> us</c><00:32:30.279><c> sorbon</c><00:32:30.919><c> SDK</c><00:32:31.919><c> some</c><00:32:32.200><c> familiar</c>
+you<00:32:29.559><c> see</c><00:32:29.960><c> us</c><00:32:30.279><c> Soroban</c><00:32:30.919><c> SDK</c><00:32:31.919><c> some</c><00:32:32.200><c> familiar</c>
 
 00:32:32.750 --> 00:32:32.760 align:start position:0%
-you see us sorbon SDK some familiar
+you see us Soroban SDK some familiar
 
 
 00:32:32.760 --> 00:32:35.070 align:start position:0%
-you see us sorbon SDK some familiar
+you see us Soroban SDK some familiar
 attributes<00:32:33.240><c> we</c><00:32:33.399><c> saw</c><00:32:33.600><c> from</c><00:32:33.760><c> the</c><00:32:34.039><c> last</c><00:32:34.399><c> example</c>
 
 00:32:35.070 --> 00:32:35.080 align:start position:0%
@@ -5772,14 +5772,14 @@ Etc address is just the way that that
 
 00:33:28.039 --> 00:33:30.509 align:start position:0%
 Etc address is just the way that that
-we<00:33:28.240><c> or</c><00:33:28.440><c> the</c><00:33:28.600><c> data</c><00:33:28.919><c> type</c><00:33:29.120><c> for</c><00:33:29.320><c> sorbon</c><00:33:29.919><c> smart</c>
+we<00:33:28.240><c> or</c><00:33:28.440><c> the</c><00:33:28.600><c> data</c><00:33:28.919><c> type</c><00:33:29.120><c> for</c><00:33:29.320><c> Soroban</c><00:33:29.919><c> smart</c>
 
 00:33:30.509 --> 00:33:30.519 align:start position:0%
-we or the data type for sorbon smart
+we or the data type for Soroban smart
 
 
 00:33:30.519 --> 00:33:34.990 align:start position:0%
-we or the data type for sorbon smart
+we or the data type for Soroban smart
 contract<00:33:31.440><c> addresses</c><00:33:32.440><c> U</c><00:33:32.760><c> byes</c><00:33:33.159><c> n</c><00:33:33.519><c> which</c><00:33:33.639><c> is</c><00:33:33.840><c> a</c>
 
 00:33:34.990 --> 00:33:35.000 align:start position:0%
@@ -6708,14 +6708,14 @@ contract and what this will do is import
 
 00:38:49.520 --> 00:38:52.430 align:start position:0%
 contract and what this will do is import
-the<00:38:49.960><c> pre-compiled</c><00:38:50.839><c> sorbon</c><00:38:51.520><c> token</c><00:38:51.960><c> contract</c>
+the<00:38:49.960><c> pre-compiled</c><00:38:50.839><c> Soroban</c><00:38:51.520><c> token</c><00:38:51.960><c> contract</c>
 
 00:38:52.430 --> 00:38:52.440 align:start position:0%
-the pre-compiled sorbon token contract
+the pre-compiled Soroban token contract
 
 
 00:38:52.440 --> 00:38:55.390 align:start position:0%
-the pre-compiled sorbon token contract
+the pre-compiled Soroban token contract
 file<00:38:53.319><c> and</c><00:38:53.520><c> will</c><00:38:53.839><c> allow</c><00:38:54.359><c> the</c><00:38:54.560><c> main</c><00:38:54.960><c> smart</c>
 
 00:38:55.390 --> 00:38:55.400 align:start position:0%
@@ -10492,14 +10492,14 @@ developer Discord or the Stellar Discord
 
 00:59:48.680 --> 00:59:53.349 align:start position:0%
 developer Discord or the Stellar Discord
-in<00:59:49.000><c> the</c><00:59:49.480><c></c><00:59:50.480><c> should</c><00:59:50.680><c> be</c><00:59:50.839><c> sorbon</c><00:59:51.520><c> ddev</c><00:59:52.520><c> or</c><00:59:52.839><c> or</c>
+in<00:59:49.000><c> the</c><00:59:49.480><c></c><00:59:50.480><c> should</c><00:59:50.680><c> be</c><00:59:50.839><c> Soroban</c><00:59:51.520><c> ddev</c><00:59:52.520><c> or</c><00:59:52.839><c> or</c>
 
 00:59:53.349 --> 00:59:53.359 align:start position:0%
-in the should be sorbon ddev or or
+in the should be Soroban ddev or or
 
 
 00:59:53.359 --> 00:59:56.109 align:start position:0%
-in the should be sorbon ddev or or
+in the should be Soroban ddev or or
 Dev<00:59:53.839><c> dhel</c><00:59:54.839><c></c><00:59:54.960><c> any</c><00:59:55.119><c> one</c><00:59:55.240><c> of</c><00:59:55.400><c> those</c><00:59:55.520><c> channels</c><00:59:56.039><c> in</c>
 
 00:59:56.109 --> 00:59:56.119 align:start position:0%

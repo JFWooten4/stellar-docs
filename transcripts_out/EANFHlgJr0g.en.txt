@@ -330,9 +330,9 @@ about later and for the last year we've
 been building something new sarban so
 been building something new sarban so
 been building something new sarban so
-what is sorbon
-what is sorbon
-what is sorbon
+what is Soroban
+what is Soroban
+what is Soroban
 so sorbonne is a new add-on to the
 so sorbonne is a new add-on to the
 so sorbonne is a new add-on to the
@@ -390,9 +390,9 @@ layer of what we can build here
 so we announced the project that would
 so we announced the project that would
 so we announced the project that would
-come to be known as sorbon back in
-come to be known as sorbon back in
-come to be known as sorbon back in
+come to be known as Soroban back in
+come to be known as Soroban back in
+come to be known as Soroban back in
 January of last year since then we've
 January of last year since then we've
 January of last year since then we've
@@ -471,9 +471,9 @@ sorbonne right from naming to
 authentication how does that work to how
 authentication how does that work to how
 authentication how does that work to how
-sorbon should integrate with the
-sorbon should integrate with the
-sorbon should integrate with the
+Soroban should integrate with the
+Soroban should integrate with the
+Soroban should integrate with the
 existing vanilla Stellar Network
 existing vanilla Stellar Network
 existing vanilla Stellar Network
@@ -555,9 +555,9 @@ who's been building some incredible
 stuff to help onboard other devs to
 stuff to help onboard other devs to
 stuff to help onboard other devs to
-sorbon and he's going to show us a bit
-sorbon and he's going to show us a bit
-sorbon and he's going to show us a bit
+Soroban and he's going to show us a bit
+Soroban and he's going to show us a bit
+Soroban and he's going to show us a bit
 about what he's been working on
 about what he's been working on
 about what he's been working on
@@ -864,9 +864,9 @@ why is the question and
 well we're working in a soybean
 well we're working in a soybean
 well we're working in a soybean
-environment right sorbon expects a
-environment right sorbon expects a
-environment right sorbon expects a
+environment right Soroban expects a
+environment right Soroban expects a
+environment right Soroban expects a
 certain kind of format for these
 certain kind of format for these
 certain kind of format for these
@@ -1536,9 +1536,9 @@ cool thank you
 yeah so that's Morgan has shown us
 yeah so that's Morgan has shown us
 yeah so that's Morgan has shown us
-the basics of sorbon but I want to go
-the basics of sorbon but I want to go
-the basics of sorbon but I want to go
+the basics of Soroban but I want to go
+the basics of Soroban but I want to go
+the basics of Soroban but I want to go
 into what actually makes it so special
 into what actually makes it so special
 into what actually makes it so special
@@ -1704,9 +1704,9 @@ receives usdc on the Stellar Network in
 her wallet
 her wallet
 her wallet
-and now with sorbon she can take that
-and now with sorbon she can take that
-and now with sorbon she can take that
+and now with Soroban she can take that
+and now with Soroban she can take that
+and now with Soroban she can take that
 usdc and deposit it into I mean a lot of
 usdc and deposit it into I mean a lot of
 usdc and deposit it into I mean a lot of
@@ -1761,9 +1761,9 @@ is the scaling optimizations that we're
 doing
 doing
 doing
-so when designing sorbon we've been able
-so when designing sorbon we've been able
-so when designing sorbon we've been able
+so when designing Soroban we've been able
+so when designing Soroban we've been able
+so when designing Soroban we've been able
 to learn from the state of the art and
 to learn from the state of the art and
 to learn from the state of the art and
@@ -1827,9 +1827,9 @@ to compile that into your contract and
 deploy it as well right so you need to
 deploy it as well right so you need to
 deploy it as well right so you need to
-include that library in sorbon we've
-include that library in sorbon we've
-include that library in sorbon we've
+include that library in Soroban we've
+include that library in Soroban we've
+include that library in Soroban we've
 pushed as much as we can out to the host
 pushed as much as we can out to the host
 pushed as much as we can out to the host
@@ -1854,9 +1854,9 @@ we can take that a little bit further
 with built-in contracts so we have an
 with built-in contracts so we have an
 with built-in contracts so we have an
-idea in sorbon of built-in contracts
-idea in sorbon of built-in contracts
-idea in sorbon of built-in contracts
+idea in Soroban of built-in contracts
+idea in Soroban of built-in contracts
+idea in Soroban of built-in contracts
 similar to like pre-compiles you might
 similar to like pre-compiles you might
 similar to like pre-compiles you might
@@ -1887,12 +1887,12 @@ within the ecosystem
 and that's the standard asset contract
 and that's the standard asset contract
 and that's the standard asset contract
-that we have in sorbon is how Stellar
-that we have in sorbon is how Stellar
-that we have in sorbon is how Stellar
-assets are exposed in sorbon they look
-assets are exposed in sorbon they look
-assets are exposed in sorbon they look
+that we have in Soroban is how Stellar
+that we have in Soroban is how Stellar
+that we have in Soroban is how Stellar
+assets are exposed in Soroban they look
+assets are exposed in Soroban they look
+assets are exposed in Soroban they look
 just like any other contract to your
 just like any other contract to your
 just like any other contract to your
@@ -2178,9 +2178,9 @@ air is the limit and folks I guess tend
 to not test as much as they're used to
 to not test as much as they're used to
 to not test as much as they're used to
-because of all the hurdles and so sorbon
-because of all the hurdles and so sorbon
-because of all the hurdles and so sorbon
+because of all the hurdles and so Soroban
+because of all the hurdles and so Soroban
+because of all the hurdles and so Soroban
 takes the challenge hit on by providing
 takes the challenge hit on by providing
 takes the challenge hit on by providing
@@ -3429,9 +3429,9 @@ control for those who are either new to
 rust smart contract development even is
 rust smart contract development even is
 rust smart contract development even is
-the sorbon ecosystem evolves and grows a
-the sorbon ecosystem evolves and grows a
-the sorbon ecosystem evolves and grows a
+the Soroban ecosystem evolves and grows a
+the Soroban ecosystem evolves and grows a
+the Soroban ecosystem evolves and grows a
 big gap that I have I have felt as I've
 big gap that I have I have felt as I've
 big gap that I have I have felt as I've
@@ -4068,9 +4068,9 @@ I think there's a question here about
 youth sorbom where can we make token
 youth sorbom where can we make token
 youth sorbom where can we make token
-contracts on new sorbon
-contracts on new sorbon
-contracts on new sorbon
+contracts on new Soroban
+contracts on new Soroban
+contracts on new Soroban
 very soon
 very soon
 very soon
@@ -4245,9 +4245,9 @@ but like seriously you know if you're
 excited about this right you can start
 excited about this right you can start
 excited about this right you can start
-experimenting with sorbon right now
-experimenting with sorbon right now
-experimenting with sorbon right now
+experimenting with Soroban right now
+experimenting with Soroban right now
+experimenting with Soroban right now
 right
 right
 right
@@ -4266,9 +4266,9 @@ consider how and where you might fit
 into what's coming later this year when
 into what's coming later this year when
 into what's coming later this year when
-sorbon launches for real onto Stellar's
-sorbon launches for real onto Stellar's
-sorbon launches for real onto Stellar's
+Soroban launches for real onto Stellar's
+Soroban launches for real onto Stellar's
+Soroban launches for real onto Stellar's
 net onto Stellar's mainnet
 net onto Stellar's mainnet
 net onto Stellar's mainnet
@@ -4302,9 +4302,9 @@ there docs the Discord join the
 Discord keep up with developments all
 Discord keep up with developments all
 Discord keep up with developments all
-the devs that are building sorbon every
-the devs that are building sorbon every
-the devs that are building sorbon every
+the devs that are building Soroban every
+the devs that are building Soroban every
+the devs that are building Soroban every
 day are on there answering your
 day are on there answering your
 day are on there answering your
@@ -4326,9 +4326,9 @@ Paul
 I do want to re-emphasize here the
 I do want to re-emphasize here the
 I do want to re-emphasize here the
-fact that we are building sorbon out
-fact that we are building sorbon out
-fact that we are building sorbon out
+fact that we are building Soroban out
+fact that we are building Soroban out
+fact that we are building Soroban out
 there in the streets as I like to think
 there in the streets as I like to think
 there in the streets as I like to think

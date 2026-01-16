@@ -504,9 +504,9 @@ we have two types of signers
 delegated and external
 delegated and external
 delegated and external
-a delegated signer can be any sorbon
-a delegated signer can be any sorbon
-a delegated signer can be any sorbon
+a delegated signer can be any Soroban
+a delegated signer can be any Soroban
+a delegated signer can be any Soroban
 address, G account or C account. And
 address, G account or C account. And
 address, G account or C account. And

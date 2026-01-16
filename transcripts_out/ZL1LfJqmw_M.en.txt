@@ -138,9 +138,9 @@ something very obvious so it's a very
 obvious optimization that we've wanted
 obvious optimization that we've wanted
 obvious optimization that we've wanted
-to do since the beginning of sorbon
-to do since the beginning of sorbon
-to do since the beginning of sorbon
+to do since the beginning of Soroban
+to do since the beginning of Soroban
+to do since the beginning of Soroban
 which is to Cache the compiled ready- to
 which is to Cache the compiled ready- to
 which is to Cache the compiled ready- to
@@ -291,9 +291,9 @@ have we talked about this a lot when we
 were developing the structure of
 were developing the structure of
 were developing the structure of
-sorbon and we couldn't really come up
-sorbon and we couldn't really come up
-sorbon and we couldn't really come up
+Soroban and we couldn't really come up
+Soroban and we couldn't really come up
+Soroban and we couldn't really come up
 with one that didn't have some weird
 with one that didn't have some weird
 with one that didn't have some weird

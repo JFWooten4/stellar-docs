@@ -42,9 +42,9 @@ payout. there's also a change to
 prohibit mox source accounts and memos
 prohibit mox source accounts and memos
 prohibit mox source accounts and memos
-for sorbon transactions and the this
-for sorbon transactions and the this
-for sorbon transactions and the this
+for Soroban transactions and the this
+for Soroban transactions and the this
+for Soroban transactions and the this
 is because like so the the mox source
 is because like so the the mox source
 is because like so the the mox source
@@ -156,9 +156,9 @@ this is an issue because it's possible
 for that same account to be used in a
 for that same account to be used in a
 for that same account to be used in a
-sorbon transaction. So if you apply
-sorbon transaction. So if you apply
-sorbon transaction. So if you apply
+Soroban transaction. So if you apply
+Soroban transaction. So if you apply
+Soroban transaction. So if you apply
 transactions in parallel you would
 transactions in parallel you would
 transactions in parallel you would

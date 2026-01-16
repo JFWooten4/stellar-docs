@@ -1,8 +1,8 @@
  the first is partial stay archival
 the first is partial stay archival
-cap 62 and then in memory sorbon
-cap 62 and then in memory sorbon
-cap 62 and then in memory sorbon
+cap 62 and then in memory Soroban
+cap 62 and then in memory Soroban
+cap 62 and then in memory Soroban
 state for cap 66 and no Tom I will never
 state for cap 66 and no Tom I will never
 state for cap 66 and no Tom I will never
@@ -480,9 +480,9 @@ large number of optimizations and so
 that's what we get into in cap 66 which
 that's what we get into in cap 66 which
 that's what we get into in cap 66 which
-is inmemory sorbon State and so we
-is inmemory sorbon State and so we
-is inmemory sorbon State and so we
+is inmemory Soroban State and so we
+is inmemory Soroban State and so we
+is inmemory Soroban State and so we
 can because we have the system where the
 can because we have the system where the
 can because we have the system where the
@@ -561,15 +561,15 @@ what I'm proposing is to change that fee
 slightly such that instead of the
 slightly such that instead of the
 slightly such that instead of the
-sorbon right fee corresponding to the
-sorbon right fee corresponding to the
-sorbon right fee corresponding to the
+Soroban right fee corresponding to the
+Soroban right fee corresponding to the
+Soroban right fee corresponding to the
 size of the entire live leer of both
 size of the entire live leer of both
 size of the entire live leer of both
-classic and sorbon entries it only
-classic and sorbon entries it only
-classic and sorbon entries it only
+classic and Soroban entries it only
+classic and Soroban entries it only
+classic and Soroban entries it only
 applies to the life soron entries and so
 applies to the life soron entries and so
 applies to the life soron entries and so
@@ -621,9 +621,9 @@ usage affect soron right fees and so by
 changing the The Bucket List Target size
 changing the The Bucket List Target size
 changing the The Bucket List Target size
-to a sorbon state instead of just all
-to a sorbon state instead of just all
-to a sorbon state instead of just all
+to a Soroban state instead of just all
+to a Soroban state instead of just all
+to a Soroban state instead of just all
 total State we have a much more fair
 total State we have a much more fair
 total State we have a much more fair
@@ -690,9 +690,9 @@ amount of live sorb on state at any
 given time is fixed what we can actually
 given time is fixed what we can actually
 given time is fixed what we can actually
-do is just store all sorbon state in
-do is just store all sorbon state in
-do is just store all sorbon state in
+do is just store all Soroban state in
+do is just store all Soroban state in
+do is just store all Soroban state in
 memory and not have disk access at all
 memory and not have disk access at all
 memory and not have disk access at all
@@ -816,15 +816,15 @@ resource and then an explicit on disk
 read resource now the reason we're doing
 read resource now the reason we're doing
 read resource now the reason we're doing
-this is that even though all sorbon
-this is that even though all sorbon
-this is that even though all sorbon
+this is that even though all Soroban
+this is that even though all Soroban
+this is that even though all Soroban
 state is or all life soron state is held
 state is or all life soron state is held
 state is or all life soron state is held
-in memory sorbon contracts can still
-in memory sorbon contracts can still
-in memory sorbon contracts can still
+in memory Soroban contracts can still
+in memory Soroban contracts can still
+in memory Soroban contracts can still
 access classic State and classic State
 access classic State and classic State
 access classic State and classic State
@@ -840,9 +840,9 @@ they have the runaway Ram risk and so
 we can't store classic entries in memory
 we can't store classic entries in memory
 we can't store classic entries in memory
-and so sorbon contracts will still
-and so sorbon contracts will still
-and so sorbon contracts will still
+and so Soroban contracts will still
+and so Soroban contracts will still
+and so Soroban contracts will still
 have to pay disk fees for for classic
 have to pay disk fees for for classic
 have to pay disk fees for for classic
@@ -981,9 +981,9 @@ Implement autor restore functionality
 and so previously when we first
 and so previously when we first
 and so previously when we first
-launched sorbon we weren't sure what the
-launched sorbon we weren't sure what the
-launched sorbon we weren't sure what the
+launched Soroban we weren't sure what the
+launched Soroban we weren't sure what the
+launched Soroban we weren't sure what the
 final State archival proof system was
 final State archival proof system was
 final State archival proof system was
@@ -1062,9 +1062,9 @@ now the the way this works in resources
 though is that like I mentioned before
 though is that like I mentioned before
 though is that like I mentioned before
-the live sorbon state is all cached
-the live sorbon state is all cached
-the live sorbon state is all cached
+the live Soroban state is all cached
+the live Soroban state is all cached
+the live Soroban state is all cached
 in memory in one database and archive
 in memory in one database and archive
 in memory in one database and archive
@@ -1386,9 +1386,9 @@ for all these events so if you wanted to
 it's theoretically possible to injust
 it's theoretically possible to injust
 it's theoretically possible to injust
-meta and maintain the state of sorbon
-meta and maintain the state of sorbon
-meta and maintain the state of sorbon
+meta and maintain the state of Soroban
+meta and maintain the state of Soroban
+meta and maintain the state of Soroban
 entries that way but if you don't
 entries that way but if you don't
 entries that way but if you don't
@@ -1818,9 +1818,9 @@ know in theory at least both do a
 restoration as well as
 extend okay yeah that makes sense Nico
 extend okay yeah that makes sense Nico
-had a question about how the sorbon
-had a question about how the sorbon
-had a question about how the sorbon
+had a question about how the Soroban
+had a question about how the Soroban
+had a question about how the Soroban
 state size is initialized at upgrade
 state size is initialized at upgrade
 state size is initialized at upgrade
@@ -1845,9 +1845,9 @@ setting so so in particular The
 Bucket List Target size will become the
 Bucket List Target size will become the
 Bucket List Target size will become the
-sorbon state size now the issue is
-sorbon state size now the issue is
-sorbon state size now the issue is
+Soroban state size now the issue is
+Soroban state size now the issue is
+Soroban state size now the issue is
 currently the bucket list is like 11 or
 currently the bucket list is like 11 or
 currently the bucket list is like 11 or
@@ -1884,9 +1884,9 @@ for fees being 12 gigs with a target for
 13 gigs because we're only tracking
 13 gigs because we're only tracking
 13 gigs because we're only tracking
-sorbon State your target is still 13
-sorbon State your target is still 13
-sorbon State your target is still 13
+Soroban State your target is still 13
+Soroban State your target is still 13
+Soroban State your target is still 13
 gigs but now your Baseline is like 400
 gigs but now your Baseline is like 400
 gigs but now your Baseline is like 400

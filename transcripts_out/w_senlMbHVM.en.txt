@@ -1413,9 +1413,9 @@ benchmarking tool in Stellar core that
 lets us measure Ledger apply times using
 lets us measure Ledger apply times using
 lets us measure Ledger apply times using
-different sorbon settings so the tool
-different sorbon settings so the tool
-different sorbon settings so the tool
+different Soroban settings so the tool
+different Soroban settings so the tool
+different Soroban settings so the tool
 will generate a a worst case
 will generate a a worst case
 will generate a a worst case

@@ -648,9 +648,9 @@ you know create just the exact same
 interface but instead of calling it
 interface but instead of calling it
 interface but instead of calling it
-directly through the sorbon SDK you
-directly through the sorbon SDK you
-directly through the sorbon SDK you
+directly through the Soroban SDK you
+directly through the Soroban SDK you
+directly through the Soroban SDK you
 would just make a call to a Smart
 would just make a call to a Smart
 would just make a call to a Smart

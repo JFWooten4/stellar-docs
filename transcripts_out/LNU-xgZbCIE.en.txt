@@ -210,12 +210,12 @@ bottlenecks and user experience and
 overall just becomes IM manageable
 overall just becomes IM manageable
 overall just becomes IM manageable
-so you see here on line three you sorbon
-so you see here on line three you sorbon
-so you see here on line three you sorbon
-SDK this is because sorbon uses a
-SDK this is because sorbon uses a
-SDK this is because sorbon uses a
+so you see here on line three you Soroban
+so you see here on line three you Soroban
+so you see here on line three you Soroban
+SDK this is because Soroban uses a
+SDK this is because Soroban uses a
+SDK this is because Soroban uses a
 special dialect of rust with
 special dialect of rust with
 special dialect of rust with
@@ -501,9 +501,9 @@ storage here we have instance which
 is a certain type of data type for
 is a certain type of data type for
 is a certain type of data type for
-sorbon smart contracts of which there
-sorbon smart contracts of which there
-sorbon smart contracts of which there
+Soroban smart contracts of which there
+Soroban smart contracts of which there
+Soroban smart contracts of which there
 are three temporary persistent and
 are three temporary persistent and
 are three temporary persistent and
@@ -825,9 +825,9 @@ Stellar
 rules all right so we set a new title
 rules all right so we set a new title
 rules all right so we set a new title
-instead of sorbon rules we'll say
-instead of sorbon rules we'll say
-instead of sorbon rules we'll say
+instead of Soroban rules we'll say
+instead of Soroban rules we'll say
+instead of Soroban rules we'll say
 Stellar rules we go ahead and get that
 Stellar rules we go ahead and get that
 Stellar rules we go ahead and get that
@@ -1119,9 +1119,9 @@ let's go ahead and click into our cargo
 Tomo file you see a backwards compatible
 Tomo file you see a backwards compatible
 Tomo file you see a backwards compatible
-SDK s sorbon SDK 20.3 point2 this
-SDK s sorbon SDK 20.3 point2 this
-SDK s sorbon SDK 20.3 point2 this
+SDK s Soroban SDK 20.3 point2 this
+SDK s Soroban SDK 20.3 point2 this
+SDK s Soroban SDK 20.3 point2 this
 is a local issue so I'm just going to go
 is a local issue so I'm just going to go
 is a local issue so I'm just going to go
@@ -2049,9 +2049,9 @@ small so they don't take up so much
 space on the Ledger again on line three
 space on the Ledger again on line three
 space on the Ledger again on line three
-you see us sorbon SDK some familiar
-you see us sorbon SDK some familiar
-you see us sorbon SDK some familiar
+you see us Soroban SDK some familiar
+you see us Soroban SDK some familiar
+you see us Soroban SDK some familiar
 attributes we saw from the last example
 attributes we saw from the last example
 attributes we saw from the last example
@@ -2103,9 +2103,9 @@ vector for Strings Vector for symbols
 Etc address is just the way that that
 Etc address is just the way that that
 Etc address is just the way that that
-we or the data type for sorbon smart
-we or the data type for sorbon smart
-we or the data type for sorbon smart
+we or the data type for Soroban smart
+we or the data type for Soroban smart
+we or the data type for Soroban smart
 contract addresses U byes n which is a
 contract addresses U byes n which is a
 contract addresses U byes n which is a
@@ -2454,9 +2454,9 @@ this file here into the main smart
 contract and what this will do is import
 contract and what this will do is import
 contract and what this will do is import
-the pre-compiled sorbon token contract
-the pre-compiled sorbon token contract
-the pre-compiled sorbon token contract
+the pre-compiled Soroban token contract
+the pre-compiled Soroban token contract
+the pre-compiled Soroban token contract
 file and will allow the main smart
 file and will allow the main smart
 file and will allow the main smart
@@ -3867,9 +3867,9 @@ please please please do hop in the
 developer Discord or the Stellar Discord
 developer Discord or the Stellar Discord
 developer Discord or the Stellar Discord
-in the should be sorbon ddev or or
-in the should be sorbon ddev or or
-in the should be sorbon ddev or or
+in the should be Soroban ddev or or
+in the should be Soroban ddev or or
+in the should be Soroban ddev or or
 Dev dhel any one of those channels in
 Dev dhel any one of those channels in
 Dev dhel any one of those channels in

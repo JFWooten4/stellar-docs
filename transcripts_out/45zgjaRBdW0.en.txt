@@ -21,9 +21,9 @@ related settings are stored in The
 Ledger header and this isn't a good
 Ledger header and this isn't a good
 Ledger header and this isn't a good
-place to store you know the sorbon
-place to store you know the sorbon
-place to store you know the sorbon
+place to store you know the Soroban
+place to store you know the Soroban
+place to store you know the Soroban
 settings because they can be quite large
 settings because they can be quite large
 settings because they can be quite large
@@ -78,9 +78,9 @@ the overlay the validators will then
 vote on the hash of the flooded settings
 vote on the hash of the flooded settings
 vote on the hash of the flooded settings
-approach 2 allows users to use sorbon to
-approach 2 allows users to use sorbon to
-approach 2 allows users to use sorbon to
+approach 2 allows users to use Soroban to
+approach 2 allows users to use Soroban to
+approach 2 allows users to use Soroban to
 introduce possible setting upgrades into
 introduce possible setting upgrades into
 introduce possible setting upgrades into
@@ -93,9 +93,9 @@ entries allowing validators to vote on
 one of these entries to overwrite an
 one of these entries to overwrite an
 one of these entries to overwrite an
-existing setting we use sorbon here so
-existing setting we use sorbon here so
-existing setting we use sorbon here so
+existing setting we use Soroban here so
+existing setting we use Soroban here so
+existing setting we use Soroban here so
 accurate fees will be charged for the
 accurate fees will be charged for the
 accurate fees will be charged for the
@@ -810,7 +810,7 @@ soroban
 yeah that's that's the only reason we're
 yeah that's that's the only reason we're
 yeah that's that's the only reason we're
-putting it in in sorbon itself
+putting it in in Soroban itself
 so what does that I would say I mean
 so what does that I would say I mean
 approach one is not hard either in the
@@ -1719,9 +1719,9 @@ changes should be proposed on soroban
 it feels a bit like we're using just
 it feels a bit like we're using just
 it feels a bit like we're using just
-sorbon because it's it's there
-sorbon because it's it's there
-sorbon because it's it's there
+Soroban because it's it's there
+Soroban because it's it's there
+Soroban because it's it's there
 and you know I don't I don't find it
 and you know I don't I don't find it
 and you know I don't I don't find it
@@ -2499,9 +2499,9 @@ often and so in order to do that what we
 do is we want to implement this concept
 do is we want to implement this concept
 do is we want to implement this concept
-of rent so essentially for all sorbon
-of rent so essentially for all sorbon
-of rent so essentially for all sorbon
+of rent so essentially for all Soroban
+of rent so essentially for all Soroban
+of rent so essentially for all Soroban
 smart contract data entries the data
 smart contract data entries the data
 smart contract data entries the data
@@ -3180,9 +3180,9 @@ and so essentially because we have these
 two different requirements we expose two
 two different requirements we expose two
 two different requirements we expose two
-different types of storage at the sorbon
-different types of storage at the sorbon
-different types of storage at the sorbon
+different types of storage at the Soroban
+different types of storage at the Soroban
+different types of storage at the Soroban
 interface level right now we're calling
 interface level right now we're calling
 interface level right now we're calling

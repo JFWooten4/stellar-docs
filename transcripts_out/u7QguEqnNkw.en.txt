@@ -49,7 +49,7 @@ I talked a bit about dual balance
 approach the single balance approach is
 that basically accounts have just a
 single balance in their trust line and
-that is also exposed as a sorbon balance
+that is also exposed as a Soroban balance
 through this built-in contract
 we put together in the stock a set of
 requirements and non-requirements we
@@ -126,15 +126,15 @@ yeah so
 you know our like I've John and I took
 the perspective that
 we would like to minimize the
-relationship between classic and sorbon
+relationship between classic and Soroban
 what and I say minimize because we
 can't like importing and exporting
 actually touches
-I require sorbon to interact with
+I require Soroban to interact with
 trust lines and you know there's
 actually some pretty complex code in
 there where we actually replicate
-electrostline semantics in sorbon
+electrostline semantics in Soroban
 
 like
 I I think I think we should like I I
@@ -147,7 +147,7 @@ moving in the wrong direction if we do
 single balances we are introducing more
 of classic into sorbonne and we're
 introducing more of the classic protocol
-into sorbon and when it's much simpler
+into Soroban and when it's much simpler
 to maintain the separation as much as we
 can
 
@@ -962,7 +962,7 @@ like a like a get available balance on
 the standardized like token contract
 doesn't seem like a huge Legend and like
 standardized or sorry native tokens on
-sorbon the value returned from get
+Soroban the value returned from get
 balance and get available balance would
 effectively always be the same you know
 if as long as it's the standard token
@@ -1214,7 +1214,7 @@ to me like at the current moment
 and I think the main reason is that
 keeps the most separation actually which
 said I know you disagree with
-between stellar and sorbon mainly
+between stellar and Soroban mainly
 because if I'm ever going to touch
 anything it's Stellar it's never
 actually going to leave Stellar Classics

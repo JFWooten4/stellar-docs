@@ -1,7 +1,7 @@
-hello hello everyone welcome to sorbon
+hello hello everyone welcome to Soroban
 talks I'm anujia I'm from the Stellar
 development foundation and I'm super
-excited to bring on our amazing sorbon
+excited to bring on our amazing Soroban
 developer Lee and our Deborah lead Tyler
 onto stream hi everyone hi friends
 all right so this is Lee's first time
@@ -85,7 +85,7 @@ is basically today's stream will be
 about
 one two things actually so we have an
 instant Dev environment set up for
-sorbon so if you're someone like me who
+Soroban so if you're someone like me who
 is basically never touched Russ till
 soroban started
 and is just now getting started and
@@ -97,7 +97,7 @@ pod answer so we're gonna share that
 today
 with all of you and do a couple
 different demos with it and this is your
-chance to ask sorbon Dev Lee I keep
+chance to ask Soroban Dev Lee I keep
 saying that Lee I hope you're okay with
 me calling you the the Thor of on death
 League
@@ -1236,7 +1236,7 @@ contract got it got it
 decentralization
 there are one more question that came in
 here which says
-how sorbon adopted zero knowledge
+how Soroban adopted zero knowledge
 grouping
 soroban supports
 yeah I think we're like very interested
@@ -1321,7 +1321,7 @@ links to it but yeah no definitely like
 I think we wanna the whole reason for
 sore monathon to exist is like simply to
 help with the development and like dog
-fooding sorbon to like the ecosystem and
+fooding Soroban to like the ecosystem and
 then to let our Dev team
 know how can they actually take it
 and improve Sargon right like we're

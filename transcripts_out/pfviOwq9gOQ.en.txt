@@ -193,8 +193,8 @@ github.comstellar
 github.comstellar
 github.comstellar
 
-and we're going to say sorbon astro
-and we're going to say sorbon astro
+and we're going to say Soroban astro
+and we're going to say Soroban astro
 template. Cool. No demo effect today. As
 template. Cool. No demo effect today. As
 template. Cool. No demo effect today. As
@@ -216,9 +216,9 @@ root directory. we have a new cargo
 toml file which actually kind of like
 toml file which actually kind of like
 toml file which actually kind of like
-injects a compatible sorbon SDK into our
-injects a compatible sorbon SDK into our
-injects a compatible sorbon SDK into our
+injects a compatible Soroban SDK into our
+injects a compatible Soroban SDK into our
+injects a compatible Soroban SDK into our
 project. Here we have example which
 project. Here we have example which
 project. Here we have example which
@@ -297,9 +297,9 @@ going to erase this value and we're
 going to go ahead and inject the Soraon
 going to go ahead and inject the Soraon
 going to go ahead and inject the Soraon
-endpoint here. So, public sorbon network
-endpoint here. So, public sorbon network
-endpoint here. So, public sorbon network
+endpoint here. So, public Soroban network
+endpoint here. So, public Soroban network
+endpoint here. So, public Soroban network
 passphrase or excuse me, not the Sorbon
 passphrase or excuse me, not the Sorbon
 passphrase or excuse me, not the Sorbon
@@ -321,9 +321,9 @@ correct passphrase for testn net. Then
 we're going to go ahead and change our
 we're going to go ahead and change our
 we're going to go ahead and change our
-public sorbon RPC URL to the correct
-public sorbon RPC URL to the correct
-public sorbon RPC URL to the correct
+public Soroban RPC URL to the correct
+public Soroban RPC URL to the correct
+public Soroban RPC URL to the correct
 endpoint here which is https
 endpoint here which is https
 endpoint here which is https
@@ -2508,9 +2508,9 @@ the SDK that is the that's that's the
 logic behind the token contract the
 logic behind the token contract the
 logic behind the token contract the
-sorbon or stellar token contract you see
-sorbon or stellar token contract you see
-sorbon or stellar token contract you see
+Soroban or stellar token contract you see
+Soroban or stellar token contract you see
+Soroban or stellar token contract you see
 this client here which allows you to
 this client here which allows you to
 this client here which allows you to
@@ -2892,9 +2892,9 @@ when calling the generate method. Next
 up, we're deploying the abundance token
 up, we're deploying the abundance token
 up, we're deploying the abundance token
-which is just a sorbon token. We use
-which is just a sorbon token. We use
-which is just a sorbon token. We use
+which is just a Soroban token. We use
+which is just a Soroban token. We use
+which is just a Soroban token. We use
 this as a mock token for
 this as a mock token for
 this as a mock token for
@@ -2907,9 +2907,9 @@ capabilities. after this so we deploy
 both the abundance token so random
 both the abundance token so random
 both the abundance token so random
-sorbon mock token and the crowdfund ID
-sorbon mock token and the crowdfund ID
-sorbon mock token and the crowdfund ID
+Soroban mock token and the crowdfund ID
+Soroban mock token and the crowdfund ID
+Soroban mock token and the crowdfund ID
 or excuse me the crowdfund smart
 or excuse me the crowdfund smart
 or excuse me the crowdfund smart

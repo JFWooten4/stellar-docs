@@ -204,9 +204,9 @@ entire size of the database to calculate
 rent fees and write fees we only use the
 rent fees and write fees we only use the
 rent fees and write fees we only use the
-size of the live sorbon state that we
-size of the live sorbon state that we
-size of the live sorbon state that we
+size of the live Soroban state that we
+size of the live Soroban state that we
+size of the live Soroban state that we
 actually have to store in memory
 actually have to store in memory
 actually have to store in memory
@@ -438,9 +438,9 @@ be applied based on the size of the
 entry you're writing and this will be
 entry you're writing and this will be
 entry you're writing and this will be
-applied to both sorbon entries you write
-applied to both sorbon entries you write
-applied to both sorbon entries you write
+applied to both Soroban entries you write
+applied to both Soroban entries you write
+applied to both Soroban entries you write
 as well as classic entries you write
 as well as classic entries you write
 as well as classic entries you write
@@ -555,9 +555,9 @@ in that range but because we're
 switching to only meter the life
 switching to only meter the life
 switching to only meter the life
-sorbon State it'll probably be something
-sorbon State it'll probably be something
-sorbon State it'll probably be something
+Soroban State it'll probably be something
+Soroban State it'll probably be something
+Soroban State it'll probably be something
 on the scale of hundreds of megabytes
 on the scale of hundreds of megabytes
 on the scale of hundreds of megabytes
