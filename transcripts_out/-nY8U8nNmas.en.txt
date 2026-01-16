@@ -84,18 +84,18 @@ Fernando and thank you for joining
 today.
 today.
 today.
-&gt;&gt; Yeah, thank you for the invitation Ken.
-&gt;&gt; Yeah, thank you for the invitation Ken.
-&gt;&gt; Yeah, thank you for the invitation Ken.
+ Yeah, thank you for the invitation Ken.
+ Yeah, thank you for the invitation Ken.
+ Yeah, thank you for the invitation Ken.
 I'm pleasure to be here. so should I
 I'm pleasure to be here. so should I
 I'm pleasure to be here. so should I
 just now continue with the presentation?
 just now continue with the presentation?
 just now continue with the presentation?
-&gt;&gt; Yeah, maybe maybe just just tell a
-&gt;&gt; Yeah, maybe maybe just just tell a
-&gt;&gt; Yeah, maybe maybe just just tell a
+ Yeah, maybe maybe just just tell a
+ Yeah, maybe maybe just just tell a
+ Yeah, maybe maybe just just tell a
 little bit about who you are, how
 little bit about who you are, how
 little bit about who you are, how
@@ -105,9 +105,9 @@ long how long time you've been working
 on protocol.
 on protocol.
 on protocol.
-&gt;&gt; A bit of an introduction. I'm
-&gt;&gt; A bit of an introduction. I'm
-&gt;&gt; A bit of an introduction. I'm
+ A bit of an introduction. I'm
+ A bit of an introduction. I'm
+ A bit of an introduction. I'm
 Fernando Castillo. I'm currently the CTO
 Fernando Castillo. I'm currently the CTO
 Fernando Castillo. I'm currently the CTO
@@ -693,15 +693,15 @@ this is reviewed the authenticity and
 the validity of the information
 the validity of the information
 the validity of the information
-&gt;&gt; maybe maybe you can just have a moment
-&gt;&gt; maybe maybe you can just have a moment
-&gt;&gt; maybe maybe you can just have a moment
+ maybe maybe you can just have a moment
+ maybe maybe you can just have a moment
+ maybe maybe you can just have a moment
 there's there's a couple of questions
 there's there's a couple of questions
 there's there's a couple of questions
-&gt;&gt;
-&gt;&gt;
-&gt;&gt;
+
+
+
 yes so yes actually well going for
 yes so yes actually well going for
 yes so yes actually well going for
@@ -1380,24 +1380,24 @@ So yes, thank you very much. I I hope
 I didn't pass on time and
 I didn't pass on time and
 I didn't pass on time and
-&gt;&gt; we we have we have a few questions.
-&gt;&gt; we we have we have a few questions.
-&gt;&gt; we we have we have a few questions.
-&gt;&gt; in in the chat I think.
-&gt;&gt; in in the chat I think.
-&gt;&gt; in in the chat I think.
-&gt;&gt; okay.
-&gt;&gt; okay.
-&gt;&gt; okay.
-&gt;&gt; I think the
-&gt;&gt; I think the
-&gt;&gt; I think the
+ we we have we have a few questions.
+ we we have we have a few questions.
+ we we have we have a few questions.
+ in in the chat I think.
+ in in the chat I think.
+ in in the chat I think.
+ okay.
+ okay.
+ okay.
+ I think the
+ I think the
+ I think the
 answer
 answer
 answer
-&gt;&gt; yes. So where I was I left is it
-&gt;&gt; yes. So where I was I left is it
-&gt;&gt; yes. So where I was I left is it
+ yes. So where I was I left is it
+ yes. So where I was I left is it
+ yes. So where I was I left is it
 either alone with interest or is it at
 either alone with interest or is it at
 either alone with interest or is it at
@@ -1534,8 +1534,8 @@ to which state do you mean?
 to which state do you mean?
 to which state do you mean?
 world matias.
-&gt;&gt; Yes. so
-&gt;&gt; Yes. so
+ Yes. so
+ Yes. so
 that is so when proofs are verified
 that is so when proofs are verified
 that is so when proofs are verified
@@ -1728,15 +1728,15 @@ that's that's super interesting.
 yeah.
 yeah.
 yeah.
-&gt;&gt; Yeah. Just let me add there's a last
-&gt;&gt; Yeah. Just let me add there's a last
-&gt;&gt; Yeah. Just let me add there's a last
+ Yeah. Just let me add there's a last
+ Yeah. Just let me add there's a last
+ Yeah. Just let me add there's a last
 one.
 one.
 one.
-&gt;&gt; Yeah. Yeah. To to answer that last
-&gt;&gt; Yeah. Yeah. To to answer that last
-&gt;&gt; Yeah. Yeah. To to answer that last
+ Yeah. Yeah. To to answer that last
+ Yeah. Yeah. To to answer that last
+ Yeah. Yeah. To to answer that last
 question. Yes. One of our also our
 question. Yes. One of our also our
 question. Yes. One of our also our
@@ -1774,8 +1774,8 @@ projects and yes we are taking a
 projects and yes we are taking a
 projects and yes we are taking a
 look at near intense.
-&gt;&gt; Great. Well, thank you for joining
-&gt;&gt; Great. Well, thank you for joining
+ Great. Well, thank you for joining
+ Great. Well, thank you for joining
 everyone and thank you for joining too,
 everyone and thank you for joining too,
 everyone and thank you for joining too,
@@ -1794,9 +1794,9 @@ the past year. Thank you for the
 invitation. It was a pleasure.
 invitation. It was a pleasure.
 invitation. It was a pleasure.
-&gt;&gt; Yeah. And and if anyone else has any
-&gt;&gt; Yeah. And and if anyone else has any
-&gt;&gt; Yeah. And and if anyone else has any
+ Yeah. And and if anyone else has any
+ Yeah. And and if anyone else has any
+ Yeah. And and if anyone else has any
 questions, I'm sure you can reach out to
 questions, I'm sure you can reach out to
 questions, I'm sure you can reach out to
@@ -1842,4 +1842,4 @@ building this. So, thank you everyone
 and see you again next week.
 and see you again next week.
 and see you again next week.
-&gt;&gt; Thank you. Bye. Bye.
+ Thank you. Bye. Bye.

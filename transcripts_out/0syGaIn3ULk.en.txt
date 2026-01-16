@@ -33,9 +33,9 @@ with it yet or haven't heard a lot about
 it. So yeah
 it. So yeah
 it. So yeah
-&gt;&gt; awesome. Yeah thanks so much Carson. So
-&gt;&gt; awesome. Yeah thanks so much Carson. So
-&gt;&gt; awesome. Yeah thanks so much Carson. So
+ awesome. Yeah thanks so much Carson. So
+ awesome. Yeah thanks so much Carson. So
+ awesome. Yeah thanks so much Carson. So
 hey guys I'm Fifo I'm work at a labs.
 hey guys I'm Fifo I'm work at a labs.
 hey guys I'm Fifo I'm work at a labs.
@@ -87,9 +87,9 @@ development cycle. So, I'm very excited
 to share this with you guys.
 to share this with you guys.
 to share this with you guys.
-&gt;&gt; Yeah. And when when I heard about the
-&gt;&gt; Yeah. And when when I heard about the
-&gt;&gt; Yeah. And when when I heard about the
+ Yeah. And when when I heard about the
+ Yeah. And when when I heard about the
+ Yeah. And when when I heard about the
 project for the first time, I thought
 project for the first time, I thought
 project for the first time, I thought
@@ -153,9 +153,9 @@ without spending a lot of time on on
 setting up their environment.
 setting up their environment.
 setting up their environment.
-&gt;&gt; Exactly. I I think you said it all and
-&gt;&gt; Exactly. I I think you said it all and
-&gt;&gt; Exactly. I I think you said it all and
+ Exactly. I I think you said it all and
+ Exactly. I I think you said it all and
+ Exactly. I I think you said it all and
 it's what I think it's great about it is
 it's what I think it's great about it is
 it's what I think it's great about it is
@@ -204,9 +204,9 @@ I've missed this kind of tool in the
 past.
 past.
 past.
-&gt;&gt; Yeah. And that's that's one of the
-&gt;&gt; Yeah. And that's that's one of the
-&gt;&gt; Yeah. And that's that's one of the
+ Yeah. And that's that's one of the
+ Yeah. And that's that's one of the
+ Yeah. And that's that's one of the
 things that I really like about it
 things that I really like about it
 things that I really like about it
@@ -255,18 +255,18 @@ let's get into it and and and see what
 what you guys have been working on.
 what you guys have been working on.
 what you guys have been working on.
-&gt;&gt; Awesome. Awesome. Just double checking.
-&gt;&gt; Awesome. Awesome. Just double checking.
-&gt;&gt; Awesome. Awesome. Just double checking.
+ Awesome. Awesome. Just double checking.
+ Awesome. Awesome. Just double checking.
+ Awesome. Awesome. Just double checking.
 Can you guys see my screen? Is
 Can you guys see my screen? Is
 Can you guys see my screen? Is
 everything okay?
 everything okay?
 everything okay?
-&gt;&gt; Awesome. So sometime people's
-&gt;&gt; Awesome. So sometime people's
-&gt;&gt; Awesome. So sometime people's
+ Awesome. So sometime people's
+ Awesome. So sometime people's
+ Awesome. So sometime people's
 complain that my my monitor has like big
 complain that my my monitor has like big
 complain that my my monitor has like big
@@ -387,27 +387,27 @@ that have a specific tag it looks for. I
 mean these were
 mean these were
 mean these were
-&gt;&gt; zoom in a little bit. It's it's a little
-&gt;&gt; zoom in a little bit. It's it's a little
-&gt;&gt; zoom in a little bit. It's it's a little
+ zoom in a little bit. It's it's a little
+ zoom in a little bit. It's it's a little
+ zoom in a little bit. It's it's a little
 bit hard to see.
 bit hard to see.
 bit hard to see.
-&gt;&gt; Yes, absolutely. Yeah. Is it better like
-&gt;&gt; Yes, absolutely. Yeah. Is it better like
-&gt;&gt; Yes, absolutely. Yeah. Is it better like
+ Yes, absolutely. Yeah. Is it better like
+ Yes, absolutely. Yeah. Is it better like
+ Yes, absolutely. Yeah. Is it better like
 that? Like that it's huge my screen.
 that? Like that it's huge my screen.
 that? Like that it's huge my screen.
-&gt;&gt; Yeah. Yeah. Yeah. Now it's now it's
-&gt;&gt; Yeah. Yeah. Yeah. Now it's now it's
-&gt;&gt; Yeah. Yeah. Yeah. Now it's now it's
+ Yeah. Yeah. Yeah. Now it's now it's
+ Yeah. Yeah. Yeah. Now it's now it's
+ Yeah. Yeah. Yeah. Now it's now it's
 really good. It's very easy to see.
 really good. It's very easy to see.
 really good. It's very easy to see.
-&gt;&gt; Awesome. Awesome. So basically it just
-&gt;&gt; Awesome. Awesome. So basically it just
-&gt;&gt; Awesome. Awesome. So basically it just
+ Awesome. Awesome. So basically it just
+ Awesome. Awesome. So basically it just
+ Awesome. Awesome. So basically it just
 found for hits and it's looking on
 found for hits and it's looking on
 found for hits and it's looking on
@@ -3669,9 +3669,9 @@ we have any questions or if like to open
 up for anyone.
 up for anyone.
 up for anyone.
-&gt;&gt; I I think we pretty much caught up
-&gt;&gt; I I think we pretty much caught up
-&gt;&gt; I I think we pretty much caught up
+ I I think we pretty much caught up
+ I I think we pretty much caught up
+ I I think we pretty much caught up
 questions, but if anyone has
 questions, but if anyone has
 questions, but if anyone has
@@ -3774,9 +3774,9 @@ already included in in this in this
 version. So yeah, amazing amazing job.
 version. So yeah, amazing amazing job.
 version. So yeah, amazing amazing job.
-&gt;&gt; Awesome. It's great to hear that and I
-&gt;&gt; Awesome. It's great to hear that and I
-&gt;&gt; Awesome. It's great to hear that and I
+ Awesome. It's great to hear that and I
+ Awesome. It's great to hear that and I
+ Awesome. It's great to hear that and I
 invite everyone to play around, test,
 invite everyone to play around, test,
 invite everyone to play around, test,
@@ -3831,9 +3831,9 @@ track to to get started working on
 your project and and start coding.
 your project and and start coding.
 your project and and start coding.
-&gt;&gt; Yeah. And and we have some hidden gems
-&gt;&gt; Yeah. And and we have some hidden gems
-&gt;&gt; Yeah. And and we have some hidden gems
+ Yeah. And and we have some hidden gems
+ Yeah. And and we have some hidden gems
+ Yeah. And and we have some hidden gems
 that I didn't even touch here because of
 that I didn't even touch here because of
 that I didn't even touch here because of
@@ -3882,12 +3882,12 @@ invocations. But this could be very
 powerful.
 powerful.
 powerful.
-&gt;&gt; Yeah. Great.
-&gt;&gt; Yeah. Great.
-&gt;&gt; Yeah. Great.
-&gt;&gt; Awesome. Awesome. If you guys find
-&gt;&gt; Awesome. Awesome. If you guys find
-&gt;&gt; Awesome. Awesome. If you guys find
+ Yeah. Great.
+ Yeah. Great.
+ Yeah. Great.
+ Awesome. Awesome. If you guys find
+ Awesome. Awesome. If you guys find
+ Awesome. Awesome. If you guys find
 anything or have any any feedback, feel
 anything or have any any feedback, feel
 anything or have any any feedback, feel
@@ -3897,9 +3897,9 @@ free to share directly in the repository
 or get get in touch with us.
 or get get in touch with us.
 or get get in touch with us.
-&gt;&gt; Yeah. How is the best way? Let's say I
-&gt;&gt; Yeah. How is the best way? Let's say I
-&gt;&gt; Yeah. How is the best way? Let's say I
+ Yeah. How is the best way? Let's say I
+ Yeah. How is the best way? Let's say I
+ Yeah. How is the best way? Let's say I
 find a bug or something is not working.
 find a bug or something is not working.
 find a bug or something is not working.
@@ -3909,9 +3909,9 @@ What is the best way to to to let you
 guys know?
 guys know?
 guys know?
-&gt;&gt; I I encourage everyone to directly open
-&gt;&gt; I I encourage everyone to directly open
-&gt;&gt; I I encourage everyone to directly open
+ I I encourage everyone to directly open
+ I I encourage everyone to directly open
+ I I encourage everyone to directly open
 a niche on the repository because we are
 a niche on the repository because we are
 a niche on the repository because we are
@@ -3933,9 +3933,9 @@ there. So feel free to just tag us, me
 or the team. We're always looking there.
 or the team. We're always looking there.
 or the team. We're always looking there.
-&gt;&gt; Great.
-&gt;&gt; Great.
-&gt;&gt; Great.
+ Great.
+ Great.
+ Great.
 Okay. If there's no other questions,
 Okay. If there's no other questions,
 Okay. If there's no other questions,

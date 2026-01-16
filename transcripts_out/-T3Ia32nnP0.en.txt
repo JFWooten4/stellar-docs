@@ -43,8 +43,8 @@ introduce yourself and let's get
 introduce yourself and let's get
 introduce yourself and let's get
 started.
-&gt;&gt; Yeah. Hello everyone. It's really a
-&gt;&gt; Yeah. Hello everyone. It's really a
+ Yeah. Hello everyone. It's really a
+ Yeah. Hello everyone. It's really a
 pleasure to be to participate again
 pleasure to be to participate again
 pleasure to be to participate again
@@ -60,9 +60,9 @@ at at open zeppelin. , and I'm
 building the stellar contracts library.
 building the stellar contracts library.
 building the stellar contracts library.
-&gt;&gt; Hi everyone, it's Ugun here. ,
-&gt;&gt; Hi everyone, it's Ugun here. ,
-&gt;&gt; Hi everyone, it's Ugun here. ,
+ Hi everyone, it's Ugun here. ,
+ Hi everyone, it's Ugun here. ,
+ Hi everyone, it's Ugun here. ,
 pleasure to be here. Good to be here.
 pleasure to be here. Good to be here.
 pleasure to be here. Good to be here.
@@ -81,9 +81,9 @@ improve the smart contract ecosystem for
 Stellar Sorovan.
 Stellar Sorovan.
 Stellar Sorovan.
-&gt;&gt; Great. Thank you. So we've done quite a
-&gt;&gt; Great. Thank you. So we've done quite a
-&gt;&gt; Great. Thank you. So we've done quite a
+ Great. Thank you. So we've done quite a
+ Great. Thank you. So we've done quite a
+ Great. Thank you. So we've done quite a
 few hackathons this year and it's
 few hackathons this year and it's
 few hackathons this year and it's
@@ -1224,9 +1224,9 @@ if anyone has any questions, I think
 yeah, Elliots has a question here.
 yeah, Elliots has a question here.
 yeah, Elliots has a question here.
-&gt;&gt; yeah, did you say that Ozair can be used
-&gt;&gt; yeah, did you say that Ozair can be used
-&gt;&gt; yeah, did you say that Ozair can be used
+ yeah, did you say that Ozair can be used
+ yeah, did you say that Ozair can be used
+ yeah, did you say that Ozair can be used
 to index track additions removal or
 to index track additions removal or
 to index track additions removal or
@@ -1266,9 +1266,9 @@ accounts and could confuse the idea that
 this is a contract.
 this is a contract.
 this is a contract.
-&gt;&gt; Mhm.
-&gt;&gt; Mhm.
-&gt;&gt; Mhm.
+ Mhm.
+ Mhm.
+ Mhm.
 Yeah. ,
 Yeah. ,
 Yeah. ,
@@ -1329,12 +1329,12 @@ Okay, then
 I'm passing it to to O.
 I'm passing it to to O.
 I'm passing it to to O.
-&gt;&gt; Right.
-&gt;&gt; Right.
-&gt;&gt; Right.
-&gt;&gt; Hi again everyone. I'm going to be
-&gt;&gt; Hi again everyone. I'm going to be
-&gt;&gt; Hi again everyone. I'm going to be
+ Right.
+ Right.
+ Right.
+ Hi again everyone. I'm going to be
+ Hi again everyone. I'm going to be
+ Hi again everyone. I'm going to be
 presenting
 presenting
 presenting
@@ -1356,12 +1356,12 @@ because I don't see the
 streaming tab right now.
 streaming tab right now.
 streaming tab right now.
-&gt;&gt; Yep, we see we see your presentation.
-&gt;&gt; Yep, we see we see your presentation.
-&gt;&gt; Yep, we see we see your presentation.
-&gt;&gt; Great. Great.
-&gt;&gt; Great. Great.
-&gt;&gt; Great. Great.
+ Yep, we see we see your presentation.
+ Yep, we see we see your presentation.
+ Yep, we see we see your presentation.
+ Great. Great.
+ Great. Great.
+ Great. Great.
 Let's try slideshow.
 Let's try slideshow.
 Let's try slideshow.
@@ -1911,9 +1911,9 @@ questions. By the way, maybe we can also
 share a link for the world implement.
 share a link for the world implement.
 share a link for the world implement.
-&gt;&gt; Yeah, just maybe we also want to
-&gt;&gt; Yeah, just maybe we also want to
-&gt;&gt; Yeah, just maybe we also want to
+ Yeah, just maybe we also want to
+ Yeah, just maybe we also want to
+ Yeah, just maybe we also want to
 shout to shout out to
 shout to shout out to
 shout to shout out to
@@ -1935,9 +1935,9 @@ helped with this implementation.
 Yeah,
 Yeah,
 Yeah,
-&gt;&gt; laid the groundwork and we
-&gt;&gt; laid the groundwork and we
-&gt;&gt; laid the groundwork and we
+ laid the groundwork and we
+ laid the groundwork and we
+ laid the groundwork and we
 and he also helped us writing the SE
 and he also helped us writing the SE
 and he also helped us writing the SE
@@ -1965,15 +1965,15 @@ is it readable or should I make it
 bigger?
 bigger?
 bigger?
-&gt;&gt; , maybe just slightly bigger. Yeah, I
-&gt;&gt; , maybe just slightly bigger. Yeah, I
-&gt;&gt; , maybe just slightly bigger. Yeah, I
+ , maybe just slightly bigger. Yeah, I
+ , maybe just slightly bigger. Yeah, I
+ , maybe just slightly bigger. Yeah, I
 think this is good.
 think this is good.
 think this is good.
-&gt;&gt; Great.
-&gt;&gt; Great.
-&gt;&gt; Great.
+ Great.
+ Great.
+ Great.
 So RWA as you know stands for real world
 So RWA as you know stands for real world
 So RWA as you know stands for real world
@@ -2676,9 +2676,9 @@ designed from scratch if that's what you
 are asking.
 are asking.
 are asking.
-&gt;&gt; Okay, great. This was three really
-&gt;&gt; Okay, great. This was three really
-&gt;&gt; Okay, great. This was three really
+ Okay, great. This was three really
+ Okay, great. This was three really
+ Okay, great. This was three really
 interesting presentations and I think
 interesting presentations and I think
 interesting presentations and I think
@@ -2811,9 +2811,9 @@ thank you you two guys for being on
 here again
 here again
 here again
-&gt;&gt; and u I'm sure we will talk again
-&gt;&gt; and u I'm sure we will talk again
-&gt;&gt; and u I'm sure we will talk again
+ and u I'm sure we will talk again
+ and u I'm sure we will talk again
+ and u I'm sure we will talk again
 sometime soon and follow up on on the
 sometime soon and follow up on on the
 sometime soon and follow up on on the
@@ -2823,7 +2823,7 @@ latest development. But thank you for
 joining everyone. We see you next week.
 joining everyone. We see you next week.
 joining everyone. We see you next week.
-&gt;&gt; Thanks for having us.
-&gt;&gt; Thanks for having us.
-&gt;&gt; Thanks for having us.
-&gt;&gt; See you.
+ Thanks for having us.
+ Thanks for having us.
+ Thanks for having us.
+ See you.

@@ -18,9 +18,9 @@ yeah please introduce yourself and
 and we'll get get into it.
 and we'll get get into it.
 and we'll get get into it.
-&gt;&gt; Yeah. Hi thank you. thanks for having
-&gt;&gt; Yeah. Hi thank you. thanks for having
-&gt;&gt; Yeah. Hi thank you. thanks for having
+ Yeah. Hi thank you. thanks for having
+ Yeah. Hi thank you. thanks for having
+ Yeah. Hi thank you. thanks for having
 us. So my name is Dylan Kilkenny. a
 us. So my name is Dylan Kilkenny. a
 us. So my name is Dylan Kilkenny. a
@@ -37,8 +37,8 @@ plug-in systems and specifically the the
 plug-in systems and specifically the the
 plug-in systems and specifically the the
 stellar integrations.
-&gt;&gt; Hi. Hi, my name is Sai. I'm the
-&gt;&gt; Hi. Hi, my name is Sai. I'm the
+ Hi. Hi, my name is Sai. I'm the
+ Hi. Hi, my name is Sai. I'm the
 engineering manager managing relays and
 engineering manager managing relays and
 engineering manager managing relays and
@@ -57,9 +57,9 @@ relayer u plugins that you are about to
 present.
 present.
 present.
-&gt;&gt; Great. Thank you. So we already talked a
-&gt;&gt; Great. Thank you. So we already talked a
-&gt;&gt; Great. Thank you. So we already talked a
+ Great. Thank you. So we already talked a
+ Great. Thank you. So we already talked a
+ Great. Thank you. So we already talked a
 little bit about a little bit about
 little bit about a little bit about
 little bit about a little bit about
@@ -84,7 +84,7 @@ with it on Stella. So, please share
 your screen and let's get get started.
 your screen and let's get get started.
 your screen and let's get get started.
-&gt;&gt; Okay, perfect. Thank you.
+ Okay, perfect. Thank you.
 Okay, you can see my screen. Yeah. So
 Okay, you can see my screen. Yeah. So
 what we've been working on the past few
@@ -744,9 +744,9 @@ one account. And yeah, that's pretty
 much it. Any questions, let me know.
 much it. Any questions, let me know.
 much it. Any questions, let me know.
-&gt;&gt; Great. So, I'm I'm a little bit curious
-&gt;&gt; Great. So, I'm I'm a little bit curious
-&gt;&gt; Great. So, I'm I'm a little bit curious
+ Great. So, I'm I'm a little bit curious
+ Great. So, I'm I'm a little bit curious
+ Great. So, I'm I'm a little bit curious
 about the the managed service
 about the the managed service
 about the the managed service
@@ -798,21 +798,21 @@ setup like as as you seen with the
 demo. [snorts]
 demo. [snorts]
 demo. [snorts]
-&gt;&gt; yeah.
-&gt;&gt; yeah.
-&gt;&gt; yeah.
-&gt;&gt; Okay. Great. And and if I want to run
-&gt;&gt; Okay. Great. And and if I want to run
-&gt;&gt; Okay. Great. And and if I want to run
+ yeah.
+ yeah.
+ yeah.
+ Okay. Great. And and if I want to run
+ Okay. Great. And and if I want to run
+ Okay. Great. And and if I want to run
 this on it is open sourced. I see that I
 this on it is open sourced. I see that I
 this on it is open sourced. I see that I
 I can run it on my own
 I can run it on my own
 I can run it on my own
-&gt;&gt; environment. what do I need? I saw
-&gt;&gt; environment. what do I need? I saw
-&gt;&gt; environment. what do I need? I saw
+ environment. what do I need? I saw
+ environment. what do I need? I saw
+ environment. what do I need? I saw
 you mentioned the Reddus Reddus
 you mentioned the Reddus Reddus
 you mentioned the Reddus Reddus
@@ -822,9 +822,9 @@ database. Is there anything else I need
 to to set up to to run it?
 to to set up to to run it?
 to to set up to to run it?
-&gt;&gt; Yeah, it's a good question. So we in the
-&gt;&gt; Yeah, it's a good question. So we in the
-&gt;&gt; Yeah, it's a good question. So we in the
+ Yeah, it's a good question. So we in the
+ Yeah, it's a good question. So we in the
+ Yeah, it's a good question. So we in the
 documentation we actually have all of
 documentation we actually have all of
 documentation we actually have all of
@@ -879,9 +879,9 @@ example configs that get you up and
 running pretty quickly.
 running pretty quickly.
 running pretty quickly.
-&gt;&gt; Okay, great. Sounds pretty easy though.
-&gt;&gt; Okay, great. Sounds pretty easy though.
-&gt;&gt; Okay, great. Sounds pretty easy though.
+ Okay, great. Sounds pretty easy though.
+ Okay, great. Sounds pretty easy though.
+ Okay, great. Sounds pretty easy though.
 what are the the use cases where who
 what are the the use cases where who
 what are the the use cases where who
@@ -897,9 +897,9 @@ any use cases that you have in mind that
 you think will adopt this?
 you think will adopt this?
 you think will adopt this?
-&gt;&gt; Yeah, look, I think it's it's super good
-&gt;&gt; Yeah, look, I think it's it's super good
-&gt;&gt; Yeah, look, I think it's it's super good
+ Yeah, look, I think it's it's super good
+ Yeah, look, I think it's it's super good
+ Yeah, look, I think it's it's super good
 for someone who needs high throughput
 for someone who needs high throughput
 for someone who needs high throughput
@@ -954,9 +954,9 @@ can build on top of that like whatever
 you need.
 you need.
 you need.
-&gt;&gt; Great. Do you have any I I know you
-&gt;&gt; Great. Do you have any I I know you
-&gt;&gt; Great. Do you have any I I know you
+ Great. Do you have any I I know you
+ Great. Do you have any I I know you
+ Great. Do you have any I I know you
 you you mentioned that the the
 you you mentioned that the the
 you you mentioned that the the
@@ -996,24 +996,24 @@ I'm just going to share it in where
 should I share it?
 should I share it?
 should I share it?
-&gt;&gt; can you share it in the post it as
-&gt;&gt; can you share it in the post it as
-&gt;&gt; can you share it in the post it as
+ can you share it in the post it as
+ can you share it in the post it as
+ can you share it in the post it as
 a comment?
 a comment?
 a comment?
-&gt;&gt; Okay. Comments.
-&gt;&gt; Okay. Comments.
-&gt;&gt; Okay. Comments.
+ Okay. Comments.
+ Okay. Comments.
+ Okay. Comments.
 I shared it in the private chat because
 I shared it in the private chat because
 I shared it in the private chat because
 I don't think I'm logged in.
 I don't think I'm logged in.
 I don't think I'm logged in.
-&gt;&gt; I'll just I'll just copy it over.
-&gt;&gt; I'll just I'll just copy it over.
-&gt;&gt; I'll just I'll just copy it over.
+ I'll just I'll just copy it over.
+ I'll just I'll just copy it over.
+ I'll just I'll just copy it over.
 So yeah, there's a pretty extensive
 So yeah, there's a pretty extensive
 So yeah, there's a pretty extensive
@@ -1059,9 +1059,9 @@ can get up and running locally pretty
 quickly.
 quickly.
 quickly.
-&gt;&gt; Okay, great.
-&gt;&gt; Okay, great.
-&gt;&gt; Okay, great.
+ Okay, great.
+ Okay, great.
+ Okay, great.
 , and this is the example in the relay
 , and this is the example in the relay
 , and this is the example in the relay
@@ -1080,9 +1080,9 @@ extensive and it should get people up
 and running.
 and running.
 and running.
-&gt;&gt; Yeah, I I have I have actually gone
-&gt;&gt; Yeah, I I have I have actually gone
-&gt;&gt; Yeah, I I have I have actually gone
+ Yeah, I I have I have actually gone
+ Yeah, I I have I have actually gone
+ Yeah, I I have I have actually gone
 through the the read me and and taking a
 through the the read me and and taking a
 through the the read me and and taking a
@@ -1098,15 +1098,15 @@ just haven't I haven't tried to set it
 up myself yet.
 up myself yet.
 up myself yet.
-&gt;&gt; Okay.
-&gt;&gt; Okay.
-&gt;&gt; Okay.
-&gt;&gt; Looking looking forward to that.
-&gt;&gt; Looking looking forward to that.
-&gt;&gt; Looking looking forward to that.
-&gt;&gt; Yeah. Well, let me know if you have any
-&gt;&gt; Yeah. Well, let me know if you have any
-&gt;&gt; Yeah. Well, let me know if you have any
+ Okay.
+ Okay.
+ Okay.
+ Looking looking forward to that.
+ Looking looking forward to that.
+ Looking looking forward to that.
+ Yeah. Well, let me know if you have any
+ Yeah. Well, let me know if you have any
+ Yeah. Well, let me know if you have any
 feedback. ,
 feedback. ,
 feedback. ,
@@ -1116,9 +1116,9 @@ I hope that it's it's simple even
 though I think it is.
 though I think it is.
 though I think it is.
-&gt;&gt; Yeah. Any any questions from anyone
-&gt;&gt; Yeah. Any any questions from anyone
-&gt;&gt; Yeah. Any any questions from anyone
+ Yeah. Any any questions from anyone
+ Yeah. Any any questions from anyone
+ Yeah. Any any questions from anyone
 watching then feel free to to post it
 watching then feel free to to post it
 watching then feel free to to post it
@@ -1137,15 +1137,15 @@ available on docs.openszprint.com.
 So, I just sent the link.
 So, I just sent the link.
 So, I just sent the link.
-&gt;&gt; Yeah, I posted it.
-&gt;&gt; Yeah, I posted it.
-&gt;&gt; Yeah, I posted it.
-&gt;&gt; Thanks.
-&gt;&gt; Thanks.
-&gt;&gt; Thanks.
-&gt;&gt; Great. Well, if there's no comments or
-&gt;&gt; Great. Well, if there's no comments or
-&gt;&gt; Great. Well, if there's no comments or
+ Yeah, I posted it.
+ Yeah, I posted it.
+ Yeah, I posted it.
+ Thanks.
+ Thanks.
+ Thanks.
+ Great. Well, if there's no comments or
+ Great. Well, if there's no comments or
+ Great. Well, if there's no comments or
 any questions from Let me just check one
 any questions from Let me just check one
 any questions from Let me just check one
@@ -1206,7 +1206,7 @@ yeah, thank you all for joining.
 Thank you.
 Thank you.
 Thank you.
-&gt;&gt; Okay. Thank you.
-&gt;&gt; Okay. Thank you.
-&gt;&gt; Okay. Thank you.
+ Okay. Thank you.
+ Okay. Thank you.
+ Okay. Thank you.
 Bye. Bye. Bye. Bye.

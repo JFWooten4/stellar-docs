@@ -1,8 +1,8 @@
 Hello,
 Hello,
-&gt;&gt; welcome everyone to this week's Stella
-&gt;&gt; welcome everyone to this week's Stella
-&gt;&gt; welcome everyone to this week's Stella
+ welcome everyone to this week's Stella
+ welcome everyone to this week's Stella
+ welcome everyone to this week's Stella
 developer meeting. Today joining me are
 developer meeting. Today joining me are
 developer meeting. Today joining me are
@@ -30,9 +30,9 @@ just please do quick introduction and
 and then we'll get started.
 Great.
 Great.
-&gt;&gt; Thank you, Carson. My name is Estean. I
-&gt;&gt; Thank you, Carson. My name is Estean. I
-&gt;&gt; Thank you, Carson. My name is Estean. I
+ Thank you, Carson. My name is Estean. I
+ Thank you, Carson. My name is Estean. I
+ Thank you, Carson. My name is Estean. I
 am building patals since 2022
 am building patals since 2022
 am building patals since 2022
@@ -66,9 +66,9 @@ to present the the the hackathon and
 motivate everyone to build here.
 motivate everyone to build here.
 motivate everyone to build here.
-&gt;&gt; Yeah, as a as a quick yeah, a quick
-&gt;&gt; Yeah, as a as a quick yeah, a quick
-&gt;&gt; Yeah, as a as a quick yeah, a quick
+ Yeah, as a as a quick yeah, a quick
+ Yeah, as a as a quick yeah, a quick
+ Yeah, as a as a quick yeah, a quick
 comment, we are with Francisco. We are
 comment, we are with Francisco. We are
 comment, we are with Francisco. We are
@@ -168,16 +168,16 @@ So yeah, please take us through the the
 the the basics of of of both products.
 the the basics of of of both products.
 the the basics of of of both products.
-&gt;&gt; Thank you, Caren.
-&gt;&gt; Thank you, Caren.
-&gt;&gt; Thank you, Caren.
+ Thank you, Caren.
+ Thank you, Caren.
+ Thank you, Caren.
 Please, Francisco,
 Please, Francisco,
 Please, Francisco,
-&gt;&gt; I will share the screen.
-&gt;&gt; I will share the screen.
-&gt;&gt; I will share the screen.
-&gt;&gt; Great. So
+ I will share the screen.
+ I will share the screen.
+ I will share the screen.
+ Great. So
 ster hacks with the ster hacks you can
 ster hacks with the ster hacks you can
 swap and build build vaults with palas
@@ -613,8 +613,8 @@ it through Sora.
 Yeah.
 Yeah.
 Great.
-&gt;&gt; Yeah. And finally we in our in our
-&gt;&gt; Yeah. And finally we in our in our
+ Yeah. And finally we in our in our
+ Yeah. And finally we in our in our
 back end for our API we use the source
 back end for our API we use the source
 back end for our API we use the source
@@ -732,12 +732,12 @@ questions but so if the stean or cast
 can tell me if there is any question.
 can tell me if there is any question.
 can tell me if there is any question.
-&gt;&gt; Yeah cool you know
-&gt;&gt; Yeah cool you know
-&gt;&gt; Yeah cool you know
-&gt;&gt; let me know. Well, so
-&gt;&gt; let me know. Well, so
-&gt;&gt; let me know. Well, so
+ Yeah cool you know
+ Yeah cool you know
+ Yeah cool you know
+ let me know. Well, so
+ let me know. Well, so
+ let me know. Well, so
 the findex
 the findex
 the findex
@@ -840,9 +840,9 @@ options. you have automation on the
 smart contract side
 smart contract side
 smart contract side
-&gt;&gt; and you can always look for the best
-&gt;&gt; and you can always look for the best
-&gt;&gt; and you can always look for the best
+ and you can always look for the best
+ and you can always look for the best
+ and you can always look for the best
 earnings without the need to
 earnings without the need to
 earnings without the need to
@@ -1047,18 +1047,18 @@ wallet that want to offer that kind of
 strategy.
 Then on the board,
 Then on the board,
-&gt;&gt; can I say a small comment on the
-&gt;&gt; can I say a small comment on the
-&gt;&gt; can I say a small comment on the
+ can I say a small comment on the
+ can I say a small comment on the
+ can I say a small comment on the
 strategy?
 strategy?
 strategy?
-&gt;&gt; Yeah.
-&gt;&gt; Yeah.
-&gt;&gt; Yeah.
-&gt;&gt; Yeah. Yeah. So we we want to see more
-&gt;&gt; Yeah. Yeah. So we we want to see more
-&gt;&gt; Yeah. Yeah. So we we want to see more
+ Yeah.
+ Yeah.
+ Yeah.
+ Yeah. Yeah. So we we want to see more
+ Yeah. Yeah. So we we want to see more
+ Yeah. Yeah. So we we want to see more
 more strategies, more ideas that you
 more strategies, more ideas that you
 more strategies, more ideas that you
@@ -1092,12 +1092,12 @@ those kind of things or even using other
 protocols
 protocols
 protocols
-&gt;&gt; like sa
-&gt;&gt; like sa
-&gt;&gt; like sa
-&gt;&gt; like sa
-&gt;&gt; like sa
-&gt;&gt; like sa
+ like sa
+ like sa
+ like sa
+ like sa
+ like sa
+ like sa
 Yeah. So that would be like a very good
 Yeah. So that would be like a very good
 Yeah. So that would be like a very good
@@ -1158,9 +1158,9 @@ swap
 or not you know that's and Matias yeah
 or not you know that's and Matias yeah
 or not you know that's and Matias yeah
-&gt;&gt; so it it's an optional parameter that
-&gt;&gt; so it it's an optional parameter that
-&gt;&gt; so it it's an optional parameter that
+ so it it's an optional parameter that
+ so it it's an optional parameter that
+ so it it's an optional parameter that
 you may need for some for some logic
 then we have the b
 then we have the b
@@ -1230,9 +1230,9 @@ it in your app in your front end and
 start collecting fees.
 start collecting fees.
 start collecting fees.
-&gt;&gt; Yeah I I want to go want you to go back
-&gt;&gt; Yeah I I want to go want you to go back
-&gt;&gt; Yeah I I want to go want you to go back
+ Yeah I I want to go want you to go back
+ Yeah I I want to go want you to go back
+ Yeah I I want to go want you to go back
 to the roles.
 to the roles.
 to the roles.
@@ -1272,12 +1272,12 @@ help like manage defined exults.
 That's maybe something interesting.
 That's maybe something interesting.
 That's maybe something interesting.
-&gt;&gt; Some ideas. Yeah.
-&gt;&gt; Some ideas. Yeah.
-&gt;&gt; Some ideas. Yeah.
-&gt;&gt; Yeah. Multi multic. Thank you, Matias.
-&gt;&gt; Yeah. Multi multic. Thank you, Matias.
-&gt;&gt; Yeah. Multi multic. Thank you, Matias.
+ Some ideas. Yeah.
+ Some ideas. Yeah.
+ Some ideas. Yeah.
+ Yeah. Multi multic. Thank you, Matias.
+ Yeah. Multi multic. Thank you, Matias.
+ Yeah. Multi multic. Thank you, Matias.
 Then if you want to do is do it this
 Then if you want to do is do it this
 Then if you want to do is do it this
@@ -1407,9 +1407,9 @@ front end
 this could be very useful.
 this could be very useful.
 this could be very useful.
-&gt;&gt; Yeah we also have we also have we
-&gt;&gt; Yeah we also have we also have we
-&gt;&gt; Yeah we also have we also have we
+ Yeah we also have we also have we
+ Yeah we also have we also have we
+ Yeah we also have we also have we
 have deposit withdraw and we have the
 have deposit withdraw and we have the
 have deposit withdraw and we have the
@@ -1420,8 +1420,8 @@ So you don't need you don't need to
 So you don't need you don't need to
 So you don't need you don't need to
 build all those things.
-&gt;&gt; Yeah. So and we are here to help you. So
-&gt;&gt; Yeah. So and we are here to help you. So
+ Yeah. So and we are here to help you. So
+ Yeah. So and we are here to help you. So
 please join the telegram group. We are
 please join the telegram group. We are
 please join the telegram group. We are
@@ -1431,9 +1431,9 @@ going to be there
 answering as fast as we can
 and yeah we are here to help you.
 and yeah we are here to help you.
-&gt;&gt; Great. Thank you for for the
-&gt;&gt; Great. Thank you for for the
-&gt;&gt; Great. Thank you for for the
+ Great. Thank you for for the
+ Great. Thank you for for the
+ Great. Thank you for for the
 introduction to Defendex and and to
 introduction to Defendex and and to
 introduction to Defendex and and to
@@ -1444,8 +1444,8 @@ great to see that some of the some of
 great to see that some of the some of
 great to see that some of the some of
 the other teams that you are
-&gt;&gt; you're at with the Draperu, they're
-&gt;&gt; you're at with the Draperu, they're
+ you're at with the Draperu, they're
+ you're at with the Draperu, they're
 already starting to to look into how
 already starting to to look into how
 already starting to to look into how
@@ -1461,18 +1461,18 @@ ecosystem could benefit from from
 integrating with you guys.
 Francisco, you are sharing your screen.
 Francisco, you are sharing your screen.
-&gt;&gt; I can remove it.
-&gt;&gt; I can remove it.
-&gt;&gt; I can remove it.
-&gt;&gt; Yeah, sure.
-&gt;&gt; Yeah, sure.
-&gt;&gt; Yeah, sure.
-&gt;&gt; Okay.
-&gt;&gt; Okay.
-&gt;&gt; Okay.
-&gt;&gt; I don't know if anybody has comments and
-&gt;&gt; I don't know if anybody has comments and
-&gt;&gt; I don't know if anybody has comments and
+ I can remove it.
+ I can remove it.
+ I can remove it.
+ Yeah, sure.
+ Yeah, sure.
+ Yeah, sure.
+ Okay.
+ Okay.
+ Okay.
+ I don't know if anybody has comments and
+ I don't know if anybody has comments and
+ I don't know if anybody has comments and
 questions. I think there was a question
 questions. I think there was a question
 questions. I think there was a question
@@ -1530,9 +1530,9 @@ for you. But then the aggregator
 contract needs that information.
 yeah.
 yeah.
-&gt;&gt; Okay, great. Let's change tracks to
-&gt;&gt; Okay, great. Let's change tracks to
-&gt;&gt; Okay, great. Let's change tracks to
+ Okay, great. Let's change tracks to
+ Okay, great. Let's change tracks to
+ Okay, great. Let's change tracks to
 the the hackathon. So right now we have
 the the hackathon. So right now we have
 the the hackathon. So right now we have
@@ -1557,24 +1557,24 @@ about it. I can Are you sharing your
 screen?
 screen?
 screen?
-&gt;&gt; yeah.
-&gt;&gt; yeah.
-&gt;&gt; yeah.
-&gt;&gt; Share this one.
-&gt;&gt; No, it's it's not this one.
-&gt;&gt; No, it's it's not this one.
-&gt;&gt; Okay.
-&gt;&gt; Okay. But show to show the
-&gt;&gt; Okay. But show to show the
+ yeah.
+ yeah.
+ yeah.
+ Share this one.
+ No, it's it's not this one.
+ No, it's it's not this one.
+ Okay.
+ Okay. But show to show the
+ Okay. But show to show the
 the like to hacks web page. Yeah, let's
 the like to hacks web page. Yeah, let's
 the like to hacks web page. Yeah, let's
 here we go.
 here we go.
 here we go.
-&gt;&gt; Yeah.
-&gt;&gt; So, this is the second second
-&gt;&gt; So, this is the second second
+ Yeah.
+ So, this is the second second
+ So, this is the second second
 hackathon we're doing with Stellar hacks.
 hackathon we're doing with Stellar hacks.
 hackathon we're doing with Stellar hacks.
@@ -1596,24 +1596,24 @@ tell me more about what what would you
 like to see? What is
 like to see? What is
 like to see? What is
-&gt;&gt; what what is what are people building?
-&gt;&gt; what what is what are people building?
-&gt;&gt; what what is what are people building?
-&gt;&gt; So for example here in defy defy
-&gt;&gt; So for example here in defy defy
-&gt;&gt; So for example here in defy defy
+ what what is what are people building?
+ what what is what are people building?
+ what what is what are people building?
+ So for example here in defy defy
+ So for example here in defy defy
+ So for example here in defy defy
 integrations is is my screen is
 integrations is is my screen is
 integrations is is my screen is
 showing right?
 showing right?
 showing right?
-&gt;&gt; Yeah.
-&gt;&gt; Yeah.
-&gt;&gt; Yeah.
-&gt;&gt; so for example here we have a smart
-&gt;&gt; so for example here we have a smart
-&gt;&gt; so for example here we have a smart
+ Yeah.
+ Yeah.
+ Yeah.
+ so for example here we have a smart
+ so for example here we have a smart
+ so for example here we have a smart
 wallets a smart wallet using source and
 wallets a smart wallet using source and
 wallets a smart wallet using source and
@@ -1872,9 +1872,9 @@ to have an exposure 50/50 I don't know
 to to different assets.
 to to different assets.
 to to different assets.
-&gt;&gt; Yeah.
-&gt;&gt; Great. So, there's still one week left
-&gt;&gt; Great. So, there's still one week left
+ Yeah.
+ Great. So, there's still one week left
+ Great. So, there's still one week left
 of the hackathon and if you want to
 of the hackathon and if you want to
 of the hackathon and if you want to
@@ -1890,9 +1890,9 @@ fun challenge to do and a great way to
 to learn more about
 to learn more about
 to learn more about
-&gt;&gt; source swap and and defendex then
-&gt;&gt; source swap and and defendex then
-&gt;&gt; source swap and and defendex then
+ source swap and and defendex then
+ source swap and and defendex then
+ source swap and and defendex then
 this hackathon is a great opportunity.
 this hackathon is a great opportunity.
 this hackathon is a great opportunity.
@@ -1935,12 +1935,12 @@ left so plenty of time to do something
 fun.
 fun.
 fun.
-&gt;&gt; It's up to the 1st of August but yes
-&gt;&gt; It's up to the 1st of August but yes
-&gt;&gt; It's up to the 1st of August but yes
+ It's up to the 1st of August but yes
+ It's up to the 1st of August but yes
+ It's up to the 1st of August but yes
 until the 1 of August.
-&gt;&gt; Yeah. And and final comment we will be
-&gt;&gt; Yeah. And and final comment we will be
+ Yeah. And and final comment we will be
+ Yeah. And and final comment we will be
 helping. If you have any question please
 helping. If you have any question please
 helping. If you have any question please
@@ -2004,9 +2004,9 @@ the team organizing this hackathon and
 Jerome.
 Jerome.
 Jerome.
-&gt;&gt; Yeah, they they're really doing a great
-&gt;&gt; Yeah, they they're really doing a great
-&gt;&gt; Yeah, they they're really doing a great
+ Yeah, they they're really doing a great
+ Yeah, they they're really doing a great
+ Yeah, they they're really doing a great
 job with these mini hackathons. So, big
 job with these mini hackathons. So, big
 job with these mini hackathons. So, big
@@ -2034,18 +2034,18 @@ something cool. So So please visit
 the hackathon page.
 the hackathon page.
 the hackathon page.
-&gt;&gt; Okay, great. Any any other questions
-&gt;&gt; Okay, great. Any any other questions
-&gt;&gt; Okay, great. Any any other questions
+ Okay, great. Any any other questions
+ Okay, great. Any any other questions
+ Okay, great. Any any other questions
 before we we end this call?
 before we we end this call?
 before we we end this call?
 doesn't look like there's
 doesn't look like there's
 doesn't look like there's
-&gt;&gt; anymore. But thank you for joining. I
-&gt;&gt; anymore. But thank you for joining. I
-&gt;&gt; anymore. But thank you for joining. I
+ anymore. But thank you for joining. I
+ anymore. But thank you for joining. I
+ anymore. But thank you for joining. I
 know it's it's a crazy busy week for
 know it's it's a crazy busy week for
 know it's it's a crazy busy week for
@@ -2055,15 +2055,15 @@ you. being at at Draperu is is a
 lot of fun, but it's also a lot of work.
 lot of fun, but it's also a lot of work.
 lot of fun, but it's also a lot of work.
-&gt;&gt; We we were pitching the Findex to Tim
-&gt;&gt; We we were pitching the Findex to Tim
-&gt;&gt; We we were pitching the Findex to Tim
+ We we were pitching the Findex to Tim
+ We we were pitching the Findex to Tim
+ We we were pitching the Findex to Tim
 Draper on Tuesday.
 Draper on Tuesday.
 Draper on Tuesday.
-&gt;&gt; Yeah, Tim Draper is is is a VC legend
-&gt;&gt; Yeah, Tim Draper is is is a VC legend
-&gt;&gt; Yeah, Tim Draper is is is a VC legend
+ Yeah, Tim Draper is is is a VC legend
+ Yeah, Tim Draper is is is a VC legend
+ Yeah, Tim Draper is is is a VC legend
 here in Silicon Valley. He was one of
 here in Silicon Valley. He was one of
 here in Silicon Valley. He was one of
@@ -2085,12 +2085,12 @@ Driver is is definitely an awesome
 opportunity.
 opportunity.
 opportunity.
-&gt;&gt; Yeah. Yeah.
-&gt;&gt; Yeah. Yeah.
-&gt;&gt; Yeah. Yeah.
-&gt;&gt; Because we think we think that the
-&gt;&gt; Because we think we think that the
-&gt;&gt; Because we think we think that the
+ Yeah. Yeah.
+ Yeah. Yeah.
+ Yeah. Yeah.
+ Because we think we think that the
+ Because we think we think that the
+ Because we think we think that the
 millions of users will have their first
 millions of users will have their first
 millions of users will have their first
@@ -2100,19 +2100,19 @@ Savings account through a wallet, not a
 traditional bank.
 traditional bank.
 traditional bank.
-&gt;&gt; Yeah.
-&gt;&gt; Okay. Thank you everyone and
-&gt;&gt; Okay. Thank you everyone and
-&gt;&gt; you too guys. we'll be back here
-&gt;&gt; you too guys. we'll be back here
-&gt;&gt; you too guys. we'll be back here
+ Yeah.
+ Okay. Thank you everyone and
+ Okay. Thank you everyone and
+ you too guys. we'll be back here
+ you too guys. we'll be back here
+ you too guys. we'll be back here
 on Twitter next week. Thank you everyone
 on Twitter next week. Thank you everyone
 on Twitter next week. Thank you everyone
 for joining. Thank you. Bye
 for joining. Thank you. Bye
 for joining. Thank you. Bye
-&gt;&gt; bye. Bye.
-&gt;&gt; bye. Bye.
-&gt;&gt; bye. Bye.
-&gt;&gt; Good idea, Matias.
+ bye. Bye.
+ bye. Bye.
+ bye. Bye.
+ Good idea, Matias.

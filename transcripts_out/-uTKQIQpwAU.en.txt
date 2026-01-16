@@ -51,9 +51,9 @@ briefly and then yeah, we can jump
 into the demo.
 into the demo.
 into the demo.
-&gt;&gt; Yeah, thank you so much. I really
-&gt;&gt; Yeah, thank you so much. I really
-&gt;&gt; Yeah, thank you so much. I really
+ Yeah, thank you so much. I really
+ Yeah, thank you so much. I really
+ Yeah, thank you so much. I really
 appreciate it. It's nice to be here and
 appreciate it. It's nice to be here and
 appreciate it. It's nice to be here and
@@ -84,24 +84,24 @@ some of the stuff works and yeah I think
 it's going to be really fun.
 it's going to be really fun.
 it's going to be really fun.
-&gt;&gt; Okay, I'll share the screen here.
+ Okay, I'll share the screen here.
 Maybe you can zoom in a little bit.
 Maybe you can zoom in a little bit.
-&gt;&gt; Yeah, I think I can do that. And my
-&gt;&gt; Yeah, I think I can do that. And my
-&gt;&gt; Yeah, I think I can do that. And my
+ Yeah, I think I can do that. And my
+ Yeah, I think I can do that. And my
+ Yeah, I think I can do that. And my
 screen is a little big. There we go. I
 screen is a little big. There we go. I
 screen is a little big. There we go. I
 think that should be good.
 think that should be good.
 think that should be good.
-&gt;&gt; Yeah. Does that look better? Yep.
-&gt;&gt; Yeah. Does that look better? Yep.
-&gt;&gt; Yeah. Does that look better? Yep.
-&gt;&gt; Sweet. Awesome. Yeah. Well, like I said,
-&gt;&gt; Sweet. Awesome. Yeah. Well, like I said,
-&gt;&gt; Sweet. Awesome. Yeah. Well, like I said,
+ Yeah. Does that look better? Yep.
+ Yeah. Does that look better? Yep.
+ Yeah. Does that look better? Yep.
+ Sweet. Awesome. Yeah. Well, like I said,
+ Sweet. Awesome. Yeah. Well, like I said,
+ Sweet. Awesome. Yeah. Well, like I said,
 today we're going to be showing off
 today we're going to be showing off
 today we're going to be showing off
@@ -645,9 +645,9 @@ UIs built in. Yeah, that's pretty much
 it.
 it.
 it.
-&gt;&gt; Great. if there's anyone that has
-&gt;&gt; Great. if there's anyone that has
-&gt;&gt; Great. if there's anyone that has
+ Great. if there's anyone that has
+ Great. if there's anyone that has
+ Great. if there's anyone that has
 any questions, please feel free to to
 any questions, please feel free to to
 any questions, please feel free to to
@@ -684,9 +684,9 @@ what is a typical use case you would
 say?
 say?
 say?
-&gt;&gt; Yeah, I think there's actually a lot of
-&gt;&gt; Yeah, I think there's actually a lot of
-&gt;&gt; Yeah, I think there's actually a lot of
+ Yeah, I think there's actually a lot of
+ Yeah, I think there's actually a lot of
+ Yeah, I think there's actually a lot of
 great use cases for it. One of them,
 great use cases for it. One of them,
 great use cases for it. One of them,
@@ -774,9 +774,9 @@ test things out. But but you said it's
 built in it was built in React.
 built in it was built in React.
 built in it was built in React.
-&gt;&gt; Yeah. Yep. It's all basic React UI
-&gt;&gt; Yeah. Yep. It's all basic React UI
-&gt;&gt; Yeah. Yep. It's all basic React UI
+ Yeah. Yep. It's all basic React UI
+ Yeah. Yep. It's all basic React UI
+ Yeah. Yep. It's all basic React UI
 components. I think we use Shad CN UI
 components. I think we use Shad CN UI
 components. I think we use Shad CN UI
@@ -810,9 +810,9 @@ away if you'd like to, which is really
 cool.
 cool.
 cool.
-&gt;&gt; Yeah, it it definitely makes it easy to
-&gt;&gt; Yeah, it it definitely makes it easy to
-&gt;&gt; Yeah, it it definitely makes it easy to
+ Yeah, it it definitely makes it easy to
+ Yeah, it it definitely makes it easy to
+ Yeah, it it definitely makes it easy to
 drop it into to if if you're building a
 drop it into to if if you're building a
 drop it into to if if you're building a
@@ -825,9 +825,9 @@ forms to interact with the with the
 smart contracts.
 smart contracts.
 smart contracts.
-&gt;&gt; I think personally, I think we'll see a
-&gt;&gt; I think personally, I think we'll see a
-&gt;&gt; I think personally, I think we'll see a
+ I think personally, I think we'll see a
+ I think personally, I think we'll see a
+ I think personally, I think we'll see a
 lot of use of this in hackathons where
 lot of use of this in hackathons where
 lot of use of this in hackathons where
@@ -852,9 +852,9 @@ front end for my for my my smart
 contract. So
 contract. So
 contract. So
-&gt;&gt; really really great experience. I see we
-&gt;&gt; really really great experience. I see we
-&gt;&gt; really really great experience. I see we
+ really really great experience. I see we
+ really really great experience. I see we
+ really really great experience. I see we
 have a question here.
 have a question here.
 have a question here.
@@ -870,9 +870,9 @@ interact with your C contracts. Yeah,
 absolutely.
 absolutely.
 absolutely.
-&gt;&gt; Yeah. Yeah. Absolutely.
-&gt;&gt; Yeah. Yeah. Absolutely.
-&gt;&gt; Yeah. Yeah. Absolutely.
+ Yeah. Yeah. Absolutely.
+ Yeah. Yeah. Absolutely.
+ Yeah. Yeah. Absolutely.
 I I even see it. I even see it
 I I even see it. I even see it
 I I even see it. I even see it
@@ -888,12 +888,12 @@ we we get to play around with a lot of
 new stuff.
 new stuff.
 new stuff.
-&gt;&gt; sure do.
-&gt;&gt; sure do.
-&gt;&gt; sure do.
-&gt;&gt; And and a lot of time just for the
-&gt;&gt; And and a lot of time just for the
-&gt;&gt; And and a lot of time just for the
+ sure do.
+ sure do.
+ sure do.
+ And and a lot of time just for the
+ And and a lot of time just for the
+ And and a lot of time just for the
 convenience of it. I think I think
 convenience of it. I think I think
 convenience of it. I think I think
@@ -939,9 +939,9 @@ in their Next.js or their React
 application.
 application.
 application.
-&gt;&gt; Yeah, absolutely.
-&gt;&gt; Yeah, absolutely.
-&gt;&gt; Yeah, absolutely.
+ Yeah, absolutely.
+ Yeah, absolutely.
+ Yeah, absolutely.
 then there's a question does it
 then there's a question does it
 then there's a question does it
@@ -975,9 +975,9 @@ to try and see if that does work. I know
 that's still pretty new.
 that's still pretty new.
 that's still pretty new.
-&gt;&gt; Yeah. Great. Any other questions?
-&gt;&gt; Yeah. Great. Any other questions?
-&gt;&gt; Yeah. Great. Any other questions?
+ Yeah. Great. Any other questions?
+ Yeah. Great. Any other questions?
+ Yeah. Great. Any other questions?
 In the meanwhile, I will say you
 In the meanwhile, I will say you
 In the meanwhile, I will say you
@@ -990,12 +990,12 @@ going to do a presentation about that
 in about two weeks. I think it's
 in about two weeks. I think it's
 in about two weeks. I think it's
-&gt;&gt; Oh, excellent.
-&gt;&gt; Oh, excellent.
-&gt;&gt; Oh, excellent.
-&gt;&gt; I don't think it's on next Thursday, but
-&gt;&gt; I don't think it's on next Thursday, but
-&gt;&gt; I don't think it's on next Thursday, but
+ Oh, excellent.
+ Oh, excellent.
+ Oh, excellent.
+ I don't think it's on next Thursday, but
+ I don't think it's on next Thursday, but
+ I don't think it's on next Thursday, but
 I think it's in two weeks if I remember
 I think it's in two weeks if I remember
 I think it's in two weeks if I remember
@@ -1014,21 +1014,21 @@ have a demonstration of that. So, I'm
 looking forward to that as well.
 looking forward to that as well.
 looking forward to that as well.
-&gt;&gt; Yeah, don't miss that. That's that stuff
-&gt;&gt; Yeah, don't miss that. That's that stuff
-&gt;&gt; Yeah, don't miss that. That's that stuff
+ Yeah, don't miss that. That's that stuff
+ Yeah, don't miss that. That's that stuff
+ Yeah, don't miss that. That's that stuff
 is pretty sweet, very helpful.
 is pretty sweet, very helpful.
 is pretty sweet, very helpful.
-&gt;&gt; Okay, can you maybe just talk a little
-&gt;&gt; Okay, can you maybe just talk a little
-&gt;&gt; Okay, can you maybe just talk a little
+ Okay, can you maybe just talk a little
+ Okay, can you maybe just talk a little
+ Okay, can you maybe just talk a little
 bit about what Relay is?
 bit about what Relay is?
 bit about what Relay is?
-&gt;&gt; Yeah, it's essentially like a it's
-&gt;&gt; Yeah, it's essentially like a it's
-&gt;&gt; Yeah, it's essentially like a it's
+ Yeah, it's essentially like a it's
+ Yeah, it's essentially like a it's
+ Yeah, it's essentially like a it's
 like a Rust backend. So, it's written in
 like a Rust backend. So, it's written in
 like a Rust backend. So, it's written in
@@ -1173,9 +1173,9 @@ to, you know, for building apps and
 stuff.
 stuff.
 stuff.
-&gt;&gt; Okay, great. It doesn't seem like we
-&gt;&gt; Okay, great. It doesn't seem like we
-&gt;&gt; Okay, great. It doesn't seem like we
+ Okay, great. It doesn't seem like we
+ Okay, great. It doesn't seem like we
+ Okay, great. It doesn't seem like we
 have we have any more questions. So,
 have we have any more questions. So,
 have we have any more questions. So,
@@ -1194,9 +1194,9 @@ end and create front-end components for
 for a smart contract.
 for a smart contract.
 for a smart contract.
-&gt;&gt; I It's kind of tooling where it's it's
-&gt;&gt; I It's kind of tooling where it's it's
-&gt;&gt; I It's kind of tooling where it's it's
+ I It's kind of tooling where it's it's
+ I It's kind of tooling where it's it's
+ I It's kind of tooling where it's it's
 it's it's making life a lot easier.
 it's it's making life a lot easier.
 it's it's making life a lot easier.
@@ -1248,13 +1248,13 @@ meeting on Discord. So, see you all
 there and thank you again, Steve.
 there and thank you again, Steve.
 there and thank you again, Steve.
-&gt;&gt; Thank you, Kristen. Yeah, it's great to
-&gt;&gt; Thank you, Kristen. Yeah, it's great to
-&gt;&gt; Thank you, Kristen. Yeah, it's great to
+ Thank you, Kristen. Yeah, it's great to
+ Thank you, Kristen. Yeah, it's great to
+ Thank you, Kristen. Yeah, it's great to
 be here.
 be here.
 be here.
-&gt;&gt; See you.
-&gt;&gt; See you.
-&gt;&gt; See you.
-&gt;&gt; Bye.
+ See you.
+ See you.
+ See you.
+ Bye.

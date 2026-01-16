@@ -10,8 +10,8 @@ joining the call from NMIX. So please
 joining the call from NMIX. So please
 joining the call from NMIX. So please
 please introduce yourself.
-&gt;&gt; Good morning everyone. My name is
-&gt;&gt; Good morning everyone. My name is
+ Good morning everyone. My name is
+ Good morning everyone. My name is
 Chaved. the CEO and co-founder of
 Chaved. the CEO and co-founder of
 Chaved. the CEO and co-founder of
@@ -129,12 +129,12 @@ Excellent.
 Mason, you want to introduce yourself?
 Mason, you want to introduce yourself?
 Mason, you want to introduce yourself?
-&gt;&gt; Let me just wish my comments.
-&gt;&gt; Let me just wish my comments.
-&gt;&gt; Let me just wish my comments.
-&gt;&gt; Hello everyone.
-&gt;&gt; Hello everyone.
-&gt;&gt; Hello everyone.
+ Let me just wish my comments.
+ Let me just wish my comments.
+ Let me just wish my comments.
+ Hello everyone.
+ Hello everyone.
+ Hello everyone.
 Good morning, good evening,
 Good morning, good evening,
 Good morning, good evening,
@@ -177,15 +177,15 @@ onboarding them onto
 chains as well.
 chains as well.
 chains as well.
-&gt;&gt; Great. Thank you for the introductions.
-&gt;&gt; Great. Thank you for the introductions.
-&gt;&gt; Great. Thank you for the introductions.
-&gt;&gt; Yeah,
-&gt;&gt; Yeah,
-&gt;&gt; Yeah,
-&gt;&gt; I I I really love tooling tooling and
-&gt;&gt; I I I really love tooling tooling and
-&gt;&gt; I I I really love tooling tooling and
+ Great. Thank you for the introductions.
+ Great. Thank you for the introductions.
+ Great. Thank you for the introductions.
+ Yeah,
+ Yeah,
+ Yeah,
+ I I I really love tooling tooling and
+ I I I really love tooling tooling and
+ I I I really love tooling tooling and
 and yeah, what what can make your
 and yeah, what what can make your
 and yeah, what what can make your
@@ -210,9 +210,9 @@ solution. So I'm I'm super excited to
 see see your presentation and your demo.
 see see your presentation and your demo.
 see see your presentation and your demo.
-&gt;&gt; Sounds great. So to start off I believe
-&gt;&gt; Sounds great. So to start off I believe
-&gt;&gt; Sounds great. So to start off I believe
+ Sounds great. So to start off I believe
+ Sounds great. So to start off I believe
+ Sounds great. So to start off I believe
 we would like to share a little bit
 we would like to share a little bit
 we would like to share a little bit
@@ -453,9 +453,9 @@ I'll pause here very quickly for any
 comments from you, Carson.
 comments from you, Carson.
 comments from you, Carson.
-&gt;&gt; Yeah, I just want to say that if anyone
-&gt;&gt; Yeah, I just want to say that if anyone
-&gt;&gt; Yeah, I just want to say that if anyone
+ Yeah, I just want to say that if anyone
+ Yeah, I just want to say that if anyone
+ Yeah, I just want to say that if anyone
 watching here has any questions,
 watching here has any questions,
 watching here has any questions,
@@ -483,9 +483,9 @@ diamond pattern what what that is
 for those who are less familiar with it.
 for those who are less familiar with it.
 for those who are less familiar with it.
-&gt;&gt; Of course. So the diamond proxy standard
-&gt;&gt; Of course. So the diamond proxy standard
-&gt;&gt; Of course. So the diamond proxy standard
+ Of course. So the diamond proxy standard
+ Of course. So the diamond proxy standard
+ Of course. So the diamond proxy standard
 is functions similarly to how proxies
 is functions similarly to how proxies
 is functions similarly to how proxies
@@ -588,9 +588,9 @@ having to do costly reissuances and
 migrations of those tokens.
 migrations of those tokens.
 migrations of those tokens.
-&gt;&gt; Great. Okay. So, I'll pause for any
-&gt;&gt; Great. Okay. So, I'll pause for any
-&gt;&gt; Great. Okay. So, I'll pause for any
+ Great. Okay. So, I'll pause for any
+ Great. Okay. So, I'll pause for any
+ Great. Okay. So, I'll pause for any
 highle questions and then I'll let
 highle questions and then I'll let
 highle questions and then I'll let
@@ -600,9 +600,9 @@ Thomas take it away and get down into
 the nitty-gritty.
 the nitty-gritty.
 the nitty-gritty.
-&gt;&gt; Sounds good.
-&gt;&gt; Here's there was one question from
-&gt;&gt; Here's there was one question from
+ Sounds good.
+ Here's there was one question from
+ Here's there was one question from
 the audience asking for a link to the
 the audience asking for a link to the
 the audience asking for a link to the
@@ -618,10 +618,10 @@ filing because that's what we're going
 to go over next.
 to go over next.
 to go over next.
-&gt;&gt; Yeah, I can I can post that one.
-&gt;&gt; Yeah, I can I can post that one.
-&gt;&gt; Yeah, I can I can post that one.
-&gt;&gt; Yeah.
+ Yeah, I can I can post that one.
+ Yeah, I can I can post that one.
+ Yeah, I can I can post that one.
+ Yeah.
 Yeah, there you go. So, yeah, we are
 Yeah, there you go. So, yeah, we are
 proposing a set. We filed this up a
@@ -657,7 +657,7 @@ take it away if you want to share your
 screen.
 screen.
 screen.
-&gt;&gt; Great. and just get this set up.
+ Great. and just get this set up.
 All right, the diamond proxy standard.
 All right, the diamond proxy standard.
 So before I get into discussing
@@ -1606,8 +1606,8 @@ storage.
 storage.
 storage.
 Now, did anyone have any questions?
-&gt;&gt; Yeah, there were some questions. If we
-&gt;&gt; Yeah, there were some questions. If we
+ Yeah, there were some questions. If we
+ Yeah, there were some questions. If we
 go back a little bit, ,
 go back a little bit, ,
 go back a little bit, ,
@@ -1629,12 +1629,12 @@ in this setup
 if that makes sense.
 if that makes sense.
 if that makes sense.
-&gt;&gt; correct. Yeah.
-&gt;&gt; correct. Yeah.
-&gt;&gt; correct. Yeah.
-&gt;&gt; Yeah.
-&gt;&gt; Yeah.
-&gt;&gt; Yeah.
+ correct. Yeah.
+ correct. Yeah.
+ correct. Yeah.
+ Yeah.
+ Yeah.
+ Yeah.
 Let's see what else.
 Yeah, I think that was what I think
 Yeah, I think that was what I think
@@ -1644,9 +1644,9 @@ Matias had a question too.
 
 I I think I think we can continue.
 I I think I think we can continue.
-&gt;&gt; Okay. Yeah. Uber, I don't know if you
-&gt;&gt; Okay. Yeah. Uber, I don't know if you
-&gt;&gt; Okay. Yeah. Uber, I don't know if you
+ Okay. Yeah. Uber, I don't know if you
+ Okay. Yeah. Uber, I don't know if you
+ Okay. Yeah. Uber, I don't know if you
 wanted anything to add to this.
 wanted anything to add to this.
 wanted anything to add to this.
@@ -1656,9 +1656,9 @@ but if not, then I'll just move on to
 deployment flows.
 deployment flows.
 deployment flows.
-&gt;&gt; Yeah, let's just
-&gt;&gt; Yeah, let's just
-&gt;&gt; Yeah, let's just
+ Yeah, let's just
+ Yeah, let's just
+ Yeah, let's just
 No, no, that that was great. Thank you,
 No, no, that that was great. Thank you,
 No, no, that that was great. Thank you,
@@ -1683,9 +1683,9 @@ to ensure that you have your diamond
 factory.
 factory.
 factory.
-&gt;&gt; Oh, , sorry to interrupt you, but
-&gt;&gt; Oh, , sorry to interrupt you, but
-&gt;&gt; Oh, , sorry to interrupt you, but
+ Oh, , sorry to interrupt you, but
+ Oh, , sorry to interrupt you, but
+ Oh, , sorry to interrupt you, but
 Silence had a question. we had a
 Silence had a question. we had a
 Silence had a question. we had a
@@ -1698,9 +1698,9 @@ you would access access storage as
 storage shared.
 storage shared.
 storage shared.
-&gt;&gt; yeah, you would
-&gt;&gt; yeah, you would
-&gt;&gt; yeah, you would
+ yeah, you would
+ yeah, you would
+ yeah, you would
 I look want to see Oh, here we go.
 I look want to see Oh, here we go.
 I look want to see Oh, here we go.
@@ -1732,8 +1732,8 @@ persistent
 persistent
 persistent
 or instance or temporary on that handle.
-&gt;&gt; Okay.
-&gt;&gt; Okay.
+ Okay.
+ Okay.
 Yep. And other important thing to
 Yep. And other important thing to
 Yep. And other important thing to
@@ -1753,8 +1753,8 @@ you're putting in has to be serializable
 you're putting in has to be serializable
 you're putting in has to be serializable
 to XDR.
-&gt;&gt; Yeah. And then Silus also mentioned that
-&gt;&gt; Yeah. And then Silus also mentioned that
+ Yeah. And then Silus also mentioned that
+ Yeah. And then Silus also mentioned that
 that this would require
 that this would require
 that this would require
@@ -1803,12 +1803,12 @@ but yes it will require changes to
 multiple parts of Sorabon.
 multiple parts of Sorabon.
 multiple parts of Sorabon.
-&gt;&gt; Okay great.
-&gt;&gt; Okay great.
-&gt;&gt; Okay great.
-&gt;&gt; Yeah. So you have diamond factory and
-&gt;&gt; Yeah. So you have diamond factory and
-&gt;&gt; Yeah. So you have diamond factory and
+ Okay great.
+ Okay great.
+ Okay great.
+ Yeah. So you have diamond factory and
+ Yeah. So you have diamond factory and
+ Yeah. So you have diamond factory and
 the factory just creates diamond
 the factory just creates diamond
 the factory just creates diamond
@@ -1926,9 +1926,9 @@ deployment process and the life cycle of
 working with diamonds?
 working with diamonds?
 working with diamonds?
-&gt;&gt; So so I think Neil Neil Nish had a
-&gt;&gt; So so I think Neil Neil Nish had a
-&gt;&gt; So so I think Neil Neil Nish had a
+ So so I think Neil Neil Nish had a
+ So so I think Neil Neil Nish had a
+ So so I think Neil Neil Nish had a
 question earlier about how would you
 question earlier about how would you
 question earlier about how would you
@@ -1944,10 +1944,10 @@ I think we address that later on down in
 the presentation, right Thomas?
 the presentation, right Thomas?
 the presentation, right Thomas?
-&gt;&gt; Yeah, we do. Yeah.
-&gt;&gt; Yeah, we do. Yeah.
-&gt;&gt; Yeah, we do. Yeah.
-&gt;&gt; And apart from that,
+ Yeah, we do. Yeah.
+ Yeah, we do. Yeah.
+ Yeah, we do. Yeah.
+ And apart from that,
 how would you design? Usually you have
 how would you design? Usually you have
 to migrate the storage. Similar concern
@@ -1977,13 +1977,13 @@ don't have to manage smart contract
 storage migration.
 storage migration.
 storage migration.
-&gt;&gt; Yeah.
-&gt;&gt; Yeah.
-&gt;&gt; Yeah.
-&gt;&gt; Yeah. That's that was also my takeaway.
-&gt;&gt; Great.
-&gt;&gt; Great.
-&gt;&gt; All right.
+ Yeah.
+ Yeah.
+ Yeah.
+ Yeah. That's that was also my takeaway.
+ Great.
+ Great.
+ All right.
 So I go down and I'm just going to
 So I go down and I'm just going to
 compare
@@ -2584,23 +2584,23 @@ deploy those contracts. Thomas, correct
 deploy those contracts. Thomas, correct
 deploy those contracts. Thomas, correct
 me if I'm wrong there.
-&gt;&gt; Yeah. , want me to continue?
-&gt;&gt; Yeah. , want me to continue?
-&gt;&gt; You want there?
-&gt;&gt; You want there?
-&gt;&gt; You want there?
-&gt;&gt; Yeah. No, no. , did I did I not you
-&gt;&gt; Yeah. No, no. , did I did I not you
-&gt;&gt; Yeah. No, no. , did I did I not you
+ Yeah. , want me to continue?
+ Yeah. , want me to continue?
+ You want there?
+ You want there?
+ You want there?
+ Yeah. No, no. , did I did I not you
+ Yeah. No, no. , did I did I not you
+ Yeah. No, no. , did I did I not you
 guys not hear me?
 guys not hear me?
 guys not hear me?
-&gt;&gt; Oh, yeah, we heard you.
-&gt;&gt; Oh, yeah, we heard you.
-&gt;&gt; Oh, yeah, we heard you.
-&gt;&gt; Okay, cool. Yeah, no, go ahead.
-&gt;&gt; We just discussed that there is a bit of
-&gt;&gt; We just discussed that there is a bit of
+ Oh, yeah, we heard you.
+ Oh, yeah, we heard you.
+ Oh, yeah, we heard you.
+ Okay, cool. Yeah, no, go ahead.
+ We just discussed that there is a bit of
+ We just discussed that there is a bit of
 complexity and yeah, that does entail
 complexity and yeah, that does entail
 complexity and yeah, that does entail
@@ -2751,9 +2751,9 @@ logistical questions? anything we'd be
 happy to answer.
 happy to answer.
 happy to answer.
-&gt;&gt; Yeah. Matias had some questions about
-&gt;&gt; Yeah. Matias had some questions about
-&gt;&gt; Yeah. Matias had some questions about
+ Yeah. Matias had some questions about
+ Yeah. Matias had some questions about
+ Yeah. Matias had some questions about
 large systems built on this that
 large systems built on this that
 large systems built on this that
@@ -2763,9 +2763,9 @@ how do you handle DevOps and monitoring
 etc.
 etc.
 etc.
-&gt;&gt;
-&gt;&gt;
-&gt;&gt;
+
+
+
 and yeah he says I'm guessing you would
 and yeah he says I'm guessing you would
 and yeah he says I'm guessing you would
@@ -2946,24 +2946,24 @@ that can be done. There are no
 limitations there. Good question.
 limitations there. Good question.
 limitations there. Good question.
-&gt;&gt; Yeah, there's another question. if
-&gt;&gt; Yeah, there's another question. if
-&gt;&gt; Yeah, there's another question. if
+ Yeah, there's another question. if
+ Yeah, there's another question. if
+ Yeah, there's another question. if
 you have a demo app that's built on
 you have a demo app that's built on
 you have a demo app that's built on
  Stellar that are using this.
  Stellar that are using this.
  Stellar that are using this.
-&gt;&gt; Yeah, we do.
-&gt;&gt; Yeah, we do.
-&gt;&gt; Yeah, we do.
-&gt;&gt; Okay.
-&gt;&gt; Okay.
-&gt;&gt; Okay.
-&gt;&gt; Yep. Before we jump into the demo app,
-&gt;&gt; Yep. Before we jump into the demo app,
-&gt;&gt; Yep. Before we jump into the demo app,
+ Yeah, we do.
+ Yeah, we do.
+ Yeah, we do.
+ Okay.
+ Okay.
+ Okay.
+ Yep. Before we jump into the demo app,
+ Yep. Before we jump into the demo app,
+ Yep. Before we jump into the demo app,
 Thomas, maybe it would also be good to
 Thomas, maybe it would also be good to
 Thomas, maybe it would also be good to
@@ -2976,9 +2976,9 @@ built for seller to introspect this and
 then jump into the app.
 then jump into the app.
 then jump into the app.
-&gt;&gt; Oh, , for this presentation as we
-&gt;&gt; Oh, , for this presentation as we
-&gt;&gt; Oh, , for this presentation as we
+ Oh, , for this presentation as we
+ Oh, , for this presentation as we
+ Oh, , for this presentation as we
 discussed, we would just go straight
 discussed, we would just go straight
 discussed, we would just go straight
@@ -2995,8 +2995,8 @@ we will go straight into the app. No
 we will go straight into the app. No
 we will go straight into the app. No
 worries. Sounds good.
-&gt;&gt; Thomas question by silence there to
-&gt;&gt; Thomas question by silence there to
+ Thomas question by silence there to
+ Thomas question by silence there to
 say that if you made an app there must
 say that if you made an app there must
 say that if you made an app there must
@@ -3012,9 +3012,9 @@ he's having a fundamental
 misunderstanding
 misunderstanding
 misunderstanding
-&gt;&gt; so you don't even have to worry worry
-&gt;&gt; so you don't even have to worry worry
-&gt;&gt; so you don't even have to worry worry
+ so you don't even have to worry worry
+ so you don't even have to worry worry
+ so you don't even have to worry worry
 about the shared storage layer that's
 about the shared storage layer that's
 about the shared storage layer that's
@@ -3040,8 +3040,8 @@ similar. ,
 similar. ,
 similar. ,
 yeah.
-&gt;&gt; Okay, that sounds
-&gt;&gt; Okay, that sounds
+ Okay, that sounds
+ Okay, that sounds
 silence. Once you review it, I think
 silence. Once you review it, I think
 silence. Once you review it, I think
@@ -3054,9 +3054,9 @@ actually have a peek at the SCP.
 But go on, Thomas.
 But go on, Thomas.
 But go on, Thomas.
-&gt;&gt; Yeah. So,
-&gt;&gt; Yeah. So,
-&gt;&gt; Yeah. So,
+ Yeah. So,
+ Yeah. So,
+ Yeah. So,
 as we're developers, I'm just going to
 as we're developers, I'm just going to
 as we're developers, I'm just going to
@@ -3300,12 +3300,12 @@ structures inform the architecture of
 the overall program
 the overall program
 the overall program
-&gt;&gt; so right So,
-&gt;&gt; so right So,
-&gt;&gt; so right So,
-&gt;&gt; so just wanted to address some questions
-&gt;&gt; so just wanted to address some questions
-&gt;&gt; so just wanted to address some questions
+ so right So,
+ so right So,
+ so right So,
+ so just wanted to address some questions
+ so just wanted to address some questions
+ so just wanted to address some questions
 that came up. , there was a question
 that came up. , there was a question
 that came up. , there was a question
@@ -3366,12 +3366,12 @@ that they felt comfortable getting
 behind
 behind
 behind
-&gt;&gt; and and secondly
-&gt;&gt; and and secondly
-&gt;&gt; and and secondly
-&gt;&gt; with respect to Nomics ID what Thomas
-&gt;&gt; with respect to Nomics ID what Thomas
-&gt;&gt; with respect to Nomics ID what Thomas
+ and and secondly
+ and and secondly
+ and and secondly
+ with respect to Nomics ID what Thomas
+ with respect to Nomics ID what Thomas
+ with respect to Nomics ID what Thomas
 just showcased to you is a digital
 just showcased to you is a digital
 just showcased to you is a digital
@@ -3396,27 +3396,27 @@ on chain that you can then enforce these
 compliance rules on a token.
 compliance rules on a token.
 compliance rules on a token.
-&gt;&gt; Just cut off.
-&gt;&gt; Just cut off.
-&gt;&gt; Just cut off.
-&gt;&gt; Oh, hello. Can you hear me?
-&gt;&gt; Oh, hello. Can you hear me?
-&gt;&gt; Oh, hello. Can you hear me?
-&gt;&gt; Oh, yeah. Uber we can't hear you.
-&gt;&gt; Oh, yeah. Uber we can't hear you.
-&gt;&gt; Oh, yeah. Uber we can't hear you.
-&gt;&gt; I I can hear you.
-&gt;&gt; I I can hear you.
-&gt;&gt; I I can hear you.
-&gt;&gt; Oh, okay. U Yeah. So, so what it would
-&gt;&gt; Oh, okay. U Yeah. So, so what it would
-&gt;&gt; Oh, okay. U Yeah. So, so what it would
+ Just cut off.
+ Just cut off.
+ Just cut off.
+ Oh, hello. Can you hear me?
+ Oh, hello. Can you hear me?
+ Oh, hello. Can you hear me?
+ Oh, yeah. Uber we can't hear you.
+ Oh, yeah. Uber we can't hear you.
+ Oh, yeah. Uber we can't hear you.
+ I I can hear you.
+ I I can hear you.
+ I I can hear you.
+ Oh, okay. U Yeah. So, so what it would
+ Oh, okay. U Yeah. So, so what it would
+ Oh, okay. U Yeah. So, so what it would
 allow them to do
 allow them to do
 allow them to do
-&gt;&gt; Yeah. So, so what it would allow you to
-&gt;&gt; Yeah. So, so what it would allow you to
-&gt;&gt; Yeah. So, so what it would allow you to
+ Yeah. So, so what it would allow you to
+ Yeah. So, so what it would allow you to
+ Yeah. So, so what it would allow you to
 do is create these digital identities,
 do is create these digital identities,
 do is create these digital identities,
@@ -3516,9 +3516,9 @@ occurred on the previous transactions in
 the previous iteration of that contract.
 the previous iteration of that contract.
 the previous iteration of that contract.
-&gt;&gt; Great. Yeah, I think it makes a lot of
-&gt;&gt; Great. Yeah, I think it makes a lot of
-&gt;&gt; Great. Yeah, I think it makes a lot of
+ Great. Yeah, I think it makes a lot of
+ Great. Yeah, I think it makes a lot of
+ Great. Yeah, I think it makes a lot of
 sense. U this this may not be this may
 sense. U this this may not be this may
 sense. U this this may not be this may
@@ -3588,18 +3588,18 @@ smart contracts will eventually have to
 comply with.
 comply with.
 comply with.
-&gt;&gt; Yeah. Great. I don't know if there's any
-&gt;&gt; Yeah. Great. I don't know if there's any
-&gt;&gt; Yeah. Great. I don't know if there's any
+ Yeah. Great. I don't know if there's any
+ Yeah. Great. I don't know if there's any
+ Yeah. Great. I don't know if there's any
 last minute questions before we we end
 last minute questions before we we end
 last minute questions before we we end
 here.
 here.
 here.
-&gt;&gt; yeah, now you get it. My apologies. We
-&gt;&gt; yeah, now you get it. My apologies. We
-&gt;&gt; yeah, now you get it. My apologies. We
+ yeah, now you get it. My apologies. We
+ yeah, now you get it. My apologies. We
+ yeah, now you get it. My apologies. We
 should have we should have started with
 should have we should have started with
 should have we should have started with
@@ -3630,24 +3630,24 @@ is a way to soften the blow for asset
 managers to bring them on check.
 managers to bring them on check.
 managers to bring them on check.
-&gt;&gt; Yes.
-&gt;&gt; Yes.
-&gt;&gt; Yes.
-&gt;&gt; By a whole lot.
-&gt;&gt; By a whole lot.
-&gt;&gt; By a whole lot.
-&gt;&gt; By a whole lot. Yeah. because before
-&gt;&gt; By a whole lot. Yeah. because before
-&gt;&gt; By a whole lot. Yeah. because before
+ Yes.
+ Yes.
+ Yes.
+ By a whole lot.
+ By a whole lot.
+ By a whole lot.
+ By a whole lot. Yeah. because before
+ By a whole lot. Yeah. because before
+ By a whole lot. Yeah. because before
 that they didn't even want to talk to
 that they didn't even want to talk to
 that they didn't even want to talk to
 you.
 you.
 you.
-&gt;&gt; , Neil, you say you have a question.
-&gt;&gt; , Neil, you say you have a question.
-&gt;&gt; , Neil, you say you have a question.
+ , Neil, you say you have a question.
+ , Neil, you say you have a question.
+ , Neil, you say you have a question.
 What is your question? Is it related to
 What is your question? Is it related to
 What is your question? Is it related to
@@ -3657,30 +3657,30 @@ yeah, I don't think we have any more
 questions. Well, oh yeah,
 questions. Well, oh yeah,
 questions. Well, oh yeah,
-&gt;&gt; learn American language.
-&gt;&gt; learn American language.
-&gt;&gt; learn American language.
+ learn American language.
+ learn American language.
+ learn American language.
 Okay,
 Okay,
 Okay,
-&gt;&gt; it's more of a statement than a
-&gt;&gt; it's more of a statement than a
-&gt;&gt; it's more of a statement than a
+ it's more of a statement than a
+ it's more of a statement than a
+ it's more of a statement than a
 question.
 question.
 question.
-&gt;&gt; Yeah,
-&gt;&gt; Yeah,
-&gt;&gt; Yeah,
-&gt;&gt; I I I agree 100%. Learn Sorban.
-&gt;&gt; I I I agree 100%. Learn Sorban.
-&gt;&gt; I I I agree 100%. Learn Sorban.
-&gt;&gt; Yeah,
-&gt;&gt; Yeah,
-&gt;&gt; Yeah,
-&gt;&gt; great. Thank you so much for joining
-&gt;&gt; great. Thank you so much for joining
-&gt;&gt; great. Thank you so much for joining
+ Yeah,
+ Yeah,
+ Yeah,
+ I I I agree 100%. Learn Sorban.
+ I I I agree 100%. Learn Sorban.
+ I I I agree 100%. Learn Sorban.
+ Yeah,
+ Yeah,
+ Yeah,
+ great. Thank you so much for joining
+ great. Thank you so much for joining
+ great. Thank you so much for joining
 today. This was super interesting. I I
 today. This was super interesting. I I
 today. This was super interesting. I I
@@ -3714,16 +3714,16 @@ be back again next Thursday. Thank you.
 Bye.
 Bye.
 Bye.
-&gt;&gt; Thanks, guys. And look out for comments
-&gt;&gt; Thanks, guys. And look out for comments
-&gt;&gt; Thanks, guys. And look out for comments
+ Thanks, guys. And look out for comments
+ Thanks, guys. And look out for comments
+ Thanks, guys. And look out for comments
 from both Wald and Silence. Thank you
 from both Wald and Silence. Thank you
 from both Wald and Silence. Thank you
 guys.
 guys.
 guys.
-&gt;&gt; Thank you. Have a good one, guys. See
-&gt;&gt; Thank you. Have a good one, guys. See
-&gt;&gt; Thank you. Have a good one, guys. See
+ Thank you. Have a good one, guys. See
+ Thank you. Have a good one, guys. See
+ Thank you. Have a good one, guys. See
 you. Take care. Bye.

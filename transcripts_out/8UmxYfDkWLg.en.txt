@@ -781,8 +781,8 @@ kind of the main rationale but in how to
 kind of the main rationale but in how to
 kind of the main rationale but in how to
 do it we have to think it more carefully
-&gt;&gt; wanted to say that for approach two and
-&gt;&gt; wanted to say that for approach two and
+ wanted to say that for approach two and
+ wanted to say that for approach two and
 probably three it's not like we have
 probably three it's not like we have
 probably three it's not like we have
@@ -861,15 +861,15 @@ and three can reduce the amount of cost
 types potentially because these are just
 types potentially because these are just
 types potentially because these are just
-&gt;&gt; three building building blocks and
-&gt;&gt; three building building blocks and
-&gt;&gt; three building building blocks and
+ three building building blocks and
+ three building building blocks and
+ three building building blocks and
 then yeah
 then yeah
 then yeah
-&gt;&gt; to be clear I totally agree with you.
-&gt;&gt; to be clear I totally agree with you.
-&gt;&gt; to be clear I totally agree with you.
+ to be clear I totally agree with you.
+ to be clear I totally agree with you.
+ to be clear I totally agree with you.
 I'm saying that I do not like option one
 I'm saying that I do not like option one
 I'm saying that I do not like option one
@@ -879,9 +879,9 @@ because in option one we need a cost
 type per
 type per
 type per
-&gt;&gt; hash and per whatever curve and
-&gt;&gt; hash and per whatever curve and
-&gt;&gt; hash and per whatever curve and
+ hash and per whatever curve and
+ hash and per whatever curve and
+ hash and per whatever curve and
 perity which is an argument of the
 perity which is an argument of the
 perity which is an argument of the
@@ -897,18 +897,18 @@ different inputs to that so I think
 we're on the same page here I agree that
 we're on the same page here I agree that
 we're on the same page here I agree that
-&gt;&gt; we probably want to have more limited
-&gt;&gt; we probably want to have more limited
-&gt;&gt; we probably want to have more limited
+ we probably want to have more limited
+ we probably want to have more limited
+ we probably want to have more limited
 and like number of cost types that can
 and like number of cost types that can
 and like number of cost types that can
 be useful building blocks.
 be useful building blocks.
 be useful building blocks.
-&gt;&gt; Yeah. Yeah. Yeah. and by the way,
-&gt;&gt; Yeah. Yeah. Yeah. and by the way,
-&gt;&gt; Yeah. Yeah. Yeah. and by the way,
+ Yeah. Yeah. Yeah. and by the way,
+ Yeah. Yeah. Yeah. and by the way,
+ Yeah. Yeah. Yeah. and by the way,
 also the RT it
 also the RT it
 also the RT it
@@ -951,9 +951,9 @@ argument, but it can have only like
 couple of values. But
 couple of values. But
 couple of values. But
-&gt;&gt; I don't know. I I would really try to
-&gt;&gt; I don't know. I I would really try to
-&gt;&gt; I don't know. I I would really try to
+ I don't know. I I would really try to
+ I don't know. I I would really try to
+ I don't know. I I would really try to
 stay with the building blocks and do
 stay with the building blocks and do
 stay with the building blocks and do
@@ -964,8 +964,8 @@ from you know the instruction count
 from you know the instruction count
 from you know the instruction count
 standpoint.
-&gt;&gt; Yeah.
-&gt;&gt; Yeah.
+ Yeah.
+ Yeah.
 Yeah. So number three is going a step
 Yeah. So number three is going a step
 Yeah. So number three is going a step
@@ -1183,9 +1183,9 @@ think more about these parameters and
 think more about these parameters and
 think more about these parameters and
 choices
-&gt;&gt; any numbers for option one
-&gt;&gt; any numbers for option one
-&gt;&gt; like how much more is it?
+ any numbers for option one
+ any numbers for option one
+ like how much more is it?
 Yeah, I yeah, in number three, I
 Yeah, I yeah, in number three, I
 added up all the metered cost for
@@ -1227,12 +1227,12 @@ you mean by that? Is that like a native
 call that you tested
 call that you tested
 call that you tested
-&gt;&gt; 17 million?
-&gt;&gt; 17 million?
-&gt;&gt; 17 million?
-&gt;&gt; Yeah, it's not it's not a native
-&gt;&gt; Yeah, it's not it's not a native
-&gt;&gt; Yeah, it's not it's not a native
+ 17 million?
+ 17 million?
+ 17 million?
+ Yeah, it's not it's not a native
+ Yeah, it's not it's not a native
+ Yeah, it's not it's not a native
 call. It's was contrast. So, it's
 call. It's was contrast. So, it's
 call. It's was contrast. So, it's
@@ -1266,9 +1266,9 @@ unnecessary convergence and things like
 that.
 that.
 that.
-&gt;&gt; Okay.
-&gt;&gt; Okay.
-&gt;&gt; Okay.
+ Okay.
+ Okay.
+ Okay.
 Okay.
 Yeah. I I don't know the in terms of CPU
 Yeah. I I don't know the in terms of CPU
@@ -1296,9 +1296,9 @@ question of yeah we want to expose that
 level
 level
 level
-&gt;&gt; right
-&gt;&gt; right
-&gt;&gt; right
+ right
+ right
+ right
 again for the complexity I
 again for the complexity I
 again for the complexity I
@@ -1371,18 +1371,18 @@ six
 six of these functions essentially.
 six of these functions essentially.
 six of these functions essentially.
-&gt;&gt; Yeah. But it it just feels much better
-&gt;&gt; Yeah. But it it just feels much better
-&gt;&gt; Yeah. But it it just feels much better
+ Yeah. But it it just feels much better
+ Yeah. But it it just feels much better
+ Yeah. But it it just feels much better
 still because it's like at least finite
 still because it's like at least finite
 still because it's like at least finite
 and it covers like all the cases, right?
 and it covers like all the cases, right?
 and it covers like all the cases, right?
-&gt;&gt; Yeah. So as Nika points out like if
-&gt;&gt; Yeah. So as Nika points out like if
-&gt;&gt; Yeah. So as Nika points out like if
+ Yeah. So as Nika points out like if
+ Yeah. So as Nika points out like if
+ Yeah. So as Nika points out like if
 friendly isn't hard for coded so you
 friendly isn't hard for coded so you
 friendly isn't hard for coded so you
@@ -1392,9 +1392,9 @@ know something new needs to be done
 and can do it as a guest layer.
 and can do it as a guest layer.
 and can do it as a guest layer.
-&gt;&gt; Okay. Yeah I'll I'll do a little bit
-&gt;&gt; Okay. Yeah I'll I'll do a little bit
-&gt;&gt; Okay. Yeah I'll I'll do a little bit
+ Okay. Yeah I'll I'll do a little bit
+ Okay. Yeah I'll I'll do a little bit
+ Okay. Yeah I'll I'll do a little bit
 more exploration to two and yeah if I
 more exploration to two and yeah if I
 more exploration to two and yeah if I
@@ -1462,17 +1462,17 @@ maximum in top interoperability you
 maximum in top interoperability you
 maximum in top interoperability you
 could be more complex.
-&gt;&gt; Different parameters like would they
-&gt;&gt; Different parameters like would they
+ Different parameters like would they
+ Different parameters like would they
 impact the runtime or are they just
 impact the runtime or are they just
 impact the runtime or are they just
-&gt;&gt; No, it's just numbers.
-&gt;&gt; No, it's just numbers.
-&gt;&gt; No, it's just numbers.
-&gt;&gt; No, not not runtime. Yeah, it's
-&gt;&gt; No, not not runtime. Yeah, it's
-&gt;&gt; No, not not runtime. Yeah, it's
+ No, it's just numbers.
+ No, it's just numbers.
+ No, it's just numbers.
+ No, not not runtime. Yeah, it's
+ No, not not runtime. Yeah, it's
+ No, not not runtime. Yeah, it's
 different. It's just different hash. The
 different. It's just different hash. The
 different. It's just different hash. The
@@ -1516,14 +1516,14 @@ host complexity much then we should do
 host complexity much then we should do
 host complexity much then we should do
 that
-&gt;&gt; because
-&gt;&gt; because
-&gt;&gt; okay
-&gt;&gt; okay
-&gt;&gt; okay
-&gt;&gt; from the hosting point I would be
-&gt;&gt; from the hosting point I would be
-&gt;&gt; from the hosting point I would be
+ because
+ because
+ okay
+ okay
+ okay
+ from the hosting point I would be
+ from the hosting point I would be
+ from the hosting point I would be
 concerned about the metering but since
 concerned about the metering but since
 concerned about the metering but since
@@ -1554,15 +1554,15 @@ Hey guys.
 Hey.
 Hey.
 Hey.
-&gt;&gt; Can you hear me?
-&gt;&gt; Can you hear me?
-&gt;&gt; Can you hear me?
-&gt;&gt; Yes.
-&gt;&gt; Yes.
-&gt;&gt; Yes.
-&gt;&gt; I'm in a bit of a loud environment. So,
-&gt;&gt; I'm in a bit of a loud environment. So,
-&gt;&gt; I'm in a bit of a loud environment. So,
+ Can you hear me?
+ Can you hear me?
+ Can you hear me?
+ Yes.
+ Yes.
+ Yes.
+ I'm in a bit of a loud environment. So,
+ I'm in a bit of a loud environment. So,
+ I'm in a bit of a loud environment. So,
 you know,
 you know,
 you know,
@@ -1695,13 +1695,13 @@ Sorry, could you repeat the part? What's
 the forming instruction?
 the forming instruction?
 the forming instruction?
-&gt;&gt; , that's the that's the construction
-&gt;&gt; , that's the that's the construction
-&gt;&gt; , that's the that's the construction
+ , that's the that's the construction
+ , that's the that's the construction
+ , that's the that's the construction
 of the house.
 of the house.
 of the house.
-&gt;&gt; Oh, okay.
+ Oh, okay.
 Yeah. ,
 Yeah. ,
 yeah. I think we
@@ -1752,9 +1752,9 @@ initialization is just one time and
 absorbing
 absorbing
 absorbing
-&gt;&gt; yeah and then yeah you need to and then
-&gt;&gt; yeah and then yeah you need to and then
-&gt;&gt; yeah and then yeah you need to and then
+ yeah and then yeah you need to and then
+ yeah and then yeah you need to and then
+ yeah and then yeah you need to and then
 to use you have to absorb it first. So
 to use you have to absorb it first. So
 to use you have to absorb it first. So
@@ -1764,9 +1764,9 @@ that would be like probably based on the
 number of inputs.
 number of inputs.
 number of inputs.
-&gt;&gt; Yeah. Yeah. So the initialization is
-&gt;&gt; Yeah. Yeah. So the initialization is
-&gt;&gt; Yeah. Yeah. So the initialization is
+ Yeah. Yeah. So the initialization is
+ Yeah. Yeah. So the initialization is
+ Yeah. Yeah. So the initialization is
 just like reading the checking the
 just like reading the checking the
 just like reading the checking the
@@ -1779,12 +1779,12 @@ something that So as long as that's
 done,
 done,
 done,
-&gt;&gt; you can hash.
-&gt;&gt; Yeah, that's right.
-&gt;&gt; Yeah, that's right.
-&gt;&gt; Yeah, I guess it's per No, it can be per
-&gt;&gt; Yeah, I guess it's per No, it can be per
-&gt;&gt; Yeah, I guess it's per No, it can be per
+ you can hash.
+ Yeah, that's right.
+ Yeah, that's right.
+ Yeah, I guess it's per No, it can be per
+ Yeah, I guess it's per No, it can be per
+ Yeah, I guess it's per No, it can be per
 per it can be per contract life.
 per it can be per contract life.
 per it can be per contract life.
@@ -1816,8 +1816,8 @@ invocation it's it's
 invocation it's it's
 invocation it's it's
 How however long you can do
-&gt;&gt; I have a com I have a question about
-&gt;&gt; I have a com I have a question about
+ I have a com I have a question about
+ I have a com I have a question about
 what you wrote. So why why would it
 what you wrote. So why why would it
 what you wrote. So why why would it
@@ -1926,24 +1926,24 @@ the parameter that probably that
 simplifies C.
 simplifies C.
 simplifies C.
-&gt;&gt; Oh okay. Okay. So, so did you say you
-&gt;&gt; Oh okay. Okay. So, so did you say you
-&gt;&gt; Oh okay. Okay. So, so did you say you
+ Oh okay. Okay. So, so did you say you
+ Oh okay. Okay. So, so did you say you
+ Oh okay. Okay. So, so did you say you
 you you changed those parameters in
 you you changed those parameters in
 you you changed those parameters in
 order to
 order to
 order to
-&gt;&gt; Yeah, basic basically on on both ends
-&gt;&gt; Yeah, basic basically on on both ends
-&gt;&gt; Yeah, basic basically on on both ends
+ Yeah, basic basically on on both ends
+ Yeah, basic basically on on both ends
+ Yeah, basic basically on on both ends
 both on serum
 both on serum
 both on serum
-&gt;&gt; on the rough end
-&gt;&gt; on the rough end
-&gt;&gt; on the rough end
+ on the rough end
+ on the rough end
+ on the rough end
 basically parameters that I keep from
 basically parameters that I keep from
 basically parameters that I keep from
@@ -1963,17 +1963,17 @@ the default CD parameter that would be
 the default CD parameter that would be
 the default CD parameter that would be
 good.
-&gt;&gt; Yeah. Okay.
-&gt;&gt; Yeah. Okay.
-&gt;&gt; And probably they probably work on other
-&gt;&gt; And probably they probably work on other
-&gt;&gt; And probably they probably work on other
+ Yeah. Okay.
+ Yeah. Okay.
+ And probably they probably work on other
+ And probably they probably work on other
+ And probably they probably work on other
 project.
 project.
 project.
-&gt;&gt; Yeah. So perhaps supporting
-&gt;&gt; right like supporting like a default set
-&gt;&gt; right like supporting like a default set
+ Yeah. So perhaps supporting
+ right like supporting like a default set
+ right like supporting like a default set
 if if it's not overwritten like default
 if if it's not overwritten like default
 if if it's not overwritten like default

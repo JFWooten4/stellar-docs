@@ -237,9 +237,9 @@ take any questions. Justin, did you guys
 hear all this?
 hear all this?
 hear all this?
-&gt;&gt; , yes. It sounded great. And right now
-&gt;&gt; , yes. It sounded great. And right now
-&gt;&gt; , yes. It sounded great. And right now
+ , yes. It sounded great. And right now
+ , yes. It sounded great. And right now
+ , yes. It sounded great. And right now
 I'm just going to paste the blog post
 I'm just going to paste the blog post
 I'm just going to paste the blog post
@@ -285,9 +285,9 @@ entries were correctly archived and
 restored.
 restored.
 restored.
-&gt;&gt; it's not random in the sense that
-&gt;&gt; it's not random in the sense that
-&gt;&gt; it's not random in the sense that
+ it's not random in the sense that
+ it's not random in the sense that
+ it's not random in the sense that
 this was not arbitrary. It was
 this was not arbitrary. It was
 this was not arbitrary. It was
@@ -457,17 +457,17 @@ you want to do it or or is it better if
 you want to do it or or is it better if
 you want to do it or or is it better if
 Dimma does it?
-&gt;&gt; I can I can Yeah. take a first stab at
-&gt;&gt; I can I can Yeah. take a first stab at
+ I can I can Yeah. take a first stab at
+ I can I can Yeah. take a first stab at
 it.
 it.
 it.
 guess hear me? Okay,
-&gt;&gt; perfect.
-&gt;&gt; perfect.
-&gt;&gt; All right. So yeah, so like at a high
-&gt;&gt; All right. So yeah, so like at a high
-&gt;&gt; All right. So yeah, so like at a high
+ perfect.
+ perfect.
+ All right. So yeah, so like at a high
+ All right. So yeah, so like at a high
+ All right. So yeah, so like at a high
 level what the cap is describing is
 level what the cap is describing is
 level what the cap is describing is
@@ -874,14 +874,14 @@ scheduled for Wednesday next week
 scheduled for Wednesday next week
 scheduled for Wednesday next week
 5:00 p.m. EDC.
-&gt;&gt; And again, that's a small number small
-&gt;&gt; And again, that's a small number small
+ And again, that's a small number small
+ And again, that's a small number small
 number of ledger entries, right?
 number of ledger entries, right?
 number of ledger entries, right?
-&gt;&gt; Yeah. Just for just for context,
-&gt;&gt; Yeah. Just for just for context,
-&gt;&gt; Yeah. Just for just for context,
+ Yeah. Just for just for context,
+ Yeah. Just for just for context,
+ Yeah. Just for just for context,
 you know, ledger Stellar is a database.
 you know, ledger Stellar is a database.
 you know, ledger Stellar is a database.
@@ -901,8 +901,8 @@ of which 80 87 have these
 of which 80 87 have these
 of which 80 87 have these
 issues.
-&gt;&gt; There's a question will protocol 24
-&gt;&gt; There's a question will protocol 24
+ There's a question will protocol 24
+ There's a question will protocol 24
 contain new ZK features? No. the the
 contain new ZK features? No. the the
 contain new ZK features? No. the the
@@ -1107,12 +1107,12 @@ of software that depends directly on
 stellar core released by
 stellar core released by
 stellar core released by
-&gt;&gt; that's like Horizon RPC galaxy.
-&gt;&gt; that's like Horizon RPC galaxy.
-&gt;&gt; that's like Horizon RPC galaxy.
-&gt;&gt; Yeah. Yeah. Yeah. And then those will be
-&gt;&gt; Yeah. Yeah. Yeah. And then those will be
-&gt;&gt; Yeah. Yeah. Yeah. And then those will be
+ that's like Horizon RPC galaxy.
+ that's like Horizon RPC galaxy.
+ that's like Horizon RPC galaxy.
+ Yeah. Yeah. Yeah. And then those will be
+ Yeah. Yeah. Yeah. And then those will be
+ Yeah. Yeah. Yeah. And then those will be
 released by Monday. and then what
 released by Monday. and then what
 released by Monday. and then what
@@ -1149,9 +1149,9 @@ be back in in business in general
 at that time
 at that time
 at that time
-&gt;&gt; and so just in general to prepare if
-&gt;&gt; and so just in general to prepare if
-&gt;&gt; and so just in general to prepare if
+ and so just in general to prepare if
+ and so just in general to prepare if
+ and so just in general to prepare if
 people run infrastructure that basically
 people run infrastructure that basically
 people run infrastructure that basically
@@ -1197,9 +1197,9 @@ require everyone to install new SDKs.
 Correct.
 Correct.
 Correct.
-&gt;&gt; That's correct. Yeah. It's only
-&gt;&gt; That's correct. Yeah. It's only
-&gt;&gt; That's correct. Yeah. It's only
+ That's correct. Yeah. It's only
+ That's correct. Yeah. It's only
+ That's correct. Yeah. It's only
 there's no impact to the XDR in
 there's no impact to the XDR in
 there's no impact to the XDR in
@@ -1275,9 +1275,9 @@ change really in those downstream
 systems.
 systems.
 systems.
-&gt;&gt; I'd like to answer Adam's question.
-&gt;&gt; I'd like to answer Adam's question.
-&gt;&gt; I'd like to answer Adam's question.
+ I'd like to answer Adam's question.
+ I'd like to answer Adam's question.
+ I'd like to answer Adam's question.
 so Adam asked if a reserve asset
 so Adam asked if a reserve asset
 so Adam asked if a reserve asset
@@ -1449,10 +1449,10 @@ to update the RPCs as well?" and
 George from the platform team said yes.
 George from the platform team said yes.
 George from the platform team said yes.
-&gt;&gt; Yes.
-&gt;&gt; Yes.
-&gt;&gt; Yes.
-&gt;&gt; Yeah.
+ Yes.
+ Yes.
+ Yes.
+ Yeah.
 Is there a technical reason this must be
 Is there a technical reason this must be
 a protocol version upgrade instead of a
@@ -1662,9 +1662,9 @@ blocked I think this is the probably
 the right trade-off.
 Nico,
 Nico,
-&gt;&gt; can you what will the experience be like
-&gt;&gt; can you what will the experience be like
-&gt;&gt; can you what will the experience be like
+ can you what will the experience be like
+ can you what will the experience be like
+ can you what will the experience be like
 for somebody that needs to upgrade their
 for somebody that needs to upgrade their
 for somebody that needs to upgrade their
@@ -1674,9 +1674,9 @@ RPC?
 Will it be difficult?
 Will it be difficult?
 Will it be difficult?
-&gt;&gt; So like Yeah. No to upgrade this is
-&gt;&gt; So like Yeah. No to upgrade this is
-&gt;&gt; So like Yeah. No to upgrade this is
+ So like Yeah. No to upgrade this is
+ So like Yeah. No to upgrade this is
+ So like Yeah. No to upgrade this is
 basically just like doing a a regular
 basically just like doing a a regular
 basically just like doing a a regular
@@ -1750,8 +1750,8 @@ to come in.
 know where the bug came from slash how
 know where the bug came from slash how
 it got in?
-&gt;&gt; I mean like bugs or bugs. Yeah, it's
-&gt;&gt; I mean like bugs or bugs. Yeah, it's
+ I mean like bugs or bugs. Yeah, it's
+ I mean like bugs or bugs. Yeah, it's
 kind of a they're always sad. what I
 kind of a they're always sad. what I
 kind of a they're always sad. what I
