@@ -1,8 +1,8 @@
 Hello and welcome everyone to this
 Hello and welcome everyone to this
-week's Stellar developer meeting. This
-week's Stellar developer meeting. This
-week's Stellar developer meeting. This
+week's Stellar Developer Meeting. This
+week's Stellar Developer Meeting. This
+week's Stellar Developer Meeting. This
 week we are talking to Open Seelin and
 week we are talking to Open Seelin and
 week we are talking to Open Seelin and
@@ -36,7 +36,7 @@ on the the relay infrastructure, the
 plug-in systems and specifically the the
 plug-in systems and specifically the the
 plug-in systems and specifically the the
-stellar integrations.
+Stellar integrations.
  Hi. Hi, my name is Sai. I'm the
  Hi. Hi, my name is Sai. I'm the
 engineering manager managing relays and
@@ -96,18 +96,18 @@ months what's kind of worked
 [clears throat] towards is this manage
 [clears throat] towards is this manage
 [clears throat] towards is this manage
-stellar relayer service and like in a
-stellar relayer service and like in a
-stellar relayer service and like in a
+Stellar relayer service and like in a
+Stellar relayer service and like in a
+Stellar relayer service and like in a
 nutshell what this offers is a scalable
 nutshell what this offers is a scalable
 nutshell what this offers is a scalable
 high throughput transaction service for
 high throughput transaction service for
 high throughput transaction service for
-the stellar network and there are a few
-the stellar network and there are a few
-the stellar network and there are a few
+the Stellar network and there are a few
+the Stellar network and there are a few
+the Stellar network and there are a few
 components that were involved in the
 components that were involved in the
 components that were involved in the
@@ -147,9 +147,9 @@ simplifies the transaction management
 for multiple different networks
 for multiple different networks
 for multiple different networks
-including stellar and what that means is
-including stellar and what that means is
-including stellar and what that means is
+including Stellar and what that means is
+including Stellar and what that means is
+including Stellar and what that means is
 like it'll handle the gas it will handle
 like it'll handle the gas it will handle
 like it'll handle the gas it will handle
@@ -198,12 +198,12 @@ so yeah a couple of months ago or a few
 months ago we started working on a
 months ago we started working on a
 months ago we started working on a
-stellar integration for this tool and in
-stellar integration for this tool and in
-stellar integration for this tool and in
-doing so we now offer full sorban
-doing so we now offer full sorban
-doing so we now offer full sorban
+Stellar integration for this tool and in
+Stellar integration for this tool and in
+Stellar integration for this tool and in
+doing so we now offer full Soroban
+doing so we now offer full Soroban
+doing so we now offer full Soroban
 smart contract functionality. So it
 smart contract functionality. So it
 smart contract functionality. So it
@@ -216,9 +216,9 @@ the open zeppelin relayer. They can
 invoke contracts then standard
 invoke contracts then standard
 invoke contracts then standard
-stellar xlm payments. and like as I
-stellar xlm payments. and like as I
-stellar xlm payments. and like as I
+Stellar xlm payments. and like as I
+Stellar xlm payments. and like as I
+Stellar xlm payments. and like as I
 mentioned this offers this is included
 mentioned this offers this is included
 mentioned this offers this is included
@@ -231,9 +231,9 @@ but there there are some limitations
 to how you can send transactions
 to how you can send transactions
 to how you can send transactions
-through the stellar network and and one
-through the stellar network and and one
-through the stellar network and and one
+through the Stellar network and and one
+through the Stellar network and and one
+through the Stellar network and and one
 of which would be the the sequence
 of which would be the the sequence
 of which would be the the sequence
@@ -255,9 +255,9 @@ towards developing some features
 within the relayer that will allow the
 within the relayer that will allow the
 within the relayer that will allow the
-stellar relayers to scale larger. And
-stellar relayers to scale larger. And
-stellar relayers to scale larger. And
+Stellar relayers to scale larger. And
+Stellar relayers to scale larger. And
+Stellar relayers to scale larger. And
 one of the the features that enabled us
 one of the the features that enabled us
 one of the the features that enabled us
@@ -345,9 +345,9 @@ account. We sign the user's transaction
 with that channel account and then we
 with that channel account and then we
 with that channel account and then we
-submit it to the stellar network with
-submit it to the stellar network with
-submit it to the stellar network with
+submit it to the Stellar network with
+submit it to the Stellar network with
+submit it to the Stellar network with
 a fee bump transaction as well. So it's
 a fee bump transaction as well. So it's
 a fee bump transaction as well. So it's
@@ -411,9 +411,9 @@ that the user sent. And we then wrap
 that in a fee bump and submit it to the
 that in a fee bump and submit it to the
 that in a fee bump and submit it to the
-stellar network. Once the transaction
-stellar network. Once the transaction
-stellar network. Once the transaction
+Stellar network. Once the transaction
+Stellar network. Once the transaction
+Stellar network. Once the transaction
 confirms, we release the lock and we
 confirms, we release the lock and we
 confirms, we release the lock and we
@@ -591,9 +591,9 @@ some etc. so yeah in a nutshell all
 of these things have come together and
 of these things have come together and
 of these things have come together and
-we're offering a stellar relays
-we're offering a stellar relays
-we're offering a stellar relays
+we're offering a Stellar relays
+we're offering a Stellar relays
+we're offering a Stellar relays
 managed service. So this would include
 managed service. So this would include
 managed service. So this would include

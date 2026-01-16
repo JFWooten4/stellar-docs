@@ -6,9 +6,9 @@ to talk about project slingshot and ZJ
 diem my name is Alejandra and I work at
 diem my name is Alejandra and I work at
 diem my name is Alejandra and I work at
-stellar on this project for the some
-stellar on this project for the some
-stellar on this project for the some
+Stellar on this project for the some
+Stellar on this project for the some
+Stellar on this project for the some
 time already so I'd like to give you an
 time already so I'd like to give you an
 time already so I'd like to give you an
@@ -420,9 +420,9 @@ so in other words the key VM is a fancy
 parser if you think about bitcoin or
 parser if you think about bitcoin or
 parser if you think about bitcoin or
-stellar or Z cash the transaction format
-stellar or Z cash the transaction format
-stellar or Z cash the transaction format
+Stellar or Z cash the transaction format
+Stellar or Z cash the transaction format
+Stellar or Z cash the transaction format
 and those protocols are is more like XML
 and those protocols are is more like XML
 and those protocols are is more like XML
@@ -516,9 +516,9 @@ APIs and they can also issue arbitrary
 assets because it's the multi-asset
 assets because it's the multi-asset
 assets because it's the multi-asset
-environment right just like stellar so
-environment right just like stellar so
-environment right just like stellar so
+environment right just like Stellar so
+environment right just like Stellar so
+environment right just like Stellar so
 this is how the esse flows from inputs
 this is how the esse flows from inputs
 this is how the esse flows from inputs
@@ -957,12 +957,12 @@ is the the only stateful operation and
 the system now how do you instructions
 the system now how do you instructions
 the system now how do you instructions
-look like think of this as a stellar
-look like think of this as a stellar
-look like think of this as a stellar
-operations in stellar transactions you
-operations in stellar transactions you
-operations in stellar transactions you
+look like think of this as a Stellar
+look like think of this as a Stellar
+look like think of this as a Stellar
+operations in Stellar transactions you
+operations in Stellar transactions you
+operations in Stellar transactions you
 have realities of operations that you
 have realities of operations that you
 have realities of operations that you
@@ -1566,9 +1566,9 @@ about the zero knowledge is that you can
 do this both and public so it's like
 do this both and public so it's like
 do this both and public so it's like
-stellar like completely public offer and
-stellar like completely public offer and
-stellar like completely public offer and
+Stellar like completely public offer and
+Stellar like completely public offer and
+Stellar like completely public offer and
 there's no nothing secret going on but
 there's no nothing secret going on but
 there's no nothing secret going on but
@@ -2040,9 +2040,9 @@ oh yeah so we received some questions so
 the first question is can the gibeom law
 the first question is can the gibeom law
 the first question is can the gibeom law
-to be applied to the stellar blockchain
-to be applied to the stellar blockchain
-to be applied to the stellar blockchain
+to be applied to the Stellar blockchain
+to be applied to the Stellar blockchain
+to be applied to the Stellar blockchain
 or is it a separate sidechain the
 or is it a separate sidechain the
 or is it a separate sidechain the
@@ -2067,9 +2067,9 @@ you could have a set of validators
 overlapping both systems and using the
 overlapping both systems and using the
 overlapping both systems and using the
-same stellar consensus protocol so we
-same stellar consensus protocol so we
-same stellar consensus protocol so we
+same Stellar consensus protocol so we
+same Stellar consensus protocol so we
+same Stellar consensus protocol so we
 can can operate in parallel and we have
 can can operate in parallel and we have
 can can operate in parallel and we have
@@ -2079,9 +2079,9 @@ some thoughts on how to do the
 import/export mechanism for their
 import/export mechanism for their
 import/export mechanism for their
-stellar asses from the main chain into
-stellar asses from the main chain into
-stellar asses from the main chain into
+Stellar asses from the main chain into
+Stellar asses from the main chain into
+Stellar asses from the main chain into
 the into the GK VM side chain at the
 the into the GK VM side chain at the
 the into the GK VM side chain at the
@@ -2109,9 +2109,9 @@ exposure and you would like to use it
 internally but but also interoperate
 internally but but also interoperate
 internally but but also interoperate
-with stellar so that's also a good idea
-with stellar so that's also a good idea
-with stellar so that's also a good idea
+with Stellar so that's also a good idea
+with Stellar so that's also a good idea
+with Stellar so that's also a good idea
 because then you can protect your
 because then you can protect your
 because then you can protect your
@@ -2283,9 +2283,9 @@ your medium I was able to provide a
 timeline for when he expects to get him
 timeline for when he expects to get him
 timeline for when he expects to get him
-to be fully complete and live on stellar
-to be fully complete and live on stellar
-to be fully complete and live on stellar
+to be fully complete and live on Stellar
+to be fully complete and live on Stellar
+to be fully complete and live on Stellar
 so that's a trick question because like
 so that's a trick question because like
 so that's a trick question because like
@@ -2334,9 +2334,9 @@ that but also there is the integration
 with the installer consensus protocol
 with the installer consensus protocol
 with the installer consensus protocol
-and integration with the stellar assets
-and integration with the stellar assets
-and integration with the stellar assets
+and integration with the Stellar assets
+and integration with the Stellar assets
+and integration with the Stellar assets
 there are two separate problems so so
 there are two separate problems so so
 there are two separate problems so so
@@ -2361,9 +2361,9 @@ last in the ongoing wakes we're going to
 really face the problem of integrating
 really face the problem of integrating
 really face the problem of integrating
-where the stellar consensus protocol and
-where the stellar consensus protocol and
-where the stellar consensus protocol and
+where the Stellar consensus protocol and
+where the Stellar consensus protocol and
+where the Stellar consensus protocol and
 with a horizon and with like input of
 with a horizon and with like input of
 with a horizon and with like input of
@@ -2412,9 +2412,9 @@ things with your applications then
 please find the github repository which
 please find the github repository which
 please find the github repository which
-is a stellar slash slingshot and I would
-is a stellar slash slingshot and I would
-is a stellar slash slingshot and I would
+is a Stellar slash slingshot and I would
+is a Stellar slash slingshot and I would
+is a Stellar slash slingshot and I would
 be glad to see your issues or pull
 be glad to see your issues or pull
 be glad to see your issues or pull

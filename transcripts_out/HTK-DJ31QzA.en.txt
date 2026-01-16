@@ -6,18 +6,18 @@ protocol meeting sorry for the slightly
 late start just a quick technical glitch
 late start just a quick technical glitch
 late start just a quick technical glitch
-as per usual so the stellar protocol
-as per usual so the stellar protocol
-as per usual so the stellar protocol
+as per usual so the Stellar protocol
+as per usual so the Stellar protocol
+as per usual so the Stellar protocol
 meeting in these meetings we discuss and
 meeting in these meetings we discuss and
 meeting in these meetings we discuss and
 plan for
 plan for
 plan for
-upcoming changes to the stellar protocol
-upcoming changes to the stellar protocol
-upcoming changes to the stellar protocol
+upcoming changes to the Stellar protocol
+upcoming changes to the Stellar protocol
+upcoming changes to the Stellar protocol
 and today we're going to talk about
 and today we're going to talk about
 and today we're going to talk about
@@ -27,12 +27,12 @@ something very exciting project jump
 cannon which is going to bring smart
 cannon which is going to bring smart
 cannon which is going to bring smart
-contracts to stellar so just quick
-contracts to stellar so just quick
-contracts to stellar so just quick
-intro as most of you know stellar was
-intro as most of you know stellar was
-intro as most of you know stellar was
+contracts to Stellar so just quick
+contracts to Stellar so just quick
+contracts to Stellar so just quick
+intro as most of you know Stellar was
+intro as most of you know Stellar was
+intro as most of you know Stellar was
 launched in 2014.
 launched in 2014.
 launched in 2014.
@@ -147,9 +147,9 @@ lowest level code execution and data
 model components of a wasm-based smart
 model components of a wasm-based smart
 model components of a wasm-based smart
-contract system for the stellar network
-contract system for the stellar network
-contract system for the stellar network
+contract system for the Stellar network
+contract system for the Stellar network
+contract system for the Stellar network
 once we talk about cap 46 we'll also
 once we talk about cap 46 we'll also
 once we talk about cap 46 we'll also
@@ -192,9 +192,9 @@ contracts you can do that by
 participating in that thread that's
 participating in that thread that's
 participating in that thread that's
-linked to here or by joining the stellar
-linked to here or by joining the stellar
-linked to here or by joining the stellar
+linked to here or by joining the Stellar
+linked to here or by joining the Stellar
+linked to here or by joining the Stellar
 developer discord which is where we're
 developer discord which is where we're
 developer discord which is where we're
@@ -207,9 +207,9 @@ so that the work is open the
 participatory we're doing you know can
 participatory we're doing you know can
 participatory we're doing you know can
-really follow along on the stellar
-really follow along on the stellar
-really follow along on the stellar
+really follow along on the Stellar
+really follow along on the Stellar
+really follow along on the Stellar
 developer discord
 developer discord
 developer discord
@@ -354,9 +354,9 @@ different
 places
 places
 places
-in inside of stellar core
-in inside of stellar core
-in inside of stellar core
+in inside of Stellar core
+in inside of Stellar core
+in inside of Stellar core
 where
 where
 where
@@ -1116,9 +1116,9 @@ and so
 ahead of time
 ahead of time
 ahead of time
-the stellar core developers ourselves
-the stellar core developers ourselves
-the stellar core developers ourselves
+the Stellar core developers ourselves
+the Stellar core developers ourselves
+the Stellar core developers ourselves
 and anyone else who wants to contribute
 and anyone else who wants to contribute
 and anyone else who wants to contribute
@@ -2100,9 +2100,9 @@ saying like you know like these are the
 requirements for our for like smart
 requirements for our for like smart
 requirements for our for like smart
-contracts on stellar right
-contracts on stellar right
-contracts on stellar right
+contracts on Stellar right
+contracts on Stellar right
+contracts on Stellar right
 okay
 that makes sense I can work on that
 that makes sense I can work on that
@@ -2250,15 +2250,15 @@ saying like okay like
 but these are like exactly the cpus that
 but these are like exactly the cpus that
 but these are like exactly the cpus that
-would be like running stellar core right
-would be like running stellar core right
-would be like running stellar core right
+would be like running Stellar core right
+would be like running Stellar core right
+would be like running Stellar core right
 so this would be like catastrophic for
 so this would be like catastrophic for
 so this would be like catastrophic for
-stellar core so again if we have a
-stellar core so again if we have a
-stellar core so again if we have a
+Stellar core so again if we have a
+Stellar core so again if we have a
+Stellar core so again if we have a
 requirements document and say here's
 requirements document and say here's
 requirements document and say here's
@@ -3786,9 +3786,9 @@ we want as much we want transactions to
 be as cheap as possible because that's
 be as cheap as possible because that's
 be as cheap as possible because that's
-always been kind of the stellar way and
-always been kind of the stellar way and
-always been kind of the stellar way and
+always been kind of the Stellar way and
+always been kind of the Stellar way and
+always been kind of the Stellar way and
 so
 so
 so
@@ -4473,9 +4473,9 @@ but then people will be stuck sort of
 what they have today with classic
 what they have today with classic
 what they have today with classic
-stellar that they'll be limitations that
-stellar that they'll be limitations that
-stellar that they'll be limitations that
+Stellar that they'll be limitations that
+Stellar that they'll be limitations that
+Stellar that they'll be limitations that
 they're trying to like work around
 they're trying to like work around
 they're trying to like work around
@@ -4500,9 +4500,9 @@ to do
 I mean I guess one of the things I'm
 I mean I guess one of the things I'm
 I mean I guess one of the things I'm
-saying is that stellar actually does
-saying is that stellar actually does
-saying is that stellar actually does
+saying is that Stellar actually does
+saying is that Stellar actually does
+saying is that Stellar actually does
 already have a notion of permissions
 already have a notion of permissions
 already have a notion of permissions

@@ -1,8 +1,8 @@
 okay hello everyone welcome to this
 okay hello everyone welcome to this
-week's Stellar developer meeting and
-week's Stellar developer meeting and
-week's Stellar developer meeting and
+week's Stellar Developer Meeting and
+week's Stellar Developer Meeting and
+week's Stellar Developer Meeting and
 today I have a couple of guests so let
 today I have a couple of guests so let
 today I have a couple of guests so let
@@ -189,9 +189,9 @@ these price price feeds so it's
 controlled by a multisig of reputable
 controlled by a multisig of reputable
 controlled by a multisig of reputable
-organizations on stellar and it really
-organizations on stellar and it really
-organizations on stellar and it really
+organizations on Stellar and it really
+organizations on Stellar and it really
+organizations on Stellar and it really
 helps guarantee that reliability fault
 helps guarantee that reliability fault
 helps guarantee that reliability fault

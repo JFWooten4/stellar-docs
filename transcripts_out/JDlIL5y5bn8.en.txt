@@ -258,9 +258,9 @@ not quite there yet and I think that
 currently there is less than a gigabyte
 currently there is less than a gigabyte
 currently there is less than a gigabyte
-of soron state currently live stellar
-of soron state currently live stellar
-of soron state currently live stellar
+of soron state currently live Stellar
+of soron state currently live Stellar
+of soron state currently live Stellar
 and so going through all these hoops
 and so going through all these hoops
 and so going through all these hoops
@@ -597,9 +597,9 @@ yet and so it's a little unfair that
 adding classic entries actually changes
 adding classic entries actually changes
 adding classic entries actually changes
-the WR fees and the rent fees for sorban
-the WR fees and the rent fees for sorban
-the WR fees and the rent fees for sorban
+the WR fees and the rent fees for Soroban
+the WR fees and the rent fees for Soroban
+the WR fees and the rent fees for Soroban
 and especially as the network exists
 and especially as the network exists
 and especially as the network exists
@@ -744,9 +744,9 @@ maximum soron State size if we didn't
 have this and if
 have this and if
 have this and if
-sorban LIF state was able to grow
-sorban LIF state was able to grow
-sorban LIF state was able to grow
+Soroban LIF state was able to grow
+Soroban LIF state was able to grow
+Soroban LIF state was able to grow
 unboundedly this would be a very
 unboundedly this would be a very
 unboundedly this would be a very

@@ -60,7 +60,7 @@ have any projects in the pipeline
 for the initial release
 we're talking with several companies
 that are interested in building on
-stellar I can't disclose names right
+Stellar I can't disclose names right
 now because nothing is is finalized
 but you know like the
 
@@ -205,7 +205,7 @@ that's exactly what I was about to say
 we have another question from the
 audience sorry if I mispronounced
 your name but jason godev asked given
-that stellar has some built-in
+that Stellar has some built-in
 operations that serve off-chain scripts
 and apps already what use cases will
 smart contracts serve that is not
@@ -220,7 +220,7 @@ to like you know express a lot of
 things so say for example that I wanna
 introduce an amm that is that's
 built on a curve that's not supported by
-the native amms on stellar like table
+the native amms on Stellar like table
 swap
 or let's say that I want to have like
 a you know like a trust minimized
@@ -278,7 +278,7 @@ look at right now today or is it as has
 it yet to be put out into the wild
 I mean the code is is public it's on
 github it's just go to github.com
-stellar and I'm sure you'll find it
+Stellar and I'm sure you'll find it
 the docs aren't up yet the
 anywhere in particular for it just yet
 so
@@ -373,7 +373,7 @@ will actually run on chain and the
 reason acts very much like it is because
 it's actually backed by the same code
 because the the runtime environment is
-written in rust in stellar core and so
+written in rust in Stellar core and so
 we basically import that into the tests
 and we're running the contract within it
 and much of the mechanics of that we're
@@ -415,7 +415,7 @@ from matthias he says with smart
 contract support I wonder if you see a
 possibility to build an infrastructure
 like layer two of apps tap chain
-side chains using stellar as their layer
+side chains using Stellar as their layer
 one
 yeah definitely we're we also
 had some folks
@@ -440,11 +440,11 @@ it can obviously be like another the
 same execution engine but it can also be
 something like an evm so you can have
 like an evm roll up running on like a
-stellar base chain which is pretty cool
+Stellar base chain which is pretty cool
 what about you same question that you
 asked lee what are you most excited
 about for for the launch of smart
-contracts on stellar like what would you
+contracts on Stellar like what would you
 most like to see
 I really love the fact
 that the sdk like builds on rust
@@ -489,17 +489,17 @@ local
 sandbox developer experience so you
 don't need to know you
 funny enough you don't really need to
-know anything about stellar in order to
+know anything about Stellar in order to
 start developing for this you don't even
 need to have
-to be talking to a stellar network all
+to be talking to a Stellar network all
 you need is like this local sandbox
 that's in the sdk I also have another
 question from matthias in terms of
 infrastructure what would be your top
 number one priority for smart contracts
 projects
-says he's thinking on stellar mainstream
+says he's thinking on Stellar mainstream
 stream adoption
 time frame q3 slash q4 2022 so
 infrastructure
@@ -510,7 +510,7 @@ like defy
 lego blocks so things like
 amm specifically the type of amms
 that we don't have natively in
-stellar things like you know stable
+Stellar things like you know stable
 swap things like uni swap v3
 definitely
 interesting interested in seeing
@@ -643,7 +643,7 @@ yeah I was just hoping to ask about
 an update towards 55 I believe was
 the number
 I think the last
-stellar dev chat we had was
+Stellar dev chat we had was
 on some of the fee mechanics
 specifically the
 underlying state exploration
@@ -720,7 +720,7 @@ strategy to mitigate it
 cool thanks for the update and we have a
 question from jason c
 how is develop development of linking
-stellar classic tokens and their
+Stellar classic tokens and their
 potential smart contract equivalents
 looking
 will classic tokens and their smart
@@ -760,7 +760,7 @@ fit for you and then you don't get the
 interoperability guaranteed
 but
 in like the most basic case where you
-have a stellar asset classic asset it's
+have a Stellar asset classic asset it's
 fun it's like a fundable asset like
 it's a
 argentinian peso for example
@@ -823,8 +823,8 @@ and that's like john said that work
 is slated for next month all right
 matthias has another question I'm glad
 he labeled it as a question for me are
-there any current education stellar
-partners such as stellar quest or the
+there any current education Stellar
+partners such as Stellar quest or the
 like working on trading and or
 education in preparation for jump
 cannons launch
@@ -936,7 +936,7 @@ exact same asset
 one advantage of that you know we hear a
 lot from from issuers
 that
-stellar's model of like implicit
+Stellar's model of like implicit
 minting through payments is
 sometimes
 a bit idiosyncratic idiosyncratic for

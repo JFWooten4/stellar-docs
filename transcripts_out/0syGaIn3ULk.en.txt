@@ -1,8 +1,8 @@
 Hello and welcome everyone to this
 Hello and welcome everyone to this
-week's stellar developer meeting.
-week's stellar developer meeting.
-week's stellar developer meeting.
+week's Stellar Developer Meeting.
+week's Stellar Developer Meeting.
+week's Stellar Developer Meeting.
 today in the studio I have Vivo from
 today in the studio I have Vivo from
 today in the studio I have Vivo from
@@ -12,9 +12,9 @@ Halaps and he's going to give a super
 exciting demo of the pro current
 exciting demo of the pro current
 exciting demo of the pro current
-progress of the scaffold stellar. So
-progress of the scaffold stellar. So
-progress of the scaffold stellar. So
+progress of the scaffold Stellar. So
+progress of the scaffold Stellar. So
+progress of the scaffold Stellar. So
 please introduce yourself and yeah give
 please introduce yourself and yeah give
 please introduce yourself and yeah give
@@ -42,9 +42,9 @@ hey guys I'm Fifo I'm work at a labs.
 I'm a principal engineer there and I'll
 I'm a principal engineer there and I'll
 I'm a principal engineer there and I'll
-be presenting the scaffold stellar.
-be presenting the scaffold stellar.
-be presenting the scaffold stellar.
+be presenting the scaffold Stellar.
+be presenting the scaffold Stellar.
+be presenting the scaffold Stellar.
 for those that don't know about it, it's
 for those that don't know about it, it's
 for those that don't know about it, it's
@@ -54,9 +54,9 @@ basically it it includes a CLI and a
 base project in which you can start
 base project in which you can start
 base project in which you can start
-developing on stellar and sorban in a
-developing on stellar and sorban in a
-developing on stellar and sorban in a
+developing on Stellar and Soroban in a
+developing on Stellar and Soroban in a
+developing on Stellar and Soroban in a
 very easy way. You can think of it as an
 very easy way. You can think of it as an
 very easy way. You can think of it as an
@@ -345,9 +345,9 @@ the CLI. So if you have the CLI
 installed and you just go ahead and hit
 installed and you just go ahead and hit
 installed and you just go ahead and hit
-stellar stellar space plugin and
-stellar stellar space plugin and
-stellar stellar space plugin and
+Stellar Stellar space plugin and
+Stellar Stellar space plugin and
+Stellar Stellar space plugin and
 let's call search, you'll be able to
 let's call search, you'll be able to
 let's call search, you'll be able to
@@ -423,12 +423,12 @@ see a bunch of interesting stuff
 already. So there is the scaffold
 already. So there is the scaffold
 already. So there is the scaffold
-stellar it's in a repository called a
-stellar it's in a repository called a
-stellar it's in a repository called a
-lababscaffold stellar there's also you
-lababscaffold stellar there's also you
-lababscaffold stellar there's also you
+Stellar it's in a repository called a
+Stellar it's in a repository called a
+Stellar it's in a repository called a
+lababscaffold Stellar there's also you
+lababscaffold Stellar there's also you
+lababscaffold Stellar there's also you
 can see the contract bindings there is
 can see the contract bindings there is
 can see the contract bindings there is
@@ -444,9 +444,9 @@ seeing a lot of a lot more exciting
 stuff coming next so for this demo
 stuff coming next so for this demo
 stuff coming next so for this demo
-we'll go with the scaffold stellar I
-we'll go with the scaffold stellar I
-we'll go with the scaffold stellar I
+we'll go with the scaffold Stellar I
+we'll go with the scaffold Stellar I
+we'll go with the scaffold Stellar I
 already have it installed I'll just open
 already have it installed I'll just open
 already have it installed I'll just open
@@ -507,12 +507,12 @@ So, I have it installed. Once you have
 the plug-in installed, you can access
 the plug-in installed, you can access
 the plug-in installed, you can access
-those through the stellar CLA directly.
-those through the stellar CLA directly.
-those through the stellar CLA directly.
-So I'll go with stellar scaffold. Just
-So I'll go with stellar scaffold. Just
-So I'll go with stellar scaffold. Just
+those through the Stellar CLA directly.
+those through the Stellar CLA directly.
+those through the Stellar CLA directly.
+So I'll go with Stellar scaffold. Just
+So I'll go with Stellar scaffold. Just
+So I'll go with Stellar scaffold. Just
 hit h to see the help and you get a
 hit h to see the help and you get a
 hit h to see the help and you get a
@@ -615,9 +615,9 @@ also the front end. So for this let's go
 ahead and and start new project. I'll
 ahead and and start new project. I'll
 ahead and and start new project. I'll
-just go with stellar scaffold in it
-just go with stellar scaffold in it
-just go with stellar scaffold in it
+just go with Stellar scaffold in it
+just go with Stellar scaffold in it
+just go with Stellar scaffold in it
 and let's call it demo 10. I think I
 and let's call it demo 10. I think I
 and let's call it demo 10. I think I
@@ -639,9 +639,9 @@ new project. And you can see here that
 it downloaded the repository from
 it downloaded the repository from
 it downloaded the repository from
-scaffold stellar front end. So if you
-scaffold stellar front end. So if you
-scaffold stellar front end. So if you
+scaffold Stellar front end. So if you
+scaffold Stellar front end. So if you
+scaffold Stellar front end. So if you
 want to have a look at these or even
 want to have a look at these or even
 want to have a look at these or even
@@ -855,9 +855,9 @@ folder which is this interesting
 contract explorer that is very similar
 contract explorer that is very similar
 contract explorer that is very similar
-to what we have in stellar lab and I'll
-to what we have in stellar lab and I'll
-to what we have in stellar lab and I'll
+to what we have in Stellar lab and I'll
+to what we have in Stellar lab and I'll
+to what we have in Stellar lab and I'll
 get into more details in a second. So
 get into more details in a second. So
 get into more details in a second. So
@@ -912,24 +912,24 @@ the the the quick start. So if you never
 heard of it, if you don't you don't know
 heard of it, if you don't you don't know
 heard of it, if you don't you don't know
-what it is, basically in the stellar
-what it is, basically in the stellar
-what it is, basically in the stellar
+what it is, basically in the Stellar
+what it is, basically in the Stellar
+what it is, basically in the Stellar
 CLI, you have a container. You can run
 CLI, you have a container. You can run
 CLI, you have a container. You can run
-stellar container start and you start
-stellar container start and you start
-stellar container start and you start
+Stellar container start and you start
+Stellar container start and you start
+Stellar container start and you start
 this container locally, a docker
 this container locally, a docker
 this container locally, a docker
 container with an image that has all
 container with an image that has all
 container with an image that has all
-that you need to run stellar locally. So
-that you need to run stellar locally. So
-that you need to run stellar locally. So
+that you need to run Stellar locally. So
+that you need to run Stellar locally. So
+that you need to run Stellar locally. So
 you have your own node running locally
 you have your own node running locally
 you have your own node running locally
@@ -972,9 +972,9 @@ and just run a build so you can see how
 it does. basically if I access
 it does. basically if I access
 it does. basically if I access
-stellar
-stellar
-stellar
+Stellar
+Stellar
+Stellar
 scaffold
 scaffold
 scaffold
@@ -990,9 +990,9 @@ basically you can build for a specific
 amp and it's going to look for this
 amp and it's going to look for this
 amp and it's going to look for this
-stellar scaffold and which points to
-stellar scaffold and which points to
-stellar scaffold and which points to
+Stellar scaffold and which points to
+Stellar scaffold and which points to
+Stellar scaffold and which points to
 which environment you are building your
 which environment you are building your
 which environment you are building your
@@ -1110,9 +1110,9 @@ won't make any changes right now just to
 show you guys. If I run the command to
 show you guys. If I run the command to
 show you guys. If I run the command to
-scaff stellar scaffold build with the
-scaff stellar scaffold build with the
-scaff stellar scaffold build with the
+scaff Stellar scaffold build with the
+scaff Stellar scaffold build with the
+scaff Stellar scaffold build with the
 flag build clients.
 flag build clients.
 flag build clients.
@@ -1164,9 +1164,9 @@ the full true. What does that mean? That
 means that if you're familiar with the
 means that if you're familiar with the
 means that if you're familiar with the
-stellar CLI you have the stellar keys
-stellar CLI you have the stellar keys
-stellar CLI you have the stellar keys
+Stellar CLI you have the Stellar keys
+Stellar CLI you have the Stellar keys
+Stellar CLI you have the Stellar keys
 which allow you to if I just hit ls here
 which allow you to if I just hit ls here
 which allow you to if I just hit ls here
@@ -1431,9 +1431,9 @@ scrolling down. So, you see that out of
 the bat, it starts concurrently two
 the bat, it starts concurrently two
 the bat, it starts concurrently two
-commands. It starts stellar scaffold
-commands. It starts stellar scaffold
-commands. It starts stellar scaffold
+commands. It starts Stellar scaffold
+commands. It starts Stellar scaffold
+commands. It starts Stellar scaffold
 watch with the build client flag and
 watch with the build client flag and
 watch with the build client flag and
@@ -1779,9 +1779,9 @@ thing starts once we click on this
 button over at the top. So if you're
 button over at the top. So if you're
 button over at the top. So if you're
-familiar with stellar lab the
-familiar with stellar lab the
-familiar with stellar lab the
+familiar with Stellar lab the
+familiar with Stellar lab the
+familiar with Stellar lab the
 laboratory. You have a functionality
 laboratory. You have a functionality
 laboratory. You have a functionality
@@ -2505,9 +2505,9 @@ I'll just copy here and go to the tommo
 file and I'll add this section here for
 file and I'll add this section here for
 file and I'll add this section here for
-package metadata.stellar.
-package metadata.stellar.
-package metadata.stellar.
+package metadata.Stellar.
+package metadata.Stellar.
+package metadata.Stellar.
 And we have some some some some
 And we have some some some some
 And we have some some some some
@@ -2922,9 +2922,9 @@ is the name of the address? Me. So, let
 me go ahead and get this address. What
 me go ahead and get this address. What
 me go ahead and get this address. What
-is the key? So, stellar keys public
-is the key? So, stellar keys public
-is the key? So, stellar keys public
+is the key? So, Stellar keys public
+is the key? So, Stellar keys public
+is the key? So, Stellar keys public
 key me. No, isn't that Oh, I added a a K
 key me. No, isn't that Oh, I added a a K
 key me. No, isn't that Oh, I added a a K
@@ -2979,9 +2979,9 @@ helpful here. So, I use this key, but
 sometimes I don't have those in my my
 sometimes I don't have those in my my
 sometimes I don't have those in my my
-wallets. So, you can use stellar keys to
-wallets. So, you can use stellar keys to
-wallets. So, you can use stellar keys to
+wallets. So, you can use Stellar keys to
+wallets. So, you can use Stellar keys to
+wallets. So, you can use Stellar keys to
 also grab the private keys and import
 also grab the private keys and import
 also grab the private keys and import
@@ -2991,9 +2991,9 @@ in your wallets if you want to run some
 functions for example from the admin
 functions for example from the admin
 functions for example from the admin
-perspective. So I'll go with stellar
-perspective. So I'll go with stellar
-perspective. So I'll go with stellar
+perspective. So I'll go with Stellar
+perspective. So I'll go with Stellar
+perspective. So I'll go with Stellar
 keys secret if I'm not mistaken me.
 keys secret if I'm not mistaken me.
 keys secret if I'm not mistaken me.
@@ -3177,9 +3177,9 @@ let me just close let me stop this for a
 while and close this one so you guys can
 while and close this one so you guys can
 while and close this one so you guys can
-see this. , let me just go to stellar
-see this. , let me just go to stellar
-see this. , let me just go to stellar
+see this. , let me just go to Stellar
+see this. , let me just go to Stellar
+see this. , let me just go to Stellar
 scaffold
 scaffold
 scaffold
@@ -3195,9 +3195,9 @@ generate one. So the generate one is to
 generate new contracts in this
 generate new contracts in this
 generate new contracts in this
-repository. So let me go ahead stellar
-repository. So let me go ahead stellar
-repository. So let me go ahead stellar
+repository. So let me go ahead Stellar
+repository. So let me go ahead Stellar
+repository. So let me go ahead Stellar
 scaffold generate and let me see the
 scaffold generate and let me see the
 scaffold generate and let me see the
@@ -3747,9 +3747,9 @@ quick start and you have this running on
 your local machine you can still use
 your local machine you can still use
 your local machine you can still use
-the web-based stellar lab but but I
-the web-based stellar lab but but I
-the web-based stellar lab but but I
+the web-based Stellar lab but but I
+the web-based Stellar lab but but I
+the web-based Stellar lab but but I
 think most of the functionality that
 think most of the functionality that
 think most of the functionality that
@@ -3948,9 +3948,9 @@ giving this demo. This was a very
 extensive demo. you really took us far
 extensive demo. you really took us far
 extensive demo. you really took us far
-into into the scaffold stellar and it
-into into the scaffold stellar and it
-into into the scaffold stellar and it
+into into the scaffold Stellar and it
+into into the scaffold Stellar and it
+into into the scaffold Stellar and it
 was really great. so yeah, thank you
 was really great. so yeah, thank you
 was really great. so yeah, thank you

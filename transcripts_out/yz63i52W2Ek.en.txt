@@ -6,15 +6,15 @@ right now
 
 hello everyone and welcome to another
 hello everyone and welcome to another
-stellar open protocol discussion as
-stellar open protocol discussion as
-stellar open protocol discussion as
+Stellar open protocol discussion as
+Stellar open protocol discussion as
+Stellar open protocol discussion as
 per usual in these meetings we discuss
 per usual in these meetings we discuss
 per usual in these meetings we discuss
-potential changes to the stellar
-potential changes to the stellar
-potential changes to the stellar
+potential changes to the Stellar
+potential changes to the Stellar
+potential changes to the Stellar
 protocol that take the form of core
 protocol that take the form of core
 protocol that take the form of core
@@ -24,12 +24,12 @@ advancement proposals or caps
 these are technical specs they suggest
 these are technical specs they suggest
 these are technical specs they suggest
-changes to the stellar protocol that
-changes to the stellar protocol that
-changes to the stellar protocol that
-allow the stellar protocol to add new
-allow the stellar protocol to add new
-allow the stellar protocol to add new
+changes to the Stellar protocol that
+changes to the Stellar protocol that
+changes to the Stellar protocol that
+allow the Stellar protocol to add new
+allow the Stellar protocol to add new
+allow the Stellar protocol to add new
 features and evolve to meet the needs of
 features and evolve to meet the needs of
 features and evolve to meet the needs of
@@ -60,9 +60,9 @@ about that is what we're going to be
 talking about today cap21
 talking about today cap21
 talking about today cap21
-and you should also join the stellar dev
-and you should also join the stellar dev
-and you should also join the stellar dev
+and you should also join the Stellar dev
+and you should also join the Stellar dev
+and you should also join the Stellar dev
 mailing list where offline discussions
 mailing list where offline discussions
 mailing list where offline discussions
@@ -105,9 +105,9 @@ that
 lays the groundwork for building payment
 lays the groundwork for building payment
 lays the groundwork for building payment
-channels on stellar so what we're
-channels on stellar so what we're
-channels on stellar so what we're
+channels on Stellar so what we're
+channels on Stellar so what we're
+channels on Stellar so what we're
 talking about today sounds a little
 talking about today sounds a little
 talking about today sounds a little
@@ -129,9 +129,9 @@ among other things that make it easier
 to build high volume use cases on
 to build high volume use cases on
 to build high volume use cases on
-stellar so changes to cap 21 are
-stellar so changes to cap 21 are
-stellar so changes to cap 21 are
+Stellar so changes to cap 21 are
+Stellar so changes to cap 21 are
+Stellar so changes to cap 21 are
 proposed by cat 21 they allow for
 proposed by cat 21 they allow for
 proposed by cat 21 they allow for
@@ -2196,9 +2196,9 @@ we actually don't have that transaction
 so you might actually have to then go
 so you might actually have to then go
 so you might actually have to then go
-fetch it from another stellar core
-fetch it from another stellar core
-fetch it from another stellar core
+fetch it from another Stellar core
+fetch it from another Stellar core
+fetch it from another Stellar core
 potentially but the other thing we
 potentially but the other thing we
 potentially but the other thing we

@@ -1,8 +1,8 @@
 okay let's get started so welcome
 okay let's get started so welcome
-everyone this is a soroban design
-everyone this is a soroban design
-everyone this is a soroban design
+everyone this is a Soroban design
+everyone this is a Soroban design
+everyone this is a Soroban design
 discussion in these meetings we
 discussion in these meetings we
 discussion in these meetings we
@@ -12,18 +12,18 @@ discuss some of the core decisions
 that we need to make when we're building
 that we need to make when we're building
 that we need to make when we're building
-soroban which is a platform for smart
-soroban which is a platform for smart
-soroban which is a platform for smart
+Soroban which is a platform for smart
+Soroban which is a platform for smart
+Soroban which is a platform for smart
 contracts that is in active
 contracts that is in active
 contracts that is in active
 development right now and is being
 development right now and is being
 development right now and is being
-integrated integrated with stellar
-integrated integrated with stellar
-integrated integrated with stellar
+integrated integrated with Stellar
+integrated integrated with Stellar
+integrated integrated with Stellar
 today we're talking about off next which
 today we're talking about off next which
 today we're talking about off next which

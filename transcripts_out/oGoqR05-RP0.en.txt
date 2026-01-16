@@ -2,7 +2,7 @@ hello everyone and welcome to the open
 protocol meeting obviously it is the
 first time we're doing it in this
 discord channel but
-most the conversation around stellar
+most the conversation around Stellar
 development has moved to discord and so
 it makes sense to kind of put it all in
 one place most of the jump cannon
@@ -11,14 +11,14 @@ done in the open here on the jump cannon
 channel and on the jump cannon dev
 channel so anyone who's interested in
 seeing us work to bring smart contracts
-to stellar can you know join in that in
+to Stellar can you know join in that in
 that discussion so
 today the these meetings these protocol
 meetings are are here to discuss and
-plan for actual changes to the stellar
+plan for actual changes to the Stellar
 protocol and we are focused on project
 jump cannon at this point and on which
-will bring smart contracts to stellar
+will bring smart contracts to Stellar
 and we're talking here about the
 protocol changes that are necessary in
 order to accommodate it
@@ -40,7 +40,7 @@ wasm-based smart contract environments
 
 47 the smart contract life cycle defines
 the structure of smart contracts on
-stellar and specifies how users can
+Stellar and specifies how users can
 create update and remove them
 then cap 48 and cap 49
 I think our two approaches to deal with
@@ -124,7 +124,7 @@ which I'm now not remembering
 
 oh yeah and the third one is a security
 kind of situation which is that like
-when I sign for a stellar account at
+when I sign for a Stellar account at
 medium threshold I have like complete
 control over all of that accounts
 balances
@@ -148,7 +148,7 @@ what if I did the thing that was the
 most frictionless possible
 but if you do that you inherit a bunch
 of weird stuff left over from like the
-fact that stellar assets are not really
+fact that Stellar assets are not really
 quite exactly like your z20 assets or
 whatever other ethereum standard you'd
 like I'm really focused on erc20 just
@@ -218,7 +218,7 @@ like
 the like asset adapter or contract that
 like everybody gets for free actually
 goes around and controls
-the stellar trust line
+the Stellar trust line
 so you know like when you use the
 erc20 function transfer it actually goes
 and uses the payment operation to send a
@@ -319,8 +319,8 @@ so the first thing is like it's not
 labeled as an issue in cat 48 but it is
 one which is like ideally you should be
 able to use a
-stellar erc20 like a wrap an erc20
-wrapping a stellar classic asset however
+Stellar erc20 like a wrap an erc20
+wrapping a Stellar classic asset however
 that interface works
 ideally you should be able to use it
 exactly the same way you would use an
@@ -339,7 +339,7 @@ the two assets that you have reserves
 for
 well you'd have to actually check like
 hey is one of these assets
-and like a stellar
+and like a Stellar
 classic asset even if it has an erc20
 interface
 because you would still need to create
@@ -551,7 +551,7 @@ it more in the like
 completely not allowed to use the
 contract sense
 than
-just what like stellar classic would
+just what like Stellar classic would
 allow for example if your account
 is not
 authorized on the contract then you
@@ -587,7 +587,7 @@ does that kind of answer your question
 oh
 I definitely have some other questions
 obviously wrapping you can only do
-from from like a classic stellar asset
+from from like a classic Stellar asset
 to a smart asset you won't be able
 to go the other way around right so
 we're essentially saying that
@@ -702,7 +702,7 @@ speed x and things like that
 to be honest I think that somewhere coin
 is a bit of a
 of an edge case like if we look at like
-it's not like assets on stellar actually
+it's not like assets on Stellar actually
 have
 
 very true
@@ -770,7 +770,7 @@ yeah like it complicates things for the
 issue and now they need to decide which
 side belongs
 on ideally there would be like one
-especially with like these stellar
+especially with like these Stellar
 assets that we expect to be the majority
 we want to have like a very
 straightforward best practice and i
@@ -944,7 +944,7 @@ well well a wallet uses horizon as
 as it's kind of like
 you know
 just beta access layer into this into
-the stellar universe right
+the Stellar universe right
 now if a wallet
 classic wallet
 well no a wallet a wallet wallet
@@ -952,11 +952,11 @@ not just a classic wallet
 like I don't have any smart wallets
 but I would imagine smart wallets maybe
 wouldn't well like
-stellar wallets would want to add smart
+Stellar wallets would want to add smart
 functionality right it's not going to be
 like two universes
 that's the whole thing right you know if
-I have a stellar wallet and I want to be
+I have a Stellar wallet and I want to be
 able to participate in a d5
 application
 and
@@ -985,7 +985,7 @@ let me let me rephrase maybe horizon is
 a bit of a loaded term
 but we need to provide
 a
-data access layer to stellar that allows
+data access layer to Stellar that allows
 wallets to reason about what's going on
 on the smart side what's going on on the
 
@@ -1192,12 +1192,12 @@ we could say okay there's actually two
 balance functions there's you know
 the balance of and available our balance
 of
-in the stellar ecosystem
+in the Stellar ecosystem
 is that fair
 and we definitely could do that and then
 we could basically say like hey like you
 know when you implement a token on
-stellar what you should do is implement
+Stellar what you should do is implement
 both of these functions and probably
 there you want them to be the same
 function they just have the same
@@ -1306,7 +1306,7 @@ that people hate from erc20 so like
 it can be better
 but
 all of these things work better than
-classic stellar assets I think at least
+classic Stellar assets I think at least
 for like the needs of smart contracts
 so I mean I guess we have about 12
 minutes left in this meeting do we do we

@@ -3,9 +3,9 @@ hi
 everyone my name is morley zai and
 everyone my name is morley zai and
 everyone my name is morley zai and
-welcome back to stellar's engineering
-welcome back to stellar's engineering
-welcome back to stellar's engineering
+welcome back to Stellar's engineering
+welcome back to Stellar's engineering
+welcome back to Stellar's engineering
 talk series
 talk series
 talk series
@@ -63,9 +63,9 @@ currency
 and convert them to and from the usd
 and convert them to and from the usd
 and convert them to and from the usd
-token on the stellar network
-token on the stellar network
-token on the stellar network
+token on the Stellar network
+token on the Stellar network
+token on the Stellar network
 like I said we've soft launched this
 like I said we've soft launched this
 like I said we've soft launched this
@@ -108,9 +108,9 @@ cryptocurrency and understand you know
 how
 how
 how
-the stellar network works that way
-the stellar network works that way
-the stellar network works that way
+the Stellar network works that way
+the Stellar network works that way
+the Stellar network works that way
 the most the most amount of people can
 the most the most amount of people can
 the most the most amount of people can
@@ -147,9 +147,9 @@ step
 so we use third parties which the
 so we use third parties which the
 so we use third parties which the
-stellar network calls anchors to handle
-stellar network calls anchors to handle
-stellar network calls anchors to handle
+Stellar network calls anchors to handle
+Stellar network calls anchors to handle
+Stellar network calls anchors to handle
 this exchange
 this exchange
 this exchange
@@ -172,8 +172,8 @@ we're going to go through a test net
 we're going to go through a test net
 we're going to go through a test net
 version of the app
-and we're going to use the stellar
-and we're going to use the stellar
+and we're going to use the Stellar
+and we're going to use the Stellar
 reference token which
 reference token which
 reference token which
@@ -207,9 +207,9 @@ we're going to talk
 about today is is getting money from
 about today is is getting money from
 about today is is getting money from
-outside the stellar network into the
-outside the stellar network into the
-outside the stellar network into the
+outside the Stellar network into the
+outside the Stellar network into the
+outside the Stellar network into the
 network
 network
 network
@@ -345,9 +345,9 @@ written in react native so
 we use a javascript wallet sdk
 we use a javascript wallet sdk
 we use a javascript wallet sdk
-that stellar maintains to handle the
-that stellar maintains to handle the
-that stellar maintains to handle the
+that Stellar maintains to handle the
+that Stellar maintains to handle the
+that Stellar maintains to handle the
 interactions with
 interactions with
 interactions with
@@ -357,9 +357,9 @@ with the anchors the wallet sdk contains
 several tools that make it easier for
 several tools that make it easier for
 several tools that make it easier for
-wallets to interact with the stellar
-wallets to interact with the stellar
-wallets to interact with the stellar
+wallets to interact with the Stellar
+wallets to interact with the Stellar
+wallets to interact with the Stellar
 network
 network
 network
@@ -447,9 +447,9 @@ let the anchor know that the person
 who's making the call has
 who's making the call has
 who's making the call has
-has ownership over the the stellar
-has ownership over the the stellar
-has ownership over the the stellar
+has ownership over the the Stellar
+has ownership over the the Stellar
+has ownership over the the Stellar
 token that they want to deposit withdraw
 token that they want to deposit withdraw
 token that they want to deposit withdraw
@@ -465,9 +465,9 @@ step 10 auth token
 from each anchor now the
 from each anchor now the
 from each anchor now the
-the actual stellar key on the app is
-the actual stellar key on the app is
-the actual stellar key on the app is
+the actual Stellar key on the app is
+the actual Stellar key on the app is
+the actual Stellar key on the app is
 secured
 secured
 secured
@@ -981,9 +981,9 @@ basically
 pending anchor pending external pending
 pending anchor pending external pending
 pending anchor pending external pending
-trust pending pending stellar
-trust pending pending stellar
-trust pending pending stellar
+trust pending pending Stellar
+trust pending pending Stellar
+trust pending pending Stellar
 we should that's that's when we show
 we should that's that's when we show
 we should that's that's when we show
@@ -1005,9 +1005,9 @@ service
 that watches every transaction on the
 that watches every transaction on the
 that watches every transaction on the
-stellar network
-stellar network
-stellar network
+Stellar network
+Stellar network
+Stellar network
 whatever a transaction a payment
 whatever a transaction a payment
 whatever a transaction a payment
@@ -1053,9 +1053,9 @@ the only difference is after
 this request will will
 this request will will
 this request will will
-be the app will make a stellar payment
-be the app will make a stellar payment
-be the app will make a stellar payment
+be the app will make a Stellar payment
+be the app will make a Stellar payment
+be the app will make a Stellar payment
 to the anchor
 to the anchor
 to the anchor
@@ -1080,9 +1080,9 @@ user is sending funds to the anchor via
 the seller network and this is just an
 the seller network and this is just an
 the seller network and this is just an
-ordinary stellar payment
-ordinary stellar payment
-ordinary stellar payment
+ordinary Stellar payment
+ordinary Stellar payment
+ordinary Stellar payment
 so that's pretty much it it's not very
 so that's pretty much it it's not very
 so that's pretty much it it's not very
@@ -1212,9 +1212,9 @@ it's kind of the decentralized ethos
 that that
 that that
 that that
-we have that stellar has created this
-we have that stellar has created this
-we have that stellar has created this
+we have that Stellar has created this
+we have that Stellar has created this
+we have that Stellar has created this
 this anchor system
 this anchor system
 this anchor system
@@ -1245,7 +1245,7 @@ in vibrant all person-to-person
 transactions use the seller network
 transactions use the seller network
 transactions use the seller network
-using stellar payments
+using Stellar payments
 so so each party will have either had to
 so so each party will have either had to
 get funds from someone else or

@@ -87,7 +87,7 @@ one two things actually so we have an
 instant Dev environment set up for
 Soroban so if you're someone like me who
 is basically never touched Russ till
-soroban started
+Soroban started
 and is just now getting started and
 has come from like a web to like react
 python background and you're like how do
@@ -131,7 +131,7 @@ I'll save that for later
 
 but necessity kind of pushed itself
 you know okay where everybody's learning
-sorobon now and this is kind of the
+Soroban now and this is kind of the
 thing that I've wanted ever since I
 found Stellar way way back and wanted to
 do something that Stellar didn't have an
@@ -187,7 +187,7 @@ which will open up all of these
 different examples right inside the the
 VM the get pod VM where you can run
 these examples right inside of our
-example soroban examples repo it opens
+example Soroban examples repo it opens
 up that repo inside of a gitpod which is
 amazing we're not going to do that
 right off the bat though I'm going to
@@ -199,7 +199,7 @@ of the idea is this is going to be a
 pretty big deviation from what we've
 normally done with Stellar Quest where
 you're playing it with laboratory you're
-doing it in quest.stellar.org now you're
+doing it in quest.Stellar.org now you're
 going to be doing the class right inside
 of a get pod which will be a little bit
 disorienting right especially for people
@@ -350,7 +350,7 @@ got one Quest up in here right now
 really to kind of emphasize just the
 environment and learning that bit first
 I just pulled the hello world example
-from the example the soroban examples
+from the example the Soroban examples
 repository so that's the one that's
 building up up here so if we run you
 could run cargo
@@ -372,13 +372,13 @@ compiles down to a wasm executable
 that's the thing that you'll actually
 deploy or run
 on the contract so a lot of times when
-you've got the sorobon CLI and you're
+you've got the Soroban CLI and you're
 calling something you'll be referencing
 this particular wasm file which Speaking
 of
 saurabhan you can
 we've got those installed the the
-sorobon command if you're like okay well
+Soroban command if you're like okay well
 that's also magic how'd you install that
 guy
 Lee has built us a nice little Docker
@@ -386,9 +386,9 @@ image
 that pulls in the default get pod
 Docker image loads up all the stuff we
 need for that and then it installs
-things like sorobon and cargo hack and
+things like Soroban and cargo hack and
 some other things that we might need I'm
-actually working on a stellar Quest CLI
+actually working on a Stellar Quest CLI
 
 so the you can run all of your Stellar
 quests right from the command line I'll
@@ -439,7 +439,7 @@ you're like where's all my strings and
 map hash maps and stuff
 
 but where there is no standard Library
-there's the sorobon SDK
+there's the Soroban SDK
 it's nice because if you're coming
 from JavaScript and you're just trying
 to learn this thing there's actually
@@ -447,7 +447,7 @@ less rust stuff you can do which keeps
 that scope of things to learn quite
 minimal and keeps all of the
 documentation right inside of that
-sarabon.stellar.org forward slash docs
+sarabon.Stellar.org forward slash docs
 all the things you need to know are kind
 of within that domain which is super
 nice
@@ -458,7 +458,7 @@ we should be able to actually call it
 I'm going to make sure I'm in my sandbox
 CLI
 and if I remember my homework we should
-be able to do sorobon invoke and
+be able to do Soroban invoke and
 whenever you get lost you can add that H
 flag and it will tell you the different
 options that you have available so we
@@ -472,7 +472,7 @@ if we were running it on the RPC we
 would either need to pass these flags or
 they will be pre-filled you'll notice if
 I run this exact same command
-soroban in Vogue help
+Soroban in Vogue help
 these sarobon are these RPC secrets
 are already filled in for us so that
 we'll use those by default if we're
@@ -492,7 +492,7 @@ file that we're targeting
 Target
 wasn't
 releases and I think the name of this
-was soroban contract
+was Soroban contract
 Blossom the argument
 I guess before we call our argument we
 need a function what function are we
@@ -599,7 +599,7 @@ in
 unless we pass our new
 put that right here new secret key
 there's nothing fancy with the secret
-key it's just a stellar thing you're
+key it's just a Stellar thing you're
 just signing the transaction that you're
 going to submit to the Future net
 but rather than having to like submit
@@ -646,7 +646,7 @@ which does whatever the heck you want to
 inside of whatever the functions are
 behind the contract that was uploaded so
 it's like this do whatever you want
-operation in stellar and my goodness
+operation in Stellar and my goodness
 I've wanted that for a long time and to
 actually see it working and it's kind of
 simple and you've got this nice git pod
@@ -661,12 +661,12 @@ amazing and and
 again like you're discovering Stellar
 for the first time in 2014 like okay
 sweet I think at the time there's like
-12 things you could do with stellar and
+12 things you could do with Stellar and
 then now there's like 22 or something
 now there's an infinite number of things
-you can do with stellar and that is
+you can do with Stellar and that is
 incredible like I was super excited
-before just finding stellar
+before just finding Stellar
 now I mean this is this is this is
 something else and
 I don't know I'm I can't wait to
@@ -802,7 +802,7 @@ do with one of these parameters
 maybe something with the footprint
 can you just like walk us through a
 am I going to be able to do like build a
-stellar Quest off of the data that I'm
+Stellar Quest off of the data that I'm
 getting inside of the operations to
 check if what someone submitted was what
 I expected
@@ -1238,7 +1238,7 @@ there are one more question that came in
 here which says
 how Soroban adopted zero knowledge
 grouping
-soroban supports
+Soroban supports
 yeah I think we're like very interested
 I think in in supporting like
 different crypto Primitives and
@@ -1264,7 +1264,7 @@ see I think that is about all the
 questions that there are anyone else
 have any final questions here
 I'd be curiously as you kind of have a
-really broad knowledge of sorobon where
+really broad knowledge of Soroban where
 it's going and you're working with
 internal and external teams on road maps
 and
@@ -1347,7 +1347,7 @@ so that there's like get started get
 ready so that whenever there isn't a CF
 round that is accepting
 because they're that are built on top
-of Sarah bonathon sorobon wow it's not
+of Sarah bonathon Soroban wow it's not
 called sarobon anymore now it's just
 Sarah bonathon
 

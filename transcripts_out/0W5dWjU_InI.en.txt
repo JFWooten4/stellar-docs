@@ -33,9 +33,9 @@ we've been I'm just gonna see if I can
 invite some people up to speak
 and that is because the the Caps
 that we've been working on relate to
-sorobon which is the smart contracts
+Soroban which is the smart contracts
 platform that we're building that will
-bring smart contracts to stellar and a
+bring smart contracts to Stellar and a
 lot of work has been done on the
 implementation side right so earlier
 this year we were talking through about
@@ -294,7 +294,7 @@ change maybe the semantics around
 authorization the authorization would I
 think we can do it in a way where it
 wouldn't it would be transparent to
-soroban tokens
+Soroban tokens
 that make sense
 yes
 one thing I'll just say quickly is that
@@ -344,7 +344,7 @@ think is a good thing but it's good to
 know is if you go to the first approach
 I mentioned the issuer will need to
 approve any address and any any
-identifier on soroban that wants to
+identifier on Soroban that wants to
 accept the balance so even if it's like
 a liquidity pool the issuer must you
 know approve that that liquidity pool's
@@ -512,7 +512,7 @@ and on Soroban we would imitate the
 same at the the admin or the the admin
 on sorbond would need to explicitly
 authorize
-on sorobon we'll have we have this
+on Soroban we'll have we have this
 method called authorize and we'll
 authorize that balance
 
@@ -544,7 +544,7 @@ says you can actually cloud back from
 the
 trust line and that flag is
 maintained
-currently in the proposal in soroban
+currently in the proposal in Soroban
 like the clawback flag but it's at the
 contract level and not at a balanced
 level because my the thought process
@@ -602,7 +602,7 @@ are today
 looking at implementing Earth
 required assets want to
 move some of the functionality into
-soroban
+Soroban
 are they really going to be satisfied
 with those limited semantics as opposed
 to I know like a lot of the the things
@@ -620,7 +620,7 @@ the you know the first requirement at
 least I was that I was following is that
 you you'd like to be able to support
 anything that can happen on classic
-in soroban right in the bold and tone
+in Soroban right in the bold and tone
 contract which is the you know the goal
 of adding support throughout the
 Acquired and clawback
@@ -705,7 +705,7 @@ coming on board and are interesting and
 auth required assets maybe the
 solution for them
 is to actually issue a custom contract
-on soroban rather than
+on Soroban rather than
 an off-acquired acid on classic and kind
 of like trying to constrain it to be
 what they want it to be

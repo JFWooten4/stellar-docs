@@ -36,14 +36,14 @@ hello everyone and welcome to another
 
 00:00:22.560 --> 00:00:24.950 align:start position:0%
 hello everyone and welcome to another
-stellar<00:00:22.960><c> open</c><00:00:23.199><c> protocol</c><00:00:23.680><c> discussion</c><00:00:24.400><c></c><00:00:24.720><c> as</c>
+Stellar<00:00:22.960><c> open</c><00:00:23.199><c> protocol</c><00:00:23.680><c> discussion</c><00:00:24.400><c></c><00:00:24.720><c> as</c>
 
 00:00:24.950 --> 00:00:24.960 align:start position:0%
-stellar open protocol discussion as
+Stellar open protocol discussion as
 
 
 00:00:24.960 --> 00:00:26.710 align:start position:0%
-stellar open protocol discussion as
+Stellar open protocol discussion as
 per<00:00:25.119><c> usual</c><00:00:25.519><c> in</c><00:00:25.599><c> these</c><00:00:25.760><c> meetings</c><00:00:26.080><c> we</c><00:00:26.320><c> discuss</c>
 
 00:00:26.710 --> 00:00:26.720 align:start position:0%
@@ -52,14 +52,14 @@ per usual in these meetings we discuss
 
 00:00:26.720 --> 00:00:28.230 align:start position:0%
 per usual in these meetings we discuss
-potential<00:00:27.199><c> changes</c><00:00:27.599><c> to</c><00:00:27.760><c> the</c><00:00:27.840><c> stellar</c>
+potential<00:00:27.199><c> changes</c><00:00:27.599><c> to</c><00:00:27.760><c> the</c><00:00:27.840><c> Stellar</c>
 
 00:00:28.230 --> 00:00:28.240 align:start position:0%
-potential changes to the stellar
+potential changes to the Stellar
 
 
 00:00:28.240 --> 00:00:29.830 align:start position:0%
-potential changes to the stellar
+potential changes to the Stellar
 protocol<00:00:28.800><c> that</c><00:00:28.960><c> take</c><00:00:29.199><c> the</c><00:00:29.279><c> form</c><00:00:29.519><c> of</c><00:00:29.599><c> core</c>
 
 00:00:29.830 --> 00:00:29.840 align:start position:0%
@@ -84,22 +84,22 @@ these are technical specs they suggest
 
 00:00:33.840 --> 00:00:35.590 align:start position:0%
 these are technical specs they suggest
-changes<00:00:34.160><c> to</c><00:00:34.320><c> the</c><00:00:34.399><c> stellar</c><00:00:34.719><c> protocol</c><00:00:35.360><c> that</c>
+changes<00:00:34.160><c> to</c><00:00:34.320><c> the</c><00:00:34.399><c> Stellar</c><00:00:34.719><c> protocol</c><00:00:35.360><c> that</c>
 
 00:00:35.590 --> 00:00:35.600 align:start position:0%
-changes to the stellar protocol that
+changes to the Stellar protocol that
 
 
 00:00:35.600 --> 00:00:37.350 align:start position:0%
-changes to the stellar protocol that
-allow<00:00:35.840><c> the</c><00:00:35.920><c> stellar</c><00:00:36.480><c> protocol</c><00:00:36.880><c> to</c><00:00:36.960><c> add</c><00:00:37.120><c> new</c>
+changes to the Stellar protocol that
+allow<00:00:35.840><c> the</c><00:00:35.920><c> Stellar</c><00:00:36.480><c> protocol</c><00:00:36.880><c> to</c><00:00:36.960><c> add</c><00:00:37.120><c> new</c>
 
 00:00:37.350 --> 00:00:37.360 align:start position:0%
-allow the stellar protocol to add new
+allow the Stellar protocol to add new
 
 
 00:00:37.360 --> 00:00:38.869 align:start position:0%
-allow the stellar protocol to add new
+allow the Stellar protocol to add new
 features<00:00:37.680><c> and</c><00:00:37.760><c> evolve</c><00:00:38.079><c> to</c><00:00:38.239><c> meet</c><00:00:38.480><c> the</c><00:00:38.559><c> needs</c><00:00:38.800><c> of</c>
 
 00:00:38.869 --> 00:00:38.879 align:start position:0%
@@ -180,14 +180,14 @@ talking about today cap21
 
 00:00:54.160 --> 00:00:55.990 align:start position:0%
 talking about today cap21
-and<00:00:54.320><c> you</c><00:00:54.399><c> should</c><00:00:54.559><c> also</c><00:00:54.800><c> join</c><00:00:55.199><c> the</c><00:00:55.440><c> stellar</c><00:00:55.760><c> dev</c>
+and<00:00:54.320><c> you</c><00:00:54.399><c> should</c><00:00:54.559><c> also</c><00:00:54.800><c> join</c><00:00:55.199><c> the</c><00:00:55.440><c> Stellar</c><00:00:55.760><c> dev</c>
 
 00:00:55.990 --> 00:00:56.000 align:start position:0%
-and you should also join the stellar dev
+and you should also join the Stellar dev
 
 
 00:00:56.000 --> 00:00:58.470 align:start position:0%
-and you should also join the stellar dev
+and you should also join the Stellar dev
 mailing<00:00:56.320><c> list</c><00:00:56.719><c> where</c><00:00:57.360><c> offline</c><00:00:57.840><c> discussions</c>
 
 00:00:58.470 --> 00:00:58.480 align:start position:0%
@@ -300,14 +300,14 @@ lays the groundwork for building payment
 
 00:01:23.360 --> 00:01:24.630 align:start position:0%
 lays the groundwork for building payment
-channels<00:01:23.680><c> on</c><00:01:23.759><c> stellar</c><00:01:24.080><c> so</c><00:01:24.320><c> what</c><00:01:24.479><c> we're</c>
+channels<00:01:23.680><c> on</c><00:01:23.759><c> Stellar</c><00:01:24.080><c> so</c><00:01:24.320><c> what</c><00:01:24.479><c> we're</c>
 
 00:01:24.630 --> 00:01:24.640 align:start position:0%
-channels on stellar so what we're
+channels on Stellar so what we're
 
 
 00:01:24.640 --> 00:01:25.749 align:start position:0%
-channels on stellar so what we're
+channels on Stellar so what we're
 talking<00:01:24.799><c> about</c><00:01:24.960><c> today</c><00:01:25.280><c> sounds</c><00:01:25.520><c> a</c><00:01:25.520><c> little</c>
 
 00:01:25.749 --> 00:01:25.759 align:start position:0%
@@ -364,14 +364,14 @@ to build high volume use cases on
 
 00:01:37.439 --> 00:01:39.910 align:start position:0%
 to build high volume use cases on
-stellar<00:01:37.840><c> so</c><00:01:38.400><c> changes</c><00:01:38.799><c> to</c><00:01:39.040><c> cap</c><00:01:39.280><c> 21</c><00:01:39.759><c> are</c>
+Stellar<00:01:37.840><c> so</c><00:01:38.400><c> changes</c><00:01:38.799><c> to</c><00:01:39.040><c> cap</c><00:01:39.280><c> 21</c><00:01:39.759><c> are</c>
 
 00:01:39.910 --> 00:01:39.920 align:start position:0%
-stellar so changes to cap 21 are
+Stellar so changes to cap 21 are
 
 
 00:01:39.920 --> 00:01:42.069 align:start position:0%
-stellar so changes to cap 21 are
+Stellar so changes to cap 21 are
 proposed<00:01:40.320><c> by</c><00:01:40.479><c> cat</c><00:01:40.720><c> 21</c><00:01:41.360><c> they</c><00:01:41.520><c> allow</c><00:01:41.840><c> for</c>
 
 00:01:42.069 --> 00:01:42.079 align:start position:0%
@@ -6108,14 +6108,14 @@ so you might actually have to then go
 
 00:27:02.320 --> 00:27:04.789 align:start position:0%
 so you might actually have to then go
-fetch<00:27:02.640><c> it</c><00:27:02.799><c> from</c><00:27:02.960><c> another</c><00:27:03.440><c> stellar</c><00:27:03.840><c> core</c>
+fetch<00:27:02.640><c> it</c><00:27:02.799><c> from</c><00:27:02.960><c> another</c><00:27:03.440><c> Stellar</c><00:27:03.840><c> core</c>
 
 00:27:04.789 --> 00:27:04.799 align:start position:0%
-fetch it from another stellar core
+fetch it from another Stellar core
 
 
 00:27:04.799 --> 00:27:07.190 align:start position:0%
-fetch it from another stellar core
+fetch it from another Stellar core
 potentially<00:27:05.520><c> but</c><00:27:05.840><c></c><00:27:06.480><c> the</c><00:27:06.640><c> other</c><00:27:06.799><c> thing</c><00:27:07.120><c> we</c>
 
 00:27:07.190 --> 00:27:07.200 align:start position:0%

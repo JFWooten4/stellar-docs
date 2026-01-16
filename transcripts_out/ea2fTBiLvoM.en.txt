@@ -198,12 +198,12 @@ the information about blimppool contract
 and this is we getting API for this from
 and this is we getting API for this from
 and this is we getting API for this from
-stellar the expert as you can see I have
-stellar the expert as you can see I have
-stellar the expert as you can see I have
-like power by stellar expert here. so
-like power by stellar expert here. so
-like power by stellar expert here. so
+Stellar the expert as you can see I have
+Stellar the expert as you can see I have
+Stellar the expert as you can see I have
+like power by Stellar expert here. so
+like power by Stellar expert here. so
+like power by Stellar expert here. so
 here we have it shows source code of
 here we have it shows source code of
 here we have it shows source code of
@@ -213,15 +213,15 @@ blend which is how we verify that this
 build is you know verified. so on
 build is you know verified. so on
 build is you know verified. so on
-stellar unlike other some smart contract
-stellar unlike other some smart contract
-stellar unlike other some smart contract
+Stellar unlike other some smart contract
+Stellar unlike other some smart contract
+Stellar unlike other some smart contract
 platforms we don't store source code on
 platforms we don't store source code on
 platforms we don't store source code on
-stellar. So what we do here is we are
-stellar. So what we do here is we are
-stellar. So what we do here is we are
+Stellar. So what we do here is we are
+Stellar. So what we do here is we are
+Stellar. So what we do here is we are
 checking GitHub action and making sure
 checking GitHub action and making sure
 checking GitHub action and making sure
@@ -507,15 +507,15 @@ contract
 deploy. So let's go to my let me just go
 deploy. So let's go to my let me just go
 deploy. So let's go to my let me just go
-like this. So stellar keys
-like this. So stellar keys
-like this. So stellar keys
+like this. So Stellar keys
+like this. So Stellar keys
+like this. So Stellar keys
 JSON
 JSON
 JSON
-stellar keys stellar key
-stellar keys stellar key
-stellar keys stellar key
+Stellar keys Stellar key
+Stellar keys Stellar key
+Stellar keys Stellar key
 ls there's address JSON I need to do my
 ls there's address JSON I need to do my
 ls there's address JSON I need to do my
@@ -639,7 +639,7 @@ Amazing. Yep.
 Successful. Great. So, if I go to
 Successful. Great. So, if I go to
 Successful. Great. So, if I go to
-this contract on stellar
+this contract on Stellar
 expert, we'll see two data entries. Yep,
 expert, we'll see two data entries. Yep,
 GB. I just did that. what I'm going
@@ -789,9 +789,9 @@ indeed work. And if I go to this
 contract, it shows that mint did happen
 contract, it shows that mint did happen
 contract, it shows that mint did happen
-and this all happened from the stellar
-and this all happened from the stellar
-and this all happened from the stellar
+and this all happened from the Stellar
+and this all happened from the Stellar
+and this all happened from the Stellar
 lab.
 lab.
 lab.
@@ -996,12 +996,12 @@ that they're shipping for us and add
 your comments. So as you know the
 your comments. So as you know the
 your comments. So as you know the
-contracts on stellar are mutable by
-contracts on stellar are mutable by
-contracts on stellar are mutable by
-default and the mutability in stellar
-default and the mutability in stellar
-default and the mutability in stellar
+contracts on Stellar are mutable by
+contracts on Stellar are mutable by
+contracts on Stellar are mutable by
+default and the mutability in Stellar
+default and the mutability in Stellar
+default and the mutability in Stellar
 ecosystem means a contract can modify
 ecosystem means a contract can modify
 ecosystem means a contract can modify

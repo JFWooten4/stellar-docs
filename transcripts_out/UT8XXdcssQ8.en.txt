@@ -1,8 +1,8 @@
 Hello and welcome to this week's
 Hello and welcome to this week's
- Stellar developer meeting. Today I have a
- Stellar developer meeting. Today I have a
- Stellar developer meeting. Today I have a
+ Stellar Developer Meeting. Today I have a
+ Stellar Developer Meeting. Today I have a
+ Stellar Developer Meeting. Today I have a
 guest from Open Sein. I have Bram.
 guest from Open Sein. I have Bram.
 guest from Open Sein. I have Bram.
@@ -33,9 +33,9 @@ efforts of which like developer tooling
 is one of them of course we are now
 is one of them of course we are now
 is one of them of course we are now
-working closely together with stellar
-working closely together with stellar
-working closely together with stellar
+working closely together with Stellar
+working closely together with Stellar
+working closely together with Stellar
 and in terms of the developer tooling we
 and in terms of the developer tooling we
 and in terms of the developer tooling we
@@ -336,9 +336,9 @@ the network. So we also have network
 definitions here. And in the case of
 definitions here. And in the case of
 definitions here. And in the case of
-stellar we need to define this
-stellar we need to define this
-stellar we need to define this
+Stellar we need to define this
+Stellar we need to define this
+Stellar we need to define this
 network definition over here. We already
 network definition over here. We already
 network definition over here. We already
@@ -954,9 +954,9 @@ and try to run it. But in my
 configuration, I didn't use any filters.
 configuration, I didn't use any filters.
 configuration, I didn't use any filters.
-of course to find the stellar mainet
-of course to find the stellar mainet
-of course to find the stellar mainet
+of course to find the Stellar mainet
+of course to find the Stellar mainet
+of course to find the Stellar mainet
 network. It's the same file as I just
 network. It's the same file as I just
 network. It's the same file as I just
@@ -1191,18 +1191,18 @@ going to launch in one and a half to u I
 think one and a half month to two months
 think one and a half month to two months
 think one and a half month to two months
-is also like sorban support for the
-is also like sorban support for the
-is also like sorban support for the
+is also like Soroban support for the
+is also like Soroban support for the
+is also like Soroban support for the
 relayers and the relayers is one of the
 relayers and the relayers is one of the
 relayers and the relayers is one of the
 other tools that we are currently
 other tools that we are currently
 other tools that we are currently
-working on to add stellar support which
-working on to add stellar support which
-working on to add stellar support which
+working on to add Stellar support which
+working on to add Stellar support which
+working on to add Stellar support which
 is a externallyowned account or wallet
 is a externallyowned account or wallet
 is a externallyowned account or wallet
@@ -1437,9 +1437,9 @@ comm commands that I didn't go through
 here and then how to set it up for
 here and then how to set it up for
 here and then how to set it up for
-stellar. So it's it's like pretty
-stellar. So it's it's like pretty
-stellar. So it's it's like pretty
+Stellar. So it's it's like pretty
+Stellar. So it's it's like pretty
+Stellar. So it's it's like pretty
 easy to set up and if you guys have
 easy to set up and if you guys have
 easy to set up and if you guys have

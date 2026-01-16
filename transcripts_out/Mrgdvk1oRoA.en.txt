@@ -51,9 +51,9 @@ anchor servers according to the
 standards that we define
 standards that we define
 standards that we define
-that are called stellar ecosystem
-that are called stellar ecosystem
-that are called stellar ecosystem
+that are called Stellar ecosystem
+that are called Stellar ecosystem
+that are called Stellar ecosystem
 proposals or seps
 proposals or seps
 proposals or seps
@@ -609,9 +609,9 @@ going to anchor in this database
 is a or on this anchor is our
 is a or on this anchor is our
 is a or on this anchor is our
-stellar reference token srt it's just
-stellar reference token srt it's just
-stellar reference token srt it's just
+Stellar reference token srt it's just
+Stellar reference token srt it's just
+Stellar reference token srt it's just
 a fake token on test net
 a fake token on test net
 a fake token on test net
@@ -993,9 +993,9 @@ actually pay them
 it's gonna pay or send you know
 it's gonna pay or send you know
 it's gonna pay or send you know
-stellar funds to my account
-stellar funds to my account
-stellar funds to my account
+Stellar funds to my account
+Stellar funds to my account
+Stellar funds to my account
 and just to give you some like more
 and just to give you some like more
 and just to give you some like more
@@ -2154,9 +2154,9 @@ to do
 is I'm actually just going to import
 is I'm actually just going to import
 is I'm actually just going to import
-stellar's sdk
-stellar's sdk
-stellar's sdk
+Stellar's sdk
+Stellar's sdk
+Stellar's sdk
 import keyboard keyboard class and I'm
 import keyboard keyboard class and I'm
 import keyboard keyboard class and I'm
@@ -4815,9 +4815,9 @@ and polaris is just going to move on
 it's going to assume that I sent it
 it's going to assume that I sent it
 it's going to assume that I sent it
-so stellar is actually executing the
-so stellar is actually executing the
-so stellar is actually executing the
+so Stellar is actually executing the
+so Stellar is actually executing the
+so Stellar is actually executing the
 transaction now
 transaction now
 transaction now
@@ -5196,9 +5196,9 @@ make a payment so this assumes you've
 received a withdrawal
 received a withdrawal
 received a withdrawal
-payment from the user on the stellar
-payment from the user on the stellar
-payment from the user on the stellar
+payment from the user on the Stellar
+payment from the user on the Stellar
+payment from the user on the Stellar
 network and you're actually going to
 network and you're actually going to
 network and you're actually going to
@@ -5559,9 +5559,9 @@ no fee
 and for a draw the wallet actually
 and for a draw the wallet actually
 and for a draw the wallet actually
-submits the transaction to stellar
-submits the transaction to stellar
-submits the transaction to stellar
+submits the transaction to Stellar
+submits the transaction to Stellar
+submits the transaction to Stellar
 and the anchor is going to receive that
 and the anchor is going to receive that
 and the anchor is going to receive that
@@ -5574,9 +5574,9 @@ that payment so I'm confirming that i
 want to send this payment to the anchor
 want to send this payment to the anchor
 want to send this payment to the anchor
-the wallet is making a stellar payment
-the wallet is making a stellar payment
-the wallet is making a stellar payment
+the wallet is making a Stellar payment
+the wallet is making a Stellar payment
+the wallet is making a Stellar payment
 to that anchor right now
 to that anchor right now
 to that anchor right now
@@ -5628,12 +5628,12 @@ and so we have effectively
 withdrawn
 withdrawn
 withdrawn
-funds from our stellar anchor account or
-funds from our stellar anchor account or
-funds from our stellar anchor account or
-from our stellar account
-from our stellar account
-from our stellar account
+funds from our Stellar anchor account or
+funds from our Stellar anchor account or
+funds from our Stellar anchor account or
+from our Stellar account
+from our Stellar account
+from our Stellar account
 and we now presumably have them off
 and we now presumably have them off
 and we now presumably have them off

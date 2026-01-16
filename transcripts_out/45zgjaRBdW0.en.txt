@@ -249,9 +249,9 @@ used but we want these settings to be
 configurable that's why it's not just
 configurable that's why it's not just
 configurable that's why it's not just
-hard-coded in soroban the settings
-hard-coded in soroban the settings
-hard-coded in soroban the settings
+hard-coded in Soroban the settings
+hard-coded in Soroban the settings
+hard-coded in Soroban the settings
 will be stored somewhere and which and
 will be stored somewhere and which and
 will be stored somewhere and which and
@@ -804,9 +804,9 @@ simplest because it used it reuses the
 metering mechanics that we have in in
 metering mechanics that we have in in
 metering mechanics that we have in in
-soroban
-soroban
-soroban
+Soroban
+Soroban
+Soroban
 yeah that's that's the only reason we're
 yeah that's that's the only reason we're
 yeah that's that's the only reason we're
@@ -1419,9 +1419,9 @@ different we're going to say hey this is
 you know an xdr take a look at it at a
 you know an xdr take a look at it at a
 you know an xdr take a look at it at a
-stellar lab or SDC or whatever and this
-stellar lab or SDC or whatever and this
-stellar lab or SDC or whatever and this
+Stellar lab or SDC or whatever and this
+Stellar lab or SDC or whatever and this
+Stellar lab or SDC or whatever and this
 is the hash vote on it
 is the hash vote on it
 is the hash vote on it
@@ -1713,9 +1713,9 @@ you know it's not it's not immediately
 obvious that Stellar configuration
 obvious that Stellar configuration
 obvious that Stellar configuration
-changes should be proposed on soroban
-changes should be proposed on soroban
-changes should be proposed on soroban
+changes should be proposed on Soroban
+changes should be proposed on Soroban
+changes should be proposed on Soroban
 it feels a bit like we're using just
 it feels a bit like we're using just
 it feels a bit like we're using just
@@ -1731,9 +1731,9 @@ offensive but but like can there be
 you know issues from it and things like
 you know issues from it and things like
 you know issues from it and things like
-we want to do like in pure stellar and
-we want to do like in pure stellar and
-we want to do like in pure stellar and
+we want to do like in pure Stellar and
+we want to do like in pure Stellar and
+we want to do like in pure Stellar and
 and now we're introducing them to the
 and now we're introducing them to the
 and now we're introducing them to the
@@ -2034,9 +2034,9 @@ so from the approach number to your
 perspective we're not actually
 perspective we're not actually
 perspective we're not actually
-introducing changes to soroban in order
-introducing changes to soroban in order
-introducing changes to soroban in order
+introducing changes to Soroban in order
+introducing changes to Soroban in order
+introducing changes to Soroban in order
 to facilitate this so what is in the
 to facilitate this so what is in the
 to facilitate this so what is in the
@@ -2328,9 +2328,9 @@ need to figure out like whether this is
 actually something that's special cased
 actually something that's special cased
 actually something that's special cased
-in sorobon or it's just a a general
-in sorobon or it's just a a general
-in sorobon or it's just a a general
+in Soroban or it's just a a general
+in Soroban or it's just a a general
+in Soroban or it's just a a general
 ledger entry and then the validators
 ledger entry and then the validators
 ledger entry and then the validators

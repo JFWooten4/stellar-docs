@@ -12,9 +12,9 @@ don't know bill the night it's worth it
 to show up for this this is the first of
 to show up for this this is the first of
 to show up for this this is the first of
-our stellar engineering talks
-our stellar engineering talks
-our stellar engineering talks
+our Stellar engineering talks
+our Stellar engineering talks
+our Stellar engineering talks
 my name is Tyler van der Hooven and
 my name is Tyler van der Hooven and
 my name is Tyler van der Hooven and
@@ -33,9 +33,9 @@ questions we have two places where you
 can put in your questions either on the
 can put in your questions either on the
 can put in your questions either on the
-stellar events page stellar org forward
-stellar events page stellar org forward
-stellar events page stellar org forward
+Stellar events page Stellar org forward
+Stellar events page Stellar org forward
+Stellar events page Stellar org forward
 slash events click on the practical path
 slash events click on the practical path
 slash events click on the practical path
@@ -66,18 +66,18 @@ have relatively short and very pointed
 discussions around specific aspects of
 discussions around specific aspects of
 discussions around specific aspects of
-the stellar blockchain so today we'll be
-the stellar blockchain so today we'll be
-the stellar blockchain so today we'll be
+the Stellar blockchain so today we'll be
+the Stellar blockchain so today we'll be
+the Stellar blockchain so today we'll be
 talking about path payments
 so a path payment is a means of it's a
 so a path payment is a means of it's a
 payment right so if you've ever used
 payment right so if you've ever used
 payment right so if you've ever used
-payments on stellar or you're
-payments on stellar or you're
-payments on stellar or you're
+payments on Stellar or you're
+payments on Stellar or you're
+payments on Stellar or you're
 essentially just passing a set a from
 essentially just passing a set a from
 essentially just passing a set a from
@@ -171,9 +171,9 @@ powerful Sevilla weapons a path payment
 is a payment made through the Dex the
 is a payment made through the Dex the
 is a payment made through the Dex the
-distributed stellar distributed exchange
-distributed stellar distributed exchange
-distributed stellar distributed exchange
+distributed Stellar distributed exchange
+distributed Stellar distributed exchange
+distributed Stellar distributed exchange
 or decentralized exchange that probably
 or decentralized exchange that probably
 or decentralized exchange that probably
@@ -219,9 +219,9 @@ we only think of payments in that way
 we're missing a huge part of what
 we're missing a huge part of what
 we're missing a huge part of what
-stellar allows us to do so incomes path
-stellar allows us to do so incomes path
-stellar allows us to do so incomes path
+Stellar allows us to do so incomes path
+Stellar allows us to do so incomes path
+Stellar allows us to do so incomes path
 payments path payments move your asset
 payments path payments move your asset
 payments path payments move your asset
@@ -666,9 +666,9 @@ succeeded nice so an interesting thing
 here if we go to Colton's address and we
 here if we go to Colton's address and we
 here if we go to Colton's address and we
-pop this into stellar expert here this
-pop this into stellar expert here this
-pop this into stellar expert here this
+pop this into Stellar expert here this
+pop this into Stellar expert here this
+pop this into Stellar expert here this
 is on the public network we should see
 is on the public network we should see
 is on the public network we should see
@@ -1224,9 +1224,9 @@ it's doing all of that within a single
 operation within a single series of
 operation within a single series of
 operation within a single series of
-payments so instead of within stellar
-payments so instead of within stellar
-payments so instead of within stellar
+payments so instead of within Stellar
+payments so instead of within Stellar
+payments so instead of within Stellar
 you've got this concept of Ledger's so
 you've got this concept of Ledger's so
 you've got this concept of Ledger's so
@@ -1293,9 +1293,9 @@ profit or it might be worth it to do
 these non-atomic payments flow within
 these non-atomic payments flow within
 these non-atomic payments flow within
-stellar because you have this path limit
-stellar because you have this path limit
-stellar because you have this path limit
+Stellar because you have this path limit
+Stellar because you have this path limit
+Stellar because you have this path limit
 acknowledging all of that chaining
 acknowledging all of that chaining
 acknowledging all of that chaining
@@ -1491,9 +1491,9 @@ but anybody in the world can use it
 because it's the decentralized exchange
 because it's the decentralized exchange
 because it's the decentralized exchange
-anywhere ever you can connect to stellar
-anywhere ever you can connect to stellar
-anywhere ever you can connect to stellar
+anywhere ever you can connect to Stellar
+anywhere ever you can connect to Stellar
+anywhere ever you can connect to Stellar
 you can begin sending these path
 you can begin sending these path
 you can begin sending these path
@@ -1587,9 +1587,9 @@ like the analogy breaks down but
 hopefully you get the point
 hopefully you get the point
 hopefully you get the point
-and it is like the the stellar Dex is
-and it is like the the stellar Dex is
-and it is like the the stellar Dex is
+and it is like the the Stellar Dex is
+and it is like the the Stellar Dex is
+and it is like the the Stellar Dex is
 becoming more likely to becoming much
 becoming more likely to becoming much
 becoming more likely to becoming much
@@ -1602,9 +1602,9 @@ but it is becoming much more active I
 think a big difference is what is the
 think a big difference is what is the
 think a big difference is what is the
-distributed exchange on stellar built
-distributed exchange on stellar built
-distributed exchange on stellar built
+distributed exchange on Stellar built
+distributed exchange on Stellar built
+distributed exchange on Stellar built
 for is but for payments and sending
 for is but for payments and sending
 for is but for payments and sending
@@ -1647,9 +1647,9 @@ built there it definitely happens and it
 happens very quickly and a big advantage
 happens very quickly and a big advantage
 happens very quickly and a big advantage
-of the stellar exchange is that it's
-of the stellar exchange is that it's
-of the stellar exchange is that it's
+of the Stellar exchange is that it's
+of the Stellar exchange is that it's
+of the Stellar exchange is that it's
 decentralized there's not one entity
 decentralized there's not one entity
 decentralized there's not one entity
@@ -1788,9 +1788,9 @@ on off ramp where people can actually
 move their US dollar tokens and their
 move their US dollar tokens and their
 move their US dollar tokens and their
-euro tokens from the stellar network to
-euro tokens from the stellar network to
-euro tokens from the stellar network to
+euro tokens from the Stellar network to
+euro tokens from the Stellar network to
+euro tokens from the Stellar network to
 their bank so that they can buy
 their bank so that they can buy
 their bank so that they can buy
@@ -1929,9 +1929,9 @@ there's going to be an another talk I
 think Colton is doing it on the
 think Colton is doing it on the
 think Colton is doing it on the
-usability of stellar applications so
-usability of stellar applications so
-usability of stellar applications so
+usability of Stellar applications so
+usability of Stellar applications so
+usability of Stellar applications so
 another very important problem to solve
 another very important problem to solve
 another very important problem to solve

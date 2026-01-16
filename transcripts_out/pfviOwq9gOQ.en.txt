@@ -117,9 +117,9 @@ compiler to compile the Rust smart
 contracts into WASM. And the third
 contracts into WASM. And the third
 contracts into WASM. And the third
-command is going to install the stellar
-command is going to install the stellar
-command is going to install the stellar
+command is going to install the Stellar
+command is going to install the Stellar
+command is going to install the Stellar
 CLI. So, a little bit of a refresher
 CLI. So, a little bit of a refresher
 CLI. So, a little bit of a refresher
@@ -165,9 +165,9 @@ going to clone a pre-existing kind of
 like project. And for this we're going
 like project. And for this we're going
 like project. And for this we're going
-to run the command stellar contract
-to run the command stellar contract
-to run the command stellar contract
+to run the command Stellar contract
+to run the command Stellar contract
+to run the command Stellar contract
 init
 init
 init
@@ -429,9 +429,9 @@ for deploying the smart contract itself.
 All right. So, we're using the CLI
 All right. So, we're using the CLI
 All right. So, we're using the CLI
-command, , the stellar CLI. All right.
-command, , the stellar CLI. All right.
-command, , the stellar CLI. All right.
+command, , the Stellar CLI. All right.
+command, , the Stellar CLI. All right.
+command, , the Stellar CLI. All right.
 So, we're going to say we're going to
 So, we're going to say we're going to
 So, we're going to say we're going to
@@ -441,9 +441,9 @@ generate a new account, which we defined
 here, right? Sorbon account equals
 here, right? Sorbon account equals
 here, right? Sorbon account equals
-Alice. So we're going to say stellar
-Alice. So we're going to say stellar
-Alice. So we're going to say stellar
+Alice. So we're going to say Stellar
+Alice. So we're going to say Stellar
+Alice. So we're going to say Stellar
 keys generate and then we're going to
 keys generate and then we're going to
 keys generate and then we're going to
@@ -474,9 +474,9 @@ then we're going to build the files.
 Right. So what does that mean? We're
 Right. So what does that mean? We're
 Right. So what does that mean? We're
-going to use stellar CLI contract build
-going to use stellar CLI contract build
-going to use stellar CLI contract build
+going to use Stellar CLI contract build
+going to use Stellar CLI contract build
+going to use Stellar CLI contract build
 which is going to compile the the
 which is going to compile the the
 which is going to compile the the
@@ -495,9 +495,9 @@ to store it in the target directory
 here. Next, it's going to use so
 here. Next, it's going to use so
 here. Next, it's going to use so
-stellar CLI contract deploy. It's going
-stellar CLI contract deploy. It's going
-stellar CLI contract deploy. It's going
+Stellar CLI contract deploy. It's going
+Stellar CLI contract deploy. It's going
+Stellar CLI contract deploy. It's going
 to specify the WASM file, right? And
 to specify the WASM file, right? And
 to specify the WASM file, right? And
@@ -684,9 +684,9 @@ that we're ingesting the packages
 directory. and what when you call the
 directory. and what when you call the
 directory. and what when you call the
-command contract bindings or stellar
-command contract bindings or stellar
-command contract bindings or stellar
+command contract bindings or Stellar
+command contract bindings or Stellar
+command contract bindings or Stellar
 contract bindings, you're creating
 contract bindings, you're creating
 contract bindings, you're creating
@@ -723,30 +723,30 @@ line by line and see exactly what's
 happening. you see some imports
 happening. you see some imports
 happening. you see some imports
-coming from the stellar SDK. Well,
-coming from the stellar SDK. Well,
-coming from the stellar SDK. Well,
+coming from the Stellar SDK. Well,
+coming from the Stellar SDK. Well,
+coming from the Stellar SDK. Well,
 that's because you actually
 that's because you actually
 that's because you actually
 you create your own node module sets
 you create your own node module sets
 you create your own node module sets
-for the stellar SD or for the smart
-for the stellar SD or for the smart
-for the stellar SD or for the smart
+for the Stellar SD or for the smart
+for the Stellar SD or for the smart
+for the Stellar SD or for the smart
 contract here that should import the
 contract here that should import the
 contract here that should import the
-node modules from or the stellar SDK
-node modules from or the stellar SDK
-node modules from or the stellar SDK
+node modules from or the Stellar SDK
+node modules from or the Stellar SDK
+node modules from or the Stellar SDK
 node module. here you can see is
 node module. here you can see is
 node module. here you can see is
-clearly titled at stellar/stellar
-clearly titled at stellar/stellar
-clearly titled at stellar/stellar
+clearly titled at Stellar/Stellar
+clearly titled at Stellar/Stellar
+clearly titled at Stellar/Stellar
 SDK.
 SDK.
 SDK.
@@ -804,9 +804,9 @@ methods on these smart contracts
 themselves. the bindings function
 themselves. the bindings function
 themselves. the bindings function
-that comes with the stellar CLI makes it
-that comes with the stellar CLI makes it
-that comes with the stellar CLI makes it
+that comes with the Stellar CLI makes it
+that comes with the Stellar CLI makes it
+that comes with the Stellar CLI makes it
 easy to transform the smart contracts
 easy to transform the smart contracts
 easy to transform the smart contracts
@@ -825,9 +825,9 @@ output, you also have these like
 backup or like the these supporting
 backup or like the these supporting
 backup or like the these supporting
-SDKs to communicate with the stellar
-SDKs to communicate with the stellar
-SDKs to communicate with the stellar
+SDKs to communicate with the Stellar
+SDKs to communicate with the Stellar
+SDKs to communicate with the Stellar
 blockchain all abstracted away from your
 blockchain all abstracted away from your
 blockchain all abstracted away from your
@@ -879,15 +879,15 @@ see here again we're we have our own
 node module for the smart contract and
 node module for the smart contract and
 node module for the smart contract and
-it in it includes the stellar SDK which
-it in it includes the stellar SDK which
-it in it includes the stellar SDK which
+it in it includes the Stellar SDK which
+it in it includes the Stellar SDK which
+it in it includes the Stellar SDK which
 is going to help communicate with the
 is going to help communicate with the
 is going to help communicate with the
-stellar blockchain. also contains
-stellar blockchain. also contains
-stellar blockchain. also contains
+Stellar blockchain. also contains
+Stellar blockchain. also contains
+Stellar blockchain. also contains
 information about the network. , and
 information about the network. , and
 information about the network. , and
@@ -1026,9 +1026,9 @@ in this case, we we changed the hello
 world call the two argument from world.
 world call the two argument from world.
 world call the two argument from world.
-We can even say like stellar,
-We can even say like stellar,
-We can even say like stellar,
+We can even say like Stellar,
+We can even say like Stellar,
+We can even say like Stellar,
 right? So, it's a good way to test your
 right? So, it's a good way to test your
 right? So, it's a good way to test your
@@ -1038,9 +1038,9 @@ functions on the front end. Very
 lightweight, doesn't involve any
 lightweight, doesn't involve any
 lightweight, doesn't involve any
-communication with the stellar
-communication with the stellar
-communication with the stellar
+communication with the Stellar
+communication with the Stellar
+communication with the Stellar
 blockchain, right? So, that's a quick
 blockchain, right? So, that's a quick
 blockchain, right? So, that's a quick
@@ -1092,9 +1092,9 @@ going to install the dependency. I don't
 think we have it yet. We're going to say
 think we have it yet. We're going to say
 think we have it yet. We're going to say
-mpm install@stellar
-mpm install@stellar
-mpm install@stellar
+mpm install@Stellar
+mpm install@Stellar
+mpm install@Stellar
 for slash freighter API.
 for slash freighter API.
 for slash freighter API.
@@ -1950,15 +1950,15 @@ to share with you the Sora or Stellar,
 excuse me, example DAP. So, let's say
 excuse me, example DAP. So, let's say
 excuse me, example DAP. So, let's say
-stellar
-stellar
-stellar
+Stellar
+Stellar
+Stellar
 
 
 
-stellar
-stellar
-stellar
+Stellar
+Stellar
+Stellar
 [Applause]
 [Applause]
 [Applause]
@@ -2055,9 +2055,9 @@ plug in the link here. And if you want
 to just check out the repo, you can
 to just check out the repo, you can
 to just check out the repo, you can
-check it out at the stellar
-check it out at the stellar
-check it out at the stellar
+check it out at the Stellar
+check it out at the Stellar
+check it out at the Stellar
 repo/sorabondex
 repo/sorabondex
 repo/sorabondex
@@ -2508,9 +2508,9 @@ the SDK that is the that's that's the
 logic behind the token contract the
 logic behind the token contract the
 logic behind the token contract the
-Soroban or stellar token contract you see
-Soroban or stellar token contract you see
-Soroban or stellar token contract you see
+Soroban or Stellar token contract you see
+Soroban or Stellar token contract you see
+Soroban or Stellar token contract you see
 this client here which allows you to
 this client here which allows you to
 this client here which allows you to
@@ -2679,18 +2679,18 @@ path, a new path for a binary file.
 That's because we're actually going to
 That's because we're actually going to
 That's because we're actually going to
-be installing the stellar CLI as a
-be installing the stellar CLI as a
-be installing the stellar CLI as a
+be installing the Stellar CLI as a
+be installing the Stellar CLI as a
+be installing the Stellar CLI as a
 binary file within the project directory
 binary file within the project directory
 binary file within the project directory
 itself. That way you can leverage a
 itself. That way you can leverage a
 itself. That way you can leverage a
-pinned version of the stellar CLI to
-pinned version of the stellar CLI to
-pinned version of the stellar CLI to
+pinned version of the Stellar CLI to
+pinned version of the Stellar CLI to
+pinned version of the Stellar CLI to
 make sure that the that the kind of
 make sure that the that the kind of
 make sure that the that the kind of
@@ -2733,9 +2733,9 @@ nine, we're defining the binary path
 file. that's because we're going to
 file. that's because we're going to
 file. that's because we're going to
-use the stellar CLI as a binary, right?
-use the stellar CLI as a binary, right?
-use the stellar CLI as a binary, right?
+use the Stellar CLI as a binary, right?
+use the Stellar CLI as a binary, right?
+use the Stellar CLI as a binary, right?
 We'll kind of like gloss over this a
 We'll kind of like gloss over this a
 We'll kind of like gloss over this a
@@ -2751,9 +2751,9 @@ directory. Cool. And that's going to run
 cargo installer, which is again going to
 cargo installer, which is again going to
 cargo installer, which is again going to
-install a pinned version of the stellar
-install a pinned version of the stellar
-install a pinned version of the stellar
+install a pinned version of the Stellar
+install a pinned version of the Stellar
+install a pinned version of the Stellar
 CLI.
 CLI.
 CLI.
@@ -2832,9 +2832,9 @@ there. Here on line 87, we're generating
 a new identity called token admin by
 a new identity called token admin by
 a new identity called token admin by
-using stellar keys. if the stellar
-using stellar keys. if the stellar
-using stellar keys. if the stellar
+using Stellar keys. if the Stellar
+using Stellar keys. if the Stellar
+using Stellar keys. if the Stellar
 token admin identity already exists,
 token admin identity already exists,
 token admin identity already exists,
@@ -2868,15 +2868,15 @@ minutes out from the hour. So hang in
 there. All right. So, we're defining the
 there. All right. So, we're defining the
 there. All right. So, we're defining the
-stellar keys address as the token admin
-stellar keys address as the token admin
-stellar keys address as the token admin
+Stellar keys address as the token admin
+Stellar keys address as the token admin
+Stellar keys address as the token admin
 was it called token admin identity
 was it called token admin identity
 was it called token admin identity
-we just created through the stellar keys
-we just created through the stellar keys
-we just created through the stellar keys
+we just created through the Stellar keys
+we just created through the Stellar keys
+we just created through the Stellar keys
 generate method. we're funding that
 generate method. we're funding that
 generate method. we're funding that
@@ -2967,9 +2967,9 @@ set a deadline for about one 86,400
 seconds is one week from now. and we say
 seconds is one week from now. and we say
 seconds is one week from now. and we say
-stellar contract invoke and we're
-stellar contract invoke and we're
-stellar contract invoke and we're
+Stellar contract invoke and we're
+Stellar contract invoke and we're
+Stellar contract invoke and we're
 calling the initialize function.
 calling the initialize function.
 calling the initialize function.
@@ -3081,9 +3081,9 @@ accounting
 at the end of the day is using get user
 at the end of the day is using get user
 at the end of the day is using get user
-info right from the stellar API and then
-info right from the stellar API and then
-info right from the stellar API and then
+info right from the Stellar API and then
+info right from the Stellar API and then
+info right from the Stellar API and then
 return returning these objects. So
 return returning these objects. So
 return returning these objects. So
@@ -3183,9 +3183,9 @@ back side of of the node modules and
 they're able to communicate with the
 they're able to communicate with the
 they're able to communicate with the
-stellar blockchain by kind of
-stellar blockchain by kind of
-stellar blockchain by kind of
+Stellar blockchain by kind of
+Stellar blockchain by kind of
+Stellar blockchain by kind of
 creating the the calls by hand using
 creating the the calls by hand using
 creating the the calls by hand using
@@ -3441,9 +3441,9 @@ I don't want to link to an existing
 project. I'm going to give this a new
 project. I'm going to give this a new
 project. I'm going to give this a new
-name. We're going to say u sorban
-name. We're going to say u sorban
-name. We're going to say u sorban
+name. We're going to say u Soroban
+name. We're going to say u Soroban
+name. We're going to say u Soroban
 example DAP. So said and we're going to
 example DAP. So said and we're going to
 example DAP. So said and we're going to
@@ -3720,12 +3720,12 @@ know, I highly suggest that you guys
 check out the docs that you can find
 check out the docs that you can find
 check out the docs that you can find
-them at stellar.orgdevelopers.
+them at Stellar.orgdevelopers.
 And if you guys have any questions then
 And if you guys have any questions then
-please please please join the stellar
-please please please join the stellar
-please please please join the stellar
+please please please join the Stellar
+please please please join the Stellar
+please please please join the Stellar
 discord. there is a developer channel
 discord. there is a developer channel
 discord. there is a developer channel
@@ -3738,9 +3738,9 @@ and we are always ready to answer any of
 the questions that you guys have along
 the questions that you guys have along
 the questions that you guys have along
-your stellar development journey. Once
-your stellar development journey. Once
-your stellar development journey. Once
+your Stellar development journey. Once
+your Stellar development journey. Once
+your Stellar development journey. Once
 again my name is Julian Martinez senior
 again my name is Julian Martinez senior
 again my name is Julian Martinez senior

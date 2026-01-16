@@ -3,18 +3,18 @@ good morning everyone or good afternoon
 or evening wherever you are
 or evening wherever you are
 or evening wherever you are
-this is the soroban design discussion
-this is the soroban design discussion
-this is the soroban design discussion
+this is the Soroban design discussion
+this is the Soroban design discussion
+this is the Soroban design discussion
 in which we discuss topics related to
 in which we discuss topics related to
 in which we discuss topics related to
 the Stellar protocol and specifically
 the Stellar protocol and specifically
 the Stellar protocol and specifically
-soroban
-soroban
-soroban
+Soroban
+Soroban
+Soroban
 and today we're going to keep talking
 and today we're going to keep talking
 and today we're going to keep talking
@@ -1977,9 +1977,9 @@ way we're structuring the archival
 process this is in particular I think
 process this is in particular I think
 process this is in particular I think
-stellar starseed and some others have
-stellar starseed and some others have
-stellar starseed and some others have
+Stellar starseed and some others have
+Stellar starseed and some others have
+Stellar starseed and some others have
 been talking about
 been talking about
 been talking about
@@ -4083,9 +4083,9 @@ no not to use The Ledger header it would
 be not a normal result for server
 be not a normal result for server
 be not a normal result for server
-for the soroban invoke
-for the soroban invoke
-for the soroban invoke
+for the Soroban invoke
+for the Soroban invoke
+for the Soroban invoke
 what's the name of that idea
 and just have that there and it's we get
 and just have that there and it's we get

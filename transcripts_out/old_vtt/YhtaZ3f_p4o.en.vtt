@@ -12,14 +12,14 @@ hello everyone and welcome to the
 
 00:00:34.160 --> 00:00:36.470 align:start position:0%
 hello everyone and welcome to the
-stellar<00:00:34.640><c> open</c><00:00:34.960><c> protocol</c><00:00:35.520><c> discussion</c><00:00:36.079><c></c><00:00:36.320><c> so</c>
+Stellar<00:00:34.640><c> open</c><00:00:34.960><c> protocol</c><00:00:35.520><c> discussion</c><00:00:36.079><c></c><00:00:36.320><c> so</c>
 
 00:00:36.470 --> 00:00:36.480 align:start position:0%
-stellar open protocol discussion so
+Stellar open protocol discussion so
 
 
 00:00:36.480 --> 00:00:37.430 align:start position:0%
-stellar open protocol discussion so
+Stellar open protocol discussion so
 in<00:00:36.559><c> these</c><00:00:36.800><c> meetings</c>
 
 00:00:37.430 --> 00:00:37.440 align:start position:0%
@@ -52,14 +52,14 @@ these are technical specs that suggest
 
 00:00:42.399 --> 00:00:43.750 align:start position:0%
 these are technical specs that suggest
-changes<00:00:42.800><c> to</c><00:00:42.879><c> the</c><00:00:42.960><c> stellar</c><00:00:43.280><c> protocol</c>
+changes<00:00:42.800><c> to</c><00:00:42.879><c> the</c><00:00:42.960><c> Stellar</c><00:00:43.280><c> protocol</c>
 
 00:00:43.750 --> 00:00:43.760 align:start position:0%
-changes to the stellar protocol
+changes to the Stellar protocol
 
 
 00:00:43.760 --> 00:00:45.430 align:start position:0%
-changes to the stellar protocol
+changes to the Stellar protocol
 necessary<00:00:44.239><c> to</c><00:00:44.399><c> allow</c><00:00:44.640><c> the</c><00:00:44.800><c> protocol</c><00:00:45.280><c> to</c>
 
 00:00:45.430 --> 00:00:45.440 align:start position:0%
@@ -276,14 +276,14 @@ life cycle so generally caps are
 
 00:01:29.759 --> 00:01:31.270 align:start position:0%
 life cycle so generally caps are
-discussed<00:01:30.159><c> on</c><00:01:30.240><c> the</c><00:01:30.320><c> stellar</c><00:01:30.720><c> depth</c><00:01:30.960><c> mailing</c>
+discussed<00:01:30.159><c> on</c><00:01:30.240><c> the</c><00:01:30.320><c> Stellar</c><00:01:30.720><c> depth</c><00:01:30.960><c> mailing</c>
 
 00:01:31.270 --> 00:01:31.280 align:start position:0%
-discussed on the stellar depth mailing
+discussed on the Stellar depth mailing
 
 
 00:01:31.280 --> 00:01:31.749 align:start position:0%
-discussed on the stellar depth mailing
+discussed on the Stellar depth mailing
 list
 
 00:01:31.749 --> 00:01:31.759 align:start position:0%
@@ -404,14 +404,14 @@ last chance to raise questions on the
 
 00:01:54.000 --> 00:01:55.510 align:start position:0%
 last chance to raise questions on the
-stellar<00:01:54.320><c> debt</c><00:01:54.479><c> mailing</c><00:01:54.799><c> list</c><00:01:55.200><c> and</c><00:01:55.360><c> if</c><00:01:55.439><c> it</c>
+Stellar<00:01:54.320><c> debt</c><00:01:54.479><c> mailing</c><00:01:54.799><c> list</c><00:01:55.200><c> and</c><00:01:55.360><c> if</c><00:01:55.439><c> it</c>
 
 00:01:55.510 --> 00:01:55.520 align:start position:0%
-stellar debt mailing list and if it
+Stellar debt mailing list and if it
 
 
 00:01:55.520 --> 00:01:57.109 align:start position:0%
-stellar debt mailing list and if it
+Stellar debt mailing list and if it
 makes<00:01:55.759><c> it</c><00:01:55.840><c> through</c><00:01:56.159><c> final</c><00:01:56.399><c> comment</c><00:01:56.719><c> period</c><00:01:57.040><c> a</c>
 
 00:01:57.109 --> 00:01:57.119 align:start position:0%
@@ -420,14 +420,14 @@ makes it through final comment period a
 
 00:01:57.119 --> 00:01:59.109 align:start position:0%
 makes it through final comment period a
-cap<00:01:57.360><c> is</c><00:01:57.520><c> implemented</c><00:01:58.159><c> into</c><00:01:58.320><c> a</c><00:01:58.399><c> major</c><00:01:58.719><c> stellar</c>
+cap<00:01:57.360><c> is</c><00:01:57.520><c> implemented</c><00:01:58.159><c> into</c><00:01:58.320><c> a</c><00:01:58.399><c> major</c><00:01:58.719><c> Stellar</c>
 
 00:01:59.109 --> 00:01:59.119 align:start position:0%
-cap is implemented into a major stellar
+cap is implemented into a major Stellar
 
 
 00:01:59.119 --> 00:02:00.069 align:start position:0%
-cap is implemented into a major stellar
+cap is implemented into a major Stellar
 core<00:01:59.360><c> release</c>
 
 00:02:00.069 --> 00:02:00.079 align:start position:0%
@@ -548,14 +548,14 @@ cap 21 and cap 40.
 
 00:02:24.400 --> 00:02:26.070 align:start position:0%
  both of these lay the groundwork for
-building<00:02:24.720><c> payment</c><00:02:25.040><c> channels</c><00:02:25.360><c> on</c><00:02:25.440><c> stellar</c><00:02:25.840><c> so</c>
+building<00:02:24.720><c> payment</c><00:02:25.040><c> channels</c><00:02:25.360><c> on</c><00:02:25.440><c> Stellar</c><00:02:25.840><c> so</c>
 
 00:02:26.070 --> 00:02:26.080 align:start position:0%
-building payment channels on stellar so
+building payment channels on Stellar so
 
 
 00:02:26.080 --> 00:02:26.949 align:start position:0%
-building payment channels on stellar so
+building payment channels on Stellar so
 payment<00:02:26.400><c> channels</c>
 
 00:02:26.949 --> 00:02:26.959 align:start position:0%
@@ -604,14 +604,14 @@ it easier to build high volume use cases
 
 00:02:35.040 --> 00:02:36.229 align:start position:0%
 it easier to build high volume use cases
-on<00:02:35.200><c> stellar</c><00:02:35.920><c> so</c>
+on<00:02:35.200><c> Stellar</c><00:02:35.920><c> so</c>
 
 00:02:36.229 --> 00:02:36.239 align:start position:0%
-on stellar so
+on Stellar so
 
 
 00:02:36.239 --> 00:02:38.630 align:start position:0%
-on stellar so
+on Stellar so
 if<00:02:36.400><c> today's</c><00:02:36.800><c> discussion</c><00:02:37.360><c> seems</c><00:02:38.000><c> dense</c><00:02:38.319><c> at</c><00:02:38.480><c> any</c>
 
 00:02:38.630 --> 00:02:38.640 align:start position:0%
@@ -4868,14 +4868,14 @@ you know generations generations of
 
 00:20:09.440 --> 00:20:10.950 align:start position:0%
 you know generations generations of
-like<00:20:09.760><c> poor</c><00:20:09.919><c> stellar</c><00:20:10.320><c> programmers</c><00:20:10.799><c> are</c><00:20:10.880><c> gonna</c>
+like<00:20:09.760><c> poor</c><00:20:09.919><c> Stellar</c><00:20:10.320><c> programmers</c><00:20:10.799><c> are</c><00:20:10.880><c> gonna</c>
 
 00:20:10.950 --> 00:20:10.960 align:start position:0%
-like poor stellar programmers are gonna
+like poor Stellar programmers are gonna
 
 
 00:20:10.960 --> 00:20:13.350 align:start position:0%
-like poor stellar programmers are gonna
+like poor Stellar programmers are gonna
 have<00:20:11.120><c> to</c><00:20:11.280><c> be</c><00:20:11.520><c> typing</c><00:20:12.159><c> structures</c><00:20:12.720><c> six</c><00:20:12.960><c> nested</c>
 
 00:20:13.350 --> 00:20:13.360 align:start position:0%
@@ -5452,14 +5452,14 @@ xdrpp that we're using
 
 00:22:27.520 --> 00:22:29.510 align:start position:0%
 xdrpp that we're using
-<00:22:27.679><c> for</c><00:22:27.840><c> stellar</c><00:22:28.400><c> you</c><00:22:28.559><c> can</c><00:22:28.720><c> actually</c><00:22:29.039><c> automate</c>
+<00:22:27.679><c> for</c><00:22:27.840><c> Stellar</c><00:22:28.400><c> you</c><00:22:28.559><c> can</c><00:22:28.720><c> actually</c><00:22:29.039><c> automate</c>
 
 00:22:29.510 --> 00:22:29.520 align:start position:0%
- for stellar you can actually automate
+ for Stellar you can actually automate
 
 
 00:22:29.520 --> 00:22:30.630 align:start position:0%
- for stellar you can actually automate
+ for Stellar you can actually automate
 a<00:22:29.679><c> lot</c><00:22:29.840><c> of</c><00:22:30.000><c> this</c><00:22:30.240><c> stuff</c>
 
 00:22:30.630 --> 00:22:30.640 align:start position:0%
@@ -13540,14 +13540,14 @@ as easy to fit into
 
 00:57:08.559 --> 00:57:11.349 align:start position:0%
 as easy to fit into
-like<00:57:08.720><c> the</c><00:57:08.799><c> current</c><00:57:09.040><c> stellar</c><00:57:09.440><c> model</c><00:57:10.559><c> so</c><00:57:10.799><c> like</c>
+like<00:57:08.720><c> the</c><00:57:08.799><c> current</c><00:57:09.040><c> Stellar</c><00:57:09.440><c> model</c><00:57:10.559><c> so</c><00:57:10.799><c> like</c>
 
 00:57:11.349 --> 00:57:11.359 align:start position:0%
-like the current stellar model so like
+like the current Stellar model so like
 
 
 00:57:11.359 --> 00:57:12.470 align:start position:0%
-like the current stellar model so like
+like the current Stellar model so like
 well<00:57:11.599><c> maybe</c>
 
 00:57:12.470 --> 00:57:12.480 align:start position:0%
@@ -13700,22 +13700,22 @@ do something such that like
 
 00:57:47.119 --> 00:57:51.030 align:start position:0%
 do something such that like
-a<00:57:47.359><c> single</c><00:57:47.760><c> payment</c><00:57:48.400><c> on</c><00:57:49.200><c> stellar</c><00:57:49.839><c> like</c><00:57:50.079><c> a</c><00:57:50.160><c> usdc</c>
+a<00:57:47.359><c> single</c><00:57:47.760><c> payment</c><00:57:48.400><c> on</c><00:57:49.200><c> Stellar</c><00:57:49.839><c> like</c><00:57:50.079><c> a</c><00:57:50.160><c> usdc</c>
 
 00:57:51.030 --> 00:57:51.040 align:start position:0%
-a single payment on stellar like a usdc
+a single payment on Stellar like a usdc
 
 
 00:57:51.040 --> 00:57:52.870 align:start position:0%
-a single payment on stellar like a usdc
-payment<00:57:51.359><c> on</c><00:57:51.440><c> stellar</c><00:57:51.839><c> could</c><00:57:52.079><c> like</c><00:57:52.319><c> unlock</c>
+a single payment on Stellar like a usdc
+payment<00:57:51.359><c> on</c><00:57:51.440><c> Stellar</c><00:57:51.839><c> could</c><00:57:52.079><c> like</c><00:57:52.319><c> unlock</c>
 
 00:57:52.870 --> 00:57:52.880 align:start position:0%
-payment on stellar could like unlock
+payment on Stellar could like unlock
 
 
 00:57:52.880 --> 00:57:56.309 align:start position:0%
-payment on stellar could like unlock
+payment on Stellar could like unlock
 like<00:57:53.200><c> 20</c><00:57:53.920><c></c><00:57:54.480><c> you</c><00:57:54.640><c> know</c><00:57:55.119><c> usdc</c><00:57:55.760><c> payments</c><00:57:56.160><c> on</c>
 
 00:57:56.309 --> 00:57:56.319 align:start position:0%
@@ -13804,14 +13804,14 @@ is sufficient for the merkle tree case
 
 00:58:17.520 --> 00:58:19.190 align:start position:0%
 is sufficient for the merkle tree case
-assuming<00:58:17.920><c> that</c><00:58:18.079><c> stellar</c><00:58:18.480><c> could</c><00:58:18.640><c> also</c><00:58:18.880><c> handle</c>
+assuming<00:58:17.920><c> that</c><00:58:18.079><c> Stellar</c><00:58:18.480><c> could</c><00:58:18.640><c> also</c><00:58:18.880><c> handle</c>
 
 00:58:19.190 --> 00:58:19.200 align:start position:0%
-assuming that stellar could also handle
+assuming that Stellar could also handle
 
 
 00:58:19.200 --> 00:58:21.750 align:start position:0%
-assuming that stellar could also handle
+assuming that Stellar could also handle
 the<00:58:19.280><c> merkle</c><00:58:19.599><c> trees</c>
 
 00:58:21.750 --> 00:58:21.760 align:start position:0%
@@ -13892,14 +13892,14 @@ right because you could always on
 
 00:58:44.720 --> 00:58:46.549 align:start position:0%
 right because you could always on
-stellar<00:58:45.599><c> you</c><00:58:45.760><c> know</c><00:58:45.839><c> we</c><00:58:46.000><c> have</c><00:58:46.079><c> a</c><00:58:46.160><c> different</c><00:58:46.400><c> way</c>
+Stellar<00:58:45.599><c> you</c><00:58:45.760><c> know</c><00:58:45.839><c> we</c><00:58:46.000><c> have</c><00:58:46.079><c> a</c><00:58:46.160><c> different</c><00:58:46.400><c> way</c>
 
 00:58:46.549 --> 00:58:46.559 align:start position:0%
-stellar you know we have a different way
+Stellar you know we have a different way
 
 
 00:58:46.559 --> 00:58:48.069 align:start position:0%
-stellar you know we have a different way
+Stellar you know we have a different way
 of<00:58:46.640><c> unlocking</c><00:58:47.040><c> transactions</c><00:58:47.599><c> which</c><00:58:47.760><c> is</c><00:58:47.920><c> like</c>
 
 00:58:48.069 --> 00:58:48.079 align:start position:0%
@@ -14476,14 +14476,14 @@ have either synchronously later
 
 01:01:07.920 --> 01:01:10.870 align:start position:0%
 have either synchronously later
-or<01:01:08.079><c> async</c><01:01:08.480><c> on</c><01:01:08.559><c> the</c><01:01:08.720><c> stellar</c><01:01:09.200><c> dev</c><01:01:09.599><c> list</c><01:01:10.000><c> about</c>
+or<01:01:08.079><c> async</c><01:01:08.480><c> on</c><01:01:08.559><c> the</c><01:01:08.720><c> Stellar</c><01:01:09.200><c> dev</c><01:01:09.599><c> list</c><01:01:10.000><c> about</c>
 
 01:01:10.870 --> 01:01:10.880 align:start position:0%
-or async on the stellar dev list about
+or async on the Stellar dev list about
 
 
 01:01:10.880 --> 01:01:12.069 align:start position:0%
-or async on the stellar dev list about
+or async on the Stellar dev list about
 this<01:01:11.119><c> question</c>
 
 01:01:12.069 --> 01:01:12.079 align:start position:0%
@@ -15204,14 +15204,14 @@ I think anything else we'll just look to
 
 01:04:11.839 --> 01:04:13.349 align:start position:0%
 I think anything else we'll just look to
-the<01:04:12.000><c> stellar</c><01:04:12.319><c> dead</c><01:04:12.480><c> mailing</c><01:04:12.799><c> list</c>
+the<01:04:12.000><c> Stellar</c><01:04:12.319><c> dead</c><01:04:12.480><c> mailing</c><01:04:12.799><c> list</c>
 
 01:04:13.349 --> 01:04:13.359 align:start position:0%
-the stellar dead mailing list
+the Stellar dead mailing list
 
 
 01:04:13.359 --> 01:04:15.589 align:start position:0%
-the stellar dead mailing list
+the Stellar dead mailing list
 and<01:04:14.160><c> everyone</c><01:04:14.480><c> here</c><01:04:14.799><c> thank</c><01:04:14.960><c> you</c><01:04:15.119><c> so</c><01:04:15.280><c> much</c><01:04:15.440><c> for</c>
 
 01:04:15.589 --> 01:04:15.599 align:start position:0%

@@ -1,14 +1,14 @@
 welcome everyone we're trying out
-something new by holding the stellar
-protocol meeting here on the stellar
-stage in the stellar dev discord
+something new by holding the Stellar
+protocol meeting here on the Stellar
+stage in the Stellar dev discord
 we've been experimenting a bit with
 platforms the goal is to try to have
 these meetings in public so that people
 can see what's going on and can ask
 questions and can understand the
 thought process behind changes to the
-stellar protocol but we also want to
+Stellar protocol but we also want to
 make sure that the platform is not buggy
 that it works that it's easy to
 reproduce the meetings and it's that
@@ -21,24 +21,24 @@ fit
 but we'll see what happens today so
 bear with us
 I will say that these meetings the
-stellar protocol meetings are designed
+Stellar protocol meetings are designed
 so that we can discuss upcoming changes
-to upcoming versions of the stellar
+to upcoming versions of the Stellar
 protocol in order to advance the
 protocol to meet ecosystem needs so a
 lot of the times what we discuss are
 caps core advancement proposals and this
 is where sort of new features that we're
-going to add to stellar are big changes
-to the stellar protocol start right
+going to add to Stellar are big changes
+to the Stellar protocol start right
 and they are essentially technical specs
 that outline changes that we plan to
-make to the stellar protocol and
+make to the Stellar protocol and
 anyone can read these caps they're in a
 public github repo the discussion for
 these caps happens on a public mailing
 list and some of them also here in the
-stellar dev discord again if anyone is
+Stellar dev discord again if anyone is
 interested in this process or in
 understanding the caps or in leaving
 feedback about them or asking questions
@@ -50,7 +50,7 @@ caps
 in question
 at the moment we're focused on project
 jump cannon which will bring smart
-contracts to stellar and there are
+contracts to Stellar and there are
 actually we've sort of modularized our
 approach to this we're taking different
 segments
@@ -114,7 +114,7 @@ maybe a little more than a week ago
 it was really focused on just like
 the question of like what does it mean
 to sign smart contract transactions on
-stellar
+Stellar
 the scope of it over the course of the
 week as I thought about it and talk to
 people a lot of people a lot of times
@@ -155,7 +155,7 @@ use transfer from which works via an
 approval message where first you were
 message.sender to commit that approval
 so this is the same kind of model that i
-then propagate to stellar
+then propagate to Stellar
 and so we introduce some new types of
 transactions basically
 which I'm talking about here is like an
@@ -189,7 +189,7 @@ slot that basically identifies that
 that person that key
 
 and then there's one more layer outside
-of that which has your normal stellar
+of that which has your normal Stellar
 decorated signatures
 and there's a ton of justification about
 like why that's a good model
@@ -206,12 +206,12 @@ the stuff kind of ties into it but
 that's kind of what's in here
 so john one thing that strikes me here
 is that it's a fundamental shift from
-the stellar the current stellar account
+the Stellar the current Stellar account
 model
 in the sense that
 you know it doesn't have
 the all the kind of like the high level
-stuff that you get in a stellar
+stuff that you get in a Stellar
 account it really boils down to like a
 single signer account right
 yeah exactly
@@ -219,7 +219,7 @@ and I think there's like a lot of merit
 to this model
 mostly because like
 one of the things you get from like
-having a stellar account is this like
+having a Stellar account is this like
 ability to have multiple signers
 but like in reality we use like 80 25
 519 and you can do a threshold scheme
@@ -286,7 +286,7 @@ you're looking for here
 interesting and what's the relationship
 between
 the
-classic stellar accounts and these new
+classic Stellar accounts and these new
 jump cannon accounts
 none whatsoever
 like
@@ -310,9 +310,9 @@ separate I guess as long as you control
 the key you can become message.sender
 I think the distinction is not the jump
 cannon there are jump cannon accounts
-and there are stellar accounts I think
+and there are Stellar accounts I think
 the distinction is that there are
-stellar accounts and john cannon doesn't
+Stellar accounts and john cannon doesn't
 actually have accounts jump cannon just
 has
 signers or signatures
@@ -350,7 +350,7 @@ invoker mechanism even though it's like
 very it's exactly parallel to the
 message.sender
 mechanism in ethereum but suppose that
-everybody in the stellar ecosystem
+everybody in the Stellar ecosystem
 totally hated it
 the proposal actually described so
 you could just completely ignore it and
@@ -379,7 +379,7 @@ I'm still trying to wrap my head around
 the interaction between like from the
 user perspective
 you know they have like a an account on
-the stellar side
+the Stellar side
 
 and like what happens when they move you
 know let's say we're in the world of cap
@@ -471,7 +471,7 @@ completely screwed
 sounds like a pretty big footcon
 I mean in general on smart
 and this is like this is not unique to
-stellar this is like true on ethereum
+Stellar this is like true on ethereum
 with the rc20s too if you send money to
 the wrong address
 bye bye money
@@ -665,7 +665,7 @@ well these aren't smart contracts and
 avoid their smart contracts intended to
 interoperate with the legacy
 
-stellar accounts and so to just kind of
+Stellar accounts and so to just kind of
 like
 expose that
 the way
@@ -998,7 +998,7 @@ in this other world which is both
 classic and jump canon but it's on a
 simplified account model now if you have
 a multi-sig account on
-right now on stellar
+right now on Stellar
 then
 we can think about ways to either
 you know either do threshold signatures
@@ -1092,7 +1092,7 @@ signer and it's a and it's the master
 signer
 and then you know now you have a d
 account and you can either
-operate on regular stellar classic
+operate on regular Stellar classic
 you know make classic payments and such
 or you can operate on smart contracts
 but it's a simple account you cannot you
@@ -1181,7 +1181,7 @@ whereas we should also have a look at
 products that are getting developed
 either recently or in the future that we
 know of that are getting developed on
-stellar are they using multisig are they
+Stellar are they using multisig are they
 using things like sep 30 how are
 those
 products like what's the story going to
@@ -1693,7 +1693,7 @@ but
 we'll reconvene next week and obviously
 there's still activity happening here on
 the
-stellar dev discord and on the
+Stellar dev discord and on the
 mailing list and so anyone who's
 watching
 obviously feel free to jump in there or

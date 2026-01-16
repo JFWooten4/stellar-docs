@@ -18,9 +18,9 @@ no small feat and we're very lucky to
 have her
 have her
 have her
-as part of the stellar development
-as part of the stellar development
-as part of the stellar development
+as part of the Stellar development
+as part of the Stellar development
+as part of the Stellar development
 foundation pulling these things together
 foundation pulling these things together
 foundation pulling these things together
@@ -42,9 +42,9 @@ outs of of blockchain in general
 if you haven't seen that first
 if you haven't seen that first
 if you haven't seen that first
-that first video it is on the stellar
-that first video it is on the stellar
-that first video it is on the stellar
+that first video it is on the Stellar
+that first video it is on the Stellar
+that first video it is on the Stellar
 next gen discord channel so feel free to
 next gen discord channel so feel free to
 next gen discord channel so feel free to
@@ -60,9 +60,9 @@ something to kind of get you started
 today I'm going to talk to you about
 today I'm going to talk to you about
 today I'm going to talk to you about
-what we do at stellar development
-what we do at stellar development
-what we do at stellar development
+what we do at Stellar development
+what we do at Stellar development
+what we do at Stellar development
 foundation which we call sdf for short
 foundation which we call sdf for short
 foundation which we call sdf for short
@@ -72,9 +72,9 @@ and then we'll kind of dive into the
 applications and use cases of blockchain
 applications and use cases of blockchain
 applications and use cases of blockchain
-and specifically stellar I'm going to do
-and specifically stellar I'm going to do
-and specifically stellar I'm going to do
+and specifically Stellar I'm going to do
+and specifically Stellar I'm going to do
+and specifically Stellar I'm going to do
 probably 10 or 15 slides I'm not sure
 probably 10 or 15 slides I'm not sure
 probably 10 or 15 slides I'm not sure
@@ -130,23 +130,23 @@ talk to you about stuller from the sdf
 talk to you about stuller from the sdf
 talk to you about stuller from the sdf
 so let's get started
-the stellar development foundation is
-the stellar development foundation is
+the Stellar development foundation is
+the Stellar development foundation is
 a non-profit entity
 a non-profit entity
 a non-profit entity
 and we are solely tasked with
 and we are solely tasked with
 and we are solely tasked with
-supporting and maintaining the stellar
-supporting and maintaining the stellar
-supporting and maintaining the stellar
+supporting and maintaining the Stellar
+supporting and maintaining the Stellar
+supporting and maintaining the Stellar
 network
-so the stellar network
-so the stellar network
-and the stellar development foundation
-and the stellar development foundation
-and the stellar development foundation
+so the Stellar network
+so the Stellar network
+and the Stellar development foundation
+and the Stellar development foundation
+and the Stellar development foundation
 exist to create equitable access to the
 exist to create equitable access to the
 exist to create equitable access to the
@@ -171,24 +171,24 @@ empowered
 and the foundation helps maintain
 and the foundation helps maintain
 and the foundation helps maintain
-stellar's code base by supporting the
-stellar's code base by supporting the
-stellar's code base by supporting the
+Stellar's code base by supporting the
+Stellar's code base by supporting the
+Stellar's code base by supporting the
 technical and business communities
 technical and business communities
 technical and business communities
-around stellar providing thought
-around stellar providing thought
-around stellar providing thought
+around Stellar providing thought
+around Stellar providing thought
+around Stellar providing thought
 leadership to regulators and other
 leadership to regulators and other
 leadership to regulators and other
 stakeholders and physically maintaining
 stakeholders and physically maintaining
 stakeholders and physically maintaining
-stellar's code base
-stellar's code base
-stellar's code base
+Stellar's code base
+Stellar's code base
+Stellar's code base
 so everything sdf does is aimed at
 so everything sdf does is aimed at
 so everything sdf does is aimed at
@@ -198,9 +198,9 @@ making the network as a whole stronger
 and making it a success in its mission
 so I'm clicking on two screens here
 so I'm clicking on two screens here
-stellar itself is a decentralized open
-stellar itself is a decentralized open
-stellar itself is a decentralized open
+Stellar itself is a decentralized open
+Stellar itself is a decentralized open
+Stellar itself is a decentralized open
 network that connects the world's
 network that connects the world's
 network that connects the world's
@@ -210,9 +210,9 @@ financial infrastructure so blockchains
 can be used for a lot of different
 can be used for a lot of different
 can be used for a lot of different
-things but stellar is purpose built for
-things but stellar is purpose built for
-things but stellar is purpose built for
+things but Stellar is purpose built for
+things but Stellar is purpose built for
+things but Stellar is purpose built for
 connecting financial systems
 connecting financial systems
 connecting financial systems
@@ -222,15 +222,15 @@ and it does that because of its speed
 and its scale
 and its scale
 and its scale
-that can be used for the stellar
-that can be used for the stellar
-that can be used for the stellar
+that can be used for the Stellar
+that can be used for the Stellar
+that can be used for the Stellar
 blockchain to transfer value
 the exciting thing about blockchain as a
 the exciting thing about blockchain as a
-technology in general and stellar is one
-technology in general and stellar is one
-technology in general and stellar is one
+technology in general and Stellar is one
+technology in general and Stellar is one
+technology in general and Stellar is one
 of these chains
 of these chains
 of these chains
@@ -276,27 +276,27 @@ travel value on a single network
 so let's talk about who exactly uses
 so let's talk about who exactly uses
 so let's talk about who exactly uses
-stellar
+Stellar
 there are a lot of stakeholders involved
 there are a lot of stakeholders involved
-and because stellar is an open and
-and because stellar is an open and
-and because stellar is an open and
+and because Stellar is an open and
+and because Stellar is an open and
+and because Stellar is an open and
 permissionless network really anyone can
 permissionless network really anyone can
 permissionless network really anyone can
 build anything they can imagine on
 build anything they can imagine on
 build anything they can imagine on
-stellar
-stellar
-stellar
+Stellar
+Stellar
+Stellar
 to create impact on the global financial
 to create impact on the global financial
 to create impact on the global financial
-system of today stellar is purpose built
-system of today stellar is purpose built
-system of today stellar is purpose built
+system of today Stellar is purpose built
+system of today Stellar is purpose built
+system of today Stellar is purpose built
 for working with it so we look to extend
 for working with it so we look to extend
 for working with it so we look to extend
@@ -339,9 +339,9 @@ infrastructure across these financial
 systems
 systems
 systems
-governments are interested in stellar
-governments are interested in stellar
-governments are interested in stellar
+governments are interested in Stellar
+governments are interested in Stellar
+governments are interested in Stellar
 and we have a lot of communications
 and we have a lot of communications
 and we have a lot of communications
@@ -378,27 +378,27 @@ of these features
 to build better solutions to real world
 to build better solutions to real world
 to build better solutions to real world
-problems stellar is uniquely useful
-problems stellar is uniquely useful
-problems stellar is uniquely useful
+problems Stellar is uniquely useful
+problems Stellar is uniquely useful
+problems Stellar is uniquely useful
 so how do they do it
 so how do they do it
 so how do they do it
 we'll talk about that
 there are three main things that people
 there are three main things that people
-do on stellar
-do on stellar
-do on stellar
+do on Stellar
+do on Stellar
+do on Stellar
 where it adds utility to these processes
 where it adds utility to these processes
 where it adds utility to these processes
 the first is that in order to move an
 the first is that in order to move an
 the first is that in order to move an
-asset on stellar it has to be tokenized
-asset on stellar it has to be tokenized
-asset on stellar it has to be tokenized
+asset on Stellar it has to be tokenized
+asset on Stellar it has to be tokenized
+asset on Stellar it has to be tokenized
 so tokenization of assets is a digital
 so tokenization of assets is a digital
 so tokenization of assets is a digital
@@ -423,9 +423,9 @@ to hold it and they may want to
 diversify it so they may start out with
 diversify it so they may start out with
 diversify it so they may start out with
-a us dollar tokenized on stellar but
-a us dollar tokenized on stellar but
-a us dollar tokenized on stellar but
+a us dollar tokenized on Stellar but
+a us dollar tokenized on Stellar but
+a us dollar tokenized on Stellar but
 want to move to a mexican peso for
 want to move to a mexican peso for
 want to move to a mexican peso for
@@ -480,9 +480,9 @@ value in this use case
 the third thing that people do once they
 the third thing that people do once they
 the third thing that people do once they
-have assets on stellar is they want to
-have assets on stellar is they want to
-have assets on stellar is they want to
+have assets on Stellar is they want to
+have assets on Stellar is they want to
+have assets on Stellar is they want to
 send an exchange as I was saying going
 send an exchange as I was saying going
 send an exchange as I was saying going
@@ -498,27 +498,27 @@ sending peer-to-peer remittances so i
 can send you money if you're in a
 can send you money if you're in a
 can send you money if you're in a
-different country and I can use stellar
-different country and I can use stellar
-different country and I can use stellar
+different country and I can use Stellar
+different country and I can use Stellar
+different country and I can use Stellar
 to move that value
 so the first step I'm going to go
 so the first step I'm going to go
 through these these three main
 through these these three main
 through these these three main
-ways that stellar is used and we'll
-ways that stellar is used and we'll
-ways that stellar is used and we'll
+ways that Stellar is used and we'll
+ways that Stellar is used and we'll
+ways that Stellar is used and we'll
 start out with tokenization so you might
 start out with tokenization so you might
 start out with tokenization so you might
 wonder
 wonder
 wonder
-how does a dollar get on to stellar and
-how does a dollar get on to stellar and
-how does a dollar get on to stellar and
+how does a dollar get on to Stellar and
+how does a dollar get on to Stellar and
+how does a dollar get on to Stellar and
 that is this process called tokenization
 that is this process called tokenization
 that is this process called tokenization
@@ -540,18 +540,18 @@ representation of any asset and it only
 takes a few lines of code to do it on
 takes a few lines of code to do it on
 takes a few lines of code to do it on
-stellar token issuance is really the
-stellar token issuance is really the
-stellar token issuance is really the
-backbone of the stellar network and it's
-backbone of the stellar network and it's
-backbone of the stellar network and it's
+Stellar token issuance is really the
+Stellar token issuance is really the
+Stellar token issuance is really the
+backbone of the Stellar network and it's
+backbone of the Stellar network and it's
+backbone of the Stellar network and it's
 how we connect all the world's
 how we connect all the world's
 how we connect all the world's
-currencies and systems it's what stellar
-currencies and systems it's what stellar
-currencies and systems it's what stellar
+currencies and systems it's what Stellar
+currencies and systems it's what Stellar
+currencies and systems it's what Stellar
 was built for
 was built for
 was built for
@@ -672,9 +672,9 @@ of their game
 their cards were collectible on the
 their cards were collectible on the
 their cards were collectible on the
-stellar blockchain and then when their
-stellar blockchain and then when their
-stellar blockchain and then when their
+Stellar blockchain and then when their
+Stellar blockchain and then when their
+Stellar blockchain and then when their
 community wanted a place to start to
 community wanted a place to start to
 community wanted a place to start to
@@ -750,9 +750,9 @@ uses nfts and it's it's pretty neat
 because
 because
 because
-the stellar network is very very cheap
-the stellar network is very very cheap
-the stellar network is very very cheap
+the Stellar network is very very cheap
+the Stellar network is very very cheap
+the Stellar network is very very cheap
 to operate unlike some of the other
 to operate unlike some of the other
 to operate unlike some of the other
@@ -768,18 +768,18 @@ or ten or twenty or or even a dollar and
 because the cost of transactions on
 because the cost of transactions on
 because the cost of transactions on
-stellar is so low that really anyone can
-stellar is so low that really anyone can
-stellar is so low that really anyone can
+Stellar is so low that really anyone can
+Stellar is so low that really anyone can
+Stellar is so low that really anyone can
 do this which is pretty neat it's
 do this which is pretty neat it's
 do this which is pretty neat it's
 another layer of kind of
 another layer of kind of
 another layer of kind of
-inclusion in stellar that is is pretty
-inclusion in stellar that is is pretty
-inclusion in stellar that is is pretty
+inclusion in Stellar that is is pretty
+inclusion in Stellar that is is pretty
+inclusion in Stellar that is is pretty
 fun and it allows for a very flexible
 fun and it allows for a very flexible
 fun and it allows for a very flexible
@@ -906,9 +906,9 @@ tokenization of securities is a really
 interesting use case for blockchain and
 interesting use case for blockchain and
 interesting use case for blockchain and
-for stellar specifically I'm going to
-for stellar specifically I'm going to
-for stellar specifically I'm going to
+for Stellar specifically I'm going to
+for Stellar specifically I'm going to
+for Stellar specifically I'm going to
 show you an example of it
 show you an example of it
 show you an example of it
@@ -930,9 +930,9 @@ similar to securities that can be
 tokenized into shares and tokens on
 tokenized into shares and tokens on
 tokenized into shares and tokens on
-stellar so I'm going to show you an
-stellar so I'm going to show you an
-stellar so I'm going to show you an
+Stellar so I'm going to show you an
+Stellar so I'm going to show you an
+Stellar so I'm going to show you an
 example of a company called d stock
 example of a company called d stock
 example of a company called d stock
@@ -1023,9 +1023,9 @@ here's one more this company is called
 realty bets and again realty bits is
 realty bets and again realty bits is
 realty bets and again realty bits is
-a marketplace on stellar and they have
-a marketplace on stellar and they have
-a marketplace on stellar and they have
+a marketplace on Stellar and they have
+a marketplace on Stellar and they have
+a marketplace on Stellar and they have
 built-in infrastructure where people can
 built-in infrastructure where people can
 built-in infrastructure where people can
@@ -1131,7 +1131,7 @@ any any company it's open source any
 company can issue any kind of asset they
 company can issue any kind of asset they
 company can issue any kind of asset they
-want on stellar
+want on Stellar
 so now we're going to talk about well my
 so now we're going to talk about well my
 slides have gone crazy sorry
@@ -1176,9 +1176,9 @@ stablecoin stablecoin is a relatively
 new term
 new term
 new term
-when you tokenize an asset on stellar
-when you tokenize an asset on stellar
-when you tokenize an asset on stellar
+when you tokenize an asset on Stellar
+when you tokenize an asset on Stellar
+when you tokenize an asset on Stellar
 and it happens to be a fiat currency
 and it happens to be a fiat currency
 and it happens to be a fiat currency
@@ -1305,9 +1305,9 @@ and that they can control the economics
 and security and functions and there's
 and security and functions and there's
 and security and functions and there's
-some programmability on stellar a lot of
-some programmability on stellar a lot of
-some programmability on stellar a lot of
+some programmability on Stellar a lot of
+some programmability on Stellar a lot of
+some programmability on Stellar a lot of
 really neat features
 really neat features
 really neat features
@@ -1386,9 +1386,9 @@ and they give you a token
 and those issuers we call in the
 and those issuers we call in the
 and those issuers we call in the
-stellar network we call them anchors and
-stellar network we call them anchors and
-stellar network we call them anchors and
+Stellar network we call them anchors and
+Stellar network we call them anchors and
+Stellar network we call them anchors and
 that is because they anchor the fiat
 that is because they anchor the fiat
 that is because they anchor the fiat
@@ -1401,9 +1401,9 @@ and so they're a very important part of
 the system of onboarding value
 the system of onboarding value
 the system of onboarding value
-and off-boarding value to the stellar
-and off-boarding value to the stellar
-and off-boarding value to the stellar
+and off-boarding value to the Stellar
+and off-boarding value to the Stellar
+and off-boarding value to the Stellar
 network and you'll hear more about
 network and you'll hear more about
 network and you'll hear more about
@@ -1527,9 +1527,9 @@ are both the on and off ramps of value
 and you can kind of see an example of
 and you can kind of see an example of
 and you can kind of see an example of
-some of the stellar
-some of the stellar
-some of the stellar
+some of the Stellar
+some of the Stellar
+some of the Stellar
 anchors around the world in this slide
 anchors around the world in this slide
 anchors around the world in this slide
@@ -1593,9 +1593,9 @@ pay very high fees
 and so connecting those financial
 and so connecting those financial
 and so connecting those financial
-systems with stellar has a huge benefit
-systems with stellar has a huge benefit
-systems with stellar has a huge benefit
+systems with Stellar has a huge benefit
+systems with Stellar has a huge benefit
+systems with Stellar has a huge benefit
 for the citizens there and those anchors
 for the citizens there and those anchors
 for the citizens there and those anchors
@@ -1710,9 +1710,9 @@ great it's easy and and secure and
 there's a lot of great features issuing
 there's a lot of great features issuing
 there's a lot of great features issuing
-assets on stellar we absolutely want
-assets on stellar we absolutely want
-assets on stellar we absolutely want
+assets on Stellar we absolutely want
+assets on Stellar we absolutely want
+assets on Stellar we absolutely want
 people to do that but in terms of our
 people to do that but in terms of our
 people to do that but in terms of our
@@ -1890,9 +1890,9 @@ in general blockchain is fairly
 transparent and companies that and
 transparent and companies that and
 transparent and companies that and
-stellar is this way too very open and
-stellar is this way too very open and
-stellar is this way too very open and
+Stellar is this way too very open and
+Stellar is this way too very open and
+Stellar is this way too very open and
 transparent about policies and what you
 transparent about policies and what you
 transparent about policies and what you
@@ -1911,9 +1911,9 @@ we insist on
 companies that become anchors on
 companies that become anchors on
 companies that become anchors on
-stellar have to identify themselves they
-stellar have to identify themselves they
-stellar have to identify themselves they
+Stellar have to identify themselves they
+Stellar have to identify themselves they
+Stellar have to identify themselves they
 have you know they're kind of a
 have you know they're kind of a
 have you know they're kind of a
@@ -2115,9 +2115,9 @@ they onboard value to the network
 equal to the tokens that they've issued
 equal to the tokens that they've issued
 equal to the tokens that they've issued
-on stellar and then anytime people
-on stellar and then anytime people
-on stellar and then anytime people
+on Stellar and then anytime people
+on Stellar and then anytime people
+on Stellar and then anytime people
 redeem or pass to another anchor then
 redeem or pass to another anchor then
 redeem or pass to another anchor then
@@ -2125,8 +2125,8 @@ that's how the value will move and
 that's how the value will move and
 that's how the value will move and
 eventually land and be out again
-our vision for stellar is this
-our vision for stellar is this
+our vision for Stellar is this
+our vision for Stellar is this
 you know better connections better
 you know better connections better
 you know better connections better
@@ -2190,9 +2190,9 @@ the next thing so that was all about
 asset issuance getting value on to the
 asset issuance getting value on to the
 asset issuance getting value on to the
-stellar network
-stellar network
-stellar network
+Stellar network
+Stellar network
+Stellar network
 I'm going to pause here for a second if
 I'm going to pause here for a second if
 I'm going to pause here for a second if
@@ -2202,15 +2202,15 @@ there's any other questions before we
 talk about holding and diversifying the
 talk about holding and diversifying the
 talk about holding and diversifying the
-value on stellar any other questions
+value on Stellar any other questions
 all right
 all right
 holding and diversifying value on
 holding and diversifying value on
 holding and diversifying value on
-stellar
-stellar
-stellar
+Stellar
+Stellar
+Stellar
 you know
 you know
 you know
@@ -2238,9 +2238,9 @@ take it out use it or spend it
 but
 but
 but
-accounts on stellar work differently
-accounts on stellar work differently
-accounts on stellar work differently
+accounts on Stellar work differently
+accounts on Stellar work differently
+accounts on Stellar work differently
 even though we call them accounts
 even though we call them accounts
 even though we call them accounts
@@ -2355,24 +2355,24 @@ the blockchains that those assets move
 on
 on
 on
-so lobster is an example of a stellar
-so lobster is an example of a stellar
-so lobster is an example of a stellar
+so lobster is an example of a Stellar
+so lobster is an example of a Stellar
+so lobster is an example of a Stellar
 compatible wallet and it gives users
 compatible wallet and it gives users
 compatible wallet and it gives users
-access to any asset on stellar so
-access to any asset on stellar so
-access to any asset on stellar so
+access to any asset on Stellar so
+access to any asset on Stellar so
+access to any asset on Stellar so
 whether you've tokenized a enlightenment
 whether you've tokenized a enlightenment
 whether you've tokenized a enlightenment
 card or a bar of gold or
 card or a bar of gold or
 card or a bar of gold or
-or 100 usdc on stellar all of those are
-or 100 usdc on stellar all of those are
-or 100 usdc on stellar all of those are
+or 100 usdc on Stellar all of those are
+or 100 usdc on Stellar all of those are
+or 100 usdc on Stellar all of those are
 available to be seen in a with a lobster
 available to be seen in a with a lobster
 available to be seen in a with a lobster
@@ -2676,7 +2676,7 @@ their balances it's a super easy
 platform to use and it's built on
 platform to use and it's built on
 platform to use and it's built on
-stellar
+Stellar
 so finally we're going to talk about
 so finally we're going to talk about
 sending and exchanging assets I'm really
@@ -2688,9 +2688,9 @@ sorry for these jumpy slides
 sending and exchanging assets is one of
 sending and exchanging assets is one of
 sending and exchanging assets is one of
-the things that stellar's is uniquely
-the things that stellar's is uniquely
-the things that stellar's is uniquely
+the things that Stellar's is uniquely
+the things that Stellar's is uniquely
+the things that Stellar's is uniquely
 suited to do
 suited to do
 suited to do
@@ -2724,9 +2724,9 @@ payments and remittances because you are
 able to send send fiat value once it's
 able to send send fiat value once it's
 able to send send fiat value once it's
-tokenized on stellar and have it change
-tokenized on stellar and have it change
-tokenized on stellar and have it change
+tokenized on Stellar and have it change
+tokenized on Stellar and have it change
+tokenized on Stellar and have it change
 along the way
 along the way
 along the way
@@ -2742,9 +2742,9 @@ so these cross-currency transactions are
 really
 really
 really
-very efficient on stellar and part of
-very efficient on stellar and part of
-very efficient on stellar and part of
+very efficient on Stellar and part of
+very efficient on Stellar and part of
+very efficient on Stellar and part of
 that is due to what's called
 that is due to what's called
 that is due to what's called
@@ -2796,9 +2796,9 @@ makers which also allows assets to be
 changed on the fly and improves the
 changed on the fly and improves the
 changed on the fly and improves the
-efficiency of stellar
-efficiency of stellar
-efficiency of stellar
+efficiency of Stellar
+efficiency of Stellar
+efficiency of Stellar
 
 
 
@@ -2814,9 +2814,9 @@ send from one currency to another
 that that is kind of a unique thing
 that that is kind of a unique thing
 that that is kind of a unique thing
-about stellar and we do it with this
-about stellar and we do it with this
-about stellar and we do it with this
+about Stellar and we do it with this
+about Stellar and we do it with this
+about Stellar and we do it with this
 thing called a pass payment which can go
 thing called a pass payment which can go
 thing called a pass payment which can go
@@ -2877,9 +2877,9 @@ I think somebody went off mute
 but this allows for a lot of flexibility
 but this allows for a lot of flexibility
 but this allows for a lot of flexibility
-and different use cases on stellar
-and different use cases on stellar
-and different use cases on stellar
+and different use cases on Stellar
+and different use cases on Stellar
+and different use cases on Stellar
 so let's look at a cross-border payments
 so let's look at a cross-border payments
 so let's look at a cross-border payments
@@ -2979,13 +2979,13 @@ payments they're really pushing in this
 in this regard and b2b payments are a
 in this regard and b2b payments are a
 in this regard and b2b payments are a
-strong use case on stellar there's
-strong use case on stellar there's
-strong use case on stellar there's
+strong use case on Stellar there's
+strong use case on Stellar there's
+strong use case on Stellar there's
 there's a lot of this type of
 there's a lot of this type of
 there's a lot of this type of
-transactions on the stellar network
+transactions on the Stellar network
 here's a look at kind of the existing
 here's a look at kind of the existing
 landscape for payments
@@ -3226,8 +3226,8 @@ fees can run
 fees can run
 fees can run
 anywhere to five or six percent
-the way that stellar manages
-the way that stellar manages
+the way that Stellar manages
+the way that Stellar manages
 cross-border payments is a little
 cross-border payments is a little
 cross-border payments is a little
@@ -3480,9 +3480,9 @@ opportunities for improvement and so we
 really see this
 really see this
 really see this
-stellar powered remittances as a huge
-stellar powered remittances as a huge
-stellar powered remittances as a huge
+Stellar powered remittances as a huge
+Stellar powered remittances as a huge
+Stellar powered remittances as a huge
 advantage
 advantage
 advantage
@@ -3531,9 +3531,9 @@ finally I'm going to show you
 one of our most exciting developments at
 one of our most exciting developments at
 one of our most exciting developments at
-stellar is the use of moneygram so you
-stellar is the use of moneygram so you
-stellar is the use of moneygram so you
+Stellar is the use of moneygram so you
+Stellar is the use of moneygram so you
+Stellar is the use of moneygram so you
 may be who's heard of moneygram curious
 may be who's heard of moneygram curious
 may be who's heard of moneygram curious
@@ -3582,9 +3582,9 @@ cash in and cash out using the money
 gram physical locations and the value
 gram physical locations and the value
 gram physical locations and the value
-moves on stellar
-moves on stellar
-moves on stellar
+moves on Stellar
+moves on Stellar
+moves on Stellar
 and what's really cool about this is you
 and what's really cool about this is you
 and what's really cool about this is you
@@ -3615,9 +3615,9 @@ transfer services we're able to leverage
 moneygrams retail locations along with
 moneygrams retail locations along with
 moneygrams retail locations along with
-the efficiency and speed of the stellar
-the efficiency and speed of the stellar
-the efficiency and speed of the stellar
+the efficiency and speed of the Stellar
+the efficiency and speed of the Stellar
+the efficiency and speed of the Stellar
 network to get remittances
 network to get remittances
 network to get remittances
@@ -3654,9 +3654,9 @@ meridian which is completely free
 it's november 17th and 18th next week so
 it's november 17th and 18th next week so
 it's november 17th and 18th next week so
-if you're interested in stellar
-if you're interested in stellar
-if you're interested in stellar
+if you're interested in Stellar
+if you're interested in Stellar
+if you're interested in Stellar
 technology and you know we have debates
 technology and you know we have debates
 technology and you know we have debates
@@ -3708,9 +3708,9 @@ right because there are companies
 sdf is really just here to support and
 sdf is really just here to support and
 sdf is really just here to support and
-foster the stellar network but now there
-foster the stellar network but now there
-foster the stellar network but now there
+foster the Stellar network but now there
+foster the Stellar network but now there
+foster the Stellar network but now there
 are all these companies all over the
 are all these companies all over the
 are all these companies all over the
@@ -3756,9 +3756,9 @@ to meet the needs of their target
 customers there's just a lot of
 customers there's just a lot of
 customers there's just a lot of
-innovation going on on stellar
-innovation going on on stellar
-innovation going on on stellar
+innovation going on on Stellar
+innovation going on on Stellar
+innovation going on on Stellar
 you know we're always getting new
 you know we're always getting new
 you know we're always getting new
@@ -3774,7 +3774,7 @@ about it so these are just an example of
 of some of the businesses that are part
 of some of the businesses that are part
 of some of the businesses that are part
-of the stellar ecosystem today
+of the Stellar ecosystem today
 it's like watching a show
 it's like watching a show
 there we go
@@ -3792,9 +3792,9 @@ uncle do you want me to talk briefly
 about
 about
 about
-stellar quest and the community fund or
-stellar quest and the community fund or
-stellar quest and the community fund or
+Stellar quest and the community fund or
+Stellar quest and the community fund or
+Stellar quest and the community fund or
 do you want to talk about that since it
 do you want to talk about that since it
 do you want to talk about that since it
@@ -3807,15 +3807,15 @@ do you want to put up the slide
 sure I'm glad too
 so this is totally cool go ahead
 so this is totally cool go ahead
-yeah sure thing so yeah so stellar
-yeah sure thing so yeah so stellar
-yeah sure thing so yeah so stellar
+yeah sure thing so yeah so Stellar
+yeah sure thing so yeah so Stellar
+yeah sure thing so yeah so Stellar
 quest telequest is a fun way and
 quest telequest is a fun way and
 quest telequest is a fun way and
-gamified way to learn tech of stellar
-gamified way to learn tech of stellar
-gamified way to learn tech of stellar
+gamified way to learn tech of Stellar
+gamified way to learn tech of Stellar
+gamified way to learn tech of Stellar
 so currently like if you sign up
 so currently like if you sign up
 so currently like if you sign up
@@ -3828,9 +3828,9 @@ go through practice challenges that
 makes it easy to kind of learn the tech
 makes it easy to kind of learn the tech
 makes it easy to kind of learn the tech
-of stellar and you don't need to know
-of stellar and you don't need to know
-of stellar and you don't need to know
+of Stellar and you don't need to know
+of Stellar and you don't need to know
+of Stellar and you don't need to know
 how to code so
 how to code so
 how to code so
@@ -3852,9 +3852,9 @@ excellent
 so it's actually very fun next slime
 so it's actually very fun next slime
 so it's actually very fun next slime
-is the native currency of stellar
-is the native currency of stellar
-is the native currency of stellar
+is the native currency of Stellar
+is the native currency of Stellar
+is the native currency of Stellar
 I definitely
 I definitely
 I definitely
@@ -3909,9 +3909,9 @@ sorry about that
 yeah so you know if you do enjoy like
 yeah so you know if you do enjoy like
 yeah so you know if you do enjoy like
-building on stellar and I think like you
-building on stellar and I think like you
-building on stellar and I think like you
+building on Stellar and I think like you
+building on Stellar and I think like you
+building on Stellar and I think like you
 know jim also mentioned having some kind
 know jim also mentioned having some kind
 know jim also mentioned having some kind
@@ -3927,9 +3927,9 @@ communityfun.seller.org it's an open
 application grant program for
 application grant program for
 application grant program for
-stellar-based projects
-stellar-based projects
-stellar-based projects
+Stellar-based projects
+Stellar-based projects
+Stellar-based projects
 really to like you can build and grow
 really to like you can build and grow
 really to like you can build and grow
@@ -3996,15 +3996,15 @@ thanks
 thank you so much anka
 thank you so much anka
 thank you so much anka
-so stellar.org is really the place to
-so stellar.org is really the place to
-so stellar.org is really the place to
+so Stellar.org is really the place to
+so Stellar.org is really the place to
+so Stellar.org is really the place to
 learn all about everything that's going
 learn all about everything that's going
 learn all about everything that's going
-on at stellar from news to developer
-on at stellar from news to developer
-on at stellar from news to developer
+on at Stellar from news to developer
+on at Stellar from news to developer
+on at Stellar from news to developer
 relations there's a pretty large
 relations there's a pretty large
 relations there's a pretty large
@@ -4017,13 +4017,13 @@ all these different use cases there's
 cool videos all kinds of things so yeah
 cool videos all kinds of things so yeah
 cool videos all kinds of things so yeah
-I invite you to access stellar.org
-I invite you to access stellar.org
-I invite you to access stellar.org
+I invite you to access Stellar.org
+I invite you to access Stellar.org
+I invite you to access Stellar.org
 anytime
 anytime
 anytime
-and learn more about stellar's open
-and learn more about stellar's open
-and learn more about stellar's open
+and learn more about Stellar's open
+and learn more about Stellar's open
+and learn more about Stellar's open
 network for storing and moving money

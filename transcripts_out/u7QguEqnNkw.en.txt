@@ -2,7 +2,7 @@ okay so let's kick this off
 today we're trying to make a very
 important decision with regards to how
 Stellar assets are represented in
-soroban and this is
+Soroban and this is
 a decision that we've been
 exploring various paths to achieve and
 in in the past few months and we've
@@ -21,12 +21,12 @@ so the kind of like the Crux of the
 decision that we need to make is between
 this idea of
 how Stellar assets are represented in
-in soroban the current implementation
+in Soroban the current implementation
 that we have is has like this maximum
 separation where sorobond tokens are
 completely detached from Stellar
 assets so you can have a balance both in
-a stellar trust line and in a soroban
+a Stellar trust line and in a Soroban
 token by balance
 and we're trying to figure out
 whether we want to keep it that way or
@@ -94,7 +94,7 @@ the if you're interacting with that
 Stellar asset
 within sarban
 you know it looks to you just like
-it's any other token so it's a stellar
+it's any other token so it's a Stellar
 assets still have
 are still exposed in Soren with the
 exact same token interface they look
@@ -237,7 +237,7 @@ that for the performance or
 implementation discussion
 okay but I just want to make sure like
 when we're dealing with allowances today
-even if it's pure sorobon you still
+even if it's pure Soroban you still
 need to touch
 both the balance Ledger entry and the
 allowance Ledger entry right
@@ -333,7 +333,7 @@ access to
 and that's definitely a problem and
 that's definitely an issue that if with
 the clear separation of classic and
-sorobon
+Soroban
 it it doesn't exist
 it's and by the way this is a problem
 in in blockchains and in general and and
@@ -344,7 +344,7 @@ have like you know different accounts
 for as a user I can have different
 accounts for you know the risky stuff
 quote-unquote that I'm doing in
-soroban versus the the less risky stuff
+Soroban versus the the less risky stuff
 I'm doing in in Stellar but the the
 protocol doesn't mandate that separation
 but yeah I think that's a that's a super
@@ -450,7 +450,7 @@ got it and I will mention that there is
 a non-requirement section in this Doc
 and a later addition to the
 non-requirements is that opting in to
-hold a stellar asset is not a hard
+hold a Stellar asset is not a hard
 requirement so today you need to
 explicitly create a trust line in order
 to hold an asset and we are loosening
@@ -508,7 +508,7 @@ the context of classic so classic
 assets so existing assets that are being
 held by let's say a smart contract
 wallet so basically Where You Are
-balance is not held behind a stellar
+balance is not held behind a Stellar
 account but held by a
 by contract that enforces you know
 policies basically
@@ -637,7 +637,7 @@ Sid you were talking a bit about
 your
 concerns with adding
 kind of like opt-in semantics to
-contracts and other sorobon entities can
+contracts and other Soroban entities can
 you
 tell us a bit about your concerns
 yeah I mean for example if you know you
@@ -718,7 +718,7 @@ classic operations
 send to a contract or a payment sent
 to a contract doesn't necessarily
 save me the need to communicate with
-that contract on the soroban side so if
+that contract on the Soroban side so if
 it doesn't necessarily save me that much
 and if classic operators on the network
 think exchanges for example
@@ -743,7 +743,7 @@ have this kind of like concretely
 
 like like Frozen
 you know like a wall between what is
-classic today and and soroban like I
+classic today and and Soroban like I
 think over time we want to kind of have
 some ways to integrate those a bit
 better
@@ -817,7 +817,7 @@ know a hash or something something more
 deterministic and and then you the way
 you authorize using this account is
 actually a separate topic right
-and I think in soroban you have
+and I think in Soroban you have
 actually a similar analogy there where
 your identity your account is actually
 the contract or some maybe like some
@@ -877,7 +877,7 @@ I just said hi Kyle here I just have a
 general question around dual balances
 versus single balances is there any so
 if we think about use cases down the
-line for sorobon you know either at an
+line for Soroban you know either at an
 Enterprise level or a consumer level is
 there any reason why the double balance
 would make more sense
@@ -889,11 +889,11 @@ upon this decision
 so I do want to mention that if you
 look at the dock at the top section
 there's semantics you can create pure
-soroban tokens that either adhere to our
+Soroban tokens that either adhere to our
 standard interface or even adhere to
 whatever weird interface you want like
 none of this actually prevents you from
-doing pure soroban whatever crazy asset
+doing pure Soroban whatever crazy asset
 you can imagine the the context of this
 discussion is for these standard assets
 that are issued on the Stellar status
@@ -901,7 +901,7 @@ Stellar assets that are already
 supported in various exchanges and
 custody Solutions and wallets like
 for these assets what capabilities we
-have on the soroban side now there are
+have on the Soroban side now there are
 the Dual balances if you look at the pro
 section for dual bounces there are
 several things there for example you
@@ -1056,7 +1056,7 @@ should try
 can make assumptions about that sort
 of thing anyway but
 like if we're talking about Stellar
-assets and everything is just a stellar
+assets and everything is just a Stellar
 asset then I could definitely see people
 making those assumptions
 so yeah that could be bad
@@ -1103,7 +1103,7 @@ this single balances token contract
 should we consider you know there are
 two built-in token contracts that we're
 talking about right now one of them is a
-pure soroban token contact
+pure Soroban token contact
 implementation the other is this rap
 token contract or single or or just an
 interface to Classic assets which by
@@ -1111,7 +1111,7 @@ the way right now is implemented as an
 extension of that first contract
 should we just ditch
 all together the concept of a native
-soroban only built-in token contract in
+Soroban only built-in token contract in
 favor of the Stellar asset one or should
 we maintain both of these
 so the argument this is something Nico's
@@ -1135,10 +1135,10 @@ running like the pure sorbine contracts
 than or this matters
 right but but if you try to think about
 like the spectrum of contracts that
-might be interested in in the soroban
+might be interested in in the Soroban
 only built-in implementation
 it's contracts that are not
-interested in being a stellar asset for
+interested in being a Stellar asset for
 some weird reason even though Stellar
 assets have like you know more you
 know ecosystem-wide support so they want
@@ -1195,7 +1195,7 @@ going to have a great time there but
 join the the team here
 boots from adapt developer
 perspective you probably have the most
-experience with soroban and and
+experience with Soroban and and
 the various token contracts any any
 thoughts
 yeah and my thoughts might not be super
@@ -1214,14 +1214,14 @@ to me like at the current moment
 and I think the main reason is that
 keeps the most separation actually which
 said I know you disagree with
-between stellar and Soroban mainly
+between Stellar and Soroban mainly
 because if I'm ever going to touch
 anything it's Stellar it's never
 actually going to leave Stellar Classics
 control such that it's going to be a
 trust line or some other
 trustline-esque data source that'll
-live on stellar and if I ever want to
+live on Stellar and if I ever want to
 interact with something that's sorb
 unfocused
 that can just exist and saurabhan by
@@ -1234,7 +1234,7 @@ get really confusing
 if you're in 2.1 or or option one
 with which is either dual balances or I
 have some ability to have a balance on
-soroban of a stellar classic asset
+Soroban of a Stellar classic asset
 if we have state expiration that can
 get really really weird for users to
 keep track of

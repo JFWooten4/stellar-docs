@@ -1,8 +1,8 @@
 I think that's our cue hello everyone
 I think that's our cue hello everyone
-and welcome to the stellar open protocol
-and welcome to the stellar open protocol
-and welcome to the stellar open protocol
+and welcome to the Stellar open protocol
+and welcome to the Stellar open protocol
+and welcome to the Stellar open protocol
 discussion as always in these
 discussion as always in these
 discussion as always in these
@@ -15,9 +15,9 @@ proposals aka caps caps are technical
 specs that suggest changes to the
 specs that suggest changes to the
 specs that suggest changes to the
-stellar protocol in order to allow the
-stellar protocol in order to allow the
-stellar protocol in order to allow the
+Stellar protocol in order to allow the
+Stellar protocol in order to allow the
+Stellar protocol in order to allow the
 protocol to continue to drive forward
 protocol to continue to drive forward
 protocol to continue to drive forward
@@ -54,9 +54,9 @@ the show descriptions as are the
 previous conversations about those caps
 previous conversations about those caps
 previous conversations about those caps
-on the stellar dev mailing list
-on the stellar dev mailing list
-on the stellar dev mailing list
+on the Stellar dev mailing list
+on the Stellar dev mailing list
+on the Stellar dev mailing list
 I'm not going to identify all the
 I'm not going to identify all the
 I'm not going to identify all the
@@ -117,9 +117,9 @@ creation and implementation of a cap
 open discussion about caps it happens on
 open discussion about caps it happens on
 open discussion about caps it happens on
-the stellar dev mailing list there's a
-the stellar dev mailing list there's a
-the stellar dev mailing list there's a
+the Stellar dev mailing list there's a
+the Stellar dev mailing list there's a
+the Stellar dev mailing list there's a
 link to that in the event description as
 link to that in the event description as
 link to that in the event description as
@@ -180,21 +180,21 @@ comment period and that gives everyone a
 chance to sort of raise questions again
 chance to sort of raise questions again
 chance to sort of raise questions again
-on the stellar debt mailing list if cap
-on the stellar debt mailing list if cap
-on the stellar debt mailing list if cap
+on the Stellar debt mailing list if cap
+on the Stellar debt mailing list if cap
+on the Stellar debt mailing list if cap
 makes it through a final comment period
 makes it through a final comment period
 makes it through a final comment period
-it's implemented in a major stellar core
-it's implemented in a major stellar core
-it's implemented in a major stellar core
+it's implemented in a major Stellar core
+it's implemented in a major Stellar core
+it's implemented in a major Stellar core
 release
 release
 release
-before that stellar core release
-before that stellar core release
-before that stellar core release
+before that Stellar core release
+before that Stellar core release
+before that Stellar core release
 actually hits the network validators
 actually hits the network validators
 actually hits the network validators
@@ -207,9 +207,9 @@ accept that release and so ultimately
 any sort of proposal that makes it into
 any sort of proposal that makes it into
 any sort of proposal that makes it into
-implementation into a stellar core
-implementation into a stellar core
-implementation into a stellar core
+implementation into a Stellar core
+implementation into a Stellar core
+implementation into a Stellar core
 release is accepted by the network
 release is accepted by the network
 release is accepted by the network
@@ -261,9 +261,9 @@ that are helpful for people that are
 looking to develop innovative solutions
 looking to develop innovative solutions
 looking to develop innovative solutions
-on stellar specifically payment channels
-on stellar specifically payment channels
-on stellar specifically payment channels
+on Stellar specifically payment channels
+on Stellar specifically payment channels
+on Stellar specifically payment channels
 and bridges to other network the goal of
 and bridges to other network the goal of
 and bridges to other network the goal of
@@ -1014,9 +1014,9 @@ it means to run a validator with you
 know like projects like
 know like projects like
 know like projects like
-like stellar b right that are showing
-like stellar b right that are showing
-like stellar b right that are showing
+like Stellar b right that are showing
+like Stellar b right that are showing
+like Stellar b right that are showing
 when validators are flailing or things
 when validators are flailing or things
 when validators are flailing or things
@@ -1050,15 +1050,15 @@ know this guy might not be a cap but it
 discusses a like how you configure your
 discusses a like how you configure your
 discusses a like how you configure your
-stellar core to express these policies
-stellar core to express these policies
-stellar core to express these policies
+Stellar core to express these policies
+Stellar core to express these policies
+Stellar core to express these policies
 and like what we make easy and hard to
 and like what we make easy and hard to
 and like what we make easy and hard to
-do like in the kind of default stellar
-do like in the kind of default stellar
-do like in the kind of default stellar
+do like in the kind of default Stellar
+do like in the kind of default Stellar
+do like in the kind of default Stellar
 core release it's obviously gonna have a
 core release it's obviously gonna have a
 core release it's obviously gonna have a
@@ -1893,9 +1893,9 @@ actually it's too how do we envision
 validators controlling this will we give
 validators controlling this will we give
 validators controlling this will we give
-them configuration options in stellar
-them configuration options in stellar
-them configuration options in stellar
+them configuration options in Stellar
+them configuration options in Stellar
+them configuration options in Stellar
 core
 core
 core
@@ -2130,9 +2130,9 @@ scenario is that
 people that you know
 people that you know
 people that you know
-stellar core has some parameters and
-stellar core has some parameters and
-stellar core has some parameters and
+Stellar core has some parameters and
+Stellar core has some parameters and
+Stellar core has some parameters and
 like
 like
 like
@@ -3168,9 +3168,9 @@ mentioned in our 2022 roadmap
 it's something that's important to sort
 it's something that's important to sort
 it's something that's important to sort
-of the future scalability of stellar
-of the future scalability of stellar
-of the future scalability of stellar
+of the future scalability of Stellar
+of the future scalability of Stellar
+of the future scalability of Stellar
 it's going to take a few caps to
 it's going to take a few caps to
 it's going to take a few caps to
@@ -3672,9 +3672,9 @@ for being in a particular speed x so if
 you did this then this is seems like a
 you did this then this is seems like a
 you did this then this is seems like a
-more stellar way of doing things because
-more stellar way of doing things because
-more stellar way of doing things because
+more Stellar way of doing things because
+more Stellar way of doing things because
+more Stellar way of doing things because
 then in practice like all the assets
 then in practice like all the assets
 then in practice like all the assets
@@ -3828,9 +3828,9 @@ phase
 the hand rolled the hand world solver
 the hand rolled the hand world solver
 the hand rolled the hand world solver
-that I wrote for stellar over the
-that I wrote for stellar over the
-that I wrote for stellar over the
+that I wrote for Stellar over the
+that I wrote for Stellar over the
+that I wrote for Stellar over the
 summer was turns out doesn't work
 summer was turns out doesn't work
 summer was turns out doesn't work
@@ -4149,9 +4149,9 @@ working on this in the
 early winter there were 89 000 and
 early winter there were 89 000 and
 early winter there were 89 000 and
-something assets on stellar
-something assets on stellar
-something assets on stellar
+something assets on Stellar
+something assets on Stellar
+something assets on Stellar
 even if we broke it into
 even if we broke it into
 even if we broke it into
@@ -4503,9 +4503,9 @@ complexity around these around how these
 configurations work that make it really
 configurations work that make it really
 configurations work that make it really
-hard for people to interact with stellar
-hard for people to interact with stellar
-hard for people to interact with stellar
+hard for people to interact with Stellar
+hard for people to interact with Stellar
+hard for people to interact with Stellar
 just because there's too many
 just because there's too many
 just because there's too many
@@ -4521,9 +4521,9 @@ thing anywhere else
 adding a lot a lot of complexity makes
 adding a lot a lot of complexity makes
 adding a lot a lot of complexity makes
-stellar just less appealing for use
-stellar just less appealing for use
-stellar just less appealing for use
+Stellar just less appealing for use
+Stellar just less appealing for use
+Stellar just less appealing for use
 it's something I think that is worth
 it's something I think that is worth
 it's something I think that is worth
@@ -4860,9 +4860,9 @@ just not valuable to the asset issuer
 right imagine suppose you know the fed
 right imagine suppose you know the fed
 right imagine suppose you know the fed
-issues a digital dollar on on stellar
-issues a digital dollar on on stellar
-issues a digital dollar on on stellar
+issues a digital dollar on on Stellar
+issues a digital dollar on on Stellar
+issues a digital dollar on on Stellar
 right
 right
 right
@@ -5265,9 +5265,9 @@ list again everybody out there thanks
 for watching
 for watching
 for watching
-if you're interested join the stellar
-if you're interested join the stellar
-if you're interested join the stellar
+if you're interested join the Stellar
+if you're interested join the Stellar
+if you're interested join the Stellar
 dev mailing list to participate in the
 dev mailing list to participate in the
 dev mailing list to participate in the

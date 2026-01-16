@@ -1,8 +1,8 @@
 Hello and welcome everyone to this
 Hello and welcome everyone to this
-week's Stellar developer meeting. With me
-week's Stellar developer meeting. With me
-week's Stellar developer meeting. With me
+week's Stellar Developer Meeting. With me
+week's Stellar Developer Meeting. With me
+week's Stellar Developer Meeting. With me
 today I have two guests that have been
 today I have two guests that have been
 today I have two guests that have been
@@ -48,18 +48,18 @@ started.
 pleasure to be to participate again
 pleasure to be to participate again
 pleasure to be to participate again
-at the stellar developer meeting. my
-at the stellar developer meeting. my
-at the stellar developer meeting. my
+at the Stellar Developer Meeting. my
+at the Stellar Developer Meeting. my
+at the Stellar Developer Meeting. my
 name is Buan. I'm open source developer
 name is Buan. I'm open source developer
 name is Buan. I'm open source developer
 at at open zeppelin. , and I'm
 at at open zeppelin. , and I'm
 at at open zeppelin. , and I'm
-building the stellar contracts library.
-building the stellar contracts library.
-building the stellar contracts library.
+building the Stellar contracts library.
+building the Stellar contracts library.
+building the Stellar contracts library.
  Hi everyone, it's Ugun here. ,
  Hi everyone, it's Ugun here. ,
  Hi everyone, it's Ugun here. ,
@@ -159,9 +159,9 @@ into into smart account. So our
 ambition is to make this the new normal
 ambition is to make this the new normal
 ambition is to make this the new normal
-for stellar. So yeah we are building
-for stellar. So yeah we are building
-for stellar. So yeah we are building
+for Stellar. So yeah we are building
+for Stellar. So yeah we are building
+for Stellar. So yeah we are building
 this framework u with with that in
 this framework u with with that in
 this framework u with with that in
@@ -597,9 +597,9 @@ But before we look into into that,
 I'm here providing a list of the curves
 I'm here providing a list of the curves
 I'm here providing a list of the curves
-on stellar
-on stellar
-on stellar
+on Stellar
+on Stellar
+on Stellar
 there the already available ones
 there the already available ones
 there the already available ones
@@ -1257,9 +1257,9 @@ to whatever you want to do.
 , one naming concern, smart account
 , one naming concern, smart account
 , one naming concern, smart account
-will likely overlap with stellar
-will likely overlap with stellar
-will likely overlap with stellar
+will likely overlap with Stellar
+will likely overlap with Stellar
+will likely overlap with Stellar
 accounts and could confuse the idea that
 accounts and could confuse the idea that
 accounts and could confuse the idea that
@@ -1290,12 +1290,12 @@ this kind of
 entities
 entities
 entities
-stellar accounts you mean the the
-stellar accounts you mean the the
-stellar accounts you mean the the
-classic stellar accounts I yeah I
-classic stellar accounts I yeah I
-classic stellar accounts I yeah I
+Stellar accounts you mean the the
+Stellar accounts you mean the the
+Stellar accounts you mean the the
+classic Stellar accounts I yeah I
+classic Stellar accounts I yeah I
+classic Stellar accounts I yeah I
 suppose this is what you mean
 suppose this is what you mean
 suppose this is what you mean
@@ -1710,9 +1710,9 @@ convert the USDC to stroops you know
 there are seven decimal places in
 there are seven decimal places in
 there are seven decimal places in
-stellar so we added after 10,000 seven
-stellar so we added after 10,000 seven
-stellar so we added after 10,000 seven
+Stellar so we added after 10,000 seven
+Stellar so we added after 10,000 seven
+Stellar so we added after 10,000 seven
 more u zeros and then we added the
 more u zeros and then we added the
 more u zeros and then we added the
@@ -2634,9 +2634,9 @@ So we work with tokenia and ERC
 foundation also in collaboration with
 foundation also in collaboration with
 foundation also in collaboration with
-stellar included. So all these companies
-stellar included. So all these companies
-stellar included. So all these companies
+Stellar included. So all these companies
+Stellar included. So all these companies
+Stellar included. So all these companies
 came together and based on the RWA
 came together and based on the RWA
 came together and based on the RWA

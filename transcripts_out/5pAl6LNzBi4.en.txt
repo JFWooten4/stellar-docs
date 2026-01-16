@@ -1,11 +1,11 @@
-so welcome to the stellar open protocol
+so welcome to the Stellar open protocol
 discussion in these discussions we
 discuss and plan for
 changes to upcoming versions of the
-stellar protocol right now we're
+Stellar protocol right now we're
 focused on project jump cannon which
-will bring smart contracts to stellar in
-addition to changes to the stellar
+will bring smart contracts to Stellar in
+addition to changes to the Stellar
 protocol it will also lead to the
 creation of a new smart contracts
 platform
@@ -23,7 +23,7 @@ caps 46 through 55 I believe at this
 point they're pretty modular so each one
 sort of takes on an aspect of the
 changes that need to be made in order to
-bring smart contracts to stellar and we
+bring smart contracts to Stellar and we
 are working through those modules bit by
 bit and discussing sort of the segments
 necessary and the changes necessary to
@@ -41,8 +41,8 @@ reach a point where they are stable they
 move from being a draft into a formal
 acceptance period finally they're
 accepted and implemented in a version of
-the stellar protocol and before that
-version of the stellar protocol goes
+the Stellar protocol and before that
+version of the Stellar protocol goes
 live validators actually vote to accept
 it now we are still fairly well we've
 actually made a lot of progress in the
@@ -1417,7 +1417,7 @@ at the given date
 right but I mean like imagine that today
 you have a day with like a lot of
 activity like you can look back
-historically of stellar's history and
+historically of Stellar's history and
 there are periods when there were like
 lots of token creations and stuff you
 know there are days when there's
@@ -1688,7 +1688,7 @@ problem
 but
 you know it's
 I think it will be really difficult to
-bring people into stellar
+bring people into Stellar
 telling them oh this is the way it works
 in selena right so
 it's a fader no it's not selena doesn't
@@ -1713,11 +1713,11 @@ the concept of expiration
 but I think
 we'll push it to next week's meeting and
 hopefully have some of this discussion
-on the stellar dev mailing list and here
+on the Stellar dev mailing list and here
 also in discord in the various john
 cannon channels so if anyone is watching
 and has thoughts about that feel free to
-join the stellar dev mailing list or to
+join the Stellar dev mailing list or to
 chime in on the discord here we'll
 continue to share work and ideas and
 conversations

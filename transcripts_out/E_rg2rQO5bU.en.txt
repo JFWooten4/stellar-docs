@@ -15,9 +15,9 @@ about the evolution and development
 of sorbonne as anyone who is here
 of sorbonne as anyone who is here
 of sorbonne as anyone who is here
-probably knows soroban is a new smart
-probably knows soroban is a new smart
-probably knows soroban is a new smart
+probably knows Soroban is a new smart
+probably knows Soroban is a new smart
+probably knows Soroban is a new smart
 contracts platform that is designed to
 contracts platform that is designed to
 contracts platform that is designed to
@@ -33,9 +33,9 @@ been on on futurenet since October there
 have been I believe seven preview
 have been I believe seven preview
 have been I believe seven preview
-releases of sorobon and we are
-releases of sorobon and we are
-releases of sorobon and we are
+releases of Soroban and we are
+releases of Soroban and we are
+releases of Soroban and we are
 continuing to iterate a focus to hone in
 continuing to iterate a focus to hone in
 continuing to iterate a focus to hone in
@@ -102,9 +102,9 @@ the high level archive interface and
 this is kind of the interface where with
 this is kind of the interface where with
 this is kind of the interface where with
-sorobon data types we charge a fee for
-sorobon data types we charge a fee for
-sorobon data types we charge a fee for
+Soroban data types we charge a fee for
+Soroban data types we charge a fee for
+Soroban data types we charge a fee for
 staying live on The Ledger and then if
 staying live on The Ledger and then if
 staying live on The Ledger and then if
@@ -894,9 +894,9 @@ a lot of contracts including the the
 example contracts that we have in the
 example contracts that we have in the
 example contracts that we have in the
-soroban samples repo have these helper
-soroban samples repo have these helper
-soroban samples repo have these helper
+Soroban samples repo have these helper
+Soroban samples repo have these helper
+Soroban samples repo have these helper
 functions for getting and setting
 functions for getting and setting
 functions for getting and setting

@@ -1,8 +1,8 @@
 hello everyone and welcome to the
 hello everyone and welcome to the
-stellar open protocol discussion
-stellar open protocol discussion
-stellar open protocol discussion
+Stellar open protocol discussion
+Stellar open protocol discussion
+Stellar open protocol discussion
 so for those of you who are watching
 so for those of you who are watching
 so for those of you who are watching
@@ -15,9 +15,9 @@ meetings is to talk about and plan for
 changes to upcoming versions of the
 changes to upcoming versions of the
 changes to upcoming versions of the
-stellar protocol and so we go over
-stellar protocol and so we go over
-stellar protocol and so we go over
+Stellar protocol and so we go over
+Stellar protocol and so we go over
+Stellar protocol and so we go over
 core advancement proposals or caps
 core advancement proposals or caps
 core advancement proposals or caps
@@ -36,9 +36,9 @@ to meet ecosystem needs so caps go
 through a rigorous process before
 through a rigorous process before
 through a rigorous process before
-they're actually implemented in stellar
-they're actually implemented in stellar
-they're actually implemented in stellar
+they're actually implemented in Stellar
+they're actually implemented in Stellar
+they're actually implemented in Stellar
 core and then put forward for a
 core and then put forward for a
 core and then put forward for a
@@ -87,9 +87,9 @@ can see the gears turning but I also
 want to say there's a complimentary
 want to say there's a complimentary
 want to say there's a complimentary
-asynchronous discussion on the stellar
-asynchronous discussion on the stellar
-asynchronous discussion on the stellar
+asynchronous discussion on the Stellar
+asynchronous discussion on the Stellar
+asynchronous discussion on the Stellar
 dev mailing list
 dev mailing list
 dev mailing list
@@ -162,9 +162,9 @@ for asset exchange
 and that's the goal here right to
 and that's the goal here right to
 and that's the goal here right to
-implement the change to the stellar
-implement the change to the stellar
-implement the change to the stellar
+implement the change to the Stellar
+implement the change to the Stellar
+implement the change to the Stellar
 protocol
 protocol
 protocol
@@ -180,9 +180,9 @@ today we're going to continue the
 discussion about amms that kicked off
 discussion about amms that kicked off
 discussion about amms that kicked off
-about a month ago on the stellar dev
-about a month ago on the stellar dev
-about a month ago on the stellar dev
+about a month ago on the Stellar dev
+about a month ago on the Stellar dev
+about a month ago on the Stellar dev
 mailing list
 mailing list
 mailing list
@@ -243,9 +243,9 @@ thoughts and what makes sense to me is
 to discuss the points he raises on that
 to discuss the points he raises on that
 to discuss the points he raises on that
-stellar dev google group I mentioned
-stellar dev google group I mentioned
-stellar dev google group I mentioned
+Stellar dev google group I mentioned
+Stellar dev google group I mentioned
+Stellar dev google group I mentioned
 earlier
 earlier
 earlier
@@ -327,9 +327,9 @@ all those things right an ongoing
 discussion
 discussion
 discussion
-again on that stellar dev mailing list
-again on that stellar dev mailing list
-again on that stellar dev mailing list
+again on that Stellar dev mailing list
+again on that Stellar dev mailing list
+again on that Stellar dev mailing list
 but today we're actually going to
 but today we're actually going to
 but today we're actually going to
@@ -3006,9 +3006,9 @@ just sort of
 mull over what what what we've discussed
 mull over what what what we've discussed
 mull over what what what we've discussed
-so far and bring it back to the stellar
-so far and bring it back to the stellar
-so far and bring it back to the stellar
+so far and bring it back to the Stellar
+so far and bring it back to the Stellar
+so far and bring it back to the Stellar
 dev mailing list
 cool deal so yeah everyone watching
 cool deal so yeah everyone watching
@@ -3018,9 +3018,9 @@ thank you for joining us for this
 protocol discussion again the thing that
 protocol discussion again the thing that
 protocol discussion again the thing that
-we keep talking about the stellar dev
-we keep talking about the stellar dev
-we keep talking about the stellar dev
+we keep talking about the Stellar dev
+we keep talking about the Stellar dev
+we keep talking about the Stellar dev
 mailing list there is a link in the
 mailing list there is a link in the
 mailing list there is a link in the

@@ -24,9 +24,9 @@ wherever you are in the world my name is
 Lisa nester and I work on the ecosystem
 Lisa nester and I work on the ecosystem
 Lisa nester and I work on the ecosystem
-team at the stellar development
-team at the stellar development
-team at the stellar development
+team at the Stellar development
+team at the Stellar development
+team at the Stellar development
 foundation and today I will be your
 foundation and today I will be your
 foundation and today I will be your
@@ -63,9 +63,9 @@ so I will begin by providing a quick
 introduction to everyone about what a
 introduction to everyone about what a
 introduction to everyone about what a
-stellar SEP is and this dollar set
-stellar SEP is and this dollar set
-stellar SEP is and this dollar set
+Stellar SEP is and this dollar set
+Stellar SEP is and this dollar set
+Stellar SEP is and this dollar set
 ecosystem will then move to the
 ecosystem will then move to the
 ecosystem will then move to the
@@ -111,12 +111,12 @@ question chat box as you'd like so go
 ahead and dive into things what is a
 ahead and dive into things what is a
 ahead and dive into things what is a
-step so a SUP is a stellar native term
-step so a SUP is a stellar native term
-step so a SUP is a stellar native term
-that stands for a stellar ecosystem
-that stands for a stellar ecosystem
-that stands for a stellar ecosystem
+step so a SUP is a Stellar native term
+step so a SUP is a Stellar native term
+step so a SUP is a Stellar native term
+that stands for a Stellar ecosystem
+that stands for a Stellar ecosystem
+that stands for a Stellar ecosystem
 proposal and so steps are publicly
 proposal and so steps are publicly
 proposal and so steps are publicly
@@ -129,9 +129,9 @@ in a github repository and facilitate
 the creation and eventual adoption of
 the creation and eventual adoption of
 the creation and eventual adoption of
-technical standards within the stellar
-technical standards within the stellar
-technical standards within the stellar
+technical standards within the Stellar
+technical standards within the Stellar
+technical standards within the Stellar
 ecosystem these are standards above the
 ecosystem these are standards above the
 ecosystem these are standards above the
@@ -153,9 +153,9 @@ are really a dynamic way of introducing
 new standards to the protocol for the
 new standards to the protocol for the
 new standards to the protocol for the
-ecosystem above the stellar Network so
-ecosystem above the stellar Network so
-ecosystem above the stellar Network so
+ecosystem above the Stellar Network so
+ecosystem above the Stellar Network so
+ecosystem above the Stellar Network so
 these are things that really helped to
 these are things that really helped to
 these are things that really helped to
@@ -165,9 +165,9 @@ develop use cases that are being
 implemented and tested by companies and
 implemented and tested by companies and
 implemented and tested by companies and
-individuals across the stellar ecosystem
-individuals across the stellar ecosystem
-individuals across the stellar ecosystem
+individuals across the Stellar ecosystem
+individuals across the Stellar ecosystem
+individuals across the Stellar ecosystem
 and as new ideas or kind of new use
 and as new ideas or kind of new use
 and as new ideas or kind of new use
@@ -219,9 +219,9 @@ a type of transaction or you know a type
 of operation that someone wants to do in
 of operation that someone wants to do in
 of operation that someone wants to do in
-the stellar ecosystem and there's not
-the stellar ecosystem and there's not
-the stellar ecosystem and there's not
+the Stellar ecosystem and there's not
+the Stellar ecosystem and there's not
+the Stellar ecosystem and there's not
 really a standard easy way to implement
 really a standard easy way to implement
 really a standard easy way to implement
@@ -366,18 +366,18 @@ for different types of assets or
 applications to interface with the
 applications to interface with the
 applications to interface with the
-stellar ecosystem and underlying that is
-stellar ecosystem and underlying that is
-stellar ecosystem and underlying that is
+Stellar ecosystem and underlying that is
+Stellar ecosystem and underlying that is
+Stellar ecosystem and underlying that is
 an ability to create interoperability
 an ability to create interoperability
 an ability to create interoperability
 across various applications wallets and
 across various applications wallets and
 across various applications wallets and
-assets across stellar so they're really
-assets across stellar so they're really
-assets across stellar so they're really
+assets across Stellar so they're really
+assets across Stellar so they're really
+assets across Stellar so they're really
 a critical part of facilitating an open
 a critical part of facilitating an open
 a critical part of facilitating an open
@@ -390,9 +390,9 @@ is sub 24
 deposit and withdrawal or anchored
 deposit and withdrawal or anchored
 deposit and withdrawal or anchored
-assets and wallets and the stellar
-assets and wallets and the stellar
-assets and wallets and the stellar
+assets and wallets and the Stellar
+assets and wallets and the Stellar
+assets and wallets and the Stellar
 ecosystem so this is a very it's an
 ecosystem so this is a very it's an
 ecosystem so this is a very it's an
@@ -426,9 +426,9 @@ asset I can make sure that if I use the
 twenty-four wallet or application in the
 twenty-four wallet or application in the
 twenty-four wallet or application in the
-stellar ecosystem will be compatible
-stellar ecosystem will be compatible
-stellar ecosystem will be compatible
+Stellar ecosystem will be compatible
+Stellar ecosystem will be compatible
+Stellar ecosystem will be compatible
 with my my asset so very valuable in
 with my my asset so very valuable in
 with my my asset so very valuable in
@@ -441,9 +441,9 @@ round table I'll quickly introduce our
 participants we have three companies
 participants we have three companies
 participants we have three companies
-from the stellar ecosystem which will be
-from the stellar ecosystem which will be
-from the stellar ecosystem which will be
+from the Stellar ecosystem which will be
+from the Stellar ecosystem which will be
+from the Stellar ecosystem which will be
 speaking during this roundtable we have
 speaking during this roundtable we have
 speaking during this roundtable we have
@@ -2863,9 +2863,9 @@ have you know the this thinning anchor
 might say if anything goes wrong send
 might say if anything goes wrong send
 might say if anything goes wrong send
-the money back to this stellar account
-the money back to this stellar account
-the money back to this stellar account
+the money back to this Stellar account
+the money back to this Stellar account
+the money back to this Stellar account
 and we'll essentially reverse the whole
 and we'll essentially reverse the whole
 and we'll essentially reverse the whole
@@ -3472,18 +3472,18 @@ our website and YouTube feeds which was
 in regards to like how do you know the
 in regards to like how do you know the
 in regards to like how do you know the
-quality of an anchor or des stellar or
-quality of an anchor or des stellar or
-quality of an anchor or des stellar or
+quality of an anchor or des Stellar or
+quality of an anchor or des Stellar or
+quality of an anchor or des Stellar or
 SDF somehow that anchors as part of its
 SDF somehow that anchors as part of its
 SDF somehow that anchors as part of its
 network and so I just wanted to make the
 network and so I just wanted to make the
 network and so I just wanted to make the
-point clear that stellar itself is an
-point clear that stellar itself is an
-point clear that stellar itself is an
+point clear that Stellar itself is an
+point clear that Stellar itself is an
+point clear that Stellar itself is an
 open financial network a decentralized
 open financial network a decentralized
 open financial network a decentralized
@@ -3526,9 +3526,9 @@ they hold but we you know certainly are
 working in both and open but also
 working in both and open but also
 working in both and open but also
-reputational ecosystem on stellar so I
-reputational ecosystem on stellar so I
-reputational ecosystem on stellar so I
+reputational ecosystem on Stellar so I
+reputational ecosystem on Stellar so I
+reputational ecosystem on Stellar so I
 just wanted to quickly touch on that and
 just wanted to quickly touch on that and
 just wanted to quickly touch on that and

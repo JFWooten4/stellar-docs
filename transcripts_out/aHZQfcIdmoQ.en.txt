@@ -1,8 +1,8 @@
 hello everyone and welcome to
 hello everyone and welcome to
-the stellar open protocol discussion for
-the stellar open protocol discussion for
-the stellar open protocol discussion for
+the Stellar open protocol discussion for
+the Stellar open protocol discussion for
+the Stellar open protocol discussion for
 june 17
 june 17
 june 17
@@ -12,9 +12,9 @@ june 17
 meetings it's a part of the process for
 meetings it's a part of the process for
 meetings it's a part of the process for
-making changes to the stellar protocol
-making changes to the stellar protocol
-making changes to the stellar protocol
+making changes to the Stellar protocol
+making changes to the Stellar protocol
+making changes to the Stellar protocol
 and we live stream these meetings so
 and we live stream these meetings so
 and we live stream these meetings so
@@ -84,9 +84,9 @@ each cap goes through a specific life
 cycle right it's proposed it's drafted
 cycle right it's proposed it's drafted
 cycle right it's proposed it's drafted
-then it's discussed on the stellar debt
-then it's discussed on the stellar debt
-then it's discussed on the stellar debt
+then it's discussed on the Stellar debt
+then it's discussed on the Stellar debt
+then it's discussed on the Stellar debt
 mailing list again there's a link to
 mailing list again there's a link to
 mailing list again there's a link to
@@ -126,18 +126,18 @@ period which gives everyone a last
 chance to raise questions
 chance to raise questions
 chance to raise questions
-also on the stellar dev mailing list and
-also on the stellar dev mailing list and
-also on the stellar dev mailing list and
+also on the Stellar dev mailing list and
+also on the Stellar dev mailing list and
+also on the Stellar dev mailing list and
 if the cat makes it through that final
 if the cat makes it through that final
 if the cat makes it through that final
 comment period
 comment period
 comment period
-it's implemented in a major stellar core
-it's implemented in a major stellar core
-it's implemented in a major stellar core
+it's implemented in a major Stellar core
+it's implemented in a major Stellar core
+it's implemented in a major Stellar core
 release then there's still
 release then there's still
 release then there's still
@@ -246,9 +246,9 @@ it suggests interleaving amms for the
 built-in order books that make up
 built-in order books that make up
 built-in order books that make up
-stellar's decentralized exchange
-stellar's decentralized exchange
-stellar's decentralized exchange
+Stellar's decentralized exchange
+Stellar's decentralized exchange
+Stellar's decentralized exchange
 also known as the dex so in cap 37 a buy
 also known as the dex so in cap 37 a buy
 also known as the dex so in cap 37 a buy
@@ -300,9 +300,9 @@ there's already been a lot of discussion
 about both approaches and it's mostly
 about both approaches and it's mostly
 about both approaches and it's mostly
-happened on the stellar debt mailing
-happened on the stellar debt mailing
-happened on the stellar debt mailing
+happened on the Stellar debt mailing
+happened on the Stellar debt mailing
+happened on the Stellar debt mailing
 list
 list
 list
@@ -795,9 +795,9 @@ really patterns aren't really well
 supported in the ecosystem I don't think
 supported in the ecosystem I don't think
 supported in the ecosystem I don't think
-I mean definitely not like stellar acts
-I mean definitely not like stellar acts
-I mean definitely not like stellar acts
+I mean definitely not like Stellar acts
+I mean definitely not like Stellar acts
+I mean definitely not like Stellar acts
 and things like that so
 and things like that so
 and things like that so
@@ -1824,9 +1824,9 @@ an opportunity to
 comment on it during for one week on the
 comment on it during for one week on the
 comment on it during for one week on the
-stellar dev mailing list
-stellar dev mailing list
-stellar dev mailing list
+Stellar dev mailing list
+Stellar dev mailing list
+Stellar dev mailing list
 and depending on what happens in that
 and depending on what happens in that
 and depending on what happens in that
@@ -2646,9 +2646,9 @@ again at the end of
 there'll be a week for people to sort of
 there'll be a week for people to sort of
 there'll be a week for people to sort of
-raise questions on the stellar dev
-raise questions on the stellar dev
-raise questions on the stellar dev
+raise questions on the Stellar dev
+raise questions on the Stellar dev
+raise questions on the Stellar dev
 mailing list and we'll
 mailing list and we'll
 mailing list and we'll
@@ -2922,9 +2922,9 @@ to participate as much as you want in
 any of these discussions about the
 any of these discussions about the
 any of these discussions about the
-future of the stellar protocol
-future of the stellar protocol
-future of the stellar protocol
+future of the Stellar protocol
+future of the Stellar protocol
+future of the Stellar protocol
 there are links to these particular caps
 there are links to these particular caps
 there are links to these particular caps
@@ -2937,9 +2937,9 @@ read them to actually see what it is
 that we're talking about
 that we're talking about
 that we're talking about
-and there's also a link to the stellar
-and there's also a link to the stellar
-and there's also a link to the stellar
+and there's also a link to the Stellar
+and there's also a link to the Stellar
+and there's also a link to the Stellar
 depth mailing list which is where we do
 depth mailing list which is where we do
 depth mailing list which is where we do

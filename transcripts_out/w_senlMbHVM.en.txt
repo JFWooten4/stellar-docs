@@ -6,9 +6,9 @@ we got sorted out the the issues and
 yeah welcome to this week's
 yeah welcome to this week's
 yeah welcome to this week's
-Stellar developer meeting and today I
-Stellar developer meeting and today I
-Stellar developer meeting and today I
+Stellar Developer Meeting and today I
+Stellar Developer Meeting and today I
+Stellar Developer Meeting and today I
 we have two presentations we have
 we have two presentations we have
 we have two presentations we have
@@ -756,9 +756,9 @@ a lot of the details of what's happening
 in that transaction you can use lab.
 in that transaction you can use lab.
 in that transaction you can use lab.
-stellar.org and kind of dig into some
-stellar.org and kind of dig into some
-stellar.org and kind of dig into some
+Stellar.org and kind of dig into some
+Stellar.org and kind of dig into some
+Stellar.org and kind of dig into some
 of the the nitty-gritty of the oper
 of the the nitty-gritty of the oper
 of the the nitty-gritty of the oper
@@ -768,9 +768,9 @@ the actual operations being executed
 yeah that that's available at lab.
 yeah that that's available at lab.
 yeah that that's available at lab.
-stellar.org
-stellar.org
-stellar.org
+Stellar.org
+Stellar.org
+Stellar.org
 xdr and in this reference application
 xdr and in this reference application
 xdr and in this reference application

@@ -15,9 +15,9 @@ engineering talk
 today we're going to be going through
 today we're going to be going through
 today we're going to be going through
-stellar quest
-stellar quest
-stellar quest
+Stellar quest
+Stellar quest
+Stellar quest
 this is a new app that I'm very very
 this is a new app that I'm very very
 this is a new app that I'm very very
@@ -69,9 +69,9 @@ and then we're just gonna kind of
 walk through this this application
 walk through this this application
 walk through this this application
-stellar quest
-stellar quest
-stellar quest
+Stellar quest
+Stellar quest
+Stellar quest
 so it's been exactly a month actually so
 so it's been exactly a month actually so
 so it's been exactly a month actually so
@@ -129,9 +129,9 @@ just send them documentation I want to
 give them a nice landing pad
 give them a nice landing pad
 give them a nice landing pad
-for stellar so there's kind of in this
-for stellar so there's kind of in this
-for stellar so there's kind of in this
+for Stellar so there's kind of in this
+for Stellar so there's kind of in this
+for Stellar so there's kind of in this
 gap here between the normie devs
 gap here between the normie devs
 gap here between the normie devs
@@ -144,9 +144,9 @@ are good and enjoy what they do but are
 not familiar with cryptocurrency or
 not familiar with cryptocurrency or
 not familiar with cryptocurrency or
-stellar and have maybe wanted to or
-stellar and have maybe wanted to or
-stellar and have maybe wanted to or
+Stellar and have maybe wanted to or
+Stellar and have maybe wanted to or
+Stellar and have maybe wanted to or
 would be interested but need a good
 would be interested but need a good
 would be interested but need a good
@@ -177,9 +177,9 @@ from a technical perspective what's
 going on with these apps so that is
 going on with these apps so that is
 going on with these apps so that is
-stellar quest it's this
-stellar quest it's this
-stellar quest it's this
+Stellar quest it's this
+Stellar quest it's this
+Stellar quest it's this
 this this stepping stone between
 this this stepping stone between
 this this stepping stone between
@@ -213,9 +213,9 @@ application that i've built so
 right after scf I started working on
 right after scf I started working on
 right after scf I started working on
-stellar quest so this has been a
-stellar quest so this has been a
-stellar quest so this has been a
+Stellar quest so this has been a
+Stellar quest so this has been a
+Stellar quest so this has been a
 solo project that i've been working on
 solo project that i've been working on
 solo project that i've been working on
@@ -315,9 +315,9 @@ on twitter and again I'm the ecosystem
 evangelist at the
 evangelist at the
 evangelist at the
-stellar development foundation I don't
-stellar development foundation I don't
-stellar development foundation I don't
+Stellar development foundation I don't
+Stellar development foundation I don't
+Stellar development foundation I don't
 have a big slide deck
 have a big slide deck
 have a big slide deck
@@ -357,9 +357,9 @@ what we have coming with the with the
 upcoming
 upcoming
 upcoming
-first stellar quest challenge so I'm
-first stellar quest challenge so I'm
-first stellar quest challenge so I'm
+first Stellar quest challenge so I'm
+first Stellar quest challenge so I'm
+first Stellar quest challenge so I'm
 gonna go ahead and switch
 gonna go ahead and switch
 gonna go ahead and switch
@@ -417,9 +417,9 @@ having the outage but I think it's just
 run kit so
 run kit so
 run kit so
-stellar quest this is our landing page
-stellar quest this is our landing page
-stellar quest this is our landing page
+Stellar quest this is our landing page
+Stellar quest this is our landing page
+Stellar quest this is our landing page
 at the moment
 at the moment
 at the moment
@@ -447,9 +447,9 @@ so far so as you have questions or
 comments or
 comments or
 comments or
-kind of the dedicated stellar fans be
-kind of the dedicated stellar fans be
-kind of the dedicated stellar fans be
+kind of the dedicated Stellar fans be
+kind of the dedicated Stellar fans be
+kind of the dedicated Stellar fans be
 sure and reach out with any feedback or
 sure and reach out with any feedback or
 sure and reach out with any feedback or
@@ -462,9 +462,9 @@ screens or the commentary that we have
 but you can see right away that series 1
 but you can see right away that series 1
 but you can see right away that series 1
-of stellar quest will be launching on
-of stellar quest will be launching on
-of stellar quest will be launching on
+of Stellar quest will be launching on
+of Stellar quest will be launching on
+of Stellar quest will be launching on
 monday
 monday
 monday
@@ -546,9 +546,9 @@ unlock one of these badges
 so it's kind of like the collectibles
 so it's kind of like the collectibles
 so it's kind of like the collectibles
-that you you'll have on your stellar
-that you you'll have on your stellar
-that you you'll have on your stellar
+that you you'll have on your Stellar
+that you you'll have on your Stellar
+that you you'll have on your Stellar
 account as you complete
 account as you complete
 account as you complete
@@ -603,9 +603,9 @@ we're doing here
 be sure and send them the link which
 be sure and send them the link which
 be sure and send them the link which
-will be quest.stellar.org
-will be quest.stellar.org
-will be quest.stellar.org
+will be quest.Stellar.org
+will be quest.Stellar.org
+will be quest.Stellar.org
 quest.stuller.org I'm not sure I include
 quest.stuller.org I'm not sure I include
 quest.stuller.org I'm not sure I include
@@ -912,9 +912,9 @@ the idea again is is just to understand
 the technology behind
 the technology behind
 the technology behind
-behind stellar i've got a nice discord
-behind stellar i've got a nice discord
-behind stellar i've got a nice discord
+behind Stellar i've got a nice discord
+behind Stellar i've got a nice discord
+behind Stellar i've got a nice discord
 channel if you guys want to join that
 channel if you guys want to join that
 channel if you guys want to join that
@@ -1269,9 +1269,9 @@ notifying that we're using albedo
 orbital lenses
 orbital lenses
 orbital lenses
-he's the guy who built stellar
-he's the guy who built stellar
-he's the guy who built stellar
+he's the guy who built Stellar
+he's the guy who built Stellar
+he's the guy who built Stellar
 expert developer
 expert developer
 expert developer
@@ -1485,9 +1485,9 @@ sign that transaction and then actually
 send it back to
 send it back to
 send it back to
-stellar quest backend and then the
-stellar quest backend and then the
-stellar quest backend and then the
+Stellar quest backend and then the
+Stellar quest backend and then the
+Stellar quest backend and then the
 stutter quest backend is actually going
 stutter quest backend is actually going
 stutter quest backend is actually going
@@ -1599,18 +1599,18 @@ meridian hackathon which is open and
 ready for registration as well as
 ready for registration as well as
 ready for registration as well as
-things like the stellar community fund
-things like the stellar community fund
-things like the stellar community fund
+things like the Stellar community fund
+things like the Stellar community fund
+things like the Stellar community fund
 particularly the lab fund so if folks
 particularly the lab fund so if folks
 particularly the lab fund so if folks
 are
 are
 are
-enjoying stellar quests and really
-enjoying stellar quests and really
-enjoying stellar quests and really
+enjoying Stellar quests and really
+enjoying Stellar quests and really
+enjoying Stellar quests and really
 getting into the challenges there's
 getting into the challenges there's
 getting into the challenges there's
@@ -1632,18 +1632,18 @@ co-branded links and
 really starting to open up the
 really starting to open up the
 really starting to open up the
-stellar sphere
-stellar sphere
-stellar sphere
+Stellar sphere
+Stellar sphere
+Stellar sphere
 to people that are not inside crypto
 to people that are not inside crypto
 to people that are not inside crypto
 that's kind of the whole point of
 that's kind of the whole point of
 that's kind of the whole point of
-stellar quest is to really aim at
-stellar quest is to really aim at
-stellar quest is to really aim at
+Stellar quest is to really aim at
+Stellar quest is to really aim at
+Stellar quest is to really aim at
 normie dead steps that have not been
 normie dead steps that have not been
 normie dead steps that have not been
@@ -1668,16 +1668,16 @@ is what we're trying to achieve again
 with
 with
 with
-with stellar quests so with that
-with stellar quests so with that
-with stellar quests so with that
+with Stellar quests so with that
+with Stellar quests so with that
+with Stellar quests so with that
 we will open it up for for questions
 we will open it up for for questions
 we will open it up for for questions
 does anybody have
 does anybody have
 does anybody have
-questions about stellar quest
+questions about Stellar quest
 i'll just wait we've got our
 i'll just wait we've got our
 our onca team looking through if there's
@@ -1911,9 +1911,9 @@ say oh this person won this prize I'm
 going to set up
 going to set up
 going to set up
-an entry in in stellar that says
-an entry in in stellar that says
-an entry in in stellar that says
+an entry in in Stellar that says
+an entry in in Stellar that says
+an entry in in Stellar that says
 here's the prize for this public key and
 here's the prize for this public key and
 here's the prize for this public key and
@@ -2070,15 +2070,15 @@ that along with the durable objects from
 cloudflare will make
 cloudflare will make
 cloudflare will make
-stellar quests just a little bit faster
-stellar quests just a little bit faster
-stellar quests just a little bit faster
+Stellar quests just a little bit faster
+Stellar quests just a little bit faster
+Stellar quests just a little bit faster
 and honestly easier to to manage from my
 and honestly easier to to manage from my
 and honestly easier to to manage from my
-end on the on the stellar side so
-end on the on the stellar side so
-end on the on the stellar side so
+end on the on the Stellar side so
+end on the on the Stellar side so
+end on the on the Stellar side so
 very excited about those it's been
 very excited about those it's been
 very excited about those it's been
@@ -2088,18 +2088,18 @@ interesting actually building a
 production level
 production level
 production level
-application on top of stellar so it's
-application on top of stellar so it's
-application on top of stellar so it's
+application on top of Stellar so it's
+application on top of Stellar so it's
+application on top of Stellar so it's
 like a meta application where you're
 like a meta application where you're
 like a meta application where you're
 both teaching
 both teaching
 both teaching
-people about stellar but also using it
-people about stellar but also using it
-people about stellar but also using it
+people about Stellar but also using it
+people about Stellar but also using it
+people about Stellar but also using it
 to teach them
 to teach them
 to teach them

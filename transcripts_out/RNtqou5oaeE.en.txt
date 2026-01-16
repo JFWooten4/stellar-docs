@@ -21,9 +21,9 @@ Onomics where we are building
 financial institution infrastructure on
 financial institution infrastructure on
 financial institution infrastructure on
-chain on stellar. we use the diamond
-chain on stellar. we use the diamond
-chain on stellar. we use the diamond
+chain on Stellar. we use the diamond
+chain on Stellar. we use the diamond
+chain on Stellar. we use the diamond
 proxy standard which we will be talking
 proxy standard which we will be talking
 proxy standard which we will be talking
@@ -66,9 +66,9 @@ for about 10 years, that is to say Rust.
 and so far my experience working
 and so far my experience working
 and so far my experience working
-stellar has been incredible. I had
-stellar has been incredible. I had
-stellar has been incredible. I had
+Stellar has been incredible. I had
+Stellar has been incredible. I had
+Stellar has been incredible. I had
 experience working on other blockchains
 experience working on other blockchains
 experience working on other blockchains
@@ -909,18 +909,18 @@ and initializes it.
 when it initializes the facet. In
 when it initializes the facet. In
 when it initializes the facet. In
-stellar, we have a macro within our
-stellar, we have a macro within our
-stellar, we have a macro within our
+Stellar, we have a macro within our
+Stellar, we have a macro within our
+Stellar, we have a macro within our
 source code that allows you to
 source code that allows you to
 source code that allows you to
 seamlessly integrate with this diamond
 seamlessly integrate with this diamond
 seamlessly integrate with this diamond
-proxy standard on stellar such that it
-proxy standard on stellar such that it
-proxy standard on stellar such that it
+proxy standard on Stellar such that it
+proxy standard on Stellar such that it
+proxy standard on Stellar such that it
 injects another stable point in memory,
 injects another stable point in memory,
 injects another stable point in memory,
@@ -2106,9 +2106,9 @@ that data is going to exist. Those are
 things you have to consider. But with
 things you have to consider. But with
 things you have to consider. But with
-the diamond proxy pattern, in stellar
-the diamond proxy pattern, in stellar
-the diamond proxy pattern, in stellar
+the diamond proxy pattern, in Stellar
+the diamond proxy pattern, in Stellar
+the diamond proxy pattern, in Stellar
 terms, you don't have to worry about
 terms, you don't have to worry about
 terms, you don't have to worry about
@@ -2313,9 +2313,9 @@ opens up the sky for everybody and
 Stellar it's in its name. I think
 Stellar it's in its name. I think
 Stellar it's in its name. I think
-stellar is meant to be married with the
-stellar is meant to be married with the
-stellar is meant to be married with the
+Stellar is meant to be married with the
+Stellar is meant to be married with the
+Stellar is meant to be married with the
 diamond proxy because in a way it's what
 diamond proxy because in a way it's what
 diamond proxy because in a way it's what
@@ -2742,9 +2742,9 @@ questions about
 the paradigm of the diamond proxy being
 the paradigm of the diamond proxy being
 the paradigm of the diamond proxy being
-brought onto stellar or any
-brought onto stellar or any
-brought onto stellar or any
+brought onto Stellar or any
+brought onto Stellar or any
+brought onto Stellar or any
 logistical questions? anything we'd be
 logistical questions? anything we'd be
 logistical questions? anything we'd be
@@ -2820,9 +2820,9 @@ cut events are emitted and with those
 emitted events we have built in Rust a
 emitted events we have built in Rust a
 emitted events we have built in Rust a
-stellar indexer that captures these
-stellar indexer that captures these
-stellar indexer that captures these
+Stellar indexer that captures these
+Stellar indexer that captures these
+Stellar indexer that captures these
 events.
 events.
 events.
@@ -3144,9 +3144,9 @@ You have
 that on the ledger. right now I'm
 that on the ledger. right now I'm
 that on the ledger. right now I'm
-pointing at says stellar test net but
-pointing at says stellar test net but
-pointing at says stellar test net but
+pointing at says Stellar test net but
+pointing at says Stellar test net but
+pointing at says Stellar test net but
 really it's pointing to a local quick
 really it's pointing to a local quick
 really it's pointing to a local quick
@@ -3312,15 +3312,15 @@ that came up. , there was a question
 by Green here about us validating the
 by Green here about us validating the
 by Green here about us validating the
-demand with stellar developers. U, no,
-demand with stellar developers. U, no,
-demand with stellar developers. U, no,
+demand with Stellar developers. U, no,
+demand with Stellar developers. U, no,
+demand with Stellar developers. U, no,
 we didn't, , we the target audience
 we didn't, , we the target audience
 we didn't, , we the target audience
-for this wasn't initially the stellar
-for this wasn't initially the stellar
-for this wasn't initially the stellar
+for this wasn't initially the Stellar
+for this wasn't initially the Stellar
+for this wasn't initially the Stellar
 developers. We once we actually
 developers. We once we actually
 developers. We once we actually

@@ -1,8 +1,8 @@
 Hello and welcome everyone to this
 Hello and welcome everyone to this
-week's Stellar developer meeting. We are
-week's Stellar developer meeting. We are
-week's Stellar developer meeting. We are
+week's Stellar Developer Meeting. We are
+week's Stellar Developer Meeting. We are
+week's Stellar Developer Meeting. We are
 finally back again after Meridian and
 finally back again after Meridian and
 finally back again after Meridian and
@@ -171,12 +171,12 @@ new contract UI screen. And all you have
 to do is just go ahead and select the
 to do is just go ahead and select the
 to do is just go ahead and select the
-stellar tab. And then you select
-stellar tab. And then you select
-stellar tab. And then you select
-stellar test net or mainet. So I'm going
-stellar test net or mainet. So I'm going
-stellar test net or mainet. So I'm going
+Stellar tab. And then you select
+Stellar tab. And then you select
+Stellar tab. And then you select
+Stellar test net or mainet. So I'm going
+Stellar test net or mainet. So I'm going
+Stellar test net or mainet. So I'm going
 to click test net right now. And from
 to click test net right now. And from
 to click test net right now. And from
@@ -186,9 +186,9 @@ here we just go ahead and paste in a
 contract ID. it does work with both
 contract ID. it does work with both
 contract ID. it does work with both
-WASM and stellar asset contracts. The
-WASM and stellar asset contracts. The
-WASM and stellar asset contracts. The
+WASM and Stellar asset contracts. The
+WASM and Stellar asset contracts. The
+WASM and Stellar asset contracts. The
 main difference is that these will pull
 main difference is that these will pull
 main difference is that these will pull
@@ -243,9 +243,9 @@ know, possible interactions. And we're
 pulling that directly from
 pulling that directly from
 pulling that directly from
-stellar.expert.
-stellar.expert.
-stellar.expert.
+Stellar.expert.
+Stellar.expert.
+Stellar.expert.
 Really cool. And so, from here, we can
 Really cool. And so, from here, we can
 Really cool. And so, from here, we can
@@ -372,9 +372,9 @@ automate certain things and you can do
 things like gasless transactions. It has
 things like gasless transactions. It has
 things like gasless transactions. It has
-full stellar network support. So it's
-full stellar network support. So it's
-full stellar network support. So it's
+full Stellar network support. So it's
+full Stellar network support. So it's
+full Stellar network support. So it's
 really really cool stuff. Would highly
 really really cool stuff. Would highly
 really really cool stuff. Would highly
@@ -411,9 +411,9 @@ accounts connected here. I could
 disconnect. but if you wanted to, you
 disconnect. but if you wanted to, you
 disconnect. but if you wanted to, you
-could also use the stellar walts kit.
-could also use the stellar walts kit.
-could also use the stellar walts kit.
+could also use the Stellar walts kit.
+could also use the Stellar walts kit.
+could also use the Stellar walts kit.
 And so you'll have, you know, a
 And so you'll have, you know, a
 And so you'll have, you know, a

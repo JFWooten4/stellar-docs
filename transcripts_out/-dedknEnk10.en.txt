@@ -4,7 +4,7 @@ to project jump cannon so it's a future
 protocol upgrade these changes would
 be included in it and project canon
 is aims to bring smart contracts to
-stellar we've actually modularized a lot
+Stellar we've actually modularized a lot
 of these changes and so there's a whole
 slew of caps that are related to jump
 cannon caps 46 through 53.
@@ -13,7 +13,7 @@ discussion if you want to follow along i
 urge you to take a look at those caps if
 you're interested in joining the
 discussion I urge you to join the
-stellar dev mailing list and if you want
+Stellar dev mailing list and if you want
 to also follow along with jump cannon
 development more generally
 you can do so here
@@ -111,7 +111,7 @@ which there is already a plan for but
 yeah just calling that out
 yeah it's implemented in c plus plus 20
 so either
-we can move stellar coordinates equals
+we can move Stellar coordinates equals
 plus 20 or we can back port it to c plus
 17.
 yeah that's a so somewhat bigger kettle
@@ -638,19 +638,19 @@ you know various bridging solutions
 so I think that's a very extreme
 version which is no interop at all
 and it basically means that we're not
-taking advantage of the existing stellar
+taking advantage of the existing Stellar
 ecosystem at all but it's extremely
 simple we just don't need to think about
 legacy interop at all
 I think on the other extreme side of
 interop you have full interop with every
 primitive
-on the current stellar network so you
+on the current Stellar network so you
 can do things like interrupt between
 smart contracts and amms and the order
 book and
 sponsorships and and like the wide
-everything that stellar
+everything that Stellar
 proposes and that
 you know is great for like supporting
 legacy but it's also terrible because it
@@ -793,7 +793,7 @@ example
 you know they're a fairly novel
 concept and for the most part aside from
 you know a small set of like super
-specific stellar wallets it we we
+specific Stellar wallets it we we
 haven't even seen support for them
 and with major service providers
 so it's worth you know when I'm when
@@ -835,7 +835,7 @@ you say like exchanges don't need to
 make sure well like exchanges today
 don't most many exchanges don't support
 any
-stellar assets other than lumen
+Stellar assets other than lumen
 so like why is that relevant in that
 conversation it's relevant because of
 usdc it's relevant because there is a
@@ -898,7 +898,7 @@ and then you have others that are very
 conservative and going to be slow
 and I think that's why for example i
 think we don't have still
-usdc on coinbase I think right stellar
+usdc on coinbase I think right Stellar
 usdc
 coinbase
 according to foreign sources doesn't
@@ -925,7 +925,7 @@ changes and the service providers as
 well like folks like bitcoin fire blocks
 right and right now
 is you know the way that you issue
-assets on stellar
+assets on Stellar
 you know the actual distribution is
 just regular payments right
 so
@@ -1037,9 +1037,9 @@ with
 with implementation but we will
 see these assets but but I mean I guess
 I mean put another way like when I talk
-to people who are using stellar right
+to people who are using Stellar right
 it's it's it's often kind of two things
-that draw them stellar like sort of the
+that draw them Stellar like sort of the
 the perception of like high quality
 assets and low transaction fees
 and so if like those are the strengths
@@ -1132,7 +1132,7 @@ actually innovate all that much with
 assets
 and like I guess my question to you
 is like can we make those like canonical
-assets on stellar be the existing
+assets on Stellar be the existing
 assets
 maybe
 I mean I think you'd be making a lot of
@@ -1342,8 +1342,8 @@ also if you want to participate in the
 discussion or you want to follow along
 please make sure to read the caps please
 join the jump cannon channels here in
-the stellar discord and also sign up for
-the stellar dev mailing list where a lot
+the Stellar discord and also sign up for
+the Stellar dev mailing list where a lot
 of these discussions will continue
 asynchronously
 and we will see you back here next week

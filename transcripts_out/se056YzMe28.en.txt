@@ -1,5 +1,5 @@
-hello and welcome to the stellar open
-hello and welcome to the stellar open
+hello and welcome to the Stellar open
+hello and welcome to the Stellar open
 protocol discussion
 protocol discussion
 protocol discussion
@@ -12,9 +12,9 @@ core advancement proposals aka caps
 which are technical specs that suggest
 which are technical specs that suggest
 which are technical specs that suggest
-changes to the stellar protocol they're
-changes to the stellar protocol they're
-changes to the stellar protocol they're
+changes to the Stellar protocol they're
+changes to the Stellar protocol they're
+changes to the Stellar protocol they're
 necessary to allow the protocol to
 necessary to allow the protocol to
 necessary to allow the protocol to
@@ -330,9 +330,9 @@ and this is actually true in all
 networks like it's not actually a
 networks like it's not actually a
 networks like it's not actually a
-stellar specific type of problem
-stellar specific type of problem
-stellar specific type of problem
+Stellar specific type of problem
+Stellar specific type of problem
+Stellar specific type of problem
 there has been discussions in the past
 there has been discussions in the past
 there has been discussions in the past
@@ -1503,9 +1503,9 @@ groundwork for things like speedx and
 smart contracts and stuff to coexist
 smart contracts and stuff to coexist
 smart contracts and stuff to coexist
-with the legacy stellar transaction
-with the legacy stellar transaction
-with the legacy stellar transaction
+with the legacy Stellar transaction
+with the legacy Stellar transaction
+with the legacy Stellar transaction
 format
 format
 format
@@ -1590,9 +1590,9 @@ that we want to be able to kind of
 unilaterally update like update
 unilaterally update like update
 unilaterally update like update
-stellar core without going through the
-stellar core without going through the
-stellar core without going through the
+Stellar core without going through the
+Stellar core without going through the
+Stellar core without going through the
 transaction layer or like you know
 transaction layer or like you know
 transaction layer or like you know
@@ -4170,9 +4170,9 @@ configuration
 
 
 
-some way of configuring stellar core to
-some way of configuring stellar core to
-some way of configuring stellar core to
+some way of configuring Stellar core to
+some way of configuring Stellar core to
+some way of configuring Stellar core to
 say like which transactions we think are
 say like which transactions we think are
 say like which transactions we think are
@@ -4320,9 +4320,9 @@ config file that people deploy I thought
 it would be more of a
 it would be more of a
 it would be more of a
-you make actual changes to stellar call
-you make actual changes to stellar call
-you make actual changes to stellar call
+you make actual changes to Stellar call
+you make actual changes to Stellar call
+you make actual changes to Stellar call
 and then those things get
 and then those things get
 and then those things get
@@ -4341,9 +4341,9 @@ it's it gets a lot more complicated
 in terms of I mean I really changing
 in terms of I mean I really changing
 in terms of I mean I really changing
-stellar
-stellar
-stellar
+Stellar
+Stellar
+Stellar
 changing consensus of course is is
 changing consensus of course is is
 changing consensus of course is is
@@ -4356,9 +4356,9 @@ hey you know because of this thing like
 please compile the you know this latest
 please compile the you know this latest
 please compile the you know this latest
-version of stellar core which is still
-version of stellar core which is still
-version of stellar core which is still
+version of Stellar core which is still
+version of Stellar core which is still
+version of Stellar core which is still
 the same protocol version but that's
 the same protocol version but that's
 the same protocol version but that's
@@ -4572,9 +4572,9 @@ concrete thing of like places where this
 would be useful and how it would work in
 would be useful and how it would work in
 would be useful and how it would work in
-stellar core
-stellar core
-stellar core
+Stellar core
+Stellar core
+Stellar core
 and once we have that I think it'd be
 and once we have that I think it'd be
 and once we have that I think it'd be
@@ -4692,9 +4692,9 @@ don't know and that's what I mean by the
 concrete thing like let's just say like
 concrete thing like let's just say like
 concrete thing like let's just say like
-here's what stellar core could do here's
-here's what stellar core could do here's
-here's what stellar core could do here's
+here's what Stellar core could do here's
+here's what Stellar core could do here's
+here's what Stellar core could do here's
 a couple of scenarios in which the
 a couple of scenarios in which the
 a couple of scenarios in which the
@@ -4734,9 +4734,9 @@ and I want but I also want to
 maybe know like how this would be
 maybe know like how this would be
 maybe know like how this would be
-implemented in stellar core like again
-implemented in stellar core like again
-implemented in stellar core like again
+implemented in Stellar core like again
+implemented in Stellar core like again
+implemented in Stellar core like again
 like config file change to siebel's plus
 like config file change to siebel's plus
 like config file change to siebel's plus

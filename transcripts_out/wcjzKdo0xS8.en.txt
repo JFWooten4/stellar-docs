@@ -1,8 +1,8 @@
 foreign
 foreign
 
-welcome to the stellar open protocol
-welcome to the stellar open protocol
+welcome to the Stellar open protocol
+welcome to the Stellar open protocol
 discussion in these meetings we
 discussion in these meetings we
 discussion in these meetings we
@@ -12,9 +12,9 @@ discuss core advancement proposals aka
 caps these are technical specs that
 caps these are technical specs that
 caps these are technical specs that
-suggest changes to the stellar protocol
-suggest changes to the stellar protocol
-suggest changes to the stellar protocol
+suggest changes to the Stellar protocol
+suggest changes to the Stellar protocol
+suggest changes to the Stellar protocol
 necessary to allow that protocol to
 necessary to allow that protocol to
 necessary to allow that protocol to
@@ -93,9 +93,9 @@ basically the end of its life cycle that
 life cycle started with the discussion
 life cycle started with the discussion
 life cycle started with the discussion
-on the stellar dev mailing list and
-on the stellar dev mailing list and
-on the stellar dev mailing list and
+on the Stellar dev mailing list and
+on the Stellar dev mailing list and
+on the Stellar dev mailing list and
 there's a link to that mailing list in
 there's a link to that mailing list in
 there's a link to that mailing list in
@@ -129,9 +129,9 @@ one-week final comment period and then
 it got through that period it was
 it got through that period it was
 it got through that period it was
-implemented in a major stellar core
-implemented in a major stellar core
-implemented in a major stellar core
+implemented in a major Stellar core
+implemented in a major Stellar core
+implemented in a major Stellar core
 release
 release
 release
@@ -159,18 +159,18 @@ is currently scheduled for november 3rd
 before that day anyone and everyone who
 before that day anyone and everyone who
 before that day anyone and everyone who
-builds on stellar needs to install new
-builds on stellar needs to install new
-builds on stellar needs to install new
-versions of any stellar related software
-versions of any stellar related software
-versions of any stellar related software
-they rely on including stellar core
-they rely on including stellar core
-they rely on including stellar core
-horizon also including all the stellar
-horizon also including all the stellar
-horizon also including all the stellar
+builds on Stellar needs to install new
+builds on Stellar needs to install new
+builds on Stellar needs to install new
+versions of any Stellar related software
+versions of any Stellar related software
+versions of any Stellar related software
+they rely on including Stellar core
+they rely on including Stellar core
+they rely on including Stellar core
+horizon also including all the Stellar
+horizon also including all the Stellar
+horizon also including all the Stellar
 sdks there are breaking changes in
 sdks there are breaking changes in
 sdks there are breaking changes in
@@ -189,9 +189,9 @@ you're watching this you haven't already
 please make sure to update all your
 please make sure to update all your
 please make sure to update all your
-stellar related software content okay
-stellar related software content okay
-stellar related software content okay
+Stellar related software content okay
+Stellar related software content okay
+Stellar related software content okay
 enough preamble today we're returning
 enough preamble today we're returning
 enough preamble today we're returning
@@ -249,9 +249,9 @@ path payment operations which is pretty
 neat because it automatically gives
 neat because it automatically gives
 neat because it automatically gives
-applications built on stellar access to
-applications built on stellar access to
-applications built on stellar access to
+applications built on Stellar access to
+applications built on Stellar access to
+applications built on Stellar access to
 this new source of liquidity
 this new source of liquidity
 this new source of liquidity
@@ -261,9 +261,9 @@ it also means that liquidity pools
 benefit from real-world cross-border
 benefit from real-world cross-border
 benefit from real-world cross-border
-payments and stellar is the first layer
-payments and stellar is the first layer
-payments and stellar is the first layer
+payments and Stellar is the first layer
+payments and Stellar is the first layer
+payments and Stellar is the first layer
 one blockchain to incorporate a m
 one blockchain to incorporate a m
 one blockchain to incorporate a m
@@ -585,9 +585,9 @@ expect in different scenarios
 and we'll have to maintain both in
 and we'll have to maintain both in
 and we'll have to maintain both in
-stellar core so it's like all the bad
-stellar core so it's like all the bad
-stellar core so it's like all the bad
+Stellar core so it's like all the bad
+Stellar core so it's like all the bad
+Stellar core so it's like all the bad
 and none of the good
 and none of the good
 and none of the good
@@ -621,9 +621,9 @@ and a few other like very specifically
 written downstream tools like like
 written downstream tools like like
 written downstream tools like like
-stellar expert
-stellar expert
-stellar expert
+Stellar expert
+Stellar expert
+Stellar expert
 that were doing things like that
 that were doing things like that
 that were doing things like that

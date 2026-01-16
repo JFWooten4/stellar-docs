@@ -1,5 +1,5 @@
-hi everyone welcome to the stellar
-hi everyone welcome to the stellar
+hi everyone welcome to the Stellar
+hi everyone welcome to the Stellar
 development foundations engineering talk
 development foundations engineering talk
 development foundations engineering talk
@@ -15,15 +15,15 @@ I'm one of the people working on
 improving the experience that
 improving the experience that
 improving the experience that
-individuals have using stellar and the
-individuals have using stellar and the
-individuals have using stellar and the
+individuals have using Stellar and the
+individuals have using Stellar and the
+individuals have using Stellar and the
 businesses have building on still and
 businesses have building on still and
 businesses have building on still and
-today I'm talking about stellar
-today I'm talking about stellar
-today I'm talking about stellar
+today I'm talking about Stellar
+today I'm talking about Stellar
+today I'm talking about Stellar
 ecosystem proposal 30 sep 30 is an
 ecosystem proposal 30 sep 30 is an
 ecosystem proposal 30 sep 30 is an
@@ -33,9 +33,9 @@ approach to make still a key management
 user-friendly in products built on
 user-friendly in products built on
 user-friendly in products built on
-stellar
-stellar
-stellar
+Stellar
+Stellar
+Stellar
 so a user friendly team andr is maybe a
 so a user friendly team andr is maybe a
 so a user friendly team andr is maybe a
@@ -54,18 +54,18 @@ talk about today first I'm going to set
 some context and touch on what key
 some context and touch on what key
 some context and touch on what key
-management looks like on the stellar
-management looks like on the stellar
-management looks like on the stellar
+management looks like on the Stellar
+management looks like on the Stellar
+management looks like on the Stellar
 network how key management relates to
 network how key management relates to
 network how key management relates to
 Louis and then some common approaches
 Louis and then some common approaches
 Louis and then some common approaches
-that while it's take in the stellar
-that while it's take in the stellar
-that while it's take in the stellar
+that while it's take in the Stellar
+that while it's take in the Stellar
+that while it's take in the Stellar
 ecosystem and in the blockchain space in
 ecosystem and in the blockchain space in
 ecosystem and in the blockchain space in
@@ -99,15 +99,15 @@ at the end so what is key management and
 why do we care at the core of owning a
 why do we care at the core of owning a
 why do we care at the core of owning a
-stellar account or an account on many
-stellar account or an account on many
-stellar account or an account on many
+Stellar account or an account on many
+Stellar account or an account on many
+Stellar account or an account on many
 blockchains is being in possession of a
 blockchains is being in possession of a
 blockchains is being in possession of a
-key on the stellar network if you have
-key on the stellar network if you have
-key on the stellar network if you have
+key on the Stellar network if you have
+key on the Stellar network if you have
+key on the Stellar network if you have
 an account you have a key for that
 an account you have a key for that
 an account you have a key for that
@@ -126,9 +126,9 @@ this is an example of what the public
 key looks like and what a public key
 key looks like and what a public key
 key looks like and what a public key
-looks like on the stellar network it
-looks like on the stellar network it
-looks like on the stellar network it
+looks like on the Stellar network it
+looks like on the Stellar network it
+looks like on the Stellar network it
 starts with the G the public key is your
 starts with the G the public key is your
 starts with the G the public key is your
@@ -144,9 +144,9 @@ they'll show up in your account balance
 and this is what a secret key looks like
 and this is what a secret key looks like
 and this is what a secret key looks like
-it starts with an S on the stellar
-it starts with an S on the stellar
-it starts with an S on the stellar
+it starts with an S on the Stellar
+it starts with an S on the Stellar
+it starts with an S on the Stellar
 network we call the secret key that
 network we call the secret key that
 network we call the secret key that
@@ -171,15 +171,15 @@ you use to control your account so what
 do we mean by signed transactions
 do we mean by signed transactions
 do we mean by signed transactions
-stellar accounts have silenced a signer
-stellar accounts have silenced a signer
-stellar accounts have silenced a signer
+Stellar accounts have silenced a signer
+Stellar accounts have silenced a signer
+Stellar accounts have silenced a signer
 is a key that can authorize transactions
 is a key that can authorize transactions
 is a key that can authorize transactions
-for a stellar account and the master key
-for a stellar account and the master key
-for a stellar account and the master key
+for a Stellar account and the master key
+for a Stellar account and the master key
+for a Stellar account and the master key
 it's the default signer of the account
 it's the default signer of the account
 it's the default signer of the account
@@ -222,9 +222,9 @@ to let signers authorize transactions
 individually or together in a group on
 individually or together in a group on
 individually or together in a group on
-stellar that configuration for what
-stellar that configuration for what
-stellar that configuration for what
+Stellar that configuration for what
+Stellar that configuration for what
+Stellar that configuration for what
 combinations of signers are required to
 combinations of signers are required to
 combinations of signers are required to
@@ -468,9 +468,9 @@ that master King so let's talk about the
 approach that sub 30 takes sep 30
 approach that sub 30 takes sep 30
 approach that sub 30 takes sep 30
-recovery signer is a stellar ecosystem
-recovery signer is a stellar ecosystem
-recovery signer is a stellar ecosystem
+recovery signer is a Stellar ecosystem
+recovery signer is a Stellar ecosystem
+recovery signer is a Stellar ecosystem
 proposal that means it's a proposal that
 proposal that means it's a proposal that
 proposal that means it's a proposal that
@@ -480,12 +480,12 @@ contains a new standard or a change to
 existing standards that is build on top
 existing standards that is build on top
 existing standards that is build on top
-of the stellar network and for use in
-of the stellar network and for use in
-of the stellar network and for use in
-the stellar ecosystem sep 30 is an
-the stellar ecosystem sep 30 is an
-the stellar ecosystem sep 30 is an
+of the Stellar network and for use in
+of the Stellar network and for use in
+of the Stellar network and for use in
+the Stellar ecosystem sep 30 is an
+the Stellar ecosystem sep 30 is an
+the Stellar ecosystem sep 30 is an
 approach to key management that's
 approach to key management that's
 approach to key management that's
@@ -525,9 +525,9 @@ wallet which is a noncustodial u US
 dollar saving wallet the store's value
 dollar saving wallet the store's value
 dollar saving wallet the store's value
-on the stellar network the vibram wallet
-on the stellar network the vibram wallet
-on the stellar network the vibram wallet
+on the Stellar network the vibram wallet
+on the Stellar network the vibram wallet
+on the Stellar network the vibram wallet
 is currently in open beta and presents a
 is currently in open beta and presents a
 is currently in open beta and presents a
@@ -576,9 +576,9 @@ instead the wild
 manage device keys and help the user to
 manage device keys and help the user to
 manage device keys and help the user to
-get new keys the user stellar account
-get new keys the user stellar account
-get new keys the user stellar account
+get new keys the user Stellar account
+get new keys the user Stellar account
+get new keys the user Stellar account
 won't change its address will stay the
 won't change its address will stay the
 won't change its address will stay the
@@ -624,9 +624,9 @@ number or an email address the wallet
 authenticates using septum which is a
 authenticates using septum which is a
 authenticates using septum which is a
-stellar eco system proposal that's
-stellar eco system proposal that's
-stellar eco system proposal that's
+Stellar eco system proposal that's
+Stellar eco system proposal that's
+Stellar eco system proposal that's
 widely used already that defines a
 widely used already that defines a
 widely used already that defines a
@@ -660,9 +660,9 @@ gets back a signing address for the
 server and it makes that address a
 server and it makes that address a
 server and it makes that address a
-signer of the stellar account the second
-signer of the stellar account the second
-signer of the stellar account the second
+signer of the Stellar account the second
+signer of the Stellar account the second
+signer of the Stellar account the second
 endpoint is transaction signing a wallet
 endpoint is transaction signing a wallet
 endpoint is transaction signing a wallet
@@ -1110,9 +1110,9 @@ quickly revoked by removing its key as a
 signer without needing to get a new
 signer without needing to get a new
 signer without needing to get a new
-stellar account and when Alice decides
-stellar account and when Alice decides
-stellar account and when Alice decides
+Stellar account and when Alice decides
+Stellar account and when Alice decides
+Stellar account and when Alice decides
 to purchase a new watch it can be given
 to purchase a new watch it can be given
 to purchase a new watch it can be given
@@ -1140,9 +1140,9 @@ so if you'd like to learn more about sep
 minute read and there's a thread on the
 minute read and there's a thread on the
 minute read and there's a thread on the
-stellar dev mailing lift without mailing
-stellar dev mailing lift without mailing
-stellar dev mailing lift without mailing
+Stellar dev mailing lift without mailing
+Stellar dev mailing lift without mailing
+Stellar dev mailing lift without mailing
 lists where you can ask questions
 lists where you can ask questions
 lists where you can ask questions

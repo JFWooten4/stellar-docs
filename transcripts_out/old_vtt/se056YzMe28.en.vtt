@@ -4,14 +4,14 @@ Language: en
 
 00:00:02.399 --> 00:00:04.630 align:start position:0%
 
-hello<00:00:02.720><c> and</c><00:00:02.879><c> welcome</c><00:00:03.439><c> to</c><00:00:03.760><c> the</c><00:00:03.919><c> stellar</c><00:00:04.400><c> open</c>
+hello<00:00:02.720><c> and</c><00:00:02.879><c> welcome</c><00:00:03.439><c> to</c><00:00:03.760><c> the</c><00:00:03.919><c> Stellar</c><00:00:04.400><c> open</c>
 
 00:00:04.630 --> 00:00:04.640 align:start position:0%
-hello and welcome to the stellar open
+hello and welcome to the Stellar open
 
 
 00:00:04.640 --> 00:00:07.909 align:start position:0%
-hello and welcome to the stellar open
+hello and welcome to the Stellar open
 protocol<00:00:05.120><c> discussion</c><00:00:05.839><c></c>
 
 00:00:07.909 --> 00:00:07.919 align:start position:0%
@@ -44,14 +44,14 @@ which are technical specs that suggest
 
 00:00:14.080 --> 00:00:16.070 align:start position:0%
 which are technical specs that suggest
-changes<00:00:14.480><c> to</c><00:00:14.559><c> the</c><00:00:14.719><c> stellar</c><00:00:15.040><c> protocol</c><00:00:15.839><c> they're</c>
+changes<00:00:14.480><c> to</c><00:00:14.559><c> the</c><00:00:14.719><c> Stellar</c><00:00:15.040><c> protocol</c><00:00:15.839><c> they're</c>
 
 00:00:16.070 --> 00:00:16.080 align:start position:0%
-changes to the stellar protocol they're
+changes to the Stellar protocol they're
 
 
 00:00:16.080 --> 00:00:17.750 align:start position:0%
-changes to the stellar protocol they're
+changes to the Stellar protocol they're
 necessary<00:00:16.640><c> to</c><00:00:16.720><c> allow</c><00:00:16.960><c> the</c><00:00:17.119><c> protocol</c><00:00:17.600><c> to</c>
 
 00:00:17.750 --> 00:00:17.760 align:start position:0%
@@ -892,14 +892,14 @@ networks like it's not actually a
 
 00:03:57.280 --> 00:03:59.750 align:start position:0%
 networks like it's not actually a
-stellar<00:03:57.680><c> specific</c><00:03:58.159><c> type</c><00:03:58.400><c> of</c><00:03:58.560><c> problem</c>
+Stellar<00:03:57.680><c> specific</c><00:03:58.159><c> type</c><00:03:58.400><c> of</c><00:03:58.560><c> problem</c>
 
 00:03:59.750 --> 00:03:59.760 align:start position:0%
-stellar specific type of problem
+Stellar specific type of problem
 
 
 00:03:59.760 --> 00:04:01.350 align:start position:0%
-stellar specific type of problem
+Stellar specific type of problem
 there<00:03:59.920><c> has</c><00:04:00.080><c> been</c><00:04:00.319><c> discussions</c><00:04:00.879><c> in</c><00:04:01.040><c> the</c><00:04:01.120><c> past</c>
 
 00:04:01.350 --> 00:04:01.360 align:start position:0%
@@ -4092,14 +4092,14 @@ smart contracts and stuff to coexist
 
 00:17:22.000 --> 00:17:24.549 align:start position:0%
 smart contracts and stuff to coexist
-with<00:17:22.160><c> the</c><00:17:22.720><c> legacy</c><00:17:23.600><c> stellar</c><00:17:24.000><c> transaction</c>
+with<00:17:22.160><c> the</c><00:17:22.720><c> legacy</c><00:17:23.600><c> Stellar</c><00:17:24.000><c> transaction</c>
 
 00:17:24.549 --> 00:17:24.559 align:start position:0%
-with the legacy stellar transaction
+with the legacy Stellar transaction
 
 
 00:17:24.559 --> 00:17:26.549 align:start position:0%
-with the legacy stellar transaction
+with the legacy Stellar transaction
 format<00:17:25.520><c></c>
 
 00:17:26.549 --> 00:17:26.559 align:start position:0%
@@ -4340,14 +4340,14 @@ unilaterally update like update
 
 00:18:34.160 --> 00:18:35.750 align:start position:0%
 unilaterally update like update
-stellar<00:18:34.559><c> core</c><00:18:34.799><c> without</c><00:18:35.039><c> going</c><00:18:35.200><c> through</c><00:18:35.360><c> the</c>
+Stellar<00:18:34.559><c> core</c><00:18:34.799><c> without</c><00:18:35.039><c> going</c><00:18:35.200><c> through</c><00:18:35.360><c> the</c>
 
 00:18:35.750 --> 00:18:35.760 align:start position:0%
-stellar core without going through the
+Stellar core without going through the
 
 
 00:18:35.760 --> 00:18:37.350 align:start position:0%
-stellar core without going through the
+Stellar core without going through the
 transaction<00:18:36.240><c> layer</c><00:18:36.480><c> or</c><00:18:36.640><c> like</c><00:18:36.799><c> you</c><00:18:36.880><c> know</c>
 
 00:18:37.350 --> 00:18:37.360 align:start position:0%
@@ -11540,14 +11540,14 @@ configuration
 
 00:50:04.800 --> 00:50:06.390 align:start position:0%
 
-some<00:50:04.960><c> way</c><00:50:05.119><c> of</c><00:50:05.200><c> configuring</c><00:50:05.680><c> stellar</c><00:50:06.000><c> core</c><00:50:06.240><c> to</c>
+some<00:50:04.960><c> way</c><00:50:05.119><c> of</c><00:50:05.200><c> configuring</c><00:50:05.680><c> Stellar</c><00:50:06.000><c> core</c><00:50:06.240><c> to</c>
 
 00:50:06.390 --> 00:50:06.400 align:start position:0%
-some way of configuring stellar core to
+some way of configuring Stellar core to
 
 
 00:50:06.400 --> 00:50:08.230 align:start position:0%
-some way of configuring stellar core to
+some way of configuring Stellar core to
 say<00:50:06.559><c> like</c><00:50:06.720><c> which</c><00:50:06.960><c> transactions</c><00:50:07.680><c> we</c><00:50:07.839><c> think</c><00:50:08.079><c> are</c>
 
 00:50:08.230 --> 00:50:08.240 align:start position:0%
@@ -11940,14 +11940,14 @@ it would be more of a
 
 00:51:34.559 --> 00:51:36.790 align:start position:0%
 it would be more of a
-you<00:51:34.720><c> make</c><00:51:34.960><c> actual</c><00:51:35.440><c> changes</c><00:51:35.920><c> to</c><00:51:36.079><c> stellar</c><00:51:36.480><c> call</c>
+you<00:51:34.720><c> make</c><00:51:34.960><c> actual</c><00:51:35.440><c> changes</c><00:51:35.920><c> to</c><00:51:36.079><c> Stellar</c><00:51:36.480><c> call</c>
 
 00:51:36.790 --> 00:51:36.800 align:start position:0%
-you make actual changes to stellar call
+you make actual changes to Stellar call
 
 
 00:51:36.800 --> 00:51:39.990 align:start position:0%
-you make actual changes to stellar call
+you make actual changes to Stellar call
 and<00:51:36.880><c> then</c><00:51:37.520><c></c><00:51:37.920><c> those</c><00:51:38.160><c> things</c><00:51:38.480><c> get</c>
 
 00:51:39.990 --> 00:51:40.000 align:start position:0%
@@ -11996,14 +11996,14 @@ in terms of I mean I really changing
 
 00:51:52.160 --> 00:51:53.589 align:start position:0%
 in terms of I mean I really changing
-stellar
+Stellar
 
 00:51:53.589 --> 00:51:53.599 align:start position:0%
-stellar
+Stellar
 
 
 00:51:53.599 --> 00:51:55.510 align:start position:0%
-stellar
+Stellar
 changing<00:51:54.000><c> consensus</c><00:51:54.640><c> of</c><00:51:54.720><c> course</c><00:51:55.040><c> is</c><00:51:55.359><c> is</c>
 
 00:51:55.510 --> 00:51:55.520 align:start position:0%
@@ -12036,14 +12036,14 @@ please compile the you know this latest
 
 00:52:02.079 --> 00:52:03.510 align:start position:0%
 please compile the you know this latest
-version<00:52:02.319><c> of</c><00:52:02.400><c> stellar</c><00:52:02.800><c> core</c><00:52:03.040><c> which</c><00:52:03.200><c> is</c><00:52:03.359><c> still</c>
+version<00:52:02.319><c> of</c><00:52:02.400><c> Stellar</c><00:52:02.800><c> core</c><00:52:03.040><c> which</c><00:52:03.200><c> is</c><00:52:03.359><c> still</c>
 
 00:52:03.510 --> 00:52:03.520 align:start position:0%
-version of stellar core which is still
+version of Stellar core which is still
 
 
 00:52:03.520 --> 00:52:05.349 align:start position:0%
-version of stellar core which is still
+version of Stellar core which is still
 the<00:52:03.599><c> same</c><00:52:03.839><c> protocol</c><00:52:04.400><c> version</c><00:52:04.960><c> but</c><00:52:05.119><c> that's</c>
 
 00:52:05.349 --> 00:52:05.359 align:start position:0%
@@ -12636,14 +12636,14 @@ would be useful and how it would work in
 
 00:54:43.839 --> 00:54:45.109 align:start position:0%
 would be useful and how it would work in
-stellar<00:54:44.240><c> core</c>
+Stellar<00:54:44.240><c> core</c>
 
 00:54:45.109 --> 00:54:45.119 align:start position:0%
-stellar core
+Stellar core
 
 
 00:54:45.119 --> 00:54:47.190 align:start position:0%
-stellar core
+Stellar core
 and<00:54:45.280><c> once</c><00:54:45.599><c> we</c><00:54:45.680><c> have</c><00:54:45.839><c> that</c><00:54:46.000><c> i</c><00:54:46.079><c> think</c><00:54:46.240><c> it'd</c><00:54:46.480><c> be</c>
 
 00:54:47.190 --> 00:54:47.200 align:start position:0%
@@ -12964,14 +12964,14 @@ concrete thing like let's just say like
 
 00:56:00.720 --> 00:56:02.390 align:start position:0%
 concrete thing like let's just say like
-here's<00:56:00.960><c> what</c><00:56:01.119><c> stellar</c><00:56:01.440><c> core</c><00:56:01.599><c> could</c><00:56:01.760><c> do</c><00:56:02.160><c> here's</c>
+here's<00:56:00.960><c> what</c><00:56:01.119><c> Stellar</c><00:56:01.440><c> core</c><00:56:01.599><c> could</c><00:56:01.760><c> do</c><00:56:02.160><c> here's</c>
 
 00:56:02.390 --> 00:56:02.400 align:start position:0%
-here's what stellar core could do here's
+here's what Stellar core could do here's
 
 
 00:56:02.400 --> 00:56:03.750 align:start position:0%
-here's what stellar core could do here's
+here's what Stellar core could do here's
 a<00:56:02.480><c> couple</c><00:56:02.720><c> of</c><00:56:02.799><c> scenarios</c><00:56:03.359><c> in</c><00:56:03.440><c> which</c><00:56:03.599><c> the</c>
 
 00:56:03.750 --> 00:56:03.760 align:start position:0%
@@ -13076,14 +13076,14 @@ maybe know like how this would be
 
 00:56:30.240 --> 00:56:32.150 align:start position:0%
 maybe know like how this would be
-implemented<00:56:30.720><c> in</c><00:56:30.880><c> stellar</c><00:56:31.280><c> core</c><00:56:31.680><c> like</c><00:56:31.839><c> again</c>
+implemented<00:56:30.720><c> in</c><00:56:30.880><c> Stellar</c><00:56:31.280><c> core</c><00:56:31.680><c> like</c><00:56:31.839><c> again</c>
 
 00:56:32.150 --> 00:56:32.160 align:start position:0%
-implemented in stellar core like again
+implemented in Stellar core like again
 
 
 00:56:32.160 --> 00:56:34.630 align:start position:0%
-implemented in stellar core like again
+implemented in Stellar core like again
 like<00:56:32.640><c> config</c><00:56:33.119><c> file</c><00:56:33.440><c> change</c><00:56:33.760><c> to</c><00:56:33.839><c> siebel's</c><00:56:34.240><c> plus</c>
 
 00:56:34.630 --> 00:56:34.640 align:start position:0%

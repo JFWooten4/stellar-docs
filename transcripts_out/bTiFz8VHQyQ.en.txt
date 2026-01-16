@@ -2103,9 +2103,9 @@ automatically I'm not sure if the
 approach other approach or is centers
 approach other approach or is centers
 approach other approach or is centers
-and sorban is sources because
-and sorban is sources because
-and sorban is sources because
+and Soroban is sources because
+and Soroban is sources because
+and Soroban is sources because
 creates some new interactions in classic
 creates some new interactions in classic
 creates some new interactions in classic
@@ -2172,9 +2172,9 @@ anything. and the the issue is
 basically that when you're doing
 basically that when you're doing
 basically that when you're doing
-contract operations in sorban you cannot
-contract operations in sorban you cannot
-contract operations in sorban you cannot
+contract operations in Soroban you cannot
+contract operations in Soroban you cannot
+contract operations in Soroban you cannot
 create new balances for the G account
 create new balances for the G account
 create new balances for the G account

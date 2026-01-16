@@ -39,9 +39,9 @@ on B2 BM 52 BN254 and adding native
 support for it will make it easier to
 support for it will make it easier to
 support for it will make it easier to
-implement those use cases on stellar.
-implement those use cases on stellar.
-implement those use cases on stellar.
+implement those use cases on Stellar.
+implement those use cases on Stellar.
+implement those use cases on Stellar.
 The other option would be to adapt those
 The other option would be to adapt those
 The other option would be to adapt those
@@ -627,9 +627,9 @@ parameter we choose is compatible with a
 major that wants whether we wanted to
 major that wants whether we wanted to
 major that wants whether we wanted to
-migrate to stellar with so that's number
-migrate to stellar with so that's number
-migrate to stellar with so that's number
+migrate to Stellar with so that's number
+migrate to Stellar with so that's number
+migrate to Stellar with so that's number
 one number two is to expose the
 one number two is to expose the
 one number two is to expose the

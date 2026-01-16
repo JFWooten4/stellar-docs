@@ -1,8 +1,8 @@
 my name is Lisa Nestor and I work on our
 my name is Lisa Nestor and I work on our
-ecosystem strategy team at the stellar
-ecosystem strategy team at the stellar
-ecosystem strategy team at the stellar
+ecosystem strategy team at the Stellar
+ecosystem strategy team at the Stellar
+ecosystem strategy team at the Stellar
 Development Foundation and I will be
 Development Foundation and I will be
 Development Foundation and I will be
@@ -36,12 +36,12 @@ love to give just a little bit of
 background on what a SEP is this is a
 background on what a SEP is this is a
 background on what a SEP is this is a
-stellar native term and so SEP stands
-stellar native term and so SEP stands
-stellar native term and so SEP stands
-for stellar ecosystem proposal so steps
-for stellar ecosystem proposal so steps
-for stellar ecosystem proposal so steps
+Stellar native term and so SEP stands
+Stellar native term and so SEP stands
+Stellar native term and so SEP stands
+for Stellar ecosystem proposal so steps
+for Stellar ecosystem proposal so steps
+for Stellar ecosystem proposal so steps
 are publicly created open source
 are publicly created open source
 are publicly created open source
@@ -54,9 +54,9 @@ repository and they facilitate the
 creation and eventual adoption of
 creation and eventual adoption of
 creation and eventual adoption of
-technical standards within the stellar
-technical standards within the stellar
-technical standards within the stellar
+technical standards within the Stellar
+technical standards within the Stellar
+technical standards within the Stellar
 ecosystem so steps are really a dynamic
 ecosystem so steps are really a dynamic
 ecosystem so steps are really a dynamic
@@ -66,15 +66,15 @@ way of introducing standards and
 protocols utilized in the ecosystem
 protocols utilized in the ecosystem
 protocols utilized in the ecosystem
-built on top of the stellar network and
-built on top of the stellar network and
-built on top of the stellar network and
+built on top of the Stellar network and
+built on top of the Stellar network and
+built on top of the Stellar network and
 in particular as new use cases evolve
 in particular as new use cases evolve
 in particular as new use cases evolve
-throughout the stellar ecosystem new
-throughout the stellar ecosystem new
-throughout the stellar ecosystem new
+throughout the Stellar ecosystem new
+throughout the Stellar ecosystem new
+throughout the Stellar ecosystem new
 steps help to formalize those use cases
 steps help to formalize those use cases
 steps help to formalize those use cases
@@ -159,9 +159,9 @@ move forward let me quickly introduce
 our participants today we have four
 our participants today we have four
 our participants today we have four
-different companies from the stellar
-different companies from the stellar
-different companies from the stellar
+different companies from the Stellar
+different companies from the Stellar
+different companies from the Stellar
 ecosystem representatives from each of
 ecosystem representatives from each of
 ecosystem representatives from each of
@@ -525,7 +525,7 @@ in the call to to agree upon let's say
 requirements and use cases which all of
 requirements and use cases which all of
 requirements and use cases which all of
-us try to fulfill on the stellar Network
+us try to fulfill on the Stellar Network
 so yeah and we are more than welcome
 so yeah and we are more than welcome
 everybody else wants to join this is
@@ -1308,9 +1308,9 @@ yeah okay so how I see this process is
 that I think to the steps which are
 that I think to the steps which are
 that I think to the steps which are
-available on the on the stellar protocol
-available on the on the stellar protocol
-available on the on the stellar protocol
+available on the on the Stellar protocol
+available on the on the Stellar protocol
+available on the on the Stellar protocol
 like each anchor will define its fields
 like each anchor will define its fields
 like each anchor will define its fields
@@ -1608,9 +1608,9 @@ Michael we historically had a compliance
 a compliance service or compliance
 a compliance service or compliance
 a compliance service or compliance
-server as part of the stellar ecosystem
-server as part of the stellar ecosystem
-server as part of the stellar ecosystem
+server as part of the Stellar ecosystem
+server as part of the Stellar ecosystem
+server as part of the Stellar ecosystem
 stack did you all consider using that
 stack did you all consider using that
 stack did you all consider using that
@@ -2847,9 +2847,9 @@ if there was a protocol where somebody
 could register a user linked to a
 could register a user linked to a
 could register a user linked to a
-stellar key or rather a stellar key and
-stellar key or rather a stellar key and
-stellar key or rather a stellar key and
+Stellar key or rather a Stellar key and
+Stellar key or rather a Stellar key and
+Stellar key or rather a Stellar key and
 an optional memo for custodial solutions
 seems like it might allow you to kind of
 seems like it might allow you to kind of
@@ -3459,15 +3459,15 @@ so from our point of view like you're
 referring to the external memo and the
 referring to the external memo and the
 referring to the external memo and the
-in like the stellar transaction memo
-in like the stellar transaction memo
-in like the stellar transaction memo
+in like the Stellar transaction memo
+in like the Stellar transaction memo
+in like the Stellar transaction memo
 right exactly so we don't really care
 right exactly so we don't really care
 right exactly so we don't really care
-about the stellar transaction memo but
-about the stellar transaction memo but
-about the stellar transaction memo but
+about the Stellar transaction memo but
+about the Stellar transaction memo but
+about the Stellar transaction memo but
 on pay out we would like to be able to
 on pay out we would like to be able to
 on pay out we would like to be able to

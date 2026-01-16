@@ -1,8 +1,8 @@
 hello everyone and welcome to the
 hello everyone and welcome to the
-stellar open protocol discussion so
-stellar open protocol discussion so
-stellar open protocol discussion so
+Stellar open protocol discussion so
+Stellar open protocol discussion so
+Stellar open protocol discussion so
 in these meetings
 in these meetings
 in these meetings
@@ -15,9 +15,9 @@ aka caps
 these are technical specs that suggest
 these are technical specs that suggest
 these are technical specs that suggest
-changes to the stellar protocol
-changes to the stellar protocol
-changes to the stellar protocol
+changes to the Stellar protocol
+changes to the Stellar protocol
+changes to the Stellar protocol
 necessary to allow the protocol to
 necessary to allow the protocol to
 necessary to allow the protocol to
@@ -99,9 +99,9 @@ this meeting is just part of the cap
 life cycle so generally caps are
 life cycle so generally caps are
 life cycle so generally caps are
-discussed on the stellar depth mailing
-discussed on the stellar depth mailing
-discussed on the stellar depth mailing
+discussed on the Stellar depth mailing
+discussed on the Stellar depth mailing
+discussed on the Stellar depth mailing
 list
 list
 list
@@ -147,15 +147,15 @@ period so there's everyone has a
 last chance to raise questions on the
 last chance to raise questions on the
 last chance to raise questions on the
-stellar debt mailing list and if it
-stellar debt mailing list and if it
-stellar debt mailing list and if it
+Stellar debt mailing list and if it
+Stellar debt mailing list and if it
+Stellar debt mailing list and if it
 makes it through final comment period a
 makes it through final comment period a
 makes it through final comment period a
-cap is implemented into a major stellar
-cap is implemented into a major stellar
-cap is implemented into a major stellar
+cap is implemented into a major Stellar
+cap is implemented into a major Stellar
+cap is implemented into a major Stellar
 core release
 core release
 core release
@@ -201,9 +201,9 @@ cap 21 and cap 40.
 both of these lay the groundwork for
 both of these lay the groundwork for
 both of these lay the groundwork for
-building payment channels on stellar so
-building payment channels on stellar so
-building payment channels on stellar so
+building payment channels on Stellar so
+building payment channels on Stellar so
+building payment channels on Stellar so
 payment channels
 payment channels
 payment channels
@@ -222,9 +222,9 @@ and among other things that could make
 it easier to build high volume use cases
 it easier to build high volume use cases
 it easier to build high volume use cases
-on stellar so
-on stellar so
-on stellar so
+on Stellar so
+on Stellar so
+on Stellar so
 if today's discussion seems dense at any
 if today's discussion seems dense at any
 if today's discussion seems dense at any
@@ -1779,9 +1779,9 @@ this way i'll rewrite the cap to do this
 you know generations generations of
 you know generations generations of
 you know generations generations of
-like poor stellar programmers are gonna
-like poor stellar programmers are gonna
-like poor stellar programmers are gonna
+like poor Stellar programmers are gonna
+like poor Stellar programmers are gonna
+like poor Stellar programmers are gonna
 have to be typing structures six nested
 have to be typing structures six nested
 have to be typing structures six nested
@@ -1998,9 +1998,9 @@ goxster the the one that I wrote or the
 xdrpp that we're using
 xdrpp that we're using
 xdrpp that we're using
-for stellar you can actually automate
-for stellar you can actually automate
-for stellar you can actually automate
+for Stellar you can actually automate
+for Stellar you can actually automate
+for Stellar you can actually automate
 a lot of this stuff
 a lot of this stuff
 a lot of this stuff
@@ -4932,9 +4932,9 @@ not as easy friend user friendly and not
 as easy to fit into
 as easy to fit into
 as easy to fit into
-like the current stellar model so like
-like the current stellar model so like
-like the current stellar model so like
+like the current Stellar model so like
+like the current Stellar model so like
+like the current Stellar model so like
 well maybe
 well maybe
 well maybe
@@ -4989,12 +4989,12 @@ signing arbitrary data right you could
 do something such that like
 do something such that like
 do something such that like
-a single payment on stellar like a usdc
-a single payment on stellar like a usdc
-a single payment on stellar like a usdc
-payment on stellar could like unlock
-payment on stellar could like unlock
-payment on stellar could like unlock
+a single payment on Stellar like a usdc
+a single payment on Stellar like a usdc
+a single payment on Stellar like a usdc
+payment on Stellar could like unlock
+payment on Stellar could like unlock
+payment on Stellar could like unlock
 like 20 you know usdc payments on
 like 20 you know usdc payments on
 like 20 you know usdc payments on
@@ -5028,9 +5028,9 @@ the construct that lee proposes
 is sufficient for the merkle tree case
 is sufficient for the merkle tree case
 is sufficient for the merkle tree case
-assuming that stellar could also handle
-assuming that stellar could also handle
-assuming that stellar could also handle
+assuming that Stellar could also handle
+assuming that Stellar could also handle
+assuming that Stellar could also handle
 the merkle trees
 the merkle trees
 the merkle trees
@@ -5058,9 +5058,9 @@ signatures on multiple transactions
 right because you could always on
 right because you could always on
 right because you could always on
-stellar you know we have a different way
-stellar you know we have a different way
-stellar you know we have a different way
+Stellar you know we have a different way
+Stellar you know we have a different way
+Stellar you know we have a different way
 of unlocking transactions which is like
 of unlocking transactions which is like
 of unlocking transactions which is like
@@ -5277,9 +5277,9 @@ is there a discussion that we need to
 have either synchronously later
 have either synchronously later
 have either synchronously later
-or async on the stellar dev list about
-or async on the stellar dev list about
-or async on the stellar dev list about
+or async on the Stellar dev list about
+or async on the Stellar dev list about
+or async on the Stellar dev list about
 this question
 this question
 this question
@@ -5538,9 +5538,9 @@ accepted cool cool
 I think anything else we'll just look to
 I think anything else we'll just look to
 I think anything else we'll just look to
-the stellar dead mailing list
-the stellar dead mailing list
-the stellar dead mailing list
+the Stellar dead mailing list
+the Stellar dead mailing list
+the Stellar dead mailing list
 and everyone here thank you so much for
 and everyone here thank you so much for
 and everyone here thank you so much for

@@ -1,7 +1,7 @@
 hello everyone and welcome to today's
 sore Bond design discussion
 once again we're here and we're
-talking about sorobon and sort of the
+talking about Soroban and sort of the
 key design decisions that we need in
 order to that we need to make in order
 to sort of get it across the Finish Line
@@ -11,7 +11,7 @@ today we will be talking I'm just
 going to grab a link
 as soon as I can find it if you look at
 the event invite you will see that there
-is a link to a document called sorobon
+is a link to a document called Soroban
 auth Next and I am also just going to
 paste it right now in the live chat so
 today we're going to be talking about
@@ -19,7 +19,7 @@ this proposal which I'm posting in the
 live chat right now oh Tom already did
 it so
 this is a
-proposal for a new sorobon auth approach
+proposal for a new Soroban auth approach
 that provides protocol level support for
 the account abstraction and an
 authorized subcontract calls
@@ -123,7 +123,7 @@ it is kind of not in the scope of
 the discussion at all so we are talking
 about only humans or wallets
 calling into a servant here right
-so for soroban us well as we
+so for Soroban us well as we
 mentioned it's a pretty complicated
 because the contract needs to manage
 nonsense it needs to go into
@@ -432,7 +432,7 @@ allowing for like different accounts
 to be the origin of the transaction
 and I wonder if this proposal
 also pays the paves the way for
-kind of like a non-regular stellar
+kind of like a non-regular Stellar
 account to be the origin of a
 transaction to have in like a native
 balance in xlm which is something that
@@ -621,7 +621,7 @@ if it sees white adoption for just
 regular accounts or maybe this is the
 most basic question which is does this
 impact regular accounts can I take my
-stellar classic account and
+Stellar classic account and
 put signing Authority on into a
 contract and if so does that
 sort of blur the line I mean we have
@@ -669,7 +669,7 @@ according to the classic accounts
 
 yeah I would add to that that like my
 mental model of this is similar to what
-we're doing with a stellar asset
+we're doing with a Stellar asset
 contract
 on suraman basically all the
 interrupt with Stellar classic and all

@@ -1,11 +1,11 @@
 all right everybody welcome to the
-stellar open protocol discussion
+Stellar open protocol discussion
 thanks for being here thanks to all the
 panelists
 just a reminder the goal of these
 meetings is to talk about and plan for
 changes to upcoming versions of the
-stellar protocol
+Stellar protocol
 specifically we go over core advancement
 proposals caps for short
 which are open source specs that
@@ -17,7 +17,7 @@ through various phases
 discussion draft final comment period
 acceptance and implementation
 before they're finalized added to a
-major release of stellar core
+major release of Stellar core
 and put forward to validators who
 ultimately decide whether or not to
 accept the changes by upgrading the
@@ -28,7 +28,7 @@ final comment period
 we'll see what happens very exciting
 procedural stuff there
 if we do we'll post a notice on the
-stellar dev mailing list and there's a
+Stellar dev mailing list and there's a
 link to that in the meeting description
 at which point anyone who has
 comments or questions or suggestions
@@ -91,7 +91,7 @@ feature for assets and it does that by
 creating new authorization flags and new
 operations to take advantage of them
 the goal is to add new functionality to
-stellar that would make it easy
+Stellar that would make it easy
 to issue regulated assets now these new
 flags will have no effect on accounts
 that already hold an asset
@@ -834,7 +834,7 @@ full time if you're done
 okay cool so we're going to move into
 final comment period pinning those
 changes so when they're done I will send
-out the official notice on the stellar
+out the official notice on the Stellar
 dev
 list and again anyone who's watching
 that gives you a week

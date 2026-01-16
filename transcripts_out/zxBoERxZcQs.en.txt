@@ -33,9 +33,9 @@ So what is kelp? Kalp is a trading bot
 that has a command line interface. It
 that has a command line interface. It
 that has a command line interface. It
-was built for the stellar decentralized
-was built for the stellar decentralized
-was built for the stellar decentralized
+was built for the Stellar decentralized
+was built for the Stellar decentralized
+was built for the Stellar decentralized
 exchange and later on we added support
 exchange and later on we added support
 exchange and later on we added support

@@ -12,9 +12,9 @@ so welcome to today's panel my name is
 ankur liu I'm a program manager at the
 ankur liu I'm a program manager at the
 ankur liu I'm a program manager at the
-stellar development foundation or sdf
-stellar development foundation or sdf
-stellar development foundation or sdf
+Stellar development foundation or sdf
+Stellar development foundation or sdf
+Stellar development foundation or sdf
 for short
 for short
 for short
@@ -27,15 +27,15 @@ non-profit organization founded in 2014
 to support the development and growth of
 to support the development and growth of
 to support the development and growth of
-the open source stellar network and so
-the open source stellar network and so
-the open source stellar network and so
+the open source Stellar network and so
+the open source Stellar network and so
+the open source Stellar network and so
 before we begin a little context so
 before we begin a little context so
 before we begin a little context so
-stellar was founded in 2014 after
-stellar was founded in 2014 after
-stellar was founded in 2014 after
+Stellar was founded in 2014 after
+Stellar was founded in 2014 after
+Stellar was founded in 2014 after
 bitcoin before ethereum and handles
 bitcoin before ethereum and handles
 bitcoin before ethereum and handles
@@ -54,9 +54,9 @@ all over the world to build innovative
 financial products and services and
 financial products and services and
 financial products and services and
-stellar uses an energy efficient
-stellar uses an energy efficient
-stellar uses an energy efficient
+Stellar uses an energy efficient
+Stellar uses an energy efficient
+Stellar uses an energy efficient
 syncing mechanism specifically designed
 syncing mechanism specifically designed
 syncing mechanism specifically designed
@@ -69,12 +69,12 @@ transactions are processed within
 seconds and cost way less than a penny
 seconds and cost way less than a penny
 seconds and cost way less than a penny
-so what can you actually do with stellar
-so what can you actually do with stellar
-so what can you actually do with stellar
-so on stellar you can issue your own
-so on stellar you can issue your own
-so on stellar you can issue your own
+so what can you actually do with Stellar
+so what can you actually do with Stellar
+so what can you actually do with Stellar
+so on Stellar you can issue your own
+so on Stellar you can issue your own
+so on Stellar you can issue your own
 assets as tokens on the network think
 assets as tokens on the network think
 assets as tokens on the network think
@@ -141,9 +141,9 @@ the design sprint process with the
 guidance of a mentor and also access to
 guidance of a mentor and also access to
 guidance of a mentor and also access to
-technical support from the stellar
-technical support from the stellar
-technical support from the stellar
+technical support from the Stellar
+technical support from the Stellar
+technical support from the Stellar
 development seller developers and at
 development seller developers and at
 development seller developers and at
@@ -276,9 +276,9 @@ that's really our big kind of unique
 selling point is that it works offline
 selling point is that it works offline
 selling point is that it works offline
-and then what we're doing with stellar
-and then what we're doing with stellar
-and then what we're doing with stellar
+and then what we're doing with Stellar
+and then what we're doing with Stellar
+and then what we're doing with Stellar
 is adding support for crypto where
 is adding support for crypto where
 is adding support for crypto where
@@ -342,9 +342,9 @@ really enjoyed our
 experience at the dfs boot camp and and
 experience at the dfs boot camp and and
 experience at the dfs boot camp and and
-the stellar product we think it has
-the stellar product we think it has
-the stellar product we think it has
+the Stellar product we think it has
+the Stellar product we think it has
+the Stellar product we think it has
 a great applicability to reducing
 a great applicability to reducing
 a great applicability to reducing
@@ -693,9 +693,9 @@ offering crypto services as well and
 give our users basically a us dollar
 give our users basically a us dollar
 give our users basically a us dollar
-account and so that's where stellar
-account and so that's where stellar
-account and so that's where stellar
+account and so that's where Stellar
+account and so that's where Stellar
+account and so that's where Stellar
 and usdc came in
 and usdc came in
 and usdc came in
@@ -894,9 +894,9 @@ work is is going to be in stitching
 everything together you know based on
 everything together you know based on
 everything together you know based on
-stellar anchor here or hack there or
-stellar anchor here or hack there or
-stellar anchor here or hack there or
+Stellar anchor here or hack there or
+Stellar anchor here or hack there or
+Stellar anchor here or hack there or
 whatever so that's really our plan
 whatever so that's really our plan
 whatever so that's really our plan
@@ -1071,9 +1071,9 @@ really great for us and we actually
 in addition to the proceeds from
 in addition to the proceeds from
 in addition to the proceeds from
-the camp also received a another stellar
-the camp also received a another stellar
-the camp also received a another stellar
+the camp also received a another Stellar
+the camp also received a another Stellar
+the camp also received a another Stellar
 grant as we planned to
 grant as we planned to
 grant as we planned to
@@ -1395,9 +1395,9 @@ and I think
 exploring and you know and partnering
 exploring and you know and partnering
 exploring and you know and partnering
-with stellar
-with stellar
-with stellar
+with Stellar
+with Stellar
+with Stellar
 I think is a is a great way to reduce
 I think is a is a great way to reduce
 I think is a is a great way to reduce
@@ -1425,9 +1425,9 @@ my journey
 through sort of product discovery in
 through sort of product discovery in
 through sort of product discovery in
-this stellar ecosystem I was very
-this stellar ecosystem I was very
-this stellar ecosystem I was very
+this Stellar ecosystem I was very
+this Stellar ecosystem I was very
+this Stellar ecosystem I was very
 pleasantly
 pleasantly
 pleasantly
@@ -1443,9 +1443,9 @@ many of the developments whether it's
 the amm and
 the amm and
 the amm and
-the other various stellar products
-the other various stellar products
-the other various stellar products
+the other various Stellar products
+the other various Stellar products
+the other various Stellar products
 and I think in large part because it is
 and I think in large part because it is
 and I think in large part because it is
@@ -1488,9 +1488,9 @@ connection with all of you and sdf is
 really here to support
 really here to support
 really here to support
-those who are building on stellar
-those who are building on stellar
-those who are building on stellar
+those who are building on Stellar
+those who are building on Stellar
+those who are building on Stellar
 sellers open source by the way anyone
 sellers open source by the way anyone
 sellers open source by the way anyone
@@ -1710,9 +1710,9 @@ like is a great business model so yeah
 I'm very excited about that and being
 I'm very excited about that and being
 I'm very excited about that and being
-able to use blockchain use stellar to
-able to use blockchain use stellar to
-able to use blockchain use stellar to
+able to use blockchain use Stellar to
+able to use blockchain use Stellar to
+able to use blockchain use Stellar to
 allow such features is just something
 allow such features is just something
 allow such features is just something
@@ -1728,9 +1728,9 @@ back back checking back so you have
 been part of like money me right and
 been part of like money me right and
 been part of like money me right and
-money me has been in the stellar
-money me has been in the stellar
-money me has been in the stellar
+money me has been in the Stellar
+money me has been in the Stellar
+money me has been in the Stellar
 ecosystem for quite some time
 ecosystem for quite some time
 ecosystem for quite some time
@@ -1743,9 +1743,9 @@ moneyb is and did the bootcamp kind
 of experience change anything towards
 of experience change anything towards
 of experience change anything towards
-your engagement with stellar
-your engagement with stellar
-your engagement with stellar
+your engagement with Stellar
+your engagement with Stellar
+your engagement with Stellar
 yes so money me like I mentioned
 yes so money me like I mentioned
 yes so money me like I mentioned
@@ -1785,9 +1785,9 @@ more democratized and that was what
 bonafide was so how did this
 bonafide was so how did this
 bonafide was so how did this
-stellar ecosystem up there beyond you
-stellar ecosystem up there beyond you
-stellar ecosystem up there beyond you
+Stellar ecosystem up there beyond you
+Stellar ecosystem up there beyond you
+Stellar ecosystem up there beyond you
 know just the boot camp in itself i
 know just the boot camp in itself i
 know just the boot camp in itself i
@@ -1842,9 +1842,9 @@ future like or like to current seller
 company
 company
 company
-ecosystem companies build on stellar
-ecosystem companies build on stellar
-ecosystem companies build on stellar
+ecosystem companies build on Stellar
+ecosystem companies build on Stellar
+ecosystem companies build on Stellar
 it's like you can
 it's like you can
 it's like you can
@@ -2175,9 +2175,9 @@ that you're able to grow on it you're
 also wanting to continue your journey
 also wanting to continue your journey
 also wanting to continue your journey
-with stellar so thank you so much fonto
-with stellar so thank you so much fonto
-with stellar so thank you so much fonto
+with Stellar so thank you so much fonto
+with Stellar so thank you so much fonto
+with Stellar so thank you so much fonto
 and also like
 and also like
 and also like
@@ -2631,9 +2631,9 @@ of it and
 
 
 
-also just being a part of the stellar
-also just being a part of the stellar
-also just being a part of the stellar
+also just being a part of the Stellar
+also just being a part of the Stellar
+also just being a part of the Stellar
 ecosystem and which is you know
 ecosystem and which is you know
 ecosystem and which is you know
@@ -2988,9 +2988,9 @@ time
 for a couple years and I think the
 for a couple years and I think the
 for a couple years and I think the
-follow through from stellar and dfs lab
-follow through from stellar and dfs lab
-follow through from stellar and dfs lab
+follow through from Stellar and dfs lab
+follow through from Stellar and dfs lab
+follow through from Stellar and dfs lab
 has been really fantastic and it's
 has been really fantastic and it's
 has been really fantastic and it's
@@ -3036,9 +3036,9 @@ follow-through there and really
 investing in that relationship
 yeah yeah and kudos to you for also like
 yeah yeah and kudos to you for also like
-continuing your relationship on stellar
-continuing your relationship on stellar
-continuing your relationship on stellar
+continuing your relationship on Stellar
+continuing your relationship on Stellar
+continuing your relationship on Stellar
 it is it is definitely
 it is it is definitely
 it is it is definitely
@@ -3669,9 +3669,9 @@ you know like everyone has spoken about
 like you know the involvement of the
 like you know the involvement of the
 like you know the involvement of the
-stellar team right so you know if
-stellar team right so you know if
-stellar team right so you know if
+Stellar team right so you know if
+Stellar team right so you know if
+Stellar team right so you know if
 you wanted to understand like a business
 you wanted to understand like a business
 you wanted to understand like a business
@@ -3747,9 +3747,9 @@ but you know after boot camp it is not
 the end it's it's like it's really the
 the end it's it's like it's really the
 the end it's it's like it's really the
-beginning of of your journey on stellar
-beginning of of your journey on stellar
-beginning of of your journey on stellar
+beginning of of your journey on Stellar
+beginning of of your journey on Stellar
+beginning of of your journey on Stellar
 and I think like that you know like i
 and I think like that you know like i
 and I think like that you know like i
@@ -3759,15 +3759,15 @@ think we had very quickly after a bit
 too quickly actually I think we had a
 too quickly actually I think we had a
 too quickly actually I think we had a
-round of the stellar community fund fund
-round of the stellar community fund fund
-round of the stellar community fund fund
+round of the Stellar community fund fund
+round of the Stellar community fund fund
+round of the Stellar community fund fund
 which is an open application grant
 which is an open application grant
 which is an open application grant
-program to support stellar-based
-program to support stellar-based
-program to support stellar-based
+program to support Stellar-based
+program to support Stellar-based
+program to support Stellar-based
 projects with funding but also
 projects with funding but also
 projects with funding but also
@@ -3780,9 +3780,9 @@ the community so while sdf provides the
 funds in the scf which is an acronym for
 funds in the scf which is an acronym for
 funds in the scf which is an acronym for
-stellar community fund
-stellar community fund
-stellar community fund
+Stellar community fund
+Stellar community fund
+Stellar community fund
 the community actually allocates it so
 the community actually allocates it so
 the community actually allocates it so
@@ -4221,9 +4221,9 @@ david and dominic they delved into your
 project yet but actually your project
 project yet but actually your project
 project yet but actually your project
-doesn't only use stellar it also uses
-doesn't only use stellar it also uses
-doesn't only use stellar it also uses
+doesn't only use Stellar it also uses
+doesn't only use Stellar it also uses
+doesn't only use Stellar it also uses
 multiple change and
 multiple change and
 multiple change and
@@ -4236,7 +4236,7 @@ details about that and what does that
 multi-chain future look like and how
 multi-chain future look like and how
 multi-chain future look like and how
-does stellar really fit in
+does Stellar really fit in
 yeah thanks for asking that thank you
 yeah thanks for asking that thank you
 I'm super happy to join in there so
@@ -4287,9 +4287,9 @@ bridge for six different blockchains so
 that would include cello and polygon
 that would include cello and polygon
 that would include cello and polygon
-ethereum stellar
-ethereum stellar
-ethereum stellar
+ethereum Stellar
+ethereum Stellar
+ethereum Stellar
 bitcoin
 bitcoin
 bitcoin
@@ -4851,9 +4851,9 @@ innovation and it's not easy and so
 we're together as a community and also
 we're together as a community and also
 we're together as a community and also
-the stellar community I'm I'm I'm very
-the stellar community I'm I'm I'm very
-the stellar community I'm I'm I'm very
+the Stellar community I'm I'm I'm very
+the Stellar community I'm I'm I'm very
+the Stellar community I'm I'm I'm very
 closely connected with and I think
 closely connected with and I think
 closely connected with and I think
@@ -5157,9 +5157,9 @@ know from a bunch of you know
 people including the Stellar the wider
 people including the Stellar the wider
 people including the Stellar the wider
-stellar community itself
-stellar community itself
-stellar community itself
+Stellar community itself
+Stellar community itself
+Stellar community itself
 so applications are ongoing now you
 so applications are ongoing now you
 so applications are ongoing now you
@@ -5220,9 +5220,9 @@ experience and I really look forward to
 your growth as companies please keep me
 your growth as companies please keep me
 your growth as companies please keep me
-updated and stay in the stellar
-updated and stay in the stellar
-updated and stay in the stellar
+updated and stay in the Stellar
+updated and stay in the Stellar
+updated and stay in the Stellar
 community and the sdf because the stf is
 community and the sdf because the stf is
 community and the sdf because the stf is

@@ -1,8 +1,8 @@
 all right hello everyone and welcome
 all right hello everyone and welcome
-once again to the stellar open protocol
-once again to the stellar open protocol
-once again to the stellar open protocol
+once again to the Stellar open protocol
+once again to the Stellar open protocol
+once again to the Stellar open protocol
 discussion these meetings are for
 discussion these meetings are for
 discussion these meetings are for
@@ -15,9 +15,9 @@ caps
 they're technical specs that suggest
 they're technical specs that suggest
 they're technical specs that suggest
-changes to the stellar protocol
-changes to the stellar protocol
-changes to the stellar protocol
+changes to the Stellar protocol
+changes to the Stellar protocol
+changes to the Stellar protocol
 and they allow the protocol to advance
 and they allow the protocol to advance
 and they allow the protocol to advance
@@ -1224,9 +1224,9 @@ but I think as an asset issuer you are
 you are choosing to I issue your asset
 you are choosing to I issue your asset
 you are choosing to I issue your asset
-on stellar because you know in large
-on stellar because you know in large
-on stellar because you know in large
+on Stellar because you know in large
+on Stellar because you know in large
+on Stellar because you know in large
 part because you want a liquid market
 part because you want a liquid market
 part because you want a liquid market
@@ -1485,9 +1485,9 @@ case of contention like
 take the most liquid assets on
 take the most liquid assets on
 take the most liquid assets on
-stellar which like buy
-stellar which like buy
-stellar which like buy
+Stellar which like buy
+Stellar which like buy
+Stellar which like buy
 
 
 
@@ -1779,9 +1779,9 @@ I I'm very much of the feeling that
 you know the the
 you know the the
 you know the the
-the whole kind of stellar philosophy is
-the whole kind of stellar philosophy is
-the whole kind of stellar philosophy is
+the whole kind of Stellar philosophy is
+the whole kind of Stellar philosophy is
+the whole kind of Stellar philosophy is
 like you know
 like you know
 like you know
@@ -2172,12 +2172,12 @@ weighted voting this is like
 like because it's less
 like because it's less
 like because it's less
-stellar philosophy
+Stellar philosophy
 no
 no
-why is it a anti-stellar philosophy
-why is it a anti-stellar philosophy
-why is it a anti-stellar philosophy
+why is it a anti-Stellar philosophy
+why is it a anti-Stellar philosophy
+why is it a anti-Stellar philosophy
 because because like we shy away from
 because because like we shy away from
 because because like we shy away from
@@ -2610,9 +2610,9 @@ the
 the shape of of the markets on
 the shape of of the markets on
 the shape of of the markets on
-stellar I think it's it's getting ahead
-stellar I think it's it's getting ahead
-stellar I think it's it's getting ahead
+Stellar I think it's it's getting ahead
+Stellar I think it's it's getting ahead
+Stellar I think it's it's getting ahead
 of ourselves I think that we should
 of ourselves I think that we should
 of ourselves I think that we should
@@ -2682,9 +2682,9 @@ choosing assets in a in a
 kind of
 kind of
 kind of
-stellar and and like egalitarian way
-stellar and and like egalitarian way
-stellar and and like egalitarian way
+Stellar and and like egalitarian way
+Stellar and and like egalitarian way
+Stellar and and like egalitarian way
 and and market-based way is to say that
 and and market-based way is to say that
 and and market-based way is to say that
@@ -3576,9 +3576,9 @@ if if somebody in russia says hey you
 guys suck I'm going to create a new
 guys suck I'm going to create a new
 guys suck I'm going to create a new
-speed x on stellar
-speed x on stellar
-speed x on stellar
+speed x on Stellar
+speed x on Stellar
+speed x on Stellar
 you know more power to them they can do
 you know more power to them they can do
 you know more power to them they can do
@@ -3825,9 +3825,9 @@ differentiators being like high value
 differentiators because every time we
 differentiators because every time we
 differentiators because every time we
-add something to stellar that makes it
-add something to stellar that makes it
-add something to stellar that makes it
+add something to Stellar that makes it
+add something to Stellar that makes it
+add something to Stellar that makes it
 so much more different than any other
 so much more different than any other
 so much more different than any other
@@ -3843,9 +3843,9 @@ just make it more challenging for these
 for these players to actually be
 for these players to actually be
 for these players to actually be
-idiomatic players in a stellar ecosystem
-idiomatic players in a stellar ecosystem
-idiomatic players in a stellar ecosystem
+idiomatic players in a Stellar ecosystem
+idiomatic players in a Stellar ecosystem
+idiomatic players in a Stellar ecosystem
 so we really need to make sure that
 so we really need to make sure that
 so we really need to make sure that
@@ -4011,9 +4011,9 @@ which is like i'd like to not have this
 liquidity available is not not something
 liquidity available is not not something
 liquidity available is not not something
-expressible really on stellar today i
-expressible really on stellar today i
-expressible really on stellar today i
+expressible really on Stellar today i
+expressible really on Stellar today i
+expressible really on Stellar today i
 don't know why we should make that
 don't know why we should make that
 don't know why we should make that
@@ -4347,9 +4347,9 @@ achieve those kinds of numbers which
 would still be a fraction of the total
 would still be a fraction of the total
 would still be a fraction of the total
-number of assets on stellar
-number of assets on stellar
-number of assets on stellar
+number of assets on Stellar
+number of assets on Stellar
+number of assets on Stellar
 we would be like we'd be as david
 we would be like we'd be as david
 we would be like we'd be as david
@@ -4866,9 +4866,9 @@ everybody thanks everyone for watching
 if you want to follow along there's a
 if you want to follow along there's a
 if you want to follow along there's a
-link there for the stellar dev mailing
-link there for the stellar dev mailing
-link there for the stellar dev mailing
+link there for the Stellar dev mailing
+link there for the Stellar dev mailing
+link there for the Stellar dev mailing
 list that's where these discussions
 list that's where these discussions
 list that's where these discussions

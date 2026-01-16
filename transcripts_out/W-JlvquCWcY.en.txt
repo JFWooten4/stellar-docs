@@ -15,18 +15,18 @@ my name is devneal I'm a software
 engineer at sdf on the voyager team
 engineer at sdf on the voyager team
 engineer at sdf on the voyager team
-we focus on exploring the stellar
-we focus on exploring the stellar
-we focus on exploring the stellar
+we focus on exploring the Stellar
+we focus on exploring the Stellar
+we focus on exploring the Stellar
 ecosystem through data
 ecosystem through data
 ecosystem through data
 analytics and liquidity today i'll be
 analytics and liquidity today i'll be
 analytics and liquidity today i'll be
-talking about data analytics on stellar
-talking about data analytics on stellar
-talking about data analytics on stellar
+talking about data analytics on Stellar
+talking about data analytics on Stellar
+talking about data analytics on Stellar
 so the goal of our team as well as a lot
 so the goal of our team as well as a lot
 so the goal of our team as well as a lot
@@ -99,15 +99,15 @@ that are just trying to build out some
 analytic system
 analytic system
 analytic system
-two exploring the stellar network i'll
-two exploring the stellar network i'll
-two exploring the stellar network i'll
+two exploring the Stellar network i'll
+two exploring the Stellar network i'll
+two exploring the Stellar network i'll
 present some useful access patterns
 present some useful access patterns
 present some useful access patterns
-tips for navigating the stellar data set
-tips for navigating the stellar data set
-tips for navigating the stellar data set
+tips for navigating the Stellar data set
+tips for navigating the Stellar data set
+tips for navigating the Stellar data set
 and a few illustrative examples
 and a few illustrative examples
 and a few illustrative examples
@@ -255,24 +255,24 @@ development and ecosystem teams
 to understand the effects of their
 to understand the effects of their
 to understand the effects of their
-efforts so stellar uses the widely used
-efforts so stellar uses the widely used
-efforts so stellar uses the widely used
+efforts so Stellar uses the widely used
+efforts so Stellar uses the widely used
+efforts so Stellar uses the widely used
 database as some postgres which has been
 database as some postgres which has been
 database as some postgres which has been
 an industry standard for
 an industry standard for
 an industry standard for
-20 25 years so stellar core writes data
-20 25 years so stellar core writes data
-20 25 years so stellar core writes data
+20 25 years so Stellar core writes data
+20 25 years so Stellar core writes data
+20 25 years so Stellar core writes data
 to postgres tables
 to postgres tables
 to postgres tables
-and then horizon our api to stellar core
-and then horizon our api to stellar core
-and then horizon our api to stellar core
+and then horizon our api to Stellar core
+and then horizon our api to Stellar core
+and then horizon our api to Stellar core
 uses
 uses
 uses
@@ -1248,7 +1248,7 @@ notebooks and
 we want to make it really easy to do the
 we want to make it really easy to do the
 we want to make it really easy to do the
-same on stellar data
+same on Stellar data
 so now let's look at some basic analysis
 so now let's look at some basic analysis
 of some queries on our system
@@ -1281,9 +1281,9 @@ select from order by and limit
 those give you the tools to ask basic
 those give you the tools to ask basic
 those give you the tools to ask basic
-ordinal questions about stellar history
-ordinal questions about stellar history
-ordinal questions about stellar history
+ordinal questions about Stellar history
+ordinal questions about Stellar history
+ordinal questions about Stellar history
 select from chooses specific fields from
 select from chooses specific fields from
 select from chooses specific fields from
@@ -1482,9 +1482,9 @@ help us get closer to real time because
 that enables much faster extraction of
 that enables much faster extraction of
 that enables much faster extraction of
-data from stellar core
-data from stellar core
-data from stellar core
+data from Stellar core
+data from Stellar core
+data from Stellar core
 and history archives our awesome intern
 and history archives our awesome intern
 and history archives our awesome intern
@@ -1593,9 +1593,9 @@ different parts so this has the same
 overall flow as before
 overall flow as before
 overall flow as before
-it reads ledgers from stellar core it
-it reads ledgers from stellar core it
-it reads ledgers from stellar core it
+it reads ledgers from Stellar core it
+it reads ledgers from Stellar core it
+it reads ledgers from Stellar core it
 writes structured documents to google
 writes structured documents to google
 writes structured documents to google
@@ -1632,9 +1632,9 @@ we're thinking about displaying markets
 and corridors in a public-facing site
 and corridors in a public-facing site
 and corridors in a public-facing site
-like stellar.org
-like stellar.org
-like stellar.org
+like Stellar.org
+like Stellar.org
+like Stellar.org
 it'll make it easier for prospective
 it'll make it easier for prospective
 it'll make it easier for prospective
@@ -1752,9 +1752,9 @@ should be really easy to see
 here's what all the major anchors on
 here's what all the major anchors on
 here's what all the major anchors on
-stellar are doing and
-stellar are doing and
-stellar are doing and
+Stellar are doing and
+Stellar are doing and
+Stellar are doing and
 it should be really easy to see what the
 it should be really easy to see what the
 it should be really easy to see what the
@@ -1800,18 +1800,18 @@ so much better than what you would get
 when you have really good rates on
 when you have really good rates on
 when you have really good rates on
-stellar it makes the whole network work
-stellar it makes the whole network work
-stellar it makes the whole network work
+Stellar it makes the whole network work
+Stellar it makes the whole network work
+Stellar it makes the whole network work
 and I think that applications that
 and I think that applications that
 and I think that applications that
 surface information like that like the
 surface information like that like the
 surface information like that like the
-key killer applications of stellar
-key killer applications of stellar
-key killer applications of stellar
+key killer applications of Stellar
+key killer applications of Stellar
+key killer applications of Stellar
 are the most useful to leverage this
 are the most useful to leverage this
 are the most useful to leverage this
@@ -1863,15 +1863,15 @@ history it would be another really cool
 value
 value
 value
-for stellar in the network
-for stellar in the network
-for stellar in the network
+for Stellar in the network
+for Stellar in the network
+for Stellar in the network
 so another question what can a community
 so another question what can a community
 so another question what can a community
-do to help expand stellar
-do to help expand stellar
-do to help expand stellar
+do to help expand Stellar
+do to help expand Stellar
+do to help expand Stellar
 and improve it for those who do not
 and improve it for those who do not
 and improve it for those who do not
@@ -1926,15 +1926,15 @@ scope of this talk
 I would say that it looks like telling
 I would say that it looks like telling
 I would say that it looks like telling
-people that hey stellar is really cool
-people that hey stellar is really cool
-people that hey stellar is really cool
+people that hey Stellar is really cool
+people that hey Stellar is really cool
+people that hey Stellar is really cool
 but then also showing them what the
 but then also showing them what the
 but then also showing them what the
-volume on stellar looks like
-volume on stellar looks like
-volume on stellar looks like
+volume on Stellar looks like
+volume on Stellar looks like
+volume on Stellar looks like
 so this is one thing that i've thought a
 so this is one thing that i've thought a
 so this is one thing that i've thought a
@@ -1950,9 +1950,9 @@ ethereum with d5 right
 how do you show similar volume with
 how do you show similar volume with
 how do you show similar volume with
-stellar because stellar is one of the
-stellar because stellar is one of the
-stellar because stellar is one of the
+Stellar because Stellar is one of the
+Stellar because Stellar is one of the
+Stellar because Stellar is one of the
 few layer ones that can actually do
 few layer ones that can actually do
 few layer ones that can actually do
@@ -2019,9 +2019,9 @@ is debna sir
 d-e-b-n-i-l-s-u-r I'm happy to
 d-e-b-n-i-l-s-u-r I'm happy to
 d-e-b-n-i-l-s-u-r I'm happy to
-talk about things stellar related as
-talk about things stellar related as
-talk about things stellar related as
+talk about things Stellar related as
+talk about things Stellar related as
+talk about things Stellar related as
 well as waste lovers data set in the
 well as waste lovers data set in the
 well as waste lovers data set in the

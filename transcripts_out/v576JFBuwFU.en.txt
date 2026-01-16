@@ -55,8 +55,8 @@ again thanks all for coming and let's
 again thanks all for coming and let's
 again thanks all for coming and let's
 start off a little bit about sdf
-so the stellar development foundation or
-so the stellar development foundation or
+so the Stellar development foundation or
+so the Stellar development foundation or
 sdf for short is a non-profit
 sdf for short is a non-profit
 sdf for short is a non-profit
@@ -66,9 +66,9 @@ organization founded in 2014
 to support the development and growth of
 to support the development and growth of
 to support the development and growth of
-the open source stellar network and with
-the open source stellar network and with
-the open source stellar network and with
+the open source Stellar network and with
+the open source Stellar network and with
+the open source Stellar network and with
 seller stf seeks to unlock the world's
 seller stf seeks to unlock the world's
 seller stf seeks to unlock the world's
@@ -81,18 +81,18 @@ fluid markets more open and people more
 empowered
 empowered
 empowered
-the foundation helps stellar maintain
-the foundation helps stellar maintain
-the foundation helps stellar maintain
-stellar's code base supports the
-stellar's code base supports the
-stellar's code base supports the
+the foundation helps Stellar maintain
+the foundation helps Stellar maintain
+the foundation helps Stellar maintain
+Stellar's code base supports the
+Stellar's code base supports the
+Stellar's code base supports the
 technical and business communities
 technical and business communities
 technical and business communities
-around stellar and provides thought
-around stellar and provides thought
-around stellar and provides thought
+around Stellar and provides thought
+around Stellar and provides thought
+around Stellar and provides thought
 leadership to regulators and other
 leadership to regulators and other
 leadership to regulators and other
@@ -102,9 +102,9 @@ stakeholders so what is this network
 that we're looking to support
 that we're looking to support
 that we're looking to support
-stellar is an open source blockchain
-stellar is an open source blockchain
-stellar is an open source blockchain
+Stellar is an open source blockchain
+Stellar is an open source blockchain
+Stellar is an open source blockchain
 network with the goal to provide
 network with the goal to provide
 network with the goal to provide
@@ -177,9 +177,9 @@ in much the same way that the internet
 democratized access to information
 democratized access to information
 democratized access to information
-stellar uses blockchain to democratize
-stellar uses blockchain to democratize
-stellar uses blockchain to democratize
+Stellar uses blockchain to democratize
+Stellar uses blockchain to democratize
+Stellar uses blockchain to democratize
 access to the financial system and it
 access to the financial system and it
 access to the financial system and it
@@ -225,9 +225,9 @@ to date there are over 90
 2000
 2000
 2000
-unique assets issued on stellar and
-unique assets issued on stellar and
-unique assets issued on stellar and
+unique assets issued on Stellar and
+unique assets issued on Stellar and
+unique assets issued on Stellar and
 there are over 6.6
 there are over 6.6
 there are over 6.6
@@ -252,9 +252,9 @@ and this shows really that the network
 is built to scale and is actively used
 is built to scale and is actively used
 is built to scale and is actively used
-and a stellar is an energy efficient
-and a stellar is an energy efficient
-and a stellar is an energy efficient
+and a Stellar is an energy efficient
+and a Stellar is an energy efficient
+and a Stellar is an energy efficient
 syncing mechanism specifically designed
 syncing mechanism specifically designed
 syncing mechanism specifically designed
@@ -267,12 +267,12 @@ transactions are processed within
 seconds and cost way less than a penny
 seconds and cost way less than a penny
 seconds and cost way less than a penny
-so what can you actually do with stellar
-so what can you actually do with stellar
-so what can you actually do with stellar
-on stellar you can issue your own assets
-on stellar you can issue your own assets
-on stellar you can issue your own assets
+so what can you actually do with Stellar
+so what can you actually do with Stellar
+so what can you actually do with Stellar
+on Stellar you can issue your own assets
+on Stellar you can issue your own assets
+on Stellar you can issue your own assets
 as tokens on the network
 as tokens on the network
 as tokens on the network
@@ -315,18 +315,18 @@ cross-border payments
 but let's get back to why you're all
 but let's get back to why you're all
 but let's get back to why you're all
-here today the stellar nft hackathon as
-here today the stellar nft hackathon as
-here today the stellar nft hackathon as
+here today the Stellar nft hackathon as
+here today the Stellar nft hackathon as
+here today the Stellar nft hackathon as
 the main sponsors of this year's
 the main sponsors of this year's
 the main sponsors of this year's
 south by southwest financial 3.0
 south by southwest financial 3.0
 south by southwest financial 3.0
-summit the stellar development
-summit the stellar development
-summit the stellar development
+summit the Stellar development
+summit the Stellar development
+summit the Stellar development
 foundation is sponsoring a 48 hour
 foundation is sponsoring a 48 hour
 foundation is sponsoring a 48 hour
@@ -336,9 +336,9 @@ hybrid hackathon starting right now that
 challenges the experience and newcomers
 challenges the experience and newcomers
 challenges the experience and newcomers
-alike to build a project on stellar that
-alike to build a project on stellar that
-alike to build a project on stellar that
+alike to build a project on Stellar that
+alike to build a project on Stellar that
+alike to build a project on Stellar that
 incorporates the use of nfts
 incorporates the use of nfts
 incorporates the use of nfts
@@ -348,9 +348,9 @@ so we have ten thousand dollars worth in
 prizes worth of excellent prizes
 prizes worth of excellent prizes
 prizes worth of excellent prizes
-excellent stellar's native currency and
-excellent stellar's native currency and
-excellent stellar's native currency and
+excellent Stellar's native currency and
+excellent Stellar's native currency and
+excellent Stellar's native currency and
 these prizes will will be awarded to the
 these prizes will will be awarded to the
 these prizes will will be awarded to the
@@ -369,9 +369,9 @@ technology
 so let's start with the artist challenge
 so let's start with the artist challenge
 so let's start with the artist challenge
-so first up we have the stellar nft
-so first up we have the stellar nft
-so first up we have the stellar nft
+so first up we have the Stellar nft
+so first up we have the Stellar nft
+so first up we have the Stellar nft
 artist challenge where you will create
 artist challenge where you will create
 artist challenge where you will create
@@ -381,9 +381,9 @@ art based on a prompt and mint it as an
 nft enlightenment which is an nft
 nft enlightenment which is an nft
 nft enlightenment which is an nft
-marketplace on stellar
-marketplace on stellar
-marketplace on stellar
+marketplace on Stellar
+marketplace on Stellar
+marketplace on Stellar
 and so the art prompt that we'll use for
 and so the art prompt that we'll use for
 and so the art prompt that we'll use for
@@ -420,9 +420,9 @@ be willow win awards totaling fifteen
 hundred dollars worth of xlm allocated
 hundred dollars worth of xlm allocated
 hundred dollars worth of xlm allocated
-by the stellar dev and nft community
-by the stellar dev and nft community
-by the stellar dev and nft community
+by the Stellar dev and nft community
+by the Stellar dev and nft community
+by the Stellar dev and nft community
 and to participate in this particular
 and to participate in this particular
 and to participate in this particular
@@ -432,9 +432,9 @@ challenge you can scan the qr code or
 enter bit.li
 enter bit.li
 enter bit.li
-stellar nft artist
-stellar nft artist
-stellar nft artist
+Stellar nft artist
+Stellar nft artist
+Stellar nft artist
 and register
 and register
 and register
@@ -444,15 +444,15 @@ but
 more relevant to this workshop we have
 more relevant to this workshop we have
 more relevant to this workshop we have
-the stellar nft wizard challenge where
-the stellar nft wizard challenge where
-the stellar nft wizard challenge where
+the Stellar nft wizard challenge where
+the Stellar nft wizard challenge where
+the Stellar nft wizard challenge where
 you will build
 you will build
 you will build
-innovative nft experiences on stellar
-innovative nft experiences on stellar
-innovative nft experiences on stellar
+innovative nft experiences on Stellar
+innovative nft experiences on Stellar
+innovative nft experiences on Stellar
 go beyond just buying and selling and
 go beyond just buying and selling and
 go beyond just buying and selling and
@@ -498,9 +498,9 @@ build something awesome
 and all communications will be in the
 and all communications will be in the
 and all communications will be in the
-stellar developer discord including the
-stellar developer discord including the
-stellar developer discord including the
+Stellar developer discord including the
+Stellar developer discord including the
+Stellar developer discord including the
 live chat for today's workshop so
 live chat for today's workshop so
 live chat for today's workshop so
@@ -585,27 +585,27 @@ functionality of the blockchain they're
 built on
 built on
 built on
-specifically the stellar blockchain
-specifically the stellar blockchain
-specifically the stellar blockchain
+specifically the Stellar blockchain
+specifically the Stellar blockchain
+specifically the Stellar blockchain
 but who am I my name is tyler van der
 but who am I my name is tyler van der
 but who am I my name is tyler van der
 hoeven and I lead ecosystem engineering
 hoeven and I lead ecosystem engineering
 hoeven and I lead ecosystem engineering
-at the stellar development foundation
-at the stellar development foundation
-at the stellar development foundation
+at the Stellar development foundation
+at the Stellar development foundation
+at the Stellar development foundation
 i've been at the sdf for just over two
 i've been at the sdf for just over two
 i've been at the sdf for just over two
 years but have been building on the
 years but have been building on the
 years but have been building on the
-stellar stack for
-stellar stack for
-stellar stack for
+Stellar stack for
+Stellar stack for
+Stellar stack for
 almost six years
 almost six years
 almost six years
@@ -615,9 +615,9 @@ now
 i've built many various production and
 i've built many various production and
 i've built many various production and
-experimental products on stellar
-experimental products on stellar
-experimental products on stellar
+experimental products on Stellar
+experimental products on Stellar
+experimental products on Stellar
 everything from games and developer
 everything from games and developer
 everything from games and developer
@@ -627,9 +627,9 @@ tooling to educational resources and
 funding programs
 funding programs
 funding programs
-stellar is a vibrant and expressive tech
-stellar is a vibrant and expressive tech
-stellar is a vibrant and expressive tech
+Stellar is a vibrant and expressive tech
+Stellar is a vibrant and expressive tech
+Stellar is a vibrant and expressive tech
 stack able to handle an incredibly
 stack able to handle an incredibly
 stack able to handle an incredibly
@@ -639,9 +639,9 @@ before we get into the meat of the talk
 I'm going to quickly call out our
 I'm going to quickly call out our
 I'm going to quickly call out our
-stellar developer discord server as well
-stellar developer discord server as well
-stellar developer discord server as well
+Stellar developer discord server as well
+Stellar developer discord server as well
+Stellar developer discord server as well
 and ensure that everyone has a chance to
 and ensure that everyone has a chance to
 and ensure that everyone has a chance to
@@ -663,9 +663,9 @@ and help you
 as you continue your exciting journey
 as you continue your exciting journey
 as you continue your exciting journey
-into stellar
-into stellar
-into stellar
+into Stellar
+into Stellar
+into Stellar
 and once you join that discord the
 and once you join that discord the
 and once you join that discord the
@@ -720,9 +720,9 @@ theory and background nft's explained
 talk about nfts more specifically on the
 talk about nfts more specifically on the
 talk about nfts more specifically on the
-stellar blockchain
-stellar blockchain
-stellar blockchain
+Stellar blockchain
+Stellar blockchain
+Stellar blockchain
 and then finally we'll have a break in
 and then finally we'll have a break in
 and then finally we'll have a break in
@@ -732,9 +732,9 @@ there and then and then finally we'll
 come back to actually create an
 come back to actually create an
 come back to actually create an
-innovative stellar nft so we'll get into
-innovative stellar nft so we'll get into
-innovative stellar nft so we'll get into
+innovative Stellar nft so we'll get into
+innovative Stellar nft so we'll get into
+innovative Stellar nft so we'll get into
 the into the codes
 so so firstly we'll dive into nfts
 so so firstly we'll dive into nfts
@@ -825,21 +825,21 @@ next in section two of our talk we'll
 pivot our attention to observing nfts on
 pivot our attention to observing nfts on
 pivot our attention to observing nfts on
-the stellar blockchain we'll cover some
-the stellar blockchain we'll cover some
-the stellar blockchain we'll cover some
-basic stellar terminology to ensure we
-basic stellar terminology to ensure we
-basic stellar terminology to ensure we
+the Stellar blockchain we'll cover some
+the Stellar blockchain we'll cover some
+the Stellar blockchain we'll cover some
+basic Stellar terminology to ensure we
+basic Stellar terminology to ensure we
+basic Stellar terminology to ensure we
 don't get too lost in the woods of mumbo
 don't get too lost in the woods of mumbo
 don't get too lost in the woods of mumbo
 jumbo from there we'll take a closer
 jumbo from there we'll take a closer
 jumbo from there we'll take a closer
-look more specifically at the stellar
-look more specifically at the stellar
-look more specifically at the stellar
+look more specifically at the Stellar
+look more specifically at the Stellar
+look more specifically at the Stellar
 chain itself and its unique benefits
 chain itself and its unique benefits
 chain itself and its unique benefits
@@ -855,9 +855,9 @@ next we'll finally we'll spend some
 time dissecting an actual nft
 time dissecting an actual nft
 time dissecting an actual nft
-live on the stellar blockchain
-live on the stellar blockchain
-live on the stellar blockchain
+live on the Stellar blockchain
+live on the Stellar blockchain
+live on the Stellar blockchain
 observe its anatomy it's technical
 observe its anatomy it's technical
 observe its anatomy it's technical
@@ -882,9 +882,9 @@ later on after the break
 the goal here to make a convincing
 the goal here to make a convincing
 the goal here to make a convincing
-argument for stellar is your chain of
-argument for stellar is your chain of
-argument for stellar is your chain of
+argument for Stellar is your chain of
+argument for Stellar is your chain of
+argument for Stellar is your chain of
 choice for your next nft project and to
 choice for your next nft project and to
 choice for your next nft project and to
@@ -951,9 +951,9 @@ it'll be a guided tour if you will
 through the wonderful world of
 through the wonderful world of
 through the wonderful world of
-innovative nfts on stellar
-innovative nfts on stellar
-innovative nfts on stellar
+innovative nfts on Stellar
+innovative nfts on Stellar
+innovative nfts on Stellar
 finally of course we'll end with a with
 finally of course we'll end with a with
 finally of course we'll end with a with
@@ -1428,9 +1428,9 @@ so alternatively to that what we have
 today let's consider enlightenment a
 today let's consider enlightenment a
 today let's consider enlightenment a
-decentralized nft marketplace on stellar
-decentralized nft marketplace on stellar
-decentralized nft marketplace on stellar
+decentralized nft marketplace on Stellar
+decentralized nft marketplace on Stellar
+decentralized nft marketplace on Stellar
 which we'll observe
 which we'll observe
 which we'll observe
@@ -1524,7 +1524,7 @@ where we move away from nfts more
 generally and begin to look specifically
 generally and begin to look specifically
 generally and begin to look specifically
-at stellar
+at Stellar
 so just like nfts more generally there
 so just like nfts more generally there
 are some terminologies some some terms
@@ -1536,33 +1536,33 @@ that we should be familiar with before
 jumping into
 jumping into
 jumping into
-to stellar more deeply first is
-to stellar more deeply first is
-to stellar more deeply first is
+to Stellar more deeply first is
+to Stellar more deeply first is
+to Stellar more deeply first is
 core
 core
 core
-core is the fundamental software stellar
-core is the fundamental software stellar
-core is the fundamental software stellar
-validators used to run the stellar
-validators used to run the stellar
-validators used to run the stellar
+core is the fundamental software Stellar
+core is the fundamental software Stellar
+core is the fundamental software Stellar
+validators used to run the Stellar
+validators used to run the Stellar
+validators used to run the Stellar
 blockchain all the features and
 blockchain all the features and
 blockchain all the features and
-functions describing what stellar can
-functions describing what stellar can
-functions describing what stellar can
+functions describing what Stellar can
+functions describing what Stellar can
+functions describing what Stellar can
 and cannot do live here in the core
 and cannot do live here in the core
 and cannot do live here in the core
 program
 program
 program
-that is stellar
-that is stellar
-that is stellar
+that is Stellar
+that is Stellar
+that is Stellar
 next horizon the api access point
 next horizon the api access point
 next horizon the api access point
@@ -1581,12 +1581,12 @@ the server
 for the applications we'll build on
 for the applications we'll build on
 for the applications we'll build on
-stellar most of your interactions when
-stellar most of your interactions when
-stellar most of your interactions when
-you're building stellar applications
-you're building stellar applications
-you're building stellar applications
+Stellar most of your interactions when
+Stellar most of your interactions when
+Stellar most of your interactions when
+you're building Stellar applications
+you're building Stellar applications
+you're building Stellar applications
 will be interacting with horizon at some
 will be interacting with horizon at some
 will be interacting with horizon at some
@@ -1602,9 +1602,9 @@ lightmint this is our premier nfc
 marketplace which is pioneering nft best
 marketplace which is pioneering nft best
 marketplace which is pioneering nft best
-practices for the stellar ecosystem
-practices for the stellar ecosystem
-practices for the stellar ecosystem
+practices for the Stellar ecosystem
+practices for the Stellar ecosystem
+practices for the Stellar ecosystem
 another one is ipfs interplanetary file
 another one is ipfs interplanetary file
 another one is ipfs interplanetary file
@@ -1614,9 +1614,9 @@ system
 it's the de facto decentralized nft
 it's the de facto decentralized nft
 it's the de facto decentralized nft
-metadata database so it's not a stellar
-metadata database so it's not a stellar
-metadata database so it's not a stellar
+metadata database so it's not a Stellar
+metadata database so it's not a Stellar
+metadata database so it's not a Stellar
 technology
 technology
 technology
@@ -1626,9 +1626,9 @@ but it is one that we can easily
 integrate with when constructing our
 integrate with when constructing our
 integrate with when constructing our
-stellar nfts
-stellar nfts
-stellar nfts
+Stellar nfts
+Stellar nfts
+Stellar nfts
 that's that's one you're going to see
 that's that's one you're going to see
 that's that's one you're going to see
@@ -1638,15 +1638,15 @@ popping up a lot
 finally trust lines
 finally trust lines
 finally trust lines
-this is a stellar specific technology
-this is a stellar specific technology
-this is a stellar specific technology
+this is a Stellar specific technology
+this is a Stellar specific technology
+this is a Stellar specific technology
 these are assets so
 these are assets so
 these are assets so
-trust lines are assets on stellar they
-trust lines are assets on stellar they
-trust lines are assets on stellar they
+trust lines are assets on Stellar they
+trust lines are assets on Stellar they
+trust lines are assets on Stellar they
 exist as trust lines for an asset to
 exist as trust lines for an asset to
 exist as trust lines for an asset to
@@ -1683,18 +1683,18 @@ and we'll cover some of these in more
 detail later on
 detail later on
 detail later on
-next why build on stellar
-next why build on stellar
-next why build on stellar
+next why build on Stellar
+next why build on Stellar
+next why build on Stellar
 there are many reasons you might choose
 there are many reasons you might choose
 there are many reasons you might choose
-to build on stellar not least of which
-to build on stellar not least of which
-to build on stellar not least of which
-are things like stellar being fast
-are things like stellar being fast
-are things like stellar being fast
+to build on Stellar not least of which
+to build on Stellar not least of which
+to build on Stellar not least of which
+are things like Stellar being fast
+are things like Stellar being fast
+are things like Stellar being fast
 accessible affordable lean secure
 accessible affordable lean secure
 accessible affordable lean secure
@@ -1716,9 +1716,9 @@ in this entourage of excellence that i
 would really like to highlight and that
 would really like to highlight and that
 would really like to highlight and that
-is that stellar is equitable
-stellar is a purpose-built blockchain on
-stellar is a purpose-built blockchain on
+is that Stellar is equitable
+Stellar is a purpose-built blockchain on
+Stellar is a purpose-built blockchain on
 a mission to become the global payment
 a mission to become the global payment
 a mission to become the global payment
@@ -1731,9 +1731,9 @@ and at the floor of this objective is
 the fundamental technical requirement
 the fundamental technical requirement
 the fundamental technical requirement
-that stellar maintain accessibility
-that stellar maintain accessibility
-that stellar maintain accessibility
+that Stellar maintain accessibility
+that Stellar maintain accessibility
+that Stellar maintain accessibility
 the only way to become a global payment
 the only way to become a global payment
 the only way to become a global payment
@@ -1767,9 +1767,9 @@ that comes from the actual governance
 structure
 structure
 structure
-of the stellar chain
-of the stellar chain
-of the stellar chain
+of the Stellar chain
+of the Stellar chain
+of the Stellar chain
 blockchains are expensive
 blockchains are expensive
 blockchains are expensive
@@ -1830,9 +1830,9 @@ inefficiencies are a good thing for
 validators
 validators
 validators
-on stellar this struggle is nowhere to
-on stellar this struggle is nowhere to
-on stellar this struggle is nowhere to
+on Stellar this struggle is nowhere to
+on Stellar this struggle is nowhere to
+on Stellar this struggle is nowhere to
 be seen because the network validators
 be seen because the network validators
 be seen because the network validators
@@ -1842,18 +1842,18 @@ have the same incentives as the users
 they derive profit from their own
 they derive profit from their own
 they derive profit from their own
-projects using stellar versus
-projects using stellar versus
-projects using stellar versus
+projects using Stellar versus
+projects using Stellar versus
+projects using Stellar versus
 those validators actually running
 those validators actually running
 those validators actually running
-stellar validators are not paid by
-stellar validators are not paid by
-stellar validators are not paid by
-stellar they are paid same as you to
-stellar they are paid same as you to
-stellar they are paid same as you to
+Stellar validators are not paid by
+Stellar validators are not paid by
+Stellar validators are not paid by
+Stellar they are paid same as you to
+Stellar they are paid same as you to
+Stellar they are paid same as you to
 build profitable businesses on the
 build profitable businesses on the
 build profitable businesses on the
@@ -1935,9 +1935,9 @@ you have different controls on your
 asset
 I'm going to walk through the anatomy
 I'm going to walk through the anatomy
-of an nft on stellar
-of an nft on stellar
-of an nft on stellar
+of an nft on Stellar
+of an nft on Stellar
+of an nft on Stellar
 quickly so we're going to jump off of
 quickly so we're going to jump off of
 quickly so we're going to jump off of
@@ -2016,15 +2016,15 @@ here on ipfs
 if we open up the the actual asset on
 if we open up the the actual asset on
 if we open up the the actual asset on
-stellar so I'm going to open up stellar
-stellar so I'm going to open up stellar
-stellar so I'm going to open up stellar
+Stellar so I'm going to open up Stellar
+Stellar so I'm going to open up Stellar
+Stellar so I'm going to open up Stellar
 expert which is a blockchain explorer
 expert which is a blockchain explorer
 expert which is a blockchain explorer
-for stellar
-for stellar
-for stellar
+for Stellar
+for Stellar
+for Stellar
 you can see the asset right here we've
 you can see the asset right here we've
 you can see the asset right here we've
@@ -2043,9 +2043,9 @@ you can see that ipfs hash that's been
 associated with our issuing account so a
 associated with our issuing account so a
 associated with our issuing account so a
-stellar account issues the nft other
-stellar account issues the nft other
-stellar account issues the nft other
+Stellar account issues the nft other
+Stellar account issues the nft other
+Stellar account issues the nft other
 users can then open up a trust line for
 users can then open up a trust line for
 users can then open up a trust line for
@@ -2145,9 +2145,9 @@ be somewhat limiting in that particular
 scenario
 scenario
 scenario
-you have the native stellar decks for
-you have the native stellar decks for
-you have the native stellar decks for
+you have the native Stellar decks for
+you have the native Stellar decks for
+you have the native Stellar decks for
 buying and selling nfts but that's about
 buying and selling nfts but that's about
 buying and selling nfts but that's about
@@ -2691,15 +2691,15 @@ on chain
 all of these nfts are actually going on
 all of these nfts are actually going on
 all of these nfts are actually going on
-to it's right now the stellar test net
-to it's right now the stellar test net
-to it's right now the stellar test net
+to it's right now the Stellar test net
+to it's right now the Stellar test net
+to it's right now the Stellar test net
 but we've actually literally gone and
 but we've actually literally gone and
 but we've actually literally gone and
-minted a brand new nft on the stellar
-minted a brand new nft on the stellar
-minted a brand new nft on the stellar
+minted a brand new nft on the Stellar
+minted a brand new nft on the Stellar
+minted a brand new nft on the Stellar
 test net so there it is that's my nft
 test net so there it is that's my nft
 test net so there it is that's my nft
@@ -2880,9 +2880,9 @@ we've gotten a nice overlook of nfts in
 general
 general
 general
-nfts on stellar we'll take a a quick
-nfts on stellar we'll take a a quick
-nfts on stellar we'll take a a quick
+nfts on Stellar we'll take a a quick
+nfts on Stellar we'll take a a quick
+nfts on Stellar we'll take a a quick
 moment for some for some q a off of our
 moment for some for some q a off of our
 moment for some for some q a off of our
@@ -2973,9 +2973,9 @@ it's fine if it's running
 centralized so long as it's actually on
 centralized so long as it's actually on
 centralized so long as it's actually on
-stellar
-stellar
-stellar
+Stellar
+Stellar
+Stellar
 and then the second question
 and then the second question
 and then the second question
@@ -3126,9 +3126,9 @@ authorization server
 so that'll be that the authorization
 so that'll be that the authorization
 so that'll be that the authorization
-server auth server is a stellar
-server auth server is a stellar
-server auth server is a stellar
+server auth server is a Stellar
+server auth server is a Stellar
+server auth server is a Stellar
 transaction builder
 transaction builder
 transaction builder
@@ -3210,9 +3210,9 @@ payment logic in between
 some authorization operations when
 some authorization operations when
 some authorization operations when
-building stellar transactions
-building stellar transactions
-building stellar transactions
+building Stellar transactions
+building Stellar transactions
+building Stellar transactions
 so the transaction building will be
 so the transaction building will be
 so the transaction building will be
@@ -3234,9 +3234,9 @@ but for those taking notes this
 liability can be removed right now via
 liability can be removed right now via
 liability can be removed right now via
-an ecosystem initiative called stellar
-an ecosystem initiative called stellar
-an ecosystem initiative called stellar
+an ecosystem initiative called Stellar
+an ecosystem initiative called Stellar
+an ecosystem initiative called Stellar
 turrets
 turrets
 turrets
@@ -3276,7 +3276,7 @@ layer one
 so in a word smart contracts directly on
 so in a word smart contracts directly on
 so in a word smart contracts directly on
-stellar
+Stellar
 with our nft design understood and the
 with our nft design understood and the
 foundations of asset authorization laid
@@ -3477,9 +3477,9 @@ it and a lot of this is like once we've
 covered one of these the way that you
 covered one of these the way that you
 covered one of these the way that you
-build stellar transactions is kind of
-build stellar transactions is kind of
-build stellar transactions is kind of
+build Stellar transactions is kind of
+build Stellar transactions is kind of
+build Stellar transactions is kind of
 always the same so it'll start to feel a
 always the same so it'll start to feel a
 always the same so it'll start to feel a
@@ -3501,9 +3501,9 @@ key pair so 910 here
 we generate a new public private key
 we generate a new public private key
 we generate a new public private key
-pair for for stellar
-pair for for stellar
-pair for for stellar
+pair for for Stellar
+pair for for Stellar
+pair for for Stellar
 and since we're on test net we can use
 and since we're on test net we can use
 and since we're on test net we can use
@@ -3615,9 +3615,9 @@ account and then we actually need to
 associate a brand new signer to that
 associate a brand new signer to that
 associate a brand new signer to that
-account so stellar has a multi-sig built
-account so stellar has a multi-sig built
-account so stellar has a multi-sig built
+account so Stellar has a multi-sig built
+account so Stellar has a multi-sig built
+account so Stellar has a multi-sig built
 right in at layer one
 right in at layer one
 right in at layer one
@@ -3861,9 +3861,9 @@ controlling every single nft on your
 platform
 platform
 platform
-so in the stellar turrets model which i
-so in the stellar turrets model which i
-so in the stellar turrets model which i
+so in the Stellar turrets model which i
+so in the Stellar turrets model which i
+so in the Stellar turrets model which i
 mentioned before you actually add lots
 mentioned before you actually add lots
 mentioned before you actually add lots
@@ -4074,9 +4074,9 @@ you will so the request goes to the
 server the server will build this xdr
 server the server will build this xdr
 server the server will build this xdr
-will build this transaction the stellar
-will build this transaction the stellar
-will build this transaction the stellar
+will build this transaction the Stellar
+will build this transaction the Stellar
+will build this transaction the Stellar
 transaction according to whatever your
 transaction according to whatever your
 transaction according to whatever your
@@ -4164,9 +4164,9 @@ this is the signing key that will be
 that will be added to any xdr in each
 that will be added to any xdr in each
 that will be added to any xdr in each
-stellar transaction xdr
-stellar transaction xdr
-stellar transaction xdr
+Stellar transaction xdr
+Stellar transaction xdr
+Stellar transaction xdr
 seller transaction same thing that will
 seller transaction same thing that will
 seller transaction same thing that will
@@ -4221,12 +4221,12 @@ function here on the server
 and so this is going to look kind of
 and so this is going to look kind of
 and so this is going to look kind of
-familiar remember that the stellar
-familiar remember that the stellar
-familiar remember that the stellar
-sdk that we're using this stellar base
-sdk that we're using this stellar base
-sdk that we're using this stellar base
+familiar remember that the Stellar
+familiar remember that the Stellar
+familiar remember that the Stellar
+sdk that we're using this Stellar base
+sdk that we're using this Stellar base
+sdk that we're using this Stellar base
 in this case
 in this case
 in this case
@@ -4326,24 +4326,24 @@ our
 transaction
 transaction
 transaction
-so stellar transactions exist kind of
-so stellar transactions exist kind of
-so stellar transactions exist kind of
+so Stellar transactions exist kind of
+so Stellar transactions exist kind of
+so Stellar transactions exist kind of
 these envelopes that you put operations
 these envelopes that you put operations
 these envelopes that you put operations
 into
 into
 into
-transactions on stellar are atomic which
-transactions on stellar are atomic which
-transactions on stellar are atomic which
+transactions on Stellar are atomic which
+transactions on Stellar are atomic which
+transactions on Stellar are atomic which
 means you can put lots of different
 means you can put lots of different
 means you can put lots of different
-operations into a stellar transaction
-operations into a stellar transaction
-operations into a stellar transaction
+operations into a Stellar transaction
+operations into a Stellar transaction
+operations into a Stellar transaction
 this kind of chain of events and either
 this kind of chain of events and either
 this kind of chain of events and either
@@ -4353,9 +4353,9 @@ all succeeds or it all fails together
 you don't kind of have a partially
 you don't kind of have a partially
 you don't kind of have a partially
-successful stellar transaction the whole
-successful stellar transaction the whole
-successful stellar transaction the whole
+successful Stellar transaction the whole
+successful Stellar transaction the whole
+successful Stellar transaction the whole
 thing succeeds or fails together and
 thing succeeds or fails together and
 thing succeeds or fails together and
@@ -4467,9 +4467,9 @@ full control over this asset
 the inflation destination
 the inflation destination
 the inflation destination
-stellar used to have an inflation
-stellar used to have an inflation
-stellar used to have an inflation
+Stellar used to have an inflation
+Stellar used to have an inflation
+Stellar used to have an inflation
 mechanic that was retired by the
 mechanic that was retired by the
 mechanic that was retired by the
@@ -4479,9 +4479,9 @@ ecosystem decided that it wasn't all
 that helpful but there's still a field
 that helpful but there's still a field
 that helpful but there's still a field
-that exists on stellar accounts that you
-that exists on stellar accounts that you
-that exists on stellar accounts that you
+that exists on Stellar accounts that you
+that exists on Stellar accounts that you
+that exists on Stellar accounts that you
 I'm kind of now sub-opting I'm taking
 I'm kind of now sub-opting I'm taking
 I'm kind of now sub-opting I'm taking
@@ -5376,9 +5376,9 @@ thing that you that we really need to be
 doing is is manage a sell offer so
 doing is is manage a sell offer so
 doing is is manage a sell offer so
-there's a stellar operation called
-there's a stellar operation called
-there's a stellar operation called
+there's a Stellar operation called
+there's a Stellar operation called
+there's a Stellar operation called
 manage sell offer where you take a
 manage sell offer where you take a
 manage sell offer where you take a
@@ -5442,9 +5442,9 @@ that you need to do if you're selling
 the nft is get the nft up on
 the nft is get the nft up on
 the nft is get the nft up on
-the the stellar decks to actually put it
-the the stellar decks to actually put it
-the the stellar decks to actually put it
+the the Stellar decks to actually put it
+the the Stellar decks to actually put it
+the the Stellar decks to actually put it
 up for sale so that other people can see
 up for sale so that other people can see
 up for sale so that other people can see
@@ -6366,9 +6366,9 @@ just the offers for my nft project just
 the offers that are for royalty payments
 the offers that are for royalty payments
 the offers that are for royalty payments
-why aren't all of the nfts on stellar
-why aren't all of the nfts on stellar
-why aren't all of the nfts on stellar
+why aren't all of the nfts on Stellar
+why aren't all of the nfts on Stellar
+why aren't all of the nfts on Stellar
 showing up in this interface how have we
 showing up in this interface how have we
 showing up in this interface how have we
@@ -6402,15 +6402,15 @@ and this is an actual
 horizon api call that's getting offers
 horizon api call that's getting offers
 horizon api call that's getting offers
-from the stellar blockchain so if we
-from the stellar blockchain so if we
-from the stellar blockchain so if we
+from the Stellar blockchain so if we
+from the Stellar blockchain so if we
+from the Stellar blockchain so if we
 were to go to
 were to go to
 were to go to
-laboratory stellar laboratory really
-laboratory stellar laboratory really
-laboratory stellar laboratory really
+laboratory Stellar laboratory really
+laboratory Stellar laboratory really
+laboratory Stellar laboratory really
 quickly on test net and explore
 quickly on test net and explore
 quickly on test net and explore
@@ -6450,9 +6450,9 @@ ones that are involved in my nft project
 so how am I going to filter
 so how am I going to filter
 so how am I going to filter
-all of the offers on stellar to only
-all of the offers on stellar to only
-all of the offers on stellar to only
+all of the offers on Stellar to only
+all of the offers on Stellar to only
+all of the offers on Stellar to only
 show just the ones that are involving my
 show just the ones that are involving my
 show just the ones that are involving my
@@ -6579,9 +6579,9 @@ sponsorship
 sponsorship is something
 sponsorship is something
 sponsorship is something
-that exists on stellar where a sponsor
-that exists on stellar where a sponsor
-that exists on stellar where a sponsor
+that exists on Stellar where a sponsor
+that exists on Stellar where a sponsor
+that exists on Stellar where a sponsor
 will say
 will say
 will say
@@ -6603,9 +6603,9 @@ lumen trust lines and offers are half of
 a lumen to actually have them exist on
 a lumen to actually have them exist on
 a lumen to actually have them exist on
-chain on stellar
-chain on stellar
-chain on stellar
+chain on Stellar
+chain on Stellar
+chain on Stellar
 and so a nice mechanic to to offload
 and so a nice mechanic to to offload
 and so a nice mechanic to to offload
@@ -7020,9 +7020,9 @@ actually in the future and issue more
 nfts I don't think so
 nfts I don't think so
 nfts I don't think so
-right now on stellar without actually
-right now on stellar without actually
-right now on stellar without actually
+right now on Stellar without actually
+right now on Stellar without actually
+right now on Stellar without actually
 locking the account there are some
 locking the account there are some
 locking the account there are some
@@ -7152,15 +7152,15 @@ getting into the weeds
 so there are different types of signers
 so there are different types of signers
 so there are different types of signers
-that you can add to a stellar account
-that you can add to a stellar account
-that you can add to a stellar account
+that you can add to a Stellar account
+that you can add to a Stellar account
+that you can add to a Stellar account
 the most obvious one is just other
 the most obvious one is just other
 the most obvious one is just other
-stellar accounts but you can actually
-stellar accounts but you can actually
-stellar accounts but you can actually
+Stellar accounts but you can actually
+Stellar accounts but you can actually
+Stellar accounts but you can actually
 also add
 also add
 also add

@@ -6,9 +6,9 @@ thank you everyone for joining today's
 
 
 
-stellar development foundation quarterly
-stellar development foundation quarterly
-stellar development foundation quarterly
+Stellar development foundation quarterly
+Stellar development foundation quarterly
+Stellar development foundation quarterly
 call
 call
 call
@@ -54,9 +54,9 @@ ceo of abra about the exciting work and
 products that abra's been working on and
 products that abra's been working on and
 products that abra's been working on and
-that are powered by stellar
-that are powered by stellar
-that are powered by stellar
+that are powered by Stellar
+that are powered by Stellar
+that are powered by Stellar
 and justin rice our head of ecosystem at
 and justin rice our head of ecosystem at
 and justin rice our head of ecosystem at
@@ -198,12 +198,12 @@ so over the last several months we've
 been working closely with samsung to
 been working closely with samsung to
 been working closely with samsung to
-integrate stellar and I'm happy to
-integrate stellar and I'm happy to
-integrate stellar and I'm happy to
-announce that stellar end users are now
-announce that stellar end users are now
-announce that stellar end users are now
+integrate Stellar and I'm happy to
+integrate Stellar and I'm happy to
+integrate Stellar and I'm happy to
+announce that Stellar end users are now
+announce that Stellar end users are now
+announce that Stellar end users are now
 able to securely store private keys
 able to securely store private keys
 able to securely store private keys
@@ -258,18 +258,18 @@ development for the great ecosystem of
 applications built on our network
 applications built on our network
 applications built on our network
-it's going to allow stellar ecosystem
-it's going to allow stellar ecosystem
-it's going to allow stellar ecosystem
+it's going to allow Stellar ecosystem
+it's going to allow Stellar ecosystem
+it's going to allow Stellar ecosystem
 developers to create blockchain apps and
 developers to create blockchain apps and
 developers to create blockchain apps and
 services for samsung galaxy smartphones
 services for samsung galaxy smartphones
 services for samsung galaxy smartphones
-in addition to existing stellar-based
-in addition to existing stellar-based
-in addition to existing stellar-based
+in addition to existing Stellar-based
+in addition to existing Stellar-based
+in addition to existing Stellar-based
 products and applications
 products and applications
 products and applications
@@ -279,12 +279,12 @@ it just opens up a whole new network of
 users that can benefit from the combined
 users that can benefit from the combined
 users that can benefit from the combined
-innovation of stellar and samsung
-innovation of stellar and samsung
-innovation of stellar and samsung
-we already have four stellar based
-we already have four stellar based
-we already have four stellar based
+innovation of Stellar and samsung
+innovation of Stellar and samsung
+innovation of Stellar and samsung
+we already have four Stellar based
+we already have four Stellar based
+we already have four Stellar based
 businesses adopting the
 businesses adopting the
 businesses adopting the
@@ -318,9 +318,9 @@ ecosystem experience for consumers
 by working with developers who built who
 by working with developers who built who
 by working with developers who built who
-have built on stellar network and
-have built on stellar network and
-have built on stellar network and
+have built on Stellar network and
+have built on Stellar network and
+have built on Stellar network and
 incorporated the appropriate sdks into
 incorporated the appropriate sdks into
 incorporated the appropriate sdks into
@@ -342,9 +342,9 @@ effort to recruit
 onboard and support developers in the
 onboard and support developers in the
 onboard and support developers in the
-stellar ecosystem
-stellar ecosystem
-stellar ecosystem
+Stellar ecosystem
+Stellar ecosystem
+Stellar ecosystem
 it's just the beginning as we work
 it's just the beginning as we work
 it's just the beginning as we work
@@ -378,9 +378,9 @@ unlike any others across industries
 we've all had to adapt to a new normal
 we've all had to adapt to a new normal
 we've all had to adapt to a new normal
-fortunately for sdf and for stellar
-fortunately for sdf and for stellar
-fortunately for sdf and for stellar
+fortunately for sdf and for Stellar
+fortunately for sdf and for Stellar
+fortunately for sdf and for Stellar
 we're continuing to grow and thrive
 we're continuing to grow and thrive
 we're continuing to grow and thrive
@@ -540,9 +540,9 @@ network to facilitate moving value from
 the traditional banking system
 the traditional banking system
 the traditional banking system
-into stellar and vice versa the network
-into stellar and vice versa the network
-into stellar and vice versa the network
+into Stellar and vice versa the network
+into Stellar and vice versa the network
+into Stellar and vice versa the network
 relies
 relies
 relies
@@ -558,9 +558,9 @@ a world where the existing financial
 structure is connected
 structure is connected
 structure is connected
-and interoperable with stellar so this
-and interoperable with stellar so this
-and interoperable with stellar so this
+and interoperable with Stellar so this
+and interoperable with Stellar so this
+and interoperable with Stellar so this
 quarter
 quarter
 quarter
@@ -621,9 +621,9 @@ anchor footprint in markets
 where the data indicates that the
 where the data indicates that the
 where the data indicates that the
-stellar network can have an outsize
-stellar network can have an outsize
-stellar network can have an outsize
+Stellar network can have an outsize
+Stellar network can have an outsize
+Stellar network can have an outsize
 impact specifically for remittance
 impact specifically for remittance
 impact specifically for remittance
@@ -708,9 +708,9 @@ payments
 and one of the earliest adopters of
 and one of the earliest adopters of
 and one of the earliest adopters of
-stellar satoshi pay expanded their
-stellar satoshi pay expanded their
-stellar satoshi pay expanded their
+Stellar satoshi pay expanded their
+Stellar satoshi pay expanded their
+Stellar satoshi pay expanded their
 business to tap into a growing b2b
 business to tap into a growing b2b
 business to tap into a growing b2b
@@ -738,9 +738,9 @@ a next generation financial platform
 which is facilitating opera's
 which is facilitating opera's
 which is facilitating opera's
-integration with stellar
-integration with stellar
-integration with stellar
+integration with Stellar
+integration with Stellar
+integration with Stellar
 as its blockchain back end and offers
 as its blockchain back end and offers
 as its blockchain back end and offers
@@ -750,9 +750,9 @@ expansion of financial services that
 will bring
 will bring
 will bring
-new products powered by stellar so to
-new products powered by stellar so to
-new products powered by stellar so to
+new products powered by Stellar so to
+new products powered by Stellar so to
+new products powered by Stellar so to
 share more about this work
 share more about this work
 share more about this work
@@ -1170,9 +1170,9 @@ large exchanges other loan originators
 and this is a good segue
 and this is a good segue
 and this is a good segue
-into what we're working on with stellar
-into what we're working on with stellar
-into what we're working on with stellar
+into what we're working on with Stellar
+into what we're working on with Stellar
+into what we're working on with Stellar
 so if you'd like to go to the
 so if you'd like to go to the
 so if you'd like to go to the
@@ -1200,9 +1200,9 @@ in order to facilitate the movement of
 funds
 funds
 funds
-globally in real time using the stellar
-globally in real time using the stellar
-globally in real time using the stellar
+globally in real time using the Stellar
+globally in real time using the Stellar
+globally in real time using the Stellar
 network
 network
 network
@@ -1239,9 +1239,9 @@ or ethereum holdings
 we want to take this to another level
 we want to take this to another level
 we want to take this to another level
-and and use the stellar platform to
-and and use the stellar platform to
-and and use the stellar platform to
+and and use the Stellar platform to
+and and use the Stellar platform to
+and and use the Stellar platform to
 truly enable
 truly enable
 truly enable
@@ -1284,9 +1284,9 @@ kind of peek as to what's coming and
 what we're really excited about
 what we're really excited about
 what we're really excited about
-to be working on with stellar so i'd
-to be working on with stellar so i'd
-to be working on with stellar so i'd
+to be working on with Stellar so i'd
+to be working on with Stellar so i'd
+to be working on with Stellar so i'd
 be happy to
 be happy to
 be happy to
@@ -1566,12 +1566,12 @@ would love to just have your few
 thoughts about
 thoughts about
 thoughts about
-why you selected stellar and why you
-why you selected stellar and why you
-why you selected stellar and why you
-thought stellar was a great entity a
-thought stellar was a great entity a
-thought stellar was a great entity a
+why you selected Stellar and why you
+why you selected Stellar and why you
+why you selected Stellar and why you
+thought Stellar was a great entity a
+thought Stellar was a great entity a
+thought Stellar was a great entity a
 great
 great
 great
@@ -1686,9 +1686,9 @@ lot of the first generation platforms
 could not
 could not
 could not
-and that's where we think stellar truly
-and that's where we think stellar truly
-and that's where we think stellar truly
+and that's where we think Stellar truly
+and that's where we think Stellar truly
+and that's where we think Stellar truly
 shines
 all right I love that now let me just
 all right I love that now let me just
@@ -1752,9 +1752,9 @@ start to develop some g10 currencies
 beyond the dollar using
 beyond the dollar using
 beyond the dollar using
-stablecoin technologies like stellar or
-stablecoin technologies like stellar or
-stablecoin technologies like stellar or
+stablecoin technologies like Stellar or
+stablecoin technologies like Stellar or
+stablecoin technologies like Stellar or
 others
 others
 others
@@ -1860,12 +1860,12 @@ share more about the continued growth of
 the network
 the network
 the network
-and the development of stellar
-and the development of stellar
-and the development of stellar
-technology so stellar is open source
-technology so stellar is open source
-technology so stellar is open source
+and the development of Stellar
+and the development of Stellar
+and the development of Stellar
+technology so Stellar is open source
+technology so Stellar is open source
+technology so Stellar is open source
 and open participation and many of the
 and open participation and many of the
 and open participation and many of the
@@ -1914,9 +1914,9 @@ short-term answer is to continue our
 partnership with lumenthropy
 partnership with lumenthropy
 partnership with lumenthropy
-which is a stellar-based platform for
-which is a stellar-based platform for
-which is a stellar-based platform for
+which is a Stellar-based platform for
+which is a Stellar-based platform for
+which is a Stellar-based platform for
 charitable donations
 charitable donations
 charitable donations
@@ -2028,9 +2028,9 @@ there was a significant uptick in
 average daily trading volume on
 average daily trading volume on
 average daily trading volume on
-stellar's decentralized exchange
-stellar's decentralized exchange
-stellar's decentralized exchange
+Stellar's decentralized exchange
+Stellar's decentralized exchange
+Stellar's decentralized exchange
 this quarter we saw about 5.9 million
 this quarter we saw about 5.9 million
 this quarter we saw about 5.9 million
@@ -2100,9 +2100,9 @@ but one thing is for sure people find it
 very very easy to issue assets using
 very very easy to issue assets using
 very very easy to issue assets using
-stellar
-stellar
-stellar
+Stellar
+Stellar
+Stellar
 lastly let's take a look at where the
 lastly let's take a look at where the
 lastly let's take a look at where the
@@ -2187,9 +2187,9 @@ protocol 13
 and q12 so protocol 13.
 and q12 so protocol 13.
 and q12 so protocol 13.
-on june 18th the stellar public network
-on june 18th the stellar public network
-on june 18th the stellar public network
+on june 18th the Stellar public network
+on june 18th the Stellar public network
+on june 18th the Stellar public network
 upgraded to protocol 13.
 upgraded to protocol 13.
 upgraded to protocol 13.
@@ -2244,9 +2244,9 @@ details here but the key takeaway for
 those two
 those two
 those two
-they both held stellar core and
-they both held stellar core and
-they both held stellar core and
+they both held Stellar core and
+they both held Stellar core and
+they both held Stellar core and
 therefore the network as a whole run a
 therefore the network as a whole run a
 therefore the network as a whole run a
@@ -2292,9 +2292,9 @@ flexibility to respond to changes in
 network usage
 network usage
 network usage
-so they can ensure that stellar
-so they can ensure that stellar
-so they can ensure that stellar
+so they can ensure that Stellar
+so they can ensure that Stellar
+so they can ensure that Stellar
 continues to function as a fast
 continues to function as a fast
 continues to function as a fast
@@ -2328,9 +2328,9 @@ on a case-by-case basis without
 cancelling open orders on the books
 cancelling open orders on the books
 cancelling open orders on the books
-so this optimizes stellar so it's a
-so this optimizes stellar so it's a
-so this optimizes stellar so it's a
+so this optimizes Stellar so it's a
+so this optimizes Stellar so it's a
+so this optimizes Stellar so it's a
 great option for issuing assets with
 great option for issuing assets with
 great option for issuing assets with
@@ -2349,9 +2349,9 @@ first class multiplexed accounts cap 27
 which allows exchanges and custodial
 which allows exchanges and custodial
 which allows exchanges and custodial
-services to map a single stellar account
-services to map a single stellar account
-services to map a single stellar account
+services to map a single Stellar account
+services to map a single Stellar account
+services to map a single Stellar account
 to multiple users
 to multiple users
 to multiple users
@@ -2379,9 +2379,9 @@ pave the way for businesses that want to
 manage client accounts to build on
 manage client accounts to build on
 manage client accounts to build on
-stellar
-stellar
-stellar
+Stellar
+Stellar
+Stellar
 in addition to these changes at the
 in addition to these changes at the
 in addition to these changes at the
@@ -2424,9 +2424,9 @@ management is one of the biggest
 impediments to user adoption
 impediments to user adoption
 impediments to user adoption
-not just for stellar but for crypto
-not just for stellar but for crypto
-not just for stellar but for crypto
+not just for Stellar but for crypto
+not just for Stellar but for crypto
+not just for Stellar but for crypto
 generally and it's also one of the most
 generally and it's also one of the most
 generally and it's also one of the most
@@ -2484,9 +2484,9 @@ technical details but step 30 solves the
 problem of key management by leveraging
 problem of key management by leveraging
 problem of key management by leveraging
-stellar's built-in multi-sig
-stellar's built-in multi-sig
-stellar's built-in multi-sig
+Stellar's built-in multi-sig
+Stellar's built-in multi-sig
+Stellar's built-in multi-sig
 capabilities
 capabilities
 capabilities
@@ -2520,9 +2520,9 @@ huge right it paves the way
 for a new breed of user friendly apps on
 for a new breed of user friendly apps on
 for a new breed of user friendly apps on
-stellar and we're really excited to see
-stellar and we're really excited to see
-stellar and we're really excited to see
+Stellar and we're really excited to see
+Stellar and we're really excited to see
+Stellar and we're really excited to see
 what businesses
 what businesses
 what businesses
@@ -2550,9 +2550,9 @@ and will continue to add more learning
 paths as network use cases evolve
 paths as network use cases evolve
 paths as network use cases evolve
-stellar's always been known for having
-stellar's always been known for having
-stellar's always been known for having
+Stellar's always been known for having
+Stellar's always been known for having
+Stellar's always been known for having
 good documentation and we kept
 good documentation and we kept
 good documentation and we kept
@@ -2565,9 +2565,9 @@ new update
 we just made it even easier to learn how
 we just made it even easier to learn how
 we just made it even easier to learn how
-to build on stellar
-to build on stellar
-to build on stellar
+to build on Stellar
+to build on Stellar
+to build on Stellar
 that's it for me so with that it's my
 that's it for me so with that it's my
 that's it for me so with that it's my
@@ -2709,18 +2709,18 @@ digital currencies
 and since as justin just mentioned
 and since as justin just mentioned
 and since as justin just mentioned
-stellar was designed for stable coins
-stellar was designed for stable coins
-stellar was designed for stable coins
+Stellar was designed for stable coins
+Stellar was designed for stable coins
+Stellar was designed for stable coins
 and cbdc's we find that it's very easy
 and cbdc's we find that it's very easy
 and cbdc's we find that it's very easy
 to issue assets
 to issue assets
 to issue assets
-on the stellar network we're looking
-on the stellar network we're looking
-on the stellar network we're looking
+on the Stellar network we're looking
+on the Stellar network we're looking
+on the Stellar network we're looking
 forward to see how
 forward to see how
 forward to see how
@@ -2739,9 +2739,9 @@ join more policy discussions
 and forums like the like the west and to
 and forums like the like the west and to
 and forums like the like the west and to
-raise awareness for stellar within the
-raise awareness for stellar within the
-raise awareness for stellar within the
+raise awareness for Stellar within the
+raise awareness for Stellar within the
+raise awareness for Stellar within the
 policy maker and regulatory spheres
 policy maker and regulatory spheres
 policy maker and regulatory spheres
@@ -2778,21 +2778,21 @@ a lot of q2 to both joining and hosting
 virtual events
 we participated in eight industry events
 we participated in eight industry events
-we ran a stellar foundation session at
-we ran a stellar foundation session at
-we ran a stellar foundation session at
+we ran a Stellar foundation session at
+we ran a Stellar foundation session at
+we ran a Stellar foundation session at
 consensus distributed
 consensus distributed
 consensus distributed
-where we shared the vision of stellar in
-where we shared the vision of stellar in
-where we shared the vision of stellar in
+where we shared the vision of Stellar in
+where we shared the vision of Stellar in
+where we shared the vision of Stellar in
 2020 and also highlighted businesses
 2020 and also highlighted businesses
 2020 and also highlighted businesses
-built on stellar
-built on stellar
-built on stellar
+built on Stellar
+built on Stellar
+built on Stellar
 both jed and Denelle were on stage at
 both jed and Denelle were on stage at
 both jed and Denelle were on stage at
@@ -2859,9 +2859,9 @@ the business and benefits of being an
 anchor a webinar on compliance
 anchor a webinar on compliance
 anchor a webinar on compliance
-and the stellar network supporting our
-and the stellar network supporting our
-and the stellar network supporting our
+and the Stellar network supporting our
+and the Stellar network supporting our
+and the Stellar network supporting our
 announcement of our partnership with
 announcement of our partnership with
 announcement of our partnership with
@@ -2874,9 +2874,9 @@ kelp
 which is a free customizable open source
 which is a free customizable open source
 which is a free customizable open source
-trading bot for the stellar universal
-trading bot for the stellar universal
-trading bot for the stellar universal
+trading bot for the Stellar universal
+trading bot for the Stellar universal
+trading bot for the Stellar universal
 marketplace
 marketplace
 marketplace
@@ -2919,9 +2919,9 @@ a series of paid marketing initiatives
 to further awareness and understanding
 to further awareness and understanding
 to further awareness and understanding
-of the stellar network
-of the stellar network
-of the stellar network
+of the Stellar network
+of the Stellar network
+of the Stellar network
 our two speaking appearances at the
 our two speaking appearances at the
 our two speaking appearances at the
@@ -2961,9 +2961,9 @@ we also started preparations for our
 biggest virtual event of all
 biggest virtual event of all
 biggest virtual event of all
-which is our second annual stellar
-which is our second annual stellar
-which is our second annual stellar
+which is our second annual Stellar
+which is our second annual Stellar
+which is our second annual Stellar
 conference
 conference
 conference
@@ -3093,9 +3093,9 @@ sdf in particular just because our
 sdf
 sdf
 sdf
-in addition to our the stellar ecosystem
-in addition to our the stellar ecosystem
-in addition to our the stellar ecosystem
+in addition to our the Stellar ecosystem
+in addition to our the Stellar ecosystem
+in addition to our the Stellar ecosystem
 from an sds standpoint we have we were
 from an sds standpoint we have we were
 from an sds standpoint we have we were
@@ -3237,9 +3237,9 @@ we made the announcement back in may
 about how you're going to be using
 about how you're going to be using
 about how you're going to be using
-stellar and so
-stellar and so
-stellar and so
+Stellar and so
+Stellar and so
+Stellar and so
 maybe you could explain kind of what's
 maybe you could explain kind of what's
 maybe you could explain kind of what's
@@ -3261,9 +3261,9 @@ series of global
 banking services which also
 banking services which also
 banking services which also
-take advantage of the stellar network
-take advantage of the stellar network
-take advantage of the stellar network
+take advantage of the Stellar network
+take advantage of the Stellar network
+take advantage of the Stellar network
 and the first phase for us
 and the first phase for us
 and the first phase for us
@@ -3519,9 +3519,9 @@ from these cross-border transactions is
 just crucial for the success
 just crucial for the success
 just crucial for the success
-of the stellar network and so the driver
-of the stellar network and so the driver
-of the stellar network and so the driver
+of the Stellar network and so the driver
+of the Stellar network and so the driver
+of the Stellar network and so the driver
 has been very clearly that
 has been very clearly that
 has been very clearly that
@@ -3741,9 +3741,9 @@ manage
 all of the sort of crypto aspects of
 all of the sort of crypto aspects of
 all of the sort of crypto aspects of
-stellar and conceal the complexity of
-stellar and conceal the complexity of
-stellar and conceal the complexity of
+Stellar and conceal the complexity of
+Stellar and conceal the complexity of
+Stellar and conceal the complexity of
 crypto from users
 crypto from users
 crypto from users
@@ -3789,9 +3789,9 @@ again a sort of
 ecosystem level solution for a problem
 ecosystem level solution for a problem
 ecosystem level solution for a problem
-that many people building on stellar
-that many people building on stellar
-that many people building on stellar
+that many people building on Stellar
+that many people building on Stellar
+that many people building on Stellar
 phase
 phase
 phase
@@ -4065,9 +4065,9 @@ interest in doing that which makes it
 really a great opportunity for us
 really a great opportunity for us
 really a great opportunity for us
-and I think that stellar the sdf as a
-and I think that stellar the sdf as a
-and I think that stellar the sdf as a
+and I think that Stellar the sdf as a
+and I think that Stellar the sdf as a
+and I think that Stellar the sdf as a
 non-profit is in a unique
 non-profit is in a unique
 non-profit is in a unique
@@ -4179,9 +4179,9 @@ today if anyone on the call has
 follow-up questions feel free to
 follow-up questions feel free to
 follow-up questions feel free to
-email us at media stellar.org and thank
-email us at media stellar.org and thank
-email us at media stellar.org and thank
+email us at media Stellar.org and thank
+email us at media Stellar.org and thank
+email us at media Stellar.org and thank
 you everyone
 you everyone
 you everyone

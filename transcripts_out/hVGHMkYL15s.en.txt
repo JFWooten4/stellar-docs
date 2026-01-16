@@ -3,9 +3,9 @@ okay I think we're live what's up
 everybody welcome to this week's edition
 everybody welcome to this week's edition
 everybody welcome to this week's edition
-of stellar engineering talks my name is
-of stellar engineering talks my name is
-of stellar engineering talks my name is
+of Stellar engineering talks my name is
+of Stellar engineering talks my name is
+of Stellar engineering talks my name is
 Colton I'm the community manager here at
 Colton I'm the community manager here at
 Colton I'm the community manager here at
@@ -21,9 +21,9 @@ be one for the next 30 minutes or so for
 the sake of conversation this week I'll
 the sake of conversation this week I'll
 the sake of conversation this week I'll
-be talking about creating usable stellar
-be talking about creating usable stellar
-be talking about creating usable stellar
+be talking about creating usable Stellar
+be talking about creating usable Stellar
+be talking about creating usable Stellar
 applications and I also wanted to give a
 applications and I also wanted to give a
 applications and I also wanted to give a
@@ -84,9 +84,9 @@ financial applications or whatever and a
 lot of them whenever they first start
 lot of them whenever they first start
 lot of them whenever they first start
-working with stellar they don't
-working with stellar they don't
-working with stellar they don't
+working with Stellar they don't
+working with Stellar they don't
+working with Stellar they don't
 completely understand some of the
 completely understand some of the
 completely understand some of the
@@ -135,9 +135,9 @@ many different people right we have all
 these different applications within the
 these different applications within the
 these different applications within the
-stellar ecosystem they all serve
-stellar ecosystem they all serve
-stellar ecosystem they all serve
+Stellar ecosystem they all serve
+Stellar ecosystem they all serve
+Stellar ecosystem they all serve
 different user bases they all have
 different user bases they all have
 different user bases they all have
@@ -168,15 +168,15 @@ of makes applications usable or how to
 give your application a better chance of
 give your application a better chance of
 give your application a better chance of
-being usable within this stellar
-being usable within this stellar
-being usable within this stellar
+being usable within this Stellar
+being usable within this Stellar
+being usable within this Stellar
 ecosystem so we also need to understand
 ecosystem so we also need to understand
 ecosystem so we also need to understand
-why stellar can be hard to use
-why stellar can be hard to use
-why stellar can be hard to use
+why Stellar can be hard to use
+why Stellar can be hard to use
+why Stellar can be hard to use
 especially for people who aren't super
 especially for people who aren't super
 especially for people who aren't super
@@ -246,9 +246,9 @@ making sure they send their funds to the
 right place etc and then you have things
 right place etc and then you have things
 right place etc and then you have things
-that are stellar specific like the
-that are stellar specific like the
-that are stellar specific like the
+that are Stellar specific like the
+that are Stellar specific like the
+that are Stellar specific like the
 seller decentralized exchange anchors
 seller decentralized exchange anchors
 seller decentralized exchange anchors
@@ -285,24 +285,24 @@ what can we do about it
 the first thing is create and use
 the first thing is create and use
 the first thing is create and use
-standards so within the stellar
-standards so within the stellar
-standards so within the stellar
+standards so within the Stellar
+standards so within the Stellar
+standards so within the Stellar
 ecosystem we have what are called
 ecosystem we have what are called
 ecosystem we have what are called
-stellar ecosystem proposals or steps and
-stellar ecosystem proposals or steps and
-stellar ecosystem proposals or steps and
+Stellar ecosystem proposals or steps and
+Stellar ecosystem proposals or steps and
+Stellar ecosystem proposals or steps and
 essentially these steps provide a set of
 essentially these steps provide a set of
 essentially these steps provide a set of
 standards for developers to implement
 standards for developers to implement
 standards for developers to implement
-when building stellar applications and
-when building stellar applications and
-when building stellar applications and
+when building Stellar applications and
+when building Stellar applications and
+when building Stellar applications and
 these are things that evolve over time
 these are things that evolve over time
 these are things that evolve over time
@@ -339,9 +339,9 @@ this category of sort of protocols that
 exist on top of the network so
 exist on top of the network so
 exist on top of the network so
-oftentimes and we're describing stellar
-oftentimes and we're describing stellar
-oftentimes and we're describing stellar
+oftentimes and we're describing Stellar
+oftentimes and we're describing Stellar
+oftentimes and we're describing Stellar
 and some of its functionality a lot of
 and some of its functionality a lot of
 and some of its functionality a lot of
@@ -363,9 +363,9 @@ think about steps is this thing that
 exists on top of the network in between
 exists on top of the network in between
 exists on top of the network in between
-applications and stellar itself so it is
-applications and stellar itself so it is
-applications and stellar itself so it is
+applications and Stellar itself so it is
+applications and Stellar itself so it is
+applications and Stellar itself so it is
 possible for applications to just
 possible for applications to just
 possible for applications to just
@@ -438,9 +438,9 @@ protocol so you have a standard where
 basically we can map human readable
 basically we can map human readable
 basically we can map human readable
-addresses to stellar addresses I know a
-addresses to stellar addresses I know a
-addresses to stellar addresses I know a
+addresses to Stellar addresses I know a
+addresses to Stellar addresses I know a
+addresses to Stellar addresses I know a
 lot of you probably remember the first
 lot of you probably remember the first
 lot of you probably remember the first
@@ -624,18 +624,18 @@ a step in the works called SEP 30 which
 is basically multi-party key management
 is basically multi-party key management
 is basically multi-party key management
-of stellar accounts so this is a
-of stellar accounts so this is a
-of stellar accounts so this is a
+of Stellar accounts so this is a
+of Stellar accounts so this is a
+of Stellar accounts so this is a
 protocol that basically defines a way
 protocol that basically defines a way
 protocol that basically defines a way
 for an individual to regain access of a
 for an individual to regain access of a
 for an individual to regain access of a
-stellar account if they lose their
-stellar account if they lose their
-stellar account if they lose their
+Stellar account if they lose their
+Stellar account if they lose their
+Stellar account if they lose their
 private key so in the event that you
 private key so in the event that you
 private key so in the event that you
@@ -693,9 +693,9 @@ for anchors and clients to interoperate
 with each other right this problem of
 with each other right this problem of
 with each other right this problem of
-going from the real world to stellar or
-going from the real world to stellar or
-going from the real world to stellar or
+going from the real world to Stellar or
+going from the real world to Stellar or
+going from the real world to Stellar or
 to any other blockchain for that matter
 to any other blockchain for that matter
 to any other blockchain for that matter
@@ -738,9 +738,9 @@ applications just to achieve a goal and
 so we've created standards here in the
 so we've created standards here in the
 so we've created standards here in the
-stellar ecosystem that try to solve that
-stellar ecosystem that try to solve that
-stellar ecosystem that try to solve that
+Stellar ecosystem that try to solve that
+Stellar ecosystem that try to solve that
+Stellar ecosystem that try to solve that
 problem such as I accept six at point
 problem such as I accept six at point
 problem such as I accept six at point
@@ -753,12 +753,12 @@ SEP 26 and so basically this allows you
 to go from the real world to your
 to go from the real world to your
 to go from the real world to your
-stellar wallet without ever needing to
-stellar wallet without ever needing to
-stellar wallet without ever needing to
-actually leave your stellar wallet an
-actually leave your stellar wallet an
-actually leave your stellar wallet an
+Stellar wallet without ever needing to
+Stellar wallet without ever needing to
+Stellar wallet without ever needing to
+actually leave your Stellar wallet an
+actually leave your Stellar wallet an
+actually leave your Stellar wallet an
 example of this is in practice you can
 example of this is in practice you can
 example of this is in practice you can
@@ -807,9 +807,9 @@ needing to force your users to leave and
 so basically we can we can make all of
 so basically we can we can make all of
 so basically we can we can make all of
-our services on stellar interoperate
-our services on stellar interoperate
-our services on stellar interoperate
+our services on Stellar interoperate
+our services on Stellar interoperate
+our services on Stellar interoperate
 with multiple services rather than like
 with multiple services rather than like
 with multiple services rather than like
@@ -867,18 +867,18 @@ things easy to use right and so first
 steps to do stuff like that or what
 steps to do stuff like that or what
 steps to do stuff like that or what
-tools like stellar laboratory right you
-tools like stellar laboratory right you
-tools like stellar laboratory right you
+tools like Stellar laboratory right you
+tools like Stellar laboratory right you
+tools like Stellar laboratory right you
 create a wrapper around the entirety of
 create a wrapper around the entirety of
 create a wrapper around the entirety of
 the functionality of the network and
 the functionality of the network and
 the functionality of the network and
-well to stellar laboratory is a super
-well to stellar laboratory is a super
-well to stellar laboratory is a super
+well to Stellar laboratory is a super
+well to Stellar laboratory is a super
+well to Stellar laboratory is a super
 useful tool it's a super powerful tool
 useful tool it's a super powerful tool
 useful tool it's a super powerful tool
@@ -1029,12 +1029,12 @@ through things like D stock where
 instead of focusing on the payments
 instead of focusing on the payments
 instead of focusing on the payments
-aspect of stellar they focus on the
-aspect of stellar they focus on the
-aspect of stellar they focus on the
-decentralized exchange aspect of stellar
-decentralized exchange aspect of stellar
-decentralized exchange aspect of stellar
+aspect of Stellar they focus on the
+aspect of Stellar they focus on the
+aspect of Stellar they focus on the
+decentralized exchange aspect of Stellar
+decentralized exchange aspect of Stellar
+decentralized exchange aspect of Stellar
 so now you can decide ok I need to buy
 so now you can decide ok I need to buy
 so now you can decide ok I need to buy
@@ -1122,9 +1122,9 @@ on that it's not really necessary to
 support all of the functionality on
 support all of the functionality on
 support all of the functionality on
-stellar because it can be a lot to
-stellar because it can be a lot to
-stellar because it can be a lot to
+Stellar because it can be a lot to
+Stellar because it can be a lot to
+Stellar because it can be a lot to
 handle its
 handle its
 handle its
@@ -1239,9 +1239,9 @@ signup or before you even click login
 so recreating this flow within your
 so recreating this flow within your
 so recreating this flow within your
-stellar applications is just as
-stellar applications is just as
-stellar applications is just as
+Stellar applications is just as
+Stellar applications is just as
+Stellar applications is just as
 important right not everybody
 important right not everybody
 important right not everybody
@@ -1260,9 +1260,9 @@ making sure that they understand those
 up front always good to do an example of
 up front always good to do an example of
 up front always good to do an example of
-this in the stellar ecosystem and I
-this in the stellar ecosystem and I
-this in the stellar ecosystem and I
+this in the Stellar ecosystem and I
+this in the Stellar ecosystem and I
+this in the Stellar ecosystem and I
 think is one of the better examples is
 think is one of the better examples is
 think is one of the better examples is
@@ -1314,9 +1314,9 @@ so if you're creating an application
 that's global in nature which is
 that's global in nature which is
 that's global in nature which is
-absolutely possible on stellar you want
-absolutely possible on stellar you want
-absolutely possible on stellar you want
+absolutely possible on Stellar you want
+absolutely possible on Stellar you want
+absolutely possible on Stellar you want
 to make sure that your service can
 to make sure that your service can
 to make sure that your service can
@@ -1425,18 +1425,18 @@ with other products within the seller
 ecosystem and you can find these in the
 ecosystem and you can find these in the
 ecosystem and you can find these in the
-stellar github repo they're all there
-stellar github repo they're all there
-stellar github repo they're all there
+Stellar github repo they're all there
+Stellar github repo they're all there
+Stellar github repo they're all there
 there's about 30 ish of them or
 there's about 30 ish of them or
 there's about 30 ish of them or
 something like that so if you're
 something like that so if you're
 something like that so if you're
-building an app on stellar make sure
-building an app on stellar make sure
-building an app on stellar make sure
+building an app on Stellar make sure
+building an app on Stellar make sure
+building an app on Stellar make sure
 you're going through those understanding
 you're going through those understanding
 you're going through those understanding
@@ -1527,12 +1527,12 @@ just wanted to go over some basics of
 what to consider when you're getting
 what to consider when you're getting
 what to consider when you're getting
-started on stellar what to consider when
-started on stellar what to consider when
-started on stellar what to consider when
-you're building applications on stellar
-you're building applications on stellar
-you're building applications on stellar
+started on Stellar what to consider when
+started on Stellar what to consider when
+started on Stellar what to consider when
+you're building applications on Stellar
+you're building applications on Stellar
+you're building applications on Stellar
 and how you can sort of scour the
 and how you can sort of scour the
 and how you can sort of scour the

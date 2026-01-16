@@ -1065,9 +1065,9 @@ we're going to say
 Stellar contract actually we'll say
 Stellar contract actually we'll say
 Stellar contract actually we'll say
-stellar and then we'll take a look at
-stellar and then we'll take a look at
-stellar and then we'll take a look at
+Stellar and then we'll take a look at
+Stellar and then we'll take a look at
+Stellar and then we'll take a look at
 all the methods that you see you see the
 all the methods that you see you see the
 all the methods that you see you see the
@@ -3825,9 +3825,9 @@ feel free to scan this QR code here and
 it will take you right to the
 it will take you right to the
 it will take you right to the
-stellar.org
-stellar.org
-stellar.org
+Stellar.org
+Stellar.org
+Stellar.org
 developers landing page where you'll see
 developers landing page where you'll see
 developers landing page where you'll see

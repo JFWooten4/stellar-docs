@@ -1,8 +1,8 @@
 Hello everyone and welcome to this
 Hello everyone and welcome to this
-week's stellar developer meeting.
-week's stellar developer meeting.
-week's stellar developer meeting.
+week's Stellar Developer Meeting.
+week's Stellar Developer Meeting.
+week's Stellar Developer Meeting.
 today I have a guest from the community.
 today I have a guest from the community.
 today I have a guest from the community.
@@ -123,9 +123,9 @@ head. I remember still I'm not sure if
 it's still on the web page of
 it's still on the web page of
 it's still on the web page of
-stellar.org, but there was this story
-stellar.org, but there was this story
-stellar.org, but there was this story
+Stellar.org, but there was this story
+Stellar.org, but there was this story
+Stellar.org, but there was this story
 about somebody in Peru having some
 about somebody in Peru having some
 about somebody in Peru having some
@@ -282,9 +282,9 @@ it's just easy I would say. Great. So
 when when you started working when
 when when you started working when
 when when you started working when
-you started developing on on stellar did
-you started developing on on stellar did
-you started developing on on stellar did
+you started developing on on Stellar did
+you started developing on on Stellar did
+you started developing on on Stellar did
 you have a purpose? Was a problem? Was
 you have a purpose? Was a problem? Was
 you have a purpose? Was a problem? Was
@@ -984,9 +984,9 @@ believe that would be the first
 anonymous voting platform on on on
 anonymous voting platform on on on
 anonymous voting platform on on on
-stellar. so I'm pretty excited about
-stellar. so I'm pretty excited about
-stellar. so I'm pretty excited about
+Stellar. so I'm pretty excited about
+Stellar. so I'm pretty excited about
+Stellar. so I'm pretty excited about
 that. everything's working. on the
 that. everything's working. on the
 that. everything's working. on the
@@ -1116,9 +1116,9 @@ trustbased system. It's a bit similar to
 how nodes are talking to each other
 how nodes are talking to each other
 how nodes are talking to each other
-in the consensus protocol and stellar.
-in the consensus protocol and stellar.
-in the consensus protocol and stellar.
+in the consensus protocol and Stellar.
+in the consensus protocol and Stellar.
+in the consensus protocol and Stellar.
 we using trust and here I want to
 we using trust and here I want to
 we using trust and here I want to
@@ -1290,9 +1290,9 @@ how to create your new project
 explaining a bit of rational about the
 explaining a bit of rational about the
 explaining a bit of rational about the
-soran sorban domain. I also have a
-soran sorban domain. I also have a
-soran sorban domain. I also have a
+soran Soroban domain. I also have a
+soran Soroban domain. I also have a
+soran Soroban domain. I also have a
 concept of a tonsu file to describe a
 concept of a tonsu file to describe a
 concept of a tonsu file to describe a
@@ -2367,9 +2367,9 @@ about
 that. It's great. That's why I like
 that. It's great. That's why I like
 that. It's great. That's why I like
-stellar so much. have so many people
-stellar so much. have so many people
-stellar so much. have so many people
+Stellar so much. have so many people
+Stellar so much. have so many people
+Stellar so much. have so many people
 giving you ideas like that and and
 giving you ideas like that and and
 giving you ideas like that and and
@@ -2397,9 +2397,9 @@ yeah it's it's on my GitHub profile.
 so GitHub
 so GitHub
 so GitHub
-tonsu and then soroban versioning is
-tonsu and then soroban versioning is
-tonsu and then soroban versioning is
+tonsu and then Soroban versioning is
+tonsu and then Soroban versioning is
+tonsu and then Soroban versioning is
 called the the repo. Yeah it's great. I
 called the the repo. Yeah it's great. I
 called the the repo. Yeah it's great. I

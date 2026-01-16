@@ -9,9 +9,9 @@ this is the storybond design
 discussion in which we discuss protocol
 discussion in which we discuss protocol
 discussion in which we discuss protocol
-changes related to soroban our topic
-changes related to soroban our topic
-changes related to soroban our topic
+changes related to Soroban our topic
+changes related to Soroban our topic
+changes related to Soroban our topic
 today is State expression we're going
 today is State expression we're going
 today is State expression we're going

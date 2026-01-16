@@ -30,9 +30,9 @@ see what we're working on and all the
 wonderful thoughts that you have about I
 wonderful thoughts that you have about I
 wonderful thoughts that you have about I
-don't like stellar better these meetings
-don't like stellar better these meetings
-don't like stellar better these meetings
+don't like Stellar better these meetings
+don't like Stellar better these meetings
+don't like Stellar better these meetings
 usually focus on reviewing court
 usually focus on reviewing court
 usually focus on reviewing court
@@ -69,9 +69,9 @@ downstream implications of those caps
 and the preparations underway to make
 and the preparations underway to make
 and the preparations underway to make
-sure horizon and the stellar SDKs are
-sure horizon and the stellar SDKs are
-sure horizon and the stellar SDKs are
+sure horizon and the Stellar SDKs are
+sure horizon and the Stellar SDKs are
+sure horizon and the Stellar SDKs are
 ready for protocol 14 so we published
 ready for protocol 14 so we published
 ready for protocol 14 so we published
@@ -198,9 +198,9 @@ question is like right now we're using
 dislike predicates tree structure which
 dislike predicates tree structure which
 dislike predicates tree structure which
-is kind of novel in the stellar world
-is kind of novel in the stellar world
-is kind of novel in the stellar world
+is kind of novel in the Stellar world
+is kind of novel in the Stellar world
+is kind of novel in the Stellar world
 you know in other places we use like
 you know in other places we use like
 you know in other places we use like
@@ -996,9 +996,9 @@ like any time is it difference like any
 time an SDK can be convinced to create a
 time an SDK can be convinced to create a
 time an SDK can be convinced to create a
-transaction of stellar core we'll
-transaction of stellar core we'll
-transaction of stellar core we'll
+transaction of Stellar core we'll
+transaction of Stellar core we'll
+transaction of Stellar core we'll
 consider
 consider
 consider
@@ -1020,9 +1020,9 @@ get a claim a bunch of money or whatever
 and then it turns out that you can't
 and then it turns out that you can't
 and then it turns out that you can't
-because stellar core rejects the
-because stellar core rejects the
-because stellar core rejects the
+because Stellar core rejects the
+because Stellar core rejects the
+because Stellar core rejects the
 transaction so I really I don't like
 transaction so I really I don't like
 transaction so I really I don't like
@@ -1071,15 +1071,15 @@ right so maybe the reasons we should
 make it as easy as possible for SDKs and
 make it as easy as possible for SDKs and
 make it as easy as possible for SDKs and
-other software in the stellar ecosystem
-other software in the stellar ecosystem
-other software in the stellar ecosystem
+other software in the Stellar ecosystem
+other software in the Stellar ecosystem
+other software in the Stellar ecosystem
 to replicate the validity rules of
 to replicate the validity rules of
 to replicate the validity rules of
-stellar transactions and obviously
-stellar transactions and obviously
-stellar transactions and obviously
+Stellar transactions and obviously
+Stellar transactions and obviously
+Stellar transactions and obviously
 sometimes we need to add extra logic but
 sometimes we need to add extra logic but
 sometimes we need to add extra logic but
@@ -1578,15 +1578,15 @@ came up which is that there
 was some incompatibility with step 30
 was some incompatibility with step 30
 was some incompatibility with step 30
-which is a stellar ecosystem proposal
-which is a stellar ecosystem proposal
-which is a stellar ecosystem proposal
+which is a Stellar ecosystem proposal
+which is a Stellar ecosystem proposal
+which is a Stellar ecosystem proposal
 that defines an API to allow users to
 that defines an API to allow users to
 that defines an API to allow users to
-regain access to a stellar account after
-regain access to a stellar account after
-regain access to a stellar account after
+regain access to a Stellar account after
+regain access to a Stellar account after
+regain access to a Stellar account after
 they've lost their private key without
 they've lost their private key without
 they've lost their private key without
@@ -1749,9 +1749,9 @@ basically Germany's observation was that
 signing transactions in the world of
 signing transactions in the world of
 signing transactions in the world of
-stellar is very susceptible to the
-stellar is very susceptible to the
-stellar is very susceptible to the
+Stellar is very susceptible to the
+Stellar is very susceptible to the
+Stellar is very susceptible to the
 confused deputy problem and the basic
 confused deputy problem and the basic
 confused deputy problem and the basic
@@ -1764,9 +1764,9 @@ for people listening is basically like
 or at least how it applies in the world
 or at least how it applies in the world
 or at least how it applies in the world
-of stellar is suppose you have two
-of stellar is suppose you have two
-of stellar is suppose you have two
+of Stellar is suppose you have two
+of Stellar is suppose you have two
+of Stellar is suppose you have two
 accounts both of which that can be
 accounts both of which that can be
 accounts both of which that can be
@@ -1974,9 +1974,9 @@ transaction anymore it's pretty neat
 it'd be some work to do and it would
 it'd be some work to do and it would
 it'd be some work to do and it would
-require overhauling a lot of the stellar
-require overhauling a lot of the stellar
-require overhauling a lot of the stellar
+require overhauling a lot of the Stellar
+require overhauling a lot of the Stellar
+require overhauling a lot of the Stellar
 core signature processing stuff but I
 core signature processing stuff but I
 core signature processing stuff but I
@@ -3180,18 +3180,18 @@ person has an extra hour to like take
 the preimage that they've found in the
 the preimage that they've found in the
 the preimage that they've found in the
-stellar transaction and use out the
-stellar transaction and use out the
-stellar transaction and use out the
+Stellar transaction and use out the
+Stellar transaction and use out the
+Stellar transaction and use out the
 claim the Bitcoin on the Bitcoin network
 claim the Bitcoin on the Bitcoin network
 claim the Bitcoin on the Bitcoin network
 right so under this new proposal if some
 right so under this new proposal if some
 right so under this new proposal if some
-if the stellar network goes down for an
-if the stellar network goes down for an
-if the stellar network goes down for an
+if the Stellar network goes down for an
+if the Stellar network goes down for an
+if the Stellar network goes down for an
 hour it's possible for an operation to
 hour it's possible for an operation to
 hour it's possible for an operation to
@@ -3336,9 +3336,9 @@ conservative guess but like you should
 not consider any transaction expired on
 not consider any transaction expired on
 not consider any transaction expired on
-the stellar network until you've seen a
-the stellar network until you've seen a
-the stellar network until you've seen a
+the Stellar network until you've seen a
+the Stellar network until you've seen a
+the Stellar network until you've seen a
 close time past that time once you've
 close time past that time once you've
 close time past that time once you've
@@ -3363,9 +3363,9 @@ clock close time when the like ledger
 actually externalizes and when the like
 actually externalizes and when the like
 actually externalizes and when the like
-a long time like the like the stellar
-a long time like the like the stellar
-a long time like the like the stellar
+a long time like the like the Stellar
+a long time like the like the Stellar
+a long time like the like the Stellar
 header close time could be like
 header close time could be like
 header close time could be like
@@ -3429,9 +3429,9 @@ time was an hour ago because and in my
 case you don't need a software fault it
 case you don't need a software fault it
 case you don't need a software fault it
-could be like some botnet attack stellar
-could be like some botnet attack stellar
-could be like some botnet attack stellar
+could be like some botnet attack Stellar
+could be like some botnet attack Stellar
+could be like some botnet attack Stellar
 or something right so it takes us an
 or something right so it takes us an
 or something right so it takes us an
@@ -3483,9 +3483,9 @@ with the timestamp of 11:00 a.m. at like
 12:00 p.m. but like shouldn't you only
 12:00 p.m. but like shouldn't you only
 12:00 p.m. but like shouldn't you only
-vote for a transaction set or a stellar
-vote for a transaction set or a stellar
-vote for a transaction set or a stellar
+vote for a transaction set or a Stellar
+vote for a transaction set or a Stellar
+vote for a transaction set or a Stellar
 value that has a timestamp that's close
 value that has a timestamp that's close
 value that has a timestamp that's close

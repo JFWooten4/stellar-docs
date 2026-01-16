@@ -5,7 +5,7 @@ for all of you watching at home I just
 want to give a quick overview
 the goal of these meetings is to talk
 about and plan for changes to upcoming
-versions of the stellar protocol so
+versions of the Stellar protocol so
 we go over core advancement proposals
 aka caps
 which are open source specs and they
@@ -159,7 +159,7 @@ important in a number of contexts
 and so
 with without cap 21 it is possible
 but but both extremely tricky to do
-with stellar
+with Stellar
 and you have to sort of pay a time
 penalty and that things where like for
 example when someone fails you might in
@@ -615,7 +615,7 @@ like basically you're you're implicitly
 your sequence number is implicitly a
 bump sequence now
 so where there are also you know i
-believe on the stellar dev mailing list
+believe on the Stellar dev mailing list
 there were some specific technical
 issues
 that niko raised and I want to make
@@ -1645,7 +1645,7 @@ a nice deep technical dive into cap 21
 and
 more to come on there if you want to
 know what's going on you can always
-join the stellar death mailing list and
+join the Stellar death mailing list and
 you can also look at the github repo and
 look at the actual
 drafts for these kinds of proposals

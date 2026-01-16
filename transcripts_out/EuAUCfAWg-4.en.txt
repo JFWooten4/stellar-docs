@@ -1,8 +1,8 @@
 Hi everyone and welcome to this week's
 Hi everyone and welcome to this week's
-Stellar developer meeting. This week at
-Stellar developer meeting. This week at
-Stellar developer meeting. This week at
+Stellar Developer Meeting. This week at
+Stellar Developer Meeting. This week at
+Stellar Developer Meeting. This week at
 Stellar we just concluded the the latest
 Stellar we just concluded the the latest
 Stellar we just concluded the the latest
@@ -1200,9 +1200,9 @@ just straight after the the so all this
 concept since February and then
 concept since February and then
 concept since February and then
-we want to add this stellar concept
-we want to add this stellar concept
-we want to add this stellar concept
+we want to add this Stellar concept
+we want to add this Stellar concept
+we want to add this Stellar concept
 of the pin we have but we can come come
 of the pin we have but we can come come
 of the pin we have but we can come come
@@ -1470,18 +1470,18 @@ hardware a software connect is bridge
 nodes and then connect to the DBN
 nodes and then connect to the DBN
 nodes and then connect to the DBN
-marketplace and so the stellar is
-marketplace and so the stellar is
-marketplace and so the stellar is
-stellar is going to play a big key role
-stellar is going to play a big key role
-stellar is going to play a big key role
+marketplace and so the Stellar is
+marketplace and so the Stellar is
+marketplace and so the Stellar is
+Stellar is going to play a big key role
+Stellar is going to play a big key role
+Stellar is going to play a big key role
 there because we're going to deploy all
 there because we're going to deploy all
 there because we're going to deploy all
-smart contract with stellar to indeed
-smart contract with stellar to indeed
-smart contract with stellar to indeed
+smart contract with Stellar to indeed
+smart contract with Stellar to indeed
+smart contract with Stellar to indeed
 manage as marketplace as the same times
 manage as marketplace as the same times
 manage as marketplace as the same times
@@ -1578,9 +1578,9 @@ you start to have a bit of tokconomics
 and stuff like this. So it's what we we
 and stuff like this. So it's what we we
 and stuff like this. So it's what we we
-want to achieve with stellar and
-want to achieve with stellar and
-want to achieve with stellar and
+want to achieve with Stellar and
+want to achieve with Stellar and
+want to achieve with Stellar and
 normally we should have the first trench
 normally we should have the first trench
 normally we should have the first trench
@@ -1701,9 +1701,9 @@ blockchain and to build in fact with
 smart contract. which is great with
 smart contract. which is great with
 smart contract. which is great with
-stellar is in fact the flexibility. I
-stellar is in fact the flexibility. I
-stellar is in fact the flexibility. I
+Stellar is in fact the flexibility. I
+Stellar is in fact the flexibility. I
+Stellar is in fact the flexibility. I
 mean we first in Rust which we have a
 mean we first in Rust which we have a
 mean we first in Rust which we have a
@@ -1713,9 +1713,9 @@ preference in rest. sorry Goland.
 but yeah we have a preference in Rust.
 but yeah we have a preference in Rust.
 but yeah we have a preference in Rust.
-the stellar kit kit is very nice and
-the stellar kit kit is very nice and
-the stellar kit kit is very nice and
+the Stellar kit kit is very nice and
+the Stellar kit kit is very nice and
+the Stellar kit kit is very nice and
 and the thing is that with all the
 and the thing is that with all the
 and the thing is that with all the

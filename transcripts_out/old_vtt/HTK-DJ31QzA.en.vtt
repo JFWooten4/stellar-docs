@@ -28,14 +28,14 @@ late start just a quick technical glitch
 
 00:00:26.880 --> 00:00:30.310 align:start position:0%
 late start just a quick technical glitch
-as<00:00:27.119><c> per</c><00:00:27.279><c> usual</c><00:00:28.080><c></c><00:00:28.560><c> so</c><00:00:28.960><c> the</c><00:00:29.439><c> stellar</c><00:00:29.920><c> protocol</c>
+as<00:00:27.119><c> per</c><00:00:27.279><c> usual</c><00:00:28.080><c></c><00:00:28.560><c> so</c><00:00:28.960><c> the</c><00:00:29.439><c> Stellar</c><00:00:29.920><c> protocol</c>
 
 00:00:30.310 --> 00:00:30.320 align:start position:0%
-as per usual so the stellar protocol
+as per usual so the Stellar protocol
 
 
 00:00:30.320 --> 00:00:32.470 align:start position:0%
-as per usual so the stellar protocol
+as per usual so the Stellar protocol
 meeting<00:00:30.640><c> in</c><00:00:30.720><c> these</c><00:00:30.960><c> meetings</c><00:00:31.359><c> we</c><00:00:31.599><c> discuss</c><00:00:32.160><c> and</c>
 
 00:00:32.470 --> 00:00:32.480 align:start position:0%
@@ -52,14 +52,14 @@ plan for
 
 00:00:33.840 --> 00:00:35.750 align:start position:0%
 plan for
-upcoming<00:00:34.239><c> changes</c><00:00:34.559><c> to</c><00:00:34.719><c> the</c><00:00:34.800><c> stellar</c><00:00:35.040><c> protocol</c>
+upcoming<00:00:34.239><c> changes</c><00:00:34.559><c> to</c><00:00:34.719><c> the</c><00:00:34.800><c> Stellar</c><00:00:35.040><c> protocol</c>
 
 00:00:35.750 --> 00:00:35.760 align:start position:0%
-upcoming changes to the stellar protocol
+upcoming changes to the Stellar protocol
 
 
 00:00:35.760 --> 00:00:36.870 align:start position:0%
-upcoming changes to the stellar protocol
+upcoming changes to the Stellar protocol
 and<00:00:35.920><c> today</c><00:00:36.160><c> we're</c><00:00:36.399><c> going</c><00:00:36.480><c> to</c><00:00:36.559><c> talk</c><00:00:36.719><c> about</c>
 
 00:00:36.870 --> 00:00:36.880 align:start position:0%
@@ -84,22 +84,22 @@ cannon which is going to bring smart
 
 00:00:40.239 --> 00:00:42.709 align:start position:0%
 cannon which is going to bring smart
-contracts<00:00:40.719><c> to</c><00:00:40.800><c> stellar</c><00:00:41.600><c></c><00:00:41.840><c> so</c><00:00:42.000><c> just</c><00:00:42.399><c> quick</c>
+contracts<00:00:40.719><c> to</c><00:00:40.800><c> Stellar</c><00:00:41.600><c></c><00:00:41.840><c> so</c><00:00:42.000><c> just</c><00:00:42.399><c> quick</c>
 
 00:00:42.709 --> 00:00:42.719 align:start position:0%
-contracts to stellar so just quick
+contracts to Stellar so just quick
 
 
 00:00:42.719 --> 00:00:44.549 align:start position:0%
-contracts to stellar so just quick
-intro<00:00:43.040><c> as</c><00:00:43.360><c> most</c><00:00:43.520><c> of</c><00:00:43.680><c> you</c><00:00:43.760><c> know</c><00:00:43.920><c> stellar</c><00:00:44.320><c> was</c>
+contracts to Stellar so just quick
+intro<00:00:43.040><c> as</c><00:00:43.360><c> most</c><00:00:43.520><c> of</c><00:00:43.680><c> you</c><00:00:43.760><c> know</c><00:00:43.920><c> Stellar</c><00:00:44.320><c> was</c>
 
 00:00:44.549 --> 00:00:44.559 align:start position:0%
-intro as most of you know stellar was
+intro as most of you know Stellar was
 
 
 00:00:44.559 --> 00:00:46.470 align:start position:0%
-intro as most of you know stellar was
+intro as most of you know Stellar was
 launched<00:00:44.879><c> in</c><00:00:45.120><c> 2014.</c>
 
 00:00:46.470 --> 00:00:46.480 align:start position:0%
@@ -404,14 +404,14 @@ model components of a wasm-based smart
 
 00:02:03.280 --> 00:02:05.350 align:start position:0%
 model components of a wasm-based smart
-contract<00:02:03.680><c> system</c><00:02:04.000><c> for</c><00:02:04.079><c> the</c><00:02:04.240><c> stellar</c><00:02:04.560><c> network</c>
+contract<00:02:03.680><c> system</c><00:02:04.000><c> for</c><00:02:04.079><c> the</c><00:02:04.240><c> Stellar</c><00:02:04.560><c> network</c>
 
 00:02:05.350 --> 00:02:05.360 align:start position:0%
-contract system for the stellar network
+contract system for the Stellar network
 
 
 00:02:05.360 --> 00:02:07.670 align:start position:0%
-contract system for the stellar network
+contract system for the Stellar network
 <00:02:05.840><c> once</c><00:02:06.079><c> we</c><00:02:06.240><c> talk</c><00:02:06.399><c> about</c><00:02:06.560><c> cap</c><00:02:06.799><c> 46</c><00:02:07.280><c> we'll</c><00:02:07.439><c> also</c>
 
 00:02:07.670 --> 00:02:07.680 align:start position:0%
@@ -524,14 +524,14 @@ participating in that thread that's
 
 00:02:29.520 --> 00:02:31.670 align:start position:0%
 participating in that thread that's
-linked<00:02:29.760><c> to</c><00:02:29.920><c> here</c><00:02:30.400><c> or</c><00:02:30.720><c> by</c><00:02:30.879><c> joining</c><00:02:31.200><c> the</c><00:02:31.360><c> stellar</c>
+linked<00:02:29.760><c> to</c><00:02:29.920><c> here</c><00:02:30.400><c> or</c><00:02:30.720><c> by</c><00:02:30.879><c> joining</c><00:02:31.200><c> the</c><00:02:31.360><c> Stellar</c>
 
 00:02:31.670 --> 00:02:31.680 align:start position:0%
-linked to here or by joining the stellar
+linked to here or by joining the Stellar
 
 
 00:02:31.680 --> 00:02:33.270 align:start position:0%
-linked to here or by joining the stellar
+linked to here or by joining the Stellar
 developer<00:02:32.160><c> discord</c><00:02:32.640><c> which</c><00:02:32.879><c> is</c><00:02:32.959><c> where</c><00:02:33.120><c> we're</c>
 
 00:02:33.270 --> 00:02:33.280 align:start position:0%
@@ -564,14 +564,14 @@ participatory we're doing you know can
 
 00:02:39.120 --> 00:02:41.110 align:start position:0%
 participatory we're doing you know can
-really<00:02:39.360><c> follow</c><00:02:39.680><c> along</c><00:02:40.080><c> on</c><00:02:40.400><c> the</c><00:02:40.720><c> stellar</c>
+really<00:02:39.360><c> follow</c><00:02:39.680><c> along</c><00:02:40.080><c> on</c><00:02:40.400><c> the</c><00:02:40.720><c> Stellar</c>
 
 00:02:41.110 --> 00:02:41.120 align:start position:0%
-really follow along on the stellar
+really follow along on the Stellar
 
 
 00:02:41.120 --> 00:02:43.030 align:start position:0%
-really follow along on the stellar
+really follow along on the Stellar
 developer<00:02:41.440><c> discord</c>
 
 00:02:43.030 --> 00:02:43.040 align:start position:0%
@@ -964,14 +964,14 @@ places
 
 00:04:16.959 --> 00:04:19.110 align:start position:0%
 places
-in<00:04:17.280><c> inside</c><00:04:17.680><c> of</c><00:04:17.840><c> stellar</c><00:04:18.239><c> core</c>
+in<00:04:17.280><c> inside</c><00:04:17.680><c> of</c><00:04:17.840><c> Stellar</c><00:04:18.239><c> core</c>
 
 00:04:19.110 --> 00:04:19.120 align:start position:0%
-in inside of stellar core
+in inside of Stellar core
 
 
 00:04:19.120 --> 00:04:20.069 align:start position:0%
-in inside of stellar core
+in inside of Stellar core
 where
 
 00:04:20.069 --> 00:04:20.079 align:start position:0%
@@ -3012,14 +3012,14 @@ ahead of time
 
 00:12:32.000 --> 00:12:34.069 align:start position:0%
 ahead of time
-the<00:12:32.480><c> stellar</c><00:12:32.800><c> core</c><00:12:32.959><c> developers</c><00:12:33.680><c> ourselves</c>
+the<00:12:32.480><c> Stellar</c><00:12:32.800><c> core</c><00:12:32.959><c> developers</c><00:12:33.680><c> ourselves</c>
 
 00:12:34.069 --> 00:12:34.079 align:start position:0%
-the stellar core developers ourselves
+the Stellar core developers ourselves
 
 
 00:12:34.079 --> 00:12:35.190 align:start position:0%
-the stellar core developers ourselves
+the Stellar core developers ourselves
 and<00:12:34.240><c> anyone</c><00:12:34.480><c> else</c><00:12:34.560><c> who</c><00:12:34.639><c> wants</c><00:12:34.720><c> to</c><00:12:34.880><c> contribute</c>
 
 00:12:35.190 --> 00:12:35.200 align:start position:0%
@@ -5684,14 +5684,14 @@ requirements for our for like smart
 
 00:23:14.480 --> 00:23:17.110 align:start position:0%
 requirements for our for like smart
-contracts<00:23:15.039><c> on</c><00:23:15.200><c> stellar</c><00:23:16.159><c> right</c>
+contracts<00:23:15.039><c> on</c><00:23:15.200><c> Stellar</c><00:23:16.159><c> right</c>
 
 00:23:17.110 --> 00:23:17.120 align:start position:0%
-contracts on stellar right
+contracts on Stellar right
 
 
 00:23:17.120 --> 00:23:22.149 align:start position:0%
-contracts on stellar right
+contracts on Stellar right
 okay
 
 00:23:22.149 --> 00:23:22.159 align:start position:0%
@@ -6092,14 +6092,14 @@ but these are like exactly the cpus that
 
 00:25:04.720 --> 00:25:06.310 align:start position:0%
 but these are like exactly the cpus that
-would<00:25:04.880><c> be</c><00:25:05.120><c> like</c><00:25:05.279><c> running</c><00:25:05.600><c> stellar</c><00:25:05.919><c> core</c><00:25:06.159><c> right</c>
+would<00:25:04.880><c> be</c><00:25:05.120><c> like</c><00:25:05.279><c> running</c><00:25:05.600><c> Stellar</c><00:25:05.919><c> core</c><00:25:06.159><c> right</c>
 
 00:25:06.310 --> 00:25:06.320 align:start position:0%
-would be like running stellar core right
+would be like running Stellar core right
 
 
 00:25:06.320 --> 00:25:07.750 align:start position:0%
-would be like running stellar core right
+would be like running Stellar core right
 so<00:25:06.400><c> this</c><00:25:06.559><c> would</c><00:25:06.640><c> be</c><00:25:06.799><c> like</c><00:25:06.960><c> catastrophic</c><00:25:07.600><c> for</c>
 
 00:25:07.750 --> 00:25:07.760 align:start position:0%
@@ -6108,14 +6108,14 @@ so this would be like catastrophic for
 
 00:25:07.760 --> 00:25:09.350 align:start position:0%
 so this would be like catastrophic for
-stellar<00:25:08.000><c> core</c><00:25:08.240><c> so</c><00:25:08.320><c> again</c><00:25:08.960><c> if</c><00:25:09.039><c> we</c><00:25:09.200><c> have</c><00:25:09.279><c> a</c>
+Stellar<00:25:08.000><c> core</c><00:25:08.240><c> so</c><00:25:08.320><c> again</c><00:25:08.960><c> if</c><00:25:09.039><c> we</c><00:25:09.200><c> have</c><00:25:09.279><c> a</c>
 
 00:25:09.350 --> 00:25:09.360 align:start position:0%
-stellar core so again if we have a
+Stellar core so again if we have a
 
 
 00:25:09.360 --> 00:25:10.710 align:start position:0%
-stellar core so again if we have a
+Stellar core so again if we have a
 requirements<00:25:09.840><c> document</c><00:25:10.240><c> and</c><00:25:10.320><c> say</c><00:25:10.480><c> here's</c>
 
 00:25:10.710 --> 00:25:10.720 align:start position:0%
@@ -10316,14 +10316,14 @@ be as cheap as possible because that's
 
 00:42:32.880 --> 00:42:34.870 align:start position:0%
 be as cheap as possible because that's
-always<00:42:33.119><c> been</c><00:42:33.359><c> kind</c><00:42:33.520><c> of</c><00:42:33.680><c> the</c><00:42:33.839><c> stellar</c><00:42:34.319><c> way</c><00:42:34.640><c> and</c>
+always<00:42:33.119><c> been</c><00:42:33.359><c> kind</c><00:42:33.520><c> of</c><00:42:33.680><c> the</c><00:42:33.839><c> Stellar</c><00:42:34.319><c> way</c><00:42:34.640><c> and</c>
 
 00:42:34.870 --> 00:42:34.880 align:start position:0%
-always been kind of the stellar way and
+always been kind of the Stellar way and
 
 
 00:42:34.880 --> 00:42:35.589 align:start position:0%
-always been kind of the stellar way and
+always been kind of the Stellar way and
 so
 
 00:42:35.589 --> 00:42:35.599 align:start position:0%
@@ -12188,14 +12188,14 @@ what they have today with classic
 
 00:50:26.160 --> 00:50:27.670 align:start position:0%
 what they have today with classic
-stellar<00:50:26.559><c> that</c><00:50:26.640><c> they'll</c><00:50:26.800><c> be</c><00:50:26.960><c> limitations</c><00:50:27.599><c> that</c>
+Stellar<00:50:26.559><c> that</c><00:50:26.640><c> they'll</c><00:50:26.800><c> be</c><00:50:26.960><c> limitations</c><00:50:27.599><c> that</c>
 
 00:50:27.670 --> 00:50:27.680 align:start position:0%
-stellar that they'll be limitations that
+Stellar that they'll be limitations that
 
 
 00:50:27.680 --> 00:50:29.750 align:start position:0%
-stellar that they'll be limitations that
+Stellar that they'll be limitations that
 they're<00:50:27.839><c> trying</c><00:50:28.079><c> to</c><00:50:28.160><c> like</c><00:50:28.400><c> work</c><00:50:28.640><c> around</c>
 
 00:50:29.750 --> 00:50:29.760 align:start position:0%
@@ -12260,14 +12260,14 @@ I mean I guess one of the things I'm
 
 00:50:42.720 --> 00:50:44.790 align:start position:0%
 I mean I guess one of the things I'm
-saying<00:50:42.960><c> is</c><00:50:43.040><c> that</c><00:50:43.520><c> stellar</c><00:50:44.000><c> actually</c><00:50:44.400><c> does</c>
+saying<00:50:42.960><c> is</c><00:50:43.040><c> that</c><00:50:43.520><c> Stellar</c><00:50:44.000><c> actually</c><00:50:44.400><c> does</c>
 
 00:50:44.790 --> 00:50:44.800 align:start position:0%
-saying is that stellar actually does
+saying is that Stellar actually does
 
 
 00:50:44.800 --> 00:50:47.750 align:start position:0%
-saying is that stellar actually does
+saying is that Stellar actually does
 already<00:50:45.200><c> have</c><00:50:45.359><c> a</c><00:50:45.520><c> notion</c><00:50:45.920><c> of</c><00:50:46.480><c> permissions</c>
 
 00:50:47.750 --> 00:50:47.760 align:start position:0%

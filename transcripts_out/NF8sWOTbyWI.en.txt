@@ -13,7 +13,7 @@ and
 the big change we're working on right
 now is project jump cannon which are
 which is a feature to introduce native
-smart contracts on stellar
+smart contracts on Stellar
 so we've divided this massive change
 into a set of composable caps
 and the agenda specifically for today
@@ -782,7 +782,7 @@ for some context like if you scroll down
 almost all the way to the bottom
 the last example is like a sim a simple
 token based on account signatures
-and this builds on the classic stellar
+and this builds on the classic Stellar
 multisig
 mechanism
 
@@ -852,7 +852,7 @@ expecting people to implement their own
 authorization
 we're increasing the chance of foot guns
 where people are going to implement what
-they think is stellar maori sig
+they think is Stellar maori sig
 signature authentic authorization
 verification but it doesn't actually
 exactly line up with it
@@ -871,7 +871,7 @@ like hey what kind of signature is this
 is it a single key ed-25519 is it a
 single key ecdsa
 is it a
-is it like a stellar multi-sig is it
+is it like a Stellar multi-sig is it
 some other scheme that I'm not thinking
 of like some kind of like quantum reset
 resistance scheme who cares
@@ -1107,15 +1107,15 @@ key always stays y
 yeah so for context I think the aliasing
 came about because we were talking about
 how do we replicate what exists on
-stellar today in the smart world
+Stellar today in the smart world
 and what we have today with mo like we
-often talk about stellar multisig but
+often talk about Stellar multisig but
 actually the other component of stella's
 multisig that we get is aliasing because
 you can have an account
 identifier and then you can attach other
 keys to it
-and so stellar accounts provide these
+and so Stellar accounts provide these
 two concepts aliasing and then multisig
 and I think
 
@@ -1166,7 +1166,7 @@ prevention when wherever it's needed
 
 and this means that like things get
 pretty annoying fast for example like
-on stellar you like consider stuff
+on Stellar you like consider stuff
 center today
 you might like submit a transaction and
 you know you have replay prevention on
@@ -1195,7 +1195,7 @@ you can actually delegate all of this
 to to like some other contract that
 deals with it so you can imagine
 implementing
-stellar's times you know time downs
+Stellar's times you know time downs
 and ledger bounds and all that other
 stuff in a contract and reusing it
 if you still want it or you can rebuild
@@ -1842,7 +1842,7 @@ discussing
 I am a week away from dropping a
 tokenized community with a coin that I'm
 bringing over from raleigh into solana
-and I want to develop on stellar and
+and I want to develop on Stellar and
 i've looked up online there's some
 people that you know help you punch i
 you know I'm just trying to understand
@@ -1850,11 +1850,11 @@ based on what I know
 with moving forward
 I mean who can I connect with so that i
 can understand the liquidity and how the
-stellar network works
+Stellar network works
 and how I can make sure that that same
 liquidity I'm probably going to lose it
 but how I can transfer over to the
-stellar network and really make sure
+Stellar network and really make sure
 that I look at all aspects of where I'm
 launching so they don't have to wrap and
 do it differently in a month do you know

@@ -20,22 +20,22 @@ and I'm a software engineer on the
 
 00:00:26.220 --> 00:00:28.640 align:start position:0%
 and I'm a software engineer on the
-stellar<00:00:26.550><c> core</c><00:00:26.790><c> team</c><00:00:27.000><c> and</c><00:00:27.210><c> today</c><00:00:28.080><c> I'm</c><00:00:28.200><c> here</c><00:00:28.470><c> to</c>
+Stellar<00:00:26.550><c> core</c><00:00:26.790><c> team</c><00:00:27.000><c> and</c><00:00:27.210><c> today</c><00:00:28.080><c> I'm</c><00:00:28.200><c> here</c><00:00:28.470><c> to</c>
 
 00:00:28.640 --> 00:00:28.650 align:start position:0%
-stellar core team and today I'm here to
+Stellar core team and today I'm here to
 
 
 00:00:28.650 --> 00:00:30.620 align:start position:0%
-stellar core team and today I'm here to
-talk<00:00:28.800><c> to</c><00:00:29.010><c> you</c><00:00:29.160><c> about</c><00:00:29.369><c> the</c><00:00:29.670><c> stellar</c><00:00:29.940><c> consensus</c>
+Stellar core team and today I'm here to
+talk<00:00:28.800><c> to</c><00:00:29.010><c> you</c><00:00:29.160><c> about</c><00:00:29.369><c> the</c><00:00:29.670><c> Stellar</c><00:00:29.940><c> consensus</c>
 
 00:00:30.620 --> 00:00:30.630 align:start position:0%
-talk to you about the stellar consensus
+talk to you about the Stellar consensus
 
 
 00:00:30.630 --> 00:00:34.330 align:start position:0%
-talk to you about the stellar consensus
+talk to you about the Stellar consensus
 protocol
 
 00:00:34.330 --> 00:00:34.340 align:start position:0%
@@ -116,14 +116,14 @@ talk a little bit about statements which
 
 00:00:55.040 --> 00:00:56.980 align:start position:0%
 talk a little bit about statements which
-are<00:00:55.310><c> the</c><00:00:55.580><c> building</c><00:00:55.730><c> blocks</c><00:00:56.150><c> of</c><00:00:56.390><c> the</c><00:00:56.780><c> stellar</c>
+are<00:00:55.310><c> the</c><00:00:55.580><c> building</c><00:00:55.730><c> blocks</c><00:00:56.150><c> of</c><00:00:56.390><c> the</c><00:00:56.780><c> Stellar</c>
 
 00:00:56.980 --> 00:00:56.990 align:start position:0%
-are the building blocks of the stellar
+are the building blocks of the Stellar
 
 
 00:00:56.990 --> 00:00:58.780 align:start position:0%
-are the building blocks of the stellar
+are the building blocks of the Stellar
 consensus<00:00:57.470><c> protocol</c><00:00:57.830><c> and</c><00:00:58.100><c> then</c><00:00:58.310><c> we</c><00:00:58.460><c> will</c><00:00:58.610><c> see</c>
 
 00:00:58.780 --> 00:00:58.790 align:start position:0%
@@ -164,14 +164,14 @@ how it all plays out and then finally
 
 00:01:09.770 --> 00:01:12.010 align:start position:0%
 how it all plays out and then finally
-the<00:01:10.250><c> two</c><00:01:10.430><c> steps</c><00:01:10.820><c> of</c><00:01:11.090><c> the</c><00:01:11.360><c> stellar</c><00:01:11.570><c> consensus</c>
+the<00:01:10.250><c> two</c><00:01:10.430><c> steps</c><00:01:10.820><c> of</c><00:01:11.090><c> the</c><00:01:11.360><c> Stellar</c><00:01:11.570><c> consensus</c>
 
 00:01:12.010 --> 00:01:12.020 align:start position:0%
-the two steps of the stellar consensus
+the two steps of the Stellar consensus
 
 
 00:01:12.020 --> 00:01:14.260 align:start position:0%
-the two steps of the stellar consensus
+the two steps of the Stellar consensus
 protocol<00:01:12.440><c> which</c><00:01:12.710><c> are</c><00:01:12.950><c> nomination</c><00:01:13.850><c> protocol</c>
 
 00:01:14.260 --> 00:01:14.270 align:start position:0%
@@ -724,14 +724,14 @@ a quorum another very crucial definition
 
 00:04:36.780 --> 00:04:40.560 align:start position:0%
 a quorum another very crucial definition
-on<00:04:37.780><c> the</c><00:04:37.840><c> stellar</c><00:04:38.320><c> network</c><00:04:38.800><c> is</c><00:04:39.450><c> notion</c><00:04:40.450><c> of</c>
+on<00:04:37.780><c> the</c><00:04:37.840><c> Stellar</c><00:04:38.320><c> network</c><00:04:38.800><c> is</c><00:04:39.450><c> notion</c><00:04:40.450><c> of</c>
 
 00:04:40.560 --> 00:04:40.570 align:start position:0%
-on the stellar network is notion of
+on the Stellar network is notion of
 
 
 00:04:40.570 --> 00:04:43.560 align:start position:0%
-on the stellar network is notion of
+on the Stellar network is notion of
 nodes<00:04:40.930><c> blocking</c><00:04:41.530><c> sets</c><00:04:41.800><c> any</c><00:04:42.670><c> set</c><00:04:43.000><c> of</c><00:04:43.030><c> nodes</c><00:04:43.330><c> in</c>
 
 00:04:43.560 --> 00:04:43.570 align:start position:0%
@@ -1076,14 +1076,14 @@ is a statement so statement is the
 
 00:06:39.009 --> 00:06:42.269 align:start position:0%
 is a statement so statement is the
-smallest<00:06:39.610><c> building</c><00:06:39.939><c> block</c><00:06:40.329><c> of</c><00:06:40.619><c> the</c><00:06:41.619><c> stellar</c>
+smallest<00:06:39.610><c> building</c><00:06:39.939><c> block</c><00:06:40.329><c> of</c><00:06:40.619><c> the</c><00:06:41.619><c> Stellar</c>
 
 00:06:42.269 --> 00:06:42.279 align:start position:0%
-smallest building block of the stellar
+smallest building block of the Stellar
 
 
 00:06:42.279 --> 00:06:44.189 align:start position:0%
-smallest building block of the stellar
+smallest building block of the Stellar
 consensus<00:06:42.729><c> protocol</c><00:06:43.119><c> it's</c><00:06:43.749><c> basically</c>
 
 00:06:44.189 --> 00:06:44.199 align:start position:0%
@@ -2484,14 +2484,14 @@ and federal voting let's actually see
 
 00:15:34.410 --> 00:15:36.200 align:start position:0%
 and federal voting let's actually see
-how<00:15:34.620><c> those</c><00:15:34.890><c> are</c><00:15:35.130><c> applied</c><00:15:35.430><c> to</c><00:15:35.730><c> the</c><00:15:35.940><c> stellar</c>
+how<00:15:34.620><c> those</c><00:15:34.890><c> are</c><00:15:35.130><c> applied</c><00:15:35.430><c> to</c><00:15:35.730><c> the</c><00:15:35.940><c> Stellar</c>
 
 00:15:36.200 --> 00:15:36.210 align:start position:0%
-how those are applied to the stellar
+how those are applied to the Stellar
 
 
 00:15:36.210 --> 00:15:40.429 align:start position:0%
-how those are applied to the stellar
+how those are applied to the Stellar
 consensus<00:15:36.720><c> protocol</c>
 
 00:15:40.429 --> 00:15:40.439 align:start position:0%
@@ -2500,14 +2500,14 @@ consensus<00:15:36.720><c> protocol</c>
 
 00:15:40.439 --> 00:15:43.289 align:start position:0%
 
-so<00:15:41.439><c> stellar</c><00:15:42.009><c> consensus</c><00:15:42.459><c> protocol</c><00:15:42.819><c> is</c><00:15:42.970><c> a</c>
+so<00:15:41.439><c> Stellar</c><00:15:42.009><c> consensus</c><00:15:42.459><c> protocol</c><00:15:42.819><c> is</c><00:15:42.970><c> a</c>
 
 00:15:43.289 --> 00:15:43.299 align:start position:0%
-so stellar consensus protocol is a
+so Stellar consensus protocol is a
 
 
 00:15:43.299 --> 00:15:45.329 align:start position:0%
-so stellar consensus protocol is a
+so Stellar consensus protocol is a
 two-phase<00:15:43.779><c> protocol</c><00:15:44.199><c> that</c><00:15:44.470><c> uses</c><00:15:44.679><c> federated</c>
 
 00:15:45.329 --> 00:15:45.339 align:start position:0%
@@ -2532,14 +2532,14 @@ voting is on statements and statements
 
 00:15:51.639 --> 00:15:53.429 align:start position:0%
 voting is on statements and statements
-contain<00:15:51.939><c> values</c><00:15:52.329><c> so</c><00:15:52.899><c> for</c><00:15:52.929><c> the</c><00:15:53.199><c> stellar</c>
+contain<00:15:51.939><c> values</c><00:15:52.329><c> so</c><00:15:52.899><c> for</c><00:15:52.929><c> the</c><00:15:53.199><c> Stellar</c>
 
 00:15:53.429 --> 00:15:53.439 align:start position:0%
-contain values so for the stellar
+contain values so for the Stellar
 
 
 00:15:53.439 --> 00:15:56.210 align:start position:0%
-contain values so for the stellar
+contain values so for the Stellar
 Network<00:15:53.859><c> the</c><00:15:54.220><c> values</c><00:15:54.579><c> are</c><00:15:54.789><c> transaction</c><00:15:55.359><c> sets</c>
 
 00:15:56.210 --> 00:15:56.220 align:start position:0%
@@ -2548,14 +2548,14 @@ Network the values are transaction sets
 
 00:15:56.220 --> 00:15:58.889 align:start position:0%
 Network the values are transaction sets
-the<00:15:57.220><c> first</c><00:15:57.399><c> step</c><00:15:57.669><c> of</c><00:15:57.819><c> the</c><00:15:58.149><c> stellar</c><00:15:58.359><c> consensus</c>
+the<00:15:57.220><c> first</c><00:15:57.399><c> step</c><00:15:57.669><c> of</c><00:15:57.819><c> the</c><00:15:58.149><c> Stellar</c><00:15:58.359><c> consensus</c>
 
 00:15:58.889 --> 00:15:58.899 align:start position:0%
-the first step of the stellar consensus
+the first step of the Stellar consensus
 
 
 00:15:58.899 --> 00:16:02.309 align:start position:0%
-the first step of the stellar consensus
+the first step of the Stellar consensus
 protocol<00:15:59.289><c> is</c><00:16:00.419><c> the</c><00:16:01.419><c> nomination</c><00:16:01.899><c> protocol</c>
 
 00:16:02.309 --> 00:16:02.319 align:start position:0%
@@ -2652,14 +2652,14 @@ diagram here so we can think of the
 
 00:16:38.289 --> 00:16:40.579 align:start position:0%
 diagram here so we can think of the
-stellar<00:16:38.499><c> consensus</c><00:16:38.979><c> protocol</c><00:16:39.339><c> as</c><00:16:39.549><c> the</c><00:16:40.149><c> funnel</c>
+Stellar<00:16:38.499><c> consensus</c><00:16:38.979><c> protocol</c><00:16:39.339><c> as</c><00:16:39.549><c> the</c><00:16:40.149><c> funnel</c>
 
 00:16:40.579 --> 00:16:40.589 align:start position:0%
-stellar consensus protocol as the funnel
+Stellar consensus protocol as the funnel
 
 
 00:16:40.589 --> 00:16:43.379 align:start position:0%
-stellar consensus protocol as the funnel
+Stellar consensus protocol as the funnel
 so<00:16:41.589><c> the</c><00:16:41.799><c> very</c><00:16:41.979><c> beginning</c><00:16:42.369><c> a</c><00:16:42.549><c> node</c><00:16:42.849><c> doesn't</c>
 
 00:16:43.379 --> 00:16:43.389 align:start position:0%
@@ -3252,14 +3252,14 @@ protocol<00:20:02.559><c> on</c><00:20:02.740><c> that</c><00:20:02.980><c> valu
 
 00:20:05.710 --> 00:20:09.760 align:start position:0%
 
-so<00:20:06.710><c> in</c><00:20:07.160><c> the</c><00:20:07.760><c> stellar</c><00:20:08.180><c> network</c><00:20:08.570><c> nodes</c><00:20:09.290><c> select</c>
+so<00:20:06.710><c> in</c><00:20:07.160><c> the</c><00:20:07.760><c> Stellar</c><00:20:08.180><c> network</c><00:20:08.570><c> nodes</c><00:20:09.290><c> select</c>
 
 00:20:09.760 --> 00:20:09.770 align:start position:0%
-so in the stellar network nodes select
+so in the Stellar network nodes select
 
 
 00:20:09.770 --> 00:20:11.110 align:start position:0%
-so in the stellar network nodes select
+so in the Stellar network nodes select
 the<00:20:09.890><c> biggest</c><00:20:10.190><c> transaction</c><00:20:10.610><c> set</c><00:20:10.820><c> as</c><00:20:10.970><c> the</c>
 
 00:20:11.110 --> 00:20:11.120 align:start position:0%
@@ -3924,14 +3924,14 @@ so this was sort of a very brief
 
 00:23:36.040 --> 00:23:37.860 align:start position:0%
 so this was sort of a very brief
-discussion<00:23:36.520><c> of</c><00:23:36.820><c> the</c><00:23:36.910><c> stellar</c><00:23:37.390><c> consensus</c>
+discussion<00:23:36.520><c> of</c><00:23:36.820><c> the</c><00:23:36.910><c> Stellar</c><00:23:37.390><c> consensus</c>
 
 00:23:37.860 --> 00:23:37.870 align:start position:0%
-discussion of the stellar consensus
+discussion of the Stellar consensus
 
 
 00:23:37.870 --> 00:23:40.470 align:start position:0%
-discussion of the stellar consensus
+discussion of the Stellar consensus
 protocol<00:23:38.260><c> I</c><00:23:38.530><c> also</c><00:23:39.370><c> encourage</c><00:23:40.000><c> you</c><00:23:40.030><c> to</c><00:23:40.330><c> check</c>
 
 00:23:40.470 --> 00:23:40.480 align:start position:0%
@@ -4260,14 +4260,14 @@ get a choice when you configure your
 
 00:25:34.960 --> 00:25:37.230 align:start position:0%
 get a choice when you configure your
-stellar<00:25:35.230><c> core</c><00:25:35.500><c> node</c><00:25:35.740><c> you</c><00:25:36.520><c> may</c><00:25:36.700><c> configure</c><00:25:36.910><c> your</c>
+Stellar<00:25:35.230><c> core</c><00:25:35.500><c> node</c><00:25:35.740><c> you</c><00:25:36.520><c> may</c><00:25:36.700><c> configure</c><00:25:36.910><c> your</c>
 
 00:25:37.230 --> 00:25:37.240 align:start position:0%
-stellar core node you may configure your
+Stellar core node you may configure your
 
 
 00:25:37.240 --> 00:25:40.050 align:start position:0%
-stellar core node you may configure your
+Stellar core node you may configure your
 quorum<00:25:37.510><c> sets</c><00:25:37.750><c> however</c><00:25:38.050><c> you</c><00:25:38.320><c> want</c><00:25:38.590><c> and</c><00:25:39.060><c> select</c>
 
 00:25:40.050 --> 00:25:40.060 align:start position:0%
@@ -4300,14 +4300,14 @@ automatic quorum generation mechanism
 
 00:25:48.789 --> 00:25:50.430 align:start position:0%
 automatic quorum generation mechanism
-that<00:25:48.909><c> we</c><00:25:49.029><c> have</c><00:25:49.210><c> built</c><00:25:49.450><c> into</c><00:25:49.870><c> stellar</c><00:25:50.110><c> core</c>
+that<00:25:48.909><c> we</c><00:25:49.029><c> have</c><00:25:49.210><c> built</c><00:25:49.450><c> into</c><00:25:49.870><c> Stellar</c><00:25:50.110><c> core</c>
 
 00:25:50.430 --> 00:25:50.440 align:start position:0%
-that we have built into stellar core
+that we have built into Stellar core
 
 
 00:25:50.440 --> 00:25:55.350 align:start position:0%
-that we have built into stellar core
+that we have built into Stellar core
 because<00:25:50.889><c> it</c><00:25:51.360><c> accounts</c><00:25:52.360><c> for</c><00:25:52.419><c> that</c><00:25:53.399><c> 67%</c><00:25:54.399><c> and</c><00:25:55.029><c> it</c>
 
 00:25:55.350 --> 00:25:55.360 align:start position:0%

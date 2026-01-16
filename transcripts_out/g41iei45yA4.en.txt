@@ -1,5 +1,5 @@
-hi everyone welcome to the stellar open
-hi everyone welcome to the stellar open
+hi everyone welcome to the Stellar open
+hi everyone welcome to the Stellar open
 protocol discussion in these meetings
 protocol discussion in these meetings
 protocol discussion in these meetings
@@ -12,9 +12,9 @@ proposals caps
 which are technical specs that suggest
 which are technical specs that suggest
 which are technical specs that suggest
-changes to the stellar protocol and
-changes to the stellar protocol and
-changes to the stellar protocol and
+changes to the Stellar protocol and
+changes to the Stellar protocol and
+changes to the Stellar protocol and
 they're necessary to allow that protocol
 they're necessary to allow that protocol
 they're necessary to allow that protocol
@@ -66,9 +66,9 @@ once again this meeting is part of a
 caps life cycle they are started on the
 caps life cycle they are started on the
 caps life cycle they are started on the
-stellar dev mailing list and there's a
-stellar dev mailing list and there's a
-stellar dev mailing list and there's a
+Stellar dev mailing list and there's a
+Stellar dev mailing list and there's a
+Stellar dev mailing list and there's a
 link to that mailing list for anyone who
 link to that mailing list for anyone who
 link to that mailing list for anyone who
@@ -117,9 +117,9 @@ through final comment period it's
 implemented in a major release of
 implemented in a major release of
 implemented in a major release of
-stellar core which is then put forward
-stellar core which is then put forward
-stellar core which is then put forward
+Stellar core which is then put forward
+Stellar core which is then put forward
+Stellar core which is then put forward
 for network validators to vote on
 for network validators to vote on
 for network validators to vote on
@@ -150,24 +150,24 @@ week and so that upgrade would introduce
 automated market maker functionality to
 automated market maker functionality to
 automated market maker functionality to
-stellar so it's very exciting
-stellar so it's very exciting
-stellar so it's very exciting
+Stellar so it's very exciting
+Stellar so it's very exciting
+Stellar so it's very exciting
 it also introduces some breaking changes
 it also introduces some breaking changes
 it also introduces some breaking changes
-so if you build on stellar please make
-so if you build on stellar please make
-so if you build on stellar please make
+so if you build on Stellar please make
+so if you build on Stellar please make
+so if you build on Stellar please make
 sure to install up-to-date versions of
 sure to install up-to-date versions of
 sure to install up-to-date versions of
-any stellar sdks you use
-any stellar sdks you use
-any stellar sdks you use
-any stellar sdks along with stellar core
-any stellar sdks along with stellar core
-any stellar sdks along with stellar core
+any Stellar sdks you use
+any Stellar sdks you use
+any Stellar sdks you use
+any Stellar sdks along with Stellar core
+any Stellar sdks along with Stellar core
+any Stellar sdks along with Stellar core
 and horizon if you run a node
 and horizon if you run a node
 and horizon if you run a node
@@ -183,9 +183,9 @@ protocol cap 21.
 cap 21 lays the groundwork for building
 cap 21 lays the groundwork for building
 cap 21 lays the groundwork for building
-payment channels on stellar payment
-payment channels on stellar payment
-payment channels on stellar payment
+payment channels on Stellar payment
+payment channels on Stellar payment
+payment channels on Stellar payment
 channels allow multiple parties to
 channels allow multiple parties to
 channels allow multiple parties to
@@ -201,9 +201,9 @@ what they do is they make it a lot
 easier to build high volume use cases on
 easier to build high volume use cases on
 easier to build high volume use cases on
-stellar so
-stellar so
-stellar so
+Stellar so
+Stellar so
+Stellar so
 cap 21
 cap 21
 cap 21
@@ -1419,9 +1419,9 @@ that project would basically die if it
 had to wait for it to like go through
 had to wait for it to like go through
 had to wait for it to like go through
-the stellar core release process so i
-the stellar core release process so i
-the stellar core release process so i
+the Stellar core release process so i
+the Stellar core release process so i
+the Stellar core release process so i
 think we should
 think we should
 think we should

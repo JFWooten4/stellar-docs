@@ -258,9 +258,9 @@ Staff engineer at the Stellar
 development foundation which means I get
 development foundation which means I get
 development foundation which means I get
-to work on sorobon every day building
-to work on sorobon every day building
-to work on sorobon every day building
+to work on Soroban every day building
+to work on Soroban every day building
+to work on Soroban every day building
 and making it happen for all of you
 and making it happen for all of you
 and making it happen for all of you
@@ -951,9 +951,9 @@ we got to tell it to do a little bit
 more so for that we're going to use the
 more so for that we're going to use the
 more so for that we're going to use the
-soroban SDK
-soroban SDK
-soroban SDK
+Soroban SDK
+Soroban SDK
+Soroban SDK
 and we're going to import the contract
 and we're going to import the contract
 and we're going to import the contract
@@ -969,9 +969,9 @@ a bunch of things but essentially this
 will convert this implementation right
 will convert this implementation right
 will convert this implementation right
-here into a soroban contract
-here into a soroban contract
-here into a soroban contract
+here into a Soroban contract
+here into a Soroban contract
+here into a Soroban contract
 and okay we have a a few errors over
 and okay we have a a few errors over
 and okay we have a a few errors over
@@ -984,9 +984,9 @@ by the way Russ is super famous for
 really good compiler errors and in this
 really good compiler errors and in this
 really good compiler errors and in this
-environment which is enabled by soroban
-environment which is enabled by soroban
-environment which is enabled by soroban
+environment which is enabled by Soroban
+environment which is enabled by Soroban
+environment which is enabled by Soroban
 the way it's designed to leverage
 the way it's designed to leverage
 the way it's designed to leverage
@@ -1650,9 +1650,9 @@ way to use the network but if you
 need a bit more power that's what
 need a bit more power that's what
 need a bit more power that's what
-soroban's for
-soroban's for
-soroban's for
+Soroban's for
+Soroban's for
+Soroban's for
 okay but
 okay but
 okay but
@@ -1752,9 +1752,9 @@ yeah
 and the third Point here I want to talk
 and the third Point here I want to talk
 and the third Point here I want to talk
-about what makes soroban super special
-about what makes soroban super special
-about what makes soroban super special
+about what makes Soroban super special
+about what makes Soroban super special
+about what makes Soroban super special
 is the scaling optimizations that we're
 is the scaling optimizations that we're
 is the scaling optimizations that we're
@@ -2448,9 +2448,9 @@ there's another nice feature that's
 
 
 
-part of the I guess soroban contract
-part of the I guess soroban contract
-part of the I guess soroban contract
+part of the I guess Soroban contract
+part of the I guess Soroban contract
+part of the I guess Soroban contract
 specification so when you compile the
 specification so when you compile the
 specification so when you compile the
@@ -2871,9 +2871,9 @@ user let's type address so address
 refers to any valid blocking address on
 refers to any valid blocking address on
 refers to any valid blocking address on
-the stellar blockchain
-the stellar blockchain
-the stellar blockchain
+the Stellar blockchain
+the Stellar blockchain
+the Stellar blockchain
 and then we're going to take in a number
 and then we're going to take in a number
 and then we're going to take in a number
@@ -3159,9 +3159,9 @@ from the from the standard here
 all right so that concludes my second
 all right so that concludes my second
 all right so that concludes my second
-demo for the soroban state of mind if
-demo for the soroban state of mind if
-demo for the soroban state of mind if
+demo for the Soroban state of mind if
+demo for the Soroban state of mind if
+demo for the Soroban state of mind if
 anyone wants to again experiment with
 anyone wants to again experiment with
 anyone wants to again experiment with
@@ -3207,9 +3207,9 @@ so we've got
 basically two main opportunities here
 basically two main opportunities here
 basically two main opportunities here
-for engaging with sorobon right now so
-for engaging with sorobon right now so
-for engaging with sorobon right now so
+for engaging with Soroban right now so
+for engaging with Soroban right now so
+for engaging with Soroban right now so
 we're we're in this phase between
 we're we're in this phase between
 we're we're in this phase between
@@ -3288,9 +3288,9 @@ right now it's a it's a game that
 really takes you through
 really takes you through
 really takes you through
-sorobon contract development with the
-sorobon contract development with the
-sorobon contract development with the
+Soroban contract development with the
+Soroban contract development with the
+Soroban contract development with the
 with the objective of trying to build
 with the objective of trying to build
 with the objective of trying to build
@@ -3336,9 +3336,9 @@ seller
 that's where that education is going
 that's where that education is going
 that's where that education is going
-to be and then for sorobon related
-to be and then for sorobon related
-to be and then for sorobon related
+to be and then for Soroban related
+to be and then for Soroban related
+to be and then for Soroban related
 material it'll it'll all be living on
 material it'll it'll all be living on
 material it'll it'll all be living on
@@ -3396,9 +3396,9 @@ been optimizing the Community Fund for
 both the the vanilla classic Stellar
 both the the vanilla classic Stellar
 both the the vanilla classic Stellar
-applications as well as sorobon
-applications as well as sorobon
-applications as well as sorobon
+applications as well as Soroban
+applications as well as Soroban
+applications as well as Soroban
 applications so there's a really nice
 applications so there's a really nice
 applications so there's a really nice
@@ -3699,9 +3699,9 @@ for a platform that had both a heart and
 a brain
 a brain
 a brain
-and just last November I found soroban
-and just last November I found soroban
-and just last November I found soroban
+and just last November I found Soroban
+and just last November I found Soroban
+and just last November I found Soroban
 the first sore bonathon was taking place
 the first sore bonathon was taking place
 the first sore bonathon was taking place
@@ -3729,21 +3729,21 @@ right yeah so I took part in that
 I've jumped right on it
 I've jumped right on it
 I've jumped right on it
-and I found out about soroban in the
-and I found out about soroban in the
-and I found out about soroban in the
+and I found out about Soroban in the
+and I found out about Soroban in the
+and I found out about Soroban in the
 process I found out about xdr which is
 process I found out about xdr which is
 process I found out about xdr which is
 the data format for storing things on
 the data format for storing things on
 the data format for storing things on
-stellar
-stellar
-stellar
-that sorban uses and then I started
-that sorban uses and then I started
-that sorban uses and then I started
+Stellar
+Stellar
+Stellar
+that Soroban uses and then I started
+that Soroban uses and then I started
+that Soroban uses and then I started
 getting into rust and
 getting into rust and
 getting into rust and
@@ -3759,9 +3759,9 @@ and then lastly was webassembly the
 one of the key building blocks of of
 one of the key building blocks of of
 one of the key building blocks of of
-soroban
-soroban
-soroban
+Soroban
+Soroban
+Soroban
 and my first projects were very simple
 and my first projects were very simple
 and my first projects were very simple
@@ -3819,9 +3819,9 @@ submitted it last day
 was a browser tool for interacting
 was a browser tool for interacting
 was a browser tool for interacting
-with the soroban RPC server something
-with the soroban RPC server something
-with the soroban RPC server something
+with the Soroban RPC server something
+with the Soroban RPC server something
+with the Soroban RPC server something
 that a lot of folks do when interacting
 that a lot of folks do when interacting
 that a lot of folks do when interacting
@@ -4035,9 +4035,9 @@ December and sort of you know it's like
 light speed so my experience so far
 light speed so my experience so far
 light speed so my experience so far
-has been stellar
-has been stellar
-has been stellar
+has been Stellar
+has been Stellar
+has been Stellar
 and I really really appreciate the
 and I really really appreciate the
 and I really really appreciate the
@@ -4053,9 +4053,9 @@ I went through
 so thumbs up and yeah that's my
 so thumbs up and yeah that's my
 so thumbs up and yeah that's my
-soroban story that was so wholesome and
-soroban story that was so wholesome and
-soroban story that was so wholesome and
+Soroban story that was so wholesome and
+Soroban story that was so wholesome and
+Soroban story that was so wholesome and
 well put Morgan thank you for sharing
 well put Morgan thank you for sharing
 well put Morgan thank you for sharing
@@ -4176,9 +4176,9 @@ smart contracts bring a ton of new
 Incredible use cases and power and
 Incredible use cases and power and
 Incredible use cases and power and
-Innovation to stellar all right for me
-Innovation to stellar all right for me
-Innovation to stellar all right for me
+Innovation to Stellar all right for me
+Innovation to Stellar all right for me
+Innovation to Stellar all right for me
 personally you know it's a hugely
 personally you know it's a hugely
 personally you know it's a hugely
@@ -4287,9 +4287,9 @@ it's the right time to take a look at
 stuller there's a QR code on the screen
 stuller there's a QR code on the screen
 stuller there's a QR code on the screen
-that'll take you to soarbon.stellar.org
-that'll take you to soarbon.stellar.org
-that'll take you to soarbon.stellar.org
+that'll take you to soarbon.Stellar.org
+that'll take you to soarbon.Stellar.org
+that'll take you to soarbon.Stellar.org
 that is the place to go to learn more
 that is the place to go to learn more
 that is the place to go to learn more

@@ -6,9 +6,9 @@ developer meeting. Today I'm going to
 talk about
 quickstart. So what is quickstart? Well,
 quickstart. So what is quickstart? Well,
-quickart is a local stellar network
-quickart is a local stellar network
-quickart is a local stellar network
+quickart is a local Stellar network
+quickart is a local Stellar network
+quickart is a local Stellar network
 environment. So quickart is a docker
 environment. So quickart is a docker
 environment. So quickart is a docker
@@ -138,9 +138,9 @@ environment. In this case we use the
 local host as the RPC URL to tell
 local host as the RPC URL to tell
 local host as the RPC URL to tell
-stellar contract deploy command that we
-stellar contract deploy command that we
-stellar contract deploy command that we
+Stellar contract deploy command that we
+Stellar contract deploy command that we
+Stellar contract deploy command that we
 want to deploy it onto quick start. And
 want to deploy it onto quick start. And
 want to deploy it onto quick start. And
@@ -360,9 +360,9 @@ thing to notice here is that usually if
 you use testn net you will get a link to
 you use testn net you will get a link to
 you use testn net you will get a link to
-stellar expert so you can go and take a
-stellar expert so you can go and take a
-stellar expert so you can go and take a
+Stellar expert so you can go and take a
+Stellar expert so you can go and take a
+Stellar expert so you can go and take a
 look at at your user account there.
 look at at your user account there.
 look at at your user account there.

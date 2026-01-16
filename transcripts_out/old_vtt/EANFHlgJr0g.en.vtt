@@ -804,14 +804,14 @@ development foundation which means I get
 
 00:04:34.440 --> 00:04:36.170 align:start position:0%
 development foundation which means I get
-to<00:04:34.560><c> work</c><00:04:34.620><c> on</c><00:04:34.740><c> sorobon</c><00:04:35.280><c> every</c><00:04:35.460><c> day</c><00:04:35.639><c> building</c>
+to<00:04:34.560><c> work</c><00:04:34.620><c> on</c><00:04:34.740><c> Soroban</c><00:04:35.280><c> every</c><00:04:35.460><c> day</c><00:04:35.639><c> building</c>
 
 00:04:36.170 --> 00:04:36.180 align:start position:0%
-to work on sorobon every day building
+to work on Soroban every day building
 
 
 00:04:36.180 --> 00:04:39.230 align:start position:0%
-to work on sorobon every day building
+to work on Soroban every day building
 and<00:04:36.479><c> making</c><00:04:36.660><c> it</c><00:04:36.840><c> happen</c><00:04:37.020><c></c><00:04:37.800><c> for</c><00:04:38.040><c> all</c><00:04:38.100><c> of</c><00:04:38.280><c> you</c>
 
 00:04:39.230 --> 00:04:39.240 align:start position:0%
@@ -2676,14 +2676,14 @@ more so for that we're going to use the
 
 00:13:31.139 --> 00:13:33.550 align:start position:0%
 more so for that we're going to use the
-soroban<00:13:31.680><c> SDK</c>
+Soroban<00:13:31.680><c> SDK</c>
 
 00:13:33.550 --> 00:13:33.560 align:start position:0%
-soroban SDK
+Soroban SDK
 
 
 00:13:33.560 --> 00:13:37.610 align:start position:0%
-soroban SDK
+Soroban SDK
 and<00:13:34.560><c> we're</c><00:13:34.860><c> going</c><00:13:35.040><c> to</c><00:13:35.160><c> import</c><00:13:35.839><c> the</c><00:13:36.839><c> contract</c>
 
 00:13:37.610 --> 00:13:37.620 align:start position:0%
@@ -2724,14 +2724,14 @@ will convert this implementation right
 
 00:13:47.579 --> 00:13:51.110 align:start position:0%
 will convert this implementation right
-here<00:13:47.700><c> into</c><00:13:48.540><c> a</c><00:13:49.019><c> soroban</c><00:13:49.620><c> contract</c>
+here<00:13:47.700><c> into</c><00:13:48.540><c> a</c><00:13:49.019><c> Soroban</c><00:13:49.620><c> contract</c>
 
 00:13:51.110 --> 00:13:51.120 align:start position:0%
-here into a soroban contract
+here into a Soroban contract
 
 
 00:13:51.120 --> 00:13:55.970 align:start position:0%
-here into a soroban contract
+here into a Soroban contract
 and<00:13:51.899><c></c><00:13:52.440><c> okay</c><00:13:53.100><c> we</c><00:13:53.820><c> have</c><00:13:54.000><c> a</c><00:13:54.540><c> a</c><00:13:54.779><c> few</c><00:13:55.380><c> errors</c><00:13:55.800><c> over</c>
 
 00:13:55.970 --> 00:13:55.980 align:start position:0%
@@ -2764,14 +2764,14 @@ really good compiler errors and in this
 
 00:14:02.220 --> 00:14:05.509 align:start position:0%
 really good compiler errors and in this
-environment<00:14:02.639><c> which</c><00:14:03.600><c> is</c><00:14:03.959><c> enabled</c><00:14:04.380><c> by</c><00:14:04.800><c> soroban</c>
+environment<00:14:02.639><c> which</c><00:14:03.600><c> is</c><00:14:03.959><c> enabled</c><00:14:04.380><c> by</c><00:14:04.800><c> Soroban</c>
 
 00:14:05.509 --> 00:14:05.519 align:start position:0%
-environment which is enabled by soroban
+environment which is enabled by Soroban
 
 
 00:14:05.519 --> 00:14:07.449 align:start position:0%
-environment which is enabled by soroban
+environment which is enabled by Soroban
 the<00:14:05.700><c> way</c><00:14:05.820><c> it's</c><00:14:06.000><c> designed</c><00:14:06.480><c> to</c><00:14:07.139><c> leverage</c>
 
 00:14:07.449 --> 00:14:07.459 align:start position:0%
@@ -4572,14 +4572,14 @@ need a bit more power that's what
 
 00:23:48.780 --> 00:23:50.690 align:start position:0%
 need a bit more power that's what
-soroban's<00:23:49.380><c> for</c>
+Soroban's<00:23:49.380><c> for</c>
 
 00:23:50.690 --> 00:23:50.700 align:start position:0%
-soroban's for
+Soroban's for
 
 
 00:23:50.700 --> 00:23:52.669 align:start position:0%
-soroban's for
+Soroban's for
 okay<00:23:51.240><c> but</c>
 
 00:23:52.669 --> 00:23:52.679 align:start position:0%
@@ -4844,14 +4844,14 @@ and the third Point here I want to talk
 
 00:24:59.520 --> 00:25:01.130 align:start position:0%
 and the third Point here I want to talk
-about<00:24:59.640><c> what</c><00:25:00.059><c> makes</c><00:25:00.179><c> soroban</c><00:25:00.720><c> super</c><00:25:00.900><c> special</c>
+about<00:24:59.640><c> what</c><00:25:00.059><c> makes</c><00:25:00.179><c> Soroban</c><00:25:00.720><c> super</c><00:25:00.900><c> special</c>
 
 00:25:01.130 --> 00:25:01.140 align:start position:0%
-about what makes soroban super special
+about what makes Soroban super special
 
 
 00:25:01.140 --> 00:25:03.110 align:start position:0%
-about what makes soroban super special
+about what makes Soroban super special
 is<00:25:01.559><c> the</c><00:25:01.799><c> scaling</c><00:25:02.159><c> optimizations</c><00:25:02.700><c> that</c><00:25:03.000><c> we're</c>
 
 00:25:03.110 --> 00:25:03.120 align:start position:0%
@@ -6780,14 +6780,14 @@ as far as integrating into soribine
 
 00:35:05.220 --> 00:35:09.069 align:start position:0%
 
-part<00:35:05.880><c> of</c><00:35:06.180><c> the</c><00:35:06.960><c> I</c><00:35:07.500><c> guess</c><00:35:07.619><c> soroban</c><00:35:08.460><c> contract</c>
+part<00:35:05.880><c> of</c><00:35:06.180><c> the</c><00:35:06.960><c> I</c><00:35:07.500><c> guess</c><00:35:07.619><c> Soroban</c><00:35:08.460><c> contract</c>
 
 00:35:09.069 --> 00:35:09.079 align:start position:0%
-part of the I guess soroban contract
+part of the I guess Soroban contract
 
 
 00:35:09.079 --> 00:35:11.569 align:start position:0%
-part of the I guess soroban contract
+part of the I guess Soroban contract
 specification<00:35:10.079><c> so</c><00:35:10.859><c> when</c><00:35:11.040><c> you</c><00:35:11.160><c> compile</c><00:35:11.400><c> the</c>
 
 00:35:11.569 --> 00:35:11.579 align:start position:0%
@@ -7924,14 +7924,14 @@ refers to any valid blocking address on
 
 00:41:27.839 --> 00:41:29.890 align:start position:0%
 refers to any valid blocking address on
-the<00:41:28.020><c> stellar</c><00:41:28.380><c> blockchain</c>
+the<00:41:28.020><c> Stellar</c><00:41:28.380><c> blockchain</c>
 
 00:41:29.890 --> 00:41:29.900 align:start position:0%
-the stellar blockchain
+the Stellar blockchain
 
 
 00:41:29.900 --> 00:41:32.750 align:start position:0%
-the stellar blockchain
+the Stellar blockchain
 and<00:41:30.900><c> then</c><00:41:31.020><c> we're</c><00:41:31.200><c> going</c><00:41:31.320><c> to</c><00:41:31.320><c> take</c><00:41:31.500><c> in</c><00:41:31.619><c> a</c><00:41:31.740><c> number</c>
 
 00:41:32.750 --> 00:41:32.760 align:start position:0%
@@ -8724,14 +8724,14 @@ from the from the standard here
 
 00:46:33.060 --> 00:46:37.190 align:start position:0%
  all right so that concludes my second
-demo<00:46:33.599><c> for</c><00:46:34.020><c></c><00:46:34.800><c> the</c><00:46:35.400><c> soroban</c><00:46:36.000><c> state</c><00:46:36.240><c> of</c><00:46:36.420><c> mind</c><00:46:36.540><c> if</c>
+demo<00:46:33.599><c> for</c><00:46:34.020><c></c><00:46:34.800><c> the</c><00:46:35.400><c> Soroban</c><00:46:36.000><c> state</c><00:46:36.240><c> of</c><00:46:36.420><c> mind</c><00:46:36.540><c> if</c>
 
 00:46:37.190 --> 00:46:37.200 align:start position:0%
-demo for the soroban state of mind if
+demo for the Soroban state of mind if
 
 
 00:46:37.200 --> 00:46:39.770 align:start position:0%
-demo for the soroban state of mind if
+demo for the Soroban state of mind if
 anyone<00:46:37.619><c> wants</c><00:46:38.099><c> to</c><00:46:38.160><c> again</c><00:46:39.060><c> experiment</c><00:46:39.660><c> with</c>
 
 00:46:39.770 --> 00:46:39.780 align:start position:0%
@@ -8852,14 +8852,14 @@ basically two main opportunities here
 
 00:47:14.819 --> 00:47:17.450 align:start position:0%
 basically two main opportunities here
-for<00:47:15.300><c> engaging</c><00:47:15.900><c> with</c><00:47:16.200><c> sorobon</c><00:47:16.859><c> right</c><00:47:17.040><c> now</c><00:47:17.160><c> so</c>
+for<00:47:15.300><c> engaging</c><00:47:15.900><c> with</c><00:47:16.200><c> Soroban</c><00:47:16.859><c> right</c><00:47:17.040><c> now</c><00:47:17.160><c> so</c>
 
 00:47:17.450 --> 00:47:17.460 align:start position:0%
-for engaging with sorobon right now so
+for engaging with Soroban right now so
 
 
 00:47:17.460 --> 00:47:20.870 align:start position:0%
-for engaging with sorobon right now so
+for engaging with Soroban right now so
 we're<00:47:17.640><c> we're</c><00:47:18.000><c> in</c><00:47:18.240><c> this</c><00:47:18.420><c></c><00:47:18.660><c> phase</c><00:47:19.079><c> between</c>
 
 00:47:20.870 --> 00:47:20.880 align:start position:0%
@@ -9068,14 +9068,14 @@ really takes you through
 
 00:48:16.520 --> 00:48:18.770 align:start position:0%
 really takes you through
-sorobon<00:48:17.520><c> contract</c><00:48:17.880><c> development</c><00:48:18.359><c> with</c><00:48:18.599><c> the</c>
+Soroban<00:48:17.520><c> contract</c><00:48:17.880><c> development</c><00:48:18.359><c> with</c><00:48:18.599><c> the</c>
 
 00:48:18.770 --> 00:48:18.780 align:start position:0%
-sorobon contract development with the
+Soroban contract development with the
 
 
 00:48:18.780 --> 00:48:20.410 align:start position:0%
-sorobon contract development with the
+Soroban contract development with the
 with<00:48:19.079><c> the</c><00:48:19.260><c> objective</c><00:48:19.619><c> of</c><00:48:19.859><c> trying</c><00:48:20.040><c> to</c><00:48:20.160><c> build</c>
 
 00:48:20.410 --> 00:48:20.420 align:start position:0%
@@ -9196,14 +9196,14 @@ seller
 
 00:48:48.599 --> 00:48:50.950 align:start position:0%
  that's where that education is going
-to<00:48:48.660><c> be</c><00:48:48.780><c> and</c><00:48:48.900><c> then</c><00:48:49.079><c> for</c><00:48:49.200><c> sorobon</c><00:48:49.800><c> related</c>
+to<00:48:48.660><c> be</c><00:48:48.780><c> and</c><00:48:48.900><c> then</c><00:48:49.079><c> for</c><00:48:49.200><c> Soroban</c><00:48:49.800><c> related</c>
 
 00:48:50.950 --> 00:48:50.960 align:start position:0%
-to be and then for sorobon related
+to be and then for Soroban related
 
 
 00:48:50.960 --> 00:48:53.030 align:start position:0%
-to be and then for sorobon related
+to be and then for Soroban related
 material<00:48:51.960><c> it'll</c><00:48:52.260><c> it'll</c><00:48:52.440><c> all</c><00:48:52.560><c> be</c><00:48:52.680><c> living</c><00:48:52.800><c> on</c>
 
 00:48:53.030 --> 00:48:53.040 align:start position:0%
@@ -9356,14 +9356,14 @@ been optimizing the Community Fund for
 
 00:49:37.319 --> 00:49:38.990 align:start position:0%
  both the the vanilla classic Stellar
-applications<00:49:37.680><c> as</c><00:49:37.980><c> well</c><00:49:38.160><c> as</c><00:49:38.280><c> sorobon</c>
+applications<00:49:37.680><c> as</c><00:49:37.980><c> well</c><00:49:38.160><c> as</c><00:49:38.280><c> Soroban</c>
 
 00:49:38.990 --> 00:49:39.000 align:start position:0%
-applications as well as sorobon
+applications as well as Soroban
 
 
 00:49:39.000 --> 00:49:40.790 align:start position:0%
-applications as well as sorobon
+applications as well as Soroban
 applications<00:49:39.720><c> so</c><00:49:39.960><c> there's</c><00:49:40.140><c> a</c><00:49:40.319><c> really</c><00:49:40.560><c> nice</c>
 
 00:49:40.790 --> 00:49:40.800 align:start position:0%
@@ -10172,14 +10172,14 @@ a brain
 
 00:53:47.240 --> 00:53:51.049 align:start position:0%
 a brain
-and<00:53:48.240><c> just</c><00:53:48.720><c> last</c><00:53:48.839><c> November</c><00:53:49.319><c> I</c><00:53:49.559><c> found</c><00:53:50.059><c> soroban</c>
+and<00:53:48.240><c> just</c><00:53:48.720><c> last</c><00:53:48.839><c> November</c><00:53:49.319><c> I</c><00:53:49.559><c> found</c><00:53:50.059><c> Soroban</c>
 
 00:53:51.049 --> 00:53:51.059 align:start position:0%
-and just last November I found soroban
+and just last November I found Soroban
 
 
 00:53:51.059 --> 00:53:54.049 align:start position:0%
-and just last November I found soroban
+and just last November I found Soroban
 the<00:53:51.900><c> first</c><00:53:52.079><c> sore</c><00:53:52.380><c> bonathon</c><00:53:53.040><c> was</c><00:53:53.400><c> taking</c><00:53:53.760><c> place</c>
 
 00:53:54.049 --> 00:53:54.059 align:start position:0%
@@ -10252,14 +10252,14 @@ I've jumped right on it
 
 00:54:16.859 --> 00:54:20.089 align:start position:0%
 I've jumped right on it
-<00:54:16.980><c> and</c><00:54:17.880><c> I</c><00:54:18.359><c> found</c><00:54:18.540><c> out</c><00:54:18.720><c> about</c><00:54:18.900><c> soroban</c><00:54:19.740><c> in</c><00:54:19.920><c> the</c>
+<00:54:16.980><c> and</c><00:54:17.880><c> I</c><00:54:18.359><c> found</c><00:54:18.540><c> out</c><00:54:18.720><c> about</c><00:54:18.900><c> Soroban</c><00:54:19.740><c> in</c><00:54:19.920><c> the</c>
 
 00:54:20.089 --> 00:54:20.099 align:start position:0%
- and I found out about soroban in the
+ and I found out about Soroban in the
 
 
 00:54:20.099 --> 00:54:23.750 align:start position:0%
- and I found out about soroban in the
+ and I found out about Soroban in the
 process<00:54:20.460><c> I</c><00:54:21.359><c> found</c><00:54:21.540><c> out</c><00:54:21.720><c> about</c><00:54:22.160><c> xdr</c><00:54:23.160><c> which</c><00:54:23.640><c> is</c>
 
 00:54:23.750 --> 00:54:23.760 align:start position:0%
@@ -10276,22 +10276,22 @@ the data format for storing things on
 
 00:54:26.579 --> 00:54:27.829 align:start position:0%
 the data format for storing things on
-stellar
+Stellar
 
 00:54:27.829 --> 00:54:27.839 align:start position:0%
-stellar
+Stellar
 
 
 00:54:27.839 --> 00:54:30.890 align:start position:0%
-stellar
-that<00:54:28.380><c> sorban</c><00:54:28.920><c> uses</c><00:54:29.300><c> and</c><00:54:30.300><c> then</c><00:54:30.480><c> I</c><00:54:30.660><c> started</c>
+Stellar
+that<00:54:28.380><c> Soroban</c><00:54:28.920><c> uses</c><00:54:29.300><c> and</c><00:54:30.300><c> then</c><00:54:30.480><c> I</c><00:54:30.660><c> started</c>
 
 00:54:30.890 --> 00:54:30.900 align:start position:0%
-that sorban uses and then I started
+that Soroban uses and then I started
 
 
 00:54:30.900 --> 00:54:33.290 align:start position:0%
-that sorban uses and then I started
+that Soroban uses and then I started
 getting<00:54:31.079><c> into</c><00:54:31.319><c> rust</c><00:54:31.740><c> and</c>
 
 00:54:33.290 --> 00:54:33.300 align:start position:0%
@@ -10332,14 +10332,14 @@ one of the key building blocks of of
 
 00:54:45.660 --> 00:54:46.970 align:start position:0%
 one of the key building blocks of of
-soroban
+Soroban
 
 00:54:46.970 --> 00:54:46.980 align:start position:0%
-soroban
+Soroban
 
 
 00:54:46.980 --> 00:54:49.250 align:start position:0%
-soroban
+Soroban
 and<00:54:47.520><c> my</c><00:54:47.760><c> first</c><00:54:47.880><c> projects</c><00:54:48.359><c> were</c><00:54:48.660><c> very</c><00:54:49.079><c> simple</c>
 
 00:54:49.250 --> 00:54:49.260 align:start position:0%
@@ -10492,14 +10492,14 @@ submitted it last day
 
 00:55:35.819 --> 00:55:38.690 align:start position:0%
  was a browser tool for interacting
-with<00:55:36.119><c> the</c><00:55:36.300><c> soroban</c><00:55:36.900><c> RPC</c><00:55:37.380><c> server</c><00:55:37.740><c> something</c>
+with<00:55:36.119><c> the</c><00:55:36.300><c> Soroban</c><00:55:36.900><c> RPC</c><00:55:37.380><c> server</c><00:55:37.740><c> something</c>
 
 00:55:38.690 --> 00:55:38.700 align:start position:0%
-with the soroban RPC server something
+with the Soroban RPC server something
 
 
 00:55:38.700 --> 00:55:41.450 align:start position:0%
-with the soroban RPC server something
+with the Soroban RPC server something
 that<00:55:39.599><c> a</c><00:55:39.780><c> lot</c><00:55:39.839><c> of</c><00:55:39.960><c> folks</c><00:55:40.260><c> do</c><00:55:40.500><c> when</c><00:55:40.920><c> interacting</c>
 
 00:55:41.450 --> 00:55:41.460 align:start position:0%
@@ -11068,14 +11068,14 @@ December and sort of you know it's like
 
 00:58:51.420 --> 00:58:53.870 align:start position:0%
  light speed so my experience so far
-has<00:58:52.079><c> been</c><00:58:52.260><c> stellar</c>
+has<00:58:52.079><c> been</c><00:58:52.260><c> Stellar</c>
 
 00:58:53.870 --> 00:58:53.880 align:start position:0%
-has been stellar
+has been Stellar
 
 
 00:58:53.880 --> 00:58:56.150 align:start position:0%
-has been stellar
+has been Stellar
 <00:58:54.420><c> and</c><00:58:55.020><c> I</c><00:58:55.260><c> really</c><00:58:55.380><c> really</c><00:58:55.619><c> appreciate</c><00:58:55.980><c> the</c>
 
 00:58:56.150 --> 00:58:56.160 align:start position:0%
@@ -11116,14 +11116,14 @@ so thumbs up and yeah that's my
 
 00:59:05.220 --> 00:59:07.730 align:start position:0%
 so thumbs up and yeah that's my
-soroban<00:59:05.760><c> story</c><00:59:06.000><c> that</c><00:59:06.480><c> was</c><00:59:06.660><c> so</c><00:59:06.900><c> wholesome</c><00:59:07.380><c> and</c>
+Soroban<00:59:05.760><c> story</c><00:59:06.000><c> that</c><00:59:06.480><c> was</c><00:59:06.660><c> so</c><00:59:06.900><c> wholesome</c><00:59:07.380><c> and</c>
 
 00:59:07.730 --> 00:59:07.740 align:start position:0%
-soroban story that was so wholesome and
+Soroban story that was so wholesome and
 
 
 00:59:07.740 --> 00:59:09.410 align:start position:0%
-soroban story that was so wholesome and
+Soroban story that was so wholesome and
 well<00:59:07.859><c> put</c><00:59:08.099><c> Morgan</c><00:59:08.400><c> thank</c><00:59:08.819><c> you</c><00:59:08.940><c> for</c><00:59:09.059><c> sharing</c>
 
 00:59:09.410 --> 00:59:09.420 align:start position:0%
@@ -11452,14 +11452,14 @@ Incredible use cases and power and
 
 01:00:37.260 --> 01:00:39.470 align:start position:0%
 Incredible use cases and power and
-Innovation<01:00:37.559><c> to</c><01:00:37.799><c> stellar</c><01:00:38.640><c> all</c><01:00:39.059><c> right</c><01:00:39.059><c> for</c><01:00:39.299><c> me</c>
+Innovation<01:00:37.559><c> to</c><01:00:37.799><c> Stellar</c><01:00:38.640><c> all</c><01:00:39.059><c> right</c><01:00:39.059><c> for</c><01:00:39.299><c> me</c>
 
 01:00:39.470 --> 01:00:39.480 align:start position:0%
-Innovation to stellar all right for me
+Innovation to Stellar all right for me
 
 
 01:00:39.480 --> 01:00:41.210 align:start position:0%
-Innovation to stellar all right for me
+Innovation to Stellar all right for me
 personally<01:00:40.260><c> you</c><01:00:40.680><c> know</c><01:00:40.740><c> it's</c><01:00:40.799><c> a</c><01:00:40.980><c> hugely</c>
 
 01:00:41.210 --> 01:00:41.220 align:start position:0%
@@ -11748,14 +11748,14 @@ stuller there's a QR code on the screen
 
 01:01:46.980 --> 01:01:49.490 align:start position:0%
 stuller there's a QR code on the screen
-that'll<01:01:47.700><c> take</c><01:01:47.819><c> you</c><01:01:47.940><c> to</c><01:01:48.500><c> soarbon.stellar.org</c>
+that'll<01:01:47.700><c> take</c><01:01:47.819><c> you</c><01:01:47.940><c> to</c><01:01:48.500><c> soarbon.Stellar.org</c>
 
 01:01:49.490 --> 01:01:49.500 align:start position:0%
-that'll take you to soarbon.stellar.org
+that'll take you to soarbon.Stellar.org
 
 
 01:01:49.500 --> 01:01:51.410 align:start position:0%
-that'll take you to soarbon.stellar.org
+that'll take you to soarbon.Stellar.org
 that<01:01:49.980><c> is</c><01:01:50.040><c> the</c><01:01:50.220><c> place</c><01:01:50.400><c> to</c><01:01:50.579><c> go</c><01:01:50.700><c> to</c><01:01:50.940><c> learn</c><01:01:51.119><c> more</c>
 
 01:01:51.410 --> 01:01:51.420 align:start position:0%

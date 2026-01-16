@@ -141,9 +141,9 @@ contract for any asset
 movement and this means that a a
 movement and this means that a a
 movement and this means that a a
-stellar operation that results in the
-stellar operation that results in the
-stellar operation that results in the
+Stellar operation that results in the
+Stellar operation that results in the
+Stellar operation that results in the
 movement of an asset can emit
 movement of an asset can emit
 movement of an asset can emit
@@ -357,12 +357,12 @@ previously the events were for
 formatted in a way where was very
 formatted in a way where was very
 formatted in a way where was very
-specific to sorban and the fact that
-specific to sorban and the fact that
-specific to sorban and the fact that
-sorban only has for a single sbon
-sorban only has for a single sbon
-sorban only has for a single sbon
+specific to Soroban and the fact that
+specific to Soroban and the fact that
+specific to Soroban and the fact that
+Soroban only has for a single sbon
+Soroban only has for a single sbon
+Soroban only has for a single sbon
 transaction there's only one operation
 transaction there's only one operation
 transaction there's only one operation
@@ -771,9 +771,9 @@ makes sense since this cap is very
 focused on that consistency between
 focused on that consistency between
 focused on that consistency between
-classic and sorban and fixing it across
-classic and sorban and fixing it across
-classic and sorban and fixing it across
+classic and Soroban and fixing it across
+classic and Soroban and fixing it across
+classic and Soroban and fixing it across
 those two dimensions of you know San
 those two dimensions of you know San
 those two dimensions of you know San
@@ -1434,9 +1434,9 @@ today we have you know classic
 operations and then we have everything
 operations and then we have everything
 operations and then we have everything
-that happens on sorban and the result
-that happens on sorban and the result
-that happens on sorban and the result
+that happens on Soroban and the result
+that happens on Soroban and the result
+that happens on Soroban and the result
 of those things looks pretty different
 of those things looks pretty different
 of those things looks pretty different

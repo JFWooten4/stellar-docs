@@ -1,8 +1,8 @@
 hello
 hello
-and welcome to the stellar open protocol
-and welcome to the stellar open protocol
-and welcome to the stellar open protocol
+and welcome to the Stellar open protocol
+and welcome to the Stellar open protocol
+and welcome to the Stellar open protocol
 discussion
 discussion
 discussion
@@ -18,9 +18,9 @@ the goal of these meetings is to talk
 about and plan for changes to upcoming
 about and plan for changes to upcoming
 about and plan for changes to upcoming
-versions of the stellar protocol
-versions of the stellar protocol
-versions of the stellar protocol
+versions of the Stellar protocol
+versions of the Stellar protocol
+versions of the Stellar protocol
 we go over core advancement proposals or
 we go over core advancement proposals or
 we go over core advancement proposals or
@@ -42,9 +42,9 @@ all caps begin with a draft and they go
 through a rigorous process before
 through a rigorous process before
 through a rigorous process before
-they're actually implemented in stellar
-they're actually implemented in stellar
-they're actually implemented in stellar
+they're actually implemented in Stellar
+they're actually implemented in Stellar
+they're actually implemented in Stellar
 core
 core
 core
@@ -150,9 +150,9 @@ so the goal of both these proposals cap
 is to add automated market makers to
 is to add automated market makers to
 is to add automated market makers to
-stellar in order to improve
-stellar in order to improve
-stellar in order to improve
+Stellar in order to improve
+Stellar in order to improve
+Stellar in order to improve
 overall liquidity on the network they
 overall liquidity on the network they
 overall liquidity on the network they
@@ -207,9 +207,9 @@ questions about these proposals to light
 so that the discussion and debate can
 so that the discussion and debate can
 so that the discussion and debate can
-continue on the stellar developers
-continue on the stellar developers
-continue on the stellar developers
+continue on the Stellar developers
+continue on the Stellar developers
+continue on the Stellar developers
 google group
 google group
 google group
@@ -1527,9 +1527,9 @@ would say that
 for you know if I want to like you know
 for you know if I want to like you know
 for you know if I want to like you know
-do an ipo of my company on stellar
-do an ipo of my company on stellar
-do an ipo of my company on stellar
+do an ipo of my company on Stellar
+do an ipo of my company on Stellar
+do an ipo of my company on Stellar
 I'm gonna just basically like put the
 I'm gonna just basically like put the
 I'm gonna just basically like put the
@@ -2820,9 +2820,9 @@ I don't know something curve-like or
 balancer with weights or whatever
 balancer with weights or whatever
 balancer with weights or whatever
-we'd have to you know the stellar
-we'd have to you know the stellar
-we'd have to you know the stellar
+we'd have to you know the Stellar
+we'd have to you know the Stellar
+we'd have to you know the Stellar
 protocol developers you know
 protocol developers you know
 protocol developers you know
@@ -2898,9 +2898,9 @@ still a little bit more
 thinking there that we can sort of do in
 thinking there that we can sort of do in
 thinking there that we can sort of do in
-conversation on the stellar dev list
-conversation on the stellar dev list
-conversation on the stellar dev list
+conversation on the Stellar dev list
+conversation on the Stellar dev list
+conversation on the Stellar dev list
 I I don't want to move on though if
 I I don't want to move on though if
 I I don't want to move on though if
@@ -3639,9 +3639,9 @@ on what they have because what you kind
 of want is like you want like
 of want is like you want like
 of want is like you want like
-you know in the kind of stellar fashion
-you know in the kind of stellar fashion
-you know in the kind of stellar fashion
+you know in the kind of Stellar fashion
+you know in the kind of Stellar fashion
+you know in the kind of Stellar fashion
 of like it's just to everyone's
 of like it's just to everyone's
 of like it's just to everyone's
@@ -3651,9 +3651,9 @@ advantage to do what everybody else is
 doing which is kind of like the whole
 doing which is kind of like the whole
 doing which is kind of like the whole
-philosophy of stellar on some level you
-philosophy of stellar on some level you
-philosophy of stellar on some level you
+philosophy of Stellar on some level you
+philosophy of Stellar on some level you
+philosophy of Stellar on some level you
 kind of
 kind of
 kind of
@@ -4143,9 +4143,9 @@ to think about some of the suggestions
 that were raised
 that were raised
 that were raised
-and deal with them on the stellar debt
-and deal with them on the stellar debt
-and deal with them on the stellar debt
+and deal with them on the Stellar debt
+and deal with them on the Stellar debt
+and deal with them on the Stellar debt
 mailing list
 mailing list
 mailing list
@@ -4206,9 +4206,9 @@ what are the next steps after this
 meeting do we I feel like it is to
 meeting do we I feel like it is to
 meeting do we I feel like it is to
-continue the discussion on stellar death
-continue the discussion on stellar death
-continue the discussion on stellar death
+continue the discussion on Stellar death
+continue the discussion on Stellar death
+continue the discussion on Stellar death
 but are there other follow-up actions
 but are there other follow-up actions
 but are there other follow-up actions
@@ -4455,9 +4455,9 @@ again
 this discussion will continue on the
 this discussion will continue on the
 this discussion will continue on the
-stellar dev google group
-stellar dev google group
-stellar dev google group
+Stellar dev google group
+Stellar dev google group
+Stellar dev google group
 which you can find a link to in
 which you can find a link to in
 which you can find a link to in

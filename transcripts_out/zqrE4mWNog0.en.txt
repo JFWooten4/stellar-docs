@@ -1,8 +1,8 @@
 hello everyone and welcome to this
 hello everyone and welcome to this
-week's Stellar developer meeting a little
-week's Stellar developer meeting a little
-week's Stellar developer meeting a little
+week's Stellar Developer Meeting a little
+week's Stellar Developer Meeting a little
+week's Stellar Developer Meeting a little
 bit earlier than usual but the reason
 bit earlier than usual but the reason
 bit earlier than usual but the reason
@@ -132,9 +132,9 @@ while ago and the the reason is or the
 objective is to make it easier to for
 objective is to make it easier to for
 objective is to make it easier to for
-for new developers to to onboard stellar
-for new developers to to onboard stellar
-for new developers to to onboard stellar
+for new developers to to onboard Stellar
+for new developers to to onboard Stellar
+for new developers to to onboard Stellar
 and to to build to build great Solutions
 and to to build to build great Solutions
 and to to build to build great Solutions
@@ -948,9 +948,9 @@ have one question more from Matias
 what design considerations were made for
 what design considerations were made for
 what design considerations were made for
-the library considering classic sorban
-the library considering classic sorban
-the library considering classic sorban
+the library considering classic Soroban
+the library considering classic Soroban
+the library considering classic Soroban
 and How Stellar classic assets
 work yeah I can I can maybe maybe
 work yeah I can I can maybe maybe
@@ -1470,9 +1470,9 @@ and I think I I'm super excited about
 what what this means for the developer
 what what this means for the developer
 what what this means for the developer
-experience on on on stellar and I
-experience on on on stellar and I
-experience on on on stellar and I
+experience on on on Stellar and I
+experience on on on Stellar and I
+experience on on on Stellar and I
 can't wait to see what people are
 can't wait to see what people are
 can't wait to see what people are

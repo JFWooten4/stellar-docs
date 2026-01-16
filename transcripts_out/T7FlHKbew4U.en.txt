@@ -12,15 +12,15 @@ today about a preset proposal for
 turing-complete smart contracts for
 turing-complete smart contracts for
 turing-complete smart contracts for
-stellar precept simply means that this
-stellar precept simply means that this
-stellar precept simply means that this
+Stellar precept simply means that this
+Stellar precept simply means that this
+Stellar precept simply means that this
 is just some work that I've been doing
 is just some work that I've been doing
 is just some work that I've been doing
-on a stellar ecosystem proposal around
-on a stellar ecosystem proposal around
-on a stellar ecosystem proposal around
+on a Stellar ecosystem proposal around
+on a Stellar ecosystem proposal around
+on a Stellar ecosystem proposal around
 this idea of turing-complete contracts
 this idea of turing-complete contracts
 this idea of turing-complete contracts
@@ -78,9 +78,9 @@ you would accomplish similar sorts of
 things that you could on etherium on on
 things that you could on etherium on on
 things that you could on etherium on on
-stellar and comparing the
-stellar and comparing the
-stellar and comparing the
+Stellar and comparing the
+Stellar and comparing the
+Stellar and comparing the
 functionalities and features that
 functionalities and features that
 functionalities and features that
@@ -90,9 +90,9 @@ aetherium offers with what this Turing
 signing server SEP would allow you to
 signing server SEP would allow you to
 signing server SEP would allow you to
-accomplish on stellar so let's let's
-accomplish on stellar so let's let's
-accomplish on stellar so let's let's
+accomplish on Stellar so let's let's
+accomplish on Stellar so let's let's
+accomplish on Stellar so let's let's
 dive in today's gonna be a bit technical
 dive in today's gonna be a bit technical
 dive in today's gonna be a bit technical
@@ -129,9 +129,9 @@ I very much need in my own development
 and I think would really benefit the
 and I think would really benefit the
 and I think would really benefit the
-stellar community at large all right so
-stellar community at large all right so
-stellar community at large all right so
+Stellar community at large all right so
+Stellar community at large all right so
+Stellar community at large all right so
 the problem is if the room has market
 the problem is if the room has market
 the problem is if the room has market
@@ -177,9 +177,9 @@ are native in aetherium and you'll have
 to kind of custom build that yourself
 to kind of custom build that yourself
 to kind of custom build that yourself
-whereas in stellar they will often be
-whereas in stellar they will often be
-whereas in stellar they will often be
+whereas in Stellar they will often be
+whereas in Stellar they will often be
+whereas in Stellar they will often be
 built in kind of at the base layer so
 built in kind of at the base layer so
 built in kind of at the base layer so
@@ -204,9 +204,9 @@ what you can accomplish in etherium
 trying to allow that same type of
 trying to allow that same type of
 trying to allow that same type of
-functionality in stellar in the in the
-functionality in stellar in the in the
-functionality in stellar in the in the
+functionality in Stellar in the in the
+functionality in Stellar in the in the
+functionality in Stellar in the in the
 financial arena and so the solution
 financial arena and so the solution
 financial arena and so the solution
@@ -222,9 +222,9 @@ concept of smart contracts and seller
 it's kind of using operations and this
 it's kind of using operations and this
 it's kind of using operations and this
-nature of stellar transactions you can
-nature of stellar transactions you can
-nature of stellar transactions you can
+nature of Stellar transactions you can
+nature of Stellar transactions you can
+nature of Stellar transactions you can
 accomplish a lot of different things
 accomplish a lot of different things
 accomplish a lot of different things
@@ -288,18 +288,18 @@ contracts smart contracts as a concept
 is very different than what we tend to
 is very different than what we tend to
 is very different than what we tend to
-talk about when we talk about stellar
-talk about when we talk about stellar
-talk about when we talk about stellar
+talk about when we talk about Stellar
+talk about when we talk about Stellar
+talk about when we talk about Stellar
 smart contracts today so we're gonna be
 smart contracts today so we're gonna be
 smart contracts today so we're gonna be
 moving away from what most of us think
 moving away from what most of us think
 moving away from what most of us think
-of when we think of stellar smart
-of when we think of stellar smart
-of when we think of stellar smart
+of when we think of Stellar smart
+of when we think of Stellar smart
+of when we think of Stellar smart
 contracts and moving much closer to what
 contracts and moving much closer to what
 contracts and moving much closer to what
@@ -405,9 +405,9 @@ logic that you need to to to create some
 sort of output instead you don't have
 sort of output instead you don't have
 sort of output instead you don't have
-that stellar is not turing-complete that
-that stellar is not turing-complete that
-that stellar is not turing-complete that
+that Stellar is not turing-complete that
+that Stellar is not turing-complete that
+that Stellar is not turing-complete that
 allows it to be very fast and flexible
 allows it to be very fast and flexible
 allows it to be very fast and flexible
@@ -474,15 +474,15 @@ instructions and the execution the
 creation in the execution so we have
 creation in the execution so we have
 creation in the execution so we have
-that right in stellar and a theorem you
-that right in stellar and a theorem you
-that right in stellar and a theorem you
+that right in Stellar and a theorem you
+that right in Stellar and a theorem you
+that right in Stellar and a theorem you
 can both create transactions and execute
 can both create transactions and execute
 can both create transactions and execute
-transactions both in stellar and
-transactions both in stellar and
-transactions both in stellar and
+transactions both in Stellar and
+transactions both in Stellar and
+transactions both in Stellar and
 aetherium so what's the big deal how how
 aetherium so what's the big deal how how
 aetherium so what's the big deal how how
@@ -492,9 +492,9 @@ is what's the problem well the problem
 is decentralization
 is decentralization
 is decentralization
-in stellar there is no decentralized
-in stellar there is no decentralized
-in stellar there is no decentralized
+in Stellar there is no decentralized
+in Stellar there is no decentralized
+in Stellar there is no decentralized
 transaction create
 transaction create
 transaction create
@@ -519,9 +519,9 @@ transaction creation and execution both
 happen in that process of arriving at
 happen in that process of arriving at
 happen in that process of arriving at
-consensus whereas in stellar only the
-consensus whereas in stellar only the
-consensus whereas in stellar only the
+consensus whereas in Stellar only the
+consensus whereas in Stellar only the
+consensus whereas in Stellar only the
 execution of the transaction the
 execution of the transaction the
 execution of the transaction the
@@ -579,9 +579,9 @@ way that it is and why some of the
 reasons or ways that it differs from
 reasons or ways that it differs from
 reasons or ways that it differs from
-something like stellar which what I'm
-something like stellar which what I'm
-something like stellar which what I'm
+something like Stellar which what I'm
+something like Stellar which what I'm
+something like Stellar which what I'm
 going to get into that too deeply and I
 going to get into that too deeply and I
 going to get into that too deeply and I
@@ -624,9 +624,9 @@ we will then tag on to the existing
 architecture we already have within
 architecture we already have within
 architecture we already have within
-stellar the decentralized transaction
-stellar the decentralized transaction
-stellar the decentralized transaction
+Stellar the decentralized transaction
+Stellar the decentralized transaction
+Stellar the decentralized transaction
 execution which would give us through
 execution which would give us through
 execution which would give us through
@@ -852,9 +852,9 @@ already today where you have some third
 party that you're wanting to interact
 party that you're wanting to interact
 party that you're wanting to interact
-with with your stellar address whether
-with with your stellar address whether
-with with your stellar address whether
+with with your Stellar address whether
+with with your Stellar address whether
+with with your Stellar address whether
 you're making a payment or you want to
 you're making a payment or you want to
 you're making a payment or you want to
@@ -1002,9 +1002,9 @@ endpoint which when called takes an
 input and then outputs a valid
 input and then outputs a valid
 input and then outputs a valid
-transaction stellar transaction and then
-transaction stellar transaction and then
-transaction stellar transaction and then
+transaction Stellar transaction and then
+transaction Stellar transaction and then
+transaction Stellar transaction and then
 the Turing signing server as you can see
 the Turing signing server as you can see
 the Turing signing server as you can see
@@ -1017,15 +1017,15 @@ those keys are seller keys which
 sign for the transaction that the
 sign for the transaction that the
 sign for the transaction that the
-contract generates and in stellar we
-contract generates and in stellar we
-contract generates and in stellar we
+contract generates and in Stellar we
+contract generates and in Stellar we
+contract generates and in Stellar we
 have this concept the reason this works
 have this concept the reason this works
 have this concept the reason this works
-or is valuable is because in stellar we
-or is valuable is because in stellar we
-or is valuable is because in stellar we
+or is valuable is because in Stellar we
+or is valuable is because in Stellar we
+or is valuable is because in Stellar we
 have the concept of multi-sig where
 have the concept of multi-sig where
 have the concept of multi-sig where
@@ -1521,9 +1521,9 @@ logic appears in the contract not in the
 XDR
 XDR
 XDR
-itself not in the stellar transaction
-itself not in the stellar transaction
-itself not in the stellar transaction
+itself not in the Stellar transaction
+itself not in the Stellar transaction
+itself not in the Stellar transaction
 itself so you can create all kinds of
 itself so you can create all kinds of
 itself so you can create all kinds of
@@ -1641,9 +1641,9 @@ write your contract is your account
 funded all the things that are already
 funded all the things that are already
 funded all the things that are already
-limitations just within stellar versus
-limitations just within stellar versus
-limitations just within stellar versus
+limitations just within Stellar versus
+limitations just within Stellar versus
+limitations just within Stellar versus
 the ethereal model which is once you
 the ethereal model which is once you
 the ethereal model which is once you
@@ -1671,9 +1671,9 @@ those non decentralized back doors open
 so some of the core philosophical design
 so some of the core philosophical design
 so some of the core philosophical design
-differences stellar smart contracts
-differences stellar smart contracts
-differences stellar smart contracts
+differences Stellar smart contracts
+differences Stellar smart contracts
+differences Stellar smart contracts
 nothing unacceptable can happen in a
 nothing unacceptable can happen in a
 nothing unacceptable can happen in a
@@ -1686,9 +1686,9 @@ can happen and there's benefits on both
 sides really depends on what you're
 sides really depends on what you're
 sides really depends on what you're
-trying to build for those stellar smart
-trying to build for those stellar smart
-trying to build for those stellar smart
+trying to build for those Stellar smart
+trying to build for those Stellar smart
+trying to build for those Stellar smart
 contracts because that is just
 contracts because that is just
 contracts because that is just
@@ -1851,9 +1851,9 @@ contract that says when a request comes
 in and it has source and amount we're
 in and it has source and amount we're
 in and it has source and amount we're
-just going to build a stellar
-just going to build a stellar
-just going to build a stellar
+just going to build a Stellar
+just going to build a Stellar
+just going to build a Stellar
 transaction and then spit out the xgr
 transaction and then spit out the xgr
 transaction and then spit out the xgr
@@ -2697,9 +2697,9 @@ recurring revenue model so one of the
 issues right now with recurring revenue
 issues right now with recurring revenue
 issues right now with recurring revenue
-models on stellar is that you have to
-models on stellar is that you have to
-models on stellar is that you have to
+models on Stellar is that you have to
+models on Stellar is that you have to
+models on Stellar is that you have to
 pre sign loads of transactions and kind
 pre sign loads of transactions and kind
 pre sign loads of transactions and kind
@@ -3018,9 +3018,9 @@ signing servers and then beyond that
 it's just the acceptance of it and it
 it's just the acceptance of it and it
 it's just the acceptance of it and it
-becomes a normal part of stellar
-becomes a normal part of stellar
-becomes a normal part of stellar
+becomes a normal part of Stellar
+becomes a normal part of Stellar
+becomes a normal part of Stellar
 development alright so that was long
 development alright so that was long
 development alright so that was long
@@ -3519,9 +3519,9 @@ the seller consensus protocol works
 where you trust the individual nodes
 where you trust the individual nodes
 where you trust the individual nodes
-that are running stellar so this idea of
-that are running stellar so this idea of
-that are running stellar so this idea of
+that are running Stellar so this idea of
+that are running Stellar so this idea of
+that are running Stellar so this idea of
 disinterested but incentivized third
 disinterested but incentivized third
 disinterested but incentivized third
@@ -3630,9 +3630,9 @@ multiples of those you're running sort
 of a it's not a clone but it's similar
 of a it's not a clone but it's similar
 of a it's not a clone but it's similar
-to how stellar works already where SDF
-to how stellar works already where SDF
-to how stellar works already where SDF
+to how Stellar works already where SDF
+to how Stellar works already where SDF
+to how Stellar works already where SDF
 and lobster
 and lobster
 and lobster
@@ -3672,9 +3672,9 @@ and so long as it's valid and it's all
 the same and it's a valid signature it
 the same and it's a valid signature it
 the same and it's a valid signature it
-can be submitted to the stellar network
-can be submitted to the stellar network
-can be submitted to the stellar network
+can be submitted to the Stellar network
+can be submitted to the Stellar network
+can be submitted to the Stellar network
 how would you see this use for
 how would you see this use for
 how would you see this use for

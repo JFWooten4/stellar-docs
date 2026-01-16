@@ -3,12 +3,12 @@ all right hi everyone my name is Marta
 and I'm a software engineer on the
 and I'm a software engineer on the
 and I'm a software engineer on the
-stellar core team and today I'm here to
-stellar core team and today I'm here to
-stellar core team and today I'm here to
-talk to you about the stellar consensus
-talk to you about the stellar consensus
-talk to you about the stellar consensus
+Stellar core team and today I'm here to
+Stellar core team and today I'm here to
+Stellar core team and today I'm here to
+talk to you about the Stellar consensus
+talk to you about the Stellar consensus
+talk to you about the Stellar consensus
 protocol
 we're briefly going to go over the
 we're briefly going to go over the
@@ -36,9 +36,9 @@ context of the Style Network we will
 talk a little bit about statements which
 talk a little bit about statements which
 talk a little bit about statements which
-are the building blocks of the stellar
-are the building blocks of the stellar
-are the building blocks of the stellar
+are the building blocks of the Stellar
+are the building blocks of the Stellar
+are the building blocks of the Stellar
 consensus protocol and then we will see
 consensus protocol and then we will see
 consensus protocol and then we will see
@@ -54,9 +54,9 @@ demo for federated voting to see kind of
 how it all plays out and then finally
 how it all plays out and then finally
 how it all plays out and then finally
-the two steps of the stellar consensus
-the two steps of the stellar consensus
-the two steps of the stellar consensus
+the two steps of the Stellar consensus
+the two steps of the Stellar consensus
+the two steps of the Stellar consensus
 protocol which are nomination protocol
 protocol which are nomination protocol
 protocol which are nomination protocol
@@ -252,9 +252,9 @@ quorum and then altogether ABC and D is
 a quorum another very crucial definition
 a quorum another very crucial definition
 a quorum another very crucial definition
-on the stellar network is notion of
-on the stellar network is notion of
-on the stellar network is notion of
+on the Stellar network is notion of
+on the Stellar network is notion of
+on the Stellar network is notion of
 nodes blocking sets any set of nodes in
 nodes blocking sets any set of nodes in
 nodes blocking sets any set of nodes in
@@ -381,9 +381,9 @@ all right moving on to statements what
 is a statement so statement is the
 is a statement so statement is the
 is a statement so statement is the
-smallest building block of the stellar
-smallest building block of the stellar
-smallest building block of the stellar
+smallest building block of the Stellar
+smallest building block of the Stellar
+smallest building block of the Stellar
 consensus protocol it's basically
 consensus protocol it's basically
 consensus protocol it's basically
@@ -903,12 +903,12 @@ great so now that we covered statements
 and federal voting let's actually see
 and federal voting let's actually see
 and federal voting let's actually see
-how those are applied to the stellar
-how those are applied to the stellar
-how those are applied to the stellar
+how those are applied to the Stellar
+how those are applied to the Stellar
+how those are applied to the Stellar
 consensus protocol
-so stellar consensus protocol is a
-so stellar consensus protocol is a
+so Stellar consensus protocol is a
+so Stellar consensus protocol is a
 two-phase protocol that uses federated
 two-phase protocol that uses federated
 two-phase protocol that uses federated
@@ -918,15 +918,15 @@ voting to vote on statements and the
 voting is on statements and statements
 voting is on statements and statements
 voting is on statements and statements
-contain values so for the stellar
-contain values so for the stellar
-contain values so for the stellar
+contain values so for the Stellar
+contain values so for the Stellar
+contain values so for the Stellar
 Network the values are transaction sets
 Network the values are transaction sets
 Network the values are transaction sets
-the first step of the stellar consensus
-the first step of the stellar consensus
-the first step of the stellar consensus
+the first step of the Stellar consensus
+the first step of the Stellar consensus
+the first step of the Stellar consensus
 protocol is the nomination protocol
 protocol is the nomination protocol
 protocol is the nomination protocol
@@ -963,9 +963,9 @@ values all right time for another
 diagram here so we can think of the
 diagram here so we can think of the
 diagram here so we can think of the
-stellar consensus protocol as the funnel
-stellar consensus protocol as the funnel
-stellar consensus protocol as the funnel
+Stellar consensus protocol as the funnel
+Stellar consensus protocol as the funnel
+Stellar consensus protocol as the funnel
 so the very beginning a node doesn't
 so the very beginning a node doesn't
 so the very beginning a node doesn't
@@ -1186,8 +1186,8 @@ that point we can start the ballot
 that point we can start the ballot
 that point we can start the ballot
 protocol on that value
-so in the stellar network nodes select
-so in the stellar network nodes select
+so in the Stellar network nodes select
+so in the Stellar network nodes select
 the biggest transaction set as the
 the biggest transaction set as the
 the biggest transaction set as the
@@ -1431,9 +1431,9 @@ confirmed all right
 so this was sort of a very brief
 so this was sort of a very brief
 so this was sort of a very brief
-discussion of the stellar consensus
-discussion of the stellar consensus
-discussion of the stellar consensus
+discussion of the Stellar consensus
+discussion of the Stellar consensus
+discussion of the Stellar consensus
 protocol I also encourage you to check
 protocol I also encourage you to check
 protocol I also encourage you to check
@@ -1557,9 +1557,9 @@ threshold but yes short answer you you
 get a choice when you configure your
 get a choice when you configure your
 get a choice when you configure your
-stellar core node you may configure your
-stellar core node you may configure your
-stellar core node you may configure your
+Stellar core node you may configure your
+Stellar core node you may configure your
+Stellar core node you may configure your
 quorum sets however you want and select
 quorum sets however you want and select
 quorum sets however you want and select
@@ -1572,9 +1572,9 @@ generally recommend using the automatic
 automatic quorum generation mechanism
 automatic quorum generation mechanism
 automatic quorum generation mechanism
-that we have built into stellar core
-that we have built into stellar core
-that we have built into stellar core
+that we have built into Stellar core
+that we have built into Stellar core
+that we have built into Stellar core
 because it accounts for that 67% and it
 because it accounts for that 67% and it
 because it accounts for that 67% and it

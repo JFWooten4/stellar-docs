@@ -1,5 +1,5 @@
- hey everyone welcome to the stellar
-hey everyone welcome to the stellar
+ hey everyone welcome to the Stellar
+hey everyone welcome to the Stellar
 protocol discussion for may 12 2022.
 protocol discussion for may 12 2022.
 protocol discussion for may 12 2022.
@@ -9,9 +9,9 @@ in these meetings we discuss and plan
 for upcoming changes to versions of the
 for upcoming changes to versions of the
 for upcoming changes to versions of the
-stellar protocol
-stellar protocol
-stellar protocol
+Stellar protocol
+Stellar protocol
+Stellar protocol
 changes that are necessary to evolve the
 changes that are necessary to evolve the
 changes that are necessary to evolve the
@@ -24,9 +24,9 @@ just real quick a word on on venue
 you know last week we tried having
 you know last week we tried having
 you know last week we tried having
-this discussion in the stellar developer
-this discussion in the stellar developer
-this discussion in the stellar developer
+this discussion in the Stellar developer
+this discussion in the Stellar developer
+this discussion in the Stellar developer
 discord and there were some technical
 discord and there were some technical
 discord and there were some technical
@@ -78,9 +78,9 @@ the an announcement that we made
 earlier this year that we are working to
 earlier this year that we are working to
 earlier this year that we are working to
-bring smart contracts to stellar and
-bring smart contracts to stellar and
-bring smart contracts to stellar and
+bring smart contracts to Stellar and
+bring smart contracts to Stellar and
+bring smart contracts to Stellar and
 as part of that there are protocol
 as part of that there are protocol
 as part of that there are protocol
@@ -129,21 +129,21 @@ to discuss
 and to the discussions that exist on the
 and to the discussions that exist on the
 and to the discussions that exist on the
-stellar dev mailing list which is where
-stellar dev mailing list which is where
-stellar dev mailing list which is where
+Stellar dev mailing list which is where
+Stellar dev mailing list which is where
+Stellar dev mailing list which is where
 sort of long form
 sort of long form
 sort of long form
 question and answers happen in addition
 question and answers happen in addition
 question and answers happen in addition
-to the stellar debt mailing list there's
-to the stellar debt mailing list there's
-to the stellar debt mailing list there's
-also the stellar dev discord and there's
-also the stellar dev discord and there's
-also the stellar dev discord and there's
+to the Stellar debt mailing list there's
+to the Stellar debt mailing list there's
+to the Stellar debt mailing list there's
+also the Stellar dev discord and there's
+also the Stellar dev discord and there's
+also the Stellar dev discord and there's
 a jump cannon and a jump can and dev
 a jump cannon and a jump can and dev
 a jump cannon and a jump can and dev
@@ -2019,9 +2019,9 @@ going to
 support interoperability with these
 support interoperability with these
 support interoperability with these
-features of stellar assets
-features of stellar assets
-features of stellar assets
+features of Stellar assets
+features of Stellar assets
+features of Stellar assets
 
 right so I think what it comes down to i
 right so I think what it comes down to i
@@ -3447,9 +3447,9 @@ example like consider like a usda usdb
 liquidity pool right
 liquidity pool right
 liquidity pool right
-what does a clawback on stellar do well
-what does a clawback on stellar do well
-what does a clawback on stellar do well
+what does a clawback on Stellar do well
+what does a clawback on Stellar do well
+what does a clawback on Stellar do well
 it returns both assets well what if the
 it returns both assets well what if the
 it returns both assets well what if the
