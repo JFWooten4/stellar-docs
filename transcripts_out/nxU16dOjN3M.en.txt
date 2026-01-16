@@ -114,9 +114,9 @@ components that were involved in the
 making of this and of course the first
 making of this and of course the first
 making of this and of course the first
-of all is the open zeppelin reer so I'm
-of all is the open zeppelin reer so I'm
-of all is the open zeppelin reer so I'm
+of all is the OpenZeppelin reer so I'm
+of all is the OpenZeppelin reer so I'm
+of all is the OpenZeppelin reer so I'm
 just going to go through like a few of
 just going to go through like a few of
 just going to go through like a few of
@@ -135,9 +135,9 @@ you've already spoken about like the
 relayer service but just to go over
 relayer service but just to go over
 relayer service but just to go over
-quickly again the open zeppelin
-quickly again the open zeppelin
-quickly again the open zeppelin
+quickly again the OpenZeppelin
+quickly again the OpenZeppelin
+quickly again the OpenZeppelin
 relayer is an open source tool and it it
 relayer is an open source tool and it it
 relayer is an open source tool and it it
@@ -210,9 +210,9 @@ smart contract functionality. So it
 allows users to deploy contracts through
 allows users to deploy contracts through
 allows users to deploy contracts through
-the open zeppelin relayer. They can
-the open zeppelin relayer. They can
-the open zeppelin relayer. They can
+the OpenZeppelin relayer. They can
+the OpenZeppelin relayer. They can
+the OpenZeppelin relayer. They can
 invoke contracts then standard
 invoke contracts then standard
 invoke contracts then standard
@@ -294,9 +294,9 @@ transactions, signing transactions,
 querying state, etc. And you would still
 querying state, etc. And you would still
 querying state, etc. And you would still
-communicate to the to the open zeppelin
-communicate to the to the open zeppelin
-communicate to the to the open zeppelin
+communicate to the to the OpenZeppelin
+communicate to the to the OpenZeppelin
+communicate to the to the OpenZeppelin
 relayer through the the rest API, but
 relayer through the the rest API, but
 relayer through the the rest API, but
@@ -831,9 +831,9 @@ documentation we actually have all of
 this listed out and we provided in
 this listed out and we provided in
 this listed out and we provided in
-the open zeppelin repo open zeppelin
-the open zeppelin repo open zeppelin
-the open zeppelin repo open zeppelin
+the OpenZeppelin repo OpenZeppelin
+the OpenZeppelin repo OpenZeppelin
+the OpenZeppelin repo OpenZeppelin
 relay repo an example configuration
 relay repo an example configuration
 relay repo an example configuration
@@ -858,9 +858,9 @@ everything's ready to go like all you
 need to do is start sending requests to
 need to do is start sending requests to
 need to do is start sending requests to
-it. but the open zeppelin
-it. but the open zeppelin
-it. but the open zeppelin
+it. but the OpenZeppelin
+it. but the OpenZeppelin
+it. but the OpenZeppelin
 real air like reddus is required of
 real air like reddus is required of
 real air like reddus is required of

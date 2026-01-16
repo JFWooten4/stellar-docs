@@ -69,9 +69,9 @@ the goal is to improve the developer
 experience on on Stellar why why is that
 experience on on Stellar why why is that
 experience on on Stellar why why is that
-the reason is that open zeppin is of
-the reason is that open zeppin is of
-the reason is that open zeppin is of
+the reason is that OpenZeppelin is of
+the reason is that OpenZeppelin is of
+the reason is that OpenZeppelin is of
 course known for being a security
 course known for being a security
 course known for being a security

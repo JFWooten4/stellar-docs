@@ -972,9 +972,9 @@ smart contracts can upgradeable up
 upgraded themselves and is contributed
 upgraded themselves and is contributed
 upgraded themselves and is contributed
-by open zeppelin. They've been doing a
-by open zeppelin. They've been doing a
-by open zeppelin. They've been doing a
+by OpenZeppelin. They've been doing a
+by OpenZeppelin. They've been doing a
+by OpenZeppelin. They've been doing a
 lot of great work for us shipping
 lot of great work for us shipping
 lot of great work for us shipping
@@ -1050,9 +1050,9 @@ you probably would want contract up
 upgradability. So in order to do that
 upgradability. So in order to do that
 upgradability. So in order to do that
-we were working with open zeppelin and
-we were working with open zeppelin and
-we were working with open zeppelin and
+we were working with OpenZeppelin and
+we were working with OpenZeppelin and
+we were working with OpenZeppelin and
 we published the sap and Carson could
 we published the sap and Carson could
 we published the sap and Carson could
@@ -1161,9 +1161,9 @@ the open
 zeppelin s source code at github.com
 zeppelin s source code at github.com
 zeppelin s source code at github.com
-open zeppelin contract
-open zeppelin contract
-open zeppelin contract
+OpenZeppelin contract
+OpenZeppelin contract
+OpenZeppelin contract
 utils
 utils
 utils

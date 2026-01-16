@@ -572,7 +572,7 @@ so you wouldn't have to do stuff like
 deploy your own erc20 contract which you
 know in the ethereum ecosystem everyone
 just goes and like copy copy paste
-you know the open zeppelin erc20
+you know the OpenZeppelin erc20
 contract and a lot of other contracts as
 well
 so there's a lot of small things where

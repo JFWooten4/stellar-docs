@@ -864,9 +864,9 @@ tooling built around that being built
 around that by folks like if you go
 around that by folks like if you go
 around that by folks like if you go
-and have a look at like the open zeppin
-and have a look at like the open zeppin
-and have a look at like the open zeppin
+and have a look at like the OpenZeppelin
+and have a look at like the OpenZeppelin
+and have a look at like the OpenZeppelin
 contracts and stuff so there's like
 contracts and stuff so there's like
 contracts and stuff so there's like

@@ -1123,7 +1123,7 @@ you can write your own contract everyone
 just
 you know copy paste the the or imports
 the
-the open zeppelin one
+the OpenZeppelin one
 you know solana has like the spl
 other ecosystems have like their
 baked in contracts for for assets

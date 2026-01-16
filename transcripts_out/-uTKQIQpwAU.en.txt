@@ -63,9 +63,9 @@ to be with you all here today. So
 again, my name is Steve. I am doing
 again, my name is Steve. I am doing
 again, my name is Steve. I am doing
-developer relations with open zeppelin
-developer relations with open zeppelin
-developer relations with open zeppelin
+developer relations with OpenZeppelin
+developer relations with OpenZeppelin
+developer relations with OpenZeppelin
 and so I handle a lot of things anywhere
 and so I handle a lot of things anywhere
 and so I handle a lot of things anywhere
@@ -426,9 +426,9 @@ customize that and choose which one you
 like. I'll just go ahead and switch to
 like. I'll just go ahead and switch to
 like. I'll just go ahead and switch to
-open zeppelins. And once we have
-open zeppelins. And once we have
-open zeppelins. And once we have
+OpenZeppelin. And once we have
+OpenZeppelin. And once we have
+OpenZeppelin. And once we have
 everything ready, , I can either just
 everything ready, , I can either just
 everything ready, , I can either just

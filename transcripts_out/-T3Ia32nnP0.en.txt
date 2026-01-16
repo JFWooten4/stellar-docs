@@ -54,9 +54,9 @@ at the Stellar Developer Meeting. my
 name is Buan. I'm open source developer
 name is Buan. I'm open source developer
 name is Buan. I'm open source developer
-at at open zeppelin. , and I'm
-at at open zeppelin. , and I'm
-at at open zeppelin. , and I'm
+at at OpenZeppelin. , and I'm
+at at OpenZeppelin. , and I'm
+at at OpenZeppelin. , and I'm
 building the Stellar contracts library.
 building the Stellar contracts library.
 building the Stellar contracts library.
@@ -1056,9 +1056,9 @@ And from this moment on the DAP
 developer for example they can use
 developer for example they can use
 developer for example they can use
-the open zeppelin monitors to subscribe
-the open zeppelin monitors to subscribe
-the open zeppelin monitors to subscribe
+the OpenZeppelin monitors to subscribe
+the OpenZeppelin monitors to subscribe
+the OpenZeppelin monitors to subscribe
 to the install event on this policy
 to the install event on this policy
 to the install event on this policy
