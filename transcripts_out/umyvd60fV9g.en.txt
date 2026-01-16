@@ -1,5 +1,5 @@
-justin rice i'm the vp of the ecosystem
-justin rice i'm the vp of the ecosystem
+justin rice I'm the vp of the ecosystem
+justin rice I'm the vp of the ecosystem
 at the stellar development foundation
 at the stellar development foundation
 at the stellar development foundation
@@ -30,12 +30,12 @@ increase equitable access to the world's
 financial infrastructure
 financial infrastructure
 financial infrastructure
-marta hello and yeah i'm martha lakova
-marta hello and yeah i'm martha lakova
-marta hello and yeah i'm martha lakova
-i'm a software engineer on the stellar
-i'm a software engineer on the stellar
-i'm a software engineer on the stellar
+marta hello and yeah I'm martha lakova
+marta hello and yeah I'm martha lakova
+marta hello and yeah I'm martha lakova
+I'm a software engineer on the stellar
+I'm a software engineer on the stellar
+I'm a software engineer on the stellar
 core team
 core team
 core team
@@ -63,9 +63,9 @@ explanation of stellar and of the
 blockchain technology that powers it
 blockchain technology that powers it
 blockchain technology that powers it
-we're going to talk for a while i'm
-we're going to talk for a while i'm
-we're going to talk for a while i'm
+we're going to talk for a while I'm
+we're going to talk for a while I'm
+we're going to talk for a while I'm
 going to talk for a while hand it to
 going to talk for a while hand it to
 going to talk for a while hand it to
@@ -537,9 +537,9 @@ transaction sets come together and get
 finalized anyway to answer those
 finalized anyway to answer those
 finalized anyway to answer those
-questions i'm going to pass the mic to
-questions i'm going to pass the mic to
-questions i'm going to pass the mic to
+questions I'm going to pass the mic to
+questions I'm going to pass the mic to
+questions I'm going to pass the mic to
 marta who's going to dig in and explain
 marta who's going to dig in and explain
 marta who's going to dig in and explain
@@ -1860,9 +1860,9 @@ liveness to prevent forks
 and I know I just said a bunch of things
 and I know I just said a bunch of things
 and I know I just said a bunch of things
-i'm going to stop here and see if there
-i'm going to stop here and see if there
-i'm going to stop here and see if there
+I'm going to stop here and see if there
+I'm going to stop here and see if there
+I'm going to stop here and see if there
 are any questions before giving back to
 are any questions before giving back to
 are any questions before giving back to
@@ -1873,17 +1873,17 @@ protocols about the stellar consensus
 protocols about the stellar consensus
 protocols about the stellar consensus
 protocol
-i'm always thinking that
-i'm always thinking that
-i trip over federated byzantine
-i trip over federated byzantine
-i trip over federated byzantine
-agreement system sometime and i'm like
-agreement system sometime and i'm like
-agreement system sometime and i'm like
+I'm always thinking that
+I'm always thinking that
+I trip over federated byzantine
+I trip over federated byzantine
+I trip over federated byzantine
+agreement system sometime and I'm like
+agreement system sometime and I'm like
+agreement system sometime and I'm like
 oh we should
-i want to call proof of vote or
-i want to call proof of vote or
+I want to call proof of vote or
+I want to call proof of vote or
 something
 something
 something
@@ -1929,9 +1929,9 @@ faster on like stellar like why would
 anyone choose to value liveliness
 anyone choose to value liveliness
 anyone choose to value liveliness
-i I think it's just that those
-i I think it's just that those
-i I think it's just that those
+I I think it's just that those
+I I think it's just that those
+I I think it's just that those
 consensus protocols are like completely
 consensus protocols are like completely
 consensus protocols are like completely
@@ -1989,7 +1989,7 @@ have like a partial view
 of the network at the time so
 of the network at the time so
 of the network at the time so
-i i'm not sure that
+I I'm not sure that
 well you know one thing I sometimes
 well you know one thing I sometimes
 think about with stellar is like the
@@ -2067,9 +2067,9 @@ like anonymous
 
 
 
-i don't even know if that would be
-i don't even know if that would be
-i don't even know if that would be
+I don't even know if that would be
+I don't even know if that would be
+I don't even know if that would be
 possible
 yeah and I think like because stellar
 yeah and I think like because stellar
@@ -2112,9 +2112,9 @@ payments for cross-border payments
 and like assets
 thank you marta that was awesome all
 thank you marta that was awesome all
-right i'm going
-okay i'm picking it up and i'm talking
-okay i'm picking it up and i'm talking
+right I'm going
+okay I'm picking it up and I'm talking
+okay I'm picking it up and I'm talking
 about open source contribution so
 about open source contribution so
 about open source contribution so
@@ -2220,9 +2220,9 @@ so here's a question if you have this
 code base and it's evolving and no one
 code base and it's evolving and no one
 code base and it's evolving and no one
-owns it well how does it evolve and i'm
-owns it well how does it evolve and i'm
-owns it well how does it evolve and i'm
+owns it well how does it evolve and I'm
+owns it well how does it evolve and I'm
+owns it well how does it evolve and I'm
 going to talk about that quickly two
 going to talk about that quickly two
 going to talk about that quickly two
@@ -2325,9 +2325,9 @@ just added automated market making
 functionality to stellar core cap 38.
 functionality to stellar core cap 38.
 functionality to stellar core cap 38.
-i'm not gonna get into it right now but
-i'm not gonna get into it right now but
-i'm not gonna get into it right now but
+I'm not gonna get into it right now but
+I'm not gonna get into it right now but
+I'm not gonna get into it right now but
 it was super cool
 it was super cool
 it was super cool
@@ -2460,9 +2460,9 @@ again they also follow a a a life cycle
 from draft to final
 from draft to final
 from draft to final
-i'm going to give you an example so this
-i'm going to give you an example so this
-i'm going to give you an example so this
+I'm going to give you an example so this
+I'm going to give you an example so this
+I'm going to give you an example so this
 is less abstract step 31 is a standard
 is less abstract step 31 is a standard
 is less abstract step 31 is a standard
@@ -2757,9 +2757,9 @@ to make the payment this might seem
 weird but you'll see what it looks like
 weird but you'll see what it looks like
 weird but you'll see what it looks like
-in action and so i'm going to now
-in action and so i'm going to now
-in action and so i'm going to now
+in action and so I'm going to now
+in action and so I'm going to now
+in action and so I'm going to now
 open stellar laboratory let's see
 open stellar laboratory let's see
 open stellar laboratory let's see
@@ -2772,9 +2772,9 @@ okay this is stellar laboratory and as
 you can see it's on the test network
 you can see it's on the test network
 you can see it's on the test network
-i first want to create two
-i first want to create two
-i first want to create two
+I first want to create two
+I first want to create two
+I first want to create two
 new
 new
 new
@@ -2811,9 +2811,9 @@ get test network lumens now this account
 has its minimum balance that is my
 has its minimum balance that is my
 has its minimum balance that is my
-issuing account i'm generating a second
-issuing account i'm generating a second
-issuing account i'm generating a second
+issuing account I'm generating a second
+issuing account I'm generating a second
+issuing account I'm generating a second
 account this would be the distribution
 account this would be the distribution
 account this would be the distribution
@@ -2872,14 +2872,14 @@ that second account that we created
 that second account that we created
 that second account that we created
 which is the distribution account
-i'm adding it here I say fetch the next
-i'm adding it here I say fetch the next
+I'm adding it here I say fetch the next
+I'm adding it here I say fetch the next
 sequence number I set the fee
 sequence number I set the fee
 sequence number I set the fee
-i'm not going to worry about time
-i'm not going to worry about time
-i'm not going to worry about time
+I'm not going to worry about time
+I'm not going to worry about time
+I'm not going to worry about time
 balance but this is me constructing a
 balance but this is me constructing a
 balance but this is me constructing a
@@ -2889,9 +2889,9 @@ transaction and the operation type is
 going to be change trust
 going to be change trust
 going to be change trust
-so to change trust i'm going to
-so to change trust i'm going to
-so to change trust i'm going to
+so to change trust I'm going to
+so to change trust I'm going to
+so to change trust I'm going to
 basically
 basically
 basically
@@ -2901,27 +2901,27 @@ believe in an asset that exists called
 you shy that is actually issued by the
 you shy that is actually issued by the
 you shy that is actually issued by the
-issuing account so again what i'm doing
-issuing account so again what i'm doing
-issuing account so again what i'm doing
+issuing account so again what I'm doing
+issuing account so again what I'm doing
+issuing account so again what I'm doing
 here is with the distribution account
 here is with the distribution account
 here is with the distribution account
-i'm trusting the issuer account for an
-i'm trusting the issuer account for an
-i'm trusting the issuer account for an
-asset called you shy i'm basically
-asset called you shy i'm basically
-asset called you shy i'm basically
+I'm trusting the issuer account for an
+I'm trusting the issuer account for an
+I'm trusting the issuer account for an
+asset called you shy I'm basically
+asset called you shy I'm basically
+asset called you shy I'm basically
 going to see that I have generated the
 going to see that I have generated the
 going to see that I have generated the
 right transaction envelope
 right transaction envelope
 right transaction envelope
-and i'm going to sign this in the
-and i'm going to sign this in the
-and i'm going to sign this in the
+and I'm going to sign this in the
+and I'm going to sign this in the
+and I'm going to sign this in the
 transaction signer
 transaction signer
 transaction signer
@@ -2949,9 +2949,9 @@ the transaction is complete again this
 interface you can use to sort of create
 interface you can use to sort of create
 interface you can use to sort of create
-any kind of transaction i'm going to do
-any kind of transaction i'm going to do
-any kind of transaction i'm going to do
+any kind of transaction I'm going to do
+any kind of transaction I'm going to do
+any kind of transaction I'm going to do
 one more transaction really quickly
 one more transaction really quickly
 one more transaction really quickly
@@ -2961,33 +2961,33 @@ which is basically with the issuing
 account
 account
 account
-i'm going to make a payment
-i'm going to make a payment
-i'm going to make a payment
-so i'm putting in the issuing account
-so i'm putting in the issuing account
-so i'm putting in the issuing account
-now i'm fetching the next sequence
-now i'm fetching the next sequence
-now i'm fetching the next sequence
+I'm going to make a payment
+I'm going to make a payment
+I'm going to make a payment
+so I'm putting in the issuing account
+so I'm putting in the issuing account
+so I'm putting in the issuing account
+now I'm fetching the next sequence
+now I'm fetching the next sequence
+now I'm fetching the next sequence
 number
 number
 number
-i'm going to create a payment operation
-i'm going to create a payment operation
-i'm going to create a payment operation
+I'm going to create a payment operation
+I'm going to create a payment operation
+I'm going to create a payment operation
 this always makes me nervous
 this always makes me nervous
 this always makes me nervous
-and i'm going to send it to that
-and i'm going to send it to that
-and i'm going to send it to that
+and I'm going to send it to that
+and I'm going to send it to that
+and I'm going to send it to that
 distribution account
 distribution account
 distribution account
 here is a distribution account
-i'm going to send I don't know 13 13 13.
-i'm going to send I don't know 13 13 13.
+I'm going to send I don't know 13 13 13.
+I'm going to send I don't know 13 13 13.
 not many
 not many
 not many
@@ -3003,15 +3003,15 @@ account
 so again this all feels a bit strange
 so again this all feels a bit strange
 so again this all feels a bit strange
-but i'm going to wrap it all together so
-but i'm going to wrap it all together so
-but i'm going to wrap it all together so
+but I'm going to wrap it all together so
+but I'm going to wrap it all together so
+but I'm going to wrap it all together so
 nicely in the end
 nicely in the end
 nicely in the end
 and once I sign it
-i can submit the transaction let's hope
-i can submit the transaction let's hope
+I can submit the transaction let's hope
+I can submit the transaction let's hope
 it works
 it works
 it works
@@ -3075,9 +3075,9 @@ final thing as I mentioned horizon is an
 endpoint
 endpoint
 endpoint
-i mean is that api that has different
-i mean is that api that has different
-i mean is that api that has different
+I mean is that api that has different
+I mean is that api that has different
+I mean is that api that has different
 endpoints and this
 endpoints and this
 endpoints and this
@@ -3108,9 +3108,9 @@ created
 oops
 oops
 oops
-so i'm going to put it here
-so i'm going to put it here
-so i'm going to put it here
+so I'm going to put it here
+so I'm going to put it here
+so I'm going to put it here
 and you will see that in fact if i
 and you will see that in fact if i
 and you will see that in fact if i
@@ -3150,9 +3150,9 @@ that payment all that issuance was
 actually done on multiple nodes and now
 actually done on multiple nodes and now
 actually done on multiple nodes and now
-i'm going to open just like a totally
-i'm going to open just like a totally
-i'm going to open just like a totally
+I'm going to open just like a totally
+I'm going to open just like a totally
+I'm going to open just like a totally
 different thing this
 different thing this
 different thing this
@@ -3177,18 +3177,18 @@ right and this is basically a way to
 view actions on the stellar network and
 view actions on the stellar network and
 view actions on the stellar network and
-i can it's set up to view the test
-i can it's set up to view the test
-i can it's set up to view the test
+I can it's set up to view the test
+I can it's set up to view the test
+I can it's set up to view the test
 network so I can actually go to a
 network so I can actually go to a
 network so I can actually go to a
 totally different third-party interface
 totally different third-party interface
 totally different third-party interface
-i can look up the key right and I can
-i can look up the key right and I can
-i can look up the key right and I can
+I can look up the key right and I can
+I can look up the key right and I can
+I can look up the key right and I can
 see that oh look there is
 see that oh look there is
 see that oh look there is
@@ -3306,9 +3306,9 @@ wants to build on stellar you can get
 started immediately
 started immediately
 started immediately
-i guess the final thing that I do want
-i guess the final thing that I do want
-i guess the final thing that I do want
+I guess the final thing that I do want
+I guess the final thing that I do want
+I guess the final thing that I do want
 to say oh no there's way more
 to say oh no there's way more
 to say oh no there's way more
@@ -3324,9 +3324,9 @@ learning more about stellar and doing
 some hands-on stuff with that laboratory
 some hands-on stuff with that laboratory
 some hands-on stuff with that laboratory
-i would suggest that you go to
-i would suggest that you go to
-i would suggest that you go to
+I would suggest that you go to
+I would suggest that you go to
+I would suggest that you go to
 quest.stellar.org
 quest.stellar.org
 quest.stellar.org

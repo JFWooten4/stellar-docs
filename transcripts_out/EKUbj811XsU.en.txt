@@ -9,9 +9,9 @@ discussion
 so for those of you watching at home
 so for those of you watching at home
 so for those of you watching at home
-i just want to give a quick overview
-i just want to give a quick overview
-i just want to give a quick overview
+I just want to give a quick overview
+I just want to give a quick overview
+I just want to give a quick overview
 the goal of these meetings is to talk
 the goal of these meetings is to talk
 the goal of these meetings is to talk
@@ -171,9 +171,9 @@ one this is a technical discussion very
 technical so if you want to follow along
 technical so if you want to follow along
 technical so if you want to follow along
-i suggest that you read the caps and the
-i suggest that you read the caps and the
-i suggest that you read the caps and the
+I suggest that you read the caps and the
+I suggest that you read the caps and the
+I suggest that you read the caps and the
 recent developer mailing list threads
 recent developer mailing list threads
 recent developer mailing list threads
@@ -460,8 +460,8 @@ right that's a pretty good explanation
 right that's a pretty good explanation
 right that's a pretty good explanation
 of it yeah
-i mean I think like I mean that's a
-i mean I think like I mean that's a
+I mean I think like I mean that's a
+I mean I think like I mean that's a
 reasonable explanation
 reasonable explanation
 reasonable explanation
@@ -475,8 +475,8 @@ wanted to like increase it but that does
 wanted to like increase it but that does
 wanted to like increase it but that does
 seem reasonable
-i mean if that's the case maybe we're
-i mean if that's the case maybe we're
+I mean if that's the case maybe we're
+I mean if that's the case maybe we're
 done talking about reserve requirements
 done talking about reserve requirements
 done talking about reserve requirements
@@ -495,9 +495,9 @@ just to warm up so if that one's that
 easy and we can move on
 easy and we can move on
 easy and we can move on
-i guess like maybe so the reason i
-i guess like maybe so the reason i
-i guess like maybe so the reason i
+I guess like maybe so the reason i
+I guess like maybe so the reason i
+I guess like maybe so the reason i
 added that question in the first place
 added that question in the first place
 added that question in the first place
@@ -513,9 +513,9 @@ like like they are
 potentially very large
 potentially very large
 potentially very large
-i mean the the
-i mean the the
-i mean the the
+I mean the the
+I mean the the
+I mean the the
 pool basically to describe it you need
 pool basically to describe it you need
 pool basically to describe it you need
@@ -558,9 +558,9 @@ talking about now
 for example I think in the
 for example I think in the
 for example I think in the
-i think compound type of world they
-i think compound type of world they
-i think compound type of world they
+I think compound type of world they
+I think compound type of world they
+I think compound type of world they
 have like multi assets
 have like multi assets
 have like multi assets
@@ -582,9 +582,9 @@ yeah now you have like those bitmaps
 that are in there as well
 that are in there as well
 that are in there as well
-i mean like the the cost of that becomes
-i mean like the the cost of that becomes
-i mean like the the cost of that becomes
+I mean like the the cost of that becomes
+I mean like the the cost of that becomes
+I mean like the the cost of that becomes
 much larger so I don't know
 much larger so I don't know
 much larger so I don't know
@@ -648,9 +648,9 @@ something I mean kind of equivalent
 right like as part of this
 right like as part of this
 right like as part of this
-i mean the thing is like there shouldn't
-i mean the thing is like there shouldn't
-i mean the thing is like there shouldn't
+I mean the thing is like there shouldn't
+I mean the thing is like there shouldn't
+I mean the thing is like there shouldn't
 be like a gazillion of these things
 be like a gazillion of these things
 be like a gazillion of these things
@@ -660,9 +660,9 @@ right
 so if it turns out that you know I mean
 so if it turns out that you know I mean
 so if it turns out that you know I mean
-i can imagine
-i can imagine
-i can imagine
+I can imagine
+I can imagine
+I can imagine
 going forward that it turns out that
 going forward that it turns out that
 going forward that it turns out that
@@ -747,9 +747,9 @@ it's supposed to be automatically
 removed
 removed
 removed
-i'm just wondering if there's some kind
-i'm just wondering if there's some kind
-i'm just wondering if there's some kind
+I'm just wondering if there's some kind
+I'm just wondering if there's some kind
+I'm just wondering if there's some kind
 of spammy edge case where
 of spammy edge case where
 of spammy edge case where
@@ -760,8 +760,8 @@ quickly to get some kind of
 quickly to get some kind of
 quickly to get some kind of
 ephemeral pull advantage
-i mean I guess it could but like the
-i mean I guess it could but like the
+I mean I guess it could but like the
+I mean I guess it could but like the
 nature of the pool it's not really
 nature of the pool it's not really
 nature of the pool it's not really
@@ -786,9 +786,9 @@ it's hard to see how you could get value
 from that
 from that
 from that
-i do think that like nikola has a good
-i do think that like nikola has a good
-i do think that like nikola has a good
+I do think that like nikola has a good
+I do think that like nikola has a good
+I do think that like nikola has a good
 point about the
 point about the
 point about the
@@ -810,9 +810,9 @@ charge reserves for those types of pools
 but not for these types you know
 but not for these types you know
 but not for these types you know
-i think there's a lot of flexibility
-i think there's a lot of flexibility
-i think there's a lot of flexibility
+I think there's a lot of flexibility
+I think there's a lot of flexibility
+I think there's a lot of flexibility
 you know we already have a mechanism
 you know we already have a mechanism
 you know we already have a mechanism
@@ -832,8 +832,8 @@ that that's even necessary at this point
 that that's even necessary at this point
 that that's even necessary at this point
 for me the answer's like probably no
-i mean like if we to me yeah I agree
-i mean like if we to me yeah I agree
+I mean like if we to me yeah I agree
+I mean like if we to me yeah I agree
 that right now we don't need it
 that right now we don't need it
 that right now we don't need it
@@ -849,9 +849,9 @@ basically
 because in the capital eight world
 because in the capital eight world
 because in the capital eight world
-i guess we would have to force people to
-i guess we would have to force people to
-i guess we would have to force people to
+I guess we would have to force people to
+I guess we would have to force people to
+I guess we would have to force people to
 
 
 
@@ -882,9 +882,9 @@ okay I mean what would what would the
 change
 change
 change
-look like like in general i'm not a fan
-look like like in general i'm not a fan
-look like like in general i'm not a fan
+look like like in general I'm not a fan
+look like like in general I'm not a fan
+look like like in general I'm not a fan
 of complicating today's thing because of
 of complicating today's thing because of
 of complicating today's thing because of
@@ -909,9 +909,9 @@ reserve for creating the trust line or
 something
 something
 something
-i think we should just be on type so i
-i think we should just be on type so i
-i think we should just be on type so i
+I think we should just be on type so i
+I think we should just be on type so i
+I think we should just be on type so i
 think it wouldn't actually change the
 think it wouldn't actually change the
 think it wouldn't actually change the
@@ -1068,9 +1068,9 @@ really small reserves
 so you might say like okay well first
 so you might say like okay well first
 so you might say like okay well first
-i'm gonna trade against the amm
-i'm gonna trade against the amm
-i'm gonna trade against the amm
+I'm gonna trade against the amm
+I'm gonna trade against the amm
+I'm gonna trade against the amm
 until the price hits a hundred dollars
 until the price hits a hundred dollars
 until the price hits a hundred dollars
@@ -1083,12 +1083,12 @@ i'll go and cross the order book and
 take that first order
 take that first order
 take that first order
-and then you know now i'm going to now
-and then you know now i'm going to now
-and then you know now i'm going to now
-the next price is at 105 and so i'm
-the next price is at 105 and so i'm
-the next price is at 105 and so i'm
+and then you know now I'm going to now
+and then you know now I'm going to now
+and then you know now I'm going to now
+the next price is at 105 and so I'm
+the next price is at 105 and so I'm
+the next price is at 105 and so I'm
 going to trade against the am until it
 going to trade against the am until it
 going to trade against the am until it
@@ -1152,24 +1152,24 @@ so even if the volume is tiny you would
 take it
 take it
 take it
-so i'm saying best price in the context
-so i'm saying best price in the context
-so i'm saying best price in the context
-of like imagine that i'm trying to
-of like imagine that i'm trying to
-of like imagine that i'm trying to
+so I'm saying best price in the context
+so I'm saying best price in the context
+so I'm saying best price in the context
+of like imagine that I'm trying to
+of like imagine that I'm trying to
+of like imagine that I'm trying to
 trade a specified amount like I wanna
 trade a specified amount like I wanna
 trade a specified amount like I wanna
-i wanna you know buy three thousand
-i wanna you know buy three thousand
-i wanna you know buy three thousand
+I wanna you know buy three thousand
+I wanna you know buy three thousand
+I wanna you know buy three thousand
 widgets or something
 widgets or something
 widgets or something
-i'm gonna do whatever it takes to get
-i'm gonna do whatever it takes to get
-i'm gonna do whatever it takes to get
+I'm gonna do whatever it takes to get
+I'm gonna do whatever it takes to get
+I'm gonna do whatever it takes to get
 the best price for those three thousand
 the best price for those three thousand
 the best price for those three thousand
@@ -1216,8 +1216,8 @@ it splits the amount that you want into
 it splits the amount that you want into
 it splits the amount that you want into
 a bunch of different path payments
-i guess I mean it's kind of hard to
-i guess I mean it's kind of hard to
+I guess I mean it's kind of hard to
+I guess I mean it's kind of hard to
 explain what it does at like an
 explain what it does at like an
 explain what it does at like an
@@ -1380,9 +1380,9 @@ while in cap 38 you would just choose
 one or the other right do you see what
 one or the other right do you see what
 one or the other right do you see what
-i'm saying
-i'm saying
-i'm saying
+I'm saying
+I'm saying
+I'm saying
 so this is I mean like there can only in
 so this is I mean like there can only in
 so this is I mean like there can only in
@@ -1459,8 +1459,8 @@ the
 the
 the
 good approach here
-i think one one important question here
-i think one one important question here
+I think one one important question here
+I think one one important question here
 is like cap
 is like cap
 is like cap
@@ -1530,9 +1530,9 @@ for you know if I want to like you know
 do an ipo of my company on stellar
 do an ipo of my company on stellar
 do an ipo of my company on stellar
-i'm gonna just basically like put the
-i'm gonna just basically like put the
-i'm gonna just basically like put the
+I'm gonna just basically like put the
+I'm gonna just basically like put the
+I'm gonna just basically like put the
 order book there I mean it'll be offer
 order book there I mean it'll be offer
 order book there I mean it'll be offer
@@ -1542,9 +1542,9 @@ my shares for sale like on the order
 book or something right
 book or something right
 book or something right
-and if i'm trying to do like forex
-and if i'm trying to do like forex
-and if i'm trying to do like forex
+and if I'm trying to do like forex
+and if I'm trying to do like forex
+and if I'm trying to do like forex
 exchanges or whatever then
 exchanges or whatever then
 exchanges or whatever then
@@ -1602,12 +1602,12 @@ much more effectively than the amm
 yep seems like an argument to have it
 yep seems like an argument to have it
 yep seems like an argument to have it
-you know i'm not saying get rid of the
-you know i'm not saying get rid of the
-you know i'm not saying get rid of the
-the existing decks i'm just saying
-the existing decks i'm just saying
-the existing decks i'm just saying
+you know I'm not saying get rid of the
+you know I'm not saying get rid of the
+you know I'm not saying get rid of the
+the existing decks I'm just saying
+the existing decks I'm just saying
+the existing decks I'm just saying
 you know have have both but don't
 you know have have both but don't
 you know have have both but don't
@@ -1803,9 +1803,9 @@ behavior
 is actually what orbit wrote
 is actually what orbit wrote
 is actually what orbit wrote
-i think this morning on the dave mailing
-i think this morning on the dave mailing
-i think this morning on the dave mailing
+I think this morning on the dave mailing
+I think this morning on the dave mailing
+I think this morning on the dave mailing
 list
 list
 list
@@ -1827,9 +1827,9 @@ and the the existing
 order book the thing is that
 order book the thing is that
 order book the thing is that
-i don't know if you have any data
-i don't know if you have any data
-i don't know if you have any data
+I don't know if you have any data
+I don't know if you have any data
+I don't know if you have any data
 really to
 really to
 really to
@@ -1866,9 +1866,9 @@ that doesn't solve I mean cap 37 doesn't
 solve that
 solve that
 solve that
-so that's why i'm i'm kind of a
-so that's why i'm i'm kind of a
-so that's why i'm i'm kind of a
+so that's why I'm I'm kind of a
+so that's why I'm I'm kind of a
+so that's why I'm I'm kind of a
 in the camp of like starting with this
 in the camp of like starting with this
 in the camp of like starting with this
@@ -1887,9 +1887,9 @@ this interleaving
 so far on you know the type of of things
 so far on you know the type of of things
 so far on you know the type of of things
-i'm saying it's actually very hard
-i'm saying it's actually very hard
-i'm saying it's actually very hard
+I'm saying it's actually very hard
+I'm saying it's actually very hard
+I'm saying it's actually very hard
 to even come up with with like
 to even come up with with like
 to even come up with with like
@@ -1908,9 +1908,9 @@ what the mm is doing like if it's
 something more complicated than
 something more complicated than
 something more complicated than
-than constant product i'm not even sure
-than constant product i'm not even sure
-than constant product i'm not even sure
+than constant product I'm not even sure
+than constant product I'm not even sure
+than constant product I'm not even sure
 we we can
 we we can
 we we can
@@ -1984,17 +1984,17 @@ next topic
 great the next topic is pool parameter
 great the next topic is pool parameter
 updates
-i think sid was working on something
-i think sid was working on something
+I think sid was working on something
+I think sid was working on something
 related to this is that true
 yeah I wrote something on the that
 yeah I wrote something on the that
 mailing list yesterday
 mailing list yesterday
 mailing list yesterday
-i can talk about that if you like
-i can talk about that if you like
-i can talk about that if you like
+I can talk about that if you like
+I can talk about that if you like
+I can talk about that if you like
 yeah will you talk us through it
 yeah will you talk us through it
 yeah will you talk us through it
@@ -2184,9 +2184,9 @@ operations
 what there's
 what there's
 what there's
-i think some of those when you have
-i think some of those when you have
-i think some of those when you have
+I think some of those when you have
+I think some of those when you have
+I think some of those when you have
 like
 like
 like
@@ -2205,9 +2205,9 @@ now you have like different weights
 for those assets
 for those assets
 for those assets
-i think those are like the the ones
-i think those are like the the ones
-i think those are like the the ones
+I think those are like the the ones
+I think those are like the the ones
+I think those are like the the ones
 that are known
 that are known
 that are known
@@ -2250,9 +2250,9 @@ is is there an issue with storing all of
 this in the leisure header
 this in the leisure header
 this in the leisure header
-i'm assuming like you want to get two
-i'm assuming like you want to get two
-i'm assuming like you want to get two
+I'm assuming like you want to get two
+I'm assuming like you want to get two
+I'm assuming like you want to get two
 actually so the the one actually I guess
 actually so the the one actually I guess
 actually so the the one actually I guess
@@ -2370,9 +2370,9 @@ the parameters on an existing pool it's
 kind of the main crux here
 kind of the main crux here
 kind of the main crux here
-i think it's yeah it derives from this
-i think it's yeah it derives from this
-i think it's yeah it derives from this
+I think it's yeah it derives from this
+I think it's yeah it derives from this
+I think it's yeah it derives from this
 choice right that is if it's a global
 choice right that is if it's a global
 choice right that is if it's a global
@@ -2427,9 +2427,9 @@ being like oh I used to get 1.5
 interest now I get one percent interest
 interest now I get one percent interest
 interest now I get one percent interest
-i didn't agree to that
-i didn't agree to that
-i didn't agree to that
+I didn't agree to that
+I didn't agree to that
+I didn't agree to that
 nobody told me until after my money had
 nobody told me until after my money had
 nobody told me until after my money had
@@ -2460,9 +2460,9 @@ so what you're saying that would be the
 stance that I would take on this
 stance that I would take on this
 stance that I would take on this
-i think the only exception to this
-i think the only exception to this
-i think the only exception to this
+I think the only exception to this
+I think the only exception to this
+I think the only exception to this
 might be
 might be
 might be
@@ -2583,9 +2583,9 @@ saying that I support that but I think
 that's possible but
 that's possible but
 that's possible but
-siddharth you can step in here if i'm
-siddharth you can step in here if i'm
-siddharth you can step in here if i'm
+siddharth you can step in here if I'm
+siddharth you can step in here if I'm
+siddharth you can step in here if I'm
 not not hitting this correctly
 not not hitting this correctly
 not not hitting this correctly
@@ -2628,12 +2628,12 @@ everyone will move to the most optimal
 optimal pool
 optimal pool
 optimal pool
-like I i'm not sure what will end up
-like I i'm not sure what will end up
-like I i'm not sure what will end up
+like I I'm not sure what will end up
+like I I'm not sure what will end up
+like I I'm not sure what will end up
 happening there
-i tend to think that people would have
-i tend to think that people would have
+I tend to think that people would have
+I tend to think that people would have
 probably eventually settled down onto
 probably eventually settled down onto
 probably eventually settled down onto
@@ -2689,8 +2689,8 @@ mutable
 mutable
 mutable
 right
-i don't think those should be mutable
-i don't think those should be mutable
+I don't think those should be mutable
+I don't think those should be mutable
 only from
 only from
 only from
@@ -2718,9 +2718,9 @@ which is about changing the curve
 parameters other than the fee
 parameters other than the fee
 parameters other than the fee
-i say defect report I guess I should say
-i say defect report I guess I should say
-i say defect report I guess I should say
+I say defect report I guess I should say
+I say defect report I guess I should say
+I say defect report I guess I should say
 vulnerability whatever you want to call
 vulnerability whatever you want to call
 vulnerability whatever you want to call
@@ -2731,8 +2731,8 @@ you should review that because it's very
 you should review that because it's very
 you should review that because it's very
 scary
-i almost feel like this shouldn't
-i almost feel like this shouldn't
+I almost feel like this shouldn't
+I almost feel like this shouldn't
 this shouldn't be a configurable
 this shouldn't be a configurable
 this shouldn't be a configurable
@@ -2775,9 +2775,9 @@ and the next day after the configuration
 change it's a safe type of pool but now
 change it's a safe type of pool but now
 change it's a safe type of pool but now
-i'm getting like a different type of fee
-i'm getting like a different type of fee
-i'm getting like a different type of fee
+I'm getting like a different type of fee
+I'm getting like a different type of fee
+I'm getting like a different type of fee
 so that there's like it's just not
 so that there's like it's just not
 so that there's like it's just not
@@ -2794,8 +2794,8 @@ is the we in this situation
 is the we in this situation
 is the we in this situation
 does that make sense
-i think there are two different ways
-i think there are two different ways
+I think there are two different ways
+I think there are two different ways
 one could take this
 one could take this
 one could take this
@@ -2814,9 +2814,9 @@ from having only constant product pools
 to having constant product rules and
 to having constant product rules and
 to having constant product rules and
-i don't know something curve-like or
-i don't know something curve-like or
-i don't know something curve-like or
+I don't know something curve-like or
+I don't know something curve-like or
+I don't know something curve-like or
 balancer with weights or whatever
 balancer with weights or whatever
 balancer with weights or whatever
@@ -2901,9 +2901,9 @@ thinking there that we can sort of do in
 conversation on the stellar dev list
 conversation on the stellar dev list
 conversation on the stellar dev list
-i I don't want to move on though if
-i I don't want to move on though if
-i I don't want to move on though if
+I I don't want to move on though if
+I I don't want to move on though if
+I I don't want to move on though if
 there's important things left to be said
 there's important things left to be said
 there's important things left to be said
@@ -3030,9 +3030,9 @@ a few number of options right in a for a
 given type or do we think that one type
 enough
 enough
-i think there are some like fundamental
-i think there are some like fundamental
-i think there are some like fundamental
+I think there are some like fundamental
+I think there are some like fundamental
+I think there are some like fundamental
 problems with the notion of like one
 problems with the notion of like one
 problems with the notion of like one
@@ -3117,9 +3117,9 @@ asset pair where like you know
 constant product with a high fee would
 constant product with a high fee would
 constant product with a high fee would
-be the best i'm going to put in
-be the best i'm going to put in
-be the best i'm going to put in
+be the best I'm going to put in
+be the best I'm going to put in
+be the best I'm going to put in
 you know a curve with a super low fee to
 you know a curve with a super low fee to
 you know a curve with a super low fee to
@@ -3151,8 +3151,8 @@ that we want to have more than one few
 
 
 for constant product for a given pair
-i mean I think that we probably want to
-i mean I think that we probably want to
+I mean I think that we probably want to
+I mean I think that we probably want to
 have more than
 have more than
 have more than
@@ -3165,9 +3165,9 @@ like people to pick like oh yeah this is
 the right fit for you because
 the right fit for you because
 the right fit for you because
-i think that different
-i think that different
-i think that different
+I think that different
+I think that different
+I think that different
 different asset classes
 different asset classes
 different asset classes
@@ -3219,18 +3219,18 @@ the first one
 so then how do you let the market decide
 so then how do you let the market decide
 so then how do you let the market decide
-i think that's kind of
-i think that's kind of
-i think that's kind of
-what i'm getting
+I think that's kind of
+I think that's kind of
+I think that's kind of
+what I'm getting
 so it would bring market dynamics to
 so it would bring market dynamics to
 bear on these given
 bear on these given
 bear on these given
 uncompeting pools
-i don't really like for me the reality
-i don't really like for me the reality
+I don't really like for me the reality
+I don't really like for me the reality
 is I don't really see what we're
 is I don't really see what we're
 is I don't really see what we're
@@ -3267,9 +3267,9 @@ whatever like whatever you kind of take
 that model at
 that model at
 that model at
-you're kind of saying like i'm gonna try
-you're kind of saying like i'm gonna try
-you're kind of saying like i'm gonna try
+you're kind of saying like I'm gonna try
+you're kind of saying like I'm gonna try
+you're kind of saying like I'm gonna try
 to fit all the pegs into a single shaped
 to fit all the pegs into a single shaped
 to fit all the pegs into a single shaped
@@ -3282,9 +3282,9 @@ if you take that approach and if you
 don't take that approach then you're
 don't take that approach then you're
 don't take that approach then you're
-basically saying well like i'm gonna let
-basically saying well like i'm gonna let
-basically saying well like i'm gonna let
+basically saying well like I'm gonna let
+basically saying well like I'm gonna let
+basically saying well like I'm gonna let
 the market decide what's the what's the
 the market decide what's the what's the
 the market decide what's the what's the
@@ -3303,9 +3303,9 @@ don't fit in so
 for me it seems kind of like a like a
 for me it seems kind of like a like a
 for me it seems kind of like a like a
-very kind of obvious choice but i'm i'm
-very kind of obvious choice but i'm i'm
-very kind of obvious choice but i'm i'm
+very kind of obvious choice but I'm I'm
+very kind of obvious choice but I'm I'm
+very kind of obvious choice but I'm I'm
 wondering if somebody sees the
 wondering if somebody sees the
 wondering if somebody sees the
@@ -3334,8 +3334,8 @@ group is you avoid
 group is you avoid
 group is you avoid
 like splitting the liquidity
-but i'm not i'm not that's not my
-but i'm not i'm not that's not my
+but I'm not I'm not that's not my
+but I'm not I'm not that's not my
 opinion either you know
 opinion either you know
 opinion either you know
@@ -3349,8 +3349,8 @@ actually one of the argument that people
 actually one of the argument that people
 actually one of the argument that people
 call out yeah
-i mean I guess for me it kind of depends
-i mean I guess for me it kind of depends
+I mean I guess for me it kind of depends
+I mean I guess for me it kind of depends
 a lot on what the set of options are
 a lot on what the set of options are
 a lot on what the set of options are
@@ -3444,9 +3444,9 @@ in those kinds of cases and there won't
 be a lot of blurriness
 be a lot of blurriness
 be a lot of blurriness
-i'm not 100 sure but I think the the
-i'm not 100 sure but I think the the
-i'm not 100 sure but I think the the
+I'm not 100 sure but I think the the
+I'm not 100 sure but I think the the
+I'm not 100 sure but I think the the
 amount of liquidity fragmentation
 amount of liquidity fragmentation
 amount of liquidity fragmentation
@@ -3582,9 +3582,9 @@ kinds of things could
 shape out
 so I mean maybe the answer to this is no
 so I mean maybe the answer to this is no
-but i'm just wondering if there's any
-but i'm just wondering if there's any
-but i'm just wondering if there's any
+but I'm just wondering if there's any
+but I'm just wondering if there's any
+but I'm just wondering if there's any
 if it's it just seems better to have
 if it's it just seems better to have
 if it's it just seems better to have
@@ -3597,9 +3597,9 @@ you know other than the fact that you
 would have to agree on the parameters
 would have to agree on the parameters
 would have to agree on the parameters
-but i'm wondering if there's any way
-but i'm wondering if there's any way
-but i'm wondering if there's any way
+but I'm wondering if there's any way
+but I'm wondering if there's any way
+but I'm wondering if there's any way
 to kind of select the pool
 to kind of select the pool
 to kind of select the pool
@@ -3675,9 +3675,9 @@ like make sense to move over to that
 that's something else but
 that's something else but
 that's something else but
-i mean that's that's john
-i mean that's that's john
-i mean that's that's john
+I mean that's that's john
+I mean that's that's john
+I mean that's that's john
 briefly mentioned this my new idea
 briefly mentioned this my new idea
 briefly mentioned this my new idea
@@ -3774,9 +3774,9 @@ the menu
 you want right you can say okay this is
 you want right you can say okay this is
 you want right you can say okay this is
-like a stable coin one so i'm going to
-like a stable coin one so i'm going to
-like a stable coin one so i'm going to
+like a stable coin one so I'm going to
+like a stable coin one so I'm going to
+like a stable coin one so I'm going to
 pick this scoff
 pick this scoff
 pick this scoff
@@ -3786,9 +3786,9 @@ paying with this parameter right okay so
 here's
 here's
 here's
-i think you know this is probably not
-i think you know this is probably not
-i think you know this is probably not
+I think you know this is probably not
+I think you know this is probably not
+I think you know this is probably not
 workable but just to like get some
 workable but just to like get some
 workable but just to like get some
@@ -3918,9 +3918,9 @@ how would you
 
 
 
-i guess like what would at like a high
-i guess like what would at like a high
-i guess like what would at like a high
+I guess like what would at like a high
+I guess like what would at like a high
+I guess like what would at like a high
 level what would an implementation of
 level what would an implementation of
 level what would an implementation of
@@ -4068,9 +4068,9 @@ it's a kind of interesting idea i'd have
 to think about that a bit
 to think about that a bit
 to think about that a bit
-i like definitely have some concerns
-i like definitely have some concerns
-i like definitely have some concerns
+I like definitely have some concerns
+I like definitely have some concerns
+I like definitely have some concerns
 along the same line as
 along the same line as
 along the same line as
@@ -4174,11 +4174,11 @@ either one of those topics in the last
 either one of those topics in the last
 either one of those topics in the last
 four minutes
-it seems hard and for me I mean i'm
-it seems hard and for me I mean i'm
-like i'm
-like i'm
-like i'm
+it seems hard and for me I mean I'm
+it seems hard and for me I mean I'm
+like I'm
+like I'm
+like I'm
 very interested in talking about these
 very interested in talking about these
 very interested in talking about these
@@ -4194,9 +4194,9 @@ to get into them now
 okay that makes sense to me
 okay that makes sense to me
 okay that makes sense to me
-i mean I think then the the question is
-i mean I think then the the question is
-i mean I think then the the question is
+I mean I think then the the question is
+I mean I think then the the question is
+I mean I think then the the question is
 what what is
 what what is
 what what is
@@ -4219,8 +4219,8 @@ that
 that
 that
 make that possible
-i'm still trying to understand whether
-i'm still trying to understand whether
+I'm still trying to understand whether
+I'm still trying to understand whether
 we've narrowed down the scope of which
 we've narrowed down the scope of which
 we've narrowed down the scope of which
@@ -4278,18 +4278,18 @@ the good news is that we don't
 necessarily have to solve that
 necessarily have to solve that
 necessarily have to solve that
-i think in this version because right
-i think in this version because right
-i think in this version because right
+I think in this version because right
+I think in this version because right
+I think in this version because right
 now we're introducing only
 now we're introducing only
 now we're introducing only
 one one constant product
 one one constant product
 one one constant product
-and i'm not sure we want to
-and i'm not sure we want to
-and i'm not sure we want to
+and I'm not sure we want to
+and I'm not sure we want to
+and I'm not sure we want to
 introduce in the first version the
 introduce in the first version the
 introduce in the first version the
@@ -4311,9 +4311,9 @@ says or even capital e7 that is
 there's only one rate
 there's only one rate
 there's only one rate
-and i'm it's probably fine for the
-and i'm it's probably fine for the
-and i'm it's probably fine for the
+and I'm it's probably fine for the
+and I'm it's probably fine for the
+and I'm it's probably fine for the
 very first version but
 very first version but
 very first version but
@@ -4390,11 +4390,11 @@ okay there's also the free-for-all
 okay there's also the free-for-all
 okay there's also the free-for-all
 option anarchy
-i love the anarchy every time i'm
-i love the anarchy every time i'm
-listening to this i'm like this is we're
-listening to this i'm like this is we're
-listening to this i'm like this is we're
+I love the anarchy every time I'm
+I love the anarchy every time I'm
+listening to this I'm like this is we're
+listening to this I'm like this is we're
+listening to this I'm like this is we're
 talking about anarchy or we're talking
 talking about anarchy or we're talking
 talking about anarchy or we're talking
@@ -4440,9 +4440,9 @@ flat pink blueberry pancakes on your
 birthday not cornflakes
 birthday not cornflakes
 birthday not cornflakes
-i don't even know okay
-i don't even know okay
-i don't even know okay
+I don't even know okay
+I don't even know okay
+I don't even know okay
 that's time thanks everybody and
 that's time thanks everybody and
 that's time thanks everybody and

@@ -117,9 +117,9 @@ this meeting
 and so
 and so
 and so
-i'm going to sort of end it there if you
-i'm going to sort of end it there if you
-i'm going to sort of end it there if you
+I'm going to sort of end it there if you
+I'm going to sort of end it there if you
+I'm going to sort of end it there if you
 want to look up anyone who is in this
 want to look up anyone who is in this
 want to look up anyone who is in this
@@ -168,9 +168,9 @@ discussed it previous meeting it was
 revised it was revised again
 revised it was revised again
 revised it was revised again
-and so i'm going to kick it over to
-and so i'm going to kick it over to
-and so i'm going to kick it over to
+and so I'm going to kick it over to
+and so I'm going to kick it over to
+and so I'm going to kick it over to
 nikola who made some of those revisions
 nikola who made some of those revisions
 nikola who made some of those revisions
@@ -192,9 +192,9 @@ changes I made were actually pretty
 minor
 minor
 minor
-i mean expected given where we are
-i mean expected given where we are
-i mean expected given where we are
+I mean expected given where we are
+I mean expected given where we are
+I mean expected given where we are
 so
 so
 so
@@ -267,9 +267,9 @@ as a strategy and this needed to
 be tweaked a little bit so i
 be tweaked a little bit so i
 be tweaked a little bit so i
-i put a
-i put a
-i put a
+I put a
+I put a
+I put a
 
 
 
@@ -282,9 +282,9 @@ this with the after this new captex
 takes effect
 so like
 so like
-i don't know if people have time to
-i don't know if people have time to
-i don't know if people have time to
+I don't know if people have time to
+I don't know if people have time to
+I don't know if people have time to
 review it I think I imagine actually
 review it I think I imagine actually
 review it I think I imagine actually
@@ -309,9 +309,9 @@ the questions that I had and I think you
 and it goes on the mailing list
 and it goes on the mailing list
 and it goes on the mailing list
-i think the only comment that I had
-i think the only comment that I had
-i think the only comment that I had
+I think the only comment that I had
+I think the only comment that I had
+I think the only comment that I had
 about the conversation where you know
 about the conversation where you know
 about the conversation where you know
@@ -366,9 +366,9 @@ the pattern sounds pretty clear
 and
 and
 and
-i think
-i think
-i think
+I think
+I think
+I think
 
 
 
@@ -492,9 +492,9 @@ to
 to to pay and instead
 to to pay and instead
 to to pay and instead
-i think maybe aligned with what actually
-i think maybe aligned with what actually
-i think maybe aligned with what actually
+I think maybe aligned with what actually
+I think maybe aligned with what actually
+I think maybe aligned with what actually
 a lot of wallets are it seems to be
 a lot of wallets are it seems to be
 a lot of wallets are it seems to be
@@ -519,15 +519,15 @@ with a hundred thousand
 which is I mean this is still fine yeah
 which is I mean this is still fine yeah
 which is I mean this is still fine yeah
-i mean there are still even with this
-i mean there are still even with this
-i mean there are still even with this
+I mean there are still even with this
+I mean there are still even with this
+I mean there are still even with this
 new thing unless people are doing
 new thing unless people are doing
 new thing unless people are doing
-i think the the first wave of changes
-i think the the first wave of changes
-i think the the first wave of changes
+I think the the first wave of changes
+I think the the first wave of changes
+I think the the first wave of changes
 will probably be around
 will probably be around
 will probably be around
@@ -603,9 +603,9 @@ which will
 
 
 
-i think at the current pace
-i think at the current pace
-i think at the current pace
+I think at the current pace
+I think at the current pace
+I think at the current pace
 it looks like maybe it will be like
 it looks like maybe it will be like
 it looks like maybe it will be like
@@ -738,9 +738,9 @@ are with cap 42 but it sounds like we're
 in a pretty good spot
 in a pretty good spot
 in a pretty good spot
-i think we left it at a good spot last
-i think we left it at a good spot last
-i think we left it at a good spot last
+I think we left it at a good spot last
+I think we left it at a good spot last
+I think we left it at a good spot last
 time and this addressed the things that
 time and this addressed the things that
 time and this addressed the things that
@@ -753,9 +753,9 @@ seems
 pretty much ready to me
 pretty much ready to me
 pretty much ready to me
-i mean I have one nit but it actually
-i mean I have one nit but it actually
-i mean I have one nit but it actually
+I mean I have one nit but it actually
+I mean I have one nit but it actually
+I mean I have one nit but it actually
 doesn't come up in this
 doesn't come up in this
 doesn't come up in this
@@ -801,18 +801,18 @@ issue right which we can sort of talk
 about offline cool
 about offline cool
 about offline cool
-i mean it sounds like with this cap
-i mean it sounds like with this cap
-i mean it sounds like with this cap
+I mean it sounds like with this cap
+I mean it sounds like with this cap
+I mean it sounds like with this cap
 it is probably ready to bring to a vote
 it is probably ready to bring to a vote
 it is probably ready to bring to a vote
 which I can do off which I can
 which I can do off which I can
 which I can do off which I can
-i guess we can maybe do at the beginning
-i guess we can maybe do at the beginning
-i guess we can maybe do at the beginning
+I guess we can maybe do at the beginning
+I guess we can maybe do at the beginning
+I guess we can maybe do at the beginning
 of the next meeting
 of the next meeting
 of the next meeting
@@ -825,12 +825,12 @@ in which case I think we can move on and
 talk about we could vote asynchronously
 talk about we could vote asynchronously
 talk about we could vote asynchronously
-i don't think we need to wait for the
-i don't think we need to wait for the
-i don't think we need to wait for the
-next meet I mean i'm ready to vote and
-next meet I mean i'm ready to vote and
-next meet I mean i'm ready to vote and
+I don't think we need to wait for the
+I don't think we need to wait for the
+I don't think we need to wait for the
+next meet I mean I'm ready to vote and
+next meet I mean I'm ready to vote and
+next meet I mean I'm ready to vote and
 to move this forward so okay cool i'll
 to move this forward so okay cool i'll
 to move this forward so okay cool i'll
@@ -930,9 +930,9 @@ there's been some pretty interesting
 discussion on the mailing list but to
 discussion on the mailing list but to
 discussion on the mailing list but to
-sort of kick off i'm going to pass it to
-sort of kick off i'm going to pass it to
-sort of kick off i'm going to pass it to
+sort of kick off I'm going to pass it to
+sort of kick off I'm going to pass it to
+sort of kick off I'm going to pass it to
 john
 sure thanks justin
 sure thanks justin
@@ -975,9 +975,9 @@ rather than trying to configure it
 
 
 
-i think the answer to that at this point
-i think the answer to that at this point
-i think the answer to that at this point
+I think the answer to that at this point
+I think the answer to that at this point
+I think the answer to that at this point
 is probably no
 is probably no
 is probably no
@@ -1131,9 +1131,9 @@ actually know
 what it's going to look like
 what it's going to look like
 what it's going to look like
-i mean I think the fact that we have
-i mean I think the fact that we have
-i mean I think the fact that we have
+I mean I think the fact that we have
+I mean I think the fact that we have
+I mean I think the fact that we have
 this debate in these questions
 this debate in these questions
 this debate in these questions
@@ -1158,9 +1158,9 @@ validators are stakeholders but so are
 the asset issuers and I don't think that
 the asset issuers and I don't think that
 the asset issuers and I don't think that
-i think that we should give more weight
-i think that we should give more weight
-i think that we should give more weight
+I think that we should give more weight
+I think that we should give more weight
+I think that we should give more weight
 to the asset issuers than the
 to the asset issuers than the
 to the asset issuers than the
@@ -1185,9 +1185,9 @@ repositories of information by the asset
 issuers
 issuers
 issuers
-i agree with david but I don't agree
-i agree with david but I don't agree
-i agree with david but I don't agree
+I agree with david but I don't agree
+I agree with david but I don't agree
+I agree with david but I don't agree
 with with the result I think that
 with with the result I think that
 with with the result I think that
@@ -1212,9 +1212,9 @@ but you know just by virtue of having
 like an asset issued
 like an asset issued
 like an asset issued
-i don't think that's enough to
-i don't think that's enough to
-i don't think that's enough to
+I don't think that's enough to
+I don't think that's enough to
+I don't think that's enough to
 inform the validator network what to do
 inform the validator network what to do
 inform the validator network what to do
@@ -1344,9 +1344,9 @@ expected to
 you know like this operation what is it
 you know like this operation what is it
 you know like this operation what is it
-i think one of the options that we were
-i think one of the options that we were
-i think one of the options that we were
+I think one of the options that we were
+I think one of the options that we were
+I think one of the options that we were
 talking about was like staking lumens
 talking about was like staking lumens
 talking about was like staking lumens
@@ -1476,9 +1476,9 @@ that choose to make a market
 what what are you wait am I unmuted yeah
 what what are you wait am I unmuted yeah
 what what are you wait am I unmuted yeah
-i am what about the what about the
-i am what about the what about the
-i am what about the what about the
+I am what about the what about the
+I am what about the what about the
+I am what about the what about the
 case of contention like
 case of contention like
 case of contention like
@@ -1497,9 +1497,9 @@ by like amm liquidity we could say
 would be like
 would be like
 would be like
-i don't know I think it's like ustc xln
-i don't know I think it's like ustc xln
-i don't know I think it's like ustc xln
+I don't know I think it's like ustc xln
+I don't know I think it's like ustc xln
+I don't know I think it's like ustc xln
 aqua a couple other assets
 aqua a couple other assets
 aqua a couple other assets
@@ -1554,9 +1554,9 @@ who do we choose
 well that gives usdc a lot of cloud
 well that gives usdc a lot of cloud
 well that gives usdc a lot of cloud
-i think usdc should be then should be
-i think usdc should be then should be
-i think usdc should be then should be
+I think usdc should be then should be
+I think usdc should be then should be
+I think usdc should be then should be
 able to decide
 able to decide
 able to decide
@@ -1575,9 +1575,9 @@ or
 maybe usdc can be in multiple speed x's
 maybe usdc can be in multiple speed x's
 maybe usdc can be in multiple speed x's
-i mean that that creates arbitrage
-i mean that that creates arbitrage
-i mean that that creates arbitrage
+I mean that that creates arbitrage
+I mean that that creates arbitrage
+I mean that that creates arbitrage
 opportunity but
 opportunity but
 opportunity but
@@ -1594,8 +1594,8 @@ anchor the valuations of all the other
 anchor the valuations of all the other
 anchor the valuations of all the other
 assets
-i think we're putting a bit too much
-i think we're putting a bit too much
+I think we're putting a bit too much
+I think we're putting a bit too much
 responsibility and weight on the asset
 responsibility and weight on the asset
 responsibility and weight on the asset
@@ -1669,8 +1669,8 @@ have a say in like which markets are are
 have a say in like which markets are are
 have a say in like which markets are are
 more important for your asset
-i mean maybe the problem is I don't have
-i mean maybe the problem is I don't have
+I mean maybe the problem is I don't have
+I mean maybe the problem is I don't have
 a concrete proposal so maybe what I need
 a concrete proposal so maybe what I need
 a concrete proposal so maybe what I need
@@ -1698,9 +1698,9 @@ like brainstorm about this
 you know at the very least I would like
 you know at the very least I would like
 you know at the very least I would like
-to convince myself maybe what i'm asking
-to convince myself maybe what i'm asking
-to convince myself maybe what i'm asking
+to convince myself maybe what I'm asking
+to convince myself maybe what I'm asking
+to convince myself maybe what I'm asking
 for is impossible right but at the very
 for is impossible right but at the very
 for is impossible right but at the very
@@ -1713,15 +1713,15 @@ it's impossible
 well and the other thing like and
 well and the other thing like and
 well and the other thing like and
-i think that's why where I started when
-i think that's why where I started when
-i think that's why where I started when
-i when I discussed this on the main list
-i when I discussed this on the main list
-i when I discussed this on the main list
-i was wondering like
-i was wondering like
-i was wondering like
+I think that's why where I started when
+I think that's why where I started when
+I think that's why where I started when
+I when I discussed this on the main list
+I when I discussed this on the main list
+I when I discussed this on the main list
+I was wondering like
+I was wondering like
+I was wondering like
 why does
 why does
 why does
@@ -1749,9 +1749,9 @@ that
 that set is is managed by the validator
 that set is is managed by the validator
 that set is is managed by the validator
-i mean it's governance so you know it's
-i mean it's governance so you know it's
-i mean it's governance so you know it's
+I mean it's governance so you know it's
+I mean it's governance so you know it's
+I mean it's governance so you know it's
 one component I don't know if it's
 one component I don't know if it's
 one component I don't know if it's
@@ -1773,9 +1773,9 @@ whether there's one speed x or sort of
 one or more speed x's and
 one or more speed x's and
 one or more speed x's and
-i i'm very much of the feeling that
-i i'm very much of the feeling that
-i i'm very much of the feeling that
+I I'm very much of the feeling that
+I I'm very much of the feeling that
+I I'm very much of the feeling that
 you know the the
 you know the the
 you know the the
@@ -1809,9 +1809,9 @@ like if they diverge like no big deal
 right and so
 right and so
 right and so
-i would similarly
-i would similarly
-i would similarly
+I would similarly
+I would similarly
+I would similarly
 like to be able to have like if there's
 like to be able to have like if there's
 like to be able to have like if there's
@@ -1831,8 +1831,8 @@ the fake out like validators shouldn't
 the fake out like validators shouldn't
 the fake out like validators shouldn't
 be doing that
-i guess at the same time oh sorry go
-i guess at the same time oh sorry go
+I guess at the same time oh sorry go
+I guess at the same time oh sorry go
 ahead no go ahead jeff the validators
 ahead no go ahead jeff the validators
 ahead no go ahead jeff the validators
@@ -1863,9 +1863,9 @@ just like you have the assets in your
 database
 database
 database
-i mean well now there's a question of
-i mean well now there's a question of
-i mean well now there's a question of
+I mean well now there's a question of
+I mean well now there's a question of
+I mean well now there's a question of
 like should we be compensating
 like should we be compensating
 like should we be compensating
@@ -1875,9 +1875,9 @@ validators or is like is it cheap enough
 to run a validator that's not a big deal
 to run a validator that's not a big deal
 to run a validator that's not a big deal
-well i'm just worried about like
-well i'm just worried about like
-well i'm just worried about like
+well I'm just worried about like
+well I'm just worried about like
+well I'm just worried about like
 somebody spinning up like a thousand
 somebody spinning up like a thousand
 somebody spinning up like a thousand
@@ -1888,8 +1888,8 @@ kind of we have to process it
 kind of we have to process it
 kind of we have to process it
 appropriately right I mean sure
-i guess it's I just I prefer I prefer
-i guess it's I just I prefer I prefer
+I guess it's I just I prefer I prefer
+I guess it's I just I prefer I prefer
 to use like market-based solutions like
 to use like market-based solutions like
 to use like market-based solutions like
@@ -1902,9 +1902,9 @@ resources on the network therefore
 people should be paying for it
 people should be paying for it
 people should be paying for it
-i prefer a marketplace solution to a
-i prefer a marketplace solution to a
-i prefer a marketplace solution to a
+I prefer a marketplace solution to a
+I prefer a marketplace solution to a
+I prefer a marketplace solution to a
 like validators know best type solution
 like validators know best type solution
 like validators know best type solution
@@ -2221,8 +2221,8 @@ going to have more clout in the network
 going to have more clout in the network
 going to have more clout in the network
 
-i mean I agree like this stigmatic
-i mean I agree like this stigmatic
+I mean I agree like this stigmatic
+I mean I agree like this stigmatic
 voting isn't perfect but it's at least a
 voting isn't perfect but it's at least a
 voting isn't perfect but it's at least a
@@ -2238,9 +2238,9 @@ solution to consensus if you don't
 already have consensus or you can't but
 already have consensus or you can't but
 already have consensus or you can't but
-i mean there's our proof-of-stake
-i mean there's our proof-of-stake
-i mean there's our proof-of-stake
+I mean there's our proof-of-stake
+I mean there's our proof-of-stake
+I mean there's our proof-of-stake
 systems but they have all these other
 systems but they have all these other
 systems but they have all these other
@@ -2269,8 +2269,8 @@ should give them lots of extra power too
 should give them lots of extra power too
 should give them lots of extra power too
 if we don't have to
-i think going back to my original
-i think going back to my original
+I think going back to my original
+I think going back to my original
 appointment I think this is a great
 appointment I think this is a great
 appointment I think this is a great
@@ -2295,15 +2295,15 @@ reason to do that
 
 
 
-i guess that's true but that it seems a
-i guess that's true but that it seems a
-i guess that's true but that it seems a
+I guess that's true but that it seems a
+I guess that's true but that it seems a
+I guess that's true but that it seems a
 little
 little
 little
 indirect
-i mean I actually agree with
-i mean I actually agree with
+I mean I actually agree with
+I mean I actually agree with
 tomorrow's point here like if you're if
 tomorrow's point here like if you're if
 tomorrow's point here like if you're if
@@ -2421,9 +2421,9 @@ for my asset to be in speed x in
 whatever way right
 whatever way right
 whatever way right
-and you know i'm still funding them
-and you know i'm still funding them
-and you know i'm still funding them
+and you know I'm still funding them
+and you know I'm still funding them
+and you know I'm still funding them
 to run the validator but the problem is
 to run the validator but the problem is
 to run the validator but the problem is
@@ -2520,9 +2520,9 @@ question
 
 
 
-i think like we have not given a lot of
-i think like we have not given a lot of
-i think like we have not given a lot of
+I think like we have not given a lot of
+I think like we have not given a lot of
+I think like we have not given a lot of
 thought to this this did not come up on
 thought to this this did not come up on
 thought to this this did not come up on
@@ -2541,12 +2541,12 @@ little bit I think it loops back into
 the other question as well
 the other question as well
 the other question as well
-i can imagine
-i can imagine
-i can imagine
-i think that if we come up it's possible
-i think that if we come up it's possible
-i think that if we come up it's possible
+I can imagine
+I can imagine
+I can imagine
+I think that if we come up it's possible
+I think that if we come up it's possible
+I think that if we come up it's possible
 if we come up with an answer to the
 if we come up with an answer to the
 if we come up with an answer to the
@@ -2563,17 +2563,17 @@ but otherwise then you know all sql we
 but otherwise then you know all sql we
 but otherwise then you know all sql we
 should have multiple speed x's
-i would
-i would
+I would
+I would
 yeah my vote is is like I don't find the
 yeah my vote is is like I don't find the
 yeah my vote is is like I don't find the
 idea
 idea
 idea
-offensive i'm just not sure that we need
-offensive i'm just not sure that we need
-offensive i'm just not sure that we need
+offensive I'm just not sure that we need
+offensive I'm just not sure that we need
+offensive I'm just not sure that we need
 to be thinking about this right now i
 to be thinking about this right now i
 to be thinking about this right now i
@@ -2886,9 +2886,9 @@ hold on just I want to make before you
 go jeff I just want to make sure that
 go jeff I just want to make sure that
 go jeff I just want to make sure that
-i'm on the same page as you david do you
-i'm on the same page as you david do you
-i'm on the same page as you david do you
+I'm on the same page as you david do you
+I'm on the same page as you david do you
+I'm on the same page as you david do you
 want the pure anarchy approach
 want the pure anarchy approach
 want the pure anarchy approach
@@ -2937,9 +2937,9 @@ speedx transactions
 like i
 like i
 like i
-i think that this well so so one
-i think that this well so so one
-i think that this well so so one
+I think that this well so so one
+I think that this well so so one
+I think that this well so so one
 point like why are we talking about
 point like why are we talking about
 point like why are we talking about
@@ -2976,15 +2976,15 @@ like I like
 otherwise that like maybe you know some
 otherwise that like maybe you know some
 otherwise that like maybe you know some
-validator says like i'm going to have
-validator says like i'm going to have
-validator says like i'm going to have
-this at some other validator says i'm
-this at some other validator says i'm
-this at some other validator says i'm
-going to have that asset and i'm like
-going to have that asset and i'm like
-going to have that asset and i'm like
+validator says like I'm going to have
+validator says like I'm going to have
+validator says like I'm going to have
+this at some other validator says I'm
+this at some other validator says I'm
+this at some other validator says I'm
+going to have that asset and I'm like
+going to have that asset and I'm like
+going to have that asset and I'm like
 now I started playing games about like
 now I started playing games about like
 now I started playing games about like
@@ -3033,9 +3033,9 @@ money or whatever to get my
 assets in
 assets in
 assets in
-maybe maybe i'm just being paranoid i
-maybe maybe i'm just being paranoid i
-maybe maybe i'm just being paranoid i
+maybe maybe I'm just being paranoid i
+maybe maybe I'm just being paranoid i
+maybe maybe I'm just being paranoid i
 see so you're saying like you can you
 see so you're saying like you can you
 see so you're saying like you can you
@@ -3064,11 +3064,11 @@ the prices
 the prices
 the prices
 
-i think
-i think
-i mean i'd like to brainstorm about this
-i mean i'd like to brainstorm about this
-i mean i'd like to brainstorm about this
+I think
+I think
+I mean i'd like to brainstorm about this
+I mean i'd like to brainstorm about this
+I mean i'd like to brainstorm about this
 maybe offline a little bit because
 maybe offline a little bit because
 maybe offline a little bit because
@@ -3135,9 +3135,9 @@ transactions because that's where you
 need the extra efficiency
 need the extra efficiency
 need the extra efficiency
-i I don't know if that's true at all i
-i I don't know if that's true at all i
-i I don't know if that's true at all i
+I I don't know if that's true at all i
+I I don't know if that's true at all i
+I I don't know if that's true at all i
 mean like you should just revert back to
 mean like you should just revert back to
 mean like you should just revert back to
@@ -3156,9 +3156,9 @@ about how you could game them and I i
 feel
 feel
 feel
-i feel so confident that they're all
-i feel so confident that they're all
-i feel so confident that they're all
+I feel so confident that they're all
+I feel so confident that they're all
+I feel so confident that they're all
 gameable that I i'd be willing to wager
 gameable that I i'd be willing to wager
 gameable that I i'd be willing to wager
@@ -3171,9 +3171,9 @@ heuristic that you came up with I could
 find a way to gain it
 find a way to gain it
 find a way to gain it
-i feel pretty confident
-i feel pretty confident
-i feel pretty confident
+I feel pretty confident
+I feel pretty confident
+I feel pretty confident
 not that much but I still feel pretty
 not that much but I still feel pretty
 not that much but I still feel pretty
@@ -3201,9 +3201,9 @@ to how to game even though I still
 believe it would be game
 believe it would be game
 believe it would be game
-so that's why i'm not willing to really
-so that's why i'm not willing to really
-so that's why i'm not willing to really
+so that's why I'm not willing to really
+so that's why I'm not willing to really
+so that's why I'm not willing to really
 make a big league but my point
 make a big league but my point
 make a big league but my point
@@ -3289,8 +3289,8 @@ no but that's it goes back to it it's
 no but that's it goes back to it it's
 no but that's it goes back to it it's
 all gameable
-i think there's just generally value
-i think there's just generally value
+I think there's just generally value
+I think there's just generally value
 value in having a
 value in having a
 value in having a
@@ -3300,9 +3300,9 @@ system that sort of runs predictably
 here
 here
 here
-i agree I agree but
-i agree I agree but
-i agree I agree but
+I agree I agree but
+I agree I agree but
+I agree I agree but
 
 all right I feel like that I feel well
 all right I feel like that I feel well
@@ -3328,8 +3328,8 @@ know
 know
 know
 
-i think we should also think about or
-i think we should also think about or
+I think we should also think about or
+I think we should also think about or
 sorry go ahead I did want to answer one
 sorry go ahead I did want to answer one
 sorry go ahead I did want to answer one
@@ -3393,9 +3393,9 @@ not that this is realistic at all but
 like imagine that would happen
 like imagine that would happen
 like imagine that would happen
-i imagine that there might be a ton of
-i imagine that there might be a ton of
-i imagine that there might be a ton of
+I imagine that there might be a ton of
+I imagine that there might be a ton of
+I imagine that there might be a ton of
 people who wanted to sell their rubles
 people who wanted to sell their rubles
 people who wanted to sell their rubles
@@ -3573,9 +3573,9 @@ ruble and if somebody else you know if
 if if somebody in russia says hey you
 if if somebody in russia says hey you
 if if somebody in russia says hey you
-guys suck i'm going to create a new
-guys suck i'm going to create a new
-guys suck i'm going to create a new
+guys suck I'm going to create a new
+guys suck I'm going to create a new
+guys suck I'm going to create a new
 speed x on stellar
 speed x on stellar
 speed x on stellar
@@ -3633,9 +3633,9 @@ really starting to ask a lot of people
 to do a lot of complications okay so
 to do a lot of complications okay so
 to do a lot of complications okay so
-well so what i'm saying is simple what's
-well so what i'm saying is simple what's
-well so what i'm saying is simple what's
+well so what I'm saying is simple what's
+well so what I'm saying is simple what's
+well so what I'm saying is simple what's
 wrong with my thing like there's just a
 wrong with my thing like there's just a
 wrong with my thing like there's just a
@@ -3720,9 +3720,9 @@ there's a you know competition between
 for like liquidity pool liquidity
 for like liquidity pool liquidity
 for like liquidity pool liquidity
-i think we could just have arbitrage
-i think we could just have arbitrage
-i think we could just have arbitrage
+I think we could just have arbitrage
+I think we could just have arbitrage
+I think we could just have arbitrage
 opportunities I mean like we hope no but
 opportunities I mean like we hope no but
 opportunities I mean like we hope no but
@@ -3816,9 +3816,9 @@ multi-chain
 the
 the
 the
-i think we really need to focus on our
-i think we really need to focus on our
-i think we really need to focus on our
+I think we really need to focus on our
+I think we really need to focus on our
+I think we really need to focus on our
 differentiators being like high value
 differentiators being like high value
 differentiators being like high value
@@ -3942,9 +3942,9 @@ somebody is authorized to hold your
 asset like
 asset like
 asset like
-i mean they can trade it for anything
-i mean they can trade it for anything
-i mean they can trade it for anything
+I mean they can trade it for anything
+I mean they can trade it for anything
+I mean they can trade it for anything
 they want
 they want
 they want
@@ -3973,8 +3973,8 @@ it's only I think for the scalability
 it's only I think for the scalability
 it's only I think for the scalability
 problem
-i guess my point is like
-i guess my point is like
+I guess my point is like
+I guess my point is like
 there are two kinds of preferences we
 there are two kinds of preferences we
 there are two kinds of preferences we
@@ -4317,9 +4317,9 @@ know what jeff hacked up in the middle
 of the night yesterday i
 of the night yesterday i
 of the night yesterday i
-i wouldn't be confident to say we could
-i wouldn't be confident to say we could
-i wouldn't be confident to say we could
+I wouldn't be confident to say we could
+I wouldn't be confident to say we could
+I wouldn't be confident to say we could
 do a thousand that already sounds really
 do a thousand that already sounds really
 do a thousand that already sounds really
@@ -4408,8 +4408,8 @@ or we could somehow divvy up the or the
 or we could somehow divvy up the or the
 or we could somehow divvy up the or the
 order book between speed x's
-i mean this seems fine to me I think
-i mean this seems fine to me I think
+I mean this seems fine to me I think
+I mean this seems fine to me I think
 anytime you have multiple speed x's with
 anytime you have multiple speed x's with
 anytime you have multiple speed x's with
@@ -4449,9 +4449,9 @@ speed x and then the third speed x
 my real concern is just like
 my real concern is just like
 my real concern is just like
-i I just really feel like the returns of
-i I just really feel like the returns of
-i I just really feel like the returns of
+I I just really feel like the returns of
+I I just really feel like the returns of
+I I just really feel like the returns of
 doing this are just like really marginal
 doing this are just like really marginal
 doing this are just like really marginal
@@ -4467,9 +4467,9 @@ my intuition and
 my intuition's been wrong many times
 my intuition's been wrong many times
 my intuition's been wrong many times
-before so i'm not claiming that what i
-before so i'm not claiming that what i
-before so i'm not claiming that what i
+before so I'm not claiming that what i
+before so I'm not claiming that what i
+before so I'm not claiming that what i
 believe is necessarily right but like my
 believe is necessarily right but like my
 believe is necessarily right but like my
@@ -4488,9 +4488,9 @@ whatever you want to label this first
 spur speed x and some ordering you know
 spur speed x and some ordering you know
 spur speed x and some ordering you know
-i'm not saying that the first px might
-i'm not saying that the first px might
-i'm not saying that the first px might
+I'm not saying that the first px might
+I'm not saying that the first px might
+I'm not saying that the first px might
 be the one that executes second right i
 be the one that executes second right i
 be the one that executes second right i
@@ -4566,9 +4566,9 @@ x's right but I just it's it's a way to
 
 
 
-i just I just don't want to put
-i just I just don't want to put
-i just I just don't want to put
+I just I just don't want to put
+I just I just don't want to put
+I just I just don't want to put
 validators
 validators
 validators
@@ -4605,9 +4605,9 @@ people to buy this fraudulent asset like
 what's your responsibility there
 what's your responsibility there
 what's your responsibility there
-i'm not a legal expert but like
-i'm not a legal expert but like
-i'm not a legal expert but like
+I'm not a legal expert but like
+I'm not a legal expert but like
+I'm not a legal expert but like
 probably very little like I don't
 probably very little like I don't
 probably very little like I don't
@@ -4743,9 +4743,9 @@ primarily we should move all the
 extension units to the top of the
 extension units to the top of the
 extension units to the top of the
-structure i'm not never gonna vote to
-structure i'm not never gonna vote to
-structure i'm not never gonna vote to
+structure I'm not never gonna vote to
+structure I'm not never gonna vote to
+structure I'm not never gonna vote to
 prove another proposal on which the ext
 prove another proposal on which the ext
 prove another proposal on which the ext
@@ -4827,9 +4827,9 @@ would work and why I think it's not a
 terrible idea
 terrible idea
 terrible idea
-i think it fits somewhere in between
-i think it fits somewhere in between
-i think it fits somewhere in between
+I think it fits somewhere in between
+I think it fits somewhere in between
+I think it fits somewhere in between
 some of these other proposals and
 some of these other proposals and
 some of these other proposals and

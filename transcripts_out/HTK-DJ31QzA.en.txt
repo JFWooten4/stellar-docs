@@ -219,18 +219,18 @@ okay
 cap 46. so cat 46 came out on friday
 cap 46. so cat 46 came out on friday
 cap 46. so cat 46 came out on friday
-i think there's been a lot of back and
-i think there's been a lot of back and
-i think there's been a lot of back and
+I think there's been a lot of back and
+I think there's been a lot of back and
+I think there's been a lot of back and
 forth on the mailing list though over
 forth on the mailing list though over
 forth on the mailing list though over
 the past few days a lot of questions
 the past few days a lot of questions
 the past few days a lot of questions
-asked but i'm going to pass it to graden
-asked but i'm going to pass it to graden
-asked but i'm going to pass it to graden
+asked but I'm going to pass it to graden
+asked but I'm going to pass it to graden
+asked but I'm going to pass it to graden
 
 
 
@@ -864,9 +864,9 @@ have this was actually the thing i
 wanted to talk about I just remembered
 wanted to talk about I just remembered
 wanted to talk about I just remembered
-so i'm glad you brought it up
-so i'm glad you brought it up
-so i'm glad you brought it up
+so I'm glad you brought it up
+so I'm glad you brought it up
+so I'm glad you brought it up
 there's this analogy that a lot of
 there's this analogy that a lot of
 there's this analogy that a lot of
@@ -1927,20 +1927,20 @@ by using host objects because they're so
 by using host objects because they're so
 by using host objects because they're so
 much faster and efficient
-i mean is it time to start digging into
-i mean is it time to start digging into
+I mean is it time to start digging into
+I mean is it time to start digging into
 some of these details or does anyone
 some of these details or does anyone
 some of these details or does anyone
-i guess my first the first question is
-i guess my first the first question is
-i guess my first the first question is
+I guess my first the first question is
+I guess my first the first question is
+I guess my first the first question is
 in general do people feel pretty good
 in general do people feel pretty good
 in general do people feel pretty good
 about this model
-i mean so so I have kind of a meta
-i mean so so I have kind of a meta
+I mean so so I have kind of a meta
+I mean so so I have kind of a meta
 comment which is that
 comment which is that
 comment which is that
@@ -2118,9 +2118,9 @@ point thing is sounds like something we
 might want to discuss
 might want to discuss
 might want to discuss
-i can speak to that a little bit i
-i can speak to that a little bit i
-i can speak to that a little bit i
+I can speak to that a little bit i
+I can speak to that a little bit i
+I can speak to that a little bit i
 mean just very briefly
 mean just very briefly
 mean just very briefly
@@ -2169,12 +2169,12 @@ first person to use expressed fear is
 your own floating point now personally
 your own floating point now personally
 your own floating point now personally
-myself i'm a little bit more of a
-myself i'm a little bit more of a
-myself i'm a little bit more of a
-floating point believer so I i'm not
-floating point believer so I i'm not
-floating point believer so I i'm not
+myself I'm a little bit more of a
+myself I'm a little bit more of a
+myself I'm a little bit more of a
+floating point believer so I I'm not
+floating point believer so I I'm not
+floating point believer so I I'm not
 as concerned about that there are
 as concerned about that there are
 as concerned about that there are
@@ -2274,9 +2274,9 @@ we need floating point if zero of them
 need floating point then it seems crazy
 need floating point then it seems crazy
 need floating point then it seems crazy
-i I agree that we can we can decide
-i I agree that we can we can decide
-i I agree that we can we can decide
+I I agree that we can we can decide
+I I agree that we can we can decide
+I I agree that we can we can decide
 whether or not to have floating point i
 whether or not to have floating point i
 whether or not to have floating point i
@@ -2289,9 +2289,9 @@ reason that floating point is not a
 reliable piece of software is hyperbolic
 reliable piece of software is hyperbolic
 reliable piece of software is hyperbolic
-i don't think that's a fair objection
-i don't think that's a fair objection
-i don't think that's a fair objection
+I don't think that's a fair objection
+I don't think that's a fair objection
+I don't think that's a fair objection
 floating point is very well defined at
 floating point is very well defined at
 floating point is very well defined at
@@ -2478,9 +2478,9 @@ there is essentially no
 there are there are no concurrent
 there are there are no concurrent
 there are there are no concurrent
-host objects in in this model and I i'm
-host objects in in this model and I i'm
-host objects in in this model and I i'm
+host objects in in this model and I I'm
+host objects in in this model and I I'm
+host objects in in this model and I I'm
 happy to spell that fact that that
 happy to spell that fact that that
 happy to spell that fact that that
@@ -2658,9 +2658,9 @@ quite quite a lot about I don't think
 most of its contents show up in this cap
 most of its contents show up in this cap
 most of its contents show up in this cap
-i think they show up in in in that the
-i think they show up in in in that the
-i think they show up in in in that the
+I think they show up in in in that the
+I think they show up in in in that the
+I think they show up in in in that the
 cap that talks about the transaction
 cap that talks about the transaction
 cap that talks about the transaction
@@ -2946,9 +2946,9 @@ that's that's
 particularly when we're talking about
 particularly when we're talking about
 particularly when we're talking about
-cost models that's something i'm
-cost models that's something i'm
-cost models that's something i'm
+cost models that's something I'm
+cost models that's something I'm
+cost models that's something I'm
 somewhat concerned about is making sure
 somewhat concerned about is making sure
 somewhat concerned about is making sure
@@ -3045,15 +3045,15 @@ or is that something
 that's just a bunch of unnecessary work
 that's just a bunch of unnecessary work
 that's just a bunch of unnecessary work
-i don't I mean the thing is we don't
-i don't I mean the thing is we don't
-i don't I mean the thing is we don't
-really we don't have at least i'm not
-really we don't have at least i'm not
-really we don't have at least i'm not
-so i'm not really expert in cap writing
-so i'm not really expert in cap writing
-so i'm not really expert in cap writing
+I don't I mean the thing is we don't
+I don't I mean the thing is we don't
+I don't I mean the thing is we don't
+really we don't have at least I'm not
+really we don't have at least I'm not
+really we don't have at least I'm not
+so I'm not really expert in cap writing
+so I'm not really expert in cap writing
+so I'm not really expert in cap writing
 but it it seems
 but it it seems
 but it it seems
@@ -3126,9 +3126,9 @@ this but we're not specifying them here
 it's just like for context if if you
 it's just like for context if if you
 it's just like for context if if you
-like i'm happy to add that
-like i'm happy to add that
-like i'm happy to add that
+like I'm happy to add that
+like I'm happy to add that
+like I'm happy to add that
 no it's okay I think we are going to
 no it's okay I think we are going to
 no it's okay I think we are going to
@@ -3192,9 +3192,9 @@ and there will be some some of that here
 as well of course
 as well of course
 as well of course
-i think we want probably
-i think we want probably
-i think we want probably
+I think we want probably
+I think we want probably
+I think we want probably
 yeah now is going to say real
 yeah now is going to say real
 yeah now is going to say real
@@ -3213,9 +3213,9 @@ oh yeah
 what
 what
 what
-so I guess i'm also trying to
-so I guess i'm also trying to
-so I guess i'm also trying to
+so I guess I'm also trying to
+so I guess I'm also trying to
+so I guess I'm also trying to
 understand like so you can have like a
 understand like so you can have like a
 understand like so you can have like a
@@ -3303,9 +3303,9 @@ there are exactly four types of data
 values shared between guest and host
 values shared between guest and host
 values shared between guest and host
-i'm maybe being splitting hairs in
-i'm maybe being splitting hairs in
-i'm maybe being splitting hairs in
+I'm maybe being splitting hairs in
+I'm maybe being splitting hairs in
+I'm maybe being splitting hairs in
 terminology here a little bit these are
 terminology here a little bit these are
 terminology here a little bit these are
@@ -3465,9 +3465,9 @@ and one of the big questions that we
 keep coming back to that keeps coming up
 keep coming back to that keeps coming up
 keep coming back to that keeps coming up
-in conversations i'm involved in is like
-in conversations i'm involved in is like
-in conversations i'm involved in is like
+in conversations I'm involved in is like
+in conversations I'm involved in is like
+in conversations I'm involved in is like
 what should a smart contract fund seller
 what should a smart contract fund seller
 what should a smart contract fund seller
@@ -3540,9 +3540,9 @@ smart and get the features there
 
 
 
-and these are the kinds of questions i'm
-and these are the kinds of questions i'm
-and these are the kinds of questions i'm
+and these are the kinds of questions I'm
+and these are the kinds of questions I'm
+and these are the kinds of questions I'm
 interested in the high level and there's
 interested in the high level and there's
 interested in the high level and there's
@@ -3594,9 +3594,9 @@ smart contract is that what the question
 is I can supply an example but
 is I can supply an example but
 is I can supply an example but
-i mean understand the use case it's more
-i mean understand the use case it's more
-i mean understand the use case it's more
+I mean understand the use case it's more
+I mean understand the use case it's more
+I mean understand the use case it's more
 like in terms of the
 like in terms of the
 like in terms of the
@@ -3609,9 +3609,9 @@ how is that really related to classic i
 guess i
 guess i
 guess i
-i guess the way that i'm i'm imagining
-i guess the way that i'm i'm imagining
-i guess the way that i'm i'm imagining
+I guess the way that I'm I'm imagining
+I guess the way that I'm I'm imagining
+I guess the way that I'm I'm imagining
 any of this stuff working is like
 any of this stuff working is like
 any of this stuff working is like
@@ -3678,9 +3678,9 @@ know
 so
 so
 so
-i think like the payment alone is
-i think like the payment alone is
-i think like the payment alone is
+I think like the payment alone is
+I think like the payment alone is
+I think like the payment alone is
 kind of an essential building block you
 kind of an essential building block you
 kind of an essential building block you
@@ -3714,9 +3714,9 @@ that or do we want to just say hey i
 can't do that from smart
 can't do that from smart
 can't do that from smart
-i mean I think that yeah this is exactly
-i mean I think that yeah this is exactly
-i mean I think that yeah this is exactly
+I mean I think that yeah this is exactly
+I mean I think that yeah this is exactly
+I mean I think that yeah this is exactly
 getting to the to the core of like what
 getting to the to the core of like what
 getting to the to the core of like what
@@ -3831,9 +3831,9 @@ boils down to requirements
 so I can you know while we don't have
 so I can you know while we don't have
 so I can you know while we don't have
-this document of requirements i'm happy
-this document of requirements i'm happy
-this document of requirements i'm happy
+this document of requirements I'm happy
+this document of requirements I'm happy
+this document of requirements I'm happy
 to throw some out there you know a one
 to throw some out there you know a one
 to throw some out there you know a one
@@ -3888,9 +3888,9 @@ smart world and then like it's a whole
 different primitives
 different primitives
 different primitives
-i don't know that's kind of like what we
-i don't know that's kind of like what we
-i don't know that's kind of like what we
+I don't know that's kind of like what we
+I don't know that's kind of like what we
+I don't know that's kind of like what we
 need to figure out
 need to figure out
 need to figure out
@@ -3960,9 +3960,9 @@ or not right yeah I think we're like i
 think I think you're getting into
 think I think you're getting into
 think I think you're getting into
-implementation here I just i'm
-implementation here I just i'm
-implementation here I just i'm
+implementation here I just I'm
+implementation here I just I'm
+implementation here I just I'm
 getting into
 getting into
 getting into
@@ -4062,9 +4062,9 @@ and like lee has proposed this is lee
 here
 here
 here
-i don't know
-i don't know
-i don't know
+I don't know
+I don't know
+I don't know
 yes
 yes
 yes
@@ -4191,24 +4191,24 @@ entire account at that signing weight to
 do anything you know you say medium well
 do anything you know you say medium well
 do anything you know you say medium well
-i can do anything at medium whatever it
-i can do anything at medium whatever it
-i can do anything at medium whatever it
+I can do anything at medium whatever it
+I can do anything at medium whatever it
+I can do anything at medium whatever it
 wants or do you need some better control
 wants or do you need some better control
 wants or do you need some better control
-i don't know
-i don't know
-i don't know
+I don't know
+I don't know
+I don't know
 what do you think about this david
 what do you think about this david
 what do you think about this david
 
 
 
-i mean yeah I think that that it cannot
-i mean yeah I think that that it cannot
-i mean yeah I think that that it cannot
+I mean yeah I think that that it cannot
+I mean yeah I think that that it cannot
+I mean yeah I think that that it cannot
 sound like a broken record but like
 sound like a broken record but like
 sound like a broken record but like
@@ -4299,9 +4299,9 @@ without knowing the requirements I would
 say like I would like to
 say like I would like to
 say like I would like to
-i I it seems to me like maybe a good
-i I it seems to me like maybe a good
-i I it seems to me like maybe a good
+I I it seems to me like maybe a good
+I I it seems to me like maybe a good
+I I it seems to me like maybe a good
 idea to have privileges be like a really
 idea to have privileges be like a really
 idea to have privileges be like a really
@@ -4338,9 +4338,9 @@ we can think of right now so you get to
 add new ones in the future if
 we don't we don't have to have a
 we don't we don't have to have a
-complete list for this that's all i'm
-complete list for this that's all i'm
-complete list for this that's all i'm
+complete list for this that's all I'm
+complete list for this that's all I'm
+complete list for this that's all I'm
 saying
 sure but you know
 sure but you know
@@ -4362,9 +4362,9 @@ privileged operation here because there
 are no operations so we don't yeah all
 are no operations so we don't yeah all
 are no operations so we don't yeah all
-i'm saying is we don't have to worry
-i'm saying is we don't have to worry
-i'm saying is we don't have to worry
+I'm saying is we don't have to worry
+I'm saying is we don't have to worry
+I'm saying is we don't have to worry
 about the weather privileges are
 about the weather privileges are
 about the weather privileges are
@@ -4497,9 +4497,9 @@ don't give them access to what they want
 to do
 to do
 to do
-i mean I guess one of the things i'm
-i mean I guess one of the things i'm
-i mean I guess one of the things i'm
+I mean I guess one of the things I'm
+I mean I guess one of the things I'm
+I mean I guess one of the things I'm
 saying is that stellar actually does
 saying is that stellar actually does
 saying is that stellar actually does
@@ -4581,15 +4581,15 @@ but the signing weight is it's a really
 really weak privilege system that's what
 really weak privilege system that's what
 really weak privilege system that's what
-i was talking about at the beginning of
-i was talking about at the beginning of
-i was talking about at the beginning of
+I was talking about at the beginning of
+I was talking about at the beginning of
+I was talking about at the beginning of
 this where it's like
 this where it's like
 this where it's like
-i'm i'm authorizing a contract to do
-i'm i'm authorizing a contract to do
-i'm i'm authorizing a contract to do
+I'm I'm authorizing a contract to do
+I'm I'm authorizing a contract to do
+I'm I'm authorizing a contract to do
 stuff to my account at medium signing
 stuff to my account at medium signing
 stuff to my account at medium signing
@@ -4656,9 +4656,9 @@ extract that amount from my account and
 send it to the contract
 send it to the contract
 send it to the contract
-i there's no way I can know what the
-i there's no way I can know what the
-i there's no way I can know what the
+I there's no way I can know what the
+I there's no way I can know what the
+I there's no way I can know what the
 contract is going to do when I sign for
 contract is going to do when I sign for
 contract is going to do when I sign for
@@ -4680,9 +4680,9 @@ some
 some reason for that right
 some reason for that right
 some reason for that right
-i mean you decided you wanted to this
-i mean you decided you wanted to this
-i mean you decided you wanted to this
+I mean you decided you wanted to this
+I mean you decided you wanted to this
+I mean you decided you wanted to this
 contract have access to your account
 sure yeah but like I don't necessarily
 sure yeah but like I don't necessarily
@@ -4722,9 +4722,9 @@ authorized flag on trust lines then
 you look at the code you say great like
 you look at the code you say great like
 you look at the code you say great like
-i don't have to worry about this
-i don't have to worry about this
-i don't have to worry about this
+I don't have to worry about this
+I don't have to worry about this
+I don't have to worry about this
 draining all my lumens by
 draining all my lumens by
 draining all my lumens by
@@ -4758,9 +4758,9 @@ on in this room and the answer is yes
 okay well I need to be convinced like
 okay well I need to be convinced like
 okay well I need to be convinced like
-i'm not saying that you can't but don't
-i'm not saying that you can't but don't
-i'm not saying that you can't but don't
+I'm not saying that you can't but don't
+I'm not saying that you can't but don't
+I'm not saying that you can't but don't
 show me the requirements that tell us we
 show me the requirements that tell us we
 show me the requirements that tell us we

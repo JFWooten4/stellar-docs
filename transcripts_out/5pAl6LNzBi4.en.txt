@@ -74,7 +74,7 @@ recently there was a new cap cap 55
 fee model in smart contracts I don't
 know if it just hit the mailing list
 yesterday there were a few comments that
-came in I guess i'm going to start by
+came in I guess I'm going to start by
 asking you
 nicola if we're ready to discuss that
 if that's where we should start
@@ -86,7 +86,7 @@ of like what's going on in that cap and
 then
 
 you know like we we don't have to go in
-details basically so i'm not sure like
+details basically so I'm not sure like
 we need to need to have like a lot of
 of a pre-reading basically as part of
 this
@@ -107,14 +107,14 @@ so do we want to start with this cap
 or I think there were there was also
 like the events one that cida
 opened that is maybe a little more scope
-i don't know
+I don't know
 yeah I argue let's start with the
 siddharth one because it's less
 contentious and we'll probably be
 arguing this okay great so we'll start
 there we'll end up at cat 55 sit down
 do you want to yeah
-i don't know if
+I don't know if
 everyone had time to read the cap
 document I actually made a fix of this
 morning
@@ -125,7 +125,7 @@ we can discuss after that
 so I made I added this this change on
 to cap 51 which is the host functions
 cap
-i just added
+I just added
 the ability for contracts to log
 data so I added a contract logs back to
 the transaction meta
@@ -146,7 +146,7 @@ contract log type where the logs are
 only emitted if there's an error
 so that's a very high high level
 overview are there any questions
-i guess like those logs they are like
+I guess like those logs they are like
 logs that are like the
 equivalent to
 events in ethereum
@@ -192,9 +192,9 @@ similar
 yeah I don't think I can't think
 off top of my head why we wouldn't do
 optimize like that that's that area
-i'm sorry I can look into that I got i
+I'm sorry I can look into that I got i
 don't think I don't see I don't think
-i see anything wrong with that
+I see anything wrong with that
 well actually I think it's kind of
 maybe like
 premature optimization type of situation
@@ -222,7 +222,7 @@ but if you want something that's like an
 application specific consumer
 which you do see in other ecosystems
 quite a bit
-you know if i'm developing a dap
+you know if I'm developing a dap
 and I want to have a
 you know like a stream coming in of my
 of my specific information why should i
@@ -233,9 +233,9 @@ you know share
 logs that are specifically relevant to
 me
 and that's again like a subscriber
-i don't see why this is like part of
+I don't see why this is like part of
 this gap
-well i'm not saying i'm not saying it's
+well I'm not saying I'm not saying it's
 part of this cap but I am saying like is
 is there a place in the in the protocol
 to to optimize for these use cases
@@ -278,7 +278,7 @@ filter or other sort of strategies in
 the future I don't I don't think so but
 yeah you can do any kind of filtering i
 mean
-i think the the
+I think the the
 the place where I can see having an
 actual bottleneck in the future is the
 actual size of the
@@ -328,13 +328,13 @@ something like right now you have this
 
 block type right system or contract
 info and basically if it's a
-i mean actually for both of them you
+I mean actually for both of them you
 probably want to have like an actual
 event name right like which is like a a
 short symbol of source
 right
 yeah I think that makes sense
-i would I would I would honestly look at
+I would I would I would honestly look at
 sort of what the subscription patterns
 that you see in other smart contracting
 platforms are because they they have
@@ -354,7 +354,7 @@ you move on to catholic
 actually like there is something yeah
 that I just thought about that I think
 you know from what
-i think graydon was
+I think graydon was
 asking in terms of use cases like
 like
 are there expectations for example that
@@ -413,7 +413,7 @@ is
 covered there are like several aspects
 kind of
 maybe like more important to discuss
-i think
+I think
 there's the the first one around
 the
 classification of resources and having
@@ -426,7 +426,7 @@ like some systems
 like historically started with just
 like ethereum just like gas as being
 the
-yes I i'm also a gas
+yes I I'm also a gas
 in the context in this context meaning
 
 the
@@ -475,8 +475,8 @@ they are linear it's a linear
 thing
 and then yeah you combine all those
 things and you get with your synthetic
-i don't remember how they call it weight
-i think in
+I don't remember how they call it weight
+I think in
 in
 over there but like yeah like that's
 that's a way to kind of compute this
@@ -549,7 +549,7 @@ we can
 
 we can actually express those markets
 like separately and we can therefore
-i I think
+I I think
 have like cheaper
 fees overall because you can price
 things properly so you don't have to
@@ -561,9 +561,9 @@ compute happens to be expensive which
 kind of
 would happen with the aggregate model
 so
-in the proposal what i'm
+in the proposal what I'm
 doing is actually
-i have like three categories three
+I have like three categories three
 really
 brackets for fees
 so one is for
@@ -594,7 +594,7 @@ it is separate right now
 and it is separate also because there is
 a
 interesting fee model for rights that
-i'm going to talk about later
+I'm going to talk about later
 let's see and the third category
 is actually something that is not a
 market it's not really a market there
@@ -612,7 +612,7 @@ competition between transactions
 instead we have like limits per
 transaction like basically we say
 you can only produce
-i don't know like a
+I don't know like a
 500k or something of meta right for a
 transaction and then
 that's your limit and then two
@@ -721,9 +721,9 @@ allows you have actually something a
 little
 more stable I would imagine than
 if it was like an aggregate
-i think the yeah the complexity from
+I think the yeah the complexity from
 multiple markets comes from
-i mean
+I mean
 one of the implications is actually when
 we
 construct one and say we validators
@@ -761,7 +761,7 @@ spend like 10 more
 than whatever happened in last few
 lectures
 that 10 percent you can put it
-i mean I imagine pretty safely across
+I mean I imagine pretty safely across
 like those different those different
 resource types like the ones with
 markets
@@ -784,7 +784,7 @@ yeah
 so I guess so
 one it's
 
-i guess high level it's not clearly what
+I guess high level it's not clearly what
 this adds over
 for having like a multi-dimensional
 optimization problem over the the
@@ -822,7 +822,7 @@ we have
 
 that it's we gain by sort of
 allocating some
-i don't know
+I don't know
 resource to like I o versus some to to
 compute as opposed to just like looking
 at the whole picture of like the total
@@ -835,9 +835,9 @@ certainly like you want like an
 overall limit perhaps on like the total
 number of ledger entries
 and so
-i know I don't think
+I know I don't think
 sort of thinking off the top my head
-i don't think it's incompatible to have
+I don't think it's incompatible to have
 like a one-dimensional
 like
 gas market and then like sort of price
@@ -850,7 +850,7 @@ resource
 and then you do some like filtering step
 but that's sort of thinking
 very much off the top my head
-i don't think we necessarily I guess
+I don't think we necessarily I guess
 high level I don't think we necessarily
 have to go to the full multi-dimensional
 operation problem
@@ -859,7 +859,7 @@ it it just looked like
 from
 historical
 kind of experience right like a like
-i o is a huge problem
+I o is a huge problem
 and
 trying to model that as time
 is actually making it's actually a
@@ -890,14 +890,14 @@ overall io I guess
 and then there's yeah the other aspect
 actually maybe if
 we can you know like
-i don't think we're going to
+I don't think we're going to
 necessarily like close on this
 multi-dimensional thing you know now but
 like there's the other aspect of yeah
 ledger size and rights that is
 actually another kind of key thing in
 there that
-i guess makes
+I guess makes
 
 io a little more special also
 nico just to go back to
@@ -938,7 +938,7 @@ kind of natural way of of of having a
 a transaction compete against other
 transactions that are paying for
 expensive stuff
-that's kind of what i'm getting to
+that's kind of what I'm getting to
 like like if you have like
 what was it like a good example would be
 like
@@ -995,7 +995,7 @@ represent a limit on the other and vice
 versa and so you you you can't trade
 between the two of them from from a
 market perspective
-sorry i'm not quite following something
+sorry I'm not quite following something
 didn't didn't we say earlier that we
 were going to do like all of the sort of
 disk reads first and then do the
@@ -1003,15 +1003,15 @@ executions right so that if we have a
 lot of disk reads then we have less time
 for execution
 and so the vice versa
-i I sort of understand that there's not
+I I sort of understand that there's not
 they're not like directly tradable but
 they seem
 correlated or anti-correlated
 well they're they're they're different
-devices so like right i'm using the disk
-and then i'm doing the cpu right i'm not
+devices so like right I'm using the disk
+and then I'm doing the cpu right I'm not
 using it at the same time
-i mean like sure there's different
+I mean like sure there's different
 offers and things but
 yeah sure but the the execution
 characteristics of each of them are are
@@ -1019,15 +1019,15 @@ different so you you use everyone uses
 the same desk and then everyone sort of
 farms out to multiple threats
 right
-i feel like we're talking past each
+I feel like we're talking past each
 other I mean yes one goes in in order of
 the other the two of them do get added
 together
 in order to represent the the total time
 but you can't trade time on one of them
-for time on the other that's what i'm
+for time on the other that's what I'm
 saying
-i think i'm not quite following but
+I think I'm not quite following but
 that's okay
 nico are there any other
 networks and fee systems that
@@ -1038,12 +1038,12 @@ like the yeah execution time and and
 like compute right and and disc are
 like the two big things that I isolated
 like the right side
-i figured it would probably
+I figured it would probably
 is probably not needed
 so I kind of put a flat fee for the
 other ones
 like basically like
-in a proposal i'm basically saying like
+in a proposal I'm basically saying like
 we're okay with you know if you want to
 have like
 something that
@@ -1063,7 +1063,7 @@ here is in your proposal you're talking
 a fair amount about state expiry
 yeah
 before we go into estate expiration
-which I know is a big topic i'm still
+which I know is a big topic I'm still
 trying to to reason about like the
 kind of the wallet experience and user
 experience of having having these like
@@ -1094,7 +1094,7 @@ because it's all implicit
 okay so so a wallet can can do a
 pre-flight can tell me like the expected
 cost
-i can
+I can
 
 you know
 bid
@@ -1165,7 +1165,7 @@ of storage
 
 so in the proposal what I what I did is
 
-i basically used as an approximation for
+I basically used as an approximation for
 
 for the cluster storage the
 bucket list size so like the
@@ -1173,7 +1173,7 @@ bucket list size so like the
 some basically like the
 the ledger is organized into those
 like 19 buckets
-i think it's 19 and then
+I think it's 19 and then
 it you if you
 if you
 do a
@@ -1187,7 +1187,7 @@ basically like based on the
 size of the the the total size the or
 total size of the ledger
 
-i allocate like a a price function
+I allocate like a a price function
 that kind of looks like an exponential
 from fall like basically it starts
 with a slow slope
@@ -1214,7 +1214,7 @@ in this case like you have like your
 normal slope that goes to
 in like I don't know let's say you have
 100 gig and it would be like
-i want to use maybe like the first 80
+I want to use maybe like the first 80
 gig at a
 rate
 that's going to be
@@ -1264,7 +1264,7 @@ to have like a free ride on the on on
 the on the ledger right like so you
 shouldn't be able to have like
 store
-i don't know like
+I don't know like
 nfts like jpegs whatever
 on chain you pay
 for for this when storage is cheap
@@ -1360,7 +1360,7 @@ like some
 strange token activity
 which is not entirely I mean it's
 it's not
-i mean there are a combination of
+I mean there are a combination of
 factors like
 one is yeah like just price of in
 crypto assets go you know
@@ -1443,7 +1443,7 @@ yeah like what
 so what I sketched or what we
 sketched actually in the cup which is
 you know just a more of a strowman type
-of thing because i'm sure we can do
+of thing because I'm sure we can do
 better than that is
 is we actually are kind of
 ensuring that you do not have like
@@ -1466,7 +1466,7 @@ like it's let's you say okay I need
 to
 when I set my limits right the number of
 rights
-i actually have to think about well
+I actually have to think about well
 actually my capacity in rights is half
 of of what I can
 add to the ledger because I also need to
@@ -1492,7 +1492,7 @@ actually cause the system to
 kind of create a gigantic spike you know
 at a specific dates
 so just we don't have a lot of time but
-i just want to ask what like the
+I just want to ask what like the
 biggest question I think that there is
 like what is the what's the expected
 behavior here like you know these ledger
@@ -1501,7 +1501,7 @@ instruments
 let's say assets just for simplicity
 even though we have like a standard
 asset contract
-and i'm
+and I'm
 you know paddling on
 shares of something
 
@@ -1516,7 +1516,7 @@ if
 you know if you look at
 you know various common immutable
 contracts like uni swap you know and so
-and and i'm holding on like these uni
+and and I'm holding on like these uni
 tokens
 what's the expectation here like who's
 going to touch these for me
@@ -1549,7 +1549,7 @@ infrastructure
 like you know contracts or whatever that
 are a little more
 centralized
-i think trump's point is that there's a
+I think trump's point is that there's a
 free rider problem here like imagine
 that all the people in this room are
 using a single contract right
@@ -1570,12 +1570,12 @@ like each of us will have like our
 own ledger entry
 within that contract
 so maybe did I not understand correctly
-i think I think i'm concerned about
+I think I think I'm concerned about
 people's money vanishing into thin air
 which is completely reasonable these are
 balances and we're just going to delete
 them that's not that's not super great
-i recall there being a proposal to like
+I recall there being a proposal to like
 have
 but what happened to this like when
 you have a ledger engine deleted it like
@@ -1673,7 +1673,7 @@ yeah they do eventually disappear if you
 if you put five dollars in a bank
 account and then wait for 20 years it'll
 go away
-i mean this just points to yeah you're
+I mean this just points to yeah you're
 not stirring your your balance in the
 right place
 like this is shared infrastructure like
@@ -1681,13 +1681,13 @@ if you don't if you don't use it you
 lose it
 but nikki you can't just like ignore the
 entire
-industry that we're in and you know i'm
+industry that we're in and you know I'm
 not pretending that this is not a
 problem like people are overlooking this
 problem
 but
 you know it's
-i think it will be really difficult to
+I think it will be really difficult to
 bring people into stellar
 telling them oh this is the way it works
 in selena right so

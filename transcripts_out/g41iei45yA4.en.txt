@@ -237,9 +237,9 @@ david made revisions recently based on
 the last discussion that we have and so
 the last discussion that we have and so
 the last discussion that we have and so
-i think where we're at now is like
-i think where we're at now is like
-i think where we're at now is like
+I think where we're at now is like
+I think where we're at now is like
+I think where we're at now is like
 are there
 are there
 are there
@@ -264,9 +264,9 @@ so
 anyone got anything
 anyone got anything
 anyone got anything
-i'm happy to summarize the changes
-i'm happy to summarize the changes
-i'm happy to summarize the changes
+I'm happy to summarize the changes
+I'm happy to summarize the changes
+I'm happy to summarize the changes
 awesome perfect pretty minor
 awesome perfect pretty minor
 awesome perfect pretty minor
@@ -360,9 +360,9 @@ number 11.
 you know previously
 you know previously
 you know previously
-i can't remember what I said you took
-i can't remember what I said you took
-i can't remember what I said you took
+I can't remember what I said you took
+I can't remember what I said you took
+I can't remember what I said you took
 the one with like the highest
 the one with like the highest
 the one with like the highest
@@ -525,9 +525,9 @@ first
 like if if I have like I think we
 like if if I have like I think we
 like if if I have like I think we
-discussed that I i'm not exactly sure if
-discussed that I i'm not exactly sure if
-discussed that I i'm not exactly sure if
+discussed that I I'm not exactly sure if
+discussed that I I'm not exactly sure if
+discussed that I I'm not exactly sure if
 it was relevant to the
 it was relevant to the
 it was relevant to the
@@ -564,9 +564,9 @@ can have if I have access to those
 pre-signed transactions
 pre-signed transactions
 pre-signed transactions
-i don't remember actually I would
-i don't remember actually I would
-i don't remember actually I would
+I don't remember actually I would
+I don't remember actually I would
+I don't remember actually I would
 need to go back to the protocol that is
 need to go back to the protocol that is
 need to go back to the protocol that is
@@ -582,9 +582,9 @@ situation
 can people remember
 can people remember
 can people remember
-i I remember the the problem with the
-i I remember the the problem with the
-i I remember the the problem with the
+I I remember the the problem with the
+I I remember the the problem with the
+I I remember the the problem with the
 the problem with the old one was that
 the problem with the old one was that
 the problem with the old one was that
@@ -618,9 +618,9 @@ there's nothing
 
 
 
-i mean I guess there's there's
-i mean I guess there's there's
-i mean I guess there's there's
+I mean I guess there's there's
+I mean I guess there's there's
+I mean I guess there's there's
 potentially like a continued
 potentially like a continued
 potentially like a continued
@@ -637,8 +637,8 @@ guarantees that the attacker can win the
 guarantees that the attacker can win the
 guarantees that the attacker can win the
 race
-the disclosure yeah like i'm looking
-the disclosure yeah like i'm looking
+the disclosure yeah like I'm looking
+the disclosure yeah like I'm looking
 at the protocol that described in the
 at the protocol that described in the
 at the protocol that described in the
@@ -702,9 +702,9 @@ age condition
 okay so then it's I think yeah like now
 okay so then it's I think yeah like now
 okay so then it's I think yeah like now
-i remember like it's
-i remember like it's
-i remember like it's
+I remember like it's
+I remember like it's
+I remember like it's
 for this particular protocol it's it
 for this particular protocol it's it
 for this particular protocol it's it
@@ -828,9 +828,9 @@ wow
 john
 john
 john
-i didn't have any issues when I mean
-i didn't have any issues when I mean
-i didn't have any issues when I mean
+I didn't have any issues when I mean
+I didn't have any issues when I mean
+I didn't have any issues when I mean
 there's some typos and stuff but I don't
 there's some typos and stuff but I don't
 there's some typos and stuff but I don't
@@ -885,9 +885,9 @@ land of what you kind of were
 experimenting on
 experimenting on
 experimenting on
-i don't I don't know because I like the
-i don't I don't know because I like the
-i don't I don't know because I like the
+I don't I don't know because I like the
+I don't I don't know because I like the
+I don't I don't know because I like the
 it's very clear to me that this produces
 it's very clear to me that this produces
 it's very clear to me that this produces
@@ -1194,9 +1194,9 @@ that we can
 improve
 improve
 improve
-i think what we've proven so far
-i think what we've proven so far
-i think what we've proven so far
+I think what we've proven so far
+I think what we've proven so far
+I think what we've proven so far
 and and what we've coupled with cut 40
 and and what we've coupled with cut 40
 and and what we've coupled with cut 40
@@ -1338,9 +1338,9 @@ and so people are gonna be quite
 happy to have it in the long run
 happy to have it in the long run
 happy to have it in the long run
-i think it's definitely the same thing
-i think it's definitely the same thing
-i think it's definitely the same thing
+I think it's definitely the same thing
+I think it's definitely the same thing
+I think it's definitely the same thing
 in this because it like fundamentally
 in this because it like fundamentally
 in this because it like fundamentally
@@ -1507,8 +1507,8 @@ in time like is this is there an
 in time like is this is there an
 in time like is this is there an
 opportunity cost here
-i mean like yeah I mean it's like
-i mean like yeah I mean it's like
+I mean like yeah I mean it's like
+I mean like yeah I mean it's like
 everything else like I think we have to
 everything else like I think we have to
 everything else like I think we have to
@@ -1563,9 +1563,9 @@ implementation
 to this is one part
 to this is one part
 to this is one part
-i think the
-i think the
-i think the
+I think the
+I think the
+I think the
 the other part was around I think the
 the other part was around I think the
 the other part was around I think the
@@ -1578,9 +1578,9 @@ infrastructure that we have which is
 kind of
 kind of
 kind of
-broken in the in this context i'm
-broken in the in this context i'm
-broken in the in this context i'm
+broken in the in this context I'm
+broken in the in this context I'm
+broken in the in this context I'm
 not sure exactly how much work this is
 not sure exactly how much work this is
 not sure exactly how much work this is
@@ -1588,17 +1588,17 @@ going to be I mean like to answer the
 going to be I mean like to answer the
 going to be I mean like to answer the
 the last question
-i mean it's
-i mean it's
+I mean it's
+I mean it's
 it's not the
 it's not the
 it's not the
 cheapest cup you know we've done it's
 cheapest cup you know we've done it's
 cheapest cup you know we've done it's
-i would probably put it as like a
-i would probably put it as like a
-i would probably put it as like a
+I would probably put it as like a
+I would probably put it as like a
+I would probably put it as like a
 you know medium in terms of like
 you know medium in terms of like
 you know medium in terms of like
@@ -1620,9 +1620,9 @@ like in q1 next year it would probably
 be done in q1
 be done in q1
 be done in q1
-i don't know the implications on like
-i don't know the implications on like
-i don't know the implications on like
+I don't know the implications on like
+I don't know the implications on like
+I don't know the implications on like
 the sdks and so on though like
 but it looks like they are basically not
 but it looks like they are basically not
@@ -1737,18 +1737,18 @@ to test this in the existing test tests
 and
 and
 and
-i'm not that's familiar with the
-i'm not that's familiar with the
-i'm not that's familiar with the
+I'm not that's familiar with the
+I'm not that's familiar with the
+I'm not that's familiar with the
 style called codebase so it was
 style called codebase so it was
 style called codebase so it was
 definitely challenging so i
 definitely challenging so i
 definitely challenging so i
-i think that's probably right too and
-i think that's probably right too and
-i think that's probably right too and
+I think that's probably right too and
+I think that's probably right too and
+I think that's probably right too and
 then I think in horizon
 then I think in horizon
 then I think in horizon
@@ -1984,8 +1984,8 @@ gonna get more information by delaying
 gonna get more information by delaying
 gonna get more information by delaying
 until it's too late
-i mean I think procedurally we there's
-i mean I think procedurally we there's
+I mean I think procedurally we there's
+I mean I think procedurally we there's
 one person jed couldn't make it today
 one person jed couldn't make it today
 one person jed couldn't make it today
@@ -2019,7 +2019,7 @@ and see see what you guys
 think about accepting that's that's kind
 think about accepting that's that's kind
 think about accepting that's that's kind
-of where i'm at I don't know
+of where I'm at I don't know
 any objections to that plan
 any objections to that plan
 and cap 40 as well
@@ -2077,8 +2077,8 @@ is there anything else are we done for
 is there anything else are we done for
 is there anything else are we done for
 the day
-i take that silences awesome well once
-i take that silences awesome well once
+I take that silences awesome well once
+I take that silences awesome well once
 again thanks everybody for joining
 again thanks everybody for joining
 again thanks everybody for joining

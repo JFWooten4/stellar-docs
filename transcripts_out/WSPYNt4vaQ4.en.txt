@@ -71,17 +71,17 @@ right yeah the keep those requests
 coming
 tomer do you think we're gonna see
 dowels being established through those
-smart contracts i'm sure we'll see
+smart contracts I'm sure we'll see
 dows yes
 what is the first dow you would like to
 see
-i would like to see a dao
+I would like to see a dao
 for
 a dow building platform
 so
 cool yeah
 great answer yeah
-yeah I think i'm still i'm stealing this
+yeah I think I'm still I'm stealing this
 from jason our ceo oh he has he's also
 expressed an interest in the past and
 having like a dow dow I mean it's got a
@@ -97,7 +97,7 @@ maybe I should actually post a link
 to the repo it lives in
 but
 tell us a bit about the token contract
-i mean there's
+I mean there's
 there's not a ton to say it's a it's a
 token
 it looks a lot like
@@ -110,7 +110,7 @@ what I what is built so now what is
 built so far isn't actually like
 compliant with the spec that we
 published for it
-but i'm going to work on getting it
+but I'm going to work on getting it
 closer to spec in the next couple of
 days
 so probably by like I don't know I don't
@@ -119,7 +119,7 @@ end of next week it'll probably be
 pretty close and pretty reasonable it
 won't have all the functionality but
 it'll be pretty close
-i'm going to post a link to that in
+I'm going to post a link to that in
 jump cannon right now so give me a
 second
 that's awesome
@@ -142,7 +142,7 @@ so you know basically at the beginning
 of the whole erc experience or the erc20
 experience what you would do is you're
 like okay I have this contract I want to
-interact with it i'm going to approve it
+interact with it I'm going to approve it
 to transfer balance from my account and
 so you submit a transaction
 on ethereum you wait for some you
@@ -193,7 +193,7 @@ you go
 a lot of the conversation around eip
 2612 was around this like this
 gasless concept basically like
-i shouldn't need to have an account that
+I shouldn't need to have an account that
 has money in it basically to do stuff or
 has ethernet
 and so this really like these kinds of
@@ -250,7 +250,7 @@ the api is still relatively unstable
 so I mean as as we talked just before
 
 just before
-this event i'm
+this event I'm
 adding things like iterators slicing to
 vectors and
 you know there's certain things about
@@ -272,13 +272,13 @@ sdk is in flash blocks I do want to
 emphasize that it is quite sleek like
 the stuff that works when it it's pretty
 cool it's very kind of easy to use so
-i had a good experience working with
+I had a good experience working with
 that is the sdk something people can
 look at right now today or is it as has
 it yet to be put out into the wild
-i mean the code is is public it's on
+I mean the code is is public it's on
 github it's just go to github.com
-stellar and i'm sure you'll find it
+stellar and I'm sure you'll find it
 the docs aren't up yet the
 anywhere in particular for it just yet
 so
@@ -300,7 +300,7 @@ contract what should they look at first
 so
 at any
 rust
-i don't remember the lingo but you
+I don't remember the lingo but you
 should look at the lib rs file because
 that's like the entry point for any
 code that is not executable
@@ -446,7 +446,7 @@ asked lee what are you most excited
 about for for the launch of smart
 contracts on stellar like what would you
 most like to see
-i really love the fact
+I really love the fact
 that the sdk like builds on rust
 so you can use like the entire ecosystem
 of rust tooling they're at your
@@ -455,7 +455,7 @@ rust tooling for fuzzying or you know
 the type of
 testing frameworks that lee pointed out
 
-and you know most most of all i'm
+and you know most most of all I'm
 just like really excited to see what
 others build and what are the things
 that we're not thinking about right now
@@ -642,7 +642,7 @@ chat you have a question
 yeah I was just hoping to ask about
 an update towards 55 I believe was
 the number
-i think the last
+I think the last
 stellar dev chat we had was
 on some of the fee mechanics
 specifically the
@@ -657,7 +657,7 @@ but just kind of regarding that
 no that's great niko's not here so we
 can talk about cap55
 
-i would say that
+I would say that
 we haven't
 there are some internal efforts to
 to come up with
@@ -768,7 +768,7 @@ then like you should expect to have
 excellent interoperability with with a
 smart contract assuming that the native
 contract we're providing is widely
-adopted i'm saying
+adopted I'm saying
 same question regarding nfts
 sorry I think I just cut you off john
 but I think you were just going to read
@@ -795,7 +795,7 @@ here
 yeah I think that's a that's a very
 good question that we need to to figure
 out
-i don't think fred is in the audience
+I don't think fred is in the audience
 right now but I would love to get fred's
 take on it whether we need to have
 this like
@@ -821,7 +821,7 @@ nft contracts in the ecosystem to better
 understand that
 and that's like john said that work
 is slated for next month all right
-matthias has another question i'm glad
+matthias has another question I'm glad
 he labeled it as a question for me are
 there any current education stellar
 partners such as stellar quest or the
@@ -837,12 +837,12 @@ where
 where it's easy to onboard but it's a
 it's a very top priority for us to get
 there
-i think maybe seashells wanted to be in
+I think maybe seashells wanted to be in
 the recording so seashells has
 wished us all a happy thursday
 we have pantheon wants to speak
 here you go
-i just I don't know if you can answer
+I just I don't know if you can answer
 this quickly or not it's more of a
 security question as to do you see
 any security flaws with this platform or
@@ -856,7 +856,7 @@ situation where if someone has
 a secret key access that's that the
 whole smart contract is now exposed or
 
-i would say that smart contracts
+I would say that smart contracts
 introduce
 a lot of
 you know they allow
@@ -948,7 +948,7 @@ operation
 which makes things a bit more
 palatable so maybe we'll see issuers
 move to
-minting on the smart side but i'm not
+minting on the smart side but I'm not
 sure
 so I think we're we passed the 35
 minute mark and if there are no other

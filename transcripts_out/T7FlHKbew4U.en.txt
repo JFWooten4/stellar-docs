@@ -3,9 +3,9 @@ all righty welcome to another episode of
 engineering talks my name is tyler van
 engineering talks my name is tyler van
 engineering talks my name is tyler van
-der Hooven and i'm gonna be talking
-der Hooven and i'm gonna be talking
-der Hooven and i'm gonna be talking
+der Hooven and I'm gonna be talking
+der Hooven and I'm gonna be talking
+der Hooven and I'm gonna be talking
 today about a preset proposal for
 today about a preset proposal for
 today about a preset proposal for

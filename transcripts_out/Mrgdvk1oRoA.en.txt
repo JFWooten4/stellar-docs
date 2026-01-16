@@ -18,9 +18,9 @@ in the channel but if you have
 questions
 questions
 questions
-while i'm going through this talk go
-while i'm going through this talk go
-while i'm going through this talk go
+while I'm going through this talk go
+while I'm going through this talk go
+while I'm going through this talk go
 ahead and scan the qr code and you can
 ahead and scan the qr code and you can
 ahead and scan the qr code and you can
@@ -75,15 +75,15 @@ get their anchor service up quickly and
 with less work required
 with less work required
 with less work required
-so i'm going to go into the details of
-so i'm going to go into the details of
-so i'm going to go into the details of
+so I'm going to go into the details of
+so I'm going to go into the details of
+so I'm going to go into the details of
 how to build this anchor but before i
 how to build this anchor but before i
 how to build this anchor but before i
-do i'm gonna go over a brief
-do i'm gonna go over a brief
-do i'm gonna go over a brief
+do I'm gonna go over a brief
+do I'm gonna go over a brief
+do I'm gonna go over a brief
 presentation that just describes what it
 presentation that just describes what it
 presentation that just describes what it
@@ -120,9 +120,9 @@ about django
 and hopefully you do in this
 and hopefully you do in this
 and hopefully you do in this
-presentation because i'm going to be
-presentation because i'm going to be
-presentation because i'm going to be
+presentation because I'm going to be
+presentation because I'm going to be
+presentation because I'm going to be
 going into django code
 going into django code
 going into django code
@@ -198,9 +198,9 @@ endpoints they're all going to have
 what the step describes and when I say
 what the step describes and when I say
 what the step describes and when I say
-the set sorry i'm just going to
-the set sorry i'm just going to
-the set sorry i'm just going to
+the set sorry I'm just going to
+the set sorry I'm just going to
+the set sorry I'm just going to
 break out of my actually i'll stay in
 break out of my actually i'll stay in
 break out of my actually i'll stay in
@@ -543,9 +543,9 @@ this
 are familiar with django and are
 are familiar with django and are
 are familiar with django and are
-familiar with the seps i'm gonna brush
-familiar with the seps i'm gonna brush
-familiar with the seps i'm gonna brush
+familiar with the seps I'm gonna brush
+familiar with the seps I'm gonna brush
+familiar with the seps I'm gonna brush
 over some details about the steps so you
 over some details about the steps so you
 over some details about the steps so you
@@ -555,9 +555,9 @@ have some context but
 overall this talk is gonna assume that
 overall this talk is gonna assume that
 overall this talk is gonna assume that
-you know what i'm talking about when it
-you know what i'm talking about when it
-you know what i'm talking about when it
+you know what I'm talking about when it
+you know what I'm talking about when it
+you know what I'm talking about when it
 comes to
 comes to
 comes to
@@ -702,9 +702,9 @@ function in with actual banking payment
 rails
 rails
 rails
-code i'm just going to do what's
-code i'm just going to do what's
-code i'm just going to do what's
+code I'm just going to do what's
+code I'm just going to do what's
+code I'm just going to do what's
 required from a functional standpoint to
 required from a functional standpoint to
 required from a functional standpoint to
@@ -798,9 +798,9 @@ okay and we're gonna do questions
 after the
 after the
 after the
-demo but for now i'm going to
-demo but for now i'm going to
-demo but for now i'm going to
+demo but for now I'm going to
+demo but for now I'm going to
+demo but for now I'm going to
 transition into coding
 transition into coding
 transition into coding
@@ -822,9 +822,9 @@ certain things
 okay cool we are right on schedule
 okay cool we are right on schedule
 okay cool we are right on schedule
-so this is pycharm i'm gonna be you
-so this is pycharm i'm gonna be you
-so this is pycharm i'm gonna be you
+so this is pycharm I'm gonna be you
+so this is pycharm I'm gonna be you
+so this is pycharm I'm gonna be you
 know
 know
 know
@@ -867,9 +867,9 @@ from a user's perspective and
 and this is a little demo that we do so
 and this is a little demo that we do so
 and this is a little demo that we do so
-what i'm doing here
-what i'm doing here
-what i'm doing here
+what I'm doing here
+what I'm doing here
+what I'm doing here
 is this is a little demo wallet that
 is this is a little demo wallet that
 is this is a little demo wallet that
@@ -915,9 +915,9 @@ ultimately build we want to get to this
 point by the end of this talk
 point by the end of this talk
 point by the end of this talk
-so i'm going to make a deposit it's
-so i'm going to make a deposit it's
-so i'm going to make a deposit it's
+so I'm going to make a deposit it's
+so I'm going to make a deposit it's
+so I'm going to make a deposit it's
 going to go through the step 24 flow
 going to go through the step 24 flow
 going to go through the step 24 flow
@@ -936,9 +936,9 @@ so if I was a user this is the first
 form that would be presented to me
 form that would be presented to me
 form that would be presented to me
-i'm trying to make a deposit onto into
-i'm trying to make a deposit onto into
-i'm trying to make a deposit onto into
+I'm trying to make a deposit onto into
+I'm trying to make a deposit onto into
+I'm trying to make a deposit onto into
 my account on stuller
 my account on stuller
 my account on stuller
@@ -954,9 +954,9 @@ you know to specify how much I plan to
 deposit
 deposit
 deposit
-and so i'm going to tell them that i'm
-and so i'm going to tell them that i'm
-and so i'm going to tell them that i'm
+and so I'm going to tell them that I'm
+and so I'm going to tell them that I'm
+and so I'm going to tell them that I'm
 going to deposit a hundred dollars
 going to deposit a hundred dollars
 going to deposit a hundred dollars
@@ -969,9 +969,9 @@ assume that
 deposits are actually sent right on
 deposits are actually sent right on
 deposits are actually sent right on
-testing everything's fake right so i'm
-testing everything's fake right so i'm
-testing everything's fake right so i'm
+testing everything's fake right so I'm
+testing everything's fake right so I'm
+testing everything's fake right so I'm
 not actually gonna send money
 not actually gonna send money
 not actually gonna send money
@@ -1026,9 +1026,9 @@ fancy on it you can check it out on
 testnet
 testnet
 testnet
-but i'm just gonna deposit a 100 or 100
-but i'm just gonna deposit a 100 or 100
-but i'm just gonna deposit a 100 or 100
+but I'm just gonna deposit a 100 or 100
+but I'm just gonna deposit a 100 or 100
+but I'm just gonna deposit a 100 or 100
 srt
 srt
 srt
@@ -1071,9 +1071,9 @@ my account right now I could show you
 that I have at least 100
 that I have at least 100
 that I have at least 100
-srt in my account and i'm not going to
-srt in my account and i'm not going to
-srt in my account and i'm not going to
+srt in my account and I'm not going to
+srt in my account and I'm not going to
+srt in my account and I'm not going to
 show you
 show you
 show you
@@ -1089,9 +1089,9 @@ kind of a page that displays all the
 information on the transaction so
 information on the transaction so
 information on the transaction so
-i sent them 100 supposedly I was charged
-i sent them 100 supposedly I was charged
-i sent them 100 supposedly I was charged
+I sent them 100 supposedly I was charged
+I sent them 100 supposedly I was charged
+I sent them 100 supposedly I was charged
 a dollar and one cents
 a dollar and one cents
 a dollar and one cents
@@ -1134,9 +1134,9 @@ that's going to be the user experience
 behind the scenes blogs is going to be
 behind the scenes blogs is going to be
 behind the scenes blogs is going to be
-doing a lot more and i'm going to walk
-doing a lot more and i'm going to walk
-doing a lot more and i'm going to walk
+doing a lot more and I'm going to walk
+doing a lot more and I'm going to walk
+doing a lot more and I'm going to walk
 through what that is
 through what that is
 through what that is
@@ -1170,9 +1170,9 @@ project
 you're going to want to create a virtual
 you're going to want to create a virtual
 you're going to want to create a virtual
-environment so i'm going to create a
-environment so i'm going to create a
-environment so i'm going to create a
+environment so I'm going to create a
+environment so I'm going to create a
+environment so I'm going to create a
 virtual environment right now using
 virtual environment right now using
 virtual environment right now using
@@ -1188,9 +1188,9 @@ activates the virtual environment
 but let's just do it you know the normal
 but let's just do it you know the normal
 but let's just do it you know the normal
-way so i'm just going to
-way so i'm just going to
-way so i'm just going to
+way so I'm just going to
+way so I'm just going to
+way so I'm just going to
 execute the activate function for the
 execute the activate function for the
 execute the activate function for the
@@ -1201,8 +1201,8 @@ so this is dot vmv
 so this is dot vmv
 so this is dot vmv
 and activate
-okay so now i'm in a virtual
-okay so now i'm in a virtual
+okay so now I'm in a virtual
+okay so now I'm in a virtual
 environment this little enclosed box
 environment this little enclosed box
 environment this little enclosed box
@@ -1212,9 +1212,9 @@ where I can install my own packages and
 make sure
 make sure
 make sure
-you know everything that i'm doing here
-you know everything that i'm doing here
-you know everything that i'm doing here
+you know everything that I'm doing here
+you know everything that I'm doing here
+you know everything that I'm doing here
 is contained in here and it's not
 is contained in here and it's not
 is contained in here and it's not
@@ -1224,9 +1224,9 @@ affecting anything else outside my
 project
 project
 project
-and before we do this actually i'm going
-and before we do this actually i'm going
-and before we do this actually i'm going
+and before we do this actually I'm going
+and before we do this actually I'm going
+and before we do this actually I'm going
 to go to the documentation
 to go to the documentation
 to go to the documentation
@@ -1245,9 +1245,9 @@ dot io and it's going to walk you
 through
 through
 through
-how to install polaris now i'm going to
-how to install polaris now i'm going to
-how to install polaris now i'm going to
+how to install polaris now I'm going to
+how to install polaris now I'm going to
+how to install polaris now I'm going to
 update this documentation
 update this documentation
 update this documentation
@@ -1266,9 +1266,9 @@ how you set up basically what we're
 doing in this talk
 doing in this talk
 doing in this talk
-but for now i'm going to hop around
-but for now i'm going to hop around
-but for now i'm going to hop around
+but for now I'm going to hop around
+but for now I'm going to hop around
+but for now I'm going to hop around
 these settings in these documentation
 these settings in these documentation
 these settings in these documentation
@@ -1296,9 +1296,9 @@ walk through these steps
 we're gonna install polaris
 we're gonna install polaris
 we're gonna install polaris
-and while that installs i'm just
-and while that installs i'm just
-and while that installs i'm just
+and while that installs I'm just
+and while that installs I'm just
+and while that installs I'm just
 going to go over kind of what it holds
 going to go over kind of what it holds
 going to go over kind of what it holds
@@ -1362,15 +1362,15 @@ admin which comes out of the box with
 chango
 chango
 chango
-right so i'm going to create a django
-right so i'm going to create a django
-right so i'm going to create a django
+right so I'm going to create a django
+right so I'm going to create a django
+right so I'm going to create a django
 project
 project
 project
 start start project
-and i'm going to call it app it's going
-and i'm going to call it app it's going
+and I'm going to call it app it's going
+and I'm going to call it app it's going
 to be super generic okay
 to be super generic okay
 to be super generic okay
@@ -1383,9 +1383,9 @@ folder and you can see it in my
 in my source tree if you look in app
 in my source tree if you look in app
 in my source tree if you look in app
-i have a manage.pi script and this
-i have a manage.pi script and this
-i have a manage.pi script and this
+I have a manage.pi script and this
+I have a manage.pi script and this
+I have a manage.pi script and this
 manage.pi script is basically the
 manage.pi script is basically the
 manage.pi script is basically the
@@ -1395,18 +1395,18 @@ entry point to all of django's
 functionality so whenever I run
 functionality so whenever I run
 functionality so whenever I run
-python within the django context i'm
-python within the django context i'm
-python within the django context i'm
+python within the django context I'm
+python within the django context I'm
+python within the django context I'm
 going to run python manage.pi
 going to run python manage.pi
 going to run python manage.pi
 some command and then within the app
 some command and then within the app
 some command and then within the app
-i have all the files that are necessary
-i have all the files that are necessary
-i have all the files that are necessary
+I have all the files that are necessary
+I have all the files that are necessary
+I have all the files that are necessary
 for a django application
 for a django application
 for a django application
@@ -1602,9 +1602,9 @@ have installed in our installed apps
 list
 list
 list
-so i'm going to also add app to
-so i'm going to also add app to
-so i'm going to also add app to
+so I'm going to also add app to
+so I'm going to also add app to
+so I'm going to also add app to
 the installed apps list too the next
 the installed apps list too the next
 the installed apps list too the next
@@ -1644,9 +1644,9 @@ this is necessary for django reasons
 the middleware is the order matters
 the middleware is the order matters
 the middleware is the order matters
-i'm not going to go too far into deep
-i'm not going to go too far into deep
-i'm not going to go too far into deep
+I'm not going to go too far into deep
+I'm not going to go too far into deep
+I'm not going to go too far into deep
 into it but you want to make sure that
 into it but you want to make sure that
 into it but you want to make sure that
@@ -1686,12 +1686,12 @@ file
 at the top level of this project so
 at the top level of this project so
 at the top level of this project so
-i'm going to you know initialize project
-i'm going to you know initialize project
-i'm going to you know initialize project
-root and i'm actually just going to make
-root and i'm actually just going to make
-root and i'm actually just going to make
+I'm going to you know initialize project
+I'm going to you know initialize project
+I'm going to you know initialize project
+root and I'm actually just going to make
+root and I'm actually just going to make
+root and I'm actually just going to make
 it the
 it the
 it the
@@ -1728,9 +1728,9 @@ this file so this is the application
 folder that baster is referencing
 folder that baster is referencing
 folder that baster is referencing
-and so i'm going to take the directory
-and so i'm going to take the directory
-and so i'm going to take the directory
+and so I'm going to take the directory
+and so I'm going to take the directory
+and so I'm going to take the directory
 that contains that directory
 that contains that directory
 that contains that directory
@@ -1806,9 +1806,9 @@ we're going to be doing this all on
 localhost
 localhost
 localhost
-so i'm just going to do localhost dot
-so i'm just going to do localhost dot
-so i'm just going to do localhost dot
+so I'm just going to do localhost dot
+so I'm just going to do localhost dot
+so I'm just going to do localhost dot
 8000
 there we go and and that's
 there we go and and that's
@@ -2079,9 +2079,9 @@ add the following variables to your
 settings file you don't need to add
 settings file you don't need to add
 settings file you don't need to add
-these two to your settings file i'm
-these two to your settings file i'm
-these two to your settings file i'm
+these two to your settings file I'm
+these two to your settings file I'm
+these two to your settings file I'm
 going to update this this should
 going to update this this should
 going to update this this should
@@ -2118,9 +2118,9 @@ would sign as well and then the server
 would authenticate
 would authenticate
 would authenticate
-so i'm not going to go too deep into
-so i'm not going to go too deep into
-so i'm not going to go too deep into
+so I'm not going to go too deep into
+so I'm not going to go too deep into
+so I'm not going to go too deep into
 what step 10 is but it's just a way for
 what step 10 is but it's just a way for
 what step 10 is but it's just a way for
@@ -2145,27 +2145,27 @@ and this should just be like a random
 key pair
 key pair
 key pair
-that you keep secret so what i'm going
-that you keep secret so what i'm going
-that you keep secret so what i'm going
+that you keep secret so what I'm going
+that you keep secret so what I'm going
+that you keep secret so what I'm going
 to do
 to do
 to do
-is i'm actually just going to import
-is i'm actually just going to import
-is i'm actually just going to import
+is I'm actually just going to import
+is I'm actually just going to import
+is I'm actually just going to import
 stellar's sdk
 stellar's sdk
 stellar's sdk
-import keyboard keyboard class and i'm
-import keyboard keyboard class and i'm
-import keyboard keyboard class and i'm
+import keyboard keyboard class and I'm
+import keyboard keyboard class and I'm
+import keyboard keyboard class and I'm
 just going to do a random key pair
 just going to do a random key pair
 just going to do a random key pair
 and and then
-i just have the signing seed listed in
-i just have the signing seed listed in
+I just have the signing seed listed in
+I just have the signing seed listed in
 the environment
 so again this is something you'd want to
 so again this is something you'd want to
@@ -2181,9 +2181,9 @@ and and this obviously won't be
 deployed
 deployed
 deployed
-but the code that i'm writing right
-but the code that i'm writing right
-but the code that i'm writing right
+but the code that I'm writing right
+but the code that I'm writing right
+but the code that I'm writing right
 now will actually be available
 now will actually be available
 now will actually be available
@@ -2208,9 +2208,9 @@ awesome too
 so you can obviously reference what
 so you can obviously reference what
 so you can obviously reference what
-i'm doing here or just
-i'm doing here or just
-i'm doing here or just
+I'm doing here or just
+I'm doing here or just
+I'm doing here or just
 watch the video back okay and then
 watch the video back okay and then
 watch the video back okay and then
@@ -2466,9 +2466,9 @@ this is the url that our static assets
 are going to be available at
 are going to be available at
 are going to be available at
-for django so i'm just going to say it's
-for django so i'm just going to say it's
-for django so i'm just going to say it's
+for django so I'm just going to say it's
+for django so I'm just going to say it's
+for django so I'm just going to say it's
 polaris static
 and then we're using this storage
 and then we're using this storage
@@ -2952,27 +2952,27 @@ we're going to have a django.environ.m.d
 or no it's going to be m.d.b
 or no it's going to be m.d.b
 or no it's going to be m.d.b
-and then within actually so i'm gonna
-and then within actually so i'm gonna
-and then within actually so i'm gonna
+and then within actually so I'm gonna
+and then within actually so I'm gonna
+and then within actually so I'm gonna
 look at a project that I ran through
 look at a project that I ran through
 look at a project that I ran through
 prior to building this because i've done
 prior to building this because i've done
 prior to building this because i've done
-this before and making sure i'm doing it
-this before and making sure i'm doing it
-this before and making sure i'm doing it
+this before and making sure I'm doing it
+this before and making sure I'm doing it
+this before and making sure I'm doing it
 right so
 right so
 right so
 let me look at the code here and just
 let me look at the code here and just
 let me look at the code here and just
-make sure i'm doing this correctly
-make sure i'm doing this correctly
-make sure i'm doing this correctly
+make sure I'm doing this correctly
+make sure I'm doing this correctly
+make sure I'm doing this correctly
 let's just copy that so we're going
 let's just copy that so we're going
 let's just copy that so we're going
@@ -3144,15 +3144,15 @@ now we're just going to use the srt
 asset here so here is the
 asset here so here is the
 asset here so here is the
-public key for the issuer and i'm
-public key for the issuer and i'm
-public key for the issuer and i'm
-actually that's all i'm going to do for
-actually that's all i'm going to do for
-actually that's all i'm going to do for
-now i'm
-now i'm
-now i'm
+public key for the issuer and I'm
+public key for the issuer and I'm
+public key for the issuer and I'm
+actually that's all I'm going to do for
+actually that's all I'm going to do for
+actually that's all I'm going to do for
+now I'm
+now I'm
+now I'm
 going to also enable sep24
 this asset object also needs the
 this asset object also needs the
@@ -3186,15 +3186,15 @@ this account from polaris
 so we need the secret key for that
 so we need the secret key for that
 so we need the secret key for that
-account and i'm not going to show you
-account and i'm not going to show you
-account and i'm not going to show you
+account and I'm not going to show you
+account and I'm not going to show you
+account and I'm not going to show you
 right now
 right now
 right now
-in this screen but i'm going to add it
-in this screen but i'm going to add it
-in this screen but i'm going to add it
+in this screen but I'm going to add it
+in this screen but I'm going to add it
+in this screen but I'm going to add it
 to this asset
 to this asset
 to this asset
@@ -3240,9 +3240,9 @@ decrypted when they're brought into
 memory
 memory
 memory
-so i'm going to import or i'm going to
-so i'm going to import or i'm going to
-so i'm going to import or i'm going to
+so I'm going to import or I'm going to
+so I'm going to import or I'm going to
+so I'm going to import or I'm going to
 add this
 add this
 add this
@@ -3300,9 +3300,9 @@ correctly configured so let's actually
 run our service and see what we got here
 run our service and see what we got here
 run our service and see what we got here
-so i'm going to go to manage.pi and run
-so i'm going to go to manage.pi and run
-so i'm going to go to manage.pi and run
+so I'm going to go to manage.pi and run
+so I'm going to go to manage.pi and run
+so I'm going to go to manage.pi and run
 the server
 okay cool so as you can see django has a
 okay cool so as you can see django has a
@@ -3444,9 +3444,9 @@ augments polaris is going to be in this
 file
 file
 file
-and i'm also going to create an
-and i'm also going to create an
-and i'm also going to create an
+and I'm also going to create an
+and I'm also going to create an
+and I'm also going to create an
 apps.pi file now apps.pi
 apps.pi file now apps.pi
 apps.pi file now apps.pi
@@ -3570,9 +3570,9 @@ we're going to import the register
 integrations function
 now it's actually not auto completing
 now it's actually not auto completing
-which is kind of annoying i'm going to
-which is kind of annoying i'm going to
-which is kind of annoying i'm going to
+which is kind of annoying I'm going to
+which is kind of annoying I'm going to
+which is kind of annoying I'm going to
 see if I can configure
 see if I can configure
 see if I can configure
@@ -3600,15 +3600,15 @@ for any of you who have just strictly
 an hour
 an hour
 an hour
-i apologize but we're gonna be in and
-i apologize but we're gonna be in and
-i apologize but we're gonna be in and
+I apologize but we're gonna be in and
+I apologize but we're gonna be in and
+I apologize but we're gonna be in and
 around an hour hopefully
 around an hour hopefully
 around an hour hopefully
-i don't need the the autocomplete
-i don't need the the autocomplete
-i don't need the the autocomplete
+I don't need the the autocomplete
+I don't need the the autocomplete
+I don't need the the autocomplete
 stuff but it will help for sure okay
 stuff but it will help for sure okay
 stuff but it will help for sure okay
@@ -3657,9 +3657,9 @@ thought I just configured my
 my virtual environment correctly but
 my virtual environment correctly but
 my virtual environment correctly but
-maybe I didn't i'm not going to spend
-maybe I didn't i'm not going to spend
-maybe I didn't i'm not going to spend
+maybe I didn't I'm not going to spend
+maybe I didn't I'm not going to spend
+maybe I didn't I'm not going to spend
 too much more time on this
 too much more time on this
 too much more time on this
@@ -3750,9 +3750,9 @@ as long as we have this default app
 config environment or variable here so
 config environment or variable here so
 config environment or variable here so
-i'm going to go apps
-i'm going to go apps
-i'm going to go apps
+I'm going to go apps
+I'm going to go apps
+I'm going to go apps
 dot or sorry app
 dot or sorry app
 dot or sorry app
@@ -3888,9 +3888,9 @@ so within documentation this is the
 organization documentation this is the
 organization documentation this is the
 organization documentation this is the
-information i'm gonna fill out right now
-information i'm gonna fill out right now
-information i'm gonna fill out right now
+information I'm gonna fill out right now
+information I'm gonna fill out right now
+information I'm gonna fill out right now
 these are the properties that you can
 these are the properties that you can
 these are the properties that you can
@@ -3900,15 +3900,15 @@ let's add a we don't have a logo let's
 add a url
 add a url
 add a url
-we have a logo but i'm not going to get
-we have a logo but i'm not going to get
-we have a logo but i'm not going to get
+we have a logo but I'm not going to get
+we have a logo but I'm not going to get
+we have a logo but I'm not going to get
 it right now
 that's our home domain and
 that's our home domain and
-that's all i'm going to provide for the
-that's all i'm going to provide for the
-that's all i'm going to provide for the
+that's all I'm going to provide for the
+that's all I'm going to provide for the
+that's all I'm going to provide for the
 organization but you get the point
 organization but you get the point
 organization but you get the point
@@ -3960,9 +3960,9 @@ person's name
 is jake urban
 is jake urban
 is jake urban
-and that's all i'm going to provide i'm
-and that's all i'm going to provide i'm
-and that's all i'm going to provide i'm
+and that's all I'm going to provide I'm
+and that's all I'm going to provide I'm
+and that's all I'm going to provide I'm
 not going to provide my email or key
 not going to provide my email or key
 not going to provide my email or key
@@ -4149,9 +4149,9 @@ for deposit and withdraw of our srt
 and we're automatically going to walk
 and we're automatically going to walk
 and we're automatically going to walk
-through the process i'm not gonna you
-through the process i'm not gonna you
-through the process i'm not gonna you
+through the process I'm not gonna you
+through the process I'm not gonna you
+through the process I'm not gonna you
 know talk about exactly what's happening
 know talk about exactly what's happening
 know talk about exactly what's happening
@@ -4305,9 +4305,9 @@ flow
 and so this is what the user would see
 and so this is what the user would see
 and so this is what the user would see
-and i'm just going to say i'm depositing
-and i'm just going to say i'm depositing
-and i'm just going to say i'm depositing
+and I'm just going to say I'm depositing
+and I'm just going to say I'm depositing
+and I'm just going to say I'm depositing
 a hundred dollars
 a hundred dollars
 a hundred dollars
@@ -4803,9 +4803,9 @@ a process again and see what happens so
 this is the same as the last time
 this is the same as the last time
 this is the same as the last time
-i'm going to just say i'm going to
-i'm going to just say i'm going to
-i'm going to just say i'm going to
+I'm going to just say I'm going to
+I'm going to just say I'm going to
+I'm going to just say I'm going to
 deposit 100
 deposit 100
 deposit 100
@@ -4833,24 +4833,24 @@ in the tote in the wallet that I used
 boom there you go complete so if I were
 boom there you go complete so if I were
 boom there you go complete so if I were
-to look at the account that i'm using
-to look at the account that i'm using
-to look at the account that i'm using
+to look at the account that I'm using
+to look at the account that I'm using
+to look at the account that I'm using
 for this wallet right now
 for this wallet right now
 for this wallet right now
-i would see that I have at least 100 srt
-i would see that I have at least 100 srt
-i would see that I have at least 100 srt
+I would see that I have at least 100 srt
+I would see that I have at least 100 srt
+I would see that I have at least 100 srt
 in my account
 in my account
 in my account
 the polaris server using the asset
 the polaris server using the asset
 the polaris server using the asset
-that i'm issuing
-that i'm issuing
-that i'm issuing
+that I'm issuing
+that I'm issuing
+that I'm issuing
 deposited funds into my seller account
 deposited funds into my seller account
 deposited funds into my seller account
@@ -4884,9 +4884,9 @@ functions that I need to implement for
 withdraw
 withdraw
 withdraw
-i think at this point I have to decide
-i think at this point I have to decide
-i think at this point I have to decide
+I think at this point I have to decide
+I think at this point I have to decide
+I think at this point I have to decide
 do I want to in terms of timing do i
 do I want to in terms of timing do i
 do I want to in terms of timing do i
@@ -4908,15 +4908,15 @@ deposit flow because there's a lot more
 you could do
 you could do
 you could do
-i think i'm going to do the latter so
-i think i'm going to do the latter so
-i think i'm going to do the latter so
+I think I'm going to do the latter so
+I think I'm going to do the latter so
+I think I'm going to do the latter so
 so
 so
 so
-i'm not going to do this in the talk but
-i'm not going to do this in the talk but
-i'm not going to do this in the talk but
+I'm not going to do this in the talk but
+I'm not going to do this in the talk but
+I'm not going to do this in the talk but
 there's tons of customization that you
 there's tons of customization that you
 there's tons of customization that you
@@ -4974,9 +4974,9 @@ that's going to be presented to the user
 and then you can process
 and then you can process
 and then you can process
-so i'm not going to go through this
-so i'm not going to go through this
-so i'm not going to go through this
+so I'm not going to go through this
+so I'm not going to go through this
+so I'm not going to go through this
 we just don't have the time
 we just don't have the time
 we just don't have the time
@@ -5004,9 +5004,9 @@ and this form integrations section
 outlines
 outlines
 outlines
-what i'm not going to do in this talk
-what i'm not going to do in this talk
-what i'm not going to do in this talk
+what I'm not going to do in this talk
+what I'm not going to do in this talk
+what I'm not going to do in this talk
 today which is provide content for
 today which is provide content for
 today which is provide content for
@@ -5064,9 +5064,9 @@ and to do that we're going to use docker
 and docker compose
 and docker compose
 and docker compose
-so i'm just going to copy and paste the
-so i'm just going to copy and paste the
-so i'm just going to copy and paste the
+so I'm just going to copy and paste the
+so I'm just going to copy and paste the
+so I'm just going to copy and paste the
 docker
 docker
 docker
@@ -5079,9 +5079,9 @@ this project that i've already written
 so copy docker file copy docker compose
 so copy docker file copy docker compose
 so copy docker file copy docker compose
-and i'm going to go into the anchor that
-and i'm going to go into the anchor that
-and i'm going to go into the anchor that
+and I'm going to go into the anchor that
+and I'm going to go into the anchor that
+and I'm going to go into the anchor that
 we're building right now
 we're building right now
 we're building right now
@@ -5127,9 +5127,9 @@ sorry pull pending deposits deposits
 process that I showed earlier there's
 process that I showed earlier there's
 process that I showed earlier there's
-also three others for withdraw and i'm
-also three others for withdraw and i'm
-also three others for withdraw and i'm
+also three others for withdraw and I'm
+also three others for withdraw and I'm
+also three others for withdraw and I'm
 just going to speed through this because
 just going to speed through this because
 just going to speed through this because
@@ -5280,9 +5280,9 @@ we don't have any fees in this demo but
 you can charge fees
 you can charge fees
 you can charge fees
-and and but for now i'm just going to
-and and but for now i'm just going to
-and and but for now i'm just going to
+and and but for now I'm just going to
+and and but for now I'm just going to
+and and but for now I'm just going to
 say zero right
 say zero right
 say zero right
@@ -5320,17 +5320,17 @@ so docker's getting started okay
 so docker's getting started okay
 so docker's getting started okay
 it's five minutes over
-i'm going to try to build the rest of
-i'm going to try to build the rest of
+I'm going to try to build the rest of
+I'm going to try to build the rest of
 the service
-in the meantime i'm open to questions
-in the meantime i'm open to questions
+in the meantime I'm open to questions
+in the meantime I'm open to questions
 if we want to
 if we want to
 if we want to
-i will just probably be working
-i will just probably be working
-i will just probably be working
+I will just probably be working
+I will just probably be working
+I will just probably be working
 through this and demonstrating
 through this and demonstrating
 through this and demonstrating
@@ -5478,9 +5478,9 @@ and and once that completes we are going
 to compile our static assets
 to compile our static assets
 to compile our static assets
-i think is the next step let's look at
-i think is the next step let's look at
-i think is the next step let's look at
+I think is the next step let's look at
+I think is the next step let's look at
+I think is the next step let's look at
 this docker file
 this docker file
 this docker file
@@ -5551,8 +5551,8 @@ and look at what the withdrawal flow
 and look at what the withdrawal flow
 and look at what the withdrawal flow
 looks like now
-again i'm going to deposit 100 there's
-again i'm going to deposit 100 there's
+again I'm going to deposit 100 there's
+again I'm going to deposit 100 there's
 no fee
 no fee
 no fee
@@ -5568,9 +5568,9 @@ and the anchor is going to receive that
 the anchor's going to receive that
 the anchor's going to receive that
 the anchor's going to receive that
-that payment so i'm confirming that i
-that payment so i'm confirming that i
-that payment so i'm confirming that i
+that payment so I'm confirming that i
+that payment so I'm confirming that i
+that payment so I'm confirming that i
 want to send this payment to the anchor
 want to send this payment to the anchor
 want to send this payment to the anchor
@@ -5724,9 +5724,9 @@ okay cool I think we're done in terms of
 demonstration
 demonstration
 demonstration
-now i'm going to open it up for
-now i'm going to open it up for
-now i'm going to open it up for
+now I'm going to open it up for
+now I'm going to open it up for
+now I'm going to open it up for
 questions
 so that is a good question so there
 so that is a good question so there
@@ -5788,8 +5788,8 @@ via key base or however you want to
 via key base or however you want to
 via key base or however you want to
 contact us
-i'm trying to think if there's anything
-i'm trying to think if there's anything
+I'm trying to think if there's anything
+I'm trying to think if there's anything
 else that I should mention
 else that I should mention
 else that I should mention
@@ -5922,9 +5922,9 @@ hopefully you guys learned a lot about
 polaris and how it works
 polaris and how it works
 polaris and how it works
-if you have any further questions i'm
-if you have any further questions i'm
-if you have any further questions i'm
+if you have any further questions I'm
+if you have any further questions I'm
+if you have any further questions I'm
 available
 available
 available

@@ -20,7 +20,7 @@ get the right
 fit
 but we'll see what happens today so
 bear with us
-i will say that these meetings the
+I will say that these meetings the
 stellar protocol meetings are designed
 so that we can discuss upcoming changes
 to upcoming versions of the stellar
@@ -45,7 +45,7 @@ feedback about them or asking questions
 we encourage you to do so and in fact if
 you're going to follow along with this
 meeting it's a very technical meeting so
-i would suggest taking a look at the
+I would suggest taking a look at the
 caps
 in question
 at the moment we're focused on project
@@ -80,16 +80,16 @@ so I encourage everyone to follow along
 with that and so today
 it's a fairly open-ended meeting
 and I think
-i I don't know I i'm not even sure the
+I I don't know I I'm not even sure the
 exact best place to start I know that
 there may be some stuff to discuss on
 cap 47
-i don't know if we're ready to discuss
+I don't know if we're ready to discuss
 cap 50 yet or if we still have open
 questions about cap 48 and cap 49
 
 so I guess the the first question I have
-i guess lee is not here I know that
+I guess lee is not here I know that
 there were a few questions about cap 46
 but it looks like sid you may have
 addressed those questions
@@ -134,7 +134,7 @@ has changed in the most recent
 edition
 basically it opens up with
 with let me actually look at it while
-i'm talking about it
+I'm talking about it
 it opens up with some comparisons
 against like
 why the model that is used in ethereum
@@ -158,7 +158,7 @@ so this is the same kind of model that i
 then propagate to stellar
 and so we introduce some new types of
 transactions basically
-which i'm talking about here is like an
+which I'm talking about here is like an
 invoke contract transaction
 this transaction starts off looking
 just like a classic seller transaction
@@ -174,12 +174,12 @@ if it exists
 and then a read write set which I don't
 talk about at all and has nothing to do
 with this cap and it's really more to do
-with cat 46 i'm not going to talk about
+with cat 46 I'm not going to talk about
 it
 then the next thing that introduces like
 okay well like who is running this
 transaction like when I ask who is
-message.sender or the terms i'm using is
+message.sender or the terms I'm using is
 like this get invoker function
 host function
 what is it going to return when I run
@@ -237,7 +237,7 @@ account
 
 there is like when you're running
 a smart contract you don't have access
-the way that i'm proposing that we've
+the way that I'm proposing that we've
 been talking about things right now you
 don't really have access to like your
 native balance your native trust line
@@ -268,7 +268,7 @@ option here
 that is
 sort of true
 there are two ways you could do
-threshold signatures i'm like not an
+threshold signatures I'm like not an
 expert on photography but like
 if you want to rotate the underlying key
 like for example if you're like
@@ -308,7 +308,7 @@ for that purpose
 it it's totally completely logically
 separate I guess as long as you control
 the key you can become message.sender
-i think the distinction is not the jump
+I think the distinction is not the jump
 cannon there are jump cannon accounts
 and there are stellar accounts I think
 the distinction is that there are
@@ -361,7 +361,7 @@ version that you and I have discussed
 tomer this version actually makes the
 invoker signature optional
 which was something that came up when
-i was talking to nico
+I was talking to nico
 about like there are lots of times when
 you just like
 don't need an invoker signature like the
@@ -375,7 +375,7 @@ and you just like y sign with some
 random key for no reason you could just
 do nothing so if people don't like this
 mechanism ignore it
-i'm still trying to wrap my head around
+I'm still trying to wrap my head around
 the interaction between like from the
 user perspective
 you know they have like a an account on
@@ -383,7 +383,7 @@ the stellar side
 
 and like what happens when they move you
 know let's say we're in the world of cap
-49 not that i'm suggesting we should do
+49 not that I'm suggesting we should do
 that let's say we're there and I move an
 asset to the smart side
 and let's say that my my classic side
@@ -422,7 +422,7 @@ cap 49 cents
 and it sends it to that address whatever
 address you specify now that's the
 address that owns it on the smart site
-so i'm expected to migrate to
+so I'm expected to migrate to
 a new
 account id
 if you don't have multisig setup you
@@ -438,8 +438,8 @@ and I need two out of three of them
 to sign to do anything on my account
 well it's perfectly fine for me to do
 the public for me to use the master key
-i'm the only one who knows it
-but like if i'm not the only one who
+I'm the only one who knows it
+but like if I'm not the only one who
 knows the master key then that's not
 going to work
 so it really depends a lot on the
@@ -448,11 +448,11 @@ should propose
 address is going to be the same no
 do we propose a new stir key for the
 jumpcat inside for these account ids
-i don't know
+I don't know
 that's a good question homer
 they're
 maybe maybe we should yeah
-i mean you will need
+I mean you will need
 yeah you will need that anyways for yeah
 if you want to deposit into contracts
 so I think the like the dangerous thing
@@ -465,11 +465,11 @@ asset on the smart side
 they use that
 like the public account id
 and now
-i don't have that and so i'm screwed
+I don't have that and so I'm screwed
 indeed if that happens you are
 completely screwed
 sounds like a pretty big footcon
-i mean in general on smart
+I mean in general on smart
 and this is like this is not unique to
 stellar this is like true on ethereum
 with the rc20s too if you send money to
@@ -512,7 +512,7 @@ manifestation so like requiring it to
 come from a deterministic account just
 seems like
 super unnecessarily fast like a lot of
-them you know i'm just saying then you
+them you know I'm just saying then you
 can't interpret a deterministic account
 as a
 you know because like a deterministic
@@ -537,7 +537,7 @@ sides of the network but if the plan is
 eventually
 to deprecate classic then maybe it makes
 sense not to have single sign-on
-i mean like single sign-on is a myth no
+I mean like single sign-on is a myth no
 matter what in the world of smart
 contracts what if I just build a smart
 contract that doesn't use the same
@@ -633,10 +633,10 @@ one a g account i'll call it
 in the in the terminology we're using
 an eternity ago when we were talking
 about deterministic accounts
-and now i'm going to create another
+and now I'm going to create another
 account that's a d account that has a
 different key
-and i'm right back where I was
+and I'm right back where I was
 so I don't know
 my interpretation of david's proposal
 is not
@@ -747,7 +747,7 @@ so now what I do is I sign with my
 account let's say that I have a two out
 of three multisig account like I was
 talking about before with like you know
-i own three hardware wallets I sign with
+I own three hardware wallets I sign with
 two of them that's how I do stuff
 the account only gets message.sender
 which is my source account in this model
@@ -757,7 +757,7 @@ how do I do that
 like how would you even default
 how would I even define either 2612
 permit
-also i'm seeing people
+also I'm seeing people
 complaining about my mic volume
 
 okay david then you should just adjust
@@ -782,7 +782,7 @@ okay so basic and like what
 signatures do I use now
 like do I use the account signatures
 then it's not transparent
-i have to go and actually look up the
+I have to go and actually look up the
 account find its signature find the
 designers check them against that blah
 blah blah blah blah blah
@@ -816,7 +816,7 @@ and then for the
 for the signature scheme like like
 why not so right now we have keyed
 signature now that it's actually inside
-i think what we can do is actually make
+I think what we can do is actually make
 add a new case
 that would be like classic scheme or
 something right that
@@ -836,9 +836,9 @@ threshold
 like you do on classic
 great but then right back to the eip2612
 permit like you still have to go and act
-like if i'm a contractor implementing
+like if I'm a contractor implementing
 the ip2612 permit
-i have to actually go and read the
+I have to actually go and read the
 account look at all the signers check
 the signal no no you do you wouldn't do
 that like
@@ -859,7 +859,7 @@ when you yeah like
 evaluate them in the context of this
 account you reach this threshold you
 cannot guarantee that
-i don't understand how the account could
+I don't understand how the account could
 not go and like could avoid going and
 checking
 the contract could avoid going and
@@ -885,19 +885,19 @@ blocked from doing it
 but it's like really really expensive
 whereas like just checking a single
 signature
-i'm not saying to remove the single
-signature i'm saying that you you have a
+I'm not saying to remove the single
+signature I'm saying that you you have a
 way out of the like
 my public address is g whatever and i
-i don't
+I don't
 if somebody you know like sees my public
 address and decides to send me funds
 using smart
-i want that to not go to the devnet and
+I want that to not go to the devnet and
 then you want the contract in you
 want the contract implementer to go and
 implement both verification methods
-i mean what you think is we could also
+I mean what you think is we could also
 have like a
 you know like a parameter type or
 something like a signed blob
@@ -918,8 +918,8 @@ type of capability they already have
 implementations on other networks we
 don't want to be to
 parental i
-i think
-i'm on i'm on john's side with regards
+I think
+I'm on I'm on john's side with regards
 to
 keeping simplicity
 you know as a core value and and
@@ -927,7 +927,7 @@ really like zooming in on these like
 single signer
 accounts
 
-but i'm really concerned about the
+but I'm really concerned about the
 interoperability aspect you know
 for the ecosystem and I do think that
 having migrating to some sort of like a
@@ -991,7 +991,7 @@ like how how like how would you have
 multisig on jump cannon and multisig off
 on classic at the same time with the
 same account is that doable
-i'm i'm proposing
+I'm I'm proposing
 like not to actually ever like having
 just a single migration and then you're
 in this other world which is both
@@ -1037,8 +1037,8 @@ like if if you look at some of the
 interesting accounts that are multisig
 right issuers like are we saying that
 changing the issue are probably key
-no i'm not saying
-i'm not saying that at all i'm saying
+no I'm not saying
+I'm not saying that at all I'm saying
 you only need to
 to
 migrate to a new type of account if you
@@ -1047,7 +1047,7 @@ with jump cannon and cap 49
 proposes that exactly but like to a much
 greater extent right you need to every
 time you move
-between between the like i'm i'm talking
+between between the like I'm I'm talking
 about the issuer
 why would the issue where needs to need
 to migrate
@@ -1056,7 +1056,7 @@ they don't want to have like any
 presence in jump cannon
 they will have to use a different
 account I guess
-i think like there will need to be a
+I think like there will need to be a
 distribution account
 potentially that if they want to
 interact with smart contracts they need
@@ -1071,7 +1071,7 @@ looks like like I want to mic
 you know I want to migrate from my
 classic account to a smart account
 what is what has to happen
-i actually have to like somehow move
+I actually have to like somehow move
 balances or does it just like transmute
 balances
 and annihilate the classic key
@@ -1086,7 +1086,7 @@ a new account let's call it a d account
 it takes you through the process and
 once you end it
 you know effectively like merges your
-account and and i'm saying happy path
+account and and I'm saying happy path
 meaning that it's there's just a single
 signer and it's a and it's the master
 signer
@@ -1099,14 +1099,14 @@ but it's a simple account you cannot you
 can never actually do on-chain multi-sig
 the way that you did with your
 previous account
-i don't know if we need to explore
+I don't know if we need to explore
 necessarily like yeah like in this
 meeting like the
 actual
 this actual migration flow
 it sounds like it will have a lot of
 edge
-cases like i'm thinking like
+cases like I'm thinking like
 from a kyc point of view right like you
 have a bunch of trust lines
 like you probably I mean
@@ -1130,10 +1130,10 @@ hoping for was a very quick explanation
 to like help clarify in my mind what it
 was that we were talking about
 thanks
-i mean like
-i need to think about it more
+I mean like
+I need to think about it more
 i
-i'm like
+I'm like
 i'd really what I really would need to
 do is go and like look at what the
 current like configuration of accounts
@@ -1162,7 +1162,7 @@ so I need to go and like you know hit up
 hubble and figure out what the
 situation is
 wait hold on quick
-i think the alternative people
+I think the alternative people
 still can't use
 smart except now they could lose
 money if people accidentally send the
@@ -1217,7 +1217,7 @@ to go back to like the first thing
 because maybe that's what that would be
 a different approach to this problem
 that is like the the question i
-i was asking earlier that is how do we
+I was asking earlier that is how do we
 think about
 like I don't know how this is solving
 ethereum like if you if you have this
@@ -1229,7 +1229,7 @@ into a smart
 wallet
 my smart wallet becomes my public
 address in a way
-i think right
+I think right
 so
 how does the money gets routed if
 somebody sends money sends funds to
@@ -1243,7 +1243,7 @@ well it's kind of funny right like does
 it mean I have to even though I decided
 to upgrade my you know my setup to a
 smart wallet
-i still have to keep this kind of
+I still have to keep this kind of
 single key setup around forever upgrade
 to a smart wallet you also have a smart
 wallet
@@ -1253,13 +1253,13 @@ there's no way to stop using that
 address other than to tell everybody to
 stop sending money there
 like
-i mean it's no different from when you
+I mean it's no different from when you
 move houses right like people will keep
 sending mail to your old address much to
 usps's display
 unless you tell them not to so you can
 do forwarding right in that case so
-that's kind of what i'm getting through
+that's kind of what I'm getting through
 there's no way we're going to do that
 probably
 like no but like for like if we had
@@ -1276,7 +1276,7 @@ you know we don't need to be dad for
 these people if they know if they want
 to switch to a smart smart wallet they
 should know what to do
-no i'm just trying to kind of compare
+no I'm just trying to kind of compare
 the complexity of like migrating to
 those d you know whatever accounts
 to
@@ -1299,7 +1299,7 @@ hard if we care about performance we
 can't do that and we have to do better
 but that means we should be making
 decisions that matter
-i mean it's it's not just about
+I mean it's it's not just about
 performance right it's about like the
 whole reason we are talking about this
 is for usability right like making it
@@ -1323,7 +1323,7 @@ the
 transactions
 sure but i'd also rather it just be
 embarrassingly parallel and not four
-times slower and like what i'm saying is
+times slower and like what I'm saying is
 like these the discussion we're having
 right now doesn't change the
 parallelization well it probably makes
@@ -1386,8 +1386,8 @@ in the dev mailing list that I can talk
 about
 if we think
 we have enough time
-i think
-i think we should start on it and if we
+I think
+I think we should start on it and if we
 run out of time we can bring it back up
 at the next meeting
 okay
@@ -1436,11 +1436,11 @@ than we think people should need in the
 xdr and then we enforce a lower limit
 in validators
 that's what I was thinking
-yeah I i'm just like my big concern
+yeah I I'm just like my big concern
 about this is like it's not safe to ever
 make the number lower you can only ever
 make it bigger
-and i'm just like
+and I'm just like
 what is the point of this work
 like why why shouldn't we just choose a
 number
@@ -1449,7 +1449,7 @@ and
 basically if we want people if people
 want to write bigger contracts just
 split your logic up among two contracts
-i mean it's not a big deal
+I mean it's not a big deal
 like
 do we really want people uploading this
 upload like a gigabyte 100 megabytes
@@ -1490,7 +1490,7 @@ a new magic ledger entry called smart
 contract numeric parameters
 and people are going to have to vote on
 that on a regular basis so
-i I would just say
+I I would just say
 it is a number
 but we would have to agree it's a number
 that can only go up then
@@ -1502,7 +1502,7 @@ two months notice before we reduce it or
 something but no I don't agree with
 that it cannot go down you can break
 somebody's smart contract by making it
-go down even if you say like i'm still
+go down even if you say like I'm still
 willing to run a smart contract that's
 that's longer than this was uploaded
 before
@@ -1525,7 +1525,7 @@ in which you break people's code by
 changing parameters guaranteed there's
 there's no way to just make it one-sided
 that's not going to work
-i'm not clear on why changing the gas
+I'm not clear on why changing the gas
 factors would
 break people's code like you could
 always just run it with more gas right
@@ -1548,7 +1548,7 @@ no no I just know I completely disagree
 with your premise these numbers
 affect
 whether
-i mean
+I mean
 seriously suppose your contract relies
 on on
 you call two contracts in order and it's
@@ -1574,12 +1574,12 @@ that you've defined as the ones that my
 thing works in and if the parameters
 change it is possible everything will
 work
-i mean I think it's it's
+I mean I think it's it's
 when it comes to all those yeah like
 weird parameters I think they're like
 especially when it comes to any kind of
 limit
-i think they will will always have like
+I think they will will always have like
 you know when it comes to coming down
 right like from those limits like
 if you're close to that limit
@@ -1616,7 +1616,7 @@ transactions to fix that problem
 so like that's actually like an example
 that like proves the point that this is
 a problem
-i'm
+I'm
 it will continue to be a pro there's i
 just there's absolutely no way you can
 fix this by saying it can only move in
@@ -1625,7 +1625,7 @@ problem so
 as far as I can tell you're you're
 demanding that we fix a problem that
 can't be fixed
-i think we need to just set expectations
+I think we need to just set expectations
 appropriately right if we tell people
 your contract we promise never to break
 your smart contracts it's going to be a
@@ -1652,7 +1652,7 @@ contract
 you know there's there's there's changes
 that can be made among the validators
 that will break existing functionality
-i guess the core of my argument here is
+I guess the core of my argument here is
 there are things that we should
 that are like worth promising not sorry
 that are worth not promising to break
@@ -1687,7 +1687,7 @@ number like that's something we can
 figure out it's just not an important
 thing
 at this point
-i think david gets the final word in
+I think david gets the final word in
 this meeting because we're out of time
 but
 we'll reconvene next week and obviously

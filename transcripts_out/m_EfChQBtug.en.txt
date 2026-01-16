@@ -15,9 +15,9 @@ stellar protocol
 changes that are necessary to evolve the
 changes that are necessary to evolve the
 changes that are necessary to evolve the
-protocol to meet ecosystem needs i'm
-protocol to meet ecosystem needs i'm
-protocol to meet ecosystem needs i'm
+protocol to meet ecosystem needs I'm
+protocol to meet ecosystem needs I'm
+protocol to meet ecosystem needs I'm
 just real quick a word on on venue
 just real quick a word on on venue
 just real quick a word on on venue
@@ -225,9 +225,9 @@ we start there
 and I think
 and I think
 and I think
-i don't know john john do you want to
-i don't know john john do you want to
-i don't know john john do you want to
+I don't know john john do you want to
+I don't know john john do you want to
+I don't know john john do you want to
 start
 honestly i'd rather just let eco
 honestly i'd rather just let eco
@@ -243,9 +243,9 @@ responded to it
 so like it's kind of niko's turn to
 so like it's kind of niko's turn to
 so like it's kind of niko's turn to
-talk in the sense that i'm i'm the most
-talk in the sense that i'm i'm the most
-talk in the sense that i'm i'm the most
+talk in the sense that I'm I'm the most
+talk in the sense that I'm I'm the most
+talk in the sense that I'm I'm the most
 recent speaker on the thread
 recent speaker on the thread
 recent speaker on the thread
@@ -306,12 +306,12 @@ that is in there okay
 
 
 
-i mean like i'm
-i mean like i'm
-i mean like i'm
-i think we
-i think we
-i think we
+I mean like I'm
+I mean like I'm
+I mean like I'm
+I think we
+I think we
+I think we
 we should discuss potentially changing i
 we should discuss potentially changing i
 we should discuss potentially changing i
@@ -342,9 +342,9 @@ make things work for
 for john cannon so like the type of
 for john cannon so like the type of
 for john cannon so like the type of
-things i'm talking about here is
-things i'm talking about here is
-things i'm talking about here is
+things I'm talking about here is
+things I'm talking about here is
+things I'm talking about here is
 that both proposals kind of suffer from
 that both proposals kind of suffer from
 that both proposals kind of suffer from
@@ -540,9 +540,9 @@ know what people think
 so I can just start with saying what how
 so I can just start with saying what how
 so I can just start with saying what how
-i responded to your question to the same
-i responded to your question to the same
-i responded to your question to the same
+I responded to your question to the same
+I responded to your question to the same
+I responded to your question to the same
 question from the email thread which was
 question from the email thread which was
 question from the email thread which was
@@ -711,9 +711,9 @@ frees that address
 and the issuer just goes through and
 and the issuer just goes through and
 and the issuer just goes through and
-kind of freezes everywhere where i'm
-kind of freezes everywhere where i'm
-kind of freezes everywhere where i'm
+kind of freezes everywhere where I'm
+kind of freezes everywhere where I'm
+kind of freezes everywhere where I'm
 sending money until they get all their
 sending money until they get all their
 sending money until they get all their
@@ -829,11 +829,11 @@ that doesn't behave and that doesn't
 that doesn't behave and that doesn't
 that doesn't behave and that doesn't
 sound like
-i mean I don't think you can like I know
-i mean I don't think you can like I know
-i like the smart contract is the bank
-i like the smart contract is the bank
-i like the smart contract is the bank
+I mean I don't think you can like I know
+I mean I don't think you can like I know
+I like the smart contract is the bank
+I like the smart contract is the bank
+I like the smart contract is the bank
 right like it's kind of like that it's
 right like it's kind of like that it's
 right like it's kind of like that it's
@@ -843,9 +843,9 @@ it's an automated thing that holds
 assets on behalf of a bunch of people
 assets on behalf of a bunch of people
 assets on behalf of a bunch of people
-i don't think you can generally do
-i don't think you can generally do
-i don't think you can generally do
+I don't think you can generally do
+I don't think you can generally do
+I don't think you can generally do
 better than that
 better than that
 better than that
@@ -961,8 +961,8 @@ the
 the
 the
 expectation from people
-i mean the
-i mean the
+I mean the
+I mean the
 basically like if we don't opt people in
 basically like if we don't opt people in
 basically like if we don't opt people in
@@ -1077,9 +1077,9 @@ default behavior is what everybody is
 inheriting anyway
 inheriting anyway
 inheriting anyway
-all the time right every day i'm talking
-all the time right every day i'm talking
-all the time right every day i'm talking
+all the time right every day I'm talking
+all the time right every day I'm talking
+all the time right every day I'm talking
 about specifically yeah yeah like for
 about specifically yeah yeah like for
 about specifically yeah yeah like for
@@ -1107,45 +1107,45 @@ statement of the issue is is kind of
 what you inherit right no no that's not
 what you inherit right no no that's not
 what you inherit right no no that's not
-what i'm proposing at all
-what i'm proposing at all
-what i'm proposing at all
+what I'm proposing at all
+what I'm proposing at all
+what I'm proposing at all
 you're muted oh I don't know
 you're muted oh I don't know
 you're muted oh I don't know
-can you not hear me i'm not muted on my
-can you not hear me i'm not muted on my
-can you not hear me i'm not muted on my
+can you not hear me I'm not muted on my
+can you not hear me I'm not muted on my
+can you not hear me I'm not muted on my
 side
 side
 side
 there was nothing I can hear
 there was nothing I can hear
 there was nothing I can hear
-i can hear him he said that's not what
-i can hear him he said that's not what
-i can hear him he said that's not what
+I can hear him he said that's not what
+I can hear him he said that's not what
+I can hear him he said that's not what
 he's proposing at all
 he's proposing at all
 he's proposing at all
-okay I don't know what i'm proposing is
-okay I don't know what i'm proposing is
-okay I don't know what i'm proposing is
+okay I don't know what I'm proposing is
+okay I don't know what I'm proposing is
+okay I don't know what I'm proposing is
 you and can you hear me now
 you and can you hear me now
 you and can you hear me now
-yes yeah okay what i'm proposing is that
-yes yeah okay what i'm proposing is that
-yes yeah okay what i'm proposing is that
+yes yeah okay what I'm proposing is that
+yes yeah okay what I'm proposing is that
+yes yeah okay what I'm proposing is that
 you inherit the current state of the
 you inherit the current state of the
 you inherit the current state of the
 flags whatever they are
 flags whatever they are
 flags whatever they are
-right that's what i'm saying yeah like
-right that's what i'm saying yeah like
-right that's what i'm saying yeah like
+right that's what I'm saying yeah like
+right that's what I'm saying yeah like
+right that's what I'm saying yeah like
 not like they don't get frozen like if i
 not like they don't get frozen like if i
 not like they don't get frozen like if i
@@ -1167,9 +1167,9 @@ no number like well
 if if you wanted to if you were saying
 if if you wanted to if you were saying
 if if you wanted to if you were saying
-i'm right now i'm not earth required and
-i'm right now i'm not earth required and
-i'm right now i'm not earth required and
+I'm right now I'm not earth required and
+I'm right now I'm not earth required and
+I'm right now I'm not earth required and
 then in future I become art required
 then in future I become art required
 then in future I become art required
@@ -1275,9 +1275,9 @@ example of a poo right a a a trading
 pool if I change the reserve in some
 pool if I change the reserve in some
 pool if I change the reserve in some
-random way i'm breaking all the
-random way i'm breaking all the
-random way i'm breaking all the
+random way I'm breaking all the
+random way I'm breaking all the
+random way I'm breaking all the
 environments of that pool correct and so
 environments of that pool correct and so
 environments of that pool correct and so
@@ -1392,9 +1392,9 @@ kind of it there's no like operator
 right
 right
 right
-i mean like if you want to live in a
-i mean like if you want to live in a
-i mean like if you want to live in a
+I mean like if you want to live in a
+I mean like if you want to live in a
+I mean like if you want to live in a
 world where you're using
 world where you're using
 world where you're using
@@ -1470,9 +1470,9 @@ like it sounds kind of broken to allow
 that to happen in the first place
 that to happen in the first place
 that to happen in the first place
-i I don't think it's broken you should
-i I don't think it's broken you should
-i I don't think it's broken you should
+I I don't think it's broken you should
+I I don't think it's broken you should
+I I don't think it's broken you should
 know better than to do that
 know better than to do that
 know better than to do that
@@ -1494,9 +1494,9 @@ you think that usdc should be useless
 it should be like if there is no
 it should be like if there is no
 it should be like if there is no
-yes like you know i'm like it's leslie
-yes like you know i'm like it's leslie
-yes like you know i'm like it's leslie
+yes like you know I'm like it's leslie
+yes like you know I'm like it's leslie
+yes like you know I'm like it's leslie
 okay great
 okay great
 okay great
@@ -1572,9 +1572,9 @@ on ethereum usdc is blacklistable
 
 
 
-i i've read the contract it is very
-i i've read the contract it is very
-i i've read the contract it is very
+I i've read the contract it is very
+I i've read the contract it is very
+I i've read the contract it is very
 clearly blacklistable in fact I believe
 clearly blacklistable in fact I believe
 clearly blacklistable in fact I believe
@@ -1635,9 +1635,9 @@ implementing something
 broader than that we have to
 broader than that we have to
 broader than that we have to
-i I don't agree like those contracts the
-i I don't agree like those contracts the
-i I don't agree like those contracts the
+I I don't agree like those contracts the
+I I don't agree like those contracts the
+I I don't agree like those contracts the
 interface that those that like unit swap
 interface that those that like unit swap
 interface that those that like unit swap
@@ -1653,9 +1653,9 @@ you're saying that if if what you do you
 have a new initial pool with usdc
 have a new initial pool with usdc
 have a new initial pool with usdc
-that can like i'm pretty sure like you
-that can like i'm pretty sure like you
-that can like i'm pretty sure like you
+that can like I'm pretty sure like you
+that can like I'm pretty sure like you
+that can like I'm pretty sure like you
 take if if you're attesting is true if
 take if if you're attesting is true if
 take if if you're attesting is true if
@@ -1677,9 +1677,9 @@ the pool is now compromised basically
 it's done
 it's done
 it's done
-i that could be the case we'd have to go
-i that could be the case we'd have to go
-i that could be the case we'd have to go
+I that could be the case we'd have to go
+I that could be the case we'd have to go
+I that could be the case we'd have to go
 and review the code but that could be
 and review the code but that could be
 and review the code but that could be
@@ -1762,8 +1762,8 @@ and then I would question whether we
 and then I would question whether we
 and then I would question whether we
 should do this at all
-i mean I don't know it sounds
-i mean I don't know it sounds
+I mean I don't know it sounds
+I mean I don't know it sounds
 complicated to have like
 complicated to have like
 complicated to have like
@@ -1774,8 +1774,8 @@ complex thing to deal with on the on
 complex thing to deal with on the on
 complex thing to deal with on the on
 smart side
-i mean maybe but that means that we have
-i mean maybe but that means that we have
+I mean maybe but that means that we have
+I mean maybe but that means that we have
 to expose more than just the rc20 we
 to expose more than just the rc20 we
 to expose more than just the rc20 we
@@ -1947,9 +1947,9 @@ but to be clear I don't know that that's
 true for a fact I suspected it right but
 true for a fact I suspected it right but
 true for a fact I suspected it right but
-i mean like we're going to end up we
-i mean like we're going to end up we
-i mean like we're going to end up we
+I mean like we're going to end up we
+I mean like we're going to end up we
+I mean like we're going to end up we
 probably end up with something similar
 probably end up with something similar
 probably end up with something similar
@@ -1987,8 +1987,8 @@ we're not going to provide that
 we're not going to provide that
 we're not going to provide that
 interoperability if we don't
-i mean I don't disagree with you like
-i mean I don't disagree with you like
+I mean I don't disagree with you like
+I mean I don't disagree with you like
 like
 like
 like
@@ -2065,8 +2065,8 @@ yeah like exposing the art like
 yeah like exposing the art like
 yeah like exposing the art like
 some you know something
-i mean like my argument would be like
-i mean like my argument would be like
+I mean like my argument would be like
+I mean like my argument would be like
 there's no way to globally handle
 there's no way to globally handle
 there's no way to globally handle
@@ -2079,12 +2079,12 @@ like
 the only thing that's going on
 the only thing that's going on
 the only thing that's going on
-i'm not saying
-i'm not saying
-i'm not saying
-i'm not i'm not saying handle club like
-i'm not i'm not saying handle club like
-i'm not i'm not saying handle club like
+I'm not saying
+I'm not saying
+I'm not saying
+I'm not I'm not saying handle club like
+I'm not I'm not saying handle club like
+I'm not I'm not saying handle club like
 clawback I think requires its own set of
 clawback I think requires its own set of
 clawback I think requires its own set of
@@ -2127,9 +2127,9 @@ in
 smart
 smart
 smart
-i mean we don't support it as in you
-i mean we don't support it as in you
-i mean we don't support it as in you
+I mean we don't support it as in you
+I mean we don't support it as in you
+I mean we don't support it as in you
 know if if clawback is enabled well
 know if if clawback is enabled well
 know if if clawback is enabled well
@@ -2245,8 +2245,8 @@ about the problem like is that the
 about the problem like is that the
 about the problem like is that the
 distinction
-i mean I mean I think maybe like it
-i mean I mean I think maybe like it
+I mean I mean I think maybe like it
+I mean I mean I think maybe like it
 would help to have like
 would help to have like
 would help to have like
@@ -2359,8 +2359,8 @@ concerned about
 concerned about
 concerned about
 like concretely what it might look like
-i mean I think one concrete scenario
-i mean I think one concrete scenario
+I mean I think one concrete scenario
+I mean I think one concrete scenario
 would be like you have a liquidity pool
 would be like you have a liquidity pool
 would be like you have a liquidity pool
@@ -2385,9 +2385,9 @@ pretend for the sake of argument whether
 it's true or not that usdt is in fact
 it's true or not that usdt is in fact
 it's true or not that usdt is in fact
-really actually truly collateralized i'm
-really actually truly collateralized i'm
-really actually truly collateralized i'm
+really actually truly collateralized I'm
+really actually truly collateralized I'm
+really actually truly collateralized I'm
 not making a statement whether it is or
 not making a statement whether it is or
 not making a statement whether it is or
@@ -2439,9 +2439,9 @@ dollars
 
 
 
-and now the pool and i'm sorry I said
-and now the pool and i'm sorry I said
-and now the pool and i'm sorry I said
+and now the pool and I'm sorry I said
+and now the pool and I'm sorry I said
+and now the pool and I'm sorry I said
 revoked I mean clause back 25 million
 revoked I mean clause back 25 million
 revoked I mean clause back 25 million
@@ -2631,12 +2631,12 @@ it well what's your definition of what
 you want
 you want
 you want
-that's what i'm trying to figure out
-that's what i'm trying to figure out
-that's what i'm trying to figure out
-i mean like you know no I mean like
-i mean like you know no I mean like
-i mean like you know no I mean like
+that's what I'm trying to figure out
+that's what I'm trying to figure out
+that's what I'm trying to figure out
+I mean like you know no I mean like
+I mean like you know no I mean like
+I mean like you know no I mean like
 what's even like I guess maybe that's
 what's even like I guess maybe that's
 what's even like I guess maybe that's
@@ -2649,9 +2649,9 @@ desirable aspect of this exactly
 like
 like
 like
-i guess let me describe to you what i
-i guess let me describe to you what i
-i guess let me describe to you what i
+I guess let me describe to you what i
+I guess let me describe to you what i
+I guess let me describe to you what i
 would consider like the most ideal
 would consider like the most ideal
 would consider like the most ideal
@@ -2694,9 +2694,9 @@ and basically like the issuer's the
 only one who can call that whatever you
 only one who can call that whatever you
 only one who can call that whatever you
-want the issuer to be i'm talking about
-want the issuer to be i'm talking about
-want the issuer to be i'm talking about
+want the issuer to be I'm talking about
+want the issuer to be I'm talking about
+want the issuer to be I'm talking about
 native like classic assets
 native like classic assets
 native like classic assets
@@ -2775,10 +2775,10 @@ your contract gets to react every time
 funds are clawed back no no that's not
 funds are clawed back no no that's not
 funds are clawed back no no that's not
-what i'm saying oh sorry no
-what i'm saying oh sorry no
-what i'm saying oh sorry no
-i guess
+what I'm saying oh sorry no
+what I'm saying oh sorry no
+what I'm saying oh sorry no
+I guess
 where is this function defined is it
 where is this function defined is it
 defined on the contract that owns the
@@ -2791,8 +2791,8 @@ that
 that
 that
 holds an asset
-i guess yeah
-i guess yeah
+I guess yeah
+I guess yeah
 every country could be the whole it has
 every country could be the whole it has
 every country could be the whole it has
@@ -2841,9 +2841,9 @@ upgraded or something or I don't know
 like
 like
 like
-i think the default should be you can
-i think the default should be you can
-i think the default should be you can
+I think the default should be you can
+I think the default should be you can
+I think the default should be you can
 opt out basically of this whole thing
 opt out basically of this whole thing
 opt out basically of this whole thing
@@ -2895,12 +2895,12 @@ and you know as as soon as any funds
 have been called back from it
 have been called back from it
 have been called back from it
-i'm sorry I cut off late
+I'm sorry I cut off late
 yeah so he's put his contract yeah yeah
 yeah so he's put his contract yeah yeah
-i guess no like I think david is
-i guess no like I think david is
-i guess no like I think david is
+I guess no like I think david is
+I guess no like I think david is
+I guess no like I think david is
 probably right
 probably right
 probably right
@@ -2934,9 +2934,9 @@ and probably in addition
 the contract gets completely stopped
 the contract gets completely stopped
 the contract gets completely stopped
-the default i'm talking about the
-the default i'm talking about the
-the default i'm talking about the
+the default I'm talking about the
+the default I'm talking about the
+the default I'm talking about the
 default yeah so the default is that it
 default yeah so the default is that it
 default yeah so the default is that it
@@ -2952,9 +2952,9 @@ upgrade the contract or something
 right
 right
 right
-i mean you know
-i mean like basically what we need is
-i mean like basically what we need is
+I mean you know
+I mean like basically what we need is
+I mean like basically what we need is
 like human intervention right like we
 like human intervention right like we
 like human intervention right like we
@@ -3042,9 +3042,9 @@ clawback enabled
 simple function simple flag
 simple function simple flag
 simple function simple flag
-no no but i'm saying like if if a
-no no but i'm saying like if if a
-no no but i'm saying like if if a
+no no but I'm saying like if if a
+no no but I'm saying like if if a
+no no but I'm saying like if if a
 contract has any trust line that gets
 contract has any trust line that gets
 contract has any trust line that gets
@@ -3174,9 +3174,9 @@ truss line you can't get enabled so i
 mean we've already designed around that
 mean we've already designed around that
 mean we've already designed around that
-i think
-i think
-i think
+I think
+I think
+I think
 the other the other thing we can do
 the other the other thing we can do
 the other the other thing we can do
@@ -3192,12 +3192,12 @@ writing contracts so that when the
 account
 account
 account
-when the contract says i'm willing to
-when the contract says i'm willing to
-when the contract says i'm willing to
-hold an asset i'm assuming that we're
-hold an asset i'm assuming that we're
-hold an asset i'm assuming that we're
+when the contract says I'm willing to
+when the contract says I'm willing to
+when the contract says I'm willing to
+hold an asset I'm assuming that we're
+hold an asset I'm assuming that we're
+hold an asset I'm assuming that we're
 going to have some way of saying that
 going to have some way of saying that
 going to have some way of saying that
@@ -3300,9 +3300,9 @@ with some stuff but it might save
 complexity somewhere else
 complexity somewhere else
 complexity somewhere else
-but the thing that i'm like skeptical
-but the thing that i'm like skeptical
-but the thing that i'm like skeptical
+but the thing that I'm like skeptical
+but the thing that I'm like skeptical
+but the thing that I'm like skeptical
 about here is like the notion of a
 about here is like the notion of a
 about here is like the notion of a
@@ -3369,9 +3369,9 @@ why should this be up to the issuers
 like the
 like the
 like the
-i guess what i'm saying is like the the
-i guess what i'm saying is like the the
-i guess what i'm saying is like the the
+I guess what I'm saying is like the the
+I guess what I'm saying is like the the
+I guess what I'm saying is like the the
 invocation should be a result of
 invocation should be a result of
 invocation should be a result of
@@ -3424,8 +3424,8 @@ what no oh well you're saying if it's
 what no oh well you're saying if it's
 what no oh well you're saying if it's
 called at a different time
-i I mean at the end of the day like
-i I mean at the end of the day like
+I I mean at the end of the day like
+I I mean at the end of the day like
 the
 the
 the
@@ -3501,9 +3501,9 @@ that like can can anybody call a
 function
 function
 function
-i would say that it would have it should
-i would say that it would have it should
-i would say that it would have it should
+I would say that it would have it should
+I would say that it would have it should
+I would say that it would have it should
 have a guard on the issuer type of thing
 have a guard on the issuer type of thing
 have a guard on the issuer type of thing
@@ -3516,9 +3516,9 @@ like is the person who can call this the
 person who can call it
 person who can call it
 person who can call it
-i mean presumably what it should do
-i mean presumably what it should do
-i mean presumably what it should do
+I mean presumably what it should do
+I mean presumably what it should do
+I mean presumably what it should do
 like the function should like
 like the function should like
 like the function should like
@@ -3642,18 +3642,18 @@ issue we'll only call this if they are
 in fact doing this thing
 in fact doing this thing
 in fact doing this thing
-i'm very clearly saying like
-i'm very clearly saying like
-i'm very clearly saying like
+I'm very clearly saying like
+I'm very clearly saying like
+I'm very clearly saying like
 there's no protocol specifications here
 there's no protocol specifications here
 there's no protocol specifications here
 at all
 at all
 at all
-the only thing i'm saying is like it is
-the only thing i'm saying is like it is
-the only thing i'm saying is like it is
+the only thing I'm saying is like it is
+the only thing I'm saying is like it is
+the only thing I'm saying is like it is
 a recommendation to people who write
 a recommendation to people who write
 a recommendation to people who write
@@ -3669,9 +3669,9 @@ they would like to hold callbackable
 assets right but as the contract author
 assets right but as the contract author
 assets right but as the contract author
-i need to be thinking about where my
-i need to be thinking about where my
-i need to be thinking about where my
+I need to be thinking about where my
+I need to be thinking about where my
+I need to be thinking about where my
 trust lies so if this function is going
 trust lies so if this function is going
 trust lies so if this function is going
@@ -3693,9 +3693,9 @@ only call it
 when this is actually happening
 when this is actually happening
 when this is actually happening
-i don't necessarily know what you
-i don't necessarily know what you
-i don't necessarily know what you
+I don't necessarily know what you
+I don't necessarily know what you
+I don't necessarily know what you
 mean like
 mean like
 mean like
@@ -3825,9 +3825,9 @@ people's smart contracts and spend a
 bunch of gas doing whatever right so
 bunch of gas doing whatever right so
 bunch of gas doing whatever right so
-i I feel like
-i I feel like
-i I feel like
+I I feel like
+I I feel like
+I I feel like
 what what we need to do is just have
 what what we need to do is just have
 what what we need to do is just have
@@ -3948,9 +3948,9 @@ maybe there's value for like yes if
 suddenly like uscc gets called back then
 suddenly like uscc gets called back then
 suddenly like uscc gets called back then
-i get the ability to upgrade this
-i get the ability to upgrade this
-i get the ability to upgrade this
+I get the ability to upgrade this
+I get the ability to upgrade this
+I get the ability to upgrade this
 contract but usually I don't want this
 contract but usually I don't want this
 contract but usually I don't want this
@@ -3972,9 +3972,9 @@ any magic at all
 so
 so
 so
-i don't know I feel like we're not
-i don't know I feel like we're not
-i don't know I feel like we're not
+I don't know I feel like we're not
+I don't know I feel like we're not
+I don't know I feel like we're not
 all talking about the same thing here
 all talking about the same thing here
 all talking about the same thing here
@@ -4015,8 +4015,8 @@ that would lead to this situation or is
 that would lead to this situation or is
 that would lead to this situation or is
 this limited to clawbacks
-i mean like getting frozen would be
-i mean like getting frozen would be
+I mean like getting frozen would be
+I mean like getting frozen would be
 not as complicated but equally bad so an
 not as complicated but equally bad so an
 not as complicated but equally bad so an
@@ -4110,9 +4110,9 @@ additional flag or option you can pass
 that just says like
 that just says like
 that just says like
-i'm willing to go the
-i'm willing to go the
-i'm willing to go the
+I'm willing to go the
+I'm willing to go the
+I'm willing to go the
 potentially unsafe unsafe route of
 potentially unsafe unsafe route of
 potentially unsafe unsafe route of
@@ -4167,9 +4167,9 @@ do you know why they did that
 so how do you fix the state of your
 so how do you fix the state of your
 so how do you fix the state of your
-contract well i'm thinking like what the
-contract well i'm thinking like what the
-contract well i'm thinking like what the
+contract well I'm thinking like what the
+contract well I'm thinking like what the
+contract well I'm thinking like what the
 cleanup method could do is it could like
 cleanup method could do is it could like
 cleanup method could do is it could like
@@ -4188,9 +4188,9 @@ like it goes in safe mode or something
 and then unlock some like a maintenance
 and then unlock some like a maintenance
 and then unlock some like a maintenance
-i think that's one of the
-i think that's one of the
-i think that's one of the
+I think that's one of the
+I think that's one of the
+I think that's one of the
 like
 like
 like
@@ -4236,9 +4236,9 @@ instead but
 yeah
 yeah
 yeah
-i I just I don't know personally I just
-i I just I don't know personally I just
-i I just I don't know personally I just
+I I just I don't know personally I just
+I I just I don't know personally I just
+I I just I don't know personally I just
 feel like we're making this really
 feel like we're making this really
 feel like we're making this really
@@ -4380,9 +4380,9 @@ you also need to write that condition
 in the first place right like
 in the first place right like
 in the first place right like
-no no i'm saying that's not like a false
-no no i'm saying that's not like a false
-no no i'm saying that's not like a false
+no no I'm saying that's not like a false
+no no I'm saying that's not like a false
+no no I'm saying that's not like a false
 that's that's no no no I see yeah
 that's that's no no no I see yeah
 that's that's no no no I see yeah
@@ -4599,9 +4599,9 @@ for this discussion right here in person
 today but it seems like there's a lot
 today but it seems like there's a lot
 today but it seems like there's a lot
-i mean I think we just got to keep keep
-i mean I think we just got to keep keep
-i mean I think we just got to keep keep
+I mean I think we just got to keep keep
+I mean I think we just got to keep keep
+I mean I think we just got to keep keep
 working async on the dev discussion
 working async on the dev discussion
 working async on the dev discussion
@@ -4617,18 +4617,18 @@ know I don't know what the next steps
 are though
 are though
 are though
-i mean like like the thing I wanted to
-i mean like like the thing I wanted to
-i mean like like the thing I wanted to
+I mean like like the thing I wanted to
+I mean like like the thing I wanted to
+I mean like like the thing I wanted to
 say is like I think
 say is like I think
 say is like I think
 for for the first phase of this I think
 for for the first phase of this I think
 for for the first phase of this I think
-i would I would do what's kind of what
-i would I would do what's kind of what
-i would I would do what's kind of what
+I would I would do what's kind of what
+I would I would do what's kind of what
+I would I would do what's kind of what
 lee was saying which is like
 lee was saying which is like
 lee was saying which is like
@@ -4647,9 +4647,9 @@ your trust line basically
 this for cla for those classic things
 this for cla for those classic things
 this for cla for those classic things
-i'm talking about
-i'm talking about
-i'm talking about
+I'm talking about
+I'm talking about
+I'm talking about
 for the first version you can't even
 for the first version you can't even
 for the first version you can't even
@@ -4675,8 +4675,8 @@ work in in smart world and then retrofit
 work in in smart world and then retrofit
 work in in smart world and then retrofit
 this to to classic
-i think the main lines of work should be
-i think the main lines of work should be
+I think the main lines of work should be
+I think the main lines of work should be
 the first one should be like let's go
 the first one should be like let's go
 the first one should be like let's go
@@ -4749,15 +4749,15 @@ then we should resume this
 but again like
 but again like
 but again like
-i'm
-i'm
-i'm
+I'm
+I'm
+I'm
 like
 like
 like
-i think it's a favor of keeping it
-i think it's a favor of keeping it
-i think it's a favor of keeping it
+I think it's a favor of keeping it
+I think it's a favor of keeping it
+I think it's a favor of keeping it
 simple I know that there's like the
 simple I know that there's like the
 simple I know that there's like the
@@ -4785,9 +4785,9 @@ just
 fyi
 fyi
 fyi
-i agree with that yeah
-i agree with that yeah
-i agree with that yeah
+I agree with that yeah
+I agree with that yeah
+I agree with that yeah
 all right
 all right
 all right

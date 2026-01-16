@@ -9,9 +9,9 @@ friday morning afternoon wherever you
 are
 are
 are
-my name is devneal i'm a software
-my name is devneal i'm a software
-my name is devneal i'm a software
+my name is devneal I'm a software
+my name is devneal I'm a software
+my name is devneal I'm a software
 engineer at sdf on the voyager team
 engineer at sdf on the voyager team
 engineer at sdf on the voyager team
@@ -84,9 +84,9 @@ one building analytics pipelines from
 zero to one
 zero to one
 zero to one
-i hope our experience is generally
-i hope our experience is generally
-i hope our experience is generally
+I hope our experience is generally
+I hope our experience is generally
+I hope our experience is generally
 helpful to people who have a bunch of
 helpful to people who have a bunch of
 helpful to people who have a bunch of
@@ -174,9 +174,9 @@ in the interest of time and network
 connections over the talk
 connections over the talk
 connections over the talk
-i'm not going to live code but I will
-i'm not going to live code but I will
-i'm not going to live code but I will
+I'm not going to live code but I will
+I'm not going to live code but I will
+I'm not going to live code but I will
 share links for folks do their own
 share links for folks do their own
 share links for folks do their own
@@ -192,9 +192,9 @@ pipeline no pun intended for data
 analytics
 analytics
 analytics
-i note that if you have questions
-i note that if you have questions
-i note that if you have questions
+I note that if you have questions
+I note that if you have questions
+I note that if you have questions
 there's a qr code
 there's a qr code
 there's a qr code
@@ -903,9 +903,9 @@ up and share permissions across the
 organization
 organization
 organization
-i would say that this is like a low
-i would say that this is like a low
-i would say that this is like a low
+I would say that this is like a low
+I would say that this is like a low
+I would say that this is like a low
 priority in terms of deciding a
 priority in terms of deciding a
 priority in terms of deciding a
@@ -1137,9 +1137,9 @@ drop interface
 it's free and really easy to set up and
 it's free and really easy to set up and
 it's free and really easy to set up and
-i think if you need to mvp a pipeline
-i think if you need to mvp a pipeline
-i think if you need to mvp a pipeline
+I think if you need to mvp a pipeline
+I think if you need to mvp a pipeline
+I think if you need to mvp a pipeline
 it's a really good option
 finally let's talk about some of the
 finally let's talk about some of the
@@ -1260,9 +1260,9 @@ query what account has the highest lumen
 balance
 balance
 balance
-i call this easy because it's pretty
-i call this easy because it's pretty
-i call this easy because it's pretty
+I call this easy because it's pretty
+I call this easy because it's pretty
+I call this easy because it's pretty
 short but it's really cool because it
 short but it's really cool because it
 short but it's really cool because it
@@ -1431,9 +1431,9 @@ but feel free to reach out to me either
 on the youtube chat or after
 on the youtube chat or after
 on the youtube chat or after
-i'm happy to provide more instructions
-i'm happy to provide more instructions
-i'm happy to provide more instructions
+I'm happy to provide more instructions
+I'm happy to provide more instructions
+I'm happy to provide more instructions
 on how anyone
 on how anyone
 on how anyone
@@ -1680,9 +1680,9 @@ because it's pretty hard to do that in a
 time efficient way
 time efficient way
 time efficient way
-but it's a really exciting one and i'm
-but it's a really exciting one and i'm
-but it's a really exciting one and i'm
+but it's a really exciting one and I'm
+but it's a really exciting one and I'm
+but it's a really exciting one and I'm
 excited to get cracking on it
 fourth and finally data exploration is
 fourth and finally data exploration is
@@ -1698,9 +1698,9 @@ if anybody in the community wants to
 take this challenge on
 take this challenge on
 take this challenge on
-i'm more than happy to see some
-i'm more than happy to see some
-i'm more than happy to see some
+I'm more than happy to see some
+I'm more than happy to see some
+I'm more than happy to see some
 community implementation
 community implementation
 community implementation
@@ -1713,9 +1713,9 @@ either ideas or
 a desire to try to figure out how to do
 a desire to try to figure out how to do
 a desire to try to figure out how to do
-it i'm very happy to talk about it
-it i'm very happy to talk about it
-it i'm very happy to talk about it
+it I'm very happy to talk about it
+it I'm very happy to talk about it
+it I'm very happy to talk about it
 so that's all for me I hope you really
 so that's all for me I hope you really
 so that's all for me I hope you really
@@ -1725,7 +1725,7 @@ enjoyed hearing about this pipeline and
 all the stuff we've been doing
 all the stuff we've been doing
 all the stuff we've been doing
-and i'm happy to answer any questions
+and I'm happy to answer any questions
 so one question that's been asked are
 so one question that's been asked are
 there any cool projects using this data
@@ -1770,9 +1770,9 @@ and it should be even easier to see what
 the rates look like
 the rates look like
 the rates look like
-i think the rates are really hard to be
-i think the rates are really hard to be
-i think the rates are really hard to be
+I think the rates are really hard to be
+I think the rates are really hard to be
+I think the rates are really hard to be
 able to do on this data set but really
 able to do on this data set but really
 able to do on this data set but really
@@ -1824,9 +1824,9 @@ longer term things that I think would be
 cool that leveraged this data set
 cool that leveraged this data set
 cool that leveraged this data set
-i think it could be really cool to
-i think it could be really cool to
-i think it could be really cool to
+I think it could be really cool to
+I think it could be really cool to
+I think it could be really cool to
 see how assets on the
 see how assets on the
 see how assets on the
@@ -1887,9 +1887,9 @@ so that's a good and interesting
 question
 question
 question
-i will say that you don't need to
-i will say that you don't need to
-i will say that you don't need to
+I will say that you don't need to
+I will say that you don't need to
+I will say that you don't need to
 understand the engineering aspect of
 understand the engineering aspect of
 understand the engineering aspect of
@@ -1923,9 +1923,9 @@ on it lots of things but within the
 scope of this talk
 scope of this talk
 scope of this talk
-i would say that it looks like telling
-i would say that it looks like telling
-i would say that it looks like telling
+I would say that it looks like telling
+I would say that it looks like telling
+I would say that it looks like telling
 people that hey stellar is really cool
 people that hey stellar is really cool
 people that hey stellar is really cool
@@ -2016,9 +2016,9 @@ nil or over twitter my twitter username
 is debna sir
 is debna sir
 is debna sir
-d-e-b-n-i-l-s-u-r i'm happy to
-d-e-b-n-i-l-s-u-r i'm happy to
-d-e-b-n-i-l-s-u-r i'm happy to
+d-e-b-n-i-l-s-u-r I'm happy to
+d-e-b-n-i-l-s-u-r I'm happy to
+d-e-b-n-i-l-s-u-r I'm happy to
 talk about things stellar related as
 talk about things stellar related as
 talk about things stellar related as

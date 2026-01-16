@@ -108,9 +108,9 @@ discussion
 there's a link to it in the event
 there's a link to it in the event
 there's a link to it in the event
-description i'm going to talk about more
-description i'm going to talk about more
-description i'm going to talk about more
+description I'm going to talk about more
+description I'm going to talk about more
+description I'm going to talk about more
 in a second
 in a second
 in a second
@@ -360,9 +360,9 @@ different models for handling
 handling authorization and replication
 handling authorization and replication
 handling authorization and replication
-and i'm just wondering if to start us
-and i'm just wondering if to start us
-and i'm just wondering if to start us
+and I'm just wondering if to start us
+and I'm just wondering if to start us
+and I'm just wondering if to start us
 off you can sort of
 off you can sort of
 off you can sort of
@@ -612,9 +612,9 @@ really
 and in that kind of a setting
 and in that kind of a setting
 and in that kind of a setting
-i think the majority of the assets on
-i think the majority of the assets on
-i think the majority of the assets on
+I think the majority of the assets on
+I think the majority of the assets on
+I think the majority of the assets on
 the network are not authorization
 the network are not authorization
 the network are not authorization
@@ -634,11 +634,11 @@ think there are some pros and cons to
 think there are some pros and cons to
 think there are some pros and cons to
 that
-i mean is it worth just outlining the
-i mean is it worth just outlining the
+I mean is it worth just outlining the
+I mean is it worth just outlining the
 pros and cons to that
-i mean I think the major con is that
-i mean I think the major con is that
+I mean I think the major con is that
+I mean I think the major con is that
 it's just
 it's just
 it's just
@@ -663,9 +663,9 @@ up against this other flag
 and I think that's kind of the major
 and I think that's kind of the major
 and I think that's kind of the major
-thing like oh you know i'm looking at
-thing like oh you know i'm looking at
-thing like oh you know i'm looking at
+thing like oh you know I'm looking at
+thing like oh you know I'm looking at
+thing like oh you know I'm looking at
 some asset can i
 some asset can i
 some asset can i
@@ -687,9 +687,9 @@ drawback of that kind of an additional
 step and I think lee was trying to say
 step and I think lee was trying to say
 step and I think lee was trying to say
-something a second ago so i'm gonna let
-something a second ago so i'm gonna let
-something a second ago so i'm gonna let
+something a second ago so I'm gonna let
+something a second ago so I'm gonna let
+something a second ago so I'm gonna let
 him jump in
 him jump in
 him jump in
@@ -849,12 +849,12 @@ you'll be kind of unfortunate if you
 couldn't use those in amms
 no they see nobody does that
 no they see nobody does that
-nobody says I promise i'm not going to
-nobody says I promise i'm not going to
-nobody says I promise i'm not going to
-revoke this asset i'm going to make it
-revoke this asset i'm going to make it
-revoke this asset i'm going to make it
+nobody says I promise I'm not going to
+nobody says I promise I'm not going to
+nobody says I promise I'm not going to
+revoke this asset I'm going to make it
+revoke this asset I'm going to make it
+revoke this asset I'm going to make it
 off immutable
 off immutable
 off immutable
@@ -1123,8 +1123,8 @@ give them like you know
 give them like you know
 give them like you know
 a month's notice or something
-i can't think of such assets because i
-i can't think of such assets because i
+I can't think of such assets because i
+I can't think of such assets because i
 feel like I wouldn't I want this
 feel like I wouldn't I want this
 feel like I wouldn't I want this
@@ -1156,8 +1156,8 @@ some kind of like the
 some kind of like the
 some kind of like the
 default on thing basically
-i mean tomer from the perspective of
-i mean tomer from the perspective of
+I mean tomer from the perspective of
+I mean tomer from the perspective of
 like what if we
 like what if we
 like what if we
@@ -1278,9 +1278,9 @@ like david brought up are
 very edgy like they're just not
 very edgy like they're just not
 very edgy like they're just not
-i'm having a hard time thinking about
-i'm having a hard time thinking about
-i'm having a hard time thinking about
+I'm having a hard time thinking about
+I'm having a hard time thinking about
+I'm having a hard time thinking about
 anyone that will actually be affected
 anyone that will actually be affected
 anyone that will actually be affected
@@ -1329,9 +1329,9 @@ in reality I just don't think it matters
 all that much I think
 all that much I think
 all that much I think
-i think I think what you suggest john is
-i think I think what you suggest john is
-i think I think what you suggest john is
+I think I think what you suggest john is
+I think I think what you suggest john is
+I think I think what you suggest john is
 probably
 probably
 probably
@@ -1434,9 +1434,9 @@ one of the things that either I was
 suggesting david was suggesting any of
 suggesting david was suggesting any of
 suggesting david was suggesting any of
-us were suggesting i'm a little confused
-us were suggesting i'm a little confused
-us were suggesting i'm a little confused
+us were suggesting I'm a little confused
+us were suggesting I'm a little confused
+us were suggesting I'm a little confused
 so I thought we were discussing a
 so I thought we were discussing a
 so I thought we were discussing a
@@ -1480,8 +1480,8 @@ yeah
 yeah
 yeah
 the opt-in yeah
-i think david that that would cover your
-i think david that that would cover your
+I think david that that would cover your
+I think david that that would cover your
 case too because if you're
 case too because if you're
 case too because if you're
@@ -1497,24 +1497,24 @@ no you could just have low signing
 weight only
 weight only
 weight only
-i guess it also depends yeah if you can
-i guess it also depends yeah if you can
-i guess it also depends yeah if you can
+I guess it also depends yeah if you can
+I guess it also depends yeah if you can
+I guess it also depends yeah if you can
 you set this flag with low signing
 you set this flag with low signing
 you set this flag with low signing
 weight
 weight
 weight
-i mean I guess
-i mean I guess
-i mean I guess
+I mean I guess
+I mean I guess
+I mean I guess
 i'd rather
 i'd rather
 i'd rather
-i you know i'd rather stuff be on by
-i you know i'd rather stuff be on by
-i you know i'd rather stuff be on by
+I you know i'd rather stuff be on by
+I you know i'd rather stuff be on by
+I you know i'd rather stuff be on by
 default right for the same reason like
 default right for the same reason like
 default right for the same reason like
@@ -1585,8 +1585,8 @@ reason but you don't want to
 reason but you don't want to
 reason but you don't want to
 auth require it
-so correct me if i'm wrong but if they
-so correct me if i'm wrong but if they
+so correct me if I'm wrong but if they
+so correct me if I'm wrong but if they
 do have auth required right now
 do have auth required right now
 do have auth required right now
@@ -1933,11 +1933,11 @@ separately like maybe we want the flag
 separately like maybe we want the flag
 separately like maybe we want the flag
 either way so then it matters a bit less
-yeah so i'm reading siddharth's
-yeah so i'm reading siddharth's
-outline here and i'm i'm
-outline here and i'm i'm
-outline here and i'm i'm
+yeah so I'm reading siddharth's
+yeah so I'm reading siddharth's
+outline here and I'm I'm
+outline here and I'm I'm
+outline here and I'm I'm
 leaning towards v1 in terms of
 leaning towards v1 in terms of
 leaning towards v1 in terms of
@@ -1947,9 +1947,9 @@ like a more sensible contract that's in
 line with what we have today
 line with what we have today
 line with what we have today
-i don't have you know you core folks
-i don't have you know you core folks
-i don't have you know you core folks
+I don't have you know you core folks
+I don't have you know you core folks
+I don't have you know you core folks
 need to
 need to
 need to
@@ -2094,9 +2094,9 @@ basically a table
 operation so
 operation so
 operation so
-i mean to be fair you don't necessarily
-i mean to be fair you don't necessarily
-i mean to be fair you don't necessarily
+I mean to be fair you don't necessarily
+I mean to be fair you don't necessarily
+I mean to be fair you don't necessarily
 need to do
 need to do
 need to do
@@ -2196,9 +2196,9 @@ folks huddle up and
 and and and figure out like how yeah
 and and and figure out like how yeah
 and and and figure out like how yeah
-i feel like that's true are there any
-i feel like that's true are there any
-i feel like that's true are there any
+I feel like that's true are there any
+I feel like that's true are there any
+I feel like that's true are there any
 other questions about this topic that we
 other questions about this topic that we
 other questions about this topic that we
@@ -2277,9 +2277,9 @@ disable their asset from participating
 in liquidity pools
 in liquidity pools
 in liquidity pools
-but i'm not sure
-but i'm not sure
-but i'm not sure
+but I'm not sure
+but I'm not sure
+but I'm not sure
 is there like to the extent I would
 is there like to the extent I would
 is there like to the extent I would
@@ -2430,9 +2430,9 @@ so making it apply even to the existing
 order bill yeah
 order bill yeah
 order bill yeah
-i mean interesting if nobody's asking
-i mean interesting if nobody's asking
-i mean interesting if nobody's asking
+I mean interesting if nobody's asking
+I mean interesting if nobody's asking
+I mean interesting if nobody's asking
 for this then you know it's
 for this then you know it's
 for this then you know it's
@@ -2526,12 +2526,12 @@ right now and
 you know we haven't had issuers saying
 you know we haven't had issuers saying
 you know we haven't had issuers saying
-you know i'm not going to issue this
-you know i'm not going to issue this
-you know i'm not going to issue this
-asset because i'm afraid it's going to
-asset because i'm afraid it's going to
-asset because i'm afraid it's going to
+you know I'm not going to issue this
+you know I'm not going to issue this
+you know I'm not going to issue this
+asset because I'm afraid it's going to
+asset because I'm afraid it's going to
+asset because I'm afraid it's going to
 be
 be
 be
@@ -2550,15 +2550,15 @@ okay maybe let's call today well I mean
 in in fairness
 in in fairness
 in in fairness
-there's probably people who say like i'm
-there's probably people who say like i'm
-there's probably people who say like i'm
+there's probably people who say like I'm
+there's probably people who say like I'm
+there's probably people who say like I'm
 just not gonna issue my asset on a
 just not gonna issue my asset on a
 just not gonna issue my asset on a
-blockchain because it's because i'm
-blockchain because it's because i'm
-blockchain because it's because i'm
+blockchain because it's because I'm
+blockchain because it's because I'm
+blockchain because it's because I'm
 scared of blockchains
 scared of blockchains
 scared of blockchains
@@ -2649,9 +2649,9 @@ revocation
 it's not really to do with v1 versus v2
 it's not really to do with v1 versus v2
 it's not really to do with v1 versus v2
-i think it applies to both of them
-i think it applies to both of them
-i think it applies to both of them
+I think it applies to both of them
+I think it applies to both of them
+I think it applies to both of them
 and it's from siddharth's email where
 and it's from siddharth's email where
 and it's from siddharth's email where
@@ -2685,9 +2685,9 @@ still considering
 and if so
 and if so
 and if so
-i'm just a little concerned it seemed
-i'm just a little concerned it seemed
-i'm just a little concerned it seemed
+I'm just a little concerned it seemed
+I'm just a little concerned it seemed
+I'm just a little concerned it seemed
 that seems like that would be very
 that seems like that would be very
 that seems like that would be very
@@ -2700,7 +2700,7 @@ and applications like they may not
 really handle that edge case so
 really handle that edge case so
 really handle that edge case so
-yeah i'm just curious about that
+yeah I'm just curious about that
 so we're we're still thinking about how
 so we're we're still thinking about how
 how that case would work
@@ -2769,9 +2769,9 @@ but maybe there's some other thing we
 can constrain that we haven't figured
 can constrain that we haven't figured
 can constrain that we haven't figured
-out yet i'm super
-out yet i'm super
-out yet i'm super
+out yet I'm super
+out yet I'm super
+out yet I'm super
 super open to ideas here
 lee does that answer your question more
 lee does that answer your question more
@@ -2781,21 +2781,21 @@ or less
 yeah I think
 yeah I think
 yeah I think
-i would like to understand what all the
-i would like to understand what all the
-i would like to understand what all the
+I would like to understand what all the
+I would like to understand what all the
+I would like to understand what all the
 cases are where
 cases are where
 cases are where
 the claim will balance would be required
 the claim will balance would be required
 the claim will balance would be required
-i I can assume
-i I can assume
-i I can assume
-i can maybe think of one but i'm not i'm
-i can maybe think of one but i'm not i'm
-i can maybe think of one but i'm not i'm
+I I can assume
+I I can assume
+I I can assume
+I can maybe think of one but I'm not I'm
+I can maybe think of one but I'm not I'm
+I can maybe think of one but I'm not I'm
 not really sure if I certainly
 not really sure if I certainly
 not really sure if I certainly
@@ -2826,9 +2826,9 @@ removed the trust lines for the
 corresponding
 corresponding
 corresponding
-assets so for example it's like i'm in
-assets so for example it's like i'm in
-assets so for example it's like i'm in
+assets so for example it's like I'm in
+assets so for example it's like I'm in
+assets so for example it's like I'm in
 an
 an
 an
@@ -2937,9 +2937,9 @@ total supply to exceed in 64 max which
 is interesting
 is interesting
 is interesting
-i went and looked and there were like 30
-i went and looked and there were like 30
-i went and looked and there were like 30
+I went and looked and there were like 30
+I went and looked and there were like 30
+I went and looked and there were like 30
 assets all with funny names or
 assets all with funny names or
 assets all with funny names or

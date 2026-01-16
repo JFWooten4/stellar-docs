@@ -43,7 +43,7 @@ the structure of smart contracts on
 stellar and specifies how users can
 create update and remove them
 then cap 48 and cap 49
-i think our two approaches to deal with
+I think our two approaches to deal with
 smart contract asset interoperability
 and so this meeting is being
 is like anyone can sort of watch it
@@ -72,14 +72,14 @@ but john do you want to sort of give an
 overview of where we are with those two
 caps and then we can take it from there
 sorry first time
-first i'm doing like a video call on
-discard i'm still getting a little
+first I'm doing like a video call on
+discard I'm still getting a little
 oriented
 
 let me pull up the relevant documents
 give me one moment
 and then I will give a little intro
-okay i'm ready sorry about that
+okay I'm ready sorry about that
 so basically
 these two proposals
 
@@ -120,7 +120,7 @@ and so ideally it just kind of we do it
 for them in some sense they everybody
 just gets it for free basically
 and there's one other requirement
-which i'm now not remembering
+which I'm now not remembering
 
 oh yeah and the third one is a security
 kind of situation which is that like
@@ -130,7 +130,7 @@ control over all of that accounts
 balances
 
 meaning like
-i might be saying that i'd like to make
+I might be saying that i'd like to make
 a five dollar payment but if I have a
 million dollars in my account and i
 signed for a smart contract to control
@@ -151,12 +151,12 @@ of weird stuff left over from like the
 fact that stellar assets are not really
 quite exactly like your z20 assets or
 whatever other ethereum standard you'd
-like i'm really focused on erc20 just
-because i'm familiar with it and it's
+like I'm really focused on erc20 just
+because I'm familiar with it and it's
 classic and old
 but like there are other standards that
 could be relevant here
-but i'm gonna keep saying here c20
+but I'm gonna keep saying here c20
 and you should just interpret that to be
 whatever standard you like
 
@@ -203,7 +203,7 @@ morning
 
 basically
 
-i went over the issues in cap 48
+I went over the issues in cap 48
 which are listed in the design
 rationale there's there's four slash
 five of them depending on how you think
@@ -233,7 +233,7 @@ is when you call these two functions
 wrap and unwrap or like if you're used
 to we would call them as deposit
 withdraw but this was confusing to niko
-so i'm sticking with rap and unwrap and
+so I'm sticking with rap and unwrap and
 we can change choose whatever names we
 like later but I think nobody will be
 confused by the terms wrap and unwrap
@@ -242,7 +242,7 @@ function does is it effectively
 it effectively takes some stuff from
 your trust line puts it in some new type
 of ledger entry for the smart contract
-which i'm going to call a wrapable
+which I'm going to call a wrapable
 balance
 name stinks whatever we can change it
 and then it basically mints the
@@ -267,7 +267,7 @@ to the erc20 side of it
 but that's like super simple
 machinery that like I mean it's super
 easy to build
-i looked at how people have
+I looked at how people have
 implemented it like I looked at I was
 actually looking at the
 usdc contracts to see how they
@@ -297,14 +297,14 @@ interface that we prescribe
 and there's exactly one of them for
 every asset that you could ever make
 that's it
-and they can store data and i'm not
+and they can store data and I'm not
 really talking about how the data is
 being stored in the
 cap because we don't know
 what the fee model is yet
 so like there will be some fee model
-i don't know who's paying for it
-i don't particularly care at this time
+I don't know who's paying for it
+I don't particularly care at this time
 and whatever we decide later should just
 retrofit onto that's
 that's that basically
@@ -313,7 +313,7 @@ any other questions before I go on
 okay
 so why do I like the 49 version
 better than the 48 version
-so i'm just going to go like over these
+so I'm just going to go like over these
 the issues I noticed
 so the first thing is like it's not
 labeled as an issue in cat 48 but it is
@@ -363,7 +363,7 @@ what should I return
 if I return 0
 should I return in 60 formats should i
 return you at 256 max
-i mean like I have no idea what number
+I mean like I have no idea what number
 to return there is no sensible answer
 the balance of the issuer is infinite
 and also zero
@@ -376,7 +376,7 @@ zero sure it can mint right but it does
 it like the it's the balance of like the
 currently minted you know the current
 circulating supply
-i don't know man it's not compelling to
+I don't know man it's not compelling to
 me
 at all
 because like in this context like
@@ -386,12 +386,12 @@ issuer
 actually has to me
 which is not how an erc20 normally works
 and since it like if I can call transfer
-i should have enough balance to make
+I should have enough balance to make
 that transfer you see if the function
 transfer 100 would succeed
 then I must have a balance of greater
 than 100.
-i mean should we be rethinking
+I mean should we be rethinking
 how
 trust lines work in the legacy model
 like I think it might have been a
@@ -403,7 +403,7 @@ people expect that now but like maybe
 that's something that we should
 reconsider that like actually an issuer
 can have a balance
-i totally agree that I would love to
+I totally agree that I would love to
 change that but it would be a lot of
 work that I don't want to do in this
 context time wise when like we could
@@ -423,7 +423,7 @@ wrapped up tokens
 tomer's making a lot of faces so I feel
 like he's doubtful about my argument
 here
-no i'm not awful about your argument i
+no I'm not awful about your argument i
 understand why like I think there's an
 elegance to cap 49 which is like better
 separation between classic and smart
@@ -469,7 +469,7 @@ still be fine
 
 okay
 any questions before I do another one am
-i am I actually being helpful here
+I am I actually being helpful here
 should I stop
 you're being very helpful john
 i'd love to hear nico's take I know
@@ -546,7 +546,7 @@ thing
 and all it does
 is it says whether you're allowed to
 use the contract or not
-and it's more i'm like representing
+and it's more I'm like representing
 it more in the like
 completely not allowed to use the
 contract sense
@@ -564,7 +564,7 @@ and that I didn't think of that
 originally but that is what is
 implemented in that usdc contract that i
 was looking at and that approach makes a
-lot of sense to me if i'm not authorized
+lot of sense to me if I'm not authorized
 to use it for my own balances I probably
 shouldn't be authorized to use it for
 anybody else's balances either sounds
@@ -585,7 +585,7 @@ simpler implementation than exists on
 classic basically
 does that kind of answer your question
 oh
-i definitely have some other questions
+I definitely have some other questions
 obviously wrapping you can only do
 from from like a classic stellar asset
 to a smart asset you won't be able
@@ -598,7 +598,7 @@ assets that are completely in jump can
 like you won't be able to interoperate
 from the
 likes of the classic protocol
-i want to make sure I understand
+I want to make sure I understand
 exactly what you're asking me
 are you saying that there will be an
 like
@@ -610,7 +610,7 @@ send it back or you're saying that this
 is kind of a model where people will be
 using like will be making like erc20
 type assets on smart
-i'm saying let's say let's say i'm
+I'm saying let's say let's say I'm
 issuing a new asset on the on the jump
 can inside
 doesn't relate at all to these
@@ -621,7 +621,7 @@ tomercoin will not be accessible from
 the classic protocol in any way like i
 wouldn't be able to use like a classic
 payment operation on this coin
-i mean we should obviously we can't
+I mean we should obviously we can't
 prevent that but we should discourage it
 right like it would be a bummer
 if
@@ -634,7 +634,7 @@ to the greatest extent possibly want
 to encourage people to
 use assets that can participate in
 you know things like speed x right
-i mean I suppose in this context like if
+I mean I suppose in this context like if
 you wanted something that was you know
 that could be converted to a classic
 asset
@@ -643,7 +643,7 @@ actually
 make it a classic asset and use the
 wrapper
 right
-that's what i'm saying that basically
+that's what I'm saying that basically
 like it will be
 it will be
 of course it's true you know we
@@ -661,7 +661,7 @@ to have features that are missing from
 the current seller protocol then I have
 no other choice right
 so
-i think
+I think
 regardless of what we do we need to
 acknowledge that we're basically
 going into a world in which there are
@@ -683,9 +683,9 @@ do that because they're it's a classic
 asset is that right
 you might migrate back into the native
 protocol
-i wouldn't actually rely on us building
+I wouldn't actually rely on us building
 any new features on the old protocol
-i think that's
+I think that's
 
 yeah
 john is smiling that's all I needed
@@ -709,10 +709,10 @@ very true
 real features missing from them
 like it look like we do have a good
 coverage of like asset features
-so i'm not offended by the idea of like
+so I'm not offended by the idea of like
 issuing them still on the classic side
 and wrapping them
-i i
+I i
 i'd like to find a way from the the user
 experience to make it the the wrapping
 parts less
@@ -778,7 +778,7 @@ think we might be just confusing the the
 issue
 with adding that functionality on the
 smart contract
-i also think we're asking the issuer to
+I also think we're asking the issuer to
 make a decision really on versus
 between scale and flexibility
 so we want to be able to if we want like
@@ -789,7 +789,7 @@ to get they're going to be tempted to go
 that scale route but then that might be
 conflicting with flexibility like if
 they want to have
-i don't know some sort of sep 8 like
+I don't know some sort of sep 8 like
 functionality that allows that's on
 chain that you know maybe says
 you can use my asset if you
@@ -807,15 +807,15 @@ an asset they can scale
 maybe that well
 i'd have to think about whether there's
 a workaround for that
-there might there might be one i'm
+there might there might be one I'm
 not really sure
 so
-i don't know I can't i'd have to think
+I don't know I can't i'd have to think
 about that more to answer what I think
 just to clarify because I was going to
 ask this question I think you just
 answered it with that lee like
-i'm an issuer and i'm ch and i'm and
+I'm an issuer and I'm ch and I'm and
 there's a choice I can choose to issue a
 classic or I can choose to issue on
 smart
@@ -823,7 +823,7 @@ advantage for issuing on classic
 is that
 has better scalability
 maybe true
-i'm just thinking like if new issuers
+I'm just thinking like if new issuers
 come to me
 the other advantages are choose to issue
 unclassic
@@ -852,7 +852,7 @@ and let's you know sort of guarantee
 like things like auth immutable right
 like guarantee that there won't be weird
 surprises
-i think the big thing is that classic
+I think the big thing is that classic
 will be
 cheaper and have more capacity
 that's the main reason to do that on
@@ -926,7 +926,7 @@ view
 but then
 why should horizon even touch the smart
 side of things
-i agree
+I agree
 george can you expand on on why you
 agree I would also love to hear more i
 was also like
@@ -956,11 +956,11 @@ stellar wallets would want to add smart
 functionality right it's not going to be
 like two universes
 that's the whole thing right you know if
-i have a stellar wallet and I want to be
+I have a stellar wallet and I want to be
 able to participate in a d5
 application
 and
-i need to have
+I need to have
 access to all those information
 
 and we need to find a way to present
@@ -973,7 +973,7 @@ it like
 keeps its own ledger and like some weird
 you know
 compressed state or something right
-so like i'm actually there's actually
+so like I'm actually there's actually
 going to need to be like kind of
 server-side logic
 for for decoding that right and
@@ -1020,7 +1020,7 @@ clarity on what you're actually saying
 here
 are you saying that you
 that you want this
-thing i'm going to use the word horizon
+thing I'm going to use the word horizon
 and we're all just going to pretend
 we're talking about the same thing even
 though we're not
@@ -1034,24 +1034,24 @@ it to be more generically useful for
 exploring the state of the smart
 contract universe outside of these asset
 adapter rapper things
-i think you're saying the first one
+I think you're saying the first one
 but I think david thinks you're saying
 the second one
 and maybe you're not saying either of
 them
-stuff right now like i'm trying to think
+stuff right now like I'm trying to think
 of by the way can you guys hear me i
 don't know how long you were talking but
-i wasn't able to hear you for a while at
+I wasn't able to hear you for a while at
 least
 okay can you guys hear me now yes yes
 yes
 okay awesome
-so i'm talking about the wrapped assets
+so I'm talking about the wrapped assets
 specifically like the this kind of
 like dance between wrapped assets and
-regular assets and i'm thinking about
-if i'm if i'm trying to
+regular assets and I'm thinking about
+if I'm if I'm trying to
 you know just like top down design
 from a user perspective like the wallet
 experience
@@ -1071,7 +1071,7 @@ you know service that it interacts with
 that provides it with like a unified
 view of the world
 so
-i think that regardless of this is
+I think that regardless of this is
 something that that needs to happen
 and and it doesn't necessarily
 
@@ -1110,7 +1110,7 @@ they're if they're doing interesting
 things and so we're going to need a kind
 of modularity on the server side we're
 like I might issue a new kind of asset
-with like new properties i'm going to
+with like new properties I'm going to
 need to like also present kind of like
 horizon side logic to do that and I just
 to me it feels like
@@ -1178,7 +1178,7 @@ interface improvements in that like you
 get the total supply and cap 49 you
 don't get in 48 but like the interface
 is also just more logical in cap 49 like
-i don't there's only one right answer
+I don't there's only one right answer
 basically in cat 49 for every function
 it just does the thing that you expect
 it to do because there's no other thing
@@ -1241,7 +1241,7 @@ not interesting I think from a smart
 contract point of view
 it's not a it's not usable like it's not
 available right
-i mean
+I mean
 the main downside of that though is like
 things that should be true cease to be
 true like you should expect that the
@@ -1253,13 +1253,13 @@ would expose these two values because we
 could just choose one or we could just
 expose both
 and doing either doesn't really break
-i don't think doing either would break a
+I don't think doing either would break a
 contract's ability to
 
 replicate what you know what's happening
 on other chains is
 is that not true
-i I don't know if it's true
+I I don't know if it's true
 but like if your goal is to make it so
 that these tokens interoperate perfectly
 with what people are accustomed to using
@@ -1288,7 +1288,7 @@ this is so obvious that you don't need
 to think about it and it does exactly
 what you're used to that should be our
 goal
-i don't know if people disagree with
+I don't know if people disagree with
 that goal but I think it's a really
 good goal like my goal would be to make
 this so stupidly easy for people to use
@@ -1323,7 +1323,7 @@ instance
 stuff that we want to cover
 especially because
 the cap 48 49 discussion for now
-i feel like there's a lot to think about
+I feel like there's a lot to think about
 and discuss
 it does feel like we got to a natural
 lull
@@ -1340,7 +1340,7 @@ know relatively simple compared to cap
 48.49
 lee had some questions related to
 this
-i think the most interesting one was
+I think the most interesting one was
 we we allow mutable contracts
 and the cap doesn't specify any
 versioning right now
@@ -1359,13 +1359,13 @@ so yeah so the least question was around
 you know auditing which contract was
 used
 
-i'm not sure if
+I'm not sure if
 this is something we should add lee do
 you want to talk about this
 
 yeah I mean you you basically you
 basically set up like
-i I just I think there's there's two
+I I just I think there's there's two
 components to it identification and then
 referencing
 so
@@ -1387,7 +1387,7 @@ and if if so that's that's great we just
 need to include that in the cap
 
 maybe it doesn't even need to be stored
-on the ledger i'm not sure if that's
+on the ledger I'm not sure if that's
 important it could just be a hash
 that's not actually stored and you have
 to calculate it if you want to calculate
@@ -1421,7 +1421,7 @@ nico I don't know if you want to expand
 on that
 seems to be having on and off issues
 connecting to this yeah
-i can hear you right now tomorrow you
+I can hear you right now tomorrow you
 have been cutting in and out a bit
 though from time to time
 yeah
@@ -1431,10 +1431,10 @@ systems can do you know when they index
 changes they can also index
 what what version of the contract
 caused these changes
-i think so or at least maybe
+I think so or at least maybe
 george
 might be able to shed some light on this
-i I think one thing
+I I think one thing
 we have had some issues with like
 backfilling some of this data in the
 past
@@ -1445,14 +1445,14 @@ and it would actually seem simple for us
 to say oh yeah downstream systems should
 be able to just figure that out
 but it was actually
-really challenging i'm actually not sure
+really challenging I'm actually not sure
 if we actually found a solution for that
 maybe maybe there's going to be an ask
 to the horizon team who are sort of
 experts in this field
 yeah I would say it's pretty hard to say
 right now especially for me
-i mostly joined as a listener so i'm not
+I mostly joined as a listener so I'm not
 super familiar with how these
 caps
 are
@@ -1465,7 +1465,7 @@ contracts but maybe not so much how
 those contracts have been interacted
 with so that's definitely tbd
 from the horizon side
-i will say that I felt a little bad in
+I will say that I felt a little bad in
 retrospect about the not putting
 who created a claimable balance on it
 earlier drafts of the proposal had that
@@ -1476,10 +1476,10 @@ which was basically just saying like
 yo horizon y'all figure it out which
 like maybe wasn't super nice in
 retrospect but
-i understand why we did it at the time
+I understand why we did it at the time
 and I don't know if
-i don't know if I would like even
-knowing what I know now i'm not sure we
+I don't know if I would like even
+knowing what I know now I'm not sure we
 would have done something differently
 for that particular case
 but there definitely is some like
@@ -1488,7 +1488,7 @@ risk for like
 caveat
 in the future
 like
-i could imagine people wanting to know
+I could imagine people wanting to know
 exactly what happened even on chain
 like hey like this contract had a bug in
 it
@@ -1496,9 +1496,9 @@ like let me write a contract that goes
 and identifies all the bugged out data
 like I could imagine doing that
 or maybe you do it often I don't know
-i'm not sure
+I'm not sure
 but
-i don't think I don't think we should
+I don't think I don't think we should
 just assume that the only obvious thing
 is to push the problem down downstream
 yeah I think that's fair and
@@ -1630,5 +1630,5 @@ this stuff asynchronously in the
 jump canon and jump canon dev channels
 here on discord
 thanks everybody
-i will talk to you all soon
+I will talk to you all soon
 you

@@ -1,5 +1,5 @@
-i think that's our cue hello everyone
-i think that's our cue hello everyone
+I think that's our cue hello everyone
+I think that's our cue hello everyone
 and welcome to the stellar open protocol
 and welcome to the stellar open protocol
 and welcome to the stellar open protocol
@@ -36,9 +36,9 @@ is probably pretty obvious are live
 streamed so that you can follow along
 streamed so that you can follow along
 streamed so that you can follow along
-i do want to know this is a very very
-i do want to know this is a very very
-i do want to know this is a very very
+I do want to know this is a very very
+I do want to know this is a very very
+I do want to know this is a very very
 technical discussion right so if you're
 technical discussion right so if you're
 technical discussion right so if you're
@@ -57,9 +57,9 @@ previous conversations about those caps
 on the stellar dev mailing list
 on the stellar dev mailing list
 on the stellar dev mailing list
-i'm not going to identify all the
-i'm not going to identify all the
-i'm not going to identify all the
+I'm not going to identify all the
+I'm not going to identify all the
+I'm not going to identify all the
 participants they're also listed there
 participants they're also listed there
 participants they're also listed there
@@ -216,9 +216,9 @@ release is accepted by the network
 through that governance mechanism so
 through that governance mechanism so
 through that governance mechanism so
-part of the reason i'm bringing all that
-part of the reason i'm bringing all that
-part of the reason i'm bringing all that
+part of the reason I'm bringing all that
+part of the reason I'm bringing all that
+part of the reason I'm bringing all that
 up today is that before we go on to
 up today is that before we go on to
 up today is that before we go on to
@@ -342,9 +342,9 @@ all right
 approved so after this meeting
 approved so after this meeting
 approved so after this meeting
-i'm going to change the status of those
-i'm going to change the status of those
-i'm going to change the status of those
+I'm going to change the status of those
+I'm going to change the status of those
+I'm going to change the status of those
 caps to final comment period pending
 caps to final comment period pending
 caps to final comment period pending
@@ -357,9 +357,9 @@ one week window to like raise any final
 questions or concerns
 questions or concerns
 questions or concerns
-i guess if a legitimate concern comes
-i guess if a legitimate concern comes
-i guess if a legitimate concern comes
+I guess if a legitimate concern comes
+I guess if a legitimate concern comes
+I guess if a legitimate concern comes
 up during that time we can send it back
 up during that time we can send it back
 up during that time we can send it back
@@ -537,9 +537,9 @@ rates
 when it comes to for example
 when it comes to for example
 when it comes to for example
-i mean actually that's what we do today
-i mean actually that's what we do today
-i mean actually that's what we do today
+I mean actually that's what we do today
+I mean actually that's what we do today
+I mean actually that's what we do today
 like we actually give
 like we actually give
 like we actually give
@@ -564,9 +564,9 @@ on on
 how this makes and why this makes sense
 how this makes and why this makes sense
 how this makes and why this makes sense
-i think there were more questions
-i think there were more questions
-i think there were more questions
+I think there were more questions
+I think there were more questions
+I think there were more questions
 actually and that maybe where we we can
 actually and that maybe where we we can
 actually and that maybe where we we can
@@ -615,9 +615,9 @@ so on that yeah I don't know if
 david or john I know like we use I mean
 david or john I know like we use I mean
 david or john I know like we use I mean
-i I you know I like this new version i
-i I you know I like this new version i
-i I you know I like this new version i
+I I you know I like this new version i
+I I you know I like this new version i
+I I you know I like this new version i
 think it's a lot cleaner I think
 think it's a lot cleaner I think
 think it's a lot cleaner I think
@@ -672,12 +672,12 @@ yeah I mean I think yeah like
 yeah
 yeah
 yeah
-i can fix that definitely like
-i can fix that definitely like
-i can fix that definitely like
-i think the
-i think the
-i think the
+I can fix that definitely like
+I can fix that definitely like
+I can fix that definitely like
+I think the
+I think the
+I think the
 interesting thing that was raised both
 interesting thing that was raised both
 interesting thing that was raised both
@@ -957,9 +957,9 @@ new power that we are giving them so the
 data will be in history
 data will be in history
 data will be in history
-i think what we have right now is that
-i think what we have right now is that
-i think what we have right now is that
+I think what we have right now is that
+I think what we have right now is that
+I think what we have right now is that
 in horizon for example we don't actually
 in horizon for example we don't actually
 in horizon for example we don't actually
@@ -990,9 +990,9 @@ example so
 
 
 
-i think this is this is the type of work
-i think this is this is the type of work
-i think this is this is the type of work
+I think this is this is the type of work
+I think this is this is the type of work
+I think this is this is the type of work
 that can be done
 that can be done
 that can be done
@@ -1128,9 +1128,9 @@ on the ecosystem
 the sort of wallet side yep
 that
 that
-yeah i'm sorry justin go ahead I was
-yeah i'm sorry justin go ahead I was
-yeah i'm sorry justin go ahead I was
+yeah I'm sorry justin go ahead I was
+yeah I'm sorry justin go ahead I was
+yeah I'm sorry justin go ahead I was
 just gonna say because on some level
 just gonna say because on some level
 just gonna say because on some level
@@ -1294,8 +1294,8 @@ be executed if they're gonna get charged
 be executed if they're gonna get charged
 be executed if they're gonna get charged
 way more than somebody else
-i think like
-i think like
+I think like
+I think like
 as far as tooling goes I think like you
 as far as tooling goes I think like you
 as far as tooling goes I think like you
@@ -1371,9 +1371,9 @@ transactions pay high fee and this one
 for payloafi
 for payloafi
 for payloafi
-i think the opposite they're equal
-i think the opposite they're equal
-i think the opposite they're equal
+I think the opposite they're equal
+I think the opposite they're equal
+I think the opposite they're equal
 distributions
 distributions
 distributions
@@ -1404,9 +1404,9 @@ from spam right and so you need to
 
 
 
-i think just not
-i think just not
-i think just not
+I think just not
+I think just not
+I think just not
 participate we need we need an up we
 participate we need we need an up we
 participate we need we need an up we
@@ -1569,9 +1569,9 @@ those people aren't paying attention
 those people are going to be pretty sad
 those people are going to be pretty sad
 those people are going to be pretty sad
-i think yeah they're just 100 million
-i think yeah they're just 100 million
-i think yeah they're just 100 million
+I think yeah they're just 100 million
+I think yeah they're just 100 million
+I think yeah they're just 100 million
 stroop
 stroop
 stroop
@@ -1584,9 +1584,9 @@ that's 10 lumens or whatever is that
 250.
 250.
 250.
-yeah it's not insane i'm I have to say
-yeah it's not insane i'm I have to say
-yeah it's not insane i'm I have to say
+yeah it's not insane I'm I have to say
+yeah it's not insane I'm I have to say
+yeah it's not insane I'm I have to say
 i've literally said to many many people
 i've literally said to many many people
 i've literally said to many many people
@@ -1624,8 +1624,8 @@ thing that you're pointing out john
 thing that you're pointing out john
 thing that you're pointing out john
 may well be true
-i mean like I think the difference is
-i mean like I think the difference is
+I mean like I think the difference is
+I mean like I think the difference is
 that like
 that like
 that like
@@ -1680,9 +1680,9 @@ like you would be bidding only you know
 a thousand times more
 a thousand times more
 a thousand times more
-i mean that that's I think that's the
-i mean that that's I think that's the
-i mean that that's I think that's the
+I mean that that's I think that's the
+I mean that that's I think that's the
+I mean that that's I think that's the
 shift is that you you have to be maybe
 shift is that you you have to be maybe
 shift is that you you have to be maybe
@@ -1692,9 +1692,9 @@ closer to what you want to pay
 unless like like in some
 unless like like in some
 unless like like in some
-situations like the i'm like the
-situations like the i'm like the
-situations like the i'm like the
+situations like the I'm like the
+situations like the I'm like the
+situations like the I'm like the
 the people like putting 10 lumen as a
 the people like putting 10 lumen as a
 the people like putting 10 lumen as a
@@ -1707,9 +1707,9 @@ we we I think discussed in the
 past those are the type of numbers
 past those are the type of numbers
 past those are the type of numbers
-i would expect when if you do like
-i would expect when if you do like
-i would expect when if you do like
+I would expect when if you do like
+I would expect when if you do like
+I would expect when if you do like
 some some trades that actually
 some some trades that actually
 some some trades that actually
@@ -1767,12 +1767,12 @@ arbitrage opportunity using the numbers
 that we were just using is worth you
 that we were just using is worth you
 that we were just using is worth you
-know 11x allowance you're like i'm
-know 11x allowance you're like i'm
-know 11x allowance you're like i'm
-willing to bring 10xl i'm going to try
-willing to bring 10xl i'm going to try
-willing to bring 10xl i'm going to try
+know 11x allowance you're like I'm
+know 11x allowance you're like I'm
+know 11x allowance you're like I'm
+willing to bring 10xl I'm going to try
+willing to bring 10xl I'm going to try
+willing to bring 10xl I'm going to try
 to get you know one excellent profit in
 to get you know one excellent profit in
 to get you know one excellent profit in
@@ -1788,12 +1788,12 @@ but let's just say 10 for the sake of
 argument
 argument
 argument
-well right now it's like i'm going to
-well right now it's like i'm going to
-well right now it's like i'm going to
-bid 10 but i'm probably going to pay
-bid 10 but i'm probably going to pay
-bid 10 but i'm probably going to pay
+well right now it's like I'm going to
+well right now it's like I'm going to
+well right now it's like I'm going to
+bid 10 but I'm probably going to pay
+bid 10 but I'm probably going to pay
+bid 10 but I'm probably going to pay
 100 troops a thousand strips whatever
 100 troops a thousand strips whatever
 100 troops a thousand strips whatever
@@ -1872,12 +1872,12 @@ people bidding closer to reality but
 also just like changing the discrepancy
 also just like changing the discrepancy
 also just like changing the discrepancy
-between like i'm trying to send a
-between like i'm trying to send a
-between like i'm trying to send a
-payment to my friend and i'm trying to
-payment to my friend and i'm trying to
-payment to my friend and i'm trying to
+between like I'm trying to send a
+between like I'm trying to send a
+between like I'm trying to send a
+payment to my friend and I'm trying to
+payment to my friend and I'm trying to
+payment to my friend and I'm trying to
 take advantage of some arbitrage
 take advantage of some arbitrage
 take advantage of some arbitrage
@@ -1885,8 +1885,8 @@ opportunity
 opportunity
 opportunity
 yeah
-i got one more question from tomer here
-i got one more question from tomer here
+I got one more question from tomer here
+I got one more question from tomer here
 actually it's too how do we envision
 actually it's too how do we envision
 actually it's too how do we envision
@@ -1914,9 +1914,9 @@ that like are there like certain
 configs
 configs
 configs
-i think it depends on the type of
-i think it depends on the type of
-i think it depends on the type of
+I think it depends on the type of
+I think it depends on the type of
+I think it depends on the type of
 strategies we're going to implement
 strategies we're going to implement
 strategies we're going to implement
@@ -2082,18 +2082,18 @@ this two weeks ago I feel like we're in
 a place where like
 a place where like
 a place where like
-i think we could get people behind this
-i think we could get people behind this
-i think we could get people behind this
+I think we could get people behind this
+I think we could get people behind this
+I think we could get people behind this
 and it'd be a bit of a mind shift but
 and it'd be a bit of a mind shift but
 and it'd be a bit of a mind shift but
 people would feel good about it
 people would feel good about it
 people would feel good about it
-i don't know if everybody else feels
-i don't know if everybody else feels
-i don't know if everybody else feels
+I don't know if everybody else feels
+I don't know if everybody else feels
+I don't know if everybody else feels
 the same way
 the same way
 the same way
@@ -2202,9 +2202,9 @@ options
 yes
 yes
 yes
-i think
-i think
-i think
+I think
+I think
+I think
 like I don't know if
 like I don't know if
 like I don't know if
@@ -2226,9 +2226,9 @@ that I think by renaming
 what we do to discount
 what we do to discount
 what we do to discount
-i think it's actually helps quite a bit
-i think it's actually helps quite a bit
-i think it's actually helps quite a bit
+I think it's actually helps quite a bit
+I think it's actually helps quite a bit
+I think it's actually helps quite a bit
 people understand what is actually
 people understand what is actually
 people understand what is actually
@@ -2238,9 +2238,9 @@ happening
 in terms of like you know when you think
 in terms of like you know when you think
 in terms of like you know when you think
-of a discount i'm potentially going to
-of a discount i'm potentially going to
-of a discount i'm potentially going to
+of a discount I'm potentially going to
+of a discount I'm potentially going to
+of a discount I'm potentially going to
 give you a discount you go to a store
 give you a discount you go to a store
 give you a discount you go to a store
@@ -2451,9 +2451,9 @@ in order to make an informed decision is
 more important
 more important
 more important
-i think the so it will be actually
-i think the so it will be actually
-i think the so it will be actually
+I think the so it will be actually
+I think the so it will be actually
+I think the so it will be actually
 you can still have like the approach
 you can still have like the approach
 you can still have like the approach
@@ -2535,9 +2535,9 @@ variations
 
 
 
-i think a fine strategy is just to have
-i think a fine strategy is just to have
-i think a fine strategy is just to have
+I think a fine strategy is just to have
+I think a fine strategy is just to have
+I think a fine strategy is just to have
 like a timeout and multiplier on top or
 like a timeout and multiplier on top or
 like a timeout and multiplier on top or
@@ -2547,24 +2547,24 @@ something like that right like and it's
 not complicated
 okay
 okay
-i mean I guess if I had one reservation
-i mean I guess if I had one reservation
-i mean I guess if I had one reservation
+I mean I guess if I had one reservation
+I mean I guess if I had one reservation
+I mean I guess if I had one reservation
 about this maybe I should just
 about this maybe I should just
 about this maybe I should just
-voice this now i'm not sure this is a
-voice this now i'm not sure this is a
-voice this now i'm not sure this is a
+voice this now I'm not sure this is a
+voice this now I'm not sure this is a
+voice this now I'm not sure this is a
 problem but in the nomination value
 problem but in the nomination value
 problem but in the nomination value
 comparison
 comparison
 comparison
-i'm not 100 convinced that the second
-i'm not 100 convinced that the second
-i'm not 100 convinced that the second
+I'm not 100 convinced that the second
+I'm not 100 convinced that the second
+I'm not 100 convinced that the second
 item in the in the
 item in the in the
 item in the in the
@@ -2601,9 +2601,9 @@ is less because some transactions ended
 up in the discount bucket now
 up in the discount bucket now
 up in the discount bucket now
-i understand there's there's definitely
-i understand there's there's definitely
-i understand there's there's definitely
+I understand there's there's definitely
+I understand there's there's definitely
+I understand there's there's definitely
 a good argument why total fees of course
 a good argument why total fees of course
 a good argument why total fees of course
@@ -2619,9 +2619,9 @@ weird things
 however there's just one scenario that
 however there's just one scenario that
 however there's just one scenario that
-maybe i'm concerned about imagine a
-maybe i'm concerned about imagine a
-maybe i'm concerned about imagine a
+maybe I'm concerned about imagine a
+maybe I'm concerned about imagine a
+maybe I'm concerned about imagine a
 situation where we have this thing that
 situation where we have this thing that
 situation where we have this thing that
@@ -2685,9 +2685,9 @@ that maybe they don't even want
 yeah I mean that yeah that I mean
 yeah I mean that yeah that I mean
 yeah I mean that yeah that I mean
-i think I don't
-i think I don't
-i think I don't
+I think I don't
+I think I don't
+I think I don't
 think it like using the total
 think it like using the total
 think it like using the total
@@ -2718,9 +2718,9 @@ the intent
 yeah so
 yeah so
 yeah so
-i think yeah like the bid is fine
-i think yeah like the bid is fine
-i think yeah like the bid is fine
+I think yeah like the bid is fine
+I think yeah like the bid is fine
+I think yeah like the bid is fine
 probably
 so
 so
@@ -2730,9 +2730,9 @@ are there are there other questions to
 raise here or points to discuss
 raise here or points to discuss
 raise here or points to discuss
-i feel like there's still
-i feel like there's still
-i feel like there's still
+I feel like there's still
+I feel like there's still
+I feel like there's still
 issues that maybe already exist on on a
 issues that maybe already exist on on a
 issues that maybe already exist on on a
@@ -2826,9 +2826,9 @@ one of these flags could control could
 say like basically like like this is
 say like basically like like this is
 say like basically like like this is
-very important like i'm willing to pay
-very important like i'm willing to pay
-very important like i'm willing to pay
+very important like I'm willing to pay
+very important like I'm willing to pay
+very important like I'm willing to pay
 my full i'd rather not have a discount
 my full i'd rather not have a discount
 my full i'd rather not have a discount
@@ -2883,9 +2883,9 @@ have to be the highest bidder so I think
 if you bid more than everybody else
 if you bid more than everybody else
 if you bid more than everybody else
-like you know what i'm saying we'll get
-like you know what i'm saying we'll get
-like you know what i'm saying we'll get
+like you know what I'm saying we'll get
+like you know what I'm saying we'll get
+like you know what I'm saying we'll get
 in right
 in right
 in right
@@ -2895,9 +2895,9 @@ not necessarily because you might not be
 in the winning nomination value
 in the winning nomination value
 in the winning nomination value
-right i'm concerned what I mean a
-right i'm concerned what I mean a
-right i'm concerned what I mean a
+right I'm concerned what I mean a
+right I'm concerned what I mean a
+right I'm concerned what I mean a
 validator right that's going to craft a
 validator right that's going to craft a
 validator right that's going to craft a
@@ -2964,9 +2964,9 @@ include that transaction that is the
 highest bidder right so that's
 highest bidder right so that's
 highest bidder right so that's
-why i'm imagining I think this is a
-why i'm imagining I think this is a
-why i'm imagining I think this is a
+why I'm imagining I think this is a
+why I'm imagining I think this is a
+why I'm imagining I think this is a
 different problem that you're
 different problem that you're
 different problem that you're
@@ -3067,8 +3067,8 @@ that's why I was saying here's another
 that's why I was saying here's another
 that's why I was saying here's another
 thing that you do yeah okay sure
-i I could still imagine the utility of
-i I could still imagine the utility of
+I I could still imagine the utility of
+I I could still imagine the utility of
 like no seriously I really mean to pay
 like no seriously I really mean to pay
 like no seriously I really mean to pay
@@ -3126,15 +3126,15 @@ yeah
 okay cool
 okay cool
 okay cool
-i feel like that's in progress
-i feel like that's in progress
-i feel like that's in progress
+I feel like that's in progress
+I feel like that's in progress
+I feel like that's in progress
 and now
 and now
 and now
-i think it's time to move on
-i think it's time to move on
-i think it's time to move on
+I think it's time to move on
+I think it's time to move on
+I think it's time to move on
 to speed x
 to speed x
 to speed x
@@ -3189,9 +3189,9 @@ but rather than me trying to explain
 that I will pass it I guess
 that I will pass it I guess
 that I will pass it I guess
-i guess to john or maybe to jeff who
-i guess to john or maybe to jeff who
-i guess to john or maybe to jeff who
+I guess to john or maybe to jeff who
+I guess to john or maybe to jeff who
+I guess to john or maybe to jeff who
 wants to sort of give an overview of
 wants to sort of give an overview of
 wants to sort of give an overview of
@@ -3201,15 +3201,15 @@ what this cap does
 i'll pass it to john and john if you
 i'll pass it to john and john if you
 i'll pass it to john and john if you
-want to pass it to jeff up to you i'm
-want to pass it to jeff up to you i'm
-want to pass it to jeff up to you i'm
+want to pass it to jeff up to you I'm
+want to pass it to jeff up to you I'm
+want to pass it to jeff up to you I'm
 gonna pass it straight to jeff and what
 gonna pass it straight to jeff and what
 gonna pass it straight to jeff and what
-i was thinking is jeff could open with
-i was thinking is jeff could open with
-i was thinking is jeff could open with
+I was thinking is jeff could open with
+I was thinking is jeff could open with
+I was thinking is jeff could open with
 just like like a quick pitch on what
 just like like a quick pitch on what
 just like like a quick pitch on what
@@ -3450,9 +3450,9 @@ commutativity and this is how we're
 going to settle the trade and those are
 going to settle the trade and those are
 going to settle the trade and those are
-kind of like the four verticals that i'm
-kind of like the four verticals that i'm
-kind of like the four verticals that i'm
+kind of like the four verticals that I'm
+kind of like the four verticals that I'm
+kind of like the four verticals that I'm
 seeing
 seeing
 seeing
@@ -3526,8 +3526,8 @@ these are the assets that we should add
 these are the assets that we should add
 these are the assets that we should add
 and then they all
-i sort of imagine there's like a listing
-i sort of imagine there's like a listing
+I sort of imagine there's like a listing
+I sort of imagine there's like a listing
 process or something where you know like
 process or something where you know like
 process or something where you know like
@@ -3591,9 +3591,9 @@ are people going to be upset about
 handing this kind of power to validators
 handing this kind of power to validators
 handing this kind of power to validators
-i mean it's
-i mean it's
-i mean it's
+I mean it's
+I mean it's
+I mean it's
 it's very much like not in the kind of
 it's very much like not in the kind of
 it's very much like not in the kind of
@@ -3633,9 +3633,9 @@ the way
 go ahead
 go ahead
 go ahead
-i mean I guess the the
-i mean I guess the the
-i mean I guess the the
+I mean I guess the the
+I mean I guess the the
+I mean I guess the the
 the thing that I would
 the thing that I would
 the thing that I would
@@ -3723,12 +3723,12 @@ not something that actually came up
 in the earlier discussion at all so
 in the earlier discussion at all so
 in the earlier discussion at all so
-already I i'm intrigued
-already I i'm intrigued
-already I i'm intrigued
-i guess my first kind of like
-i guess my first kind of like
-i guess my first kind of like
+already I I'm intrigued
+already I I'm intrigued
+already I I'm intrigued
+I guess my first kind of like
+I guess my first kind of like
+I guess my first kind of like
 reactionary question to this is like
 reactionary question to this is like
 reactionary question to this is like
@@ -3868,8 +3868,8 @@ increase very non nonlinearly after a
 increase very non nonlinearly after a
 increase very non nonlinearly after a
 while
-i I don't I wasn't able to push it
-i I don't I wasn't able to push it
+I I don't I wasn't able to push it
+I I don't I wasn't able to push it
 past like a 100-ish ish
 past like a 100-ish ish
 past like a 100-ish ish
@@ -3903,9 +3903,9 @@ speed x
 is like in the speedx pricing cap
 is like in the speedx pricing cap
 is like in the speedx pricing cap
-that i'm still in the middle of working
-that i'm still in the middle of working
-that i'm still in the middle of working
+that I'm still in the middle of working
+that I'm still in the middle of working
+that I'm still in the middle of working
 on based on jeff's
 on based on jeff's
 on based on jeff's
@@ -4041,18 +4041,18 @@ like you're either in the list you're
 not nonetheless
 not nonetheless
 not nonetheless
-i mean somebody has to do the linear
-i mean somebody has to do the linear
-i mean somebody has to do the linear
+I mean somebody has to do the linear
+I mean somebody has to do the linear
+I mean somebody has to do the linear
 program either way though
 program either way though
 program either way though
 right sure but
 right sure but
 right sure but
-i guess my argument would be if you
-i guess my argument would be if you
-i guess my argument would be if you
+I guess my argument would be if you
+I guess my argument would be if you
+I guess my argument would be if you
 can't produce a solution
 can't produce a solution
 can't produce a solution
@@ -4221,9 +4221,9 @@ about like which assets are good and
 which are bad
 which are bad
 which are bad
-i'm sorry you're so willing to have
-i'm sorry you're so willing to have
-i'm sorry you're so willing to have
+I'm sorry you're so willing to have
+I'm sorry you're so willing to have
+I'm sorry you're so willing to have
 that it would cost the issuer of the
 that it would cost the issuer of the
 that it would cost the issuer of the
@@ -4240,8 +4240,8 @@ requirement the reserve requirement
 requirement the reserve requirement
 requirement the reserve requirement
 potentially
-and again i'm not saying that like you
-and again i'm not saying that like you
+and again I'm not saying that like you
+and again I'm not saying that like you
 know I do think that there are kind of
 know I do think that there are kind of
 know I do think that there are kind of
@@ -4251,9 +4251,9 @@ spam assets in their assets that
 everybody cares about but
 everybody cares about but
 everybody cares about but
-i think that the va that we should kind
-i think that the va that we should kind
-i think that the va that we should kind
+I think that the va that we should kind
+I think that the va that we should kind
+I think that the va that we should kind
 of instead of just magically decree the
 of instead of just magically decree the
 of instead of just magically decree the
@@ -4462,8 +4462,8 @@ the whether one asset thinks another
 the whether one asset thinks another
 the whether one asset thinks another
 one is interesting is a relative thing
-i think you still need some kind of
-i think you still need some kind of
+I think you still need some kind of
+I think you still need some kind of
 veto power from the people who are
 veto power from the people who are
 veto power from the people who are
@@ -4473,24 +4473,24 @@ already there it's just so well that's
 what I mean that's the first one that's
 what I mean that's the first one that's
 what I mean that's the first one that's
-the relative thing that i'm talking
-the relative thing that i'm talking
-the relative thing that i'm talking
-about i'm saying like what
-about i'm saying like what
-about i'm saying like what
+the relative thing that I'm talking
+the relative thing that I'm talking
+the relative thing that I'm talking
+about I'm saying like what
+about I'm saying like what
+about I'm saying like what
 
 
 
-i mean maybe it's a video or maybe it's
-i mean maybe it's a video or maybe it's
-i mean maybe it's a video or maybe it's
+I mean maybe it's a video or maybe it's
+I mean maybe it's a video or maybe it's
+I mean maybe it's a video or maybe it's
 a preference
 a preference
 a preference
-i I i'm going to avoid something that
-i I i'm going to avoid something that
-i I i'm going to avoid something that
+I I I'm going to avoid something that
+I I I'm going to avoid something that
+I I I'm going to avoid something that
 tomer just also shared on slack which is
 tomer just also shared on slack which is
 tomer just also shared on slack which is
@@ -4815,9 +4815,9 @@ design that has some amount of input
 from asset issuers
 from asset issuers
 from asset issuers
-i mean like I still don't understand
-i mean like I still don't understand
-i mean like I still don't understand
+I mean like I still don't understand
+I mean like I still don't understand
+I mean like I still don't understand
 like you know in your example john
 like you know in your example john
 like you know in your example john
@@ -4866,9 +4866,9 @@ issues a digital dollar on on stellar
 right
 right
 right
-i get it like it's more like like
-i get it like it's more like like
-i get it like it's more like like
+I get it like it's more like like
+I get it like it's more like like
+I get it like it's more like like
 like what I was suggesting is that you
 like what I was suggesting is that you
 like what I was suggesting is that you
@@ -4950,9 +4950,9 @@ yeah transaction and not an upgrade i
 guess
 guess
 guess
-i think doing it to find grain is a
-i think doing it to find grain is a
-i think doing it to find grain is a
+I think doing it to find grain is a
+I think doing it to find grain is a
+I think doing it to find grain is a
 little dangerous just because
 little dangerous just because
 little dangerous just because
@@ -5034,9 +5034,9 @@ are we ready to move
 you sort of have enough
 you sort of have enough
 you sort of have enough
-i think it's pretty clear that people
-i think it's pretty clear that people
-i think it's pretty clear that people
+I think it's pretty clear that people
+I think it's pretty clear that people
+I think it's pretty clear that people
 want us to ask other questions about
 want us to ask other questions about
 want us to ask other questions about
@@ -5052,9 +5052,9 @@ like I have some pretty strong opinions
 about what what like why it should be
 about what what like why it should be
 about what what like why it should be
-the way I proposed but like i'm really
-the way I proposed but like i'm really
-the way I proposed but like i'm really
+the way I proposed but like I'm really
+the way I proposed but like I'm really
+the way I proposed but like I'm really
 happy to go and explore some other
 happy to go and explore some other
 happy to go and explore some other
@@ -5085,9 +5085,9 @@ well I mean I think I think maybe it's
 like for me it's like that
 like for me it's like that
 like for me it's like that
-there are some questions here that i'm
-there are some questions here that i'm
-there are some questions here that i'm
+there are some questions here that I'm
+there are some questions here that I'm
+there are some questions here that I'm
 not sure we can answer without actually
 not sure we can answer without actually
 not sure we can answer without actually
@@ -5124,9 +5124,9 @@ like composition as opposed to
 just high fees
 just high fees
 just high fees
-and i'm not sure are you talking
-and i'm not sure are you talking
-and i'm not sure are you talking
+and I'm not sure are you talking
+and I'm not sure are you talking
+and I'm not sure are you talking
 about me or about david
 about me or about david
 about me or about david
@@ -5136,9 +5136,9 @@ no
 about you yeah john
 about you yeah john
 about you yeah john
-i i'm looking for whatever whatever
-i i'm looking for whatever whatever
-i i'm looking for whatever whatever
+I I'm looking for whatever whatever
+I I'm looking for whatever whatever
+I I'm looking for whatever whatever
 simple thing we can do that people can
 simple thing we can do that people can
 simple thing we can do that people can
@@ -5217,9 +5217,9 @@ the validators who just want to do
 what's good for the network
 what's good for the network
 what's good for the network
-i mean the other question is would it
-i mean the other question is would it
-i mean the other question is would it
+I mean the other question is would it
+I mean the other question is would it
+I mean the other question is would it
 make sense to have two tiers like you
 make sense to have two tiers like you
 make sense to have two tiers like you

@@ -18,9 +18,9 @@ today we're going to be going through
 stellar quest
 stellar quest
 stellar quest
-this is a new app that i'm very very
-this is a new app that i'm very very
-this is a new app that i'm very very
+this is a new app that I'm very very
+this is a new app that I'm very very
+this is a new app that I'm very very
 excited about before we get started
 excited about before we get started
 excited about before we get started
@@ -237,9 +237,9 @@ interesting to me
 it's all built on cloudflare worker
 it's all built on cloudflare worker
 it's all built on cloudflare worker
-technology i'm kind of a
-technology i'm kind of a
-technology i'm kind of a
+technology I'm kind of a
+technology I'm kind of a
+technology I'm kind of a
 aws lambda I love serverless technology
 aws lambda I love serverless technology
 aws lambda I love serverless technology
@@ -294,24 +294,24 @@ moving forward I don't have a fancy
 slide deck
 slide deck
 slide deck
-i will call out this one real fast
-i will call out this one real fast
-i will call out this one real fast
+I will call out this one real fast
+I will call out this one real fast
+I will call out this one real fast
 just as you find these things
 just as you find these things
 just as you find these things
 interesting or want to keep up with
 interesting or want to keep up with
 interesting or want to keep up with
-projects that i'm working on be sure and
-projects that i'm working on be sure and
-projects that i'm working on be sure and
+projects that I'm working on be sure and
+projects that I'm working on be sure and
+projects that I'm working on be sure and
 follow me tyvdh
 follow me tyvdh
 follow me tyvdh
-on twitter and again i'm the ecosystem
-on twitter and again i'm the ecosystem
-on twitter and again i'm the ecosystem
+on twitter and again I'm the ecosystem
+on twitter and again I'm the ecosystem
+on twitter and again I'm the ecosystem
 evangelist at the
 evangelist at the
 evangelist at the
@@ -324,9 +324,9 @@ have a big slide deck
 we're going to actually be looking at
 we're going to actually be looking at
 we're going to actually be looking at
-the application itself i'm going to walk
-the application itself i'm going to walk
-the application itself i'm going to walk
+the application itself I'm going to walk
+the application itself I'm going to walk
+the application itself I'm going to walk
 through
 through
 through
@@ -357,15 +357,15 @@ what we have coming with the with the
 upcoming
 upcoming
 upcoming
-first stellar quest challenge so i'm
-first stellar quest challenge so i'm
-first stellar quest challenge so i'm
+first stellar quest challenge so I'm
+first stellar quest challenge so I'm
+first stellar quest challenge so I'm
 gonna go ahead and switch
 gonna go ahead and switch
 gonna go ahead and switch
-i am going to unfortunately have to call
-i am going to unfortunately have to call
-i am going to unfortunately have to call
+I am going to unfortunately have to call
+I am going to unfortunately have to call
+I am going to unfortunately have to call
 out one of our third-party services run
 out one of our third-party services run
 out one of our third-party services run
@@ -606,9 +606,9 @@ be sure and send them the link which
 will be quest.stellar.org
 will be quest.stellar.org
 will be quest.stellar.org
-quest.stuller.org i'm not sure I include
-quest.stuller.org i'm not sure I include
-quest.stuller.org i'm not sure I include
+quest.stuller.org I'm not sure I include
+quest.stuller.org I'm not sure I include
+quest.stuller.org I'm not sure I include
 that in any slides so
 that in any slides so
 that in any slides so
@@ -690,15 +690,15 @@ community fund
 verify that code and this will jump us
 verify that code and this will jump us
 verify that code and this will jump us
-to challenge number one now i'm going to
-to challenge number one now i'm going to
-to challenge number one now i'm going to
+to challenge number one now I'm going to
+to challenge number one now I'm going to
+to challenge number one now I'm going to
 give you a sneak peek of challenge one
 give you a sneak peek of challenge one
 give you a sneak peek of challenge one
-i'm going to try my best not to click on
-i'm going to try my best not to click on
-i'm going to try my best not to click on
+I'm going to try my best not to click on
+I'm going to try my best not to click on
+I'm going to try my best not to click on
 any other challenges so that
 any other challenges so that
 any other challenges so that
@@ -1020,9 +1020,9 @@ for that in general though it should
 work fine
 work fine
 work fine
-so i'm assuming these these check
-so i'm assuming these these check
-so i'm assuming these these check
+so I'm assuming these these check
+so I'm assuming these these check
+so I'm assuming these these check
 buttons
 buttons
 buttons
@@ -1038,9 +1038,9 @@ if your account has performed the action
 that is required
 that is required
 that is required
-so i'm guessing that these buttons will
-so i'm guessing that these buttons will
-so i'm guessing that these buttons will
+so I'm guessing that these buttons will
+so I'm guessing that these buttons will
+so I'm guessing that these buttons will
 yes throw some errors because run kit is
 yes throw some errors because run kit is
 yes throw some errors because run kit is
@@ -1062,9 +1062,9 @@ to get the the token
 you can click the the shrug button here
 you can click the the shrug button here
 you can click the the shrug button here
-i don't know
-i don't know
-i don't know
+I don't know
+I don't know
+I don't know
 and it'll actually pop up a block of
 and it'll actually pop up a block of
 and it'll actually pop up a block of
@@ -1224,9 +1224,9 @@ popular domain name at the moment for
 everybody else to join so
 everybody else to join so
 everybody else to join so
-i won first place got 500 lumens for
-i won first place got 500 lumens for
-i won first place got 500 lumens for
+I won first place got 500 lumens for
+I won first place got 500 lumens for
+I won first place got 500 lumens for
 challenge one
 challenge one
 challenge one
@@ -1368,9 +1368,9 @@ create this account and then
 claim those those balances and albedo
 claim those those balances and albedo
 claim those those balances and albedo
-i'm using implicit very similar to oauth
-i'm using implicit very similar to oauth
-i'm using implicit very similar to oauth
+I'm using implicit very similar to oauth
+I'm using implicit very similar to oauth
+I'm using implicit very similar to oauth
 where you don't have to continuously
 where you don't have to continuously
 where you don't have to continuously
@@ -1719,9 +1719,9 @@ that's an excellent question glad you
 asked it it has to do with
 asked it it has to do with
 asked it it has to do with
-the fact that i'm real I really tried to
-the fact that i'm real I really tried to
-the fact that i'm real I really tried to
+the fact that I'm real I really tried to
+the fact that I'm real I really tried to
+the fact that I'm real I really tried to
 use cloudflare
 use cloudflare
 use cloudflare
@@ -1755,9 +1755,9 @@ completing challenges in another part of
 the world if that's not in sync
 the world if that's not in sync
 the world if that's not in sync
-i could complete a challenge after you
-i could complete a challenge after you
-i could complete a challenge after you
+I could complete a challenge after you
+I could complete a challenge after you
+I could complete a challenge after you
 but
 but
 but
@@ -1836,18 +1836,18 @@ that'll be quite fascinating is once
 protocol 13
 protocol 13
 protocol 13
-i'm sorry protocol wait 14 goes live
-i'm sorry protocol wait 14 goes live
-i'm sorry protocol wait 14 goes live
-i think it's 13. I think the last one
-i think it's 13. I think the last one
-i think it's 13. I think the last one
+I'm sorry protocol wait 14 goes live
+I'm sorry protocol wait 14 goes live
+I'm sorry protocol wait 14 goes live
+I think it's 13. I think the last one
+I think it's 13. I think the last one
+I think it's 13. I think the last one
 was 12.
 was 12.
 was 12.
-i'm a seller person I can actually
-i'm a seller person I can actually
-i'm a seller person I can actually
+I'm a seller person I can actually
+I'm a seller person I can actually
+I'm a seller person I can actually
 remember goes live with claimable
 remember goes live with claimable
 remember goes live with claimable
@@ -1896,18 +1896,18 @@ where I have to kind of just sit
 there and wait until
 there and wait until
 there and wait until
-you're immediately asking like hey i'm
-you're immediately asking like hey i'm
-you're immediately asking like hey i'm
+you're immediately asking like hey I'm
+you're immediately asking like hey I'm
+you're immediately asking like hey I'm
 ready to receive this prize
 ready to receive this prize
 ready to receive this prize
 once claimable balances exist I can just
 once claimable balances exist I can just
 once claimable balances exist I can just
-say oh this person won this prize i'm
-say oh this person won this prize i'm
-say oh this person won this prize i'm
+say oh this person won this prize I'm
+say oh this person won this prize I'm
+say oh this person won this prize I'm
 going to set up
 going to set up
 going to set up
@@ -1974,9 +1974,9 @@ claimable balance and say after
 one day or after a week if you don't
 one day or after a week if you don't
 one day or after a week if you don't
-claim it i'm going to revoke it and put
-claim it i'm going to revoke it and put
-claim it i'm going to revoke it and put
+claim it I'm going to revoke it and put
+claim it I'm going to revoke it and put
+claim it I'm going to revoke it and put
 that prize back into the pool for
 that prize back into the pool for
 that prize back into the pool for
@@ -1992,9 +1992,9 @@ and then obviously sponsor reserves
 will be really nice because right now
 will be really nice because right now
 will be really nice because right now
-i'm actually creating accounts for
-i'm actually creating accounts for
-i'm actually creating accounts for
+I'm actually creating accounts for
+I'm actually creating accounts for
+I'm actually creating accounts for
 people as they come in
 people as they come in
 people as they come in

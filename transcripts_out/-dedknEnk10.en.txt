@@ -49,10 +49,10 @@ like
 and I guess we can just like sort of
 start with what's at the top of the
 agenda
-i also know that there's some questions
+I also know that there's some questions
 about interoperability that we may
 want to address
-i think maybe we start with
+I think maybe we start with
 46
 removal of box agenda item I put a
 bunch of I put a bunch of agenda items
@@ -74,7 +74,7 @@ haven't ratified pointers there's
 no way to differentiate an object that
 contains a value from just the value
 so lee suggested that we get rid of this
-and i'm happy to get rid of it until we
+and I'm happy to get rid of it until we
 discover or some reason to bring it back
 in the future
 go on once
@@ -142,7 +142,7 @@ non-negative is the correct word to use
 when you're including zero and a set of
 numbers that include zero and all the
 positive numbers
-i don't personally care i'm perfectly
+I don't personally care I'm perfectly
 happy to have the word pause in there i
 think it's reasonably easy for people to
 understand I could also put in non-neg
@@ -153,12 +153,12 @@ we're gonna we're basically gonna merge
 this right now so please commit to a
 terminology does anyone have a
 preference
-i think non-nag is confined if that's
+I think non-nag is confined if that's
 more accurate but I don't really care i
 personally I think u63 was fine but yeah
 not like is fine too I did too I don't
 care
-i like u63 personally it's short and it
+I like u63 personally it's short and it
 says what it means
 
 literally everyone who sees it has like
@@ -179,7 +179,7 @@ using too like you know if we were
 writing contracts in zig u63 would
 actually make sense it'd actually be a
 thing
-i mean the thing is like I don't think
+I mean the thing is like I don't think
 the weird reaction is to the name i
 think the weird reaction is to the
 concept but then in context it makes
@@ -194,7 +194,7 @@ this is it yes thank you I mean it's
 like boolean right like boolean is not
 one bit in most like if you have a
 variable like that right it's already
-the same thing so i'm fine with i'm
+the same thing so I'm fine with I'm
 actually I prefer u63 as well because it
 actually tells you what it is
 everyone wants you 63 okay we're going
@@ -264,7 +264,7 @@ less
 about other than the fact that it like
 makes them like default mutable and we
 now need to opt back out of that which
-i'm about to explain
+I'm about to explain
 like
 you can't just say the code is mutable
 without having some rules around what
@@ -323,11 +323,11 @@ very hard that's exactly what I was
 saying nico you just said yeah
 no I know like it's it's kind of scary
 in a way that
-i don't know what the right answer is on
+I don't know what the right answer is on
 i
 know you see I don't I don't actually
 think this is this is particularly scary
-i think there are really only two
+I think there are really only two
 possible options and they're both fine
 and you know one of them is you do
 what unix does which is that you
@@ -352,9 +352,9 @@ because I do upgrades of running
 programs all the time and it works
 like if I if I upgrade chrome while it's
 running if I if I do apt-get install
-bash it works in my backup i'm telling
+bash it works in my backup I'm telling
 you I literally just tested this and
-i get e busy I mean this is kind of a
+I get e busy I mean this is kind of a
 side note but I think what you're doing
 when you upgrade is you're unlinking the
 file and creating a new file but you
@@ -362,7 +362,7 @@ can't you can't like write to an inode
 that's currently executing okay sure
 unlike you can re-link that's
 fine well unlike and create a different
-i know my point is it's it's totally
+I know my point is it's it's totally
 doable in some contexts and in other
 contexts you block it and those are the
 only two options here so
@@ -407,18 +407,18 @@ that's managing a smart contract you'd
 like to be able to manage it from small
 right okay then we
 there's like a whole bunch of space here
-that i'm like
+that I'm like
 it's like sure maybe you have two
 high-level options allow or block but
 like block has many sub-options
 okay I don't I don't see this is
-i don't see this is relating to the
+I don't see this is relating to the
 question which is do we store this as a
 ledger entry or not I agree that
 individual host functions need to have
 semantics defined for them but okay i
-guess what i'm getting at is
-i would accept this change if we make it
+guess what I'm getting at is
+I would accept this change if we make it
 so that you can't mutate the code while
 it's running right now
 and we can figure it out later okay
@@ -429,7 +429,7 @@ sorry if we're if we
 allow rights to the currently running
 contract right we need to do more work
 okay so
-what i'm going to specify that agent
+what I'm going to specify that agent
 files are currently immutable
 even if it's stored as data no the
 currently running contract is immutable
@@ -438,11 +438,11 @@ mechanism to write to a not running
 contract or not a good mechanism we
 should just make it immutable if it's
 okay sure
-like what i'm saying is let's separate
+like what I'm saying is let's separate
 the mutability problem from the
 representation problem okay
 then we can make progress because like i
-i don't want to approve this if we don't
+I don't want to approve this if we don't
 have like I don't want to prove it in
 the mutable case if we don't have a good
 story about me to build and we don't
@@ -450,7 +450,7 @@ right now gotcha okay so only only
 reading only the read path works for
 this key right now and the right path
 just fails
-i have a question about not about the
+I have a question about not about the
 mutability but the representation if
 we're making it a ledger key that you
 have to write
@@ -460,7 +460,7 @@ will it mean that the only way to update
 the contract is to
 write the entire binary every time
 or
-so like i'm just wondering about if
+so like I'm just wondering about if
 somebody if we support mutability and
 somebody wants to write a contract where
 they
@@ -482,7 +482,7 @@ little bit in yet another one of the
 threads this week which is like is there
 any kind of delegation mechanism
 
-i I think it's a little bit awkward
+I I think it's a little bit awkward
 because
 
 well first of all we actually come up
@@ -498,16 +498,16 @@ maybe you don't need to pre-flight them
 if you can guess where the delegate is
 currently pointing but anyway
 i
-i feel like
+I feel like
 it sounds like it increases the
-complexity of this and that's like i'm
+complexity of this and that's like I'm
 not interested in increasing the
-complexity i'm just curious if we're
+complexity I'm just curious if we're
 just
 any sort of future
 limiting something we can do in the
 future
-i don't think so because again I think i
+I don't think so because again I think i
 think
 
 47 already has a function called write
@@ -524,7 +524,7 @@ john was really
 adamant about like let's let's ship
 without and see what happens and
 you know
-i can I can live with that because we
+I can I can live with that because we
 it's true like we could we could make
 the wrong
 delegation mechanism and then we'd be
@@ -559,7 +559,7 @@ that they would be a full electric key
 at least that in conversation with john
 he again
 fairly clearly suggested that he would
-prefer to keep that door open and i'm
+prefer to keep that door open and I'm
 happy to go with that so
 does anyone feel strongly
 what do you mean by footprint here you
@@ -642,7 +642,7 @@ taking advantage of the existing stellar
 ecosystem at all but it's extremely
 simple we just don't need to think about
 legacy interop at all
-i think on the other extreme side of
+I think on the other extreme side of
 interop you have full interop with every
 primitive
 on the current stellar network so you
@@ -658,7 +658,7 @@ means that we're bringing a lot of the
 you know technical debt and the
 idiosyncrasies and in the classic
 protocol to the new world so
-i think we need to find somewhere in
+I think we need to find somewhere in
 between
 and I would say that even though
 there are a lot of disagreements in this
@@ -710,7 +710,7 @@ is like one version of that extreme
 inside this box that you described where
 you know no change is needed
 and
-i'm i'm i'm we've been kind of trying to
+I'm I'm I'm we've been kind of trying to
 and john probably can expand on that but
 like it it seems to me that
 if we try to make it
@@ -796,13 +796,13 @@ you know a small set of like super
 specific stellar wallets it we we
 haven't even seen support for them
 and with major service providers
-so it's worth you know when i'm when
-i'm talking about minimal change I think
+so it's worth you know when I'm when
+I'm talking about minimal change I think
 it's worth
 dividing this into the different
 stakeholders that we're talking about
 so
-i think on one end you have
+I think on one end you have
 the more kind of like institutional
 cross-chain services things like
 exchanges things like you know things
@@ -883,7 +883,7 @@ experience it's going to take
 you know a whole lot of time for service
 providers to start enabling something
 new
-i get that i'm just kind of a bit
+I get that I'm just kind of a bit
 skeptical about
 like the
 for exchanges in particular that
@@ -918,7 +918,7 @@ and then it's hard to create that
 demand without you know these assets
 supporting supported domain exchanges
 
-but I think like the main thing i'm
+but I think like the main thing I'm
 trying to together here is that like
 it's hard to get exchanges to to do
 changes and the service providers as
@@ -934,7 +934,7 @@ platforms
 if you introduce a new way to do it then
 you basically tell issuers you can't use
 these service providers
-i mean that's not really what you're
+I mean that's not really what you're
 telling them what you're telling them is
 you can't use those service providers if
 you want to do it the new way
@@ -952,7 +952,7 @@ you know various service providers
 and the
 other path will give you
 will give you what john
-i don't know what it'll give you it'll
+I don't know what it'll give you it'll
 give you the power to do whatever you
 want the question is what do you want
 right
@@ -979,9 +979,9 @@ everything that supports on classic
 you have at your disposal it's so yes
 it's about payments but it's just about
 like the ecosystem support
-i think
+I think
 like payments are also just transfers so
-i'm it's also not clear to me why why we
+I'm it's also not clear to me why why we
 would even say that nfts don't care
 about payments because people do care
 about transferring nfts
@@ -992,7 +992,7 @@ like that's kind of what we see today on
 the network right like the way your
 model nft is on the network is extremely
 poor the experience that you get
-i guess one question is like
+I guess one question is like
 do do we think that kind of the the
 value of the smart contracts is going to
 come from people implementing new assets
@@ -1036,7 +1036,7 @@ the classic side and maybe that helps
 with
 with implementation but we will
 see these assets but but I mean I guess
-i mean put another way like when I talk
+I mean put another way like when I talk
 to people who are using stellar right
 it's it's it's often kind of two things
 that draw them stellar like sort of the
@@ -1086,7 +1086,7 @@ in terms of interop and what kind of
 like
 you know decisions we can make to
 simplify that
-i mean there's a couple
+I mean there's a couple
 axes of decisions
 one axis is like wrapping verse not
 wrapping
@@ -1135,12 +1135,12 @@ is like can we make those like canonical
 assets on stellar be the existing
 assets
 maybe
-i mean I think you'd be making a lot of
+I mean I think you'd be making a lot of
 sacrifices to do so
 are they sacrifices worth making making
 not to me
 what are the sacrifices
-i mean I think the biggest sacrifice is
+I mean I think the biggest sacrifice is
 just like do we really want to have
 a 64-bit balance for everything
 
@@ -1160,12 +1160,12 @@ in it's pretty unwieldy for a variety of
 reasons
 do we want to be married to that for the
 rest of eternity I don't so
-i guess what i'm getting at is
+I guess what I'm getting at is
 you can shoehorn anything into anything
 send you
-i have a really strong opinion about the
+I have a really strong opinion about the
 should you question but I do have
-i participated briefly the last time
+I participated briefly the last time
 around and I just want to do ads since
 you're already doing requirements
 gathering here a somewhat
@@ -1193,7 +1193,7 @@ standardized path or
 even just
 there's a host function that has very
 simple signature that's fairly
-impossible to misuse i'm kind of okay
+impossible to misuse I'm kind of okay
 with most of those approaches but
 cryptography apis become error-prone
 really really quickly and I don't want
@@ -1218,8 +1218,8 @@ standardized preamble in every single
 contract on every single path it
 would be nice just from a code size and
 execution performance perspective to
-factor it out as well so i'm just
-i know the authorization point is not
+factor it out as well so I'm just
+I know the authorization point is not
 the only part of interrupt but to me
 it's the only part that I actually care
 about I do not care about the other
@@ -1237,7 +1237,7 @@ and going back to that right is it is is
 different it's different and that's why
 they are like things done in a certain
 way in cap 52 but I do agree that
-i know as we try to figure out like the
+I know as we try to figure out like the
 actual
 interrupt story with classic it would be
 we can
@@ -1261,7 +1261,7 @@ and user writing your own authorization
 group is just a disaster
 we have too many crickets
 can somebody make it
-i don't like well I do have a
+I don't like well I do have a
 question so returning to to what
 tomorrow
 sort of started this threat this
@@ -1283,7 +1283,7 @@ canonical representation of an asset
 that we could discuss or is it premature
 to just to get into that right now
 
-i mean in a way you know you know like
+I mean in a way you know you know like
 in cap 49 for example the the wrapped
 asset is a canonical
 implementation
@@ -1308,8 +1308,8 @@ interrupt with
 with classic assets and there's only one
 way to do it but yeah you do have
 standardization happening in that world
-i'm not so so getting back to that like
-i feel like i'm the only one talking
+I'm not so so getting back to that like
+I feel like I'm the only one talking
 like it seems to me that the
 standardization is not necessarily the
 sticky point

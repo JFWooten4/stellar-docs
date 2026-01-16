@@ -136,14 +136,14 @@ there's a new set trustline's flag set
 trustline flags up
 that allows an issuer to remove clawback
 the clawback flag so
-i I think just open up does anyone
+I I think just open up does anyone
 have any comments or questions
 about the changes since we last met
 so I think that the first of all i
 just want to congratulate the authors i
 think it's
 gotten a lot better
-i have kind of like I don't know three
+I have kind of like I don't know three
 quick comments that like maybe
 are just changes you can make or or not
 and then one like
@@ -169,7 +169,7 @@ zero then you're not setting any flags
 or clearing any flags
 so it seems like the optionality had was
 there's like redundant
-mechanisms to not do anything i'm just
+mechanisms to not do anything I'm just
 curious for the rationale
 so it matches what set options
 does right which is like if you if
@@ -179,7 +179,7 @@ like like you don't want to clear any
 flags you can just set it to no
 right so I just follow that I don't i
 think your approach is fine as well
-i do think we there's an advantage in
+I do think we there's an advantage in
 keeping it the same
 as set options but sorry I thought
 that instead options that actually
@@ -189,7 +189,7 @@ whereas here we're actually setting or
 clearing bits
 so it's like a different so set options
 it is the same as set trustline flag so
-i think you're thinking about allow
+I think you're thinking about allow
 trust
 that sets it oh right right so yeah
 the goal here was to make it make it
@@ -205,7 +205,7 @@ question is
 should we deprecate allow trust stop now
 that we have set
 trustline flags up
-i I think so I think we should but
+I I think so I think we should but
 that would be just something to mention
 like you know we don't have to like
 remove it or anything but we can just
@@ -291,7 +291,7 @@ asset
 exactly exactly and so
 the issuer is redundant because it's the
 source account always but
-i can imagine future situations where we
+I can imagine future situations where we
 don't want to require that to be the
 case
 actually I would say I would support
@@ -332,7 +332,7 @@ probably is might require more
 discussion so i'll maybe defer if other
 people have quicker things we can come
 back to the longer running ones
-i think I thought something I want to
+I think I thought something I want to
 comment on this is I think this is
 really great the idea that we can we can
 in the future possibly delegate who
@@ -378,7 +378,7 @@ so is the clawback mechanism set up to
 claw back to the source account
 currently why it's implicit right it's
 implicit okay
-i mean we could add a destination
+I mean we could add a destination
 account so imagine a situation where
 whenever you claw back
 you actually want to send it to some
@@ -413,8 +413,8 @@ to do clawback from a
 non-issue icon because you know you
 can't actually
 you don't have the right to do it but
-i agree in terms of wording
-i can actually say so second right it
+I agree in terms of wording
+I can actually say so second right it
 will just work because
 you know adding this functionality is
 actually adds a bunch of complexity
@@ -436,7 +436,7 @@ but not in the abstract so while
 someone's going to tweet that language
 my request is please add that to the
 abstract portion of the cap
-i can take that
+I can take that
 cool does does anything does anyone have
 anything else before we
 take here david's more potentially
@@ -464,7 +464,7 @@ it would be clearer than allowing this
 like this other this brand new
 functionality which we don't even allow
 at the moment right i
-i personally I don't think it's
+I personally I don't think it's
 it matters that much I think it's fine
 if we if we enable the the owner
 of the trustline to modify a flag in the
@@ -605,14 +605,14 @@ it can't be changed for them right
 except that
 except that they're the the claimable
 balance that they can claim
-can be clawed back unless i'm
+can be clawed back unless I'm
 misunderstanding
 right and only if it has the flag only
 if the sender had the flag enabled right
 so in a way it's like you wish that the
 policy had to do with the recipient
 rather than the sender I guess
-is is kind of what i'm saying but but
+is is kind of what I'm saying but but
 that also doesn't work right because you
 don't want to
 just be you I shouldn't be able to like
@@ -629,7 +629,7 @@ the time the claim will balance yeah
 exactly
 exactly so there's a lot but there's no
 guarantee we even have that information
-i think the only the only things we can
+I think the only the only things we can
 guarantee exists on the network when the
 claim balance is created is that the
 issuer
@@ -652,7 +652,7 @@ this
 where does this conversation lead what
 what action needs to be
 taken to sort of resolve this issue
-i mean you know maybe we can't resolve
+I mean you know maybe we can't resolve
 it right maybe it's just
 yeah
 you know it's not there there doesn't
@@ -668,7 +668,7 @@ on the table
 maybe we just live with it
 the spec currently specify using the
 sender
-i can't remember it is yeah in
+I can't remember it is yeah in
 everything the
 yeah okay so that's the standard because
 that way like
@@ -687,7 +687,7 @@ know that basically you're taking a zero
 risk
 if you have the flag then you have a
 question
-i don't see but the flag can change
+I don't see but the flag can change
 like during the execution of a protocol
 right so you no no no no
 that's the point is that if the flag
@@ -728,12 +728,12 @@ the thing is that as soon as you you
 potentially have this third party kind
 of interfering
 it gets really complicated
-i don't see yeah so I can basically
+I don't see yeah so I can basically
 live with it I think you guys have
 convinced me that this is probably fine
 and anything else is going to be
 worse
-i I think I also want to mention I think
+I I think I also want to mention I think
 this is a limitation of claimable
 balances in general in the
 claimant balances the only the only
@@ -762,11 +762,11 @@ the attributes of their previous kind of
 balances or different things like that
 but that's I think that's like that's
 off topic a bit but
-i think there is some limitation that
+I think there is some limitation that
 we're inheriting from the fact that
 claimable balances
 only have accounts as a destination
-okay well i'm satisfied nothing needs to
+okay well I'm satisfied nothing needs to
 change in the in the cap
 basically after this so the one there's
 basically one minor change which is to
@@ -785,7 +785,7 @@ changes that we've suggested making does
 it does that seem accurate to everyone
 else
 yeah and if so those feel like pretty
-correct me if i'm wrong sid for instance
+correct me if I'm wrong sid for instance
 those feel like pretty minor
 changes to execute is that correct yeah
 they should be
@@ -796,7 +796,7 @@ does that seem correct yeah
 all right guys I say we I say we
 move this from draft and final comment
 period
-i kind of want to do like a formal
+I kind of want to do like a formal
 process here we have to say I or
 nay so let's do that let's do that
 nico
@@ -804,13 +804,13 @@ yes sid
 yes david
 chalmer yes eric
 yep is that is that everybody
-i think that's everybody who's on this
+I think that's everybody who's on this
 call guys I actually have a gavel
-so i'm going to strike this gavel and
+so I'm going to strike this gavel and
 can you see it and
 and now it's officially moved into
 final comment period
-i happen to have that gavel in this room
+I happen to have that gavel in this room
 full of junk I did not go buy it
 especially for this I promise and so
 that's mostly it I mean the only other
@@ -844,7 +844,7 @@ but this is final comment period pending
 acceptance
 great well we answer the questions we
 move this along
-i think we're done everybody feel good
+I think we're done everybody feel good
 great yeah thanks thanks everyone for
 coming thanks everyone for watching
 see you next time cheers

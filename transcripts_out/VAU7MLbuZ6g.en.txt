@@ -27,9 +27,9 @@ foundation pulling these things together
 for the next gen initiative
 for the next gen initiative
 for the next gen initiative
-today i'm going to talk to you about
-today i'm going to talk to you about
-today i'm going to talk to you about
+today I'm going to talk to you about
+today I'm going to talk to you about
+today I'm going to talk to you about
 open networks and digital assets I know
 open networks and digital assets I know
 open networks and digital assets I know
@@ -57,9 +57,9 @@ but billy grannis gave a great talk and
 something to kind of get you started
 something to kind of get you started
 something to kind of get you started
-today i'm going to talk to you about
-today i'm going to talk to you about
-today i'm going to talk to you about
+today I'm going to talk to you about
+today I'm going to talk to you about
+today I'm going to talk to you about
 what we do at stellar development
 what we do at stellar development
 what we do at stellar development
@@ -72,12 +72,12 @@ and then we'll kind of dive into the
 applications and use cases of blockchain
 applications and use cases of blockchain
 applications and use cases of blockchain
-and specifically stellar i'm going to do
-and specifically stellar i'm going to do
-and specifically stellar i'm going to do
-probably 10 or 15 slides i'm not sure
-probably 10 or 15 slides i'm not sure
-probably 10 or 15 slides i'm not sure
+and specifically stellar I'm going to do
+and specifically stellar I'm going to do
+and specifically stellar I'm going to do
+probably 10 or 15 slides I'm not sure
+probably 10 or 15 slides I'm not sure
+probably 10 or 15 slides I'm not sure
 where the marker is exactly and then
 where the marker is exactly and then
 where the marker is exactly and then
@@ -99,9 +99,9 @@ difficulty that you can't see or
 something like that jump in anytime
 something like that jump in anytime
 something like that jump in anytime
-but yeah i'm i'm excited to be here
-but yeah i'm i'm excited to be here
-but yeah i'm i'm excited to be here
+but yeah I'm I'm excited to be here
+but yeah I'm I'm excited to be here
+but yeah I'm I'm excited to be here
 so my name is aydah vaughn and I work in
 so my name is aydah vaughn and I work in
 so my name is aydah vaughn and I work in
@@ -196,8 +196,8 @@ making the network as a whole stronger
 making the network as a whole stronger
 making the network as a whole stronger
 and making it a success in its mission
-so i'm clicking on two screens here
-so i'm clicking on two screens here
+so I'm clicking on two screens here
+so I'm clicking on two screens here
 stellar itself is a decentralized open
 stellar itself is a decentralized open
 stellar itself is a decentralized open
@@ -502,8 +502,8 @@ different country and I can use stellar
 different country and I can use stellar
 different country and I can use stellar
 to move that value
-so the first step i'm going to go
-so the first step i'm going to go
+so the first step I'm going to go
+so the first step I'm going to go
 through these these three main
 through these these three main
 through these these three main
@@ -582,9 +582,9 @@ could be a real asset could be a service
 it's up to you
 it's up to you
 it's up to you
-today i'm going to talk to you about two
-today i'm going to talk to you about two
-today i'm going to talk to you about two
+today I'm going to talk to you about two
+today I'm going to talk to you about two
+today I'm going to talk to you about two
 main types of assets which are
 main types of assets which are
 main types of assets which are
@@ -613,8 +613,8 @@ we'll also talk about fiat-backed assets
 we'll also talk about fiat-backed assets
 we'll also talk about fiat-backed assets
 and the utility for those
-i love this example so
-i love this example so
+I love this example so
+I love this example so
 you know so much of the internet and
 you know so much of the internet and
 you know so much of the internet and
@@ -789,9 +789,9 @@ so on a more serious note tokenization
 of securities
 of securities
 of securities
-i think so i'll do the same question
-i think so i'll do the same question
-i think so i'll do the same question
+I think so i'll do the same question
+I think so i'll do the same question
+I think so i'll do the same question
 like how many of you own a security own
 like how many of you own a security own
 like how many of you own a security own
@@ -906,9 +906,9 @@ tokenization of securities is a really
 interesting use case for blockchain and
 interesting use case for blockchain and
 interesting use case for blockchain and
-for stellar specifically i'm going to
-for stellar specifically i'm going to
-for stellar specifically i'm going to
+for stellar specifically I'm going to
+for stellar specifically I'm going to
+for stellar specifically I'm going to
 show you an example of it
 show you an example of it
 show you an example of it
@@ -930,9 +930,9 @@ similar to securities that can be
 tokenized into shares and tokens on
 tokenized into shares and tokens on
 tokenized into shares and tokens on
-stellar so i'm going to show you an
-stellar so i'm going to show you an
-stellar so i'm going to show you an
+stellar so I'm going to show you an
+stellar so I'm going to show you an
+stellar so I'm going to show you an
 example of a company called d stock
 example of a company called d stock
 example of a company called d stock
@@ -1155,18 +1155,18 @@ who here has heard of the term stable
 coin
 couple people
 couple people
-how about okay so keep your so now i'm
-how about okay so keep your so now i'm
-how about okay so keep your so now i'm
+how about okay so keep your so now I'm
+how about okay so keep your so now I'm
+how about okay so keep your so now I'm
 gonna ask another one you can lower your
 gonna ask another one you can lower your
 gonna ask another one you can lower your
 hand and then how about cbdc
 hand and then how about cbdc
 hand and then how about cbdc
-i can say it so fast because I say it a
-i can say it so fast because I say it a
-i can say it so fast because I say it a
+I can say it so fast because I say it a
+I can say it so fast because I say it a
+I can say it so fast because I say it a
 lot cbdc
 okay a few people not many
 okay a few people not many
@@ -1413,9 +1413,9 @@ anchors in just a minute
 one really important anchor
 one really important anchor
 one really important anchor
-is usdc circle i'm sorry my slides are
-is usdc circle i'm sorry my slides are
-is usdc circle i'm sorry my slides are
+is usdc circle I'm sorry my slides are
+is usdc circle I'm sorry my slides are
+is usdc circle I'm sorry my slides are
 so jumpy I need a better mouse
 so jumpy I need a better mouse
 so jumpy I need a better mouse
@@ -1455,9 +1455,9 @@ by a consortium called center
 centre
 centre
 centre
-i think someone went off mute for a
-i think someone went off mute for a
-i think someone went off mute for a
+I think someone went off mute for a
+I think someone went off mute for a
+I think someone went off mute for a
 second
 second
 second
@@ -1479,9 +1479,9 @@ and it's available on multiple
 networks too which is one of the reasons
 networks too which is one of the reasons
 networks too which is one of the reasons
-i think for its fast growth it has
-i think for its fast growth it has
-i think for its fast growth it has
+I think for its fast growth it has
+I think for its fast growth it has
+I think for its fast growth it has
 transferred on chain over a trillion
 transferred on chain over a trillion
 transferred on chain over a trillion
@@ -1680,9 +1680,9 @@ usdc so the all the
 value is sitting in a centralized place
 value is sitting in a centralized place
 value is sitting in a centralized place
-i think
-i think
-i think
+I think
+I think
+I think
 the difference and what we are trying to
 the difference and what we are trying to
 the difference and what we are trying to
@@ -2046,9 +2046,9 @@ time value is moving through the anchor
 and it's on its way somewhere else so
 and it's on its way somewhere else so
 and it's on its way somewhere else so
-i think still the majority of the use
-i think still the majority of the use
-i think still the majority of the use
+I think still the majority of the use
+I think still the majority of the use
+I think still the majority of the use
 cases that we're looking at for
 cases that we're looking at for
 cases that we're looking at for
@@ -2193,9 +2193,9 @@ asset issuance getting value on to the
 stellar network
 stellar network
 stellar network
-i'm going to pause here for a second if
-i'm going to pause here for a second if
-i'm going to pause here for a second if
+I'm going to pause here for a second if
+I'm going to pause here for a second if
+I'm going to pause here for a second if
 there's any other questions before we
 there's any other questions before we
 there's any other questions before we
@@ -2253,9 +2253,9 @@ they really are just a marker in the
 ledger that says what belongs to you so
 ledger that says what belongs to you so
 ledger that says what belongs to you so
-this is and i'm sure billy talked about
-this is and i'm sure billy talked about
-this is and i'm sure billy talked about
+this is and I'm sure billy talked about
+this is and I'm sure billy talked about
+this is and I'm sure billy talked about
 this too this is distributed ledger
 this too this is distributed ledger
 this too this is distributed ledger
@@ -2409,9 +2409,9 @@ the things that you can do with them
 in your diversifying value
 in your diversifying value
 in your diversifying value
-i really love this example of another
-i really love this example of another
-i really love this example of another
+I really love this example of another
+I really love this example of another
+I really love this example of another
 wallet that is that is purpose-built for
 wallet that is that is purpose-built for
 wallet that is that is purpose-built for
@@ -2679,9 +2679,9 @@ platform to use and it's built on
 stellar
 so finally we're going to talk about
 so finally we're going to talk about
-sending and exchanging assets i'm really
-sending and exchanging assets i'm really
-sending and exchanging assets i'm really
+sending and exchanging assets I'm really
+sending and exchanging assets I'm really
+sending and exchanging assets I'm really
 sorry for these jumpy slides
 sorry for these jumpy slides
 sorry for these jumpy slides
@@ -2802,9 +2802,9 @@ efficiency of stellar
 
 
 
-i think when I said you can send
-i think when I said you can send
-i think when I said you can send
+I think when I said you can send
+I think when I said you can send
+I think when I said you can send
 currency in one
 currency in one
 currency in one
@@ -2868,9 +2868,9 @@ they want to deal with sorry lucian's
 asleep so
 asleep so
 asleep so
-i think somebody went off mute
-i think somebody went off mute
-i think somebody went off mute
+I think somebody went off mute
+I think somebody went off mute
+I think somebody went off mute
 
 
 
@@ -3525,9 +3525,9 @@ pretty exciting to see these remittance
 use cases come to life
 use cases come to life
 use cases come to life
-finally i'm going to show you
-finally i'm going to show you
-finally i'm going to show you
+finally I'm going to show you
+finally I'm going to show you
+finally I'm going to show you
 one of our most exciting developments at
 one of our most exciting developments at
 one of our most exciting developments at
@@ -3804,7 +3804,7 @@ sure yeah let me let me let me
 do you want to put up the slide
 do you want to put up the slide
 do you want to put up the slide
-sure i'm glad too
+sure I'm glad too
 so this is totally cool go ahead
 so this is totally cool go ahead
 yeah sure thing so yeah so stellar
@@ -3855,9 +3855,9 @@ so it's actually very fun next slime
 is the native currency of stellar
 is the native currency of stellar
 is the native currency of stellar
-i definitely
-i definitely
-i definitely
+I definitely
+I definitely
+I definitely
 recommend anyone who is like watching
 recommend anyone who is like watching
 recommend anyone who is like watching
@@ -4017,9 +4017,9 @@ all these different use cases there's
 cool videos all kinds of things so yeah
 cool videos all kinds of things so yeah
 cool videos all kinds of things so yeah
-i invite you to access stellar.org
-i invite you to access stellar.org
-i invite you to access stellar.org
+I invite you to access stellar.org
+I invite you to access stellar.org
+I invite you to access stellar.org
 anytime
 anytime
 anytime

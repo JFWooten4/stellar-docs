@@ -9,9 +9,9 @@ welcome back to stellar's engineering
 talk series
 talk series
 talk series
-i lead the app team on vibrant and i'm
-i lead the app team on vibrant and i'm
-i lead the app team on vibrant and i'm
+I lead the app team on vibrant and I'm
+I lead the app team on vibrant and I'm
+I lead the app team on vibrant and I'm
 going to talk to you today about how our
 going to talk to you today about how our
 going to talk to you today about how our
@@ -24,9 +24,9 @@ at the end of my talk i'll field any
 questions you have
 questions you have
 questions you have
-i think there's a qr code at the bottom
-i think there's a qr code at the bottom
-i think there's a qr code at the bottom
+I think there's a qr code at the bottom
+I think there's a qr code at the bottom
+I think there's a qr code at the bottom
 of the broadcast
 of the broadcast
 of the broadcast
@@ -322,8 +322,8 @@ if the app is not open they should see a
 if the app is not open they should see a
 if the app is not open they should see a
 push notification
-so i'm gonna i'm gonna go through the
-so i'm gonna i'm gonna go through the
+so I'm gonna I'm gonna go through the
+so I'm gonna I'm gonna go through the
 exact same flow and
 exact same flow and
 exact same flow and
@@ -834,9 +834,9 @@ sometimes it happens slightly before or
 after
 after
 after
-i think it will the status will usually
-i think it will the status will usually
-i think it will the status will usually
+I think it will the status will usually
+I think it will the status will usually
+I think it will the status will usually
 be incomplete
 be incomplete
 be incomplete
@@ -1098,9 +1098,9 @@ out the right steps to get there but
 there's not a lot of stuff going on so
 there's not a lot of stuff going on so
 there's not a lot of stuff going on so
-i'm happy to answer any questions that
-i'm happy to answer any questions that
-i'm happy to answer any questions that
+I'm happy to answer any questions that
+I'm happy to answer any questions that
+I'm happy to answer any questions that
 anyone has
 anyone has
 anyone has
@@ -1116,15 +1116,15 @@ vibrant eligible to use
 so right now I think
 so right now I think
 so right now I think
-i haven't looked at the actual app store
-i haven't looked at the actual app store
-i haven't looked at the actual app store
+I haven't looked at the actual app store
+I haven't looked at the actual app store
+I haven't looked at the actual app store
 distribution list lately
 distribution list lately
 distribution list lately
-i think it's only released in argentina
-i think it's only released in argentina
-i think it's only released in argentina
+I think it's only released in argentina
+I think it's only released in argentina
+I think it's only released in argentina
 but it could be wrong it might be
 but it could be wrong it might be
 but it could be wrong it might be
@@ -1233,9 +1233,9 @@ money directly to another user's bank
 account
 account
 account
-i think this feature is planned in the
-i think this feature is planned in the
-i think this feature is planned in the
+I think this feature is planned in the
+I think this feature is planned in the
+I think this feature is planned in the
 in the future but right now
 in the future but right now
 in the future but right now
@@ -1306,8 +1306,8 @@ functionality
 functionality
 functionality
 using using a normal http request
-i think some new questions are coming in
-i think some new questions are coming in
+I think some new questions are coming in
+I think some new questions are coming in
 that that they're they're sorting out
 okay looks like that's it so thanks
 okay looks like that's it so thanks

@@ -342,9 +342,9 @@ implementation
 review
 review
 review
-so before we do that I i'm just
-so before we do that I i'm just
-so before we do that I i'm just
+so before we do that I I'm just
+so before we do that I I'm just
+so before we do that I I'm just
 gonna walk through them one by one but
 gonna walk through them one by one but
 gonna walk through them one by one but
@@ -474,9 +474,9 @@ yeah does this make that harder or is it
 just going to be a pain anyway
 just going to be a pain anyway
 just going to be a pain anyway
-i think it would be pain no matter what
-i think it would be pain no matter what
-i think it would be pain no matter what
+I think it would be pain no matter what
+I think it would be pain no matter what
+I think it would be pain no matter what
 because we do a lot of hashing in a
 because we do a lot of hashing in a
 because we do a lot of hashing in a
@@ -495,24 +495,24 @@ anyway for that so
 that's my intuition at least
 that's my intuition at least
 that's my intuition at least
-i see nico nodding so I think he
-i see nico nodding so I think he
-i see nico nodding so I think he
+I see nico nodding so I think he
+I see nico nodding so I think he
+I see nico nodding so I think he
 probably agrees with that
 okay I think we're fine then if nobody
 okay I think we're fine then if nobody
 objects I mean
 objects I mean
 objects I mean
-i don't expect any of these changes to
-i don't expect any of these changes to
-i don't expect any of these changes to
+I don't expect any of these changes to
+I don't expect any of these changes to
+I don't expect any of these changes to
 be really objectionable
 be really objectionable
 be really objectionable
-i just think this is kind of one of
-i just think this is kind of one of
-i just think this is kind of one of
+I just think this is kind of one of
+I just think this is kind of one of
+I just think this is kind of one of
 those
 those
 those
@@ -540,9 +540,9 @@ originally
 when I originally drew up the cap
 when I originally drew up the cap
 when I originally drew up the cap
-i had kind of assumed like oh we
-i had kind of assumed like oh we
-i had kind of assumed like oh we
+I had kind of assumed like oh we
+I had kind of assumed like oh we
+I had kind of assumed like oh we
 should make the minimum changes that we
 should make the minimum changes that we
 should make the minimum changes that we
@@ -642,9 +642,9 @@ for trading operations rolled into them
 
 
 
-i don't interact with the sdks that much
-i don't interact with the sdks that much
-i don't interact with the sdks that much
+I don't interact with the sdks that much
+I don't interact with the sdks that much
+I don't interact with the sdks that much
 so I wasn't aware of that
 so I wasn't aware of that
 so I wasn't aware of that
@@ -709,8 +709,8 @@ hard to do the upgrade but yeah
 hard to do the upgrade but yeah
 hard to do the upgrade but yeah
 just need to update your xcr files
-i like that precedent
-i like that precedent
+I like that precedent
+I like that precedent
 it's official
 it's official
 it's official
@@ -894,9 +894,9 @@ you know a pool share trust line
 so you can't have more than
 so you can't have more than
 so you can't have more than
-i don't know i'm not sure what the exact
-i don't know i'm not sure what the exact
-i don't know i'm not sure what the exact
+I don't know I'm not sure what the exact
+I don't know I'm not sure what the exact
+I don't know I'm not sure what the exact
 number is but you can't have more than a
 number is but you can't have more than a
 number is but you can't have more than a
@@ -1005,9 +1005,9 @@ you could get line full upon deposit
 which let me just look at this for
 which let me just look at this for
 which let me just look at this for
-one second to make sure i'm about to say
-one second to make sure i'm about to say
-one second to make sure i'm about to say
+one second to make sure I'm about to say
+one second to make sure I'm about to say
+one second to make sure I'm about to say
 the right thing
 the right thing
 the right thing
@@ -1095,9 +1095,9 @@ limit is on trust lines
 let's not go down that rabbit hole
 let's not go down that rabbit hole
 let's not go down that rabbit hole
-i totally agree with you on both
-i totally agree with you on both
-i totally agree with you on both
+I totally agree with you on both
+I totally agree with you on both
+I totally agree with you on both
 sentiments that we probably need to talk
 sentiments that we probably need to talk
 sentiments that we probably need to talk
@@ -1230,9 +1230,9 @@ pulling offers right
 and
 and
 and
-if i'm not sure if this is specified
-if i'm not sure if this is specified
-if i'm not sure if this is specified
+if I'm not sure if this is specified
+if I'm not sure if this is specified
+if I'm not sure if this is specified
 here but if you're in the unauthorized
 here but if you're in the unauthorized
 here but if you're in the unauthorized
@@ -1417,8 +1417,8 @@ that asset so this just specifies
 that asset so this just specifies
 that asset so this just specifies
 those those cases
-i'm actually confused I didn't
-i'm actually confused I didn't
+I'm actually confused I didn't
+I'm actually confused I didn't
 understand
 understand
 understand
@@ -1659,18 +1659,18 @@ claimable balances instead of
 direct transfers of funds
 direct transfers of funds
 direct transfers of funds
-i would think it will be kind of
-i would think it will be kind of
-i would think it will be kind of
+I would think it will be kind of
+I would think it will be kind of
+I would think it will be kind of
 mysterious
 mysterious
 mysterious
 
 
 
-i think there could be I mean
-i think there could be I mean
-i think there could be I mean
+I think there could be I mean
+I think there could be I mean
+I think there could be I mean
 if we were starting from scratch I feel
 if we were starting from scratch I feel
 if we were starting from scratch I feel
@@ -1798,11 +1798,11 @@ something but anyway we are where we are
 something but anyway we are where we are
 something but anyway we are where we are
 so
-i'm just wondering if there's this when
-i'm just wondering if there's this when
-i look at this i'm like oh shoot is
-i look at this i'm like oh shoot is
-i look at this i'm like oh shoot is
+I'm just wondering if there's this when
+I'm just wondering if there's this when
+I look at this I'm like oh shoot is
+I look at this I'm like oh shoot is
+I look at this I'm like oh shoot is
 there some education does this imply
 there some education does this imply
 there some education does this imply
@@ -1818,9 +1818,9 @@ happen so that people understand this
 quirk
 quirk
 quirk
-i mean one thing we could do is we like
-i mean one thing we could do is we like
-i mean one thing we could do is we like
+I mean one thing we could do is we like
+I mean one thing we could do is we like
+I mean one thing we could do is we like
 this is not really a protocol discussion
 this is not really a protocol discussion
 this is not really a protocol discussion
@@ -1938,9 +1938,9 @@ support because people understand what
 claimable balances are
 claimable balances are
 claimable balances are
-i mean unlike this time right where
-i mean unlike this time right where
-i mean unlike this time right where
+I mean unlike this time right where
+I mean unlike this time right where
+I mean unlike this time right where
 we're spending time with an adoption
 we're spending time with an adoption
 we're spending time with an adoption
@@ -1989,9 +1989,9 @@ given that this is a fact
 okay well that's very helpful for me
 okay well that's very helpful for me
 okay well that's very helpful for me
-i know it's not strictly protocol
-i know it's not strictly protocol
-i know it's not strictly protocol
+I know it's not strictly protocol
+I know it's not strictly protocol
+I know it's not strictly protocol
 discussion but thank you
 and I believe we're at we are where we
 and I believe we're at we are where we
@@ -2022,15 +2022,15 @@ basically would have been possible to
 do things like
 do things like
 do things like
-i mean submit very nonsensical
-i mean submit very nonsensical
-i mean submit very nonsensical
+I mean submit very nonsensical
+I mean submit very nonsensical
+I mean submit very nonsensical
 
 
 
-i guess very nonsensical
-i guess very nonsensical
-i guess very nonsensical
+I guess very nonsensical
+I guess very nonsensical
+I guess very nonsensical
 operations where you could just say like
 operations where you could just say like
 operations where you could just say like
@@ -2196,9 +2196,9 @@ the first path if I had actually take or
 sorry in the first hop if I had taken
 sorry in the first hop if I had taken
 sorry in the first hop if I had taken
-the path to the liquidity pool i'm not
-the path to the liquidity pool i'm not
-the path to the liquidity pool i'm not
+the path to the liquidity pool I'm not
+the path to the liquidity pool I'm not
+the path to the liquidity pool I'm not
 necessarily going to end up in the same
 necessarily going to end up in the same
 necessarily going to end up in the same
@@ -2208,9 +2208,9 @@ state as if I had taken the path to the
 other side
 other side
 other side
-and then i'm not necessarily going to
-and then i'm not necessarily going to
-and then i'm not necessarily going to
+and then I'm not necessarily going to
+and then I'm not necessarily going to
+and then I'm not necessarily going to
 get the same error code regardless
 get the same error code regardless
 get the same error code regardless
@@ -2241,9 +2241,9 @@ error codes you would get
 
 
 
-i don't know if we need to get into the
-i don't know if we need to get into the
-i don't know if we need to get into the
+I don't know if we need to get into the
+I don't know if we need to get into the
+I don't know if we need to get into the
 details of like how it actually does
 details of like how it actually does
 details of like how it actually does
@@ -2286,9 +2286,9 @@ enlightening to get into the weeds about
 how it works
 how it works
 how it works
-i'm just curious can you give an example
-i'm just curious can you give an example
-i'm just curious can you give an example
+I'm just curious can you give an example
+I'm just curious can you give an example
+I'm just curious can you give an example
 how is it that a liquidity pool can make
 how is it that a liquidity pool can make
 how is it that a liquidity pool can make
@@ -2319,9 +2319,9 @@ pool or just an example would help here
 yes so there is an example here but i
 yes so there is an example here but i
 yes so there is an example here but i
-i can definitely give you an example
-i can definitely give you an example
-i can definitely give you an example
+I can definitely give you an example
+I can definitely give you an example
+I can definitely give you an example
 that might be more pertinent
 that might be more pertinent
 that might be more pertinent
@@ -2331,9 +2331,9 @@ that might be more pertinent
 you could well actually you know what
 you could well actually you know what
 you could well actually you know what
-i'm gonna mess it up if I try and do it
-i'm gonna mess it up if I try and do it
-i'm gonna mess it up if I try and do it
+I'm gonna mess it up if I try and do it
+I'm gonna mess it up if I try and do it
+I'm gonna mess it up if I try and do it
 off the top of my head let me look at
 off the top of my head let me look at
 off the top of my head let me look at
@@ -2355,9 +2355,9 @@ unfortunately it doesn't give the
 example of the weird thing happening so
 example of the weird thing happening so
 example of the weird thing happening so
-you've put me on the spot but i'm
-you've put me on the spot but i'm
-you've put me on the spot but i'm
+you've put me on the spot but I'm
+you've put me on the spot but I'm
+you've put me on the spot but I'm
 gonna try to produce an example for you
 gonna try to produce an example for you
 gonna try to produce an example for you
@@ -2466,9 +2466,9 @@ few offers
 but that's obviously not something that
 but that's obviously not something that
 but that's obviously not something that
-i could even like
-i could even like
-i could even like
+I could even like
+I could even like
+I could even like
 if in a long multi-hop payment it might
 if in a long multi-hop payment it might
 if in a long multi-hop payment it might
@@ -2514,9 +2514,9 @@ have succeeded right
 
 
 
-i think that is correct yes okay because
-i think that is correct yes okay because
-i think that is correct yes okay because
+I think that is correct yes okay because
+I think that is correct yes okay because
+I think that is correct yes okay because
 you always get better prices yeah with
 you always get better prices yeah with
 you always get better prices yeah with
@@ -2529,7 +2529,7 @@ it's not
 okay okay
 okay okay
 okay okay
-i do believe that is correct
+I do believe that is correct
 yeah I think the first time I said it i
 yeah I think the first time I said it i
 said something that would have implied
@@ -2607,9 +2607,9 @@ where the destination receives
 two hundred dollars
 two hundred dollars
 two hundred dollars
-and i'm trying to send euros this is
-and i'm trying to send euros this is
-and i'm trying to send euros this is
+and I'm trying to send euros this is
+and I'm trying to send euros this is
+and I'm trying to send euros this is
 obviously impossible in the liquidity
 obviously impossible in the liquidity
 obviously impossible in the liquidity
@@ -2793,9 +2793,9 @@ all right but you can you can
 theoretically get to that amount
 theoretically get to that amount
 theoretically get to that amount
-i see if you have a lot of that yeah
-i see if you have a lot of that yeah
-i see if you have a lot of that yeah
+I see if you have a lot of that yeah
+I see if you have a lot of that yeah
+I see if you have a lot of that yeah
 yeah the limit if I should be a little
 yeah the limit if I should be a little
 yeah the limit if I should be a little
@@ -3081,9 +3081,9 @@ yeah I have
 
 
 
-i mean maybe it's just too late for this
-i mean maybe it's just too late for this
-i mean maybe it's just too late for this
+I mean maybe it's just too late for this
+I mean maybe it's just too late for this
+I mean maybe it's just too late for this
 but like
 but like
 but like
@@ -3138,9 +3138,9 @@ previous amm and we didn't give them
 enough warning like we're like reluctant
 enough warning like we're like reluctant
 enough warning like we're like reluctant
-to make changes so i'm wondering if we
-to make changes so i'm wondering if we
-to make changes so i'm wondering if we
+to make changes so I'm wondering if we
+to make changes so I'm wondering if we
+to make changes so I'm wondering if we
 could just add
 could just add
 could just add
@@ -3282,9 +3282,9 @@ than that we feel that these
 these changes
 these changes
 these changes
-i mean am I okay voting for this but
-i mean am I okay voting for this but
-i mean am I okay voting for this but
+I mean am I okay voting for this but
+I mean am I okay voting for this but
+I mean am I okay voting for this but
 authorizing like one sentence to be
 authorizing like one sentence to be
 authorizing like one sentence to be
@@ -3318,9 +3318,9 @@ yeah it sounds like everyone agrees
 right
 right
 right
-i'm gonna go and do it when we get off
-i'm gonna go and do it when we get off
-i'm gonna go and do it when we get off
+I'm gonna go and do it when we get off
+I'm gonna go and do it when we get off
+I'm gonna go and do it when we get off
 the phone probably so or get off the
 the phone probably so or get off the
 the phone probably so or get off the

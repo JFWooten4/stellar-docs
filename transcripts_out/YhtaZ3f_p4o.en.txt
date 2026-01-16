@@ -396,9 +396,9 @@ things that just came up because of
 implementing it
 implementing it
 implementing it
-i think that would be super helpful yeah
-i think that would be super helpful yeah
-i think that would be super helpful yeah
+I think that would be super helpful yeah
+I think that would be super helpful yeah
+I think that would be super helpful yeah
 great when you're working so yeah
 great when you're working so yeah
 great when you're working so yeah
@@ -654,9 +654,9 @@ no I think that that was everything that
 we listed
 and I think specifically to do with you
 and I think specifically to do with you
-know the extension like i'm really
-know the extension like i'm really
-know the extension like i'm really
+know the extension like I'm really
+know the extension like I'm really
+know the extension like I'm really
 interested to hear
 interested to hear
 interested to hear
@@ -727,8 +727,8 @@ that might be interpreting xdr
 that might be interpreting xdr
 that might be interpreting xdr
 comes to mind
-i think I think please continue I think
-i think I think please continue I think
+I think I think please continue I think
+I think I think please continue I think
 the new proposal
 the new proposal
 the new proposal
@@ -738,15 +738,15 @@ which which says that you know the v2 is
 still only there when the sponsorship
 still only there when the sponsorship
 still only there when the sponsorship
-i think that works from my perspective
+I think that works from my perspective
 from my from my perspective here like i
 from my from my perspective here like i
 don't think it really matters that much
 don't think it really matters that much
 don't think it really matters that much
-i don't think it's really worth fighting
-i don't think it's really worth fighting
-i don't think it's really worth fighting
+I don't think it's really worth fighting
+I don't think it's really worth fighting
+I don't think it's really worth fighting
 about much honestly
 about much honestly
 about much honestly
@@ -783,9 +783,9 @@ later date
 again I can see merit to that
 again I can see merit to that
 again I can see merit to that
-i think in terms of like how core
-i think in terms of like how core
-i think in terms of like how core
+I think in terms of like how core
+I think in terms of like how core
+I think in terms of like how core
 treats these things
 treats these things
 treats these things
@@ -891,9 +891,9 @@ designed in such a way that like either
 solution is completely reasonable
 solution is completely reasonable
 solution is completely reasonable
-i think like in terms of the total
-i think like in terms of the total
-i think like in terms of the total
+I think like in terms of the total
+I think like in terms of the total
+I think like in terms of the total
 net implementation changes it would
 net implementation changes it would
 net implementation changes it would
@@ -981,9 +981,9 @@ okay so well anyway I guess I don't
 really
 really
 really
-i don't care what I really want is for
-i don't care what I really want is for
-i don't care what I really want is for
+I don't care what I really want is for
+I don't care what I really want is for
+I don't care what I really want is for
 cap 21 to make it in so like what's the
 cap 21 to make it in so like what's the
 cap 21 to make it in so like what's the
@@ -999,9 +999,9 @@ is the current one I mean I think it's
 like
 like
 like
-i'm i'm the one that always brings this
-i'm i'm the one that always brings this
-i'm i'm the one that always brings this
+I'm I'm the one that always brings this
+I'm I'm the one that always brings this
+I'm I'm the one that always brings this
 back up you know as soon as you
 back up you know as soon as you
 back up you know as soon as you
@@ -1077,9 +1077,9 @@ add the non you know conditions like
 oh if it's a v3
 oh if it's a v3
 oh if it's a v3
-i need to go look for sponsorship over
-i need to go look for sponsorship over
-i need to go look for sponsorship over
+I need to go look for sponsorship over
+I need to go look for sponsorship over
+I need to go look for sponsorship over
 there instead of over here right
 there instead of over here right
 there instead of over here right
@@ -1152,9 +1152,9 @@ have sponsorship info and they think
 they never get upgraded to v2 and
 they never get upgraded to v2 and
 they never get upgraded to v2 and
-i don't know that this is somehow i
-i don't know that this is somehow i
-i don't know that this is somehow i
+I don't know that this is somehow i
+I don't know that this is somehow i
+I don't know that this is somehow i
 don't know lee do you want to
 don't know lee do you want to
 don't know lee do you want to
@@ -1305,9 +1305,9 @@ you know we can we can talk to them okay
 so I think that
 so I think that
 so I think that
-i mean to my mind the two things that
-i mean to my mind the two things that
-i mean to my mind the two things that
+I mean to my mind the two things that
+I mean to my mind the two things that
+I mean to my mind the two things that
 make the most sense are to either keep
 make the most sense are to either keep
 make the most sense are to either keep
@@ -1335,9 +1335,9 @@ one big
 like v3 structure wait
 like v3 structure wait
 like v3 structure wait
-well you're saying that so i'm looking
-well you're saying that so i'm looking
-well you're saying that so i'm looking
+well you're saying that so I'm looking
+well you're saying that so I'm looking
+well you're saying that so I'm looking
 at the current master
 at the current master
 at the current master
@@ -1350,9 +1350,9 @@ because this one is the hybrid one that
 has like this half
 has like this half
 has like this half
-flattened version exactly and so i'm
-flattened version exactly and so i'm
-flattened version exactly and so i'm
+flattened version exactly and so I'm
+flattened version exactly and so I'm
+flattened version exactly and so I'm
 saying either we just keep that
 saying either we just keep that
 saying either we just keep that
@@ -1428,9 +1428,9 @@ thing I think is kind of like the worst
 of all the worlds
 of all the worlds
 of all the worlds
-i propose that I will so I propose to
-i propose that I will so I propose to
-i propose that I will so I propose to
+I propose that I will so I propose to
+I propose that I will so I propose to
+I propose that I will so I propose to
 just basically
 just basically
 just basically
@@ -1704,12 +1704,12 @@ in the long run so when I when I wrote
 the prototype
 the prototype
 the prototype
-i actually used the nested version
-i actually used the nested version
-i actually used the nested version
-i didn't use the flattened version
-i didn't use the flattened version
-i didn't use the flattened version
+I actually used the nested version
+I actually used the nested version
+I actually used the nested version
+I didn't use the flattened version
+I didn't use the flattened version
+I didn't use the flattened version
 because
 because
 because
@@ -1725,9 +1725,9 @@ you didn't use the security put the
 account entry v3 inside the country v2
 account entry v3 inside the country v2
 account entry v3 inside the country v2
-yeah i'm pretty sure that's what I did
-yeah i'm pretty sure that's what I did
-yeah i'm pretty sure that's what I did
+yeah I'm pretty sure that's what I did
+yeah I'm pretty sure that's what I did
+yeah I'm pretty sure that's what I did
 and it was it wasn't that bad
 and it was it wasn't that bad
 and it was it wasn't that bad
@@ -1737,9 +1737,9 @@ how wide what's your what's the width of
 your text editor
 your text editor
 your text editor
-i mean I use softwrap
-i mean I use softwrap
-i mean I use softwrap
+I mean I use softwrap
+I mean I use softwrap
+I mean I use softwrap
 the thing is that david like the the if
 the thing is that david like the the if
 the thing is that david like the the if
@@ -1764,9 +1764,9 @@ in the non-nested world
 and we already have all right okay
 and we already have all right okay
 and we already have all right okay
-whatever i'm overruled like no but
-whatever i'm overruled like no but
-whatever i'm overruled like no but
+whatever I'm overruled like no but
+whatever I'm overruled like no but
+whatever I'm overruled like no but
 that's gonna vote
 that's gonna vote
 that's gonna vote
@@ -1812,9 +1812,9 @@ there we are going with the nested
 version in order to get cap21 done
 version in order to get cap21 done
 version in order to get cap21 done
-i like it I think this raises
-i like it I think this raises
-i like it I think this raises
+I like it I think this raises
+I like it I think this raises
+I like it I think this raises
 interesting points though for the
 interesting points though for the
 interesting points though for the
@@ -2031,9 +2031,9 @@ make the json look the same or to
 understand the json both ways
 understand the json both ways
 understand the json both ways
-but you know what i'm just beating a
-but you know what i'm just beating a
-but you know what i'm just beating a
+but you know what I'm just beating a
+but you know what I'm just beating a
+but you know what I'm just beating a
 dead horse we'll i'll just
 dead horse we'll i'll just
 dead horse we'll i'll just
@@ -2076,18 +2076,18 @@ what was it lee
 it was yeah asking about that yeah sorry
 it was yeah asking about that yeah sorry
 it was yeah asking about that yeah sorry
-i think in general
-i think in general
-i think in general
+I think in general
+I think in general
+I think in general
 a it's a misleading name
 a it's a misleading name
 a it's a misleading name
-yeah i'm i'm not really too fussed on
-yeah i'm i'm not really too fussed on
-yeah i'm i'm not really too fussed on
-the on the name but I i'm just
-the on the name but I i'm just
-the on the name but I i'm just
+yeah I'm I'm not really too fussed on
+yeah I'm I'm not really too fussed on
+yeah I'm I'm not really too fussed on
+the on the name but I I'm just
+the on the name but I I'm just
+the on the name but I I'm just
 not the no it's not the name but the you
 not the no it's not the name but the you
 not the no it's not the name but the you
@@ -2163,9 +2163,9 @@ all of the functionalities that are in
 the cap so that's kind of what you know
 the cap so that's kind of what you know
 the cap so that's kind of what you know
-where i'm coming from it's like I feel
-where i'm coming from it's like I feel
-where i'm coming from it's like I feel
+where I'm coming from it's like I feel
+where I'm coming from it's like I feel
+where I'm coming from it's like I feel
 like it's
 like it's
 like it's
@@ -2250,9 +2250,9 @@ precondition so that we can v2 it
 dangling
 dangling
 dangling
-i mean we're going to have to if this
-i mean we're going to have to if this
-i mean we're going to have to if this
+I mean we're going to have to if this
+I mean we're going to have to if this
+I mean we're going to have to if this
 thing is
 thing is
 thing is
@@ -2271,12 +2271,12 @@ this and then like i'll
 clean up the mess so that like because
 clean up the mess so that like because
 clean up the mess so that like because
-otherwise i'm gonna do something that
-otherwise i'm gonna do something that
-otherwise i'm gonna do something that
+otherwise I'm gonna do something that
+otherwise I'm gonna do something that
+otherwise I'm gonna do something that
 like you guys aren't going to like
-i I think it's worth just responding to
-i I think it's worth just responding to
+I I think it's worth just responding to
+I I think it's worth just responding to
 nico what you said about
 nico what you said about
 nico what you said about
@@ -2380,8 +2380,8 @@ get in there and prevent someone from
 get in there and prevent someone from
 get in there and prevent someone from
 incorrectly closing the channel
-personally i'm like not really that
-personally i'm like not really that
+personally I'm like not really that
+personally I'm like not really that
 concerned about changing the
 concerned about changing the
 concerned about changing the
@@ -2406,9 +2406,9 @@ make it a it doesn't really matter
 honestly to me
 honestly to me
 honestly to me
-i think like
-i think like
-i think like
+I think like
+I think like
+I think like
 at the end of the day like people are
 at the end of the day like people are
 at the end of the day like people are
@@ -2565,9 +2565,9 @@ could do a different structure and it
 would also be reasonable to me
 would also be reasonable to me
 would also be reasonable to me
-i don't see a lot of reason to hash it
-i don't see a lot of reason to hash it
-i don't see a lot of reason to hash it
+I don't see a lot of reason to hash it
+I don't see a lot of reason to hash it
+I don't see a lot of reason to hash it
 out for 20 minutes
 out for 20 minutes
 out for 20 minutes
@@ -2607,9 +2607,9 @@ just stick like if you called in general
 preconditions
 preconditions
 preconditions
-i would just like if I needed to change
-i would just like if I needed to change
-i would just like if I needed to change
+I would just like if I needed to change
+I would just like if I needed to change
+I would just like if I needed to change
 it later I would just call it general
 it later I would just call it general
 it later I would just call it general
@@ -2721,9 +2721,9 @@ that like I add a new feature which is
 like
 like
 like
-i don't know like time times ledger
-i don't know like time times ledger
-i don't know like time times ledger
+I don't know like time times ledger
+I don't know like time times ledger
+I don't know like time times ledger
 bound some
 bound some
 bound some
@@ -2787,12 +2787,12 @@ something that
 like I don't know I don't
 like I don't know I don't
 like I don't know I don't
-i don't think there's a bad case there i
-i don't think there's a bad case there i
-i don't think there's a bad case there i
-think the case that i'm concerned with
-think the case that i'm concerned with
-think the case that i'm concerned with
+I don't think there's a bad case there i
+I don't think there's a bad case there i
+I don't think there's a bad case there i
+think the case that I'm concerned with
+think the case that I'm concerned with
+think the case that I'm concerned with
 is the same case with
 is the same case with
 is the same case with
@@ -2925,9 +2925,9 @@ you're actually building a different
 transaction
 transaction
 transaction
-i see what you're getting at here and
-i see what you're getting at here and
-i see what you're getting at here and
+I see what you're getting at here and
+I see what you're getting at here and
+I see what you're getting at here and
 like
 like
 like
@@ -2988,9 +2988,9 @@ vocabulary in the sdk for that but
 putting that all aside like the thing
 putting that all aside like the thing
 putting that all aside like the thing
-that i'm the thing that makes me scared
-that i'm the thing that makes me scared
-that i'm the thing that makes me scared
+that I'm the thing that makes me scared
+that I'm the thing that makes me scared
+that I'm the thing that makes me scared
 about like doing the nesting in this
 about like doing the nesting in this
 about like doing the nesting in this
@@ -3006,15 +3006,15 @@ to sign something that you don't
 understand like imagine that you're
 understand like imagine that you're
 understand like imagine that you're
-a guy and you're like i'm looking for
-a guy and you're like i'm looking for
-a guy and you're like i'm looking for
+a guy and you're like I'm looking for
+a guy and you're like I'm looking for
+a guy and you're like I'm looking for
 this ledger bound structure right which
 this ledger bound structure right which
 this ledger bound structure right which
-i know to be in the in the case 2
-i know to be in the in the case 2
-i know to be in the in the case 2
+I know to be in the in the case 2
+I know to be in the in the case 2
+I know to be in the in the case 2
 extension
 extension
 extension
@@ -3075,9 +3075,9 @@ get more and more of these to go
 down down the rabbit hole of checking so
 down down the rabbit hole of checking so
 down down the rabbit hole of checking so
-i really think like the much safer thing
-i really think like the much safer thing
-i really think like the much safer thing
+I really think like the much safer thing
+I really think like the much safer thing
+I really think like the much safer thing
 is to just
 is to just
 is to just
@@ -3252,15 +3252,15 @@ balances and have like a general
 language for describing preconditions
 language for describing preconditions
 language for describing preconditions
-i'm pretty in sync with david on this
-i'm pretty in sync with david on this
-i'm pretty in sync with david on this
+I'm pretty in sync with david on this
+I'm pretty in sync with david on this
+I'm pretty in sync with david on this
 one personally
 one personally
 one personally
-i think the argument is basically just a
-i think the argument is basically just a
-i think the argument is basically just a
+I think the argument is basically just a
+I think the argument is basically just a
+I think the argument is basically just a
 lot different than the
 lot different than the
 lot different than the
@@ -3277,8 +3277,8 @@ for cap 21 like what is the revision
 for cap 21 like what is the revision
 for cap 21 like what is the revision
 and who who's sort of taking it on
-i think the only thing we said we might
-i think the only thing we said we might
+I think the only thing we said we might
+I think the only thing we said we might
 change is to change
 change is to change
 change is to change
@@ -3303,18 +3303,18 @@ extensions these like multiple
 extensions
 extensions
 extensions
-i think what john counted I thought what
-i think what john counted I thought what
-i think what john counted I thought what
+I think what john counted I thought what
+I think what john counted I thought what
+I think what john counted I thought what
 john and you were advocating for was no
 john and you were advocating for was no
 john and you were advocating for was no
 extensions
 extensions
 extensions
-i thought we were just talking about the
-i thought we were just talking about the
-i thought we were just talking about the
+I thought we were just talking about the
+I thought we were just talking about the
+I thought we were just talking about the
 preconditions not the not the
 preconditions not the not the
 preconditions not the not the
@@ -3375,9 +3375,9 @@ way down to the bottom
 right and so and so of course while
 right and so and so of course while
 right and so and so of course while
-i'm happy to leave
-i'm happy to leave
-i'm happy to leave
+I'm happy to leave
+I'm happy to leave
+I'm happy to leave
 cap 21 and this is it sounded like
 cap 21 and this is it sounded like
 cap 21 and this is it sounded like
@@ -3423,9 +3423,9 @@ want to talk about about cap 21 right
 now or should we move on to cat 40.
 now or should we move on to cat 40.
 now or should we move on to cat 40.
-i did have one other question about this
-i did have one other question about this
-i did have one other question about this
+I did have one other question about this
+I did have one other question about this
+I did have one other question about this
 there was like something that struck me
 there was like something that struck me
 there was like something that struck me
@@ -3597,15 +3597,15 @@ hear me at all right now
 no I can't but
 
 
-i can't hear david
-oh hopefully i'm on summer when
-oh hopefully i'm on summer when
+I can't hear david
+oh hopefully I'm on summer when
+oh hopefully I'm on summer when
 like I can't
 like I can't
 like I can't
-i couldn't do this meeting but I want to
-i couldn't do this meeting but I want to
-i couldn't do this meeting but I want to
+I couldn't do this meeting but I want to
+I couldn't do this meeting but I want to
+I couldn't do this meeting but I want to
 move forward so
 move forward so
 move forward so
@@ -3618,7 +3618,7 @@ take this one off
 let's take this one to the mailing list
 let's take this one to the mailing list
 let's take this one to the mailing list
-i think
+I think
 yeah and I want to point something out
 yeah and I want to point something out
 that that doesn't actually impact
@@ -3780,9 +3780,9 @@ a seek gap thing min c
 mint c gap and seek age whatever you
 mint c gap and seek age whatever you
 mint c gap and seek age whatever you
-guys know what i'm talking about
-guys know what i'm talking about
-guys know what i'm talking about
+guys know what I'm talking about
+guys know what I'm talking about
+guys know what I'm talking about
 and that would be broken by the
 and that would be broken by the
 and that would be broken by the
@@ -3819,12 +3819,12 @@ say that these work in a different way
 from other stuff or
 from other stuff or
 from other stuff or
-yeah i'm not super sure you'll not allow
-yeah i'm not super sure you'll not allow
-yeah i'm not super sure you'll not allow
-i think I thought what we talked about
-i think I thought what we talked about
-i think I thought what we talked about
+yeah I'm not super sure you'll not allow
+yeah I'm not super sure you'll not allow
+yeah I'm not super sure you'll not allow
+I think I thought what we talked about
+I think I thought what we talked about
+I think I thought what we talked about
 before was maybe not allowing more than
 before was maybe not allowing more than
 before was maybe not allowing more than
@@ -3849,9 +3849,9 @@ it's not but that's the only way you can
 make this work I think but you know
 make this work I think but you know
 make this work I think but you know
-maybe there's a better i'm that's i
-maybe there's a better i'm that's i
-maybe there's a better i'm that's i
+maybe there's a better I'm that's i
+maybe there's a better I'm that's i
+maybe there's a better I'm that's i
 think the only way but
 think the only way but
 think the only way but
@@ -3892,8 +3892,8 @@ call me by any chance I don't
 actually no david you you have solar
 actually no david you you have solar
 flares or something
-like i'm on a amount of you might
-like i'm on a amount of you might
+like I'm on a amount of you might
+like I'm on a amount of you might
 find out but like this is like super
 find out but like this is like super
 find out but like this is like super
@@ -3909,9 +3909,9 @@ knew this was like a bad
 week for this this is like the week that
 week for this this is like the week that
 week for this this is like the week that
-i wasn't gonna have a wired interest
-i wasn't gonna have a wired interest
-i wasn't gonna have a wired interest
+I wasn't gonna have a wired interest
+I wasn't gonna have a wired interest
+I wasn't gonna have a wired interest
 david didn't predict that it's true
 david didn't predict that it's true
 david didn't predict that it's true
@@ -4002,9 +4002,9 @@ charging a fee for transaction two right
 but it fails exactly
 but it fails exactly
 but it fails exactly
-yeah it fails so what i'm like
-yeah it fails so what i'm like
-yeah it fails so what i'm like
+yeah it fails so what I'm like
+yeah it fails so what I'm like
+yeah it fails so what I'm like
 what kind of ends up happening is like
 what kind of ends up happening is like
 what kind of ends up happening is like
@@ -4215,9 +4215,9 @@ but that doesn't exist today right
 agreed yeah and I think
 agreed yeah and I think
 agreed yeah and I think
-i wonder if it would do something funny
-i wonder if it would do something funny
-i wonder if it would do something funny
+I wonder if it would do something funny
+I wonder if it would do something funny
+I wonder if it would do something funny
 also in terms of like
 also in terms of like
 also in terms of like
@@ -4242,9 +4242,9 @@ express that there would be a failure in
 that phase for
 that phase for
 that phase for
-like for horizon i'm thinking
-like for horizon i'm thinking
-like for horizon i'm thinking
+like for horizon I'm thinking
+like for horizon I'm thinking
+like for horizon I'm thinking
 like the mirror doesn't let you fail
 like the mirror doesn't let you fail
 like the mirror doesn't let you fail
@@ -4278,9 +4278,9 @@ an early check there's something kind of
 interesting going on here though like
 interesting going on here though like
 interesting going on here though like
-i guess the real point would be like
-i guess the real point would be like
-i guess the real point would be like
+I guess the real point would be like
+I guess the real point would be like
+I guess the real point would be like
 these precondition checks
 these precondition checks
 these precondition checks
@@ -4296,9 +4296,9 @@ because if they succeeded at validation
 time
 time
 time
-i guess you're right yeah yeah that
-i guess you're right yeah yeah that
-i guess you're right yeah yeah that
+I guess you're right yeah yeah that
+I guess you're right yeah yeah that
+I guess you're right yeah yeah that
 could also be the
 could also be the
 could also be the
@@ -4314,9 +4314,9 @@ have certain checks that are only
 done at validation time yeah
 done at validation time yeah
 done at validation time yeah
-i bet that could be useful for other
-i bet that could be useful for other
-i bet that could be useful for other
+I bet that could be useful for other
+I bet that could be useful for other
+I bet that could be useful for other
 reasons so I mean the problem
 reasons so I mean the problem
 reasons so I mean the problem
@@ -4326,12 +4326,12 @@ the annoying thing is that okay well one
 thing I mean it wouldn't be
 thing I mean it wouldn't be
 thing I mean it wouldn't be
-i mean like arguably the behavior that
-i mean like arguably the behavior that
-i mean like arguably the behavior that
-i'm describing here
-i'm describing here
-i'm describing here
+I mean like arguably the behavior that
+I mean like arguably the behavior that
+I mean like arguably the behavior that
+I'm describing here
+I'm describing here
+I'm describing here
 is not like terrible it's just
 is not like terrible it's just
 is not like terrible it's just
@@ -4362,9 +4362,9 @@ that
 we're supposed to have a
 we're supposed to have a
 we're supposed to have a
-i don't we're supposed to have a as
-i don't we're supposed to have a as
-i don't we're supposed to have a as
+I don't we're supposed to have a as
+I don't we're supposed to have a as
+I don't we're supposed to have a as
 more or less as an invariant that
 more or less as an invariant that
 more or less as an invariant that
@@ -4392,9 +4392,9 @@ have like maybe other dependencies there
 like in terms of checks
 like in terms of checks
 like in terms of checks
-i guess you could everything depends on
-i guess you could everything depends on
-i guess you could everything depends on
+I guess you could everything depends on
+I guess you could everything depends on
+I guess you could everything depends on
 either the ledger header or
 either the ledger header or
 either the ledger header or
@@ -4410,18 +4410,18 @@ you know right cross lines or any other
 kind of state so
 kind of state so
 kind of state so
-i think that we should still be okay in
-i think that we should still be okay in
-i think that we should still be okay in
+I think that we should still be okay in
+I think that we should still be okay in
+I think that we should still be okay in
 terms of no
 terms of no
 terms of no
 extra database accesses
-i don't I don't think that's a big issue
-i don't I don't think that's a big issue
-i think this is something we can handle
-i think this is something we can handle
-i think this is something we can handle
+I don't I don't think that's a big issue
+I don't I don't think that's a big issue
+I think this is something we can handle
+I think this is something we can handle
+I think this is something we can handle
 in a
 in a
 in a
@@ -4467,9 +4467,9 @@ you know something by next week or
 next week I could do something but
 next week I could do something but
 next week I could do something but
-i mean that feels like the logical next
-i mean that feels like the logical next
-i mean that feels like the logical next
+I mean that feels like the logical next
+I mean that feels like the logical next
+I mean that feels like the logical next
 step to capturing one to me yeah
 step to capturing one to me yeah
 step to capturing one to me yeah
@@ -4506,9 +4506,9 @@ like where you want to allow you know
 like
 like
 like
-certain combinations like what i'm
-certain combinations like what i'm
-certain combinations like what i'm
+certain combinations like what I'm
+certain combinations like what I'm
+certain combinations like what I'm
 thinking here is that if you have two
 thinking here is that if you have two
 thinking here is that if you have two
@@ -4626,9 +4626,9 @@ time so what is the most important
 question that you need answered here
 lee so I think I think
 lee so I think I think
-i guess the question i've been most
-i guess the question i've been most
-i guess the question i've been most
+I guess the question i've been most
+I guess the question i've been most
+I guess the question i've been most
 interested in is nico raised
 interested in is nico raised
 interested in is nico raised
@@ -4644,9 +4644,9 @@ that we could be using and then maybe i
 can add a little more detail on
 can add a little more detail on
 can add a little more detail on
-i mean I have that on the mailing list
-i mean I have that on the mailing list
-i mean I have that on the mailing list
+I mean I have that on the mailing list
+I mean I have that on the mailing list
+I mean I have that on the mailing list
 right like that the the question there
 right like that the the question there
 right like that the the question there
@@ -4701,9 +4701,9 @@ like a miracle tree maybe I don't know
 something else
 something else
 something else
-i mean I think that what we have now is
-i mean I think that what we have now is
-i mean I think that what we have now is
+I mean I think that what we have now is
+I mean I think that what we have now is
+I mean I think that what we have now is
 so general like
 so general like
 so general like
@@ -4792,8 +4792,8 @@ it's so simple and
 it's so simple and
 it's so simple and
 so useful
-i also had like a very similar reaction
-i also had like a very similar reaction
+I also had like a very similar reaction
+I also had like a very similar reaction
 to this when we suggested I was like oh
 to this when we suggested I was like oh
 to this when we suggested I was like oh
@@ -4950,15 +4950,15 @@ the same thing right that's kind of what
 maybe i
 maybe i
 maybe i
-i don't know that's a
+I don't know that's a
 it's more like a if the design relies
 it's more like a if the design relies
 heavily
 heavily
 heavily
-on such a construct i'm more questioning
-on such a construct i'm more questioning
-on such a construct i'm more questioning
+on such a construct I'm more questioning
+on such a construct I'm more questioning
+on such a construct I'm more questioning
 the design of the payment channel
 the design of the payment channel
 the design of the payment channel
@@ -5038,8 +5038,8 @@ or is the payload not big enough or you
 or is the payload not big enough or you
 or is the payload not big enough or you
 know whatever
-i mean you know to be honest the the
-i mean you know to be honest the the
+I mean you know to be honest the the
+I mean you know to be honest the the
 things that
 things that
 things that
@@ -5145,9 +5145,9 @@ extra sign at the same time then kat von
 d kat von d and I didn't
 d kat von d and I didn't
 d kat von d and I didn't
-i was not sure on which cap was tracking
-i was not sure on which cap was tracking
-i was not sure on which cap was tracking
+I was not sure on which cap was tracking
+I was not sure on which cap was tracking
+I was not sure on which cap was tracking
 you know what
 you know what
 you know what
@@ -5226,9 +5226,9 @@ like fees or anything because right now
 it's
 it's
 it's
-i mean if we are going with the
-i mean if we are going with the
-i mean if we are going with the
+I mean if we are going with the
+I mean if we are going with the
+I mean if we are going with the
 did you see what I mean like I think it
 did you see what I mean like I think it
 did you see what I mean like I think it
@@ -5283,9 +5283,9 @@ or async on the stellar dev list about
 this question
 this question
 this question
-i think we should move to accept cap 40
-i think we should move to accept cap 40
-i think we should move to accept cap 40
+I think we should move to accept cap 40
+I think we should move to accept cap 40
+I think we should move to accept cap 40
 today
 yeah I feel I feel like the the argument
 yeah I feel I feel like the the argument
@@ -5350,8 +5350,8 @@ have to figure out
 have to figure out
 have to figure out
 bigger problems to solve
-i mean like the only reason I would say
-i mean like the only reason I would say
+I mean like the only reason I would say
+I mean like the only reason I would say
 it
 it
 it
@@ -5535,9 +5535,9 @@ cap 21 shortly followed by cap 40
 accepted cool cool
 accepted cool cool
 accepted cool cool
-i think anything else we'll just look to
-i think anything else we'll just look to
-i think anything else we'll just look to
+I think anything else we'll just look to
+I think anything else we'll just look to
+I think anything else we'll just look to
 the stellar dead mailing list
 the stellar dead mailing list
 the stellar dead mailing list

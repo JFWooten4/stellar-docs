@@ -18,9 +18,9 @@ get it started shortly
 you know welcome everyone to the
 you know welcome everyone to the
 you know welcome everyone to the
-workshop my name is uncle liu i'm a
-workshop my name is uncle liu i'm a
-workshop my name is uncle liu i'm a
+workshop my name is uncle liu I'm a
+workshop my name is uncle liu I'm a
+workshop my name is uncle liu I'm a
 program manager at the stella
 program manager at the stella
 program manager at the stella
@@ -537,15 +537,15 @@ please look it up in your email
 and now I leave this up for a bit while
 and now I leave this up for a bit while
 and now I leave this up for a bit while
-i give the word to tyler to actually
-i give the word to tyler to actually
-i give the word to tyler to actually
+I give the word to tyler to actually
+I give the word to tyler to actually
+I give the word to tyler to actually
 start our nft workshop
 all right
 all right
-i will add my welcome
-i will add my welcome
-i will add my welcome
+I will add my welcome
+I will add my welcome
+I will add my welcome
 thank you all so much for attending
 thank you all so much for attending
 thank you all so much for attending
@@ -636,9 +636,9 @@ stack able to handle an incredibly
 diverse scope of financial use cases
 before we get into the meat of the talk
 before we get into the meat of the talk
-i'm going to quickly call out our
-i'm going to quickly call out our
-i'm going to quickly call out our
+I'm going to quickly call out our
+I'm going to quickly call out our
+I'm going to quickly call out our
 stellar developer discord server as well
 stellar developer discord server as well
 stellar developer discord server as well
@@ -795,9 +795,9 @@ produce for this hackathon or even
 looking beyond
 looking beyond
 looking beyond
-this is an area that i'm particularly
-this is an area that i'm particularly
-this is an area that i'm particularly
+this is an area that I'm particularly
+this is an area that I'm particularly
+this is an area that I'm particularly
 interested in
 interested in
 interested in
@@ -1011,9 +1011,9 @@ non-fungible and smart contracts we
 won't spend a lot of time
 won't spend a lot of time
 won't spend a lot of time
-believering these terms i'm just going
-believering these terms i'm just going
-believering these terms i'm just going
+believering these terms I'm just going
+believering these terms I'm just going
+believering these terms I'm just going
 to define them for the context of this
 to define them for the context of this
 to define them for the context of this
@@ -1933,8 +1933,8 @@ you have different controls on your
 you have different controls on your
 you have different controls on your
 asset
-i'm going to walk through the anatomy
-i'm going to walk through the anatomy
+I'm going to walk through the anatomy
+I'm going to walk through the anatomy
 of an nft on stellar
 of an nft on stellar
 of an nft on stellar
@@ -1953,9 +1953,9 @@ this is one of my
 nft projects that I built way back when
 nft projects that I built way back when
 nft projects that I built way back when
-i was getting started
-i was getting started
-i was getting started
+I was getting started
+I was getting started
+I was getting started
 it's just a very simple algorithmic
 it's just a very simple algorithmic
 it's just a very simple algorithmic
@@ -2016,9 +2016,9 @@ here on ipfs
 if we open up the the actual asset on
 if we open up the the actual asset on
 if we open up the the actual asset on
-stellar so i'm going to open up stellar
-stellar so i'm going to open up stellar
-stellar so i'm going to open up stellar
+stellar so I'm going to open up stellar
+stellar so I'm going to open up stellar
+stellar so I'm going to open up stellar
 expert which is a blockchain explorer
 expert which is a blockchain explorer
 expert which is a blockchain explorer
@@ -2163,9 +2163,9 @@ to look beyond these
 vanilla nfts and move into the realm of
 vanilla nfts and move into the realm of
 vanilla nfts and move into the realm of
-what i'm calling innovative nfts where
-what i'm calling innovative nfts where
-what i'm calling innovative nfts where
+what I'm calling innovative nfts where
+what I'm calling innovative nfts where
+what I'm calling innovative nfts where
 you combine arbitrary smart contract
 you combine arbitrary smart contract
 you combine arbitrary smart contract
@@ -2190,15 +2190,15 @@ i've got a couple of
 innovative smart nfts that i've built
 we'll go ahead and take a look at that
 we'll go ahead and take a look at that
-i'm going to switch over here again so
-i'm going to switch over here again so
-i'm going to switch over here again so
+I'm going to switch over here again so
+I'm going to switch over here again so
+I'm going to switch over here again so
 i've got a few of them
 i've got a few of them
 i've got a few of them
-i became interested in nfts background
-i became interested in nfts background
-i became interested in nfts background
+I became interested in nfts background
+I became interested in nfts background
+I became interested in nfts background
 august of last year and began just kind
 august of last year and began just kind
 august of last year and began just kind
@@ -2541,9 +2541,9 @@ payments
 nft project
 nft project
 nft project
-so i'm going to walk through this real
-so i'm going to walk through this real
-so i'm going to walk through this real
+so I'm going to walk through this real
+so I'm going to walk through this real
+so I'm going to walk through this real
 quick before we have some questions
 quick before we have some questions
 quick before we have some questions
@@ -2562,9 +2562,9 @@ pop those into the chat we'll answer
 those in just a moment
 those in just a moment
 those in just a moment
-but i'm going to walk through the
-but i'm going to walk through the
-but i'm going to walk through the
+but I'm going to walk through the
+but I'm going to walk through the
+but I'm going to walk through the
 project that we're actually going to be
 project that we're actually going to be
 project that we're actually going to be
@@ -2625,9 +2625,9 @@ the next thing we're going to need is an
 ipfs hash
 ipfs hash
 ipfs hash
-and i'm using
-and i'm using
-and i'm using
+and I'm using
+and I'm using
+and I'm using
 nft.storage
 nft.storage
 nft.storage
@@ -2643,9 +2643,9 @@ and i've gone ahead and uploaded one
 here
 here
 here
-i'm gonna grab that
-i'm gonna grab that
-i'm gonna grab that
+I'm gonna grab that
+I'm gonna grab that
+I'm gonna grab that
 we've got our new issuing account right
 we've got our new issuing account right
 we've got our new issuing account right
@@ -2703,9 +2703,9 @@ minted a brand new nft on the stellar
 test net so there it is that's my nft
 test net so there it is that's my nft
 test net so there it is that's my nft
-i'm going to go ahead and sell this i'm
-i'm going to go ahead and sell this i'm
-i'm going to go ahead and sell this i'm
+I'm going to go ahead and sell this I'm
+I'm going to go ahead and sell this I'm
+I'm going to go ahead and sell this I'm
 going to sell it for
 going to sell it for
 going to sell it for
@@ -2727,10 +2727,10 @@ being sold for 110
 xlm if we go and open up
 an alternative
 an alternative
-browser here i'm going to pull this over
-browser here i'm going to pull this over
-browser here i'm going to pull this over
-i'm also going to open up
+browser here I'm going to pull this over
+browser here I'm going to pull this over
+browser here I'm going to pull this over
+I'm also going to open up
 browsers to work with let's go ahead and
 browsers to work with let's go ahead and
 refresh this we should see that
@@ -2739,9 +2739,9 @@ refresh this we should see that
 nft available for sale right there
 we can see those nfts
 we can see those nfts
-available to purchase i'm going to go
-available to purchase i'm going to go
-available to purchase i'm going to go
+available to purchase I'm going to go
+available to purchase I'm going to go
+available to purchase I'm going to go
 ahead and buy this one so this is
 ahead and buy this one so this is
 ahead and buy this one so this is
@@ -2766,9 +2766,9 @@ we're able to sell it now because
 we're the owner if we refresh this
 we're the owner if we refresh this
 we're the owner if we refresh this
-browser over here and i'm actually just
-browser over here and i'm actually just
-browser over here and i'm actually just
+browser over here and I'm actually just
+browser over here and I'm actually just
+browser over here and I'm actually just
 going to shrink this down for a moment
 going to shrink this down for a moment
 going to shrink this down for a moment
@@ -2865,9 +2865,9 @@ q a so if you're interested excited
 intrigued
 intrigued
 intrigued
-i know I am
-i know I am
-i know I am
+I know I am
+I know I am
+I know I am
 but before we before we go to that
 but before we before we go to that
 but before we before we go to that
@@ -3006,9 +3006,9 @@ has to be something for us to actually
 test and play around with so
 test and play around with so
 test and play around with so
-i would say a soft yes there needs to be
-i would say a soft yes there needs to be
-i would say a soft yes there needs to be
+I would say a soft yes there needs to be
+I would say a soft yes there needs to be
+I would say a soft yes there needs to be
 something to play with
 something to play with
 something to play with
@@ -3063,9 +3063,9 @@ relationship between how our seller nft
 exists and it's like the relationship
 exists and it's like the relationship
 exists and it's like the relationship
-between our seller nft and what i'm
-between our seller nft and what i'm
-between our seller nft and what i'm
+between our seller nft and what I'm
+between our seller nft and what I'm
+between our seller nft and what I'm
 calling the nft auth server
 calling the nft auth server
 calling the nft auth server
@@ -3294,9 +3294,9 @@ containing our innovative royalty
 payments
 payments
 payments
-project so i'm going to switch real
-project so i'm going to switch real
-project so i'm going to switch real
+project so I'm going to switch real
+project so I'm going to switch real
+project so I'm going to switch real
 quick to
 quick to
 quick to
@@ -3321,9 +3321,9 @@ aggressive personalities probably
 already found my repo
 already found my repo
 already found my repo
-but i'm going to be walking through the
-but i'm going to be walking through the
-but i'm going to be walking through the
+but I'm going to be walking through the
+but I'm going to be walking through the
+but I'm going to be walking through the
 repo i'll share it with you
 repo i'll share it with you
 repo i'll share it with you
@@ -3385,8 +3385,8 @@ some comments in the most
 some comments in the most
 some comments in the most
 used parts of the the application
-so i'm not going to talk about css or
-so i'm not going to talk about css or
+so I'm not going to talk about css or
+so I'm not going to talk about css or
 html much today so we'll go ahead and
 html much today so we'll go ahead and
 html much today so we'll go ahead and
@@ -3975,9 +3975,9 @@ have an ipfs hash so if we actually were
 to click this
 to click this
 to click this
-i don't think abc is probably a valid
-i don't think abc is probably a valid
-i don't think abc is probably a valid
+I don't think abc is probably a valid
+I don't think abc is probably a valid
+I don't think abc is probably a valid
 ipfs hash but
 ipfs hash but
 ipfs hash but
@@ -4455,9 +4455,9 @@ inside of the set options you can look
 those up later but 15 that's kind of our
 those up later but 15 that's kind of our
 those up later but 15 that's kind of our
-max right now we're i'm allowed to do
-max right now we're i'm allowed to do
-max right now we're i'm allowed to do
+max right now we're I'm allowed to do
+max right now we're I'm allowed to do
+max right now we're I'm allowed to do
 anything is the issuing account I have
 anything is the issuing account I have
 anything is the issuing account I have
@@ -4482,12 +4482,12 @@ that helpful but there's still a field
 that exists on stellar accounts that you
 that exists on stellar accounts that you
 that exists on stellar accounts that you
-i'm kind of now sub-opting i'm taking
-i'm kind of now sub-opting i'm taking
-i'm kind of now sub-opting i'm taking
-it over and i'm using it to store
-it over and i'm using it to store
-it over and i'm using it to store
+I'm kind of now sub-opting I'm taking
+I'm kind of now sub-opting I'm taking
+I'm kind of now sub-opting I'm taking
+it over and I'm using it to store
+it over and I'm using it to store
+it over and I'm using it to store
 the address for the the original mentor
 the address for the the original mentor
 the address for the the original mentor
@@ -4500,15 +4500,15 @@ and we're trying to make offers I know
 who am I supposed to send the royalty
 who am I supposed to send the royalty
 who am I supposed to send the royalty
-payment to this is where i'm going to
-payment to this is where i'm going to
-payment to this is where i'm going to
+payment to this is where I'm going to
+payment to this is where I'm going to
+payment to this is where I'm going to
 store that
 store that
 store that
-so i'm going i'm gonna go ahead and
-so i'm going i'm gonna go ahead and
-so i'm going i'm gonna go ahead and
+so I'm going I'm gonna go ahead and
+so I'm going I'm gonna go ahead and
+so I'm going I'm gonna go ahead and
 include it right here the user account
 include it right here the user account
 include it right here the user account
@@ -4614,45 +4614,45 @@ if this asset were not authorized so
 because this is an authorized asset
 because this is an authorized asset
 because this is an authorized asset
-now i'm allowed to insert arbitrary
-now i'm allowed to insert arbitrary
-now i'm allowed to insert arbitrary
+now I'm allowed to insert arbitrary
+now I'm allowed to insert arbitrary
+now I'm allowed to insert arbitrary
 logic in between in our case it's a
 logic in between in our case it's a
 logic in between in our case it's a
 royalty payment so
 royalty payment so
 royalty payment so
-i'm trusting the user account to hold
-i'm trusting the user account to hold
-i'm trusting the user account to hold
+I'm trusting the user account to hold
+I'm trusting the user account to hold
+I'm trusting the user account to hold
 this asset yes they're allowed to
 this asset yes they're allowed to
 this asset yes they're allowed to
 and
 and
 and
-inside of this authorization i'm making
-inside of this authorization i'm making
-inside of this authorization i'm making
+inside of this authorization I'm making
+inside of this authorization I'm making
+inside of this authorization I'm making
 a payment
 a payment
 a payment
-i'm going to send to the nft now that
-i'm going to send to the nft now that
-i'm going to send to the nft now that
-it's trusted i'm going to send the nft
-it's trusted i'm going to send the nft
-it's trusted i'm going to send the nft
+I'm going to send to the nft now that
+I'm going to send to the nft now that
+I'm going to send to the nft now that
+it's trusted I'm going to send the nft
+it's trusted I'm going to send the nft
+it's trusted I'm going to send the nft
 back to
 back to
 back to
 the user for for one one nft that
 the user for for one one nft that
 the user for for one one nft that
-they're going to hold and then i'm going
-they're going to hold and then i'm going
-they're going to hold and then i'm going
+they're going to hold and then I'm going
+they're going to hold and then I'm going
+they're going to hold and then I'm going
 to lock that asset back down immediately
 to lock that asset back down immediately
 to lock that asset back down immediately
@@ -4941,9 +4941,9 @@ and so here if you're selling it
 you can enter the the sale price for it
 you can enter the the sale price for it
 you can enter the the sale price for it
-i don't actually have any nfts at the
-i don't actually have any nfts at the
-i don't actually have any nfts at the
+I don't actually have any nfts at the
+I don't actually have any nfts at the
+I don't actually have any nfts at the
 moment I think if I go to
 moment I think if I go to
 moment I think if I go to
@@ -5949,9 +5949,9 @@ time it or or interes intercept this
 transaction and say like oh I got my nft
 transaction and say like oh I got my nft
 transaction and say like oh I got my nft
-i'm going to kill this transaction and
-i'm going to kill this transaction and
-i'm going to kill this transaction and
+I'm going to kill this transaction and
+I'm going to kill this transaction and
+I'm going to kill this transaction and
 not make the royalty payment the whole
 not make the royalty payment the whole
 not make the royalty payment the whole
@@ -6096,9 +6096,9 @@ this is where that modal might pop up
 and they confirm that they actually want
 and they confirm that they actually want
 and they confirm that they actually want
-to sell this i'm encoding putting those
-to sell this i'm encoding putting those
-to sell this i'm encoding putting those
+to sell this I'm encoding putting those
+to sell this I'm encoding putting those
+to sell this I'm encoding putting those
 secret seeds in local storage
 secret seeds in local storage
 secret seeds in local storage
@@ -6264,9 +6264,9 @@ we we approve of this transfer of this
 asset
 asset
 asset
-i mean most of these are less than 100
-i mean most of these are less than 100
-i mean most of these are less than 100
+I mean most of these are less than 100
+I mean most of these are less than 100
+I mean most of these are less than 100
 lines of code and you can get away with
 lines of code and you can get away with
 lines of code and you can get away with
@@ -6528,9 +6528,9 @@ knows as a filter mechanic so that
 nobody else can insert themselves and
 nobody else can insert themselves and
 nobody else can insert themselves and
-say like i'm going to issue an nft
-say like i'm going to issue an nft
-say like i'm going to issue an nft
+say like I'm going to issue an nft
+say like I'm going to issue an nft
+say like I'm going to issue an nft
 that's actually a scam and get my way
 that's actually a scam and get my way
 that's actually a scam and get my way
@@ -6615,9 +6615,9 @@ that from your users is to use
 sponsorship where your service account
 sponsorship where your service account
 sponsorship where your service account
-can say like hey i'm gonna i'll take the
-can say like hey i'm gonna i'll take the
-can say like hey i'm gonna i'll take the
+can say like hey I'm gonna i'll take the
+can say like hey I'm gonna i'll take the
+can say like hey I'm gonna i'll take the
 brunt for you i'll sponsor those things
 brunt for you i'll sponsor those things
 brunt for you i'll sponsor those things
@@ -6786,9 +6786,9 @@ true on
 like fully on-chain platforms where it's
 like fully on-chain platforms where it's
 like fully on-chain platforms where it's
-i mean there's just so many little hacks
-i mean there's just so many little hacks
-i mean there's just so many little hacks
+I mean there's just so many little hacks
+I mean there's just so many little hacks
+I mean there's just so many little hacks
 that people can use when you don't
 that people can use when you don't
 that people can use when you don't
@@ -6892,11 +6892,11 @@ you've got a client and server there's
 you've got a client and server there's
 you've got a client and server there's
 instructions for how to run those
-i'm going to move now back to
-i'm going to move now back to
+I'm going to move now back to
+I'm going to move now back to
 the slide deck
-i think this is a qr code for our dev
-i think this is a qr code for our dev
+I think this is a qr code for our dev
+I think this is a qr code for our dev
 discord we're actually moving into the
 discord we're actually moving into the
 discord we're actually moving into the
@@ -7068,7 +7068,7 @@ control of the account over to the
 turrets network
 turrets network
 turrets network
-i don't think so
+I don't think so
 it cannot
 it cannot
 the the question was can the inflation
@@ -7233,12 +7233,12 @@ interesting scenario because you could
 actually flip the script on that a
 actually flip the script on that a
 actually flip the script on that a
-little bit and say i'm not going to lock
-little bit and say i'm not going to lock
-little bit and say i'm not going to lock
-my account but i'm creating a
-my account but i'm creating a
-my account but i'm creating a
+little bit and say I'm not going to lock
+little bit and say I'm not going to lock
+little bit and say I'm not going to lock
+my account but I'm creating a
+my account but I'm creating a
+my account but I'm creating a
 pre-authorized transaction to guarantee
 pre-authorized transaction to guarantee
 pre-authorized transaction to guarantee
@@ -7251,9 +7251,9 @@ lock my account so give me six months to
 figure this out and then at that point
 figure this out and then at that point
 figure this out and then at that point
-i'm guaranteeing to lock my account with
-i'm guaranteeing to lock my account with
-i'm guaranteeing to lock my account with
+I'm guaranteeing to lock my account with
+I'm guaranteeing to lock my account with
+I'm guaranteeing to lock my account with
 this pre-authorized transaction that
 this pre-authorized transaction that
 this pre-authorized transaction that
@@ -7320,9 +7320,9 @@ we'll go ahead and and wrap up we
 have a happy hour coming up we're gonna
 have a happy hour coming up we're gonna
 have a happy hour coming up we're gonna
-i mean the hackathon has already started
-i mean the hackathon has already started
-i mean the hackathon has already started
+I mean the hackathon has already started
+I mean the hackathon has already started
+I mean the hackathon has already started
 so get hacking keep building make sure
 so get hacking keep building make sure
 so get hacking keep building make sure
