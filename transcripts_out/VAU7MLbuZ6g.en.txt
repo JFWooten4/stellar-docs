@@ -126,9 +126,9 @@ lot of different companies in the space
 and really excited to be here today to
 and really excited to be here today to
 and really excited to be here today to
-talk to you about stuller from the sdf
-talk to you about stuller from the sdf
-talk to you about stuller from the sdf
+talk to you about Stellar from the sdf
+talk to you about Stellar from the sdf
+talk to you about Stellar from the sdf
 so let's get started
 the Stellar development foundation is
 the Stellar development foundation is
@@ -3996,9 +3996,9 @@ thanks
 thank you so much anka
 thank you so much anka
 thank you so much anka
-so Stellar.org is really the place to
-so Stellar.org is really the place to
-so Stellar.org is really the place to
+so `stellar.org` is really the place to
+so `stellar.org` is really the place to
+so `stellar.org` is really the place to
 learn all about everything that's going
 learn all about everything that's going
 learn all about everything that's going
@@ -4017,9 +4017,9 @@ all these different use cases there's
 cool videos all kinds of things so yeah
 cool videos all kinds of things so yeah
 cool videos all kinds of things so yeah
-I invite you to access Stellar.org
-I invite you to access Stellar.org
-I invite you to access Stellar.org
+I invite you to access `stellar.org`
+I invite you to access `stellar.org`
+I invite you to access `stellar.org`
 anytime
 anytime
 anytime

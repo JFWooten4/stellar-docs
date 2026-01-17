@@ -207,9 +207,9 @@ in the event description
 so one thing I just want to mention real
 so one thing I just want to mention real
 so one thing I just want to mention real
-quick is that this morning orbit lens
-quick is that this morning orbit lens
-quick is that this morning orbit lens
+quick is that this morning OrbitLens
+quick is that this morning OrbitLens
+quick is that this morning OrbitLens
 who is the author of top 37 and who
 who is the author of top 37 and who
 who is the author of top 37 and who
@@ -273,9 +273,9 @@ we haven't settled on the best
 implementations for bringing amunds to
 implementations for bringing amunds to
 implementations for bringing amunds to
-stuller
-stuller
-stuller
+Stellar
+Stellar
+Stellar
 and we'd really love to hear the
 and we'd really love to hear the
 and we'd really love to hear the

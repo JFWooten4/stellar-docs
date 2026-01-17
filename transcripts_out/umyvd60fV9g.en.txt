@@ -3411,9 +3411,9 @@ and actually that was it so if you
 want to find out more about Stellar
 want to find out more about Stellar
 want to find out more about Stellar
-go to stuller.org again I recommend
-go to stuller.org again I recommend
-go to stuller.org again I recommend
+go to `stellar.org` again I recommend
+go to `stellar.org` again I recommend
+go to `stellar.org` again I recommend
 using
 using
 using

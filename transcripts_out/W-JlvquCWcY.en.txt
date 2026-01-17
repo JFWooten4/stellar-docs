@@ -1632,9 +1632,9 @@ we're thinking about displaying markets
 and corridors in a public-facing site
 and corridors in a public-facing site
 and corridors in a public-facing site
-like Stellar.org
-like Stellar.org
-like Stellar.org
+like `stellar.org`
+like `stellar.org`
+like `stellar.org`
 it'll make it easier for prospective
 it'll make it easier for prospective
 it'll make it easier for prospective

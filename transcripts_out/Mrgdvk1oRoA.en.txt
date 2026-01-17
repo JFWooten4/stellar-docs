@@ -939,9 +939,9 @@ form that would be presented to me
 I'm trying to make a deposit onto into
 I'm trying to make a deposit onto into
 I'm trying to make a deposit onto into
-my account on stuller
-my account on stuller
-my account on stuller
+my account on Stellar
+my account on Stellar
+my account on Stellar
 and and here is the amount field that's
 and and here is the amount field that's
 and and here is the amount field that's
@@ -5868,9 +5868,9 @@ user flow and the cool thing about this
 is that users don't even need to know
 is that users don't even need to know
 is that users don't even need to know
-that they're using stuller it's just
-that they're using stuller it's just
-that they're using stuller it's just
+that they're using Stellar it's just
+that they're using Stellar it's just
+that they're using Stellar it's just
 a payment from
 a payment from
 a payment from

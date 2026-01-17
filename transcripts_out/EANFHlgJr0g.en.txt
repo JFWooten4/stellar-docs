@@ -3225,9 +3225,9 @@ later on this year
 but while we're in this phase of
 but while we're in this phase of
 but while we're in this phase of
-developing sarabon and really trying to
-developing sarabon and really trying to
-developing sarabon and really trying to
+developing Soroban and really trying to
+developing Soroban and really trying to
+developing Soroban and really trying to
 understand how to build it in this
 understand how to build it in this
 understand how to build it in this
@@ -4284,9 +4284,9 @@ programmer friends to poke around see if
 it's the right time to take a look at
 it's the right time to take a look at
 it's the right time to take a look at
-stuller there's a QR code on the screen
-stuller there's a QR code on the screen
-stuller there's a QR code on the screen
+Stellar there's a QR code on the screen
+Stellar there's a QR code on the screen
+Stellar there's a QR code on the screen
 that'll take you to soarbon.Stellar.org
 that'll take you to soarbon.Stellar.org
 that'll take you to soarbon.Stellar.org

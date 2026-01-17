@@ -21,9 +21,9 @@ today
 we've got an exciting agenda a lot to
 we've got an exciting agenda a lot to
 we've got an exciting agenda a lot to
-cover because sdf and stuller really had
-cover because sdf and stuller really had
-cover because sdf and stuller really had
+cover because sdf and Stellar really had
+cover because sdf and Stellar really had
+cover because sdf and Stellar really had
 a big second quarter of 2020.
 a big second quarter of 2020.
 a big second quarter of 2020.
@@ -450,9 +450,9 @@ support this pillar
 second to ensure the robustness and
 second to ensure the robustness and
 second to ensure the robustness and
-usability of stuller so we've rolled out
-usability of stuller so we've rolled out
-usability of stuller so we've rolled out
+usability of Stellar so we've rolled out
+usability of Stellar so we've rolled out
+usability of Stellar so we've rolled out
 an upgrade to our core protocol
 an upgrade to our core protocol
 an upgrade to our core protocol
@@ -519,18 +519,18 @@ and I'm convinced more than ever that
 our progress is proving out to be a
 our progress is proving out to be a
 our progress is proving out to be a
-strong year for stuller
-strong year for stuller
-strong year for stuller
+strong year for Stellar
+strong year for Stellar
+strong year for Stellar
 so let me share some proof points first
 so let me share some proof points first
 so let me share some proof points first
 let's talk about what we're doing to
 let's talk about what we're doing to
 let's talk about what we're doing to
-foster sustainable use cases on stuller
-foster sustainable use cases on stuller
-foster sustainable use cases on stuller
+foster sustainable use cases on Stellar
+foster sustainable use cases on Stellar
+foster sustainable use cases on Stellar
 anchors are a fundamental part of our
 anchors are a fundamental part of our
 anchors are a fundamental part of our
@@ -684,9 +684,9 @@ and then the other important way we've
 been fostering sustainable use cases on
 been fostering sustainable use cases on
 been fostering sustainable use cases on
-stuller is by
-stuller is by
-stuller is by
+Stellar is by
+Stellar is by
+Stellar is by
 investing in businesses on the network
 investing in businesses on the network
 investing in businesses on the network
@@ -861,9 +861,9 @@ over the last couple of years and we're
 really excited now to
 really excited now to
 really excited now to
-take this to the next level with stuller
-take this to the next level with stuller
-take this to the next level with stuller
+take this to the next level with Stellar
+take this to the next level with Stellar
+take this to the next level with Stellar
 and we're really excited
 and we're really excited
 and we're really excited
@@ -1557,9 +1557,9 @@ in the dust
 okay so now I want to move a little bit
 okay so now I want to move a little bit
 okay so now I want to move a little bit
-back to stuller and
-back to stuller and
-back to stuller and
+back to Stellar and
+back to Stellar and
+back to Stellar and
 would love to just have your few
 would love to just have your few
 would love to just have your few
@@ -4179,9 +4179,9 @@ today if anyone on the call has
 follow-up questions feel free to
 follow-up questions feel free to
 follow-up questions feel free to
-email us at media Stellar.org and thank
-email us at media Stellar.org and thank
-email us at media Stellar.org and thank
+email us at media `stellar.org` and thank
+email us at media `stellar.org` and thank
+email us at media `stellar.org` and thank
 you everyone
 you everyone
 you everyone

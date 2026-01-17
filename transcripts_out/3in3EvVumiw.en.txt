@@ -447,7 +447,7 @@ less rust stuff you can do which keeps
 that scope of things to learn quite
 minimal and keeps all of the
 documentation right inside of that
-sarabon.Stellar.org forward slash docs
+`soroban.stellar.org` forward slash docs
 all the things you need to know are kind
 of within that domain which is super
 nice

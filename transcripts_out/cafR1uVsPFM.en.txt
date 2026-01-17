@@ -1438,8 +1438,8 @@ I'd say if you have a question, get it
 I'd say if you have a question, get it
 I'd say if you have a question, get it
 in now.
-It's telling me orbit lens has a
-It's telling me orbit lens has a
+It's telling me OrbitLens has a
+It's telling me OrbitLens has a
 question, but Orbit asked, "Do we need
 question, but Orbit asked, "Do we need
 question, but Orbit asked, "Do we need

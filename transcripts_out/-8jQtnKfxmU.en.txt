@@ -1011,9 +1011,9 @@ the status of their transaction
 and so as we started digging into
 and so as we started digging into
 and so as we started digging into
-different solutions we found stuller
-different solutions we found stuller
-different solutions we found stuller
+different solutions we found Stellar
+different solutions we found Stellar
+different solutions we found Stellar
 through a contact of ours actually in
 through a contact of ours actually in
 through a contact of ours actually in
@@ -5019,9 +5019,9 @@ ecosystem roundtables in the future
 so you can always find out more about
 so you can always find out more about
 so you can always find out more about
-those by just going to Stellar.org
-those by just going to Stellar.org
-those by just going to Stellar.org
+those by just going to `stellar.org`
+those by just going to `stellar.org`
+those by just going to `stellar.org`
 events thanks everyone for participating
 events thanks everyone for participating
 events thanks everyone for participating

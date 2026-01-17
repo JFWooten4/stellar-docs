@@ -1272,9 +1272,9 @@ extent
 TL
 yeah let's
 yeah let's
-see oh so for orbit lens will it be
-see oh so for orbit lens will it be
-see oh so for orbit lens will it be
+see oh so for OrbitLens will it be
+see oh so for OrbitLens will it be
+see oh so for OrbitLens will it be
 possible to tell in advance whether the
 possible to tell in advance whether the
 possible to tell in advance whether the
@@ -2011,8 +2011,8 @@ okay great let's see a couple other
 okay great let's see a couple other
 okay great let's see a couple other
 
-questions okay so for orbit lens the
-questions okay so for orbit lens the
+questions okay so for OrbitLens the
+questions okay so for OrbitLens the
 storage for the hot archive yes so
 storage for the hot archive yes so
 storage for the hot archive yes so
