@@ -1908,15 +1908,15 @@ that are voting are using a system
 that's not free to create like
 that's not free to create like
 that's not free to create like
-in our system we're using sms
-in our system we're using sms
-in our system we're using sms
+in our system we're using SMS
+in our system we're using SMS
+in our system we're using SMS
 verification so you have to have a phone
 verification so you have to have a phone
 verification so you have to have a phone
-that can receive sms messages to be able
-that can receive sms messages to be able
-that can receive sms messages to be able
+that can receive SMS messages to be able
+that can receive SMS messages to be able
+that can receive SMS messages to be able
 to vote in the past we've used key base
 to vote in the past we've used key base
 to vote in the past we've used key base
@@ -2937,9 +2937,9 @@ other
 features that we have built in through
 features that we have built in through
 features that we have built in through
-sms messaging and
-sms messaging and
-sms messaging and
+SMS messaging and
+SMS messaging and
+SMS messaging and
 kind of the the improvement that that is
 kind of the the improvement that that is
 kind of the the improvement that that is
@@ -2949,9 +2949,9 @@ over key base
 that's already better and so once you
 that's already better and so once you
 that's already better and so once you
-add on top of it the sms verification
-add on top of it the sms verification
-add on top of it the sms verification
+add on top of it the SMS verification
+add on top of it the SMS verification
+add on top of it the SMS verification
 hopefully again the the theory is
 hopefully again the the theory is
 hopefully again the the theory is

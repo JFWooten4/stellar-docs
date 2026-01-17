@@ -622,8 +622,8 @@ got some legal stuff we've got my super
 got some legal stuff we've got my super
 got some legal stuff we've got my super
 secret dev login number
-we're using sms codes
-we're using sms codes
+we're using SMS codes
+we're using SMS codes
 to protect against civil attacks
 to protect against civil attacks
 to protect against civil attacks
@@ -645,9 +645,9 @@ in complete challenges and thereby claim
 all of the prizes as a single entity
 all of the prizes as a single entity
 all of the prizes as a single entity
-so by using sms and only allowing actual
-so by using sms and only allowing actual
-so by using sms and only allowing actual
+so by using SMS and only allowing actual
+so by using SMS and only allowing actual
+so by using SMS and only allowing actual
 mobile numbers
 mobile numbers
 mobile numbers
@@ -669,9 +669,9 @@ we block against a lot of that so that's
 why if you're confused why we're using
 why if you're confused why we're using
 why if you're confused why we're using
-sms numbers that's what we're using for
-sms numbers that's what we're using for
-sms numbers that's what we're using for
+SMS numbers that's what we're using for
+SMS numbers that's what we're using for
+SMS numbers that's what we're using for
 now to protect against
 now to protect against
 now to protect against
@@ -954,9 +954,9 @@ and there are some issues with different
 countries or regions
 countries or regions
 countries or regions
-around sms verification so if you're
-around sms verification so if you're
-around sms verification so if you're
+around SMS verification so if you're
+around SMS verification so if you're
+around SMS verification so if you're
 pretty sure that your number should work
 pretty sure that your number should work
 pretty sure that your number should work
