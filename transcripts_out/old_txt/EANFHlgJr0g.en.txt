@@ -3462,9 +3462,9 @@ write safe smart contracts where do
 standards come from with someone like
 standards come from with someone like
 standards come from with someone like
-where open Zeppelin might have come from
-where open Zeppelin might have come from
-where open Zeppelin might have come from
+where OpenZeppelin might have come from
+where OpenZeppelin might have come from
+where OpenZeppelin might have come from
 in the in the ethereum ecosystem trying
 in the in the ethereum ecosystem trying
 in the in the ethereum ecosystem trying

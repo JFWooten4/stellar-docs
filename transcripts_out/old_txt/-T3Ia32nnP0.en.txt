@@ -69,9 +69,9 @@ pleasure to be here. Good to be here.
 And I am also an open source developer
 And I am also an open source developer
 And I am also an open source developer
-at Open Zeppelin. We are a team with
-at Open Zeppelin. We are a team with
-at Open Zeppelin. We are a team with
+at OpenZeppelin. We are a team with
+at OpenZeppelin. We are a team with
+at OpenZeppelin. We are a team with
 Voyan trying to bring trying to
 Voyan trying to bring trying to
 Voyan trying to bring trying to

@@ -105,9 +105,9 @@ think that should be good.
 today we're going to be showing off
 today we're going to be showing off
 today we're going to be showing off
-the Open Zeppelin UI builder.
-the Open Zeppelin UI builder.
-the Open Zeppelin UI builder.
+the OpenZeppelin UI builder.
+the OpenZeppelin UI builder.
+the OpenZeppelin UI builder.
 Essentially, this is a tool you can use
 Essentially, this is a tool you can use
 Essentially, this is a tool you can use
@@ -342,9 +342,9 @@ require like specific account to
 interact with it. We also have the
 interact with it. We also have the
 interact with it. We also have the
-option to do open Zeppelin relayers. If
-option to do open Zeppelin relayers. If
-option to do open Zeppelin relayers. If
+option to do OpenZeppelin relayers. If
+option to do OpenZeppelin relayers. If
+option to do OpenZeppelin relayers. If
 you haven't checked out relayers, I
 you haven't checked out relayers, I
 you haven't checked out relayers, I
@@ -396,9 +396,9 @@ which wallet kit you want to be
 included. So right now I have just the
 included. So right now I have just the
 included. So right now I have just the
-built by Open Zeppelin standard one.
-built by Open Zeppelin standard one.
-built by Open Zeppelin standard one.
+built by OpenZeppelin standard one.
+built by OpenZeppelin standard one.
+built by OpenZeppelin standard one.
 It's kind of like a very minimal,
 It's kind of like a very minimal,
 It's kind of like a very minimal,

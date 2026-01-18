@@ -116,7 +116,7 @@ contracts on say
 ethereum
 so the burn to clavac the that that
 actually matches up with erc20 for
-example just burn on the open Zeppelin
+example just burn on the OpenZeppelin
 erc20
 standard actually refers to a user
 burning their own balance which is not

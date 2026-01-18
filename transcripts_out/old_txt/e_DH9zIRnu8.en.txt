@@ -324,9 +324,9 @@ amazing and actually part of this in
 as part of this release we also added
 as part of this release we also added
 as part of this release we also added
-Stellar to the open Zeppelin wizard
-Stellar to the open Zeppelin wizard
-Stellar to the open Zeppelin wizard
+Stellar to the OpenZeppelin wizard
+Stellar to the OpenZeppelin wizard
+Stellar to the OpenZeppelin wizard
 which is a smart contract interactive
 which is a smart contract interactive
 which is a smart contract interactive

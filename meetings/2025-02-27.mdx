@@ -18,22 +18,6 @@ Links:
 
 - [Competition](https://code4rena.com/audits/2025-02-blend-v2-audit-certora-formal-verification)
 
-## Part 2
-
-<YouTube ID="9oCKAhbFzUY" />
-
-In this protocol meeting Dima's and Leigh's prototypes for dealing with memos/muxed accounts in CAP-0067 are discussed, as well as updates to CAP-0066 (Soroban In-memory Read Resource).
-
-Links:
-
-- [CAP-0066](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0066.md)
-
-- [CAP-0066 Discussion](https://github.com/stellar/stellar-protocol/discussions/1585)
-
-- [CAP-0067](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0067.md)
-
-- [CAP-0067 Discussions](https://github.com/stellar/stellar-protocol/discussions/1553#discussioncomment-12306846) and [CAP-0067 Discussions](https://github.com/stellar/stellar-protocol/discussions/1553#discussioncomment-12309408)
-
 <details>
   <summary>Video Transcript</summary>
 
@@ -101,8 +85,24 @@ Links:
 
 </details>
 
+## Part 2
+
+<YouTube ID="9oCKAhbFzUY" />
+
+In this protocol meeting Dima's and Leigh's prototypes for dealing with memos/muxed accounts in CAP-0067 are discussed, as well as updates to CAP-0066 (Soroban In-memory Read Resource).
+
+Links:
+
+- [CAP-0066](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0066.md)
+
+- [CAP-0066 Discussion](https://github.com/stellar/stellar-protocol/discussions/1585)
+
+- [CAP-0067](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0067.md)
+
+- [CAP-0067 Discussions](https://github.com/stellar/stellar-protocol/discussions/1553#discussioncomment-12306846) and [CAP-0067 Discussions](https://github.com/stellar/stellar-protocol/discussions/1553#discussioncomment-12309408)
+
 <details>
-  <summary>Video Transcript (Video ID: 9oCKAhbFzUY)</summary>
+  <summary>Video Transcript</summary>
 
 [00:00] Protocol 23 we are introducing the hot archive bucket list where we will actually actually store archived entries in a separate database and what this allows us to do is to store all live sorb on state in memory as well as store andan module caches in memory and we can do this safely. Because the rent system is St archival. So what we were talking about today is an update, that we made since the last time we talked particularly about the way, that we calculate the what today is called the target bucket list size. And. So in Protocol 22 whenever you pay rent or write an entry to The Ledger this fee is variable based on the current size of the bucket list, which is just the size of the you know network's database on disk and essentially we have a Target size and. If this Target size is exceeded. Then the cost of right and R bums increase
 

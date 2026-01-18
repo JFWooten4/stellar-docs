@@ -573,9 +573,9 @@ allow you to go through through the
 open Zeppelink examples and it can send
 open Zeppelink examples and it can send
 open Zeppelink examples and it can send
-you to the to the open Zeppelin wizard
-you to the to the open Zeppelin wizard
-you to the to the open Zeppelin wizard
+you to the to the OpenZeppelin wizard
+you to the to the OpenZeppelin wizard
+you to the to the OpenZeppelin wizard
 and there's a bunch of new stuff coming
 and there's a bunch of new stuff coming
 and there's a bunch of new stuff coming

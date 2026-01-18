@@ -642,9 +642,9 @@ adopted throughout the Sorban community
 as well. We'll also be going through Sor
 as well. We'll also be going through Sor
 as well. We'll also be going through Sor
-Open Zeppelin audits of the smart
-Open Zeppelin audits of the smart
-Open Zeppelin audits of the smart
+OpenZeppelin audits of the smart
+OpenZeppelin audits of the smart
+OpenZeppelin audits of the smart
 contract in very short order over the
 contract in very short order over the
 contract in very short order over the
