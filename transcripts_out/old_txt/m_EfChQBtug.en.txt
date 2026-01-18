@@ -1662,12 +1662,12 @@ take if if you're attesting is true if
 you if there's a pool somewhere
 you if there's a pool somewhere
 you if there's a pool somewhere
-on ethereum right that has usbc
-on ethereum right that has usbc
-on ethereum right that has usbc
-and usbc decides to blacklist the pool
-and usbc decides to blacklist the pool
-and usbc decides to blacklist the pool
+on ethereum right that has USDC
+on ethereum right that has USDC
+on ethereum right that has USDC
+and USDC decides to blacklist the pool
+and USDC decides to blacklist the pool
+and USDC decides to blacklist the pool
 or do something crazy with it
 or do something crazy with it
 or do something crazy with it

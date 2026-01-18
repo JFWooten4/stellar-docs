@@ -20,8 +20,6 @@ Links:
 
 - [KALE](https://kalepail.com/kale)
 
-
-
 <details>
   <summary>Video Transcript</summary>
 
@@ -90,7 +88,7 @@ Here are some resources to read up on:
 <details>
   <summary>Video Transcript</summary>
 
-[00:00] All right I'll get started well welcome everyone today I'll be speaking about an update to CAP 67, which is the unified events cap. So so a recent change was made where with the goal of reaching feature parody with regards to Memos in seller classic and more specifically you know batch payments within a transaction with different mxed operation Source accounts are possible in classic and this is a way you can make batch payments to an exchange. So we wanted to make similar functionality possible in in sorun. So the the proposed solution is to add an extension function called transfer with memo to the Token standard. If if you want to support memos. So the function takes an optional optional memos for both the from and two addresses and will emit transfer event with a new topic, that is a vector of memos this this format does need to be discussed, though there's
+[00:00] All right I'll get started well welcome everyone today I'll be speaking about an update to CAP 67, which is the unified events CAP. So so a recent change was made where with the goal of reaching feature parody with regards to Memos in seller classic and more specifically you know batch payments within a transaction with different mxed operation Source accounts are possible in classic and this is a way you can make batch payments to an exchange. So we wanted to make similar functionality possible in in sorun. So the the proposed solution is to add an extension function called transfer with memo to the Token standard. If if you want to support memos. So the function takes an optional optional memos for both the from and two addresses and will emit transfer event with a new topic, that is a vector of memos this this format does need to be discussed, though there's
 
 [01:00] there's been a lot of discussion on this recently so. If we don't expect, that the memos to be filtered on. Then it should actually be in the data field. But putting putting this into the data field will be a breaking change, which is why I didn't initially update the proposal for, that. Because the data field is currently an integer instead of a map. But one of the options is is making, that breaking change and updating, that and the the other option is to split the. If you want do want the top memos to be filtered on is to split, that Vector two separate memo fields in the topic. So we leave the the memos in the topics and allow them to be filtered on there and instead of. So those are updates to the transfer event the other alternative is instead of emitting the transfer event we ALS we emit a we still we emit the transfer event as it exists today. And then we emit an additional transfer with memo
 

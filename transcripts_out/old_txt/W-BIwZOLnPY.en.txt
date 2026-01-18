@@ -711,9 +711,9 @@ bootcamp you turned off mobile data on
 your phone open stacks created a usdc
 your phone open stacks created a usdc
 your phone open stacks created a usdc
-wallet and sent usdc to another usbc
-wallet and sent usdc to another usbc
-wallet and sent usdc to another usbc
+wallet and sent usdc to another USDC
+wallet and sent usdc to another USDC
+wallet and sent usdc to another USDC
 address all with mobile data entirely
 address all with mobile data entirely
 address all with mobile data entirely

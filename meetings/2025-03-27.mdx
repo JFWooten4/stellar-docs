@@ -20,8 +20,6 @@ Links:
 
 - [Dev Walkthrough](https://www.youtube.com/watch?v=iD7ZspsZLVo)
 
-
-
 <details>
   <summary>Video Transcript</summary>
 
@@ -108,7 +106,7 @@ This is a short protocol meeting, following up on previous discussions.
 
 [04:00] that the contract triggered on. So this is an edge case and I'm not sure. If this like something we can discuss is. If this use case actually matters. But the alternative would be to maybe emit a a separate refund event. But we actually open up another can of worms here, which is, that. If you're the fees are applied before are charged before the the operations are charged before the operations are applied. So you would need to make convey the information about the ordering in, which the balances change in the events and currently the events are just a transaction level vector and an operation level vector. But we would need to make some changes where the structure, that's in TX meta, which is you have the you have everything, that happens during transaction application and everything, that happens post transaction application. We need to convey, that same information in the events and we should and. If we do need this
 
-[05:00] granularity, that might be the path to take. So. So yeah. If does anyone have any questions about this or or have input? What I wanted to tell is, that like we don't have many people today. And we also don't have Lee and we don't have Nico and others. So I mean you definitely could listen to what folks who are present think. But yeah sounds like I can afford just yeah exactly yeah I'm inclined myself to just not do anything and just clarify in the cap, that events should not be used for modeling the exact balances during the ledger application time. Because fees are in general charged at different points in time.
+[05:00] granularity, that might be the path to take. So. So yeah. If does anyone have any questions about this or or have input? What I wanted to tell is, that like we don't have many people today. And we also don't have Lee and we don't have Nico and others. So I mean you definitely could listen to what folks who are present think. But yeah sounds like I can afford just yeah exactly yeah I'm inclined myself to just not do anything and just clarify in the CAP, that events should not be used for modeling the exact balances during the ledger application time. Because fees are in general charged at different points in time.
 
 [06:00] , okay. Here's Nicholas. Nicholas. yeah, it seems to me like, that's the thing to do here and. If someone has objections, you can discuss them async. Yeah. Because otherwise we would introduce a lot of structural complexity in meta for meta in events and we wanted events to be rather simple to consume and hopefully the consumers of events not worry about just reor operation. But yeah, that's my take on this Yeah. Yeah. I agree. I the use cases we've discussed with rel in relation to CAP 67 tend to be for just tracking balances
 
