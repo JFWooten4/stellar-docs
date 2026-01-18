@@ -18,24 +18,10 @@ Links:
 
 - [StellarExpert](https://stellar.expert)
 
-## Part 2
 
-<YouTube ID="u204TwiHJpE" />
-
-This protocol meeting we discuss two Core Advancement Proposals - Dima is presenting CAP-0068 and CAP-0069, both of which add new host functions.
-
-Here are some resources to read up on:
-
-- [CAP-0068](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0068.md)
-
-- [CAP-0068 Discussion](https://github.com/stellar/stellar-protocol/discussions/1626)
-
-- [CAP-0069](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0069.md)
-
-- [CAP-0069 Discussion](https://github.com/stellar/stellar-protocol/discussions/1633)
 
 <details>
-  <summary>Video Transcript (Video ID: 8UGDT1pGZYU)</summary>
+  <summary>Video Transcript</summary>
 
 [00:00] Hello everyone and welcome to this week's Stellar developer me. If you were joining us last week you would have seen OrbitLens I invited him back again. Because we had. So much to cover last time, that we didn't go through everything we we wanted. And so obit Lance has actually built quite a few projects on on Stellar and and one of them I'm sure you're very familiar with is is still our expert. So we're going to cover, that a little bit today. But first we will hear more about sell broker. So yeah
 
@@ -93,8 +79,24 @@ Here are some resources to read up on:
 
 </details>
 
+## Part 2
+
+<YouTube ID="u204TwiHJpE" />
+
+This protocol meeting we discuss two Core Advancement Proposals - Dima is presenting CAP-0068 and CAP-0069, both of which add new host functions.
+
+Here are some resources to read up on:
+
+- [CAP-0068](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0068.md)
+
+- [CAP-0068 Discussion](https://github.com/stellar/stellar-protocol/discussions/1626)
+
+- [CAP-0069](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0069.md)
+
+- [CAP-0069 Discussion](https://github.com/stellar/stellar-protocol/discussions/1633)
+
 <details>
-  <summary>Video Transcript (Video ID: u204TwiHJpE)</summary>
+  <summary>Video Transcript</summary>
 
 [00:00] I see some folks have come to the meeting already and we probably can get started first and pleas meain chat like. If you can hear me. Now okay great thank you right. So today we have two rather small CS to go through both cups are about adding some new host functions for turbon and both pretty simple. So
 
@@ -106,7 +108,7 @@ Here are some resources to read up on:
 
 [04:00] narrow use cases, which kind of came up during the time of Tran's existence and they're kind of different in their ways. But the common topic as well some information about the address is necessary to be retried specifically one of the cases, which has been brought up is about distinguishing the custom tokens and S asset contract tokens and the way this function will help is, that it will be actually able to tell on chain. If a given contract is a store asset contract. And then for example you can look up the contract name and see, which classic asset it corresponds to and you actually don't need to worry about like. If you know the executable is a s contract and you know
 
-[05:00] that its name is for example native right. Then you actually are 100% sure on chain, that the contract you dealing this is actually xrm contract, which has the name native and executable ised contract and same goes basically for any asset and this use case has come up in the context of the AEL breaks, that does some FR chain token Ren and basically you know to deploy a token on a different chain they need to understand like. If it is a classic tokens they doing with and th they can create appropriate metadata for this event and there is no need to hurt code for example ID for all the contracts and I think the question of what is the address of the XLM contract or how how they figure out. If something is XLM has come up quite a bit before and. Now we provide a way, that doesn't actually involve for in the hardcoded
+[05:00] that its name is for example native right. Then you actually are 100% sure on chain, that the contract you dealing this is actually xrm contract, which has the name native and executable ised contract and same goes basically for any asset and this use case has come up in the context of the AEL breaks, that does some FR chain token Ren and basically you know to deploy a token on a different chain they need to understand like. If it is a classic tokens they doing with and th they can create appropriate metadata for this event and there is no need to hurt code for example ID for all the contracts and I think the question of what is the address of the XLM contract or how how they figure out. If something is XLM has come up quite a bit before, and now we provide a way, that doesn't actually involve for in the hardcoded
 
 [06:00] XLM value, which may be valuable in some cases another re case, that has come up here. But basically. When deing with a custom accounts there are maybe several actually quite different cases for why you would want to know specifically what is a hash of a particular wasm contract what is a wasm hash hash and this may come up both in the implementation of the custom account itself itself say I you want your customer account to only authorize token operations on some tracted token implementation right again for example to asset contract trusted custom token implementation or maybe in general you want to be able to verify the source of certain contracts you
 
@@ -120,7 +122,7 @@ Here are some resources to read up on:
 
 [11:00] think it probably makes sense to do, that yeah so, that's pretty much it on CAP 68 are there any questions e
 
-[12:00] yeah regarding the fony yeah I agree, that even, though we kind of going to have two very similar data types I think it makes sense conceptually to have this FL I guess it's not too much of Maintenance Maintenance burden yeah not for performance reasons. But mostly for quity all right anyways. If anyone has any more questions please pause them in the discussion thread other, that that's pretty much it for CAP 68 and. Now CAP 69 it's an even simpler CAP and it simply adds two conversion functions one to com
+[12:00] yeah regarding the fony yeah I agree, that even, though we kind of going to have two very similar data types I think it makes sense conceptually to have this FL I guess it's not too much of Maintenance Maintenance burden yeah not for performance reasons. But mostly for quity all right anyways. If anyone has any more questions please pause them in the discussion thread other, that that's pretty much it for CAP 68, and now CAP 69 it's an even simpler CAP and it simply adds two conversion functions one to com
 
 [13:00] convert string object into bite object and another to convert bite object back into string object and the reason for this is basically, that spring object well well first thing is, that strings and byes and thran are exactly the same thing. So kind of makes sense for them to be convertible to each other. But the main reason for why this has actually come up is, that due to I guess bit of an oversight in in the design string has very restricted set of the host functions, that can do anything about it specifically you can get only stream lens today and copy it into memory. So people were trying to get
 

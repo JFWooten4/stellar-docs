@@ -14,24 +14,10 @@ The dev team behind Reflector and Refractor presents their tools for decentraliz
 
 Visit their website here: https://reflector.network
 
-## Part 2
 
-<YouTube ID="lzxv5ij6TLw" />
-
-In this protocol meeting we discuss two Core Advancement Proposals - Dima will be presenting CAP-0063 (Parallelism-friendly Transaction Scheduling), and Siddharth will be presenting CAP-0067 (Unified Asset Events).
-
-Here are some resources to read up on:
-
-- [CAP-0063](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0063.md)
-
-- [CAP-0063 Discussion](https://github.com/stellar/stellar-protocol/discussions/1602)
-
-- [CAP-0067](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0067.md)
-
-- [CAP-0067 Discussion](https://github.com/stellar/stellar-protocol/discussions/1553)
 
 <details>
-  <summary>Video Transcript (Video ID: QrLA66qU9N8)</summary>
+  <summary>Video Transcript</summary>
 
 [00:00] Okay hello everyone welcome to this week's Stellar Developer Meeting and today I have a couple of guests. So let me bring them onto this stage and first of all thank you for joining please go ahead and introduce yourself I think you are well known in the community at least from your names and your projects. But please thank you for inviting us people know me as OrbitLens I am the lead of the team behind StellarExpert albo Reflector and some other ecosystem projects and today we are here with RF the one and the only RF yeah. So I'm Raph and I've been doing some business development work with Reflector for a bit here helping
 
@@ -91,8 +77,24 @@ Here are some resources to read up on:
 
 </details>
 
+## Part 2
+
+<YouTube ID="lzxv5ij6TLw" />
+
+In this protocol meeting we discuss two Core Advancement Proposals - Dima will be presenting CAP-0063 (Parallelism-friendly Transaction Scheduling), and Siddharth will be presenting CAP-0067 (Unified Asset Events).
+
+Here are some resources to read up on:
+
+- [CAP-0063](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0063.md)
+
+- [CAP-0063 Discussion](https://github.com/stellar/stellar-protocol/discussions/1602)
+
+- [CAP-0067](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0067.md)
+
+- [CAP-0067 Discussion](https://github.com/stellar/stellar-protocol/discussions/1553)
+
 <details>
-  <summary>Video Transcript (Video ID: lzxv5ij6TLw)</summary>
+  <summary>Video Transcript</summary>
 
 [00:00] Hello everyone welcome to this week's protocol meeting we have a couple CAPs to discuss today and I'll start by presenting CAP 67 I'll share the link here. So this CAP is about emitting events in Stellar in the same format, that we see in sorine for Stellar assets so, that a user can use the stream of events track balances and this CAP covers three separate High higher level changes they're listed in the abstract of the CAP and I'll first go over the the two smaller changes, that make some semantic fixes to the seller asset contract events for compatibility with set 41, which is the token interface Set. So the first is, that we're going to stop emitting the admin on the mint and clawback events the admin is an implementation detail of the the sa and does not belong in the event the admin doesn't even exist in sub 41 as a concept
 
@@ -174,9 +176,9 @@ Here are some resources to read up on:
 
 [39:00] settings. So you know, that to enable any parallelism network quote to happen Okay. Then to the structure okay I already talked through the specification of the data structure the phas fee and search pricing will work in the same way as it works now, which is there will be a single base fee for the transactions it is 100 Stoops. If there is no search price in and. If there is SAR pricing, which means like. If there were transactions, that you couldn't include in The Ledger. But this, that were in the mle we take the fee of the cheapest transaction, that we do include and use it as a base fees, that everyone has to pay
 
-[40:00] okay and. Now again to the apply order first there is still a canonical apply order, that is defined in cap. So you still can apply all the transactions sequentially and arrive at the same result as you would. If you were. If you applying them in parallel and similar to what we do. Now we Shuffle the things before applying them first we Shuffle every cluster using the hash of the transaction set and hash of every transaction. Then the for the Clusters we don't need to shuffle them. But by the transaction
+[40:00] okay, and now again to the apply order first there is still a canonical apply order, that is defined in cap. So you still can apply all the transactions sequentially and arrive at the same result as you would. If you were. If you applying them in parallel and similar to what we do. Now we shuffle the things before applying them first we shuffle every cluster using the hash of the transaction set and hash of every transaction. Then the for the Clusters we don't need to shuffle them. But by the transaction
 
-[41:00] hashes. And then we Shuffle the stages as well. So yeah like. So transactions are in different stages one may happen before or after another one one, that's kind of what to do for Shing and I think it's not significantly different from our St yeah I don't think it does anything specific to again it doesn't changes status quo for M on the large scale like I think the best thing you can do is still just Spam the network is heritor transactions it is the issue we have. Now and it
+[41:00] hashes. And then we shuffle the stages as well. So yeah like. So transactions are in different stages one may happen before or after another one one, that's kind of what to do for Shing and I think it's not significantly different from our St yeah I don't think it does anything specific to again it doesn't changes status quo for M on the large scale like I think the best thing you can do is still just Spam the network is heritor transactions it is the issue we have. Now and it
 
 [42:00] persists like the goal of this CAP is not to prevent these types of attacks. But it does not make it any easier to guarantee any particular execution order between two transactions. So yeah I don't see like. If you see something specific like maybe you know maybe we can up Asing later. But I yeah I don't think there is any change to to the execution orders, that is relevant for for right okay so, that's a kind of simpler part of the cap. So again multiple threads to apply transactions in parallel oh the most important thing, that I forgot to mention is, that
 
@@ -194,7 +196,7 @@ Here are some resources to read up on:
 
 [49:00] a way of how to actually build a transaction sets, which makes sense it doesn't need to be a part of the protocol as long as it is valid it doesn't matter how it has been built. But will'll likely implement the simple gitty algorithm described in the CAP and the idea behind it is just to pack the transactions into the stages R. While uring we are utilizing the stes properly by being packing from time to time and the efficiency of being packing heris sixs is surprisingly good. So in the end I think we can I added some benchmarks and we can both P the leeders pretty efficiently like uze most of the instructions and we can also deal with a decent amount of
 
-[50:00] conflicts like. If you have some relatively sparse clusters of conflicts, that will not cause any depredation in lure utilization at all and in order to have any real degradation un need like some super inter interdependent transaction for, which I don't expect to be happening in the wild. So I think this should be good enough at least initially and. If we ever observe there are issues with, that ways to deal with, that both at the mle level and the U wayer of building the transaction sets I think, that's all I wanted to talk about just to present the CAP and. Now I will most through the chat and read some questions
+[50:00] conflicts like. If you have some relatively sparse clusters of conflicts, that will not cause any depredation in lure utilization at all and in order to have any real degradation un need like some super inter interdependent transaction for, which I don't expect to be happening in the wild. So I think this should be good enough at least initially and. If we ever observe there are issues with, that ways to deal with, that both at the mle level and the U wayer of building the transaction sets I think, that's all I wanted to talk about just to present the CAP, and now I will most through the chat and read some questions
 
 [51:00] yeah question from niik about the meta changes for TTL TTL M net diffs for ttls not emit one per transaction well we still need to emit TT per transaction I think. Because they are an effect of the transaction this is how we charge P and I I'm not sure it is correct to just omit them and whether we want to update meta I have
 

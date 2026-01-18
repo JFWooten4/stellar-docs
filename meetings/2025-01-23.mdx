@@ -17,21 +17,12 @@ import YouTube from "@site/src/components/YouTube";
 
 In this week's meeting, Hoops Finance founders Bastian and Tim talk about the progress they have made, design considerations, and the future of Hoops Finance.
 
-## Part 2
 
-<YouTube ID="JDlIL5y5bn8" />
-
-Recording from a protocol meeting where two Core Advancement Proposals were discussed.
-
-### Resources
-
-- [CAP-0062](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0062.md) — [Discussion](https://github.com/stellar/stellar-protocol/discussions/1575)
-- [CAP-0066](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0066.md) — [Discussion](https://github.com/stellar/stellar-protocol/discussions/1585)
 
 <details>
-  <summary>Video Transcript (Video ID: izkwfSLc4dQ)</summary>
+  <summary>Video Transcript</summary>
 
-[00:00] Welcome everyone this is this week's Stellar Developer Meeting, and this today it's going to be a little bit different schedule than usual we will start with a presentation here from Hoops Finance. And then about half an hour from. Now we will switch over to Discord where the court team will give a CAP proposal presentation. But yeah welcome, that's Tim you guys are are well known from from our Discord and and I'm I'm super excited about hearing what progress You' have made with hoop Finance. So please take it away thank you. So much Carston we are super excited to be presenting in the dev meeting to try to get some eyes on our project and well in our new update we we did the entire UI from the scratch to improve
+[00:00] Welcome everyone this is this week's Stellar Developer Meeting, and this today it's going to be a little bit different schedule than usual we will start with a presentation here from Hoops Finance. And then about half an hour from now we will switch over to Discord where the court team will give a CAP proposal presentation. But yeah welcome, that's Tim you guys are are well known from from our Discord and and I'm I'm super excited about hearing what progress You' have made with hoop Finance. So please take it away thank you so much Carston we are super excited to be presenting in the dev meeting to try to get some eyes on our project and well in our new update we we did the entire UI from the scratch to improve
 
 [01:00] user experience and to make it easier for developers and for retail users in the future to start using our application. So this is our landing page at the moment we are working as well on launching a new one. But the goal here is to make human readable risk analytics for blockchain what's the idea of risk analytics is, that we do think, that liquidity pools are very scatter and they have an untapped potential and I believe Stellar really has, that potential hidden away and we can really unlock it. If we provide we clear and transparent data on these liquidity pools and different offerings right. So let's let's go to the app and see what we have here we just push an update hopefully it doesn't doesn't break there you go. So this is our new UI right. Now we have two main Pages, which is the pools page and the tokens
 
@@ -49,7 +40,7 @@ Recording from a protocol meeting where two Core Advancement Proposals were disc
 
 [08:00] but. But yeah I I'll leave the floor to to Tim to silence you all know him I to explain a little bit more the technical details of what was been worked on and yeah take it away Tim Tim you're mut you're muted oh wonderful, that's good can you hear me. Now right yes fashion was talking a bit about the risk metrics. If you look at the get statistics endpoint you can see like the various actual metrics and weights, that we make the score from I plan to show those on the front end in various ways right. Now it's just basically the aggregated scores. But we offer a bunch of different scoring
 
-[09:00] methods for different pools there's also a way to generate those for tokens right. Now we only offer it for pools publicly. But we plan to add the token statistics soon you mentioned, that the API doesn't require an API key right now, that's correct. However it would require a key. If you were like interacting from a different origin. So like. If you wanted to use it on the client side of your website also Keys would be required for us probably in about a week from. Now so just a heads up on, that I don't know what else the a the yeah the AI endpoints some of them are basically the same thing as the other end points. But they return the values in a much more Compact and truncated way so, that. If
+[09:00] methods for different pools there's also a way to generate those for tokens right. Now we only offer it for pools publicly. But we plan to add the token statistics soon you mentioned, that the API doesn't require an API key right now, that's correct. However it would require a key. If you were like interacting from a different origin. So like. If you wanted to use it on the client side of your website also Keys would be required for us probably in about a week from now so just a heads up on, that I don't know what else the a the yeah the AI endpoints some of them are basically the same thing as the other end points. But they return the values in a much more Compact and truncated way so, that. If
 
 [10:00] you were using this in a language model, which which got a little bit of experience with, that and you don't want to have a bunch of excess data. If you look at a normal API response object in Json it's got for example the the label of the field on for every every value and you really don't need, that. So like the AI end points are like they're self-describing they they they return a schema schema Jon schema along with the data so, that a large language model is able to know what the data is and pars it it does things like truncates the addresses. Because it doesn't need the whole address most of the time you can change those truncation things with with URL prams different
 
@@ -79,14 +70,25 @@ Recording from a protocol meeting where two Core Advancement Proposals were disc
 
 [23:00] and as we move along and and just more people is being on board in Stellar every day right to just have the basis for this becoming a retail application right. So to to have the everyone to really be able to use it and and get to this ideal of a universal savings account, which can be put as a retirement plan right, which I believe is is something, that that needs to change in the coming yeah our goals make an account, that it's a yield bearing account, that's permissionless basically, that anybody can have and it it you know they they manage it. But at the same time our our our application helps right. So you could build on top of it and make make your own interfaces I think, that's good for everyone, that's what absolutely
 
-[24:00] thank you we are unfortunately running out of time it was really great to see all the progress here some of your thoughts about about the the future of the project and what you're working on and I'll encourage everyone to go go take a look at it as as you both said go find some errors go test it out yeah poke it yeah I would probably not use the data in anything live right. Now just the heads up there there's no way we can promise every. Because there's the audits there haven't been any audits done yet. So yeah and it's under active development very active like we we merge to main quite often often and every time, that's, that potential breaks. So many sleepless nights for sure thank you. So much Carson I think it could be fun to do an update in a few months and
+[24:00] thank you we are unfortunately running out of time it was really great to see all the progress here some of your thoughts about about the the future of the project and what you're working on and I'll encourage everyone to go go take a look at it as as you both said go find some errors go test it out yeah poke it yeah I would probably not use the data in anything live right. Now just the heads up there there's no way we can promise every. Because there's the audits there haven't been any audits done yet. So yeah and it's under active development very active like we we merge to main quite often often and every time, that's, that potential breaks. So many sleepless nights for sure thank you so much Carson I think it could be fun to do an update in a few months and
 
 [25:00] see where you are. Because this this looks very promising yeah we're moving pretty fast I think we'll have plenty of updates okay great and thank you for everyone who joined right. Now we're going to switch over to Discord where the court team is going to to give a presentation about some of the the proposals they are launching related to Protocol 23. So see you over there thank you and join again next Thursday bye bye-bye
 
 </details>
 
+## Part 2
+
+<YouTube ID="JDlIL5y5bn8" />
+
+Recording from a protocol meeting where two Core Advancement Proposals were discussed.
+
+### Resources
+
+- [CAP-0062](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0062.md) — [Discussion](https://github.com/stellar/stellar-protocol/discussions/1575)
+- [CAP-0066](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0066.md) — [Discussion](https://github.com/stellar/stellar-protocol/discussions/1585)
+
 <details>
-  <summary>Video Transcript (Video ID: JDlIL5y5bn8)</summary>
+  <summary>Video Transcript</summary>
 
 [00:00] The first is partial stay archival CAP 62. And then in memory Soroban state for CAP 66 and no Tom I will never stop using in Centric Linux distro cool. So I guess before I get started guess a little bit of background. So Protocol 23 is kind of where the rubber is going to start hitting the road as far as state archival is concerned. So kind of some you know background to you. When soron launched we of course had the interface for state archival with rent and all those sort of stuff with the intention, that eventually entries, that have run out of rent will be archived. And then removed from validators in order to free up space. So you don't have you know the issues, that come with large amounts of state, that have to be maintained and so, that's kind of where we're going. Now today the interface is such, that you still pay rent you still have to issue restores and all the sort of things things. But
 
