@@ -88,7 +88,7 @@ const config: Config = {
     './src/plugins/analytics-module/index.ts',
   ],
   markdown: {
-    mermaid: false,
+    mermaid: true,
     mdx1Compat: {
       headingIds: true,
     },
@@ -96,7 +96,7 @@ const config: Config = {
       onBrokenMarkdownLinks: 'throw',
     },
   },
-  themes: ["docusaurus-theme-openapi-docs"],
+  themes: ["docusaurus-theme-openapi-docs", "@docusaurus/theme-mermaid"],
   presets: [
     [
       "classic",
