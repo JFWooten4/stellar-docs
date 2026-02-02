@@ -82,11 +82,12 @@ const config: Config = {
         } satisfies Plugin.PluginOptions,
       },
     ],
+    "./src/plugins/webpack-polyfills/index.ts",
     './src/plugins/route-export/index.ts',
     './src/plugins/analytics-module/index.ts',
   ],
   markdown: {
-    mermaid: true,
+    mermaid: false,
     mdx1Compat: {
       headingIds: true,
     },
@@ -94,7 +95,7 @@ const config: Config = {
       onBrokenMarkdownLinks: 'throw',
     },
   },
-  themes: ["docusaurus-theme-openapi-docs", "@docusaurus/theme-mermaid"],
+  themes: ["docusaurus-theme-openapi-docs"],
   presets: [
     [
       "classic",

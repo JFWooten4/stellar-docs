@@ -1,0 +1,7 @@
+{
+  "name": "postman-code-generators",
+  "version": "0.0.0-local",
+  "private": true,
+  "main": "index.js",
+  "license": "MIT"
+}

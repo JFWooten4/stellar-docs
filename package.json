@@ -12,9 +12,9 @@
     "serve": "docusaurus serve",
     "api:clean": "docusaurus clean-api-docs all",
     "api:bundle": "yarn bundle-horizon && yarn bundle-anchor-platform && yarn bundle-stellar-disbursement-platform",
-    "bundle-horizon": "redocly bundle horizon --output openapi/horizon/bundled.yml",
-    "bundle-anchor-platform": "redocly bundle ap-platform --output openapi/anchor-platform/bundled-platform.yaml && redocly bundle ap-callbacks --output openapi/anchor-platform/bundled-callbacks.yaml",
-    "bundle-stellar-disbursement-platform": "redocly bundle stellar-disbursement-platform --output openapi/stellar-disbursement-platform/bundled.yaml",
+    "bundle-horizon": "swagger-cli bundle openapi/horizon/main.yml --outfile openapi/horizon/bundled.yml --type yaml",
+    "bundle-anchor-platform": "swagger-cli bundle openapi/anchor-platform/main-platform.yaml --outfile openapi/anchor-platform/bundled-platform.yaml --type yaml && swagger-cli bundle openapi/anchor-platform/main-callbacks.yaml --outfile openapi/anchor-platform/bundled-callbacks.yaml --type yaml",
+    "bundle-stellar-disbursement-platform": "swagger-cli bundle openapi/stellar-disbursement-platform/main.yaml --outfile openapi/stellar-disbursement-platform/bundled.yaml --type yaml",
     "api:gen": "docusaurus gen-api-docs all && rm docs/data/apis/horizon/api-reference/*.info.mdx && rm docs/platforms/anchor-platform/api-reference/{callbacks,platform/transactions}/*.info.mdx && rm docs/platforms/stellar-disbursement-platform/api-reference/*.info.mdx",
     "api": "yarn api:clean && yarn api:bundle && yarn api:gen",
     "write-translations": "docusaurus write-translations",
@@ -39,10 +39,8 @@
   "dependencies": {
     "@crowdin/cli": "^4.12.0",
     "@docusaurus/core": "3.9.2",
-    "@docusaurus/faster": "3.9.2",
     "@docusaurus/preset-classic": "3.9.2",
     "@docusaurus/remark-plugin-npm2yarn": "3.9.2",
-    "@docusaurus/theme-mermaid": "3.9.2",
     "@mdx-js/react": "3.1.1",
     "@open-rpc/meta-schema": "^1.14.9",
     "@open-rpc/schema-utils-js": "^1.16.2",
@@ -75,20 +73,24 @@
     ]
   },
   "devDependencies": {
+    "@apidevtools/swagger-cli": "^4.0.4",
     "@docusaurus/eslint-plugin": "3.9.2",
     "@docusaurus/module-type-aliases": "3.9.2",
     "@docusaurus/tsconfig": "3.9.2",
     "@docusaurus/types": "3.9.2",
     "@eslint/eslintrc": "3.3.3",
     "@eslint/js": "9.39.2",
-    "@redocly/cli": "2.14.1",
     "@stellar/prettier-config": "^1.2.0",
     "cross-env": "^10.1.0",
     "eslint": "9.39.2",
     "glob": "^13.0.0",
     "husky": "^9.1.7",
+    "path-browserify": "^1.0.1",
     "prettier": "3.7.4",
     "typescript": "5.9.3"
+  },
+  "resolutions": {
+    "postman-code-generators": "file:vendor/postman-code-generators"
   },
   "engines": {
     "node": ">=22"
