@@ -83,6 +83,7 @@ const config: Config = {
       },
     ],
     "./src/plugins/webpack-polyfills/index.ts",
+    './src/plugins/webpack-watch-ignore/index.ts',
     './src/plugins/route-export/index.ts',
     './src/plugins/analytics-module/index.ts',
   ],
