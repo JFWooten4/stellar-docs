@@ -20,7 +20,7 @@ For detailed information about each endpoint on a page, click the **View Docs** 
 
 :::
 
-![Lab Horizon Docs](/assets/lab/lab-horizon-view-docs.png)
+![Lab Horizon Docs](/assets/lab/horizon-view-docs.png)
 
 ## Examples of Horizon Endpoints
 
@@ -34,13 +34,13 @@ Let's explore a few examples of Horizon endpoints on Testnet and Mainnet. We als
 
 The single account endpoint `/accounts/:account-id` provides information on a specific account. This example uses an account `GBPIMUEJFYS7RT23QO2ACH2JMKGXLXZI4E5ACBSQMF32RKZ5H3SVNL5F` on Testnet.
 
-![Lab Horizon Single Account](/assets/lab/lab-single-account.png)
+![Lab Horizon Single Account](/assets/lab/single-account.png)
 
 When I click the **Submit** button, the account endpoint returns the account details in `JSON` format. Developers can use the **Copy Json** functionality to copy and paste the response. Along with the account details such as `id`, `balances` of the account including the assets that the account has set its trustline to, `thresholds`, `flags`, and `signers` (3 signers in the example account).
 
 The endpoint also provides links to related resource pages on the Stellar Lab for the queried account. For example, the response includes `transactions`, `operations`, `payments`, and more under `_links`. Clicking a transaction's `href` takes developers to the [Transactions for Account page](https://lab.stellar.org/endpoints/transactions/account?$=network$id=testnet&label=Testnet&horizonUrl=https:////horizon-testnet.stellar.org&rpcUrl=https:////soroban-testnet.stellar.org&passphrase=Test%20SDF%20Network%20/;%20September%202015;&endpoints$params$account_id=GBPIMUEJFYS7RT23QO2ACH2JMKGXLXZI4E5ACBSQMF32RKZ5H3SVNL5F;;) page on the Stellar Lab where developers can query transactions for that account right away.
 
-![Lab Horizon Single Account Response](/assets/lab/lab-single-account-response.png)
+![Lab Horizon Single Account Response](/assets/lab/single-account-response.png)
 
 ```{
   "_links": {
