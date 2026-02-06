@@ -2,11 +2,11 @@ import React from "react";
 import BrowserOnly from '@docusaurus/BrowserOnly';
 
 type LanguageProps = {
-  kt?: JSX.Element;
-  ts?: JSX.Element;
-  flutter?: JSX.Element;
-  swift?: JSX.Element;
-  fallback?: JSX.Element;
+  kt?: React.ReactNode;
+  ts?: React.ReactNode;
+  flutter?: React.ReactNode;
+  swift?: React.ReactNode;
+  fallback?: React.ReactNode;
 };
 
 export const walletDefaultLang = "ts";
@@ -17,21 +17,21 @@ export const LanguageSpecific: React.FC<LanguageProps> = (props) => (
     </BrowserOnly>
   );
 
-const getToShow = (props: LanguageProps, cookie: String) => {
-  let toShow = <></>;
+const getToShow = (props: LanguageProps, cookie: string | null): React.ReactNode => {
+  let toShow: React.ReactNode = null;
 
   if (cookie == null) {
     cookie = walletDefaultLang;
   }
 
   if (cookie == "kt") {
-    toShow = props.kt || <></>;
+    toShow = props.kt || null;
   } else if (cookie == "ts") {
-    toShow = props.ts || <></>;
+    toShow = props.ts || null;
   } else if (cookie == "dart") {
-    toShow = props.flutter || <></>;
+    toShow = props.flutter || null;
   } else if (cookie == "swift") {
-    toShow = props.swift || <></>;
+    toShow = props.swift || null;
   }
 
   return toShow;
