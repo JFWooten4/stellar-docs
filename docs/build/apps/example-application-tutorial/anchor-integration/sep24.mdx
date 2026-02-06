@@ -29,11 +29,7 @@ export async function getTransferServerSep24(domain) {
 
 Our application will request the `/info` endpoint from the anchor's transfer server to understand the supported transfer methods (deposit, withdraw) and available endpoints, as well as additional features that may be available during transfers.
 
-<img
-  src="/assets/basic-pay/sep24-transfers.png"
-  width="70%"
-  alt="SEP-24 Transfers Screen"
-/>
+<img src="/assets/basic-pay/sep24-transfers.png" width="70%" alt="SEP-24 Transfers Screen" />
 
 ```js title=/src/lib/stellar/sep24.js
 // Fetches and returns basic information about what the SEP-24 transfer server supports.

@@ -60,11 +60,7 @@ More information can be found [here](https://github.com/stellar/stellar-etl-airf
   - Optionally this can ingest data using captive-core but that is not ideal nor recommended for usage with Airflow
 - Inserts into BigQuery
 
-<img
-  src="/assets/hubble/history-table-export.png"
-  width="300"
-  alt="History Table Export"
-/>
+<img src="/assets/hubble/history-table-export.png" width="300" alt="History Table Export" />
 
 ### State Table Export DAG
 
@@ -73,11 +69,7 @@ More information can be found [here](https://github.com/stellar/stellar-etl-airf
 - Exports accounts, account_signers, offers, claimable_balances, liquidity pools, trustlines, contract_data, contract_code, config_settings and ttl.
 - Inserts into BigQuery
 
-<img
-  src="/assets/hubble/state-table-export.png"
-  width="300"
-  alt="State Table Export"
-/>
+<img src="/assets/hubble/state-table-export.png" width="300" alt="State Table Export" />
 
 ### DBT Enriched Base Tables DAG
 
@@ -88,8 +80,4 @@ More information can be found [here](https://github.com/stellar/stellar-etl-airf
 - Updates the current state tables
 - (Optional) warnings and errors are sent to slack.
 
-<img
-  src="/assets/hubble/dbt-enriched-base-tables.png"
-  width="300"
-  alt="DBT Enriched Base Tables"
-/>
+<img src="/assets/hubble/dbt-enriched-base-tables.png" width="300" alt="DBT Enriched Base Tables" />

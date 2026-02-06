@@ -3,7 +3,6 @@ title: "SEP-6: API de Depósito y Retirada"
 sidebar_position: 30
 ---
 
-import useBaseUrl from "@docusaurus/useBaseUrl";
 
 SEP-6 permite que las billeteras y otros clientes interactúen directamente con los anchors sin que el usuario necesite abandonar la billetera para ir al sitio del anchor. En esta integración, la información KYC de un usuario es recopilada y gestionada por la billetera y enviada al anchor _en nombre de_ el usuario.
 
@@ -132,10 +131,7 @@ BasicPay solicita al usuario que ingrese información adicional, como tipo de tr
 
 Vamos a omitir el ejemplo de código en esta sección, ya que principalmente son cosas de Svelte. Puedes ver el código fuente aquí: https://github.com/stellar/basic-payment-app/blob/main/src/routes/dashboard/transfers/components/TransferDetails.svelte
 
-<img
-  src={useBaseUrl("/assets/basic-pay/sep6/transfer-details.png")}
-  width="45%"
-/>
+<img src="/assets/basic-pay/sep6/transfer-details.png" width="45%" alt="Detalles Transferencia SEP-6" />
 
 ### Paso del modal 2: Recopilar información KYC
 
@@ -155,7 +151,7 @@ export async function getKycServer(domain) {
 
 Nuestro modal SEP-6 luego consulta el endpoint SEP-12 del anchor para los campos KYC requeridos con una solicitud `GET`, y presentamos estos campos para que el usuario los complete.
 
-<img src={useBaseUrl("/assets/basic-pay/sep6/kyc.png")} width="45%" />
+<img src="/assets/basic-pay/sep6/kyc.png" width="45%" alt="Pantalla KYC SEP-6" />
 
 ```js title=/src/lib/stellar/sep12.js
 import { getKycServer } from "$lib/stellar/sep1";
@@ -209,7 +205,7 @@ export async function putSep12Fields({ authToken, fields, homeDomain }) {
 
 BasicPay recibe de vuelta del anchor un mensaje de estado para que el usuario lo vea. Una vez que el mensaje de estado es `ACEPTADO`, ¡podemos finalmente enviar la solicitud de transferencia real!
 
-<img src={useBaseUrl("/assets/basic-pay/kyc-accepted.png")} width="50%" />
+<img src="/assets/basic-pay/kyc-accepted.png" width="50%" alt="Pantalla KYC Aceptada" />
 
 Este componente del modal SEP-6, como la mayoría de ellos, está casi completamente relacionado con Svelte. Por lo tanto, para mantener este tutorial (algo) despejado, te referiremos a la fuente del componente, que puedes encontrar aquí: https://github.com/stellar/basic-payment-app/blob/main/src/routes/dashboard/transfers/components/KYCStatus.svelte
 
