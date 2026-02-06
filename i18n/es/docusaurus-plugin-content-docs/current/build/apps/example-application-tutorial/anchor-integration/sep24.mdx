@@ -3,7 +3,6 @@ title: "SEP-24: Depósito y retirada alojados"
 sidebar_position: 40
 ---
 
-import sep24_transfers from "/assets/basic-pay/sep24-transfers.png";
 
 SEP-24 proporciona una manera estándar para que las billeteras y los anchors interactúen, haciendo que el usuario abra una vista web alojada por un anchor para recolectar y manejar la información KYC. En esta integración, la información KYC de un usuario es recolectada y manejada completamente por el anchor. En su mayor parte, después de que se abra la vista web del anchor, BasicPay tendrá poco conocimiento sobre lo que está sucediendo.
 
@@ -31,7 +30,7 @@ export async function getTransferServerSep24(domain) {
 
 Nuestra aplicación solicitará el endpoint `/info` del servidor de transferencias del anchor para entender los métodos de transferencia admitidos (depósito, retirada) y los endpoints disponibles, así como características adicionales que pueden estar disponibles durante las transferencias.
 
-<img src={sep24_transfers} width="70%" />
+<img src="/assets/basic-pay/sep24-transfers.png" width="70%" />
 
 ```js title=/src/lib/stellar/sep24.js
 // Fetches and returns basic information about what the SEP-24 transfer server supports.
