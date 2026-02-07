@@ -5,9 +5,9 @@ sidebar_position: 10
 
 ## Architecture Overview
 
-<img src="/assets/hubble/stellar-etl-airflow-architecture.png" width="300" alt="Stellar ETL Airflow Architecture" />
+<img src="/assets/hubble/stellar-etl-airflow-architecture.png" width="300" />
 
-In general stellar-etl-airflow runs by:
+In general `stellar-etl-airflow` runs by:
 
 - Scheduling DAGs to run `stellar-etl` and upload the data outputted to BigQuery
 - Scheduling DAGs to run `stellar-dbt-public` using the data in BigQuery

@@ -91,7 +91,13 @@ The above buttons will use the `launchTransferModalSep6` function to display the
   import TransferModalSep6 from "./components/TransferModalSep6.svelte";
 
   // Launch the SEP-6 modal to begin the transfer process and gather information from the user.
-  const launchTransferModalSep6 = ({ homeDomain, assetCode, assetIssuer, endpoint, sep6Info }) => {
+  const launchTransferModalSep6 = ({
+    homeDomain,
+    assetCode,
+    assetIssuer,
+    endpoint,
+    sep6Info,
+  }) => {
     // Open the SEP-6 transfer modal, supplying the relevant props for our
     // desired type of transfer.
     open(TransferModalSep6, {
@@ -124,7 +130,7 @@ BasicPay prompts the user to input additional information such as transfer type,
 
 We'll spare the code sample in this section, since it's mostly Svelte things going on. You can view the source here: https://github.com/stellar/basic-payment-app/blob/main/src/routes/dashboard/transfers/components/TransferDetails.svelte
 
-<img src="/assets/basic-pay/sep6/transfer-details.png" width="45%" alt="SEP-6 Transfer Details" />
+<img src="/assets/basic-pay/sep6/transfer-details.png" width="45%" alt="Data" />
 
 ### Modal step 2: Gather KYC information
 
@@ -198,7 +204,7 @@ export async function putSep12Fields({ authToken, fields, homeDomain }) {
 
 BasicPay receives back from the anchor a status message for the user to see. Once the status message is `ACCEPTED`, we can finally submit the actual transfer request!
 
-<img src="/assets/basic-pay/kyc-accepted.png" width="50%" alt="KYC Accepted Screen" />
+<img src="/assets/basic-pay/kyc-accepted.png" width="50%" alt="KYC Accepted" />
 
 This component of the SEP-6 modal, like most of them, is almost entirely Svelte-related. So as to keep this tutorial (somewhat) uncluttered, we'll refer you to the source for the component, which you can find here: https://github.com/stellar/basic-payment-app/blob/main/src/routes/dashboard/transfers/components/KYCStatus.svelte
 
@@ -210,7 +216,12 @@ We submit a `GET` request to the URL with our authorization token in the headers
 
 ```js title=/src/lib/stellar/sep6.js
 // Initiates a transfer using the SEP-6 protocol.
-export async function initiateTransfer6({ authToken, endpoint, formData, domain }) {
+export async function initiateTransfer6({
+  authToken,
+  endpoint,
+  formData,
+  domain,
+}) {
   let transferServer = await getTransferServerSep6(domain);
   let searchParams = new URLSearchParams(formData);
 
@@ -269,13 +280,20 @@ In a withdrawal transaction, BasicPay will also build and present to the user a 
   };
 
   // Builds a Stellar payment to present to the user which will complete a transfer to the Anchor.
-  let submitPayment = async ({ withdrawDetails, assetCode, assetIssuer, amount }) => {
+  let submitPayment = async ({
+    withdrawDetails,
+    assetCode,
+    assetIssuer,
+    amount,
+  }) => {
     let { transaction, network_passphrase } = await createPaymentTransaction({
       source: data.publicKey,
       destination: withdrawDetails.account_id,
       asset: `${assetCode}:${assetIssuer}`,
       amount: amount,
-      memo: withdrawDetails.memo ? Buffer.from(withdrawDetails.memo, "base64") : undefined,
+      memo: withdrawDetails.memo
+        ? Buffer.from(withdrawDetails.memo, "base64")
+        : undefined,
     });
 
     // Set the component variables to hold the transaction details

@@ -63,4 +63,3 @@ El servicio de eventos permite que la Anchor Platform envíe webhooks HTTP a cli
 El Observador de Pagos monitorea la cadena de bloques Stellar usando Stellar RPC o Horizon, detecta automáticamente pagos relacionados con el negocio y actualiza las transacciones correspondientes en la base de datos de Anchor Platform. Si también usas el servicio de [events](./events/README.mdx), los pagos a tus cuentas activarán un callback HTTP hacia tu servidor de negocio.
 
 Si ya tienes una solución para monitorear pagos a tus cuentas Stellar, como una integración con tu exchange, Horizon o RPC, entonces este componente no es necesario, aunque tu servidor de negocio deberá notificar a Anchor Platform cuando se haya realizado un pago asociado a una transacción de Anchor Platform a una de tus cuentas Stellar vía la [Platform API](../api-reference/platform/transactions/README.mdx).
-
