@@ -1,5 +1,6 @@
 ---
 draft: true
+description: Descripción general y referencia sobre DEJA LO QUE ESTÁS HACIENDO.
 ---
 
 # DEJA LO QUE ESTÁS HACIENDO

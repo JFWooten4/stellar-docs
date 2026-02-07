@@ -1,5 +1,7 @@
 ---
 draft: true
+description:
+  Overview and reference information for Welcome to Anchor Platform Madness.
 ---
 
 # Welcome to Anchor Platform Madness <!-- omit in toc -->
