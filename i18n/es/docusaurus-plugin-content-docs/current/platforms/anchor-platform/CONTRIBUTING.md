@@ -1,8 +1,8 @@
 ---
-draft: true
+title: Bienvenido a Anchor Platform Madness
 description: Descripción general y referencia sobre Bienvenido a Anchor Platform Madness.
+draft: true
 ---
-
 # Bienvenido a Anchor Platform Madness <!-- omit in toc -->
 
 ¡Hola, y bienvenido a la nueva versión de la documentación de Anchor Platform!

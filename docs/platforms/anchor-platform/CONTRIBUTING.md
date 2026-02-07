@@ -1,7 +1,8 @@
 ---
-draft: true
+title: Welcome to Anchor Platform Madness
 description:
   Overview and reference information for Welcome to Anchor Platform Madness.
+draft: true
 ---
 
 # Welcome to Anchor Platform Madness <!-- omit in toc -->
