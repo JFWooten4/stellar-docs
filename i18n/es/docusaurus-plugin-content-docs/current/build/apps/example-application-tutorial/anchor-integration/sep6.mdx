@@ -129,7 +129,7 @@ Una vez lanzado, el `TransferModalSep6` guiará al usuario a través de un "asis
 
 BasicPay solicita al usuario que ingrese información adicional, como tipo de transferencia, destino y cantidad. Parte de esto se completa automáticamente según el botón que presionó el usuario. Sin embargo, el usuario puede cambiar cualquiera de los campos si así lo elige.
 
-Vamos a omitir el ejemplo de código en esta sección, ya que principalmente son cosas de Svelte. Puedes ver el código fuente aquí: https://github.com/stellar/basic-payment-app/blob/main/src/routes/dashboard/transfers/components/TransferDetails.svelte
+Vamos a omitir el ejemplo de código en esta sección, ya que principalmente son cosas de Svelte. Puedes ver el código fuente [aquí](https://github.com/stellar/basic-payment-app/blob/main/src/routes/dashboard/transfers/components/TransferDetails.svelte).
 
 <img src="/assets/basic-pay/sep6/transfer-details.png" width="45%" alt="Detalles Transferencia SEP-6" />
 
@@ -175,7 +175,7 @@ export async function getSep12Fields({ authToken, homeDomain }) {
 
 **Fuente:** [`github.com/stellar/basic-payment-app/src/lib/stellar/sep12`](https://github.com/stellar/basic-payment-app/blob/main/src/lib/stellar/sep12.js)
 
-Una vez más, la presentación de los campos que el usuario debe completar está más del lado de Svelte, así que no compartiremos esos detalles aquí. Sin embargo, la fuente para este componente está disponible aquí: https://github.com/stellar/basic-payment-app/blob/main/src/routes/dashboard/transfers/components/KYCInformation.svelte
+Una vez más, la presentación de los campos que el usuario debe completar está más del lado de Svelte, así que no compartiremos esos detalles aquí. Sin embargo, la fuente para este componente está disponible [aquí](https://github.com/stellar/basic-payment-app/blob/main/src/routes/dashboard/transfers/components/KYCInformation.svelte).
 
 ### Paso del modal 3: Poner campos KYC y reportar estado
 
@@ -207,7 +207,7 @@ BasicPay recibe de vuelta del anchor un mensaje de estado para que el usuario lo
 
 <img src="/assets/basic-pay/kyc-accepted.png" width="50%" alt="Pantalla KYC Aceptada" />
 
-Este componente del modal SEP-6, como la mayoría de ellos, está casi completamente relacionado con Svelte. Por lo tanto, para mantener este tutorial (algo) despejado, te referiremos a la fuente del componente, que puedes encontrar aquí: https://github.com/stellar/basic-payment-app/blob/main/src/routes/dashboard/transfers/components/KYCStatus.svelte
+Este componente del modal SEP-6, como la mayoría de ellos, está casi completamente relacionado con Svelte. Por lo tanto, para mantener este tutorial (algo) despejado, te referiremos a la fuente del componente, que puedes encontrar [aquí](https://github.com/stellar/basic-payment-app/blob/main/src/routes/dashboard/transfers/components/KYCStatus.svelte).
 
 ### Paso del modal 4: Enviar transferencia
 

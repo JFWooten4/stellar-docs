@@ -77,7 +77,7 @@ The user can then initiate one of the transfer methods (in BasicPay, only deposi
 
 If you recall back to our [confirmation modal section](../confirmation-modal.mdx), we designed our modal component to be useful for anything we might require. Well, that's _almost_ true. The fact is that SEP-6 interactions are just plain complex. To facilitate that complexity, we've created a purpose-built SEP-6 transfer modal. There is **so much** to it, that we couldn't possibly cover everything it does here. However, we'll cover the main bits and link to the relevant source files.
 
-The modal component itself has been broken into several smaller Svelte components. Check out this source file to start looking through how we've put it together: https://github.com/stellar/basic-payment-app/blob/main/src/routes/dashboard/transfers/components/TransferModalSep6.svelte
+The modal component itself has been broken into several smaller Svelte components. Check out this [source file](https://github.com/stellar/basic-payment-app/blob/main/src/routes/dashboard/transfers/components/TransferModalSep6.svelte) to start looking through how we've put it together.
 
 ### Launching the SEP-6 modal
 
@@ -128,7 +128,7 @@ Once launched, the `TransferModalSep6` will walk the user through a "wizard" to 
 
 BasicPay prompts the user to input additional information such as transfer type, destination, and amount. Some of this is prepopulated based on which button the user clicked. However, the user can change any of the fields if they so choose.
 
-We'll spare the code sample in this section, since it's mostly Svelte things going on. You can view the source here: https://github.com/stellar/basic-payment-app/blob/main/src/routes/dashboard/transfers/components/TransferDetails.svelte
+We'll spare the code sample in this section, since it's mostly Svelte things going on. You can view the source [here](https://github.com/stellar/basic-payment-app/blob/main/src/routes/dashboard/transfers/components/TransferDetails.svelte).
 
 <img src="/assets/basic-pay/sep6/transfer-details.png" width="45%" alt="Data" />
 
@@ -174,7 +174,7 @@ export async function getSep12Fields({ authToken, homeDomain }) {
 
 **Source:** [`github.com/stellar/basic-payment-app/src/lib/stellar/sep12`](https://github.com/stellar/basic-payment-app/blob/main/src/lib/stellar/sep12.js)
 
-Again, the presentation of the fields the user must complete is more on the Svelte side of things, so we won't share those details here. However, the source for this component is available here: https://github.com/stellar/basic-payment-app/blob/main/src/routes/dashboard/transfers/components/KYCInformation.svelte
+Again, the presentation of the fields the user must complete is more on the Svelte side of things, so we won't share those details here. However, the source for this component is available [here](https://github.com/stellar/basic-payment-app/blob/main/src/routes/dashboard/transfers/components/KYCInformation.svelte).
 
 ### Modal step 3: Put KYC fields and report status
 
@@ -206,7 +206,7 @@ BasicPay receives back from the anchor a status message for the user to see. Onc
 
 <img src="/assets/basic-pay/kyc-accepted.png" width="50%" alt="KYC Accepted" />
 
-This component of the SEP-6 modal, like most of them, is almost entirely Svelte-related. So as to keep this tutorial (somewhat) uncluttered, we'll refer you to the source for the component, which you can find here: https://github.com/stellar/basic-payment-app/blob/main/src/routes/dashboard/transfers/components/KYCStatus.svelte
+This component of the SEP-6 modal, like most of them, is almost entirely Svelte-related. So as to keep this tutorial (somewhat) uncluttered, we'll refer you to the source for the component, which you can find [here](https://github.com/stellar/basic-payment-app/blob/main/src/routes/dashboard/transfers/components/KYCStatus.svelte).
 
 ### Modal step 4: Submit transfer
 
