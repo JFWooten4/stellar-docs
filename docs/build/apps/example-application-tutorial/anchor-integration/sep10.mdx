@@ -50,7 +50,7 @@ The `/src/routes/dashboard/transfers/+page.svelte` is doing **a lot** of work th
 <!-- HTML has been omitted from this tutorial. Please check the source file -->
 ```
 
-**Source:** https://github.com/stellar/basic-payment-app/blob/main/src/routes/dashboard/transfers/+page.svelte
+**Source:** [`github.com/stellar/basic-payment-app/src/routes/dashboard/transfers/+page`](https://github.com/stellar/basic-payment-app/blob/main/src/routes/dashboard/transfers/+page.svelte)
 
 ## Requesting a challenge transaction
 
@@ -107,7 +107,7 @@ Now, when the user clicks the "authenticate" button, it triggers the `auth` func
 <!-- HTML has been omitted from this tutorial. Please check the source file -->
 ```
 
-**Source:** https://github.com/stellar/basic-payment-app/blob/main/src/routes/dashboard/transfers/+page.svelte
+**Source:** [`github.com/stellar/basic-payment-app/src/routes/dashboard/transfers/+page`](https://github.com/stellar/basic-payment-app/blob/main/src/routes/dashboard/transfers/+page.svelte)
 
 As part of the `auth` function, BasicPay makes a `GET` request with an `account` param (the public key of the user) to the anchor, which sends back a Stellar transaction signed by the server's signing key (called a challenge transaction) with an invalid sequence number so it couldn't actually do anything if it were accidentally submitted to the network.
 
@@ -236,7 +236,7 @@ In response, the user signs the transaction. You may have noticed we present thi
 <!-- HTML has been omitted from this tutorial. Please check the source file -->
 ```
 
-**Source:** https://github.com/stellar/basic-payment-app/blob/main/src/routes/dashboard/transfers/+page.svelte
+**Source:** [`github.com/stellar/basic-payment-app/src/routes/dashboard/transfers/+page`](https://github.com/stellar/basic-payment-app/blob/main/src/routes/dashboard/transfers/+page.svelte)
 
 The `submitChallengeTransaction` function is quite simple. We take the transaction (in XDR format) and the domain name, and submit it to the relevant `WEB_AUTH_ENDPOINT` provided by the home domain's `stellar.toml` file.
 
