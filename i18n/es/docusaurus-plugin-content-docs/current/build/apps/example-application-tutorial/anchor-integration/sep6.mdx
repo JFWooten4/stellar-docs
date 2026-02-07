@@ -18,7 +18,7 @@ export async function getTransferServerSep6(domain) {
 }
 ```
 
-**Fuente:** https://github.com/stellar/basic-payment-app/blob/main/src/lib/stellar/sep1.js
+**Fuente:** [`github.com/stellar/basic-payment-app/src/lib/stellar/sep1`](https://github.com/stellar/basic-payment-app/blob/main/src/lib/stellar/sep1.js)
 
 ## Obtener `/info`
 
@@ -42,7 +42,7 @@ export async function getSep6Info(domain) {
 }
 ```
 
-**Fuente:** https://github.com/stellar/basic-payment-app/blob/main/src/lib/stellar/sep6.js
+**Fuente:** [`github.com/stellar/basic-payment-app/src/lib/stellar/sep6`](https://github.com/stellar/basic-payment-app/blob/main/src/lib/stellar/sep6.js)
 
 ## Mostrar elementos interactivos
 
@@ -147,7 +147,7 @@ export async function getKycServer(domain) {
 }
 ```
 
-**Fuente:** https://github.com/stellar/basic-payment-app/blob/main/src/lib/stellar/sep1.js
+**Fuente:** [`github.com/stellar/basic-payment-app/src/lib/stellar/sep1`](https://github.com/stellar/basic-payment-app/blob/main/src/lib/stellar/sep1.js)
 
 Nuestro modal SEP-6 luego consulta el endpoint SEP-12 del anchor para los campos KYC requeridos con una solicitud `GET`, y presentamos estos campos para que el usuario los complete.
 
@@ -173,7 +173,7 @@ export async function getSep12Fields({ authToken, homeDomain }) {
 }
 ```
 
-**Fuente:** https://github.com/stellar/basic-payment-app/blob/main/src/lib/stellar/sep12.js
+**Fuente:** [`github.com/stellar/basic-payment-app/src/lib/stellar/sep12`](https://github.com/stellar/basic-payment-app/blob/main/src/lib/stellar/sep12.js)
 
 Una vez más, la presentación de los campos que el usuario debe completar está más del lado de Svelte, así que no compartiremos esos detalles aquí. Sin embargo, la fuente para este componente está disponible aquí: https://github.com/stellar/basic-payment-app/blob/main/src/routes/dashboard/transfers/components/KYCInformation.svelte
 
@@ -201,7 +201,7 @@ export async function putSep12Fields({ authToken, fields, homeDomain }) {
 }
 ```
 
-**Fuente:** https://github.com/stellar/basic-payment-app/blob/main/src/lib/stellar/sep12.js
+**Fuente:** [`github.com/stellar/basic-payment-app/src/lib/stellar/sep12`](https://github.com/stellar/basic-payment-app/blob/main/src/lib/stellar/sep12.js)
 
 BasicPay recibe de vuelta del anchor un mensaje de estado para que el usuario lo vea. Una vez que el mensaje de estado es `ACEPTADO`, ¡podemos finalmente enviar la solicitud de transferencia real!
 
@@ -246,7 +246,7 @@ export async function initiateTransfer6({
 }
 ```
 
-**Fuente:** https://github.com/stellar/basic-payment-app/blob/main/src/lib/stellar/sep12.js
+**Fuente:** [`github.com/stellar/basic-payment-app/src/lib/stellar/sep12`](https://github.com/stellar/basic-payment-app/blob/main/src/lib/stellar/sep12.js)
 
 Luego almacenamos los detalles de la transferencia en la tienda `transfersStore` y mostramos la respuesta del servidor de transferencia al usuario. Luego esperamos a que cierren el modal.
 
