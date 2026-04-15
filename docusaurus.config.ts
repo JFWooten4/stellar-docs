@@ -108,6 +108,8 @@ const config: Config = {
           postsPerPage: 12,
           routeBasePath: 'meetings',
           onUntruncatedBlogPosts: 'ignore',
+          showReadingTime: false,
+          authorsMapPath: 'authors.yml',
         },
         docs: {
           showLastUpdateTime: true,
