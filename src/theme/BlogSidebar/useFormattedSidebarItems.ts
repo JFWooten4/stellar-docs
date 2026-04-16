@@ -2,6 +2,10 @@ import {useMemo} from 'react';
 import type {BlogSidebarItem} from '@docusaurus/plugin-content-blog';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
+export type FormattedBlogSidebarItem = BlogSidebarItem & {
+  tooltipTitle?: string;
+};
+
 const ISO_TITLE_REGEX = /^(\d{4})-(\d{2})-(\d{2})$/;
 const DEFAULT_FORMATTER_KEY = 'default';
 const formatterCache = new Map<string, Intl.DateTimeFormat>();
@@ -67,7 +71,7 @@ function formatSidebarTitle(
 
 export function useFormattedSidebarItems(
   items: BlogSidebarItem[],
-): BlogSidebarItem[] {
+): FormattedBlogSidebarItem[] {
   const {i18n} = useDocusaurusContext();
   const currentLocale = i18n?.currentLocale;
 
@@ -78,7 +82,11 @@ export function useFormattedSidebarItems(
         if (!formattedTitle || formattedTitle === item.title) {
           return item;
         }
-        return {...item, title: formattedTitle};
+        return {
+          ...item,
+          title: formattedTitle,
+          tooltipTitle: item.title,
+        };
       }),
     [items, currentLocale],
   );

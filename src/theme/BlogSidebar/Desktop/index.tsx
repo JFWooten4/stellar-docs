@@ -1,26 +1,34 @@
 import React, {memo} from 'react';
 import clsx from 'clsx';
 import {translate} from '@docusaurus/Translate';
-import {
-  BlogSidebarItemList,
-  useVisibleBlogSidebarItems,
-} from '@docusaurus/plugin-content-blog/client';
+import Link from '@docusaurus/Link';
+import {useVisibleBlogSidebarItems} from '@docusaurus/plugin-content-blog/client';
 import BlogSidebarContent from '@theme/BlogSidebar/Content';
 import type {Props as BlogSidebarContentProps} from '@theme/BlogSidebar/Content';
 import type {Props} from '@theme/BlogSidebar/Desktop';
 
-import {useFormattedSidebarItems} from '../useFormattedSidebarItems';
+import {
+  type FormattedBlogSidebarItem,
+  useFormattedSidebarItems,
+} from '../useFormattedSidebarItems';
 import styles from './styles.module.css';
 
 const ListComponent: BlogSidebarContentProps['ListComponent'] = ({items}) => {
   return (
-    <BlogSidebarItemList
-      items={items}
-      ulClassName={clsx(styles.sidebarItemList, 'clean-list')}
-      liClassName={styles.sidebarItem}
-      linkClassName={styles.sidebarItemLink}
-      linkActiveClassName={styles.sidebarItemLinkActive}
-    />
+    <ul className={clsx(styles.sidebarItemList, 'clean-list')}>
+      {(items as FormattedBlogSidebarItem[]).map((item) => (
+        <li key={item.permalink} className={styles.sidebarItem}>
+          <Link
+            isNavLink
+            to={item.permalink}
+            className={styles.sidebarItemLink}
+            activeClassName={styles.sidebarItemLinkActive}
+            title={item.tooltipTitle ?? item.title}>
+            {item.title}
+          </Link>
+        </li>
+      ))}
+    </ul>
   );
 };
 
