@@ -27,7 +27,7 @@ const ListComponent: BlogSidebarContentProps['ListComponent'] = ({items}) => {
               {item.title}
               {item.tooltipTitle && item.tooltipTitle !== item.title ? (
                 <span className={styles.sidebarItemSecondary}>
-                  {`: ${item.tooltipTitle}`}
+                  {`- ${item.tooltipTitle}`}
                 </span>
               ) : null}
             </span>

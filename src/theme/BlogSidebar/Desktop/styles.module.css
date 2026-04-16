@@ -28,7 +28,9 @@
 }
 
 .sidebarItemPrimary {
-  display: inline;
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.05rem;
 }
 
 .sidebarItemSecondary {
@@ -36,11 +38,11 @@
   color: var(--ifm-color-emphasis-700);
   font-size: 0.8rem;
   line-height: 1.35;
+  margin-left: 0.25rem;
   max-width: 0;
   opacity: 0;
   overflow: hidden;
   transform: translateX(-0.15rem);
-  vertical-align: baseline;
   white-space: nowrap;
   transition:
     max-width 220ms cubic-bezier(0.22, 1, 0.36, 1) 250ms,
