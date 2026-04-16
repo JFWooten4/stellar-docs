@@ -1,5 +1,4 @@
 .sidebar {
-  --description-hover-preview-delay: 500ms;
   max-height: calc(100vh - (var(--ifm-navbar-height) + 2rem));
   overflow-y: auto;
   position: sticky;
@@ -44,20 +43,23 @@
   transform: translateY(-0.15rem);
   white-space: normal;
   transition:
-    max-height 5000ms cubic-bezier(0.22, 1, 0.36, 1) var(--description-hover-preview-delay),
-    opacity 300ms ease var(--description-hover-preview-delay),
-    transform 100ms cubic-bezier(0.22, 1, 0.36, 1) var(--description-hover-preview-delay);
+    opacity 400ms ease,
+    transform 600ms cubic-bezier(0.22, 1, 0.36, 1),
+    max-height 800ms cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .sidebarItemLink:hover .sidebarItemSecondary,
-.sidebarItemLink:focus-visible .sidebarItemSecondary,
+.sidebarItemLink:focus-visible .sidebarItemSecondary {
+  max-height: 4.5rem;
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 500ms;
+}
+
 .sidebarItemLinkActive .sidebarItemSecondary {
   max-height: 4.5rem;
   opacity: 1;
   transform: translateY(0);
-}
-
-.sidebarItemLinkActive .sidebarItemSecondary {
   transition-delay: 0ms;
 }
 
