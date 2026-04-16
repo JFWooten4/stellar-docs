@@ -43,6 +43,7 @@ function BlogSidebarDesktop({sidebar}: Props) {
         <BlogSidebarContent
           items={items}
           ListComponent={ListComponent}
+          enableHoverExpand={true}
           yearGroupHeadingClassName={styles.yearGroupHeading}
         />
       </nav>
