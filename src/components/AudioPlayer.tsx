@@ -12,7 +12,7 @@ export default function AudioPlayer({ src }: AudioPlayerProps) {
         margin: "20px auto",
         padding: "12px 14px",
         borderRadius: 14,
-        background: "rgba(59, 130, 246, 0.12)",
+        background: "rgba(59, 130, 246, 0.12)", // blue
         border: "1px solid rgba(59, 130, 246, 0.35)",
       }}
     >
@@ -27,7 +27,7 @@ export default function AudioPlayer({ src }: AudioPlayerProps) {
           gap: 6,
         }}
       >
-        Audio Recording
+        🎧 Audio Recording
       </div>
 
       <audio controls preload="metadata" style={{ width: "100%" }}>
