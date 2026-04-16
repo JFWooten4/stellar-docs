@@ -27,6 +27,39 @@
   text-decoration: none;
 }
 
+.sidebarItemPrimary {
+  display: inline;
+}
+
+.sidebarItemSecondary {
+  display: inline-block;
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.8rem;
+  line-height: 1.35;
+  max-width: 0;
+  opacity: 0;
+  overflow: hidden;
+  transform: translateX(-0.15rem);
+  vertical-align: baseline;
+  white-space: nowrap;
+  transition:
+    max-width 220ms cubic-bezier(0.22, 1, 0.36, 1) 250ms,
+    opacity 160ms ease 250ms,
+    transform 220ms cubic-bezier(0.22, 1, 0.36, 1) 250ms;
+}
+
+.sidebarItemLink:hover .sidebarItemSecondary,
+.sidebarItemLink:focus-visible .sidebarItemSecondary,
+.sidebarItemLinkActive .sidebarItemSecondary {
+  max-width: 24rem;
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.sidebarItemLinkActive .sidebarItemSecondary {
+  transition-delay: 0ms;
+}
+
 .sidebarItemLinkActive {
   color: var(--ifm-color-primary) !important;
 }

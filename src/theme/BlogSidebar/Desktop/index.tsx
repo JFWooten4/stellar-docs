@@ -22,9 +22,15 @@ const ListComponent: BlogSidebarContentProps['ListComponent'] = ({items}) => {
             isNavLink
             to={item.permalink}
             className={styles.sidebarItemLink}
-            activeClassName={styles.sidebarItemLinkActive}
-            title={item.tooltipTitle ?? item.title}>
-            {item.title}
+            activeClassName={styles.sidebarItemLinkActive}>
+            <span className={styles.sidebarItemPrimary}>
+              {item.title}
+              {item.tooltipTitle && item.tooltipTitle !== item.title ? (
+                <span className={styles.sidebarItemSecondary}>
+                  {`: ${item.tooltipTitle}`}
+                </span>
+              ) : null}
+            </span>
           </Link>
         </li>
       ))}
