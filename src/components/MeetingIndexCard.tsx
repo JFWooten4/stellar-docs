@@ -5,6 +5,13 @@ const MEETING_TIMEZONE = "America/Los_Angeles";
 const MEETING_WEEKDAY = "Thursday";
 const MEETING_HOUR = 13;
 const MEETING_MINUTE = 0;
+const REFERENCE_MEETING_DATE = {
+  year: 2024,
+  month: 1,
+  day: 4, // Thursday
+  hour: MEETING_HOUR,
+  minute: MEETING_MINUTE,
+} satisfies DateParts;
 
 type DateParts = {
   year: number;
@@ -84,44 +91,40 @@ export default function MeetingIndexCard(): React.ReactElement {
 }
 
 function formatMeetingTimeFallback(): string {
-  return `${MEETING_WEEKDAY}s at ${formatMeetingTime(
-    makeDateInTimeZone(
-      {
-        year: 2024,
-        month: 1,
-        day: 4, // Thursday
-        hour: MEETING_HOUR,
-        minute: MEETING_MINUTE,
-      },
-      MEETING_TIMEZONE,
+  return formatMeetingSchedule(
+    MEETING_WEEKDAY,
+    formatMeetingTime(
+      makeDateInTimeZone(REFERENCE_MEETING_DATE, MEETING_TIMEZONE),
     ),
-  )}`;
+  );
 }
 
 function formatMeetingDisplay(date: Date): string {
   const formatter = new Intl.DateTimeFormat(undefined, {
     weekday: "long",
+    timeZone: MEETING_TIMEZONE,
+  });
+  const parts = formatter.formatToParts(date);
+  const weekday = parts.find((part) => part.type === "weekday")?.value;
+
+  if (!weekday) {
+    return formatMeetingTime(date);
+  }
+  return formatMeetingSchedule(weekday, formatMeetingTime(date));
+}
+
+function formatMeetingSchedule(weekday: string, time: string): string {
+  return `${weekday}s at ${time}`;
+}
+
+function formatMeetingTime(date: Date): string {
+  const formatter = new Intl.DateTimeFormat(undefined, {
     hour: "numeric",
     minute: "2-digit",
     timeZone: MEETING_TIMEZONE,
     timeZoneName: "longGeneric",
   });
-  const timeFormatter = new Intl.DateTimeFormat(undefined, {
-    hour: "numeric",
-    minute: "2-digit",
-    timeZone: MEETING_TIMEZONE,
-  });
-  const parts = formatter.formatToParts(date);
-  const weekday = parts.find((part) => part.type === "weekday")?.value;
-  const timeZoneName = parts.find(
-    (part) => part.type === "timeZoneName",
-  )?.value;
-  const time = timeFormatter.format(date);
-
-  if (!weekday) {
-    return `${time}${timeZoneName ? ` ${timeZoneName}` : ""}`;
-  }
-  return `${weekday}s at ${time}${timeZoneName ? ` ${timeZoneName}` : ""}`;
+  return formatter.format(date);
 }
 
 function getTimeZoneOffset(date: Date, timeZone: string): number {
