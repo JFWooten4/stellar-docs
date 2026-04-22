@@ -46,7 +46,7 @@ export default function MeetingIndexCard(): React.ReactElement {
           These are archived discussions of open Stellar meetings. Anyone can
           attend them on {localMeetingTime ?? fallbackMeetingTime}. Join in the{" "}
           <Link
-            href="https://discord.gg/b9zfSytphY?event=1394227773765062677"
+            href="https://discord.com/invite/stellardev?event=1394227773765062677"
             target="_blank"
             rel="noreferrer noopener"
           >
