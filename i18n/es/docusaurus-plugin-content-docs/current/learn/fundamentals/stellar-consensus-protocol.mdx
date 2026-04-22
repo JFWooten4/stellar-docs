@@ -51,11 +51,11 @@ La opinión de un nodo sobre una declaración depende de las opiniones de su con
 
 En el SCP, el acuerdo se logra mediante votación federada. Un nodo razona sobre el estado de la red en función de lo que aprende de su conjunto de quorum; antes de que una declaración sea acordada al 100% por cada nodo honesto en la red, pasa por tres pasos de votación federada: (1) Votar, (2) Aceptar y (3) Confirmar.
 
-A node can have four opinions on a statement (let’s call the statement “A”)
+A node can have four opinions on a statement (let's call the statement “A”)
 
-- I don’t know anything about A and have no opinion
-- I vote for A, it’s valid, but I don’t know if it’s safe to act on it yet
-- I accept A, because enough nodes supported this statement, but I don’t know if it’s safe to act on it yet
+- I don't know anything about A and have no opinion
+- I vote for A, it's valid, but I don't know if it's safe to act on it yet
+- I accept A, because enough nodes supported this statement, but I don't know if it's safe to act on it yet
 - Confirmo A, es seguro actuar sobre ella. Incluso si cada nodo en mi quorum no ha confirmado A, no podrán confirmar nada más que A.
 
 Para transitar entre los estados anteriores, la votación federada tiene las siguientes reglas:
@@ -86,8 +86,8 @@ Un nodo puede comenzar el protocolo de votación tan pronto como confirme un can
 
 El protocolo de votación garantiza que la red pueda confirmar unánimemente y aplicar conjuntos de transacciones nominadas. Consta de dos pasos:
 
-1. Prepare - verifies that a node’s quorum slice has the right value and is willing to commit it
-2. Commit - ensures that a node’s quorum slice actually commits the value
+1. Prepare - verifies that a node's quorum slice has the right value and is willing to commit it
+2. Commit - ensures that a node's quorum slice actually commits the value
 
 ## Libro blanco
 

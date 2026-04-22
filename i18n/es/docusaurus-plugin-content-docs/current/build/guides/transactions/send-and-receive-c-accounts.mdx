@@ -148,7 +148,7 @@ Cuando la transacción se envía usando una cuenta muxed, la parte valor del eve
 }
 ```
 
-Para un ejemplo de código detallado, consulta la sección ‘_Monitoreo de Pagos \-\> Uso del Stellar RPC_’ de [los ejemplos de este repositorio](https://github.com/fazzatti/c-address-payment-examples#using-the-stellar-rpc).
+Para un ejemplo de código detallado, consulta la sección ‘_Monitoreo de Pagos \-\> Uso del Stellar RPC_' de [los ejemplos de este repositorio](https://github.com/fazzatti/c-address-payment-examples#using-the-stellar-rpc).
 
 ### Envío de pagos desde Cuentas de Contrato a un destinatario que requiere un memo
 
@@ -158,60 +158,60 @@ Si la parte receptora ya proporciona una dirección M, debe utilizarse directame
 
 ## Envío de pagos a Cuentas de Contrato (de G a C)
 
-### Enviar un ‘transfer’ mediante Stellar RPC
+### Enviar un ‘transfer' mediante Stellar RPC
 
-Este método es más sencillo pero requiere el uso de un RPC e implica un flujo de transacciones algo diferente al de una operación nativa tradicional. Para un ejemplo de código detallado, consulta la sección ‘_Enviando pagos a través del SAC \-\> Uso del Stellar RPC_’ de [los ejemplos de este repositorio](https://github.com/fazzatti/c-address-payment-examples#sending-payments-through-the-sac).
+Este método es más sencillo pero requiere el uso de un RPC e implica un flujo de transacciones algo diferente al de una operación nativa tradicional. Para un ejemplo de código detallado, consulta la sección ‘_Enviando pagos a través del SAC \-\> Uso del Stellar RPC_' de [los ejemplos de este repositorio](https://github.com/fazzatti/c-address-payment-examples#sending-payments-through-the-sac).
 
 **Ensambla la operación y la transacción**
 
-Para realizar un ‘transfer’ a través de un SAC, es necesario ensamblar una operación ‘_InvokeHostFunctionOp_’ con argumentos similares a una operación de ‘payment’, junto con el identificador del contrato y el nombre de la función objetivo (‘transfer’).
+Para realizar un ‘transfer' a través de un SAC, es necesario ensamblar una operación ‘_InvokeHostFunctionOp_' con argumentos similares a una operación de ‘payment', junto con el identificador del contrato y el nombre de la función objetivo (‘transfer').
 
-Esto puede verse en detalle en la función ‘[assembleTransferOperation](https://github.com/fazzatti/c-address-payment-examples/blob/main/src/core/assemble-transfer-operation.ts)’ del demo. Aunque el ejemplo muestra este proceso con mayor detalle, es posible usar el [js-stellar-sdk](https://github.com/stellar/js-stellar-sdk) y su cliente de Contrato de manera más simple.
+Esto puede verse en detalle en la función ‘[assembleTransferOperation](https://github.com/fazzatti/c-address-payment-examples/blob/main/src/core/assemble-transfer-operation.ts)' del demo. Aunque el ejemplo muestra este proceso con mayor detalle, es posible usar el [js-stellar-sdk](https://github.com/stellar/js-stellar-sdk) y su cliente de Contrato de manera más simple.
 
-Luego la transacción se desarrolla añadiendo esta operación y configurando los parámetros adicionales como en cualquier otra transacción ‘payment’.
+Luego la transacción se desarrolla añadiendo esta operación y configurando los parámetros adicionales como en cualquier otra transacción ‘payment'.
 
 **Simular la transacción**
 
-Después de construir la transacción, se utiliza el método RPC ‘simulateTransaction’ para simular la ejecución de esta transacción contra el estado actual de la red, identificar si se espera que tenga éxito y, además, proporcionar varios parámetros adicionales sobre esta ejecución.
+Después de construir la transacción, se utiliza el método RPC ‘simulateTransaction' para simular la ejecución de esta transacción contra el estado actual de la red, identificar si se espera que tenga éxito y, además, proporcionar varios parámetros adicionales sobre esta ejecución.
 
-Este proceso es completamente manejado por el SDK en un paso muy simple usando la función ‘_prepareTransaction_’ del cliente del servidor RPC. Automáticamente simula y proporciona un objeto de transacción actualizado. Consulta este proceso en detalle [en el demo](https://github.com/fazzatti/c-address-payment-examples/blob/0e1c021e5afbefd5946878d53934b62cf5a8bb68/src/core/rpc-transaction.ts#L43).
+Este proceso es completamente manejado por el SDK en un paso muy simple usando la función ‘_prepareTransaction_' del cliente del servidor RPC. Automáticamente simula y proporciona un objeto de transacción actualizado. Consulta este proceso en detalle [en el demo](https://github.com/fazzatti/c-address-payment-examples/blob/0e1c021e5afbefd5946878d53934b62cf5a8bb68/src/core/rpc-transaction.ts#L43).
 
 **Firmar**
 
-Cuando la misma cuenta se usa como ‘remitente’ de los fondos y también como ‘origen’ de la transacción, el paso de la firma será exactamente el mismo. Una vez que se recibe el objeto de transacción actualizado del paso anterior, solo debes firmarlo con la cuenta fuente/remitente y estará listo.
+Cuando la misma cuenta se usa como ‘remitente' de los fondos y también como ‘origen' de la transacción, el paso de la firma será exactamente el mismo. Una vez que se recibe el objeto de transacción actualizado del paso anterior, solo debes firmarlo con la cuenta fuente/remitente y estará listo.
 
-Cuando la cuenta ‘fuente’ de la transacción difiere de la cuenta ‘remitente’, será necesaria una entrada firmada adicional para autorizar explícitamente la invocación ‘transfer’. Consulta la [documentación del Marco de Autorización Soroban](../../../learn/fundamentals/contract-development/authorization.mdx#soroban-authorization-framework) para más detalles.
+Cuando la cuenta ‘fuente' de la transacción difiere de la cuenta ‘remitente', será necesaria una entrada firmada adicional para autorizar explícitamente la invocación ‘transfer'. Consulta la [documentación del Marco de Autorización Soroban](../../../learn/fundamentals/contract-development/authorization.mdx#soroban-authorization-framework) para más detalles.
 
 **Enviar la transacción para procesamiento**
 
 Cuando una transacción se envía para procesamiento a través del RPC de Stellar, a diferencia de la API Horizon, se resolverá inmediatamente confirmando su envío pero no su procesamiento. Es necesario consultar el estado de la transacción periódicamente hasta obtener una confirmación de que fue procesada exitosamente o una actualización del estatus en caso de falla.
 
-### Envío de un ‘transfer’ vía API Horizon
+### Envío de un ‘transfer' vía API Horizon
 
-Al enviar un ‘transfer’ vía API Horizon, este método introduce algunos pasos adicionales en comparación con el uso de un RPC. Para un ejemplo de código detallado, consulta la sección ‘_Enviando pagos a través del SAC \-\> Uso de la API Horizon_’ de [los ejemplos de este repositorio](https://github.com/fazzatti/c-address-payment-examples#using-the-horizon-api-1).
+Al enviar un ‘transfer' vía API Horizon, este método introduce algunos pasos adicionales en comparación con el uso de un RPC. Para un ejemplo de código detallado, consulta la sección ‘_Enviando pagos a través del SAC \-\> Uso de la API Horizon_' de [los ejemplos de este repositorio](https://github.com/fazzatti/c-address-payment-examples#using-the-horizon-api-1).
 
 **Ensambla la operación y la transacción**
 
-Este proceso es casi el mismo que se describe en la sección anterior ‘[Enviar un ‘transfer’ mediante Stellar RPC](#sending-a-transfer-via-stellar-rpc)’ con algunas modificaciones menores. Dado que la API de Horizon **no** provee un endpoint para simular la ejecución de una transacción, esto significa que cuando se arma la transacción necesitamos asegurarnos también de que contiene:
+Este proceso es casi el mismo que se describe en la sección anterior ‘[Enviar un ‘transfer' mediante Stellar RPC](#sending-a-transfer-via-stellar-rpc)' con algunas modificaciones menores. Dado que la API de Horizon **no** provee un endpoint para simular la ejecución de una transacción, esto significa que cuando se arma la transacción necesitamos asegurarnos también de que contiene:
 
 - Las **entradas de autorización Soroban** que cumplen con los requisitos de autorización de los contratos inteligentes.
 - El objeto **Soroban data**, que detalla la huella, los recursos y la tarifa de recursos esperada para esta invocación de contrato.
 
 Estos normalmente se completan automáticamente basados en la salida de la simulación y simplemente firmando y agregando las entradas de autorización generadas por el RPC. Aquí, necesitamos incluirlos manualmente.
 
-Las **entradas de autenticación** pueden predecirse y armarse fácilmente según la configuración. Asumiendo que la cuenta ‘remitente’ es la misma que la cuenta ‘fuente’ de la transacción, se necesita agregar una credencial de cuenta fuente a la operación, indicando que esta invocación usará la misma firma del sobre para autorizar el ‘transfer’. Consulta este proceso en detalle en la función [‘assembleSourceAuthEntry’](https://github.com/fazzatti/c-address-payment-examples/blob/main/src/core/assemble-source-auth.ts) del demo.
+Las **entradas de autenticación** pueden predecirse y armarse fácilmente según la configuración. Asumiendo que la cuenta ‘remitente' es la misma que la cuenta ‘fuente' de la transacción, se necesita agregar una credencial de cuenta fuente a la operación, indicando que esta invocación usará la misma firma del sobre para autorizar el ‘transfer'. Consulta este proceso en detalle en la función [‘assembleSourceAuthEntry'](https://github.com/fazzatti/c-address-payment-examples/blob/main/src/core/assemble-source-auth.ts) del demo.
 
-Una vez que las entradas de autenticación están armadas y firmadas (cuando no son entradas ‘source-account’), deben incluirse en la operación, en el parámetro ‘auth’.
+Una vez que las entradas de autenticación están armadas y firmadas (cuando no son entradas ‘source-account'), deben incluirse en la operación, en el parámetro ‘auth'.
 
-Por otro lado, el proceso para el **Soroban Data** puede ser un poco más difícil de ejecutar manualmente. Considerando que todos los contratos SAC usan la misma implementación nativa, podemos esperar que todas las invocaciones ‘transfer’ sean muy similares.
+Por otro lado, el proceso para el **Soroban Data** puede ser un poco más difícil de ejecutar manualmente. Considerando que todos los contratos SAC usan la misma implementación nativa, podemos esperar que todas las invocaciones ‘transfer' sean muy similares.
 
-La cantidad de recursos consumidos no debería variar mucho salvo algunos casos excepcionales como transacciones que involucran entradas archivadas o una autorización personalizada para una billetera inteligente como remitente. Consulta este proceso de armado manual del Soroban Data en la función [’getSorobanData’](https://github.com/fazzatti/c-address-payment-examples/blob/main/src/core/get-sorobandata.ts) del demo.
+La cantidad de recursos consumidos no debería variar mucho salvo algunos casos excepcionales como transacciones que involucran entradas archivadas o una autorización personalizada para una billetera inteligente como remitente. Consulta este proceso de armado manual del Soroban Data en la función ['getSorobanData'](https://github.com/fazzatti/c-address-payment-examples/blob/main/src/core/get-sorobandata.ts) del demo.
 
 Una vez armado el **Soroban Data**, se incluye en el **Constructor de Transacciones**.
 
 **Firmar**
 
-Después de construir la transacción, asumiendo que las ‘entradas de autorización’ del paso anterior fueron configuradas correctamente, la transacción puede firmarse normalmente por la cuenta origen.
+Después de construir la transacción, asumiendo que las ‘entradas de autorización' del paso anterior fueron configuradas correctamente, la transacción puede firmarse normalmente por la cuenta origen.
 
 **Enviar la transacción para procesamiento**
 

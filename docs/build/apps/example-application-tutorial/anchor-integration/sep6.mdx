@@ -5,7 +5,7 @@ sidebar_position: 30
 
 import useBaseUrl from "@docusaurus/useBaseUrl";
 
-SEP-6 allows wallets and other clients to interact with anchors directly without the user needing to leave the wallet to go to the anchor’s site. In this integration, a user’s KYC information is gathered and handled by the wallet and submitted to the anchor _on behalf of_ the user.
+SEP-6 allows wallets and other clients to interact with anchors directly without the user needing to leave the wallet to go to the anchor's site. In this integration, a user's KYC information is gathered and handled by the wallet and submitted to the anchor _on behalf of_ the user.
 
 ## Find the anchor's `TRANSFER_SERVER`
 
@@ -153,7 +153,7 @@ export async function getKycServer(domain) {
 
 **Source:** https://github.com/stellar/basic-payment-app/blob/main/src/lib/stellar/sep1.js
 
-Our SEP-6 modal then queries the anchor’s SEP-12 endpoint for the required KYC fields with a `GET` request, and we present these fields for the user to complete.
+Our SEP-6 modal then queries the anchor's SEP-12 endpoint for the required KYC fields with a `GET` request, and we present these fields for the user to complete.
 
 <img src={useBaseUrl("/assets/basic-pay/sep6_kyc.png")} width="45%" />
 

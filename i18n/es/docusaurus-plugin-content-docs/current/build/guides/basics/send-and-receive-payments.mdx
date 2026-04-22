@@ -732,7 +732,7 @@ payments.stream({
       return;
     }
 
-    // In Stellar’s API, Lumens are referred to as the “native” type. Other
+    // In Stellar's API, Lumens are referred to as the “native” type. Other
     // asset types have more detailed information.
     var asset;
     if (payment.asset_type === "native") {
@@ -892,7 +892,7 @@ for payment in payments.stream():
     if payment['to'] != account_id:
         continue
 
-    # In Stellar’s API, Lumens are referred to as the “native” type. Other
+    # In Stellar's API, Lumens are referred to as the “native” type. Other
     # asset types have more detailed information.
     if payment["asset_type"] == "native":
         asset = "Lumens"

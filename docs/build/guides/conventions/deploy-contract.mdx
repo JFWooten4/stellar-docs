@@ -131,7 +131,7 @@ if deployer != env.current_contract_address() {
 }
 ```
 
-The function checks if the `deployer` address is the same as the current contract’s address. If it is not, it requires authorization from the deployer address to ensure that the deployer has permitted this deployment.
+The function checks if the `deployer` address is the same as the current contract's address. If it is not, it requires authorization from the deployer address to ensure that the deployer has permitted this deployment.
 
 ```rust
 let deployed_address = env
@@ -141,7 +141,7 @@ let deployed_address = env
 ```
 
 - Uses the `env.deployer()` method to create a deployer object.
-- `with_address(deployer, salt)` specifies the deployer address and the salt to derive the new contract’s address.
+- `with_address(deployer, salt)` specifies the deployer address and the salt to derive the new contract's address.
 - `deploy(wasm_hash)` deploys the contract using the provided Wasm bytecode hash and returns the address of the newly deployed contract.
 
 ```rust

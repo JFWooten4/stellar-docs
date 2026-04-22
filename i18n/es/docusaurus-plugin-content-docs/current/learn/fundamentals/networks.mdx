@@ -81,7 +81,7 @@ Un script puede automatizar todo este proceso creando una cuenta con Friendbot y
 
 ## Frases de contraseña de la red
 
-Mainnet, Testnet y Futurenet de Stellar tienen cada una su frase de contraseña única. Estas se usan al validar firmas en una transacción dada. Si firmas una transacción para una red, pero la envías a otra, no se considerará válida. Por convención, el formato de una frase de contraseña es ‘`[Nombre de la red] ; [Mes de creación] [Año de creación]`’.
+Mainnet, Testnet y Futurenet de Stellar tienen cada una su frase de contraseña única. Estas se usan al validar firmas en una transacción dada. Si firmas una transacción para una red, pero la envías a otra, no se considerará válida. Por convención, el formato de una frase de contraseña es ‘`[Nombre de la red] ; [Mes de creación] [Año de creación]`'.
 
 The current passphrases for the Stellar Mainnet, Testnet, and Futurenet are:
 
@@ -109,7 +109,7 @@ Muchos SDK tienen las frases de contraseña codificadas para las redes de Stella
 - Long-term storage of data on the network since the network resets periodically;
 - A testing infrastructure that requires more control over the test environment, such as:
   - The ability to control the data reset frequency;
-  - The need to secure private or sensitive data (before launching on the Mainnet). You can always run your own test network for use cases that don’t work well with SDF’s Testnet.
+  - The need to secure private or sensitive data (before launching on the Mainnet). You can always run your own test network for use cases that don't work well with SDF's Testnet.
 
 ## Moving your project from Testnet or Futurenet to production
 
@@ -123,6 +123,6 @@ The current passphrases for the Stellar Mainnet, Testnet, and Futurenet are:
 
 **Futurenet**: `Test SDF Future Network ; October 2022`
 
-For applications that don’t rely on the state of the network (such as specific accounts needing to exist), you move to production by changing the network passphrase and ensuring your Horizon instance is connected to Mainnet.
+For applications that don't rely on the state of the network (such as specific accounts needing to exist), you move to production by changing the network passphrase and ensuring your Horizon instance is connected to Mainnet.
 
-If you’ve been running a Stellar Core or Horizon instance against the Testnet and want to switch to production, changing the passphrase will require both respective databases to be completely reinitialized. If you run your own RPC on Testnet or Futurenet, you may want to use an RPC service when you move to Mainnet. Consulta los proveedores del servicio RPC [aquí](../../data/apis/api-providers.mdx).
+If you've been running a Stellar Core or Horizon instance against the Testnet and want to switch to production, changing the passphrase will require both respective databases to be completely reinitialized. If you run your own RPC on Testnet or Futurenet, you may want to use an RPC service when you move to Mainnet. Consulta los proveedores del servicio RPC [aquí](../../data/apis/api-providers.mdx).
