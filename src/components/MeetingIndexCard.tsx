@@ -214,7 +214,7 @@ function getNextMeetingDate(now: Date): Date {
   const rawDaysAhead = (targetIndex - currentIndex + 7) % 7;
   const hasMeetingPassedToday =
     rawDaysAhead === 0 &&
-    (((ptParts.hour ?? 0) > MEETING_HOUR) ||
+    ((ptParts.hour ?? 0) > MEETING_HOUR ||
       ((ptParts.hour ?? 0) === MEETING_HOUR &&
         (ptParts.minute ?? 0) >= MEETING_MINUTE));
   const daysAhead =
