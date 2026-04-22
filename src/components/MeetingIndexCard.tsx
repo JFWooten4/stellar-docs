@@ -20,10 +20,7 @@ export default function MeetingIndexCard(): React.ReactElement {
   const [localMeetingTime, setLocalMeetingTime] = React.useState<string | null>(
     null,
   );
-  const fallbackMeetingTime = React.useMemo(
-    () => formatMeetingTimeFallback(),
-    [],
-  );
+  const fallbackMeetingTime = formatMeetingTimeFallback();
 
   React.useEffect(() => {
     try {
@@ -32,7 +29,7 @@ export default function MeetingIndexCard(): React.ReactElement {
     } catch {
       // Keep the fallback display if timezone calculation fails.
     }
-  }, [fallbackMeetingTime]);
+  }, []);
 
   return (
     <div className="card margin-bottom--lg">
@@ -87,10 +84,9 @@ export default function MeetingIndexCard(): React.ReactElement {
 }
 
 function formatMeetingTimeFallback(): string {
-  const currentYear = new Date().getFullYear();
   const date = makeDateInTimeZone(
     {
-      year: currentYear,
+      year: 2026,
       month: 1,
       day: 1,
       hour: MEETING_HOUR,
@@ -98,7 +94,13 @@ function formatMeetingTimeFallback(): string {
     },
     MEETING_TIMEZONE,
   );
-  return formatMeetingDisplay(date);
+  const timeFormatter = new Intl.DateTimeFormat(undefined, {
+    hour: "numeric",
+    minute: "2-digit",
+    timeZone: MEETING_TIMEZONE,
+    timeZoneName: "longGeneric",
+  });
+  return `${MEETING_WEEKDAY}s at ${timeFormatter.format(date)}`;
 }
 
 function formatMeetingDisplay(date: Date): string {
@@ -214,7 +216,14 @@ function getNextMeetingDate(now: Date): Date {
   ];
   const currentIndex = weekdayOrder.indexOf(ptParts.weekday ?? "");
   const targetIndex = weekdayOrder.indexOf(MEETING_WEEKDAY);
-  const daysAhead = (targetIndex - currentIndex + 7) % 7 || 7;
+  const rawDaysAhead = (targetIndex - currentIndex + 7) % 7;
+  const hasMeetingPassedToday =
+    rawDaysAhead === 0 &&
+    (((ptParts.hour ?? 0) > MEETING_HOUR) ||
+      ((ptParts.hour ?? 0) === MEETING_HOUR &&
+        (ptParts.minute ?? 0) >= MEETING_MINUTE));
+  const daysAhead =
+    rawDaysAhead === 0 && hasMeetingPassedToday ? 7 : rawDaysAhead;
   const nextMeetingPT = {
     year: ptParts.year,
     month: ptParts.month,
