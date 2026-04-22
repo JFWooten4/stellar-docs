@@ -25,11 +25,11 @@ The Stellar network acts as a decentralized distributed exchange that allows use
 
 Stellar uses order books to operate its decentralized exchange.
 
-An order book is a record of outstanding orders on a network, and each record sits between two assets (wheat and sheep, for example). The order book for this asset pair records every account wanting to sell wheat for sheep and every account wanting to sell sheep for wheat. In traditional finance, buying is expressed as a “bid” order, and selling is expressed as an “ask” order (ask orders are also called offers).
+An order book is a record of outstanding orders on a network, and each record sits between two assets (wheat and sheep, for example). The order book for this asset pair records every account wanting to sell wheat for sheep and every account wanting to sell sheep for wheat. In traditional finance, buying is expressed as a "bid" order, and selling is expressed as an "ask" order (ask orders are also called offers).
 
 A couple of notes on order books on Stellar:
 
-- The term “offers” usually refers specifically to ask orders. In Stellar, however, all orders are stored as selling- i.e., the system automatically converts bids to asks. Because of this, the terms “offer” and “order” are used interchangeably in the Stellar ecosystem.
+- The term "offers" usually refers specifically to ask orders. In Stellar, however, all orders are stored as selling- i.e., the system automatically converts bids to asks. Because of this, the terms "offer" and "order" are used interchangeably in the Stellar ecosystem.
 - Order books contain all orders that are acceptable to parties on either side to make a trade.
 - Some assets will have a small or nonexistent order book between them. In these cases, Stellar facilitates path payments, which we'll discuss later.
 
@@ -47,9 +47,9 @@ Orders are executed on a price-time priority, meaning orders will be executed ba
 
 ### Price and operations
 
-Each order in Stellar is quoted with an associated price and is represented as a ratio of the two assets in the order, one being the “quote asset” and the other being the “base asset”. This is to ensure there is no loss of precision when representing the price of the order (as opposed to storing the fraction as a floating-point number).
+Each order in Stellar is quoted with an associated price and is represented as a ratio of the two assets in the order, one being the "quote asset" and the other being the "base asset". This is to ensure there is no loss of precision when representing the price of the order (as opposed to storing the fraction as a floating-point number).
 
-Prices are specified as a {`numerator`, `denominator`} pair with both components of the fraction represented as 32-bit signed integers. The numerator is considered the base asset, and the denominator is considered the quote asset. When expressing a price of “Asset A in terms of Asset B”, the amount of B is the denominator (and therefore the quote asset), and A is the numerator (and therefore the base asset). As a good rule of thumb, it's generally correct to be thinking about the base asset that is being bought/sold (in terms of the quote asset).
+Prices are specified as a {`numerator`, `denominator`} pair with both components of the fraction represented as 32-bit signed integers. The numerator is considered the base asset, and the denominator is considered the quote asset. When expressing a price of "Asset A in terms of Asset B", the amount of B is the denominator (and therefore the quote asset), and A is the numerator (and therefore the base asset). As a good rule of thumb, it's generally correct to be thinking about the base asset that is being bought/sold (in terms of the quote asset).
 
 #### Manage Buy Offer
 
@@ -287,7 +287,7 @@ def preamble() -> None:
 
 Here, we use `distributeAssets()` to establish trustlines and set up initial balances of two custom assets (`A` and `B`, issued by `kp0`) for two accounts (`kp2` and `kp3`). For someone to participate in the pool, they must establish trustlines to each of the asset issuers and to the pool share asset (explained below).
 
-Note the `orderAssets()` helper here. Operations related to liquidity pools refer to the asset pair arbitrarily as `A` and `B`; however, they must be “ordered” such that `A` < `B`. This ordering is defined by the protocol, but its details should not be relevant (if you're curious, it's essentially lexicographically ordered by asset type, code, then issuer). We can use the comparison methods built into the SDKs (like `Asset.compare`) to ensure we pass them in the right order and avoid errors.
+Note the `orderAssets()` helper here. Operations related to liquidity pools refer to the asset pair arbitrarily as `A` and `B`; however, they must be "ordered" such that `A` < `B`. This ordering is defined by the protocol, but its details should not be relevant (if you're curious, it's essentially lexicographically ordered by asset type, code, then issuer). We can use the comparison methods built into the SDKs (like `Asset.compare`) to ensure we pass them in the right order and avoid errors.
 
 #### Participation: Creation
 
@@ -399,7 +399,7 @@ def add_liquidity(
 
 </CodeExample>
 
-When depositing assets into a liquidity pool, you need to define your acceptable price bounds. In the above function, we allow for a +/-10% margin of error from the “spot price”. This margin is by no means a recommendation and is chosen just for demonstration.
+When depositing assets into a liquidity pool, you need to define your acceptable price bounds. In the above function, we allow for a +/-10% margin of error from the "spot price". This margin is by no means a recommendation and is chosen just for demonstration.
 
 Notice that we also specify the maximum amount of each reserve we're willing to deposit. This, alongside the minimum and maximum prices, helps define boundaries for the deposit, since there can always be a change in the exchange rate between submitting the operation and it getting accepted by the network.
 

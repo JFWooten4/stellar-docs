@@ -30,7 +30,7 @@ Un libro de órdenes es un registro de órdenes pendientes en una red, y cada re
 
 Un par de notas sobre los libros de órdenes en Stellar:
 
-- El término “ofertas” generalmente se refiere específicamente a las órdenes de demanda. En Stellar, sin embargo, todas las órdenes se almacenan como ventas, es decir, el sistema convierte automáticamente las órdenes de oferta en órdenes de demanda. Debido a esto, los términos “oferta” y “orden” se utilizan de manera intercambiable en el ecosistema de Stellar.
+- El término "ofertas" generalmente se refiere específicamente a las órdenes de demanda. En Stellar, sin embargo, todas las órdenes se almacenan como ventas, es decir, el sistema convierte automáticamente las órdenes de oferta en órdenes de demanda. Debido a esto, los términos "oferta" y "orden" se utilizan de manera intercambiable en el ecosistema de Stellar.
 - Los libros de órdenes contienen todas las órdenes que son aceptables para las partes de ambos lados para realizar un intercambio.
 - Algunos activos tendrán un libro de órdenes pequeño o inexistente entre ellos. En estos casos, Stellar facilita pagos por rutas, de los cuales hablaremos más adelante.
 
@@ -48,9 +48,9 @@ Las órdenes se ejecutan bajo la prioridad de precio y tiempo, lo que significa 
 
 ### Precio y operaciones
 
-Cada orden en Stellar se cotiza con un precio asociado y se representa como una proporción de los dos activos en la orden, uno siendo el “activo de cotización” y el otro el “activo base”. Esto es para asegurar que no haya pérdida de precisión al representar el precio de la orden (en oposición a almacenar la fracción como un número de punto flotante).
+Cada orden en Stellar se cotiza con un precio asociado y se representa como una proporción de los dos activos en la orden, uno siendo el "activo de cotización" y el otro el "activo base". Esto es para asegurar que no haya pérdida de precisión al representar el precio de la orden (en oposición a almacenar la fracción como un número de punto flotante).
 
-Los precios se especifican como un par {`numerador`, `denominador`} con ambos componentes de la fracción representados como enteros con signo de 32 bits. El numerador se considera el activo base, y el denominador se considera el activo de cotización. Al expresar un precio de “Activo A en términos de Activo B”, la cantidad de B es el denominador (y por lo tanto el activo de cotización) y A es el numerador (y por lo tanto el activo base). Como una buena regla general, es generalmente correcto pensar en el activo base que se está comprando/vendiendo (en términos del activo de cotización).
+Los precios se especifican como un par {`numerador`, `denominador`} con ambos componentes de la fracción representados como enteros con signo de 32 bits. El numerador se considera el activo base, y el denominador se considera el activo de cotización. Al expresar un precio de "Activo A en términos de Activo B", la cantidad de B es el denominador (y por lo tanto el activo de cotización) y A es el numerador (y por lo tanto el activo base). Como una buena regla general, es generalmente correcto pensar en el activo base que se está comprando/vendiendo (en términos del activo de cotización).
 
 #### Gestionar Oferta de Compra
 
@@ -288,7 +288,7 @@ def preamble() -> None:
 
 Aquí, utilizamos `distributeAssets()` para establecer líneas de confianza y configurar saldos iniciales de dos activos personalizados (`A` y `B`, emitidos por `kp0`) para dos cuentas (`kp2` y `kp3`). Para que alguien participe en el fondo, debe establecer líneas de confianza con cada uno de los emisores de activos y con el activo de la acción del fondo (explicado a continuación).
 
-Nota la función auxiliar `orderAssets()` aquí. Las operaciones relacionadas con los fondos de liquidez se refieren arbitrariamente al par de activos como `A` y `B`; sin embargo, deben ser “ordenados” de modo que `A` < `B`. Este orden se define por el protocolo, pero sus detalles no deberían ser relevantes (si tienes curiosidad, está ordenado lexicográficamente por tipo de activo, código y luego emisor). Podemos utilizar los métodos de comparación integrados en los SDK (como `Asset.compare`) para asegurarnos de pasarlos en el orden correcto y evitar errores.
+Nota la función auxiliar `orderAssets()` aquí. Las operaciones relacionadas con los fondos de liquidez se refieren arbitrariamente al par de activos como `A` y `B`; sin embargo, deben ser "ordenados" de modo que `A` < `B`. Este orden se define por el protocolo, pero sus detalles no deberían ser relevantes (si tienes curiosidad, está ordenado lexicográficamente por tipo de activo, código y luego emisor). Podemos utilizar los métodos de comparación integrados en los SDK (como `Asset.compare`) para asegurarnos de pasarlos en el orden correcto y evitar errores.
 
 #### Participación: Creación
 
@@ -400,7 +400,7 @@ def add_liquidity(
 
 </CodeExample>
 
-Al depositar activos en un fondo de liquidez, necesitas definir tus límites de precio aceptables. En la función anterior, permitimos un margen de error de +/-10% respecto al “precio de mercado”. Este margen no es en modo alguno una recomendación y se elige solo para demostración.
+Al depositar activos en un fondo de liquidez, necesitas definir tus límites de precio aceptables. En la función anterior, permitimos un margen de error de +/-10% respecto al "precio de mercado". Este margen no es en modo alguno una recomendación y se elige solo para demostración.
 
 Ten en cuenta que también especificamos el monto máximo de cada reserva que estamos dispuestos a depositar. Esto, junto con los precios mínimos y máximos, ayuda a definir límites para el depósito, ya que siempre puede haber un cambio en la tasa de cambio entre el envío de la operación y su aceptación por la red.
 

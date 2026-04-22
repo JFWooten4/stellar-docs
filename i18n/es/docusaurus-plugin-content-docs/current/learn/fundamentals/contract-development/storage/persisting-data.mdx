@@ -44,7 +44,7 @@ Los contratos sólo pueden acceder a las entradas del ledger especificadas en la
 
 Aunque no existe distinción entre estado "de cuenta" y estado "compartido" a nivel de protocolo, puede ser útil pensar en los datos en estos términos al decidir qué tipo de almacenamiento y estrategia de extensión TTL usar para un caso concreto. Como guía, el estado de cuenta y el estado compartido se pueden describir así:
 
-- La mayoría del estado del contrato puede estar asociado a una cuenta específica o compartido entre múltiples personas interesadas (“bien público”).
+- La mayoría del estado del contrato puede estar asociado a una cuenta específica o compartido entre múltiples personas interesadas ("bien público").
   - Estado específico de cuenta
     - Saldos, posiciones, asignaciones, etc.
   - Estado compartido
@@ -80,7 +80,7 @@ Además de los tipos de estado, también es útil considerar el tipo de instanci
   - Esto garantiza que el TTL de la instancia del contrato y todos los globals relevantes estén vinculados.
   - Como se usa frecuentemente el estado global, esto asegura que el estado global nunca necesitará ser restaurado, conduciendo a invocaciones de contrato más baratas y eficientes.
 - Los contratos autónomos deberían extender el TTL de cualquier estado compartido tocado por una invocación vía la función host `extend_ttl()`.
-  - Dado que estos contratos no tienen propietarios, dejar las extensiones TTL a clientes benevolentes podría llevar a una situación de “tragedia de los comunes”.
+  - Dado que estos contratos no tienen propietarios, dejar las extensiones TTL a clientes benevolentes podría llevar a una situación de "tragedia de los comunes".
   - La mayoría de usuarios no extienden el TTL porque no es necesario, pero aún se benefician del cliente benevolente que sí extiende el TTL.
 - Los propietarios de contratos propiedad deberían subsidiar las tarifas de extensión de TTL del estado compartido enviando manualmente operaciones de extensión.
   - Los propietarios deberían llevar un control de los TTLs para todo el estado compartido.
@@ -90,7 +90,7 @@ Además de los tipos de estado, también es útil considerar el tipo de instanci
 - Nunca se debería depender de las extensiones TTL para funcionalidades o seguridad.
   - Ejemplo inseguro: una entrada debe ser permanente, pero en lugar de usar almacenamiento `Persistent`, un contrato usa almacenamiento `Temporary` y extiende continuamente la entrada para que siempre esté activa.
     - Como no existe interfaz automática para la extensión TTL, y cada extensión TTL debe provenir de una invocación de contrato inteligente o `ExtendFootprintTTLOp`, debe asumirse que el TTL de una entrada puede llegar a 0 y que la entrada puede ser eliminada.
-    - Las tarifas de extensión TTL son variables y podría volverse demasiado costoso extender el TTL de entradas `Temporary` pseudo “persistentes” si las tarifas aumentan inesperadamente.
+    - Las tarifas de extensión TTL son variables y podría volverse demasiado costoso extender el TTL de entradas `Temporary` pseudo "persistentes" si las tarifas aumentan inesperadamente.
     - Si el proceso de extensión TTL es automático (es decir, un trabajo cron), la cuenta que envía automáticamente `ExtendFootprintTTLOps` podría quedarse sin fondos inesperadamente si las tarifas de extensión TTL aumentan, haciendo que la entrada `Temporary` agote su TTL y sea eliminada permanentemente.
 - No se debería depender del agotamiento del TTL de la entrada para funcionalidades o seguridad.
   - Ejemplo inseguro: un nonce debe expirar en 7 días, por lo que un contrato crea una entrada `Temporary` y extiende el TTL a 7 días sin ninguna otra aplicación de tiempo de vida.

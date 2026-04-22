@@ -196,7 +196,7 @@ Podemos usar este bloque para hacer un pago entre cuentas Stellar normales con f
 
 #### Muxed a Unmuxed
 
-El bloque de código anterior cubre todas las operaciones de pago, abstraiendo cualquier necesidad de diferenciar entre muxed (M...) y no demuxido (G...) direcciones. Desde un nivel alto, entonces, sigue siendo trivial hacer pagos entre uno de nuestros “clientes” y alguien fuera de la organización del “custodio”.
+El bloque de código anterior cubre todas las operaciones de pago, abstraiendo cualquier necesidad de diferenciar entre muxed (M...) y no demuxido (G...) direcciones. Desde un nivel alto, entonces, sigue siendo trivial hacer pagos entre uno de nuestros "clientes" y alguien fuera de la organización del "custodio".
 
 <CodeExample>
 
@@ -269,7 +269,7 @@ Aun así, si esto ocurre, parsear una transacción con un parámetro muxed sin m
 - Si tu SDK está desactualizado, el parsing fallará. Debes actualizar tu SDK. Por ejemplo, el SDK de JavaScript mostrará un mensaje útil:
 
 ```
-“destination is invalid; did you forget to enable muxing?”
+"destination is invalid; did you forget to enable muxing?"
 ```
 
 - Si tu SDK está actualizado, verás la dirección muxed (`M...`) parseada. Lo que pase después depende de tu aplicación.
@@ -288,7 +288,7 @@ En un mundo ideal, esta situación nunca debería ocurrir. Puedes determinar si 
 
 En las versiones actualizadas de los SDK de Stellar, las cuentas muxed son admitidas de forma nativa por defecto. Sin embargo, si estás usando una versión antigua de un SDK, es posible que aún estén ocultas detrás de una bandera de función.
 
-Si obtienes errores al usar direcciones muxed en operaciones admitidas como: “¿el destino es inválido; ¿has habilitado el muxing?
+Si obtienes errores al usar direcciones muxed en operaciones admitidas como: "¿el destino es inválido; ¿has habilitado el muxing?
 
 Recomendamos actualizar a la última versión de todos los SDK de Stellar que uses. Sin embargo, si eso no es posible por alguna razón, necesitarás habilitar la bandera de función antes de interactuar con cuentas muxed. Consulta la documentación de tu SDK para más detalles.
 
@@ -316,7 +316,7 @@ transactionBuilder.addOperation(
 
 El resultado en tiempo de ejecución sería:
 
-“Error: byte de versión inválido. se esperaba 48, se obtuvo 96”
+"Error: byte de versión inválido. se esperaba 48, se obtuvo 96"
 
 Este mensaje de error indica que el `trustor` no se pudo parsear como un ID de cuenta Stellar (`G...`). En otras palabras, tu código fallará y la operación inválida nunca alcanzará la red.
 

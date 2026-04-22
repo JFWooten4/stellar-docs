@@ -378,7 +378,7 @@ Even still, if this does occur, parsing a transaction with a muxed parameter wit
 
 ```
 
-“destination is invalid; did you forget to enable muxing?”
+"destination is invalid; did you forget to enable muxing?"
 
 ```
 
@@ -398,7 +398,7 @@ In an ideal world, this situation would never happen. You can determine whether 
 
 In up-to-date versions of Stellar SDKs, muxed accounts are natively supported by default. If you are using an older version of an SDK, however, they may still be hidden behind a feature flag.
 
-If you get errors when using muxed addresses on supported operations like: “destination is invalid; did you enable muxing?”
+If you get errors when using muxed addresses on supported operations like: "destination is invalid; did you enable muxing?"
 
 We recommend upgrading to the latest version of any and all Stellar SDKs you use. However, if that's not possible for some reason, you will need to enable the feature flag before interacting with muxed accounts. Consult your SDK's documentation for details.
 
@@ -426,7 +426,7 @@ transactionBuilder.addOperation(
 
 The runtime result would be:
 
-“Error: invalid version byte. expected 48, got 96”
+"Error: invalid version byte. expected 48, got 96"
 
 This error message indicates that the `trustor` failed to parse as a Stellar account ID (`G...`). In other words, your code will fail and the invalid operation will never reach the network.
 

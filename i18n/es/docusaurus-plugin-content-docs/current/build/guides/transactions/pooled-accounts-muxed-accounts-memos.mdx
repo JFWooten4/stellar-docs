@@ -378,7 +378,7 @@ Aún así, si esto ocurre, analizar una transacción con un parámetro muxed sin
 
 ```
 
-“destination is invalid; did you forget to enable muxing?”
+"destination is invalid; did you forget to enable muxing?"
 
 ```
 
@@ -398,7 +398,7 @@ En un mundo ideal, esta situación nunca sucedería. Puedes determinar si los ID
 
 En versiones actualizadas de los SDKs de Stellar, las cuentas muxed son admitidas de forma nativa por defecto. Sin embargo, si estás usando una versión antigua de un SDK, pueden seguir estando ocultas detrás de una característica flag.
 
-Si obtienes errores al usar direcciones muxed en operaciones admitidas como: “destino es inválido; ¿habilitaste muxing?”
+Si obtienes errores al usar direcciones muxed en operaciones admitidas como: "destino es inválido; ¿habilitaste muxing?"
 
 Recomendamos actualizar a la última versión de todos los SDKs de Stellar que uses. Sin embargo, si eso no es posible por alguna razón, necesitarás habilitar la característica flag antes de interactuar con cuentas muxed. Consulta la documentación de tu SDK para detalles.
 
@@ -426,7 +426,7 @@ transactionBuilder.addOperation(
 
 El resultado en tiempo de ejecución sería:
 
-“Error: byte de versión inválido. se esperaba 48, se obtuvo 96”
+"Error: byte de versión inválido. se esperaba 48, se obtuvo 96"
 
 Este mensaje de error indica que el `trustor` no se pudo analizar como un ID de cuenta Stellar (`G...`). En otras palabras, tu código fallará y la operación inválida nunca llegará a la red.
 

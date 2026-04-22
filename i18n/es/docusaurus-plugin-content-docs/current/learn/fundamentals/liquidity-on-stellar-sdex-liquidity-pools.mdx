@@ -25,11 +25,11 @@ La red Stellar funciona como un exchange distribuido descentralizado que permite
 
 Stellar utiliza libros de órdenes para operar su exchange descentralizado.
 
-Un libro de órdenes es un registro de órdenes pendientes en una red, y cada registro se sitúa entre dos activos (trigo y ovejas, por ejemplo). El libro de órdenes de este par de activos registra cada cuenta que quiere vender trigo por ovejas y cada cuenta que quiere vender ovejas por trigo. En finanzas tradicionales, comprar se expresa como una orden de “compra” (bid), y vender se expresa como una orden de “venta” (ask) (las órdenes ask también se llaman ofertas).
+Un libro de órdenes es un registro de órdenes pendientes en una red, y cada registro se sitúa entre dos activos (trigo y ovejas, por ejemplo). El libro de órdenes de este par de activos registra cada cuenta que quiere vender trigo por ovejas y cada cuenta que quiere vender ovejas por trigo. En finanzas tradicionales, comprar se expresa como una orden de "compra" (bid), y vender se expresa como una orden de "venta" (ask) (las órdenes ask también se llaman ofertas).
 
 Un par de notas sobre los libros de órdenes en Stellar:
 
-- El término “ofertas” generalmente se refiere específicamente a las órdenes ask. Sin embargo, en Stellar, todas las órdenes se almacenan como órdenes de venta, es decir, el sistema convierte automáticamente las órdenes de compra en órdenes ask. Por eso, los términos “oferta” y “orden” se usan indistintamente en el ecosistema Stellar.
+- El término "ofertas" generalmente se refiere específicamente a las órdenes ask. Sin embargo, en Stellar, todas las órdenes se almacenan como órdenes de venta, es decir, el sistema convierte automáticamente las órdenes de compra en órdenes ask. Por eso, los términos "oferta" y "orden" se usan indistintamente en el ecosistema Stellar.
 - Los libros de órdenes contienen todas las órdenes aceptables para las partes de cualquiera de los lados para realizar una operación.
 - Algunos activos tendrán un libro de órdenes pequeño o inexistente entre ellos. En estos casos, Stellar facilita pagos por rutas, que discutiremos más adelante.
 
@@ -47,9 +47,9 @@ Las órdenes se ejecutan con prioridad precio-tiempo, lo que significa que las �
 
 ### Precio y operaciones
 
-Cada orden en Stellar se cotiza con un precio asociado y está representada como una proporción de los dos activos en la orden, siendo uno el “activo cotizado” y el otro el “activo base”. Esto asegura que no haya pérdida de precisión al representar el precio de la orden (en lugar de almacenar la fracción como un número de punto flotante).
+Cada orden en Stellar se cotiza con un precio asociado y está representada como una proporción de los dos activos en la orden, siendo uno el "activo cotizado" y el otro el "activo base". Esto asegura que no haya pérdida de precisión al representar el precio de la orden (en lugar de almacenar la fracción como un número de punto flotante).
 
-Los precios se especifican como un par {`numerador`, `denominador`} con ambos componentes de la fracción representados como enteros con signo de 32 bits. El numerador se considera el activo base, y el denominador se considera el activo cotizado. Al expresar un precio de “Activo A en términos de Activo B”, la cantidad de B es el denominador (y por tanto el activo cotizado), y A es el numerador (y por tanto el activo base). Por regla general, es correcto pensar en el activo base que se está comprando/vendiendo (en términos del activo cotizado).
+Los precios se especifican como un par {`numerador`, `denominador`} con ambos componentes de la fracción representados como enteros con signo de 32 bits. El numerador se considera el activo base, y el denominador se considera el activo cotizado. Al expresar un precio de "Activo A en términos de Activo B", la cantidad de B es el denominador (y por tanto el activo cotizado), y A es el numerador (y por tanto el activo base). Por regla general, es correcto pensar en el activo base que se está comprando/vendiendo (en términos del activo cotizado).
 
 #### Gestionar oferta de compra
 
@@ -287,7 +287,7 @@ def preamble() -> None:
 
 Aquí usamos `distributeAssets()` para establecer trustlines y configurar saldos iniciales de dos activos personalizados (`A` y `B`, emitidos por `kp0`) para dos cuentas (`kp2` y `kp3`). Para que alguien participe en el fondo, debe establecer trustlines hacia cada emisor de activo y hacia el activo de la participación del fondo (explicado abajo).
 
-Observa la función auxiliar `orderAssets()` aquí. Las operaciones relacionadas con fondos de liquidez se refieren al par de activos arbitrariamente como `A` y `B`; sin embargo, deben estar “ordenados” tal que `A` < `B`. Este orden lo define el protocolo, pero sus detalles no deberían ser relevantes (si tienes curiosidad, es esencialmente orden lexicográfico por tipo de activo, código y emisor). Podemos usar los métodos de comparación integrados en los SDKs (como `Asset.compare`) para asegurarnos de pasarlos en el orden correcto y evitar errores.
+Observa la función auxiliar `orderAssets()` aquí. Las operaciones relacionadas con fondos de liquidez se refieren al par de activos arbitrariamente como `A` y `B`; sin embargo, deben estar "ordenados" tal que `A` < `B`. Este orden lo define el protocolo, pero sus detalles no deberían ser relevantes (si tienes curiosidad, es esencialmente orden lexicográfico por tipo de activo, código y emisor). Podemos usar los métodos de comparación integrados en los SDKs (como `Asset.compare`) para asegurarnos de pasarlos en el orden correcto y evitar errores.
 
 #### Participación: Creación
 
@@ -399,7 +399,7 @@ def add_liquidity(
 
 </CodeExample>
 
-Cuando depositas activos en un fondo de liquidez, necesitas definir los límites de precio aceptables. En la función anterior, permitimos un margen de error de +/-10% respecto al “precio spot”. Este margen no es una recomendación, solo se eligió para demostración.
+Cuando depositas activos en un fondo de liquidez, necesitas definir los límites de precio aceptables. En la función anterior, permitimos un margen de error de +/-10% respecto al "precio spot". Este margen no es una recomendación, solo se eligió para demostración.
 
 También especificamos la cantidad máxima de cada reserva que estás dispuesto a depositar. Esto, junto con los precios mínimos y máximos, ayuda a definir los límites para el depósito, ya que siempre puede haber un cambio en la tasa de exchange entre enviar la operación y que ésta sea aceptada por la red.
 
