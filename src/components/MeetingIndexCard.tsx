@@ -84,23 +84,18 @@ export default function MeetingIndexCard(): React.ReactElement {
 }
 
 function formatMeetingTimeFallback(): string {
-  const date = makeDateInTimeZone(
-    {
-      year: 2026,
-      month: 1,
-      day: 1,
-      hour: MEETING_HOUR,
-      minute: MEETING_MINUTE,
-    },
-    MEETING_TIMEZONE,
-  );
-  const timeFormatter = new Intl.DateTimeFormat(undefined, {
-    hour: "numeric",
-    minute: "2-digit",
-    timeZone: MEETING_TIMEZONE,
-    timeZoneName: "longGeneric",
-  });
-  return `${MEETING_WEEKDAY}s at ${timeFormatter.format(date)}`;
+  return `${MEETING_WEEKDAY}s at ${formatMeetingTime(
+    makeDateInTimeZone(
+      {
+        year: 2024,
+        month: 1,
+        day: 4, // Thursday
+        hour: MEETING_HOUR,
+        minute: MEETING_MINUTE,
+      },
+      MEETING_TIMEZONE,
+    ),
+  )}`;
 }
 
 function formatMeetingDisplay(date: Date): string {
