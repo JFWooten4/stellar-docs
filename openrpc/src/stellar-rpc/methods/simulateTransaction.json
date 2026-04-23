@@ -32,7 +32,7 @@
                 },
                 "minResourceFee": {
                     "type": "string",
-                    "description": "(optional) Stringified number - Recommended minimum resource fee to add when submitting the transaction. This fee is to be added on top of the [Stellar network fee](https://developers.stellar.org/docs/learn/fundamentals/fees-resource-limits-metering#inclusion-fee). Not present in case of error."
+                    "description": "(optional) Stringified number - Recommended minimum resource fee to add when submitting the transaction. This fee is to be added on top of the Stellar network fee. Not present in case of error."
                 },
                 "results": {
                     "type": "array",
@@ -72,7 +72,7 @@
                     "properties": {
                         "minResourceFee": {
                             "type": "string",
-                            "description": "Stringified number - Recommended minimum resource fee to add when submitting the `RestoreFootprint` operation. This fee is to be added on top of the [Stellar network fee](https://developers.stellar.org/docs/learn/fundamentals/fees-resource-limits-metering#inclusion-fee)."
+                            "description": "Stringified number - Recommended minimum resource fee to add when submitting the `RestoreFootprint` operation. This fee is to be added on top of the Stellar network fee."
                         },
                         "transactionData": {
                             "type": "string",
