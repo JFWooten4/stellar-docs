@@ -97,7 +97,7 @@ paths:
         - Accounts
       summary: Retrieve an Account
       description: |
-        The single account endpoint provides information on a specific [account](../../../learn/fundamentals/stellar-data-structures/accounts.mdx).
+        The single account endpoint provides information on a specific [account](../../../../learn/fundamentals/stellar-data-structures/accounts.mdx).
 
         The balances section in the response will also list all the trustlines this account has established, including trustlines that haven't been authorized yet.
       operationId: RetrieveAnAccount
@@ -285,7 +285,7 @@ paths:
       tags:
         - Accounts
       summary: Retrieve an Account's Data
-      description: This endpoint represents a single [data](../../../learn/fundamentals/transactions/list-of-operations.mdx#manage-data) for a given account.
+      description: This endpoint represents a single [data](../../../../learn/fundamentals/transactions/list-of-operations.mdx#manage-data) for a given account.
       operationId: GetDataByAccountId
       parameters:
         - $ref: '#/components/parameters/AccountIDParam'
@@ -660,7 +660,7 @@ paths:
       tags:
         - Liquidity Pools
       summary: Retrieve a Liquidity Pool
-      description: The single liquidity pool endpoint provides information on a [liquidity pool](../../../learn/fundamentals/liquidity-on-stellar-sdex-liquidity-pools.mdx#liquidity-pools).
+      description: The single liquidity pool endpoint provides information on a [liquidity pool](../../../../learn/fundamentals/liquidity-on-stellar-sdex-liquidity-pools.mdx#liquidity-pools).
       operationId: RetrieveALiquidityPool
       parameters:
         - $ref: '#/components/parameters/LiquidityPoolParamId'
@@ -814,7 +814,7 @@ paths:
       tags:
         - Offers
       summary: Retrieve an Offer
-      description: The single offer endpoint provides information on a specific [offer](../../../learn/fundamentals/liquidity-on-stellar-sdex-liquidity-pools.mdx#orders).
+      description: The single offer endpoint provides information on a specific [offer](../../../../learn/fundamentals/liquidity-on-stellar-sdex-liquidity-pools.mdx#orders).
       operationId: GetOfferByOfferId
       parameters:
         - $ref: '#/components/parameters/OfferIDParam'
@@ -1187,7 +1187,7 @@ paths:
         - Trade Aggregations
       summary: List Trade Aggregations
       description: |
-        This endpoint displays [trade](../../../learn/fundamentals/liquidity-on-stellar-sdex-liquidity-pools.mdx#orders) data based on filters set in the arguments.
+        This endpoint displays [trade](../../../../learn/fundamentals/liquidity-on-stellar-sdex-liquidity-pools.mdx#orders) data based on filters set in the arguments.
 
         This is done by dividing a given time range into segments and aggregating statistics for a given asset pair[^pair] over each of these segments.
 
@@ -1295,7 +1295,7 @@ paths:
       tags:
         - Transactions
       summary: Retrieve a Transaction
-      description: The single transaction endpoint provides information on a specific [transaction](../../../learn/fundamentals/transactions/operations-and-transactions.mdx#transactions).
+      description: The single transaction endpoint provides information on a specific [transaction](../../../../learn/fundamentals/transactions/operations-and-transactions.mdx#transactions).
       operationId: RetrieveATransaction
       parameters:
         - $ref: '#/components/parameters/HashParam'
@@ -1364,7 +1364,7 @@ paths:
       tags:
         - Payments
       summary: Retrieve a Transaction's Payments
-      description: This endpoint returns the [payments](../../../learn/fundamentals/transactions/list-of-operations.mdx#payment) of a specific transaction.
+      description: This endpoint returns the [payments](../../../../learn/fundamentals/transactions/list-of-operations.mdx#payment) of a specific transaction.
       operationId: RetrieveATransactionsPayments
       parameters:
         - $ref: '#/components/parameters/HashParam'

@@ -29,7 +29,7 @@ paths:
       tags:
         - Liquidity Pools
       summary: Retrieve a Liquidity Pool
-      description: The single liquidity pool endpoint provides information on a [liquidity pool](../../../learn/fundamentals/liquidity-on-stellar-sdex-liquidity-pools.mdx#liquidity-pools).
+      description: The single liquidity pool endpoint provides information on a [liquidity pool](../../../../learn/fundamentals/liquidity-on-stellar-sdex-liquidity-pools.mdx#liquidity-pools).
       operationId: RetrieveALiquidityPool
       parameters:
         - $ref: '../parameters.yml#/components/parameters/LiquidityPoolParamId'

@@ -4,7 +4,7 @@ paths:
       tags:
         - Transactions
       summary: Retrieve a Transaction
-      description: The single transaction endpoint provides information on a specific [transaction](../../../learn/fundamentals/transactions/operations-and-transactions.mdx#transactions).
+      description: The single transaction endpoint provides information on a specific [transaction](../../../../learn/fundamentals/transactions/operations-and-transactions.mdx#transactions).
       operationId: RetrieveATransaction
       parameters:
         - $ref: '../parameters.yml#/components/parameters/HashParam'
@@ -74,7 +74,7 @@ paths:
       tags:
         - Payments
       summary: Retrieve a Transaction's Payments
-      description: This endpoint returns the [payments](../../../learn/fundamentals/transactions/list-of-operations.mdx#payment) of a specific transaction.
+      description: This endpoint returns the [payments](../../../../learn/fundamentals/transactions/list-of-operations.mdx#payment) of a specific transaction.
       operationId: RetrieveATransactionsPayments
       parameters:
         - $ref: "../parameters.yml#/components/parameters/HashParam"
