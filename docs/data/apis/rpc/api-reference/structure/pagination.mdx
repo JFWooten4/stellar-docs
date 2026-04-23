@@ -13,44 +13,14 @@ This pattern is used by:
 
 For methods which support it, pagination is passed as a final object argument with two optional values:
 
-<AttributeTable>
-
-- ATTRIBUTE
-  - DATA TYPE
-  - DESCRIPTION
-- `pagination`
-  - object
-  - Pagination controls for the request.
-    - `pagination.cursor`
-      - string
-      - An opaque paging token returned by a previous response. Pass it back unchanged to request the next page.
-    - `pagination.limit`
-      - number
-      - The maximum number of records returned in a single page. Defaults and maximums vary by method:
-        - `getEvents`: defaults to `100`, maximum `10000`
-        - `getLedgers`: defaults to `50`, maximum `200`
-        - `getTransactions`: defaults to `50`, maximum `200`
-
-</AttributeTable>
+- `pagination.cursor` An opaque paging token returned by a previous response. Pass it back unchanged to request the next page.
+- `pagination.limit` The maximum number of records returned in a single page. Defaults and maximums vary by method: `getEvents`: default `100`, maximum `10000` `getLedgers`: default `50`, maximum `200` `getTransactions`: default `50`, maximum `200`
 
 Paginated RPC responses follow the same high-level structure:
 
-<AttributeTable>
-
-- ATTRIBUTE
-  - DATA TYPE
-  - DESCRIPTION
-- records array
-  - array
-  - The page of results for the method you called. This is `events`, `ledgers`, or `transactions`, depending on the endpoint.
-- `cursor`
-  - string
-  - A token for the next page. Use this value as `pagination.cursor` in the next request.
-- ledger metadata
-  - object fields
-  - Additional top-level fields such as `latestLedger`, `oldestLedger`, and their close times provide context about the node's current retention window.
-
-</AttributeTable>
+- records array The page of results for the method you called. This is `events`, `ledgers`, or `transactions`, depending on the endpoint.
+- `cursor` A token for the next page. Use this value as `pagination.cursor` in the next request.
+- ledger metadata Additional top-level fields such as `latestLedger`, `oldestLedger`, and their close times provide context about the node's current retention window.
 
 ### How Pagination Works
 
