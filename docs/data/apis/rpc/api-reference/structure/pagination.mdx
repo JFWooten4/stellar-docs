@@ -3,24 +3,162 @@ sidebar_position: 50
 title: Pagination
 ---
 
-For methods which support it, the pagination arguments are passed as a final object argument with two values:
+Several RPC methods return large collections of records, so Stellar RPC paginates those results. Instead of returning navigation links like Horizon, RPC returns a top-level `cursor` in the response. To fetch the next page, pass that returned `cursor` back in the next request's `pagination` object.
 
-- `cursor`: string - (optional) An opaque string which acts as a paging token. Each response will include a `cursor` field which can be included in a subsequent request to obtain the next page of results.
-- `limit`: number - (optional) The maximum number of records returned. The limit for [getEvents](../methods/getEvents.mdx) can range from 1 to 10000 - an upper limit that is hardcoded in Stellar-RPC for performance reasons. If this argument isn't designated, it defaults to 100.
+This pattern is used by:
 
-For example, calling a method with pagination parameter set:
+- [`getEvents`](../methods/getEvents.mdx)
+- [`getLedgers`](../methods/getLedgers.mdx)
+- [`getTransactions`](../methods/getTransactions.mdx)
+
+For methods which support it, pagination is passed as a final object argument with two optional values:
+
+<AttributeTable>
+
+- ATTRIBUTE
+  - DATA TYPE
+  - DESCRIPTION
+- `pagination`
+  - object
+  - Pagination controls for the request.
+    - `pagination.cursor`
+      - string
+      - An opaque paging token returned by a previous response. Pass it back unchanged to request the next page.
+    - `pagination.limit`
+      - number
+      - The maximum number of records returned in a single page. Defaults and maximums vary by method:
+        - `getEvents`: defaults to `100`, maximum `10000`
+        - `getLedgers`: defaults to `50`, maximum `200`
+        - `getTransactions`: defaults to `50`, maximum `200`
+
+</AttributeTable>
+
+Paginated RPC responses follow the same high-level structure:
+
+<AttributeTable>
+
+- ATTRIBUTE
+  - DATA TYPE
+  - DESCRIPTION
+- records array
+  - array
+  - The page of results for the method you called. This is `events`, `ledgers`, or `transactions`, depending on the endpoint.
+- `cursor`
+  - string
+  - A token for the next page. Use this value as `pagination.cursor` in the next request.
+- ledger metadata
+  - object fields
+  - Additional top-level fields such as `latestLedger`, `oldestLedger`, and their close times provide context about the node's current retention window.
+
+</AttributeTable>
+
+### How Pagination Works
+
+1. Make an initial request with a `limit`, and usually a starting filter such as `startLedger`.
+2. Read the returned records from the method-specific array: `events`, `ledgers`, or `transactions`.
+3. Save the top-level `cursor` from the response.
+4. Request the next page by sending that value back as `pagination.cursor`.
+5. Stop when the response returns fewer records than your requested `limit`.
+
+When a request includes `pagination.cursor`, do not also send the starting range parameters that established the first page. For example, `getEvents` requires `startLedger` and `endLedger` to be omitted when a `cursor` is present.
+
+<CodeExample title="Example SDK Flow">
+
+```js
+// yarn add @stellar/stellar-sdk
+import { Server } from "@stellar/stellar-sdk/rpc";
+
+const server = new Server("https://soroban-testnet.stellar.org");
+
+async function getAllTransactions(startLedger = 337151, limit = 2) {
+  let cursor;
+  let page = 1;
+
+  while (true) {
+    const response = await server.getTransactions({
+      ...(cursor ? {} : { startLedger }),
+      pagination: {
+        limit,
+        ...(cursor ? { cursor } : {}),
+      },
+    });
+
+    console.log(`page ${page}`, response.transactions);
+
+    if (response.transactions.length < limit) {
+      break;
+    }
+
+    cursor = response.cursor;
+    page += 1;
+  }
+}
+
+getAllTransactions().catch(console.error);
+```
+
+</CodeExample>
+
+<CodeExample title="Example Requests">
 
 ```json
 {
   "jsonrpc": "2.0",
   "id": "1",
-  "method": "exampleMethod",
+  "method": "getTransactions",
   "params": {
-    "some": "argument",
+    "startLedger": 337151,
     "pagination": {
-      "cursor": "1234-1",
-      "limit": 100
+      "limit": 2
     }
   }
 }
 ```
+
+```json
+{
+  "jsonrpc": "2.0",
+  "id": "2",
+  "method": "getTransactions",
+  "params": {
+    "pagination": {
+      "cursor": "1448572209876993",
+      "limit": 2
+    }
+  }
+}
+```
+
+</CodeExample>
+
+<ExampleResponse title="Example Paginated Response">
+
+```json
+{
+  "transactions": [
+    {
+      "status": "SUCCESS",
+      "txHash": "32f7e5c3afd281fcaa99c0e990adf62f33e3bb341b1641a5c8b0b4a4dc55c487",
+      "applicationOrder": 3,
+      "ledger": 337271,
+      "createdAt": 1751955319
+    },
+    {
+      "status": "FAILED",
+      "txHash": "173d6022f8db9654f31c5aa53785385b913ed32baf8ee72f984b97a97bb0909b",
+      "applicationOrder": 1,
+      "ledger": 337272,
+      "createdAt": 1751955324
+    }
+  ],
+  "latestLedger": 353482,
+  "latestLedgerCloseTimestamp": 1752036440,
+  "oldestLedger": 337151,
+  "oldestLedgerCloseTimestamp": 1751954719,
+  "cursor": "1448572209876993"
+}
+```
+
+</ExampleResponse>
+
+In this example, the next request should reuse `"cursor": "1448572209876993"` inside the `pagination` object. If the next page returns fewer than `2` transactions, you have reached the end of the available result set for that query.
