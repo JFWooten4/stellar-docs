@@ -14,7 +14,10 @@ This pattern is used by:
 For methods which support it, pagination is passed as a final object argument with two optional values:
 
 - `pagination.cursor` An opaque paging token returned by a previous response. Pass it back unchanged to request the next page.
-- `pagination.limit` The maximum number of records returned in a single page. Defaults and maximums vary by method: `getEvents`: default `100`, maximum `10000` `getLedgers`: default `50`, maximum `200` `getTransactions`: default `50`, maximum `200`
+- `pagination.limit` The maximum number of records returned in a single page. Defaults and maximums vary by method:
+  - `getEvents`: default `100`, maximum `10000`
+  - `getLedgers`: default `50`, maximum `200`
+  - `getTransactions`: default `50`, maximum `200`
 
 Paginated RPC responses follow the same high-level structure:
 
@@ -69,7 +72,7 @@ getAllTransactions().catch(console.error);
 
 </CodeExample>
 
-<CodeExample title="Example Requests">
+<CodeExample title="Example Initial Request">
 
 ```json
 {
@@ -84,6 +87,10 @@ getAllTransactions().catch(console.error);
   }
 }
 ```
+
+</CodeExample>
+
+<CodeExample title="Example Next-Page Request">
 
 ```json
 {
