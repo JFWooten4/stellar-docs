@@ -2,7 +2,7 @@
     "PaginationEvents": {
         "name": "pagination",
         "summary": "pagination options",
-        "description": "Pagination in stellar-rpc is similar to pagination in Horizon. See the Pagination docs.",
+        "description": "Pagination in stellar-rpc is similar to pagination in Horizon. See the pagination docs.",
         "required": false,
         "schema": {
             "$ref": "#/components/schemas/PaginationEvents"
@@ -11,7 +11,7 @@
     "PaginationLedgers": {
         "name": "pagination",
         "summary": "pagination options",
-        "description": "Pagination in stellar-rpc is similar to pagination in Horizon. See the Pagination docs.",
+        "description": "Pagination in stellar-rpc is similar to pagination in Horizon. See the pagination docs.",
         "required": false,
         "schema": {
             "$ref": "#/components/schemas/PaginationLedgers"
@@ -20,7 +20,7 @@
     "PaginationTransactions": {
         "name": "pagination",
         "summary": "pagination options",
-        "description": "Pagination in stellar-rpc is similar to pagination in Horizon. See the Pagination docs.",
+        "description": "Pagination in stellar-rpc is similar to pagination in Horizon. See the pagination docs.",
         "required": false,
         "schema": {
             "$ref": "#/components/schemas/PaginationTransactions"
