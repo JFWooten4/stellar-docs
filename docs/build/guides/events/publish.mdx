@@ -1,0 +1,87 @@
+---
+title: Publish events from a Rust contract
+hide_table_of_contents: true
+description: Publish events from a Rust contract
+---
+
+An event can contain topics, alongside the data it is publishing. The topics data can be any value or type you want.
+
+:::info[Whisk Changes]
+
+With the release of Whisk, Protocol 23, the syntax for publishing smart contract events has changed. In order to provide the most up-to-date information, this guide has been updated to include the new patterns. Find more detailed information in the [Rust SDK documentation].
+
+:::
+
+The strategy here is to first create some `struct`s that will define how our events are shaped. Then, within the contract's function, we can create and publish those structs.
+
+```rust
+// This event will be published with the following structure:
+// `["COUNTER", "increment"], data = count: u32`
+#[contractevent(topics = ["COUNTER", "increment"], data_format = "single-value")]
+pub struct Increment {
+    count: u32,
+}
+
+// Events without explicit topics will use the struct name for the sole topic.
+// By default, the event data will follow the struct shape.
+// This event will be published with the following structure:
+// `["borrow"], data = {addr: Address, amount: i128}`
+#[contractevent]
+pub struct Borrow {
+    addr: Address,
+    amount: i128,
+}
+
+// Event topics can also be noted in the struct, so they're dynamic.
+// This event will be published with the following structure:
+// `["deposit", addr: Address, token: Address], data = [amount: i128, time: u64]`
+#[contractevent(data_format = "vec")]
+pub struct Deposit {
+    #[topic]
+    addr: Address,
+    #[topic]
+    token: Address,
+    amount: i128,
+    time: u64,
+}
+
+// This function does nothing beside publish events.
+pub fn events_function(env: Env, invoker: Address, token: Address) {
+    Increment {
+        count: 8675309,
+    }.publish(&env);
+
+    Borrow {
+        addr: invoker.clone(),
+        amount: 123_0000000,
+    }.publish(&env);
+
+    Deposit {
+        addr: invoker,
+        token: token,
+        amount: 321_0000000,
+        time: env.ledger().timestamp(),
+    }.publish(&env);
+}
+```
+
+A more realistic example can be found in the way the [token interface] works. For example, the interface requires an event to be published every time the `transfer` function is invoked, with the following information:
+
+```rust
+#[contractevent(data_format = "single-value")]
+pub struct Transfer {
+    #[topic]
+    from: Address,
+    #[topic]
+    to: Address,
+    amount: i128,
+}
+
+pub fn transfer(env: Env, from: Address, to: Address, amount: i128) {
+    // transfer logic omitted here
+    Transfer { from, to, amount }.publish(&env);
+}
+```
+
+[token interface]: ../../../tokens/token-interface.mdx
+[Rust SDK documentation]: https://docs.rs/soroban-sdk/latest/soroban_sdk/_migrating/v23_contractevent/index.html

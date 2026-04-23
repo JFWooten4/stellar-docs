@@ -1,0 +1,67 @@
+---
+title: Convert a ScVal to other type
+hide_table_of_contents: true
+description: Convert a ScVal to other type
+---
+
+Soroban Contract Value (`ScVal`) is a custom type defined within the Soroban runtime environment that represents other data types such as strings, bytes, and more complex structures used within smart contracts in a format that that the soroban runtime can process, store and retrieve efficiently.
+
+## ScVal to bytes
+
+<CodeExample>
+
+```js
+// An ScVal bytes value
+const myScVal = StellarSdk.xdr.ScVal.fromXDR("AAAADQAAAARQ/8AB", "base64");
+// Convert the ScVal to a Buffer
+const bytesFromScVal = StellarSdk.scValToNative(myScVal);
+```
+
+```python
+# Convert the ScVal to bytes
+bytes_from_sc_val = stellar_sdk.scval.from_bytes("AAAADQAAAARQ/8AB")
+```
+
+</CodeExample>
+
+## ScVal to address
+
+<CodeExample>
+
+```js
+// An ScVal Address value
+const myScVal = StellarSdk.xdr.ScVal.fromXDR(
+  "AAAAEgAAAAAAAAAAmds+PBjjrhZAv1aCM4n4EbU6ycAbK5HqxcUsumDFyf4=",
+  "base64",
+);
+// Convert the ScVal to an Address
+const addressFromScVal = StellarSdk.Address.fromScVal(myScVal);
+```
+
+```python
+# Convert the ScVal to address
+address_from_sc_val = stellar_sdk.scval.from_address("AAAAEgAAAAAAAAAAmds+PBjjrhZAv1aCM4n4EbU6ycAbK5HqxcUsumDFyf4=")
+```
+
+</CodeExample>
+
+## ScVal to String
+
+<CodeExample>
+
+```js
+// An ScVal string value
+const myScVal = StellarSdk.xdr.ScVal.fromXDR(
+  "AAAADgAAAA9IZWxsbywgU3RlbGxhciEA",
+  "base64",
+);
+// Convert the ScVal to a string
+const stringFromScVal = StellarSdk.scValToNative(myScVal);
+```
+
+```python
+# Convert the ScVal to a string
+string_from_sc_val = stellar_sdk.scval.from_string("AAAADgAAAA9IZWxsbywgU3RlbGxhciEA").decode()
+```
+
+</CodeExample>

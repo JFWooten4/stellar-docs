@@ -1,0 +1,59 @@
+---
+title: Organize contract errors with an error enum type
+hide_table_of_contents: true
+description: Manage and communicate contract errors using an enum struct
+---
+
+A convenient way to manage and meaningfully communicate contract errors is to collect them into an `enum` struct. These errors are a special type of enum integer type that are stored on the ledger as Error values containing a `u32` code. First, create the `Error` struct in your smart contract.
+
+```rust
+#[contracterror]
+#[derive(Copy, Clone, Debug, Eq, PartialEq, PartialOrd, Ord)]
+#[repr(u32)]
+pub enum Error {
+    FirstError = 1,
+    AnotherError = 2,
+    YetAnotherError = 3,
+    GenericError = 4
+}
+```
+
+Smart contracts can fail with error enums in two different ways. They can either return a `Result` with their intended return value and the `#[contracterror]` struct as the error, or just invoke `panic_with_error!` with the appropriate Error enum value whenever an error condition is reached. By default, most ecosystem standards assume that contract functions do not return a `Result`, so using `panic_with_error!` is recommended.
+
+However, both styles behave in the same way. If an error is returned or `panic_with_error!` is invoked, the transaction will fail. Contracts making cross contract calls have the ability to catch and handle these failures with `try_` functions.
+
+```rust
+#[contractimpl]
+impl Contract {
+    /// Call `panic_with_error!` to fail with custom errors
+    /// This is the default, recommended approach adopted by most SEP standards
+    pub fn cause_error(env: Env, error_code: u32) -> u32 {
+        let error_type = match error_code {
+            0 => return 0,
+            1 => Error::FirstError,
+            2 => Error::AnotherError,
+            3 => Error::YetAnotherError,
+            _ => Error::GenericError,
+        };
+        panic_with_error!(env, error_type);
+    }
+
+    /// Return `Err` to fail with custom errors
+    pub fn cause_error_result(env: Env, error_code: u32) -> Result<u32, Error> {
+        let error_type = match error_code {
+            0 => return Ok(0),
+            1 => Error::FirstError,
+            2 => Error::AnotherError,
+            3 => Error::YetAnotherError,
+            _ => Error::GenericError,
+        };
+        return Err(error_type);
+    }
+}
+```
+
+When converted to XDR, the value becomes an `ScVal`, containing a `ScError`, containing the integer value of the error as contract error.
+
+```json
+{ "error": { "contractError": 1 } }
+```

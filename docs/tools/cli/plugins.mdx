@@ -1,0 +1,123 @@
+---
+title: Plugins
+description: How to Use Plugins with the Stellar CLI
+sidebar_position: 20
+---
+
+# Plugins
+
+Plugins extend the functionality of the Stellar CLI by adding custom commands. The Stellar CLI automatically detects and loads any executable (which doesn't have to be a binary) in your `PATH` that starts with `stellar-`.
+
+## How Plugins Work
+
+Plugins are executables (scripts or binaries) that follow a simple naming convention: they must start with `stellar-`. When you run a command like `stellar hello`, the CLI first checks for a built-in command. If none is found, it searches for a plugin named `stellar-hello` in your `PATH` and executes it if found.
+
+## Installing Plugins
+
+You can install plugins that are made available publicly. For example, you can install [rs-stellar-strkey](https://github.com/stellar/rs-stellar-strkey) using Rust's cargo:
+
+```sh
+cargo install --locked stellar-strkey --features cli
+```
+
+This installs the `stellar-strkey` binary in your `~/.cargo/bin` directory. Make sure this directory is in your `$PATH` for the CLI to detect it.
+
+:::danger Security Warning
+
+Be careful! Plugins have the same access to your system as the Stellar CLI itself. Only install plugins from sources you trust.
+
+:::
+
+## Listing Available Plugins
+
+To list available plugins on your system, use the command `stellar plugin ls`:
+
+```console
+$ stellar plugin ls
+Installed Plugins:
+    strkey
+```
+
+## Creating a New Plugin
+
+To create a plugin, you need an executable file in your `PATH` that starts with `stellar-`. This example shows how to create a simple plugin using `bash` (works on Unix-based systems or Windows' WSL).
+
+### Step 1: Create the Plugin File
+
+Create a new file named `stellar-hello` in a directory that's in your `PATH` (for example, `~/.bin`):
+
+```sh
+touch ~/.bin/stellar-hello
+```
+
+### Step 2: Add the Plugin Code
+
+Add the following content to the file:
+
+```bash
+#!/usr/bin/env bash
+
+echo "hello from stellar plugin"
+```
+
+### Step 3: Make It Executable
+
+Make the file executable:
+
+```sh
+chmod +x ~/.bin/stellar-hello
+```
+
+### Step 4: Verify Installation
+
+If everything is set up correctly (the directory is in your `PATH` and the file is executable), you should see your plugin listed:
+
+```console
+$ stellar plugin ls
+Installed Plugins:
+    hello
+    strkey
+```
+
+### Step 5: Use Your Plugin
+
+You can now execute your plugin by calling `stellar hello`:
+
+```console
+$ stellar hello
+hello from stellar plugin
+```
+
+## Plugin Naming and Subcommands
+
+The Stellar CLI automatically searches for plugins when no built-in command matches. This works for both simple commands and subcommands.
+
+For example, if you create a plugin named `stellar-contract-bindings-ruby`, users can execute it using either:
+
+- `stellar contract-bindings-ruby` (with dashes)
+- `stellar contract bindings ruby` (with spaces as subcommands)
+
+The CLI converts spaces to dashes when searching for the plugin executable, so both formats work.
+
+:::tip
+
+If you're using GitHub to host your plugin's repository, consider adding a `stellar-cli-plugin` [repository topic](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics). This way, your plugin will be listed by `stellar plugin search`.
+
+:::
+
+## Troubleshooting
+
+If the Stellar CLI can't find your plugin, check the following:
+
+- **Naming**: Ensure the file starts with `stellar-`
+- **Permissions**: Verify it's executable using `chmod +x`
+- **PATH**: Check that the plugin's directory is in your `PATH` environment variable
+- **Shell**: Restart your terminal or reload your shell configuration (e.g., run `source ~/.zshrc` or `source ~/.bashrc`)
+
+You can verify your plugin is in your PATH by running:
+
+```sh
+which stellar-hello
+```
+
+If this returns a path, your plugin is accessible. If it returns nothing, the plugin's directory is not in your PATH.
