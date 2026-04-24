@@ -4,7 +4,7 @@ paths:
       tags:
         - Ledgers
       summary: Retrieve a Ledger 
-      description: The single ledger endpoint provides information on a specific [ledger](../../../learn/fundamentals/stellar-data-structures/ledgers.mdx).
+      description: The single ledger endpoint provides information on a specific [ledger](../../../../learn/fundamentals/stellar-data-structures/ledgers.mdx).
       operationId: RetrieveALedger
       parameters:
         - $ref: '../parameters.yml#/components/parameters/SequenceParam'

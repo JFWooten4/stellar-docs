@@ -325,7 +325,7 @@ paths:
       tags:
         - Claimable Balances
       summary: List All Claimable Balances
-      description: This endpoint lists all available [claimable balances](../../../build/guides/transactions/claimable-balances.mdx).
+      description: This endpoint lists all available [claimable balances](../../../../build/guides/transactions/claimable-balances.mdx).
       operationId: ListAllClaimableBalances
       parameters:
         - $ref: '#/components/parameters/SponsorParam'
@@ -486,7 +486,7 @@ paths:
       tags:
         - Ledgers
       summary: Retrieve a Ledger
-      description: The single ledger endpoint provides information on a specific [ledger](../../../learn/fundamentals/stellar-data-structures/ledgers.mdx).
+      description: The single ledger endpoint provides information on a specific [ledger](../../../../learn/fundamentals/stellar-data-structures/ledgers.mdx).
       operationId: RetrieveALedger
       parameters:
         - $ref: '#/components/parameters/SequenceParam'
