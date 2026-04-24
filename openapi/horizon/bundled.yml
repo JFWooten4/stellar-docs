@@ -299,7 +299,7 @@ paths:
       tags:
         - Assets
       summary: List all Assets
-      description: This endpoint lists all assets.
+      description: This endpoint lists all [assets](../../../../learn/fundamentals/stellar-data-structures/assets.mdx).
       operationId: ListAllAssets
       parameters:
         - $ref: '#/components/parameters/AssetCodeParam'
