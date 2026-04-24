@@ -325,7 +325,7 @@ paths:
       tags:
         - Claimable Balances
       summary: List All Claimable Balances
-      description: This endpoint lists all available claimable balances.
+      description: This endpoint lists all available [claimable balances](../../../build/guides/transactions/claimable-balances.mdx).
       operationId: ListAllClaimableBalances
       parameters:
         - $ref: '#/components/parameters/SponsorParam'
