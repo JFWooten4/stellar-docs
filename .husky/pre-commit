@@ -3,8 +3,8 @@
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 
-if ! nvm use 22 >/dev/null 2>&1; then
-  echo "⚠️  Node v22 not installed. Skipping formatting check."
+if ! nvm use 24 >/dev/null 2>&1; then
+  echo "⚠️  Node v24 not installed. Skipping formatting check."
   exit 0
 fi
 
