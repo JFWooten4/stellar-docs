@@ -3,7 +3,7 @@ title: Monitoreo
 sidebar_position: 60
 ---
 
-Si ejecutas Stellar RPC con el `--admin-endpoint` configurado y [expones el puerto](https://docs.docker.com/engine/reference/commandline/run/#publish), tendrás acceso a las métricas de [Prometheus](https://prometheus.io/) a través del endpoint `/metrics`. Por ejemplo, si el admin endpoint es `0.0.0.0:8001` y estás ejecutando la imagen Docker de Stellar RPC:
+Si ejecutas Stellar RPC con el `--admin-endpoint` configurado y [expones el puerto](https://docs.docker.com/engine/reference/commandline/run/#publish), tendrás acceso a las métricas de [Prometheus](https://prometheus.io) a través del endpoint `/metrics`. Por ejemplo, si el admin endpoint es `0.0.0.0:8001` y estás ejecutando la imagen Docker de Stellar RPC:
 
 ```bash
 curl localhost:8001/metrics
@@ -33,7 +33,7 @@ time=<timestamp in YYYY-MM-DDTHH:MM:SS.000Z format> level=<debug|info|error> msg
 
 ## Dashboard de Grafana
 
-Proporcionamos un [dashboard de Grafana](https://grafana.com/grafana/dashboards/19229-soroban-rpc/) con diferentes métricas para monitorear tu instancia de RPC.
+Proporcionamos un [dashboard de Grafana](https://grafana.com/grafana/dashboards/19229-soroban-rpc) con diferentes métricas para monitorear tu instancia de RPC.
 
 ## Verificar la instancia de RPC
 

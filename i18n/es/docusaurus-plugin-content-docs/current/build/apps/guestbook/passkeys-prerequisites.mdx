@@ -35,7 +35,7 @@ Las variables de entorno `PRIVATE_` y `PUBLIC_` son una convención de SvelteKit
 
 ## Mercury
 
-Ahora, pasemos a [Mercury](https://www.mercurydata.app/). Este es un indexador de datos, que funciona tanto en Testnet como en Mainnet. El equipo está desarrollando algunas herramientas de datos de punta que están comenzando a redefinir lo que es posible con los datos de red. Un desarrollo de este tipo es el [ZephyrVM](https://docs.mercurydata.app/zephyr-full-customization/introduction): el entorno de ejecución en la nube de Mercury. En resumen, Zephyr te permite escribir programas (Rust) que se ejecutarán al cierre de _cada_ ledger en la red Stellar. Dentro de ese programa, puedes acceder a cualquier tipo de dato actual o pasado, interactuar con servicios web externos, crear funciones sin servidor y poblar bases de datos. Al igual que con Launchtube, no interactuaremos _directamente_ con Mercury dentro de la dapp Ye Olde Guestbook. Esas interacciones serán manejadas por el paquete `passkey-kit`. También, similar a Launchtube, este requiere una configuración.
+Ahora, pasemos a [Mercury](https://www.mercurydata.app). Este es un indexador de datos, que funciona tanto en Testnet como en Mainnet. El equipo está desarrollando algunas herramientas de datos de punta que están comenzando a redefinir lo que es posible con los datos de red. Un desarrollo de este tipo es el [ZephyrVM](https://docs.mercurydata.app/zephyr-full-customization/introduction): el entorno de ejecución en la nube de Mercury. En resumen, Zephyr te permite escribir programas (Rust) que se ejecutarán al cierre de _cada_ ledger en la red Stellar. Dentro de ese programa, puedes acceder a cualquier tipo de dato actual o pasado, interactuar con servicios web externos, crear funciones sin servidor y poblar bases de datos. Al igual que con Launchtube, no interactuaremos _directamente_ con Mercury dentro de la dapp Ye Olde Guestbook. Esas interacciones serán manejadas por el paquete `passkey-kit`. También, similar a Launchtube, este requiere una configuración.
 
 El paquete `passkey-kit` no "viene" con un programa de Zephyr en el paquete publicado, pero _tiene_ toda la funcionalidad de Zephyr que necesitarás en el repositorio fuente. Aquí te explico cómo hacer que ese programa Zephyr esté en funcionamiento en Mercury para que puedas acceder a los eventos de billetera inteligente indexados. Por cierto, es probable que estos comandos funcionen mejor _fuera_ del directorio donde estás construyendo tu dapp de libro de visitas.
 
@@ -46,7 +46,7 @@ El paquete `passkey-kit` no "viene" con un programa de Zephyr en el paquete publ
    cd passkey-kit/zephyr
    ```
 
-2. Obtén un token de autenticación desde la página web de Mercury. Puedes iniciar sesión en el [panel de Testnet](https://test.mercurydata.app/) aquí. Haz clic en el botón **Obtener token de acceso** en la sección "Suscripciones activas". Se te proporcionará un JWT que será válido durante los próximos siete días.
+2. Obtén un token de autenticación desde la página web de Mercury. Puedes iniciar sesión en el [panel de Testnet](https://test.mercurydata.app) aquí. Haz clic en el botón **Obtener token de acceso** en la sección "Suscripciones activas". Se te proporcionará un JWT que será válido durante los próximos siete días.
 
    ![Token JWT de Mercury Data](/assets/guestbook/mercury_token.png)
 
@@ -90,6 +90,6 @@ Es posible que algo haya salido mal durante la ejecución de los procesos anteri
 
 1. **Genera un nuevo token de Launchtube.** Es posible que el token de Launchtube que estás utilizando haya agotado los créditos. Dado que estamos utilizando Testnet para este tutorial, no hay problema en generar un token completamente nuevo en cualquier momento visitando `https://testnet.launchtube.xyz/gen` en tu navegador.
 2. **Asegúrate de que tu programa de Zephyr se haya desplegado exitosamente.** He estado atascado más de una vez con una solicitud de Mercury que no funcionaba porque el programa de Zephyr no se había desplegado exitosamente. Asegúrate de que la salida del comando `mercury-cli deploy` no tenga errores.
-3. **Revisa la [documentación de Mercury](https://docs.mercurydata.app/).** Es bastante buena y puede ayudarte a superar muchos de los obstáculos que podrías enfrentar.
+3. **Revisa la [documentación de Mercury](https://docs.mercurydata.app).** Es bastante buena y puede ayudarte a superar muchos de los obstáculos que podrías enfrentar.
 
 En cualquier caso, siéntete libre de hacer preguntas o iniciar un chat en los canales [`#passkeys`](https://discord.com/channels/897514728459468821/1250851135561142423) y [`#launchtube`](https://discord.com/channels/897514728459468821/1293204627361108141) en el servidor de Discord de desarrolladores de Stellar. ¡Generalmente hay alguien disponible que está listo y dispuesto a ayudar!

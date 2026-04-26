@@ -58,7 +58,7 @@ La firma Hash(x) es un concepto diferente de los hashes de transacción. Los has
 
 :::
 
-Agregar una firma de tipo hash(x) permite a cualquiera que conozca x firmar la transacción. Este tipo de firmante es especialmente útil en [intercambios atómicos entre cadenas](https://en.bitcoin.it/wiki/Atomic_cross-chain_trading) que se necesitan para protocolos inter-blockchain como las [lightning networks](https://lightning.network/).
+Agregar una firma de tipo hash(x) permite a cualquiera que conozca x firmar la transacción. Este tipo de firmante es especialmente útil en [intercambios atómicos entre cadenas](https://en.bitcoin.it/wiki/Atomic_cross-chain_trading) que se necesitan para protocolos inter-blockchain como las [lightning networks](https://lightning.network).
 
 Primero, crea un valor aleatorio de 256 bits, al que llamamos x. El hash SHA256 de ese valor puede añadirse como un firmante de tipo hash(x). Luego, para autorizar una transacción, x se añade como una de las firmas de la transacción. Ten en cuenta que x será conocido públicamente tan pronto como una transacción sea enviada a la red con x como firma. Esto significa que cualquiera podrá firmar por esa cuenta con el firmante hash(x) a partir de ese momento. A menudo querrás que haya firmantes adicionales para que alguien deba tener una clave secreta particular y conocer x para alcanzar el umbral de peso requerido para autorizar transacciones en la cuenta.
 

@@ -39,7 +39,7 @@ Es bueno comprender cómo funciona una cuenta de contrato, por lo que primero re
 
 ## Contexto sobre la firma BLS
 
-Hay muchos buenos recursos sobre la firma BLS, por ejemplo, el "BLS12-381 Para el resto de nosotros" tiene una sección sobre [firma digital BLS](https://hackmd.io/@benjaminion/bls12-381#BLS-digital-signatures). El [BLS Signature para Personas Ocupadas](https://gist.github.com/paulmillr/18b802ad219b1aee34d773d08ec26ca2) también es un buen recurso para una visión rápida. Para referencia completa, consulta el [borrador de IETF](https://datatracker.ietf.org/doc/draft-irtf-cfrg-bls-signature/).
+Hay muchos buenos recursos sobre la firma BLS, por ejemplo, el "BLS12-381 Para el resto de nosotros" tiene una sección sobre [firma digital BLS](https://hackmd.io/@benjaminion/bls12-381#BLS-digital-signatures). El [BLS Signature para Personas Ocupadas](https://gist.github.com/paulmillr/18b802ad219b1aee34d773d08ec26ca2) también es un buen recurso para una visión rápida. Para referencia completa, consulta el [borrador de IETF](https://datatracker.ietf.org/doc/draft-irtf-cfrg-bls-signature).
 
 En resumen, estamos verificando la siguiente relación:
 
@@ -61,7 +61,7 @@ Con un solo emparejamiento en cadena, puedes verificar N firmas en el mismo mens
 
 ### Hash del mensaje `H(m)`
 
-El mensaje deberá ser hasheado en la curva `H(m)` para que se aplique la operación de emparejamiento. Seguimos el enfoque descrito en [RFC 9380 - Hashing to Elliptic Curves](https://datatracker.ietf.org/doc/rfc9380/).
+El mensaje deberá ser hasheado en la curva `H(m)` para que se aplique la operación de emparejamiento. Seguimos el enfoque descrito en [RFC 9380 - Hashing to Elliptic Curves](https://datatracker.ietf.org/doc/rfc9380).
 
 El método de hash requiere una etiqueta de separación de dominio única (DST), es altamente recomendable que tu aplicación elija un DST único. Para los requisitos del DST, consulta la sección <b>3,1</b> del RFC,
 

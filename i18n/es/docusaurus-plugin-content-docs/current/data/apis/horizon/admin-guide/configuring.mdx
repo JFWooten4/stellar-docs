@@ -108,7 +108,7 @@ El binario `stellar-horizon` busca variables de entorno del proceso para la conf
 
 ### Bare-metal
 
-- Sin gestor de paquetes: usa variables de entorno de o/s para pasar configuraciones. Hay muchas herramientas que puedes usar para gestionarlas, como [direnv](http://direnv.net/) o [dotenv](https://github.com/bkeepers/dotenv).
+- Sin gestor de paquetes: usa variables de entorno de o/s para pasar configuraciones. Hay muchas herramientas que puedes usar para gestionarlas, como [direnv](http://direnv.net) o [dotenv](https://github.com/bkeepers/dotenv).
 - [Gestor de paquetes](./installing.mdx#package-manager): el wrapper proporcionado `stellar-horizon-cmd` iniciará un nuevo proceso y creará variables de entorno en el proceso desde `/etc/default/stellar-horizon` y luego lanzará el 'stellar-horizon'. Para establecer configuraciones, edita el archivo en `/etc/default/stellar-horizon`.
 
   :::info
@@ -120,7 +120,7 @@ El binario `stellar-horizon` busca variables de entorno del proceso para la conf
 ### En contenedores
 
 - No Helm: pasa todos los parámetros de configuración a la imagen docker de horizon como [variables de entorno de docker](https://docs.docker.com/engine/reference/commandline/run/#env).
-- Helm: pasa todos los parámetros de configuración en el [comando de instalación de Helm](https://helm.sh/docs/helm/helm_install/) mediante un archivo de valores.
+- Helm: pasa todos los parámetros de configuración en el [comando de instalación de Helm](https://helm.sh/docs/helm/helm_install) mediante un archivo de valores.
 
 ## Inicializar la base de datos de Horizon
 

@@ -462,7 +462,7 @@ Aquí hay una explicación línea por línea de lo que hace el código:
 #![no_std]
 ```
 
-Este es un atributo de Rust que le dice al compilador de Rust que no enlace la [biblioteca estándar de Rust](https://doc.rust-lang.org/std/). La biblioteca estándar es extensa, y al desplegar aplicaciones Soroban, queremos simplificar el proceso tanto como sea posible. Al usar `no_std`, establecemos un punto de partida más ligero y "esquelético" para los proyectos, que abarca solo el núcleo de Rust y algunos otros componentes esenciales, en lugar de toda la amplitud de la biblioteca estándar.
+Este es un atributo de Rust que le dice al compilador de Rust que no enlace la [biblioteca estándar de Rust](https://doc.rust-lang.org/std). La biblioteca estándar es extensa, y al desplegar aplicaciones Soroban, queremos simplificar el proceso tanto como sea posible. Al usar `no_std`, establecemos un punto de partida más ligero y "esquelético" para los proyectos, que abarca solo el núcleo de Rust y algunos otros componentes esenciales, en lugar de toda la amplitud de la biblioteca estándar.
 
 ```rust
 use soroban_sdk::{contractimpl, log, Env, Symbol};

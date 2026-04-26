@@ -15,7 +15,7 @@ pub fn register_test_contract(e: &Env, contract_id: &[u8; 32]) {
 }
 ```
 
-Algunos contratos, como el contrato de token, también proporcionan una [interfaz más amigable](https://github.com/stellar/soroban-token-contract/blob/42380647bb817bf01c739c19286f18be881e0e41/src/testutils.rs#L26-L191) para facilitar las pruebas. Existen muchas maneras en que estas interfaces pueden facilitar las pruebas, pero una común es permitir la firma automática de mensajes pasando un [ed25519_dalek::Keypair](https://docs.rs/ed25519-dalek/latest/ed25519_dalek/).
+Algunos contratos, como el contrato de token, también proporcionan una [interfaz más amigable](https://github.com/stellar/soroban-token-contract/blob/42380647bb817bf01c739c19286f18be881e0e41/src/testutils.rs#L26-L191) para facilitar las pruebas. Existen muchas maneras en que estas interfaces pueden facilitar las pruebas, pero una común es permitir la firma automática de mensajes pasando un [ed25519_dalek::Keypair](https://docs.rs/ed25519-dalek/latest/ed25519_dalek).
 
 Ten en cuenta que todo lo descrito en esta sección sólo está disponible si la característica `testutils` está habilitada.
 

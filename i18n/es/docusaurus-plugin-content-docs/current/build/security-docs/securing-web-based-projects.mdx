@@ -7,7 +7,7 @@ Cualquier aplicación que gestione criptomonedas es un objetivo frecuente de act
 
 ## SSL/TLS
 
-Asegúrate de que TLS esté habilitado. Redirige HTTP a HTTPS donde sea necesario para garantizar que no ocurran ataques Man in the Middle y que los datos sensibles se transfieran de forma segura entre el cliente y el navegador. Habilita TLS y obtén un certificado SSL gratis en [LetsEncrypt](https://letsencrypt.org/getting-started/).
+Asegúrate de que TLS esté habilitado. Redirige HTTP a HTTPS donde sea necesario para garantizar que no ocurran ataques Man in the Middle y que los datos sensibles se transfieran de forma segura entre el cliente y el navegador. Habilita TLS y obtén un certificado SSL gratis en [LetsEncrypt](https://letsencrypt.org/getting-started).
 
 Si no tienes SSL/TLS habilitado, detén todo y haz esto primero.
 
@@ -15,11 +15,11 @@ Si no tienes SSL/TLS habilitado, detén todo y haz esto primero.
 
 Los encabezados CSP indican al navegador desde dónde puede descargar recursos estáticos. Por ejemplo, si tu sitio es astralwallet.io y solicita un archivo JavaScript desde myevilsite.com, tu navegador lo bloqueará a menos que haya sido incluido en la lista blanca mediante encabezados CSP. Puedes leer cómo implementar los encabezados CSP [aquí](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP).
 
-La mayoría de los frameworks web tienen un archivo de configuración o extensiones para especificar tu política CSP, y los encabezados se generan automáticamente para ti. Por ejemplo, mira [Helmet](https://www.npmjs.com/package/helmet) para Node.js. Esto habría prevenido el [Blackwallet Hack](https://www.ccn.com/yet-another-crypto-wallet-hack-causes-users-lose-400000/).
+La mayoría de los frameworks web tienen un archivo de configuración o extensiones para especificar tu política CSP, y los encabezados se generan automáticamente para ti. Por ejemplo, mira [Helmet](https://www.npmjs.com/package/helmet) para Node.js. Esto habría prevenido el [Blackwallet Hack](https://www.ccn.com/yet-another-crypto-wallet-hack-causes-users-lose-400000).
 
 ## Encabezados HTTP strict-transport-security
 
-Este es un encabezado HTTP que indica al navegador que todas las conexiones futuras a un sitio en particular deben usar HTTPS. Para implementarlo, añade el [encabezado](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security) a tu sitio web. Algunos frameworks web (como [Django](https://docs.djangoproject.com/en/2.0/topics/security/#ssl-https)) tienen esto incorporado. Esto habría prevenido el [MyEtherWallet DNS Hack](https://bitcoinmagazine.com/articles/popular-ether-wallet-mew-hijacked-dns-attack/).
+Este es un encabezado HTTP que indica al navegador que todas las conexiones futuras a un sitio en particular deben usar HTTPS. Para implementarlo, añade el [encabezado](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security) a tu sitio web. Algunos frameworks web (como [Django](https://docs.djangoproject.com/en/2.0/topics/security/#ssl-https)) tienen esto incorporado. Esto habría prevenido el [MyEtherWallet DNS Hack](https://bitcoinmagazine.com/articles/popular-ether-wallet-mew-hijacked-dns-attack).
 
 ## Almacenar datos sensibles
 
@@ -35,7 +35,7 @@ Idealmente, no necesitas almacenar muchos datos sensibles. Si debes hacerlo, ase
 
 Los atacantes a menudo necesitan tiempo para explorar tu sitio en busca de comportamientos inesperados o pasados por alto. Examinar los registros defensivamente puede ayudarte a detectar qué intentan lograr. Al menos puedes bloquear su IP o automatizar el bloqueo basado en comportamientos sospechosos.
 
-También vale la pena configurar un reporte de errores (como [Sentry](https://sentry.io/welcome/)). A menudo, las personas desencadenan errores extraños al intentar hackear.
+También vale la pena configurar un reporte de errores (como [Sentry](https://sentry.io/welcome)). A menudo, las personas desencadenan errores extraños al intentar hackear.
 
 ## Debilidades en la autenticación
 
@@ -47,11 +47,11 @@ Hashear contraseñas con un esquema probado es bueno. También vale la pena inve
 
 Preferimos firmemente 2FA y requerimos 2FA U2F o [TOTP](https://tools.ietf.org/html/rfc6238) para acciones sensibles. El 2FA es importante ya que las cuentas de correo electrónico suelen no ser muy seguras. Tener un segundo factor de autenticación asegura que los usuarios que accidentalmente se queden conectados o cuyo password sea adivinado sigan protegidos.
 
-Finalmente, requiere contraseñas fuertes. Contraseñas comunes y cortas pueden ser forzadas por ataques de fuerza bruta. Dropbox tiene una gran [herramienta de código abierto](https://blogs.dropbox.com/tech/2012/04/zxcvbn-realistic-password-strength-estimation/) que mide la fortaleza de las contraseñas de manera bastante rápida, haciéndola útil para la interactividad con usuarios.
+Finalmente, requiere contraseñas fuertes. Contraseñas comunes y cortas pueden ser forzadas por ataques de fuerza bruta. Dropbox tiene una gran [herramienta de código abierto](https://blogs.dropbox.com/tech/2012/04/zxcvbn-realistic-password-strength-estimation) que mide la fortaleza de las contraseñas de manera bastante rápida, haciéndola útil para la interactividad con usuarios.
 
 ## Ataques de denegación de servicio (DOS)
 
-Los ataques DOS usualmente se logran sobrecargando tus servidores web con tráfico. Para mitigar este riesgo, limita el ritmo de tráfico desde IPs y huellas digitales del navegador. A veces las personas usarán proxies para evadir la limitación de velocidad de IP. Al final, los actores maliciosos siempre pueden encontrar formas de falsificar su identidad, así que la forma más segura de bloquear ataques DOS es implementar verificaciones de prueba de trabajo en tu cliente o usar un servicio gestionado como [Cloudflare](https://www.cloudflare.com/ddos/).
+Los ataques DOS usualmente se logran sobrecargando tus servidores web con tráfico. Para mitigar este riesgo, limita el ritmo de tráfico desde IPs y huellas digitales del navegador. A veces las personas usarán proxies para evadir la limitación de velocidad de IP. Al final, los actores maliciosos siempre pueden encontrar formas de falsificar su identidad, así que la forma más segura de bloquear ataques DOS es implementar verificaciones de prueba de trabajo en tu cliente o usar un servicio gestionado como [Cloudflare](https://www.cloudflare.com/ddos).
 
 ## Bloquea puertos no usados
 
@@ -63,7 +63,7 @@ Los ataques de phishing socavan cualquier infraestructura de seguridad bien crea
 
 ## Escanea tu sitio web y las librerías en busca de vulnerabilidades
 
-Usa una herramienta como [Snyk](https://snyk.io/) para escanear las librerías de terceros de tu cliente en busca de vulnerabilidades. Asegúrate de mantener actualizadas tus librerías de terceros. A menudo, las actualizaciones son provocadas por exploits de seguridad. También puedes usar [Mozilla Observatory](https://observatory.mozilla.org/) para comprobar la seguridad HTTP de tu sitio.
+Usa una herramienta como [Snyk](https://snyk.io) para escanear las librerías de terceros de tu cliente en busca de vulnerabilidades. Asegúrate de mantener actualizadas tus librerías de terceros. A menudo, las actualizaciones son provocadas por exploits de seguridad. También puedes usar [Mozilla Observatory](https://observatory.mozilla.org) para comprobar la seguridad HTTP de tu sitio.
 
 ## Protección contra Cross-Site Request Forgery (CSRF), inyecciones SQL
 

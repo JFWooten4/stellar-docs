@@ -194,7 +194,7 @@ function validateChallengeTransaction({
 
 ## Firmar y enviar la transacción de desafío
 
-En respuesta, el usuario firma la transacción. Puede que hayas notado que presentamos esta transacción de desafío al usuario con nuestro modal de confirmación regular. Una vez que hayan firmado la transacción, la aplicación la envía de vuelta al anchor con una solicitud `POST`. Si la firma es válida, la respuesta de éxito contendrá un [JSON Web Token (JWT)](https://jwt.io/), que BasicPay almacena en la tienda `webAuthStore` para usar en futuras interacciones con el anchor.
+En respuesta, el usuario firma la transacción. Puede que hayas notado que presentamos esta transacción de desafío al usuario con nuestro modal de confirmación regular. Una vez que hayan firmado la transacción, la aplicación la envía de vuelta al anchor con una solicitud `POST`. Si la firma es válida, la respuesta de éxito contendrá un [JSON Web Token (JWT)](https://jwt.io), que BasicPay almacena en la tienda `webAuthStore` para usar en futuras interacciones con el anchor.
 
 ```html title=/src/routes/dashboard/transfers/+page.svelte
 <script>

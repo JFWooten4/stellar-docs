@@ -181,7 +181,7 @@ Durante la fase de reporte, el encuestador envía mensajes `TimeSlicedSurveyRequ
 
 ### Script de Encuesta de Overlay
 
-Para simplificar la ejecución de una encuesta de overlay, stellar-core incluye un script [`OverlaySurvey.py`](https://github.com/stellar/stellar-core/blob/master/scripts/OverlaySurvey.py) en el [`directorio scripts`](https://github.com/stellar/stellar-core/tree/master/scripts). Este script recorre la red utilizando los puntos finales HTTP de la encuesta de overlay para construir un grafo que contiene la topología de la red de overlay. El script genera este grafo en formato JSON, así como en GraphML. Puedes analizar el archivo GraphML usando un visor de GraphML como [Gephi](https://gephi.org/).
+Para simplificar la ejecución de una encuesta de overlay, stellar-core incluye un script [`OverlaySurvey.py`](https://github.com/stellar/stellar-core/blob/master/scripts/OverlaySurvey.py) en el [`directorio scripts`](https://github.com/stellar/stellar-core/tree/master/scripts). Este script recorre la red utilizando los puntos finales HTTP de la encuesta de overlay para construir un grafo que contiene la topología de la red de overlay. El script genera este grafo en formato JSON, así como en GraphML. Puedes analizar el archivo GraphML usando un visor de GraphML como [Gephi](https://gephi.org).
 
 Un ejemplo de uso del script de encuesta para ejecutar una encuesta de overlay es el siguiente:
 
@@ -612,7 +612,7 @@ Las reglas están documentadas en línea, y recomendamos encarecidamente que rev
 
 ### Configurar notificaciones usando Alertmanager
 
-Alertmanager es responsable de enviar notificaciones. Instalar y configurar un servidor Alertmanager está fuera del alcance de este documento, sin embargo, es un proceso bastante simple. La documentación oficial está [aquí](https://github.com/prometheus/alertmanager/).
+Alertmanager es responsable de enviar notificaciones. Instalar y configurar un servidor Alertmanager está fuera del alcance de este documento, sin embargo, es un proceso bastante simple. La documentación oficial está [aquí](https://github.com/prometheus/alertmanager).
 
 Todas las reglas de alerta recomendadas tienen la etiqueta de "severidad":
 
@@ -656,7 +656,7 @@ En los ejemplos anteriores, las alertas con severidad "critical" se envían a pa
 
 Puedes encontrar útiles los siguientes exportadores para monitorear tu infraestructura, ya que proporcionan una increíble información sobre el sistema operativo y las métricas de la base de datos. Instalar y configurar estos exportadores está fuera del alcance de este documento, pero debería ser relativamente sencillo.
 
-- [node_exporter](https://prometheus.io/docs/guides/node-exporter/) se puede utilizar para rastrear todas las métricas del sistema operativo.
+- [node_exporter](https://prometheus.io/docs/guides/node-exporter) se puede utilizar para rastrear todas las métricas del sistema operativo.
 - [postgresql_exporter](https://github.com/wrouesnel/postgres_exporter) se puede utilizar para monitorear la base de datos local de stellar-core.
 
 ### Visualizar métricas usando Grafana
