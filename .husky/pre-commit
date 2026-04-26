@@ -1,11 +1,23 @@
 #!/bin/bash
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+REQ_NODE_MAJOR=$(sed -E 's/^v?([0-9]+).*/\1/' .nvmrc)
 
-if ! nvm use 24 >/dev/null 2>&1; then
-  echo "⚠️  Node v24 not installed. Skipping formatting check."
-  exit 0
+if ! command -v node >/dev/null 2>&1 || [ "$(node -p 'process.versions.node.split(".")[0]')" -lt "$REQ_NODE_MAJOR" ]; then
+  export NVM_DIR="$HOME/.nvm"
+  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+
+  if command -v nvm >/dev/null 2>&1; then
+    if ! nvm use "$REQ_NODE_MAJOR" >/dev/null 2>&1; then
+      echo "Node v$REQ_NODE_MAJOR is not installed in nvm. Skipping formatting check."
+      exit 0
+    fi
+  elif command -v node >/dev/null 2>&1; then
+    echo "Node v$REQ_NODE_MAJOR or higher is required, but $(node -v) is on PATH and nvm is not available. Skipping formatting check."
+    exit 0
+  else
+    echo "Node is not installed and nvm is not available. Skipping formatting check."
+    exit 0
+  fi
 fi
 
 G='\033[0;32m'
