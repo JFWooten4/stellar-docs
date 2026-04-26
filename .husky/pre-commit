@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 REQ_NODE_MAJOR=$(sed -E 's/^v?([0-9]+).*/\1/' .nvmrc)
 
