@@ -1,33 +1,30 @@
 #!/bin/bash
+REQ_NODE_MAJOR=$(sed -E 's/^v?([0-9]+).*/\1/' .nvmrc)
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+if ! command -v node >/dev/null 2>&1 || [ "$(node -p 'process.versions.node.split(".")[0]')" -lt "$REQ_NODE_MAJOR" ]; then
+  export NVM_DIR="$HOME/.nvm"
+  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 
-if ! nvm use 24 >/dev/null 2>&1; then
-  echo "⚠️  Node v24 not installed. Skipping formatting check."
-  exit 0
-fi
-
-G='\033[0;32m'
-P='\033[0;35m'
-CLEAN='\033[0;0m'
-
-if command -v yarn >/dev/null 2>&1; then
-  CHECK_OUTPUT=$(yarn run check:mdx 2>&1)
-  STATUS=$?
-
-  if echo "$CHECK_OUTPUT" | grep -q 'The engine "node" is incompatible with this module'; then
-    echo -e "${G}Warning:${CLEAN} Node version mismatch. Skipping formatting check."
+  if command -v nvm >/dev/null 2>&1; then
+    if ! nvm use "$REQ_NODE_MAJOR" >/dev/null 2>&1; then
+      echo "❔ Node v$REQ_NODE_MAJOR is not installed in nvm. Skipping formatting check."
+      exit 0
+    fi
+  elif command -v node >/dev/null 2>&1; then
+    echo "⚠ Node v$REQ_NODE_MAJOR or higher is required, but $(node -v) is on PATH and nvm is not available. Skipping formatting check."
+    exit 0
+  else
+    echo "✖ Node is not installed and nvm is not available. Skipping formatting check."
     exit 0
   fi
+fi
 
-  if [ "$STATUS" -ne 0 ]; then
-    echo "$CHECK_OUTPUT"
-    echo -e "${G}Hint:${CLEAN} Run ${P}yarn run format:mdx${CLEAN} to fix formatting."
+if command -v yarn >/dev/null 2>&1; then
+  if ! yarn run check:mdx; then
+    echo -e "ℹ  Run \`yarn run format:mdx\` to fix formatting."
     exit 1
   fi
-
 else
-  echo -e "${G}Hint:${CLEAN} Yarn not installed. Skipping formatting check."
+  echo -e "❕ Yarn not installed. Skipping formatting check."
   exit 0
 fi
