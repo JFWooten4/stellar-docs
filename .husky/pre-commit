@@ -23,20 +23,10 @@ if ! command -v node >/dev/null 2>&1 || [ "$(node -p 'process.versions.node.spli
 fi
 
 if command -v yarn >/dev/null 2>&1; then
-  CHECK_OUTPUT=$(yarn run check:mdx 2>&1)
-  STATUS=$?
-
-  if echo "$CHECK_OUTPUT" | grep -q 'The engine "node" is incompatible with this module'; then
-    echo -e "${G}Warning:${CLEAN} Node version mismatch. Skipping formatting check."
-    exit 0
-  fi
-
-  if [ "$STATUS" -ne 0 ]; then
-    echo "$CHECK_OUTPUT"
+  if ! yarn run check:mdx; then
     echo -e "${G}Hint:${CLEAN} Run ${P}yarn run format:mdx${CLEAN} to fix formatting."
     exit 1
   fi
-
 else
   echo -e "${G}Hint:${CLEAN} Yarn not installed. Skipping formatting check."
   exit 0
