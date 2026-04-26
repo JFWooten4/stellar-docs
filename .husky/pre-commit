@@ -1,7 +1,4 @@
 #!/bin/bash
-G='\033[0;32m'
-P='\033[0;35m'
-CLEAN='\033[0;0m'
 REQ_NODE_MAJOR=$(sed -E 's/^v?([0-9]+).*/\1/' .nvmrc)
 
 if ! command -v node >/dev/null 2>&1 || [ "$(node -p 'process.versions.node.split(".")[0]')" -lt "$REQ_NODE_MAJOR" ]; then
@@ -10,24 +7,24 @@ if ! command -v node >/dev/null 2>&1 || [ "$(node -p 'process.versions.node.spli
 
   if command -v nvm >/dev/null 2>&1; then
     if ! nvm use "$REQ_NODE_MAJOR" >/dev/null 2>&1; then
-      echo "Node v$REQ_NODE_MAJOR is not installed in nvm. Skipping formatting check."
+      echo "❔ Node v$REQ_NODE_MAJOR is not installed in nvm. Skipping formatting check."
       exit 0
     fi
   elif command -v node >/dev/null 2>&1; then
-    echo "Node v$REQ_NODE_MAJOR or higher is required, but $(node -v) is on PATH and nvm is not available. Skipping formatting check."
+    echo "⚠ Node v$REQ_NODE_MAJOR or higher is required, but $(node -v) is on PATH and nvm is not available. Skipping formatting check."
     exit 0
   else
-    echo "Node is not installed and nvm is not available. Skipping formatting check."
+    echo "✖ Node is not installed and nvm is not available. Skipping formatting check."
     exit 0
   fi
 fi
 
 if command -v yarn >/dev/null 2>&1; then
   if ! yarn run check:mdx; then
-    echo -e "${G}Hint:${CLEAN} Run ${P}yarn run format:mdx${CLEAN} to fix formatting."
+    echo -e "ℹ  Run \`yarn run format:mdx\` to fix formatting."
     exit 1
   fi
 else
-  echo -e "${G}Hint:${CLEAN} Yarn not installed. Skipping formatting check."
+  echo -e "❕ Yarn not installed. Skipping formatting check."
   exit 0
 fi
