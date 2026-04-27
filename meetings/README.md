@@ -64,7 +64,7 @@ python meetings/new-meeting.py \
 
 This will:
 
-- Download captions into memory (deleted without ``)
+- Download captions into memory (deleted without `--keep-vtt`)
 - Create `meetings/YYYY-MM-DD.mdx` using the YouTube upload date
 
 ## Notes
