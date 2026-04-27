@@ -423,7 +423,7 @@ def fetchCaptions(videoId: str, outDir: pathlib.Path, args: argparse.Namespace) 
 
   if args.createPage:
     if not args.authors:
-      args.authors = "carsten-jacobsen"
+      args.authors = "placeholder"
     metadata = fetchMetadata(videoId, args)
     title = args.title or metadata.get("title") or f"Meeting {videoId}"
     description = args.description or metadata.get("description", "")
