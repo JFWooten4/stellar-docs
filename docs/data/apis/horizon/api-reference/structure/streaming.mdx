@@ -1,59 +1,27 @@
 ---
-id: streaming
 title: Streaming
-description: Use Horizon streaming mode to receive new ledger data in near real time. Streaming requests use the same endpoint parameters as normal requests and can begin from the earliest known record or from a supplied cursor.
-sidebar_label: Streaming
 sidebar_position: 30
 ---
 
-Horizon supports streaming for endpoints that expose newly ingested ledger data over time.
+import { MethodTable } from "@site/src/components/MethodTable";
 
-Instead of repeatedly polling an endpoint for new results, you can keep a connection open and receive updates as new ledgers close and matching records become available. This is useful when you want to react to ledger activity without repeatedly issuing requests that return no new data.
+Horizon provides a streaming mechanism for receiving events in near real time. Instead of repeatedly sending requests to Horizon for batch updates, a connection is established between a client and Horizon with updates to an endpoint response streaming as new ledgers close and updates occur.
 
-## How Streaming Works
+This reduces requests that return no data and allows near instantaneous updates client-side.
 
-Streaming mode uses the same endpoint and query parameters as the standard request for that resource.
+All attributes for the endpoints that allow streaming are the same as regular responses. A caller can initiate streaming by setting ‘Accept: text/event-stream’ in the HTTP header when making the request.
 
-To open a stream, send the request with the `Accept: text/event-stream` header.
+<MethodTable title="Endpoints with Streaming">
 
-For example:
+|                                                       |
+| ----------------------------------------------------- |
+| [Ledgers](../resources/ledgers/README.mdx)            |
+| [Transactions](../resources/transactions/README.mdx)  |
+| [Operations](../resources/operations/README.mdx)      |
+| [Payments](../resources/payments/README.mdx)          |
+| [Effects](../resources/effects/README.mdx)            |
+| [Accounts](../resources/accounts/README.mdx)          |
+| [Trades](../resources/trades/README.mdx)              |
+| [Order Books](../aggregations/order-books/README.mdx) |
 
-```bash
-curl -N \
-  -H "Accept: text/event-stream" \
-  "<horizon-url>/operations?cursor=now"
-```
-
-## Cursor Behavior
-
-Cursor behavior is the main difference between a standard request and a streaming request.
-
-- If no `cursor` is provided, Horizon starts at the earliest known matching record and streams forward from there.
-- If a `cursor` is provided, Horizon starts from that cursor.
-- If `cursor=now` is provided, Horizon starts from your request time and streams only newly created matching records.
-
-Use `cursor=now` when you want to watch for new activity only. Use a specific cursor when you want to resume from a known point.
-
-## When To Use Streaming
-
-Streaming is a good fit when you want to:
-
-- watch for new transactions, operations, payments, or effects
-- follow new ledger closures
-- track changing order book data
-- keep an application UI updated as new matching records arrive
-
-## Supported Endpoints
-
-Many Horizon resource endpoints support streaming. Check the individual endpoint reference to confirm whether a specific endpoint can be called in streaming mode.
-
-Common examples include endpoints for:
-
-- [Ledgers](../resources/ledgers/README.mdx)
-- [Transactions](../resources/transactions/README.mdx)
-- [Operations](../resources/operations/README.mdx)
-- [Payments](../resources/payments/README.mdx)
-- [Effects](../resources/effects/README.mdx)
-- [Accounts](../resources/accounts/README.mdx)
-- [Trades](../resources/trades/README.mdx)
-- [Order Books](../aggregations/order-books/README.mdx)
+</MethodTable>
