@@ -9,13 +9,13 @@ El SDK está compuesto por varios paquetes publicados en Golang bajo `github.com
 
 ## ¿Por qué usar el Ingestar SDK?
 
-Las aplicaciones pueden aprovechar el SDK para desarrollar rápidamente canalizaciones de ingestión capaces de adquirir datos de la red Stellar en tiempo real o históricos y derivar modelos de datos personalizados. El SDK permite que las aplicaciones recorran las estructuras de datos jerárquicas de la red: [archivos de historial](../../../../validators/admin-guide/environment-preparation.mdx#history-archives), [ledgers](../../../../learn/fundamentals/stellar-data-structures/ledgers/README.mdx), transacciones, operaciones, cambios en el estado del ledger y eventos.
+Las aplicaciones pueden aprovechar el SDK para desarrollar rápidamente canalizaciones de ingestión capaces de adquirir datos de la red Stellar en tiempo real o históricos y derivar modelos de datos personalizados. El SDK permite que las aplicaciones recorran las estructuras de datos jerárquicas de la red: [archivos de historial](../../../../validators/admin-guide/environment-preparation.mdx#history-archives), [ledgers](../../../../learn/fundamentals/stellar-data-structures/ledgers.mdx), transacciones, operaciones, cambios en el estado del ledger y eventos.
 
 Usa el SDK para tener una experiencia de desarrollador intuitiva, segura en tiempo de compilación, y con tipos de datos de la red:
 
 ### Entradas de Ledger
 
-Obtén el estado final de [las entradas de ledger](../../../../learn/fundamentals/stellar-data-structures/ledgers/README.mdx) en la red al cierre de cualquier secuencia de ledger de punto de control reciente o históricamente envejecida. Un ledger de punto de control ocurre una vez cada 64 ledgers, durante el cual la red publicará estos datos en [archivos de historial](../../../../validators/admin-guide/environment-preparation.mdx#history-archives) en el formato de archivos comprimidos que contienen listas de `BucketEntry`, en las cuales cada una contiene una `LedgerEntry` y la `LedgerKey`.
+Obtén el estado final de [las entradas de ledger](../../../../learn/fundamentals/stellar-data-structures/ledgers.mdx) en la red al cierre de cualquier secuencia de ledger de punto de control reciente o históricamente envejecida. Un ledger de punto de control ocurre una vez cada 64 ledgers, durante el cual la red publicará estos datos en [archivos de historial](../../../../validators/admin-guide/environment-preparation.mdx#history-archives) en el formato de archivos comprimidos que contienen listas de `BucketEntry`, en las cuales cada una contiene una `LedgerEntry` y la `LedgerKey`.
 
 Las entradas del libro mayor están firmadas criptográficamente como parte de cada libro mayor y, por lo tanto, representan el estado acumulado y confiable en un momento dado para los [activos](../../../../learn/fundamentals/stellar-data-structures/assets.mdx) relacionados con una [cuenta](../../../../learn/fundamentals/stellar-data-structures/accounts.mdx) o un [contrato](../../../../learn/fundamentals/contract-development/storage/persisting-data.mdx). Ejemplos de tipos de activos:
 
