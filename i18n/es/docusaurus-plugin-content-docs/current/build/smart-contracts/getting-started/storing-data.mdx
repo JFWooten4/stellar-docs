@@ -122,7 +122,7 @@ env.storage().instance().extend_ttl(100, 100);
 
 Todos los datos del contrato tienen un Tiempo de Vida (TTL), medido en ledgers, que debe ser extendido periódicamente. Si el TTL de una entrada no se extiende periódicamente, la entrada finalmente se convertirá en "archivada" Puedes aprender más sobre esto en el documento de [Archivado de Estado](../../../learn/fundamentals/contract-development/storage/state-archival.mdx).
 
-Por ahora, vale la pena saber que hay tres tipos de almacenamiento: `Persistente`, `Temporal`, y `Instancia`. Este contrato solo utiliza almacenamiento `Instance`: `env.storage().instance()`. Cada vez que se incrementa el contador, el TTL de este almacenamiento se extiende por 100 [ledgers](../../../learn/fundamentals/stellar-data-structures/ledgers.mdx), o alrededor de 500 segundos. Cada vez que se incrementa el contador, el TTL de este almacenamiento se extiende por 100 [ledgers](../../../learn/fundamentals/stellar-data-structures/ledgers.mdx), o aproximadamente 500 segundos.
+Por ahora, vale la pena saber que hay tres tipos de almacenamiento: `Persistente`, `Temporal`, y `Instancia`. Este contrato solo utiliza almacenamiento `Instance`: `env.storage().instance()`. Cada vez que se incrementa el contador, el TTL de este almacenamiento se extiende por 100 [ledgers](../../../learn/fundamentals/stellar-data-structures/ledgers/README.mdx), o alrededor de 500 segundos. Cada vez que se incrementa el contador, el TTL de este almacenamiento se extiende por 100 [ledgers](../../../learn/fundamentals/stellar-data-structures/ledgers/README.mdx), o aproximadamente 500 segundos.
 
 ### Construir el contrato
 
