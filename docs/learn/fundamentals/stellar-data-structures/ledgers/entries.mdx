@@ -7,9 +7,11 @@ description: "Ledger entries are the durable data structures that make up the St
 
 # Ledger Entries
 
-Data is stored on the ledger as ledger entries, akin to key-value stores. Each key is a `LedgerKey` entry defined in [protocol XDR](https://github.com/stellar/stellar-xdr/blob/v23.0/Stellar-ledger-entries.x#L588), with values as `LedgerEntry` instances. Keys define which object we reference, while entries contain the data stored at that key in [protocol XDR](https://github.com/stellar/stellar-xdr/blob/v23.0/Stellar-ledger-entries.x#L548).
+Data is stored on the ledger as ledger entries, akin to key-value stores. Each key is a `LedgerKey` instance defined in [protocol XDR](https://github.com/stellar/stellar-xdr/blob/cff714a5ebaaaf2dac343b3546c2df73f0b7a36e/Stellar-ledger-entries.x#L588). Keys state which object we reference, pointing to `LedgerEntry` values defined in [protocol XDR](https://github.com/stellar/stellar-xdr/blob/v26.0/Stellar-ledger-entries.x#L548). Thus entry instances contain the data stored at that key.
 
-Because `LedgerEntries` are a full record of ledger data, they include the identifying key. These fungible key identifiers and fields lower excess variables, using the same subset of XDR structure. There are 10 different forms a ledger key can take:
+Ledger entries include the identifying key, since they're a full record of ledger data. These fungible key identifiers and fields lower excess variables, using the same subset of XDR structure.
+
+## 10 Ledger Key Cases
 
 ### Account
 
