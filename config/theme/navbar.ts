@@ -13,6 +13,11 @@ const build: NavbarItem = {
       activeBasePath: 'docs/build',
     },
     {
+      to: '/docs/build/building-with-ai',
+      label: 'Building with AI',
+      activeBasePath: 'docs/build/building-with-ai',
+    },
+    {
       type: 'html',
       value: '<hr><a href="/docs/build/smart-contracts" class="subtitle"><small>Build Smart Contracts</small>',
       className: 'subtitle',
@@ -78,6 +83,11 @@ const build: NavbarItem = {
       to: '/docs/build/apps/dapp-frontend',
       label: 'Tutorial: Dapp Frontend',
       activeBasePath: 'docs/build/apps/dapp-frontend',
+    },
+    {
+      to: '/docs/build/apps/privacy',
+      label: 'Privacy on Stellar',
+      activeBasePath: 'docs/build/apps/privacy',
     },
     {
       to: '/docs/build/apps/zk',
