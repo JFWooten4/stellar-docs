@@ -1,7 +1,7 @@
 ---
 id: list-strict-receive-payment-paths
 title: "List Strict Receive Payment Paths"
-description: "The [strict receive payment path](./resources/operations/object/path-payment-strict-receive.mdx) endpoint lists the paths a payment can take based on the amount of an asset you want the recipient to receive. The destination asset amount stays constant, and the type and amount of an asset sent varies based on offers in the order books."
+description: "The [strict receive payment path](https://developers.stellar.org/docs/data/apis/horizon/api-reference/resources/operations/object/path-payment-strict-receive) endpoint lists the paths a payment can take based on the amount of an asset you want the recipient to receive. The destination asset amount stays constant, and the type and amount of an asset sent varies based on offers in the order books."
 sidebar_label: "List Strict Receive Payment Paths"
 hide_title: true
 hide_table_of_contents: true
@@ -36,7 +36,7 @@ import Heading from "@theme/Heading";
 
 
 
-The [strict receive payment path](./resources/operations/object/path-payment-strict-receive.mdx) endpoint lists the paths a payment can take based on the amount of an asset you want the recipient to receive. The destination asset amount stays constant, and the type and amount of an asset sent varies based on offers in the order books.
+The [strict receive payment path](https://developers.stellar.org/docs/data/apis/horizon/api-reference/resources/operations/object/path-payment-strict-receive) endpoint lists the paths a payment can take based on the amount of an asset you want the recipient to receive. The destination asset amount stays constant, and the type and amount of an asset sent varies based on offers in the order books.
 
 For this search, Horizon loads a list of assets available to the sender (based on `source_account` or `source_assets`) and displays the possible paths from the different source assets to the destination asset. Only paths that satisfy the `destination_amount` are returned.
 
