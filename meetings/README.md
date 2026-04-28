@@ -31,7 +31,7 @@ Python 3.9+ and a virtual environment.
 ```bash
 python -m venv .venv
 .\.venv\Scripts\activate
-pip install yt_dlp webvtt-py deepmultilingualpunctuation language_tool_python
+python -m pip install yt_dlp webvtt-py deepmultilingualpunctuation language_tool_python
 ```
 
 Spellcheck requires Java (used by `language_tool_python`). If Java isn’t
