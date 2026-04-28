@@ -465,7 +465,7 @@ def fetchCaptions(videoId: str, outDir: pathlib.Path, args: argparse.Namespace) 
     )
     print(f"{videoId}: wrote {outPath}")
 
-  if args.createPage and not args.keepVtt:
+  if not args.keepVtt:
     for vttFile in vttFiles:
       try:
         vttFile.unlink()
