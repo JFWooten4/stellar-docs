@@ -51,17 +51,6 @@ Run and answer the prompts:
 python meetings/new-meeting.py
 ```
 
-<!-- removable -->
-
-Or pass values directly:
-
-```bash
-python meetings/new-meeting.py \
-  --video VIDEO_ID \
-  --authors name-slug \
-  --tags developer
-```
-
 This will:
 
 - Download captions into memory (deleted without `--keep-vtt`)
