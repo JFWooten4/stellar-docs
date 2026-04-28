@@ -38,6 +38,7 @@
 /docs/build/apps/ingest-sdk/ingestion-pipeline-code
 /docs/build/apps/ingest-sdk/overview
 /docs/build/apps/overview
+/docs/build/apps/privacy
 /docs/build/apps/swift-payment-app
 /docs/build/apps/wallet
 /docs/build/apps/wallet/intro
@@ -50,6 +51,7 @@
 /docs/build/apps/wallet/sep7
 /docs/build/apps/wallet/stellar
 /docs/build/apps/zk
+/docs/build/building-with-ai
 /docs/build/guides
 /docs/build/guides/archival
 /docs/build/guides/archival/create-restoration-footprint-js
@@ -108,6 +110,7 @@
 /docs/build/guides/rpc/retrieve-contract-code-python
 /docs/build/guides/storage
 /docs/build/guides/storage/choosing-the-right-storage
+/docs/build/guides/storage/migrate-contract-storage
 /docs/build/guides/storage/use-instance
 /docs/build/guides/storage/use-persistent
 /docs/build/guides/storage/use-temporary
@@ -758,7 +761,6 @@
 /docs/tools/developer-tools/anchor-tools
 /docs/tools/developer-tools/asset-tools
 /docs/tools/developer-tools/block-explorers
-/docs/tools/developer-tools/building-with-ai
 /docs/tools/developer-tools/jupyter-notebooks
 /docs/tools/developer-tools/network-insights
 /docs/tools/developer-tools/network-status
@@ -898,6 +900,8 @@
 /meetings/2026/01/22
 /meetings/2026/01/29
 /meetings/2026/02/26
+/meetings/2026/04/16
+/meetings/2026/04/23
 /meetings/archive
 /meetings/authors
 /meetings/authors/carstenjacobsen
