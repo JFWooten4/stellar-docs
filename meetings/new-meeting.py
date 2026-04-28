@@ -57,7 +57,7 @@ def cleanCaptionText(text: str) -> str:
   text = re.sub(r"<[^>]+>", "", text)
   text = re.sub(r"AGT;+", "", text)
   text = re.sub(r"\b(?:um+|uh+|erm+|hmm+|mm+)\b[,.]?", "", text, flags=re.IGNORECASE)
-  text = re.sub(r"\b(cap|sep|slp)s?\b", lambda m: m.group(1).upper() + ("s" if m.group(0).lower().endswith("s") else ""), text)
+  text = normalizeProtocolAcronyms(text)
   text = re.sub(r"\bprotocol\s+(\d+)\b", lambda m: f"Protocol {m.group(1)}", text, flags=re.IGNORECASE)
   text = re.sub(r"\bstella?r\b", "Stellar", text, flags=re.IGNORECASE)
   text = re.sub(r"\bopen\s*(?:zeppelin|zepplin|zepelin|rubin)\b", "OpenZeppelin", text, flags=re.IGNORECASE)
@@ -65,6 +65,44 @@ def cleanCaptionText(text: str) -> str:
   text = text.replace("\n", " ")
   text = re.sub(r"\s+", " ", text)
   return text.strip()
+
+def normalizeProtocolAcronyms(text: str) -> str:
+  text = re.sub(
+    r"\b(cap|sep|slp)s\b",
+    lambda m: f"{m.group(1).upper()}s",
+    text,
+    flags=re.IGNORECASE,
+  )
+
+  text = re.sub(
+    r"\b(cap|sep|slp)['’]s\b(?=\s+(?:aka|and|what|these|those|themselves|you|we|they|are|were|have|include|includes|suggest|suggests|allow|allows|make|makes|work|works|change|changes|can|could|should|would|may|might|must)\b)",
+    lambda m: f"{m.group(1).upper()}s",
+    text,
+    flags=re.IGNORECASE,
+  )
+
+  text = re.sub(
+    r"\b(cap|sep|slp)\b",
+    lambda m: m.group(1).upper(),
+    text,
+    flags=re.IGNORECASE,
+  )
+
+  text = re.sub(
+    r"\b(CAP|SEP|SLP)\s*-?\s*(\d{1,4})\b",
+    lambda m: f"{m.group(1).upper()}-{int(m.group(2))}",
+    text,
+    flags=re.IGNORECASE,
+  )
+
+  text = re.sub(
+    r"\bcat\s*-?\s*(\d{1,4})\b",
+    lambda m: f"CAP-{int(m.group(1))}",
+    text,
+    flags=re.IGNORECASE,
+  )
+
+  return text
 
 def formatTimestamp(seconds: int) -> str:
   mins = seconds // 60
@@ -115,7 +153,7 @@ def dedupeRepeatedPhrases(text: str) -> str:
   tokens = text.split()
   if len(tokens) < 6:
     return text
-  maxWindow = 8
+  maxWindow = 12
   maxPasses = 3
   for _ in range(maxPasses):
     i = 0
@@ -288,6 +326,7 @@ def vttToMinuteBlocks(vttPath: pathlib.Path, blockSeconds: int, punctuate: bool,
       continue
     joined = punctuateText(joined, punctuate)
     joined = spellcheckText(joined, spellcheck)
+    joined = normalizeProtocolAcronyms(joined)
     joined = dedupeRepeatedPhrases(joined)
     norm = re.sub(r"\s+", " ", joined).strip().lower()
     if norm and norm == lastNorm:
