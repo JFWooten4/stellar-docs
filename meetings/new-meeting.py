@@ -10,6 +10,7 @@ import webvtt
 from typing import Dict, Iterator, List, Optional, Tuple
 
 PUNCTUATION_MODEL = None
+PUNCTUATION_FAILED = False
 LANGUAGE_TOOL = None
 STOPWORDS = {
   "a", "an", "and", "are", "as", "at", "be", "but", "by", "for", "from", "has", "have", "he", "her",
@@ -113,21 +114,32 @@ def yamlEscape(value: str) -> str:
   return value.replace("\\", "\\\\").replace("\"", "\\\"")
 
 def punctuateText(text: str, enabled: bool) -> str:
-  if not enabled:
+  global PUNCTUATION_MODEL, PUNCTUATION_FAILED
+
+  if not enabled or PUNCTUATION_FAILED:
     return text
+
   try:
     from deepmultilingualpunctuation import PunctuationModel  # type: ignore
   except Exception:
     print("warning: deepmultilingualpunctuation not installed; skipping punctuation", file=sys.stderr)
+    PUNCTUATION_FAILED = True
     return text
-  global PUNCTUATION_MODEL
+
   if PUNCTUATION_MODEL is None:
     try:
       PUNCTUATION_MODEL = PunctuationModel()
     except Exception as exc:
       print(f"warning: punctuation model failed; skipping punctuation ({exc})", file=sys.stderr)
+      PUNCTUATION_FAILED = True
       return text
-  return PUNCTUATION_MODEL.restore_punctuation(text)
+
+  try:
+    return PUNCTUATION_MODEL.restore_punctuation(text)
+  except Exception as exc:
+    print(f"warning: punctuation model failed; skipping punctuation ({exc})", file=sys.stderr)
+    PUNCTUATION_FAILED = True
+    return text
 
 def spellcheckText(text: str, enabled: bool) -> str:
   if not enabled:
