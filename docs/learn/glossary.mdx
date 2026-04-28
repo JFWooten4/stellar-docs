@@ -41,7 +41,7 @@ The amount of a given asset an account holds. Each asset has its own balance and
 
 Parameter required when claiming a newly created entry via the Claim claimable balance operation. See [ClaimableBalanceID](#claimablebalanceid).
 
-### Base fee
+### Base Fee
 
 The fee you’re willing to pay per operation in a transaction.
 
@@ -49,7 +49,7 @@ This differs from the Effective Base Fee which is the actual fee paid per operat
 
 Learn more in our [Fees section](./fundamentals/fees-resource-limits-metering.mdx).
 
-### Base reserve
+### Base Reserve
 
 A unit of measurement used to calculate an account’s minimum balance. One base reserve is currently 0.5 XLM.
 
@@ -87,11 +87,11 @@ Learn more in our [Clawback guide](../build/guides/transactions/clawbacks.mdx).
 
 todo https://stellar.org/blog/developers/composable-data-platform from D:\GitHub\stellar-docs\docs\build\apps\ingest-sdk
 
-### Contract account
+### Contract Account
 
 An account that is implemented as a smart contract, allowing the contract to define custom authorization logic and on-chain policy enforcement before authorization succeeds instead of relying on built-in protocol features.
 
-### Contract token
+### Contract Token
 
 Tokens created and managed through smart contracts. These assets are programmable and governed by on-chain logic instead of built-in protocol features.
 
@@ -105,15 +105,15 @@ Contract tokens used to be referred to as "custom tokens", which has been deprec
 
 Makes a payment to a 0-balance public key (Stellar address), thereby creating the account. You must use this operation to initialize an account rather than a standard payment operation.
 
-### Cross-asset payments
+### Cross-Asset Payments
 
 A payment that automatically handles the conversion of dissimilar assets.
 
-### Custom token
+### Custom Token
 
 This term has been deprecated in favor of [contract tokens](#contract-token).
 
-### Decentralized exchange
+### Decentralized Exchange
 
 A distributed exchange that allows the trading and conversion of assets on the network.
 
@@ -143,7 +143,7 @@ Read more in the [Fuzz Testing Tutorial](../build/smart-contracts/example-contra
 
 An online repository for documents that can be accessed and shared among multiple users; host for the Stellar platform’s source code, documentation, and other open-source repos.
 
-### Home domain
+### Home Domain
 
 A fully qualified domain name (FQDN) linked to a Stellar account, used to generate an on-chain link to a Stellar Info File, which holds off-chain metadata. See the Set Options operation. Can be up to 32 characters.
 
@@ -231,7 +231,7 @@ A record of outstanding orders on the Stellar network.
 
 Learn more in our [Liquidity on Stellar: SDEX and Liquidity Pools section](./fundamentals/liquidity-on-stellar-sdex-liquidity-pools.mdx#order-books).
 
-### Passive order
+### Passive Order
 
 An order that does not execute against a marketable counter order with the same price; filled only if the prices are not equal.
 
@@ -245,7 +245,9 @@ Learn more about network passphrases in the [Networks section](../networks/READM
 
 The process of determining the best path of a payment, evaluating the current orderbooks, and finding the series of conversions to achieve the best rate.
 
-### Payment channel
+It happens during [Stellar Core](#stellar-core)'s market-order execution and in [Horizon aggregation](../data/apis/horizon/api-reference/aggregations/README.mdx).
+
+### Payment Channel
 
 Allows two parties who frequently transact with one another to move the bulk of their activity off-chain, while still recording opening balances and final settlement on-chain.
 
@@ -259,7 +261,7 @@ See the [Operation and Transaction Validity section](./fundamentals/transactions
 
 The ratio of the quote asset and the base asset in an order.
 
-### Public key
+### Public Key
 
 The public part of a keypair that identifies a Stellar account. The public key is public- it is visible on the ledger, anyone can look it up, and it is used when sending payments to the account, identifying the issuer of an asset, and verifying that a transaction is authorized.
 
@@ -267,9 +269,7 @@ The public part of a keypair that identifies a Stellar account. The public key i
 
 The Stellar Public Network, aka mainnet, the main network used by applications in production.
 
-Read more in our [Networks section](../networks/README.mdx).
-
-### Sequence number
+### Sequence Number
 
 Used to identify and verify the order of transactions with the source account.
 
@@ -291,7 +291,7 @@ Refers to the master key or to any other signing keys added later. A signer is d
 
 See our [Signature and Multisignature Encyclopedia Entry](./fundamentals/transactions/signatures-multisig.mdx) for more information.
 
-### Smart contract
+### Smart Contract
 
 Self-executing contracts with the terms of the agreement directly written into code, automatically enforceable without the need for intermediaries.
 
@@ -299,7 +299,7 @@ Self-executing contracts with the terms of the agreement directly written into c
 
 The smart contract platform on the Stellar network. The name "Soroban" comes from the Japanese abacus, which is a traditional counting tool used for mathematical calculations. The Soroban abacus is a lightweight instrument known for its efficiency and accuracy in performing arithmetic operations.
 
-### Source account
+### Source Account
 
 The account that originates a transaction. This account also provides the fee and sequence number for the transaction.
 
@@ -367,7 +367,7 @@ Read more about operation thresholds in the [Operations and Transactions section
 
 Learn more about quorum set validators in our [Stellar Consensus Protocol section](./fundamentals/stellar-consensus-protocol.mdx).
 
-### Time bounds
+### Time Bounds
 
 An optional feature you can apply to a transaction to enforce a time limit on the transaction; either the transaction makes it to the ledger or times out (fails) depending on your time parameters.
 
@@ -379,7 +379,7 @@ A group of 1 to 100 operations that modify the ledger state.
 
 Read more in the [Operations and Transactions section](./fundamentals/transactions/operations-and-transactions.mdx#transactions).
 
-### Transaction envelope
+### Transaction Envelope
 
 A transaction plus its signature(s) is called a transaction envelope.
 
@@ -405,7 +405,7 @@ Read more in the [State Archival section](./fundamentals/contract-development/st
 
 The classification of data that dictates the kind of data that can be stored and how it can be manipulated within a smart contract.
 
-### UNIX timestamp
+### UNIX Timestamp
 
 An integer representing a given date and time, as used on UNIX and Linux computers.
 
