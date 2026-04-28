@@ -2,7 +2,6 @@ import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 import { themes as prismThemes } from 'prism-react-renderer';
 
-// import { makeEditUrl, DEFAULT_LOCALE, GOOGLE_TRANSLATE_ELEMENT } from './config/constants';
 import navbarItems from './config/theme/navbar';
 import footerColumns from './config/theme/footer';
 import { headTags } from './config/theme/headTags';
