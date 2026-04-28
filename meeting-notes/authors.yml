@@ -52,3 +52,10 @@ julian:
 placeholder:
   name: Unknown
   image_url: /img/docusaurus/authors/nobody.svg
+kaankacar:
+  name: Kaan Kacar
+  title: Developer Advocate
+  url: https://github.com/kaankacar
+  image_url: https://github.com/kaankacar.png
+  socials:
+    github: kaankacar
