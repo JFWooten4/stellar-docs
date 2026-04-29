@@ -165,6 +165,6 @@ export default function DocCard({ item }: Props): ReactNode {
     case "category":
       return <CardCategory item={item} />;
     default:
-      throw new Error(`unknown item type ${JSON.stringify(item)}`);
+      throw new Error(`Unknown DocCard item type: ${item.type}`);
   }
 }
