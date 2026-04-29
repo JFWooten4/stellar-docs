@@ -3,6 +3,7 @@ import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import {
   useDocById,
+  useDocsVersion,
   findFirstSidebarItemLink,
 } from "@docusaurus/plugin-content-docs/client";
 import type {
@@ -32,6 +33,31 @@ function useCategoryItemsPlural() {
         { count },
       ),
     );
+}
+
+function getStringCustomProp(
+  customProps: PropSidebarItemCategory["customProps"],
+  key: string,
+): string | undefined {
+  const value = customProps?.[key];
+  return typeof value === "string" ? value : undefined;
+}
+
+function getCategoryIndexDocIds(href: string | undefined): string[] {
+  if (!href || !isInternalUrl(href)) {
+    return [];
+  }
+
+  const [pathname] = href.split(/[?#]/);
+  const pathSegments = pathname.replace(/^\/+|\/+$/g, "").split("/");
+  const docsSegmentIndex = pathSegments.indexOf("docs");
+  const docPathSegments =
+    docsSegmentIndex >= 0
+      ? pathSegments.slice(docsSegmentIndex + 1)
+      : pathSegments;
+  const docPath = docPathSegments.join("/");
+
+  return docPath ? [`${docPath}/README`, `${docPath}/index`, docPath] : [];
 }
 
 function CardContainer({
@@ -92,6 +118,10 @@ function CardLayout({
 function CardCategory({ item }: { item: PropSidebarItemCategory }): ReactNode {
   const href = findFirstSidebarItemLink(item);
   const categoryItemsPlural = useCategoryItemsPlural();
+  const { docs } = useDocsVersion();
+  const categoryIndexDoc = getCategoryIndexDocIds(item.href).find(
+    (docId) => docs[docId],
+  );
 
   if (!href) {
     return null;
@@ -99,7 +129,8 @@ function CardCategory({ item }: { item: PropSidebarItemCategory }): ReactNode {
 
   const description =
     item.description ??
-    item.customProps?.description ??
+    getStringCustomProp(item.customProps, "description") ??
+    docs[categoryIndexDoc ?? ""]?.description ??
     categoryItemsPlural(item.items.length);
 
   return (
