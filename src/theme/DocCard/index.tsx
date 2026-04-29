@@ -43,9 +43,11 @@ function CardContainer({
   href: string;
   children: ReactNode;
 }): ReactNode {
+  const linkProps = isInternalUrl(href) ? { to: href } : { href };
+
   return (
     <Link
-      href={href}
+      {...linkProps}
       className={clsx("card padding--lg", styles.cardContainer, className)}
     >
       {children}
