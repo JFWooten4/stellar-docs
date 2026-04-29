@@ -75,7 +75,7 @@ function CardLayout({
         className={clsx("text--truncate", styles.cardTitle)}
         title={title}
       >
-        {icon} {title}
+        <span aria-hidden="true">{icon}</span> {title}
       </Heading>
       {description && (
         <p
