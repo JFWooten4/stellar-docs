@@ -12,6 +12,7 @@ index 1d4db8c..8b07522 100644
    }
  };
  
++const getThemeStorage = () => typeof localStorage === 'undefined' || typeof localStorage.removeItem !== 'function' ? memoryStorage : localStorage;
  const defaultMode = () => {
 -  if (typeof localStorage === 'undefined') return DEFAULT_THEME_MODE;
 -
@@ -25,7 +26,6 @@ index 1d4db8c..8b07522 100644
    if (dataTheme) return dataTheme;
    return DEFAULT_THEME_MODE;
  };
-+const getThemeStorage = () => typeof localStorage === 'undefined' || typeof localStorage.removeItem !== 'function' ? memoryStorage : localStorage;
 @@ -5736,7 +5739,7 @@ const useThemeStore = create(persist(set => ({
  }), {
    name: THEME_STORAGE_KEY,
@@ -49,6 +49,7 @@ index 6a21eba..a4c2cec 100644
      }
    };
  
++  const getThemeStorage = () => typeof localStorage === 'undefined' || typeof localStorage.removeItem !== 'function' ? memoryStorage : localStorage;
    const defaultMode = () => {
 -    if (typeof localStorage === 'undefined') return DEFAULT_THEME_MODE;
 -
@@ -62,7 +63,6 @@ index 6a21eba..a4c2cec 100644
      if (dataTheme) return dataTheme;
      return DEFAULT_THEME_MODE;
    };
-+  const getThemeStorage = () => typeof localStorage === 'undefined' || typeof localStorage.removeItem !== 'function' ? memoryStorage : localStorage;
 @@ -5774,7 +5777,7 @@
    }), {
      name: THEME_STORAGE_KEY,
