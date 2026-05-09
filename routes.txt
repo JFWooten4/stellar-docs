@@ -922,4 +922,9 @@
 /meetings/tags/developer/page/4
 /meetings/tags/developer/page/5
 /meetings/tags/protocol
+/meetings/tags/soroban
+/meetings/tags/soroban/page/2
+/meetings/tags/soroban/page/3
+/meetings/tags/soroban/page/4
+/meetings/tags/soroban/page/5
 /search

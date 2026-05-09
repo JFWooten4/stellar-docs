@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import Layout from '@theme/Layout';
 
+const DEFAULT_MEETING_NOTES_PATH = '/meetings/tags/soroban';
+
 function hashDateToMeetingsPath(hash: string): string | null {
   // Accept "#YYYY-MM-DD" legacy meeting notes deep links.
   const m = /^#(\d{4})-(\d{2})-(\d{2})$/.exec(hash);
@@ -16,7 +18,8 @@ function hashDateToMeetingsPath(hash: string): string | null {
 
 export default function NotesRedirect(): JSX.Element {
   useEffect(() => {
-    const target = hashDateToMeetingsPath(window.location.hash) ?? '/meetings';
+    const target =
+      hashDateToMeetingsPath(window.location.hash) ?? DEFAULT_MEETING_NOTES_PATH;
 
     window.location.replace(target);
   }, []);
