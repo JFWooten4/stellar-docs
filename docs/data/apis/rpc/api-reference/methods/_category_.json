@@ -1,3 +1,9 @@
 {
+  "label": "Methods",
+  "position": 30,
+  "link": {
+    "type": "doc",
+    "id": "data/apis/rpc/api-reference/methods/README"
+  },
   "collapsed": true
 }

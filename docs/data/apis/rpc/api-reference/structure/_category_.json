@@ -1,3 +1,9 @@
 {
-    "collapsed": true
-  }  
+  "label": "Structure",
+  "position": 31,
+  "link": {
+    "type": "doc",
+    "id": "data/apis/rpc/api-reference/structure/README"
+  },
+  "collapsed": true
+}
