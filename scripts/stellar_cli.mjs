@@ -1,11 +1,19 @@
 import fs from "fs-extra";
 import path from "path";
-import { execSync } from "child_process";
+import { execFileSync, execSync } from "child_process";
 import yargs from "yargs";
 import { hideBin } from "yargs/helpers";
 
 const repoUrl = "https://github.com/stellar/stellar-cli.git";
 const localRepoPath = "./stellar-cli-repo";
+
+function git(args, options = {}) {
+  return execFileSync("git", args, {
+    encoding: "utf8",
+    stdio: ["ignore", "pipe", "inherit"],
+    ...options,
+  }).trim();
+}
 
 const argv = yargs(hideBin(process.argv))
   .parserConfiguration({
@@ -25,16 +33,25 @@ if (fs.existsSync(localRepoPath)) {
 
 // Perform a shallow clone of the repository
 console.log("Cloning repository...");
-execSync(`git clone ${repoUrl} ${localRepoPath}`);
-execSync(
-  `cd ${localRepoPath} && git fetch --all && git fetch origin '+refs/pull/*/merge:refs/remotes/origin/pr/*/merge'`,
-);
-const latestVersion = execSync(
-  `cd ${localRepoPath} && git tag | grep -v -E 'rc|preview' | tail -n1`,
-)
-  .toString()
-  .substring(1)
-  .trim();
+git(["clone", repoUrl, localRepoPath]);
+git(["fetch", "--all"], { cwd: localRepoPath });
+git(["fetch", "origin", "+refs/pull/*/merge:refs/remotes/origin/pr/*/merge"], {
+  cwd: localRepoPath,
+});
+
+const latestVersionTag = git(["tag", "--sort=v:refname"], {
+  cwd: localRepoPath,
+})
+  .split("\n")
+  .map((tag) => tag.trim())
+  .filter((tag) => tag && !/(rc|preview)/i.test(tag))
+  .at(-1);
+
+if (!latestVersionTag) {
+  throw new Error("Unable to determine the latest stable stellar-cli tag.");
+}
+
+const latestVersion = latestVersionTag.replace(/^v/, "");
 
 const cliRef = argv.cliRef || `v${latestVersion}`;
 
