@@ -1,10 +1,10 @@
 import React from "react";
-import type { MethodObject } from "@open-rpc/meta-schema";
 import BrowserOnly from "@docusaurus/BrowserOnly";
+import type { MethodObject } from "@open-rpc/meta-schema";
 
-export function RpcMethod({ method }: { method: MethodObject }) {
+export const RpcMethod = ({ method }: { method: MethodObject}) => {
   return (
-    <BrowserOnly fallback={<div>Loading method details...</div>}>
+    <BrowserOnly fallback={<div>Loading method details…</div>}>
       {() => {
         const Method = require("@stellar/open-rpc-docs-react").default;
         const CodeBlock = require("@theme/CodeBlock").default;
@@ -15,4 +15,4 @@ export function RpcMethod({ method }: { method: MethodObject }) {
       }}
     </BrowserOnly>
   );
-}
+};
