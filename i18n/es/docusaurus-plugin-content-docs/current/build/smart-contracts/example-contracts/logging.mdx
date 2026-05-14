@@ -18,44 +18,38 @@ import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
 import { getPlatform } from "@site/src/helpers/getPlatform";
 
-El [ejemplo de registro] demuestra cómo registrar con el propósito de depuración.
+El [ejemplo de registro](https://github.com/stellar/soroban-examples/tree/v23.0.0/hello_world) demuestra cómo registrar con el propósito de depuración.
 
-[![Open in Codespaces](https://github.com/codespaces/badge.svg)][open-in-github-codespaces]
+[![Abrir en Codespaces](https://github.com/codespaces/badge.svg)][open-in-github-codespaces](https://github.com/codespaces/new?repo=stellar/soroban-examples&editor=web)
 
-[![Open in Codeanywhere](https://codeanywhere.com/img/open-in-codeanywhere-btn.svg)][open-in-code-anywhere]
+[![Abrir en Codeanywhere](https://codeanywhere.com/img/open-in-codeanywhere-btn.svg)][open-in-code-anywhere](https://app.codeanywhere.com/#https://github.com/stellar/soroban-examples)
 
-Los registros en los contratos solo son visibles en las pruebas, o al ejecutar contratos utilizando [`stellar-cli`]. Los registros solo se compilan en el contrato si la opción del compilador Rust `debug-assertions` está habilitada.
+Los registros en los contratos solo son visibles en las pruebas, o al ejecutar contratos utilizando [`stellar-cli`](../getting-started/setup.mdx#install-the-stellar-cli). Los registros solo se compilan en el contrato si la opción del compilador Rust `debug-assertions` está habilitada.
 
-[open-in-github-codespaces]: https://github.com/codespaces/new?repo=stellar/soroban-examples&editor=web
-[open-in-code-anywhere]: https://app.codeanywhere.com/#https://github.com/stellar/soroban-examples
-[ejemplo de registro]: https://github.com/stellar/soroban-examples/tree/v23.0.0/hello_world
 
 :::tip
 
-Los registros no son un sustituto para la depuración paso a paso. Las pruebas de Rust para Soroban se pueden depurar paso a paso en tu IDE habilitado para Rust. Consulta [pruebas] para más detalles.
+Los registros no son un sustituto para la depuración paso a paso. Las pruebas de Rust para Soroban se pueden depurar paso a paso en tu IDE habilitado para Rust. Consulta [pruebas](../getting-started/hello-world.mdx#run-the-tests) para más detalles.
 
 :::
 
 :::caution
 
-Los registros no son accesibles por dapps y otras aplicaciones. Consulta el [ejemplo de eventos] para saber cómo producir eventos estructurados.
+Los registros no son accesibles por dapps y otras aplicaciones. Consulta el [ejemplo de eventos](./events.mdx) para saber cómo producir eventos estructurados.
 
 :::
 
-[pruebas]: ../getting-started/hello-world.mdx#run-the-tests
-[ejemplo de eventos]: ./events.mdx
 
 ## Ejecutar el ejemplo
 
-Primero, sigue el proceso de [Configuración] para preparar tu entorno de desarrollo, luego clona la etiqueta `v23.0.0` del repositorio `soroban-examples`:
+Primero, sigue el proceso de [Configuración](../getting-started/setup.mdx) para preparar tu entorno de desarrollo, luego clona la etiqueta `v23.0.0` del repositorio `soroban-examples`:
 
-[configuración]: ../getting-started/setup.mdx
 
 ```sh
 git clone -b v23.0.0 https://github.com/stellar/soroban-examples
 ```
 
-O bien, omite la configuración del entorno de desarrollo y abre este ejemplo en [GitHub Codespaces][open-in-github-codespaces] o en [Code Anywhere][open-in-code-anywhere].
+O bien, omite la configuración del entorno de desarrollo y abre este ejemplo en [GitHub Codespaces](https://github.com/codespaces/new?repo=stellar/soroban-examples&editor=web) o en [Code Anywhere](https://app.codeanywhere.com/#https://github.com/stellar/soroban-examples).
 
 Para ejecutar las pruebas del ejemplo, navega al directorio `logging`, y utiliza `cargo test`.
 
@@ -101,11 +95,11 @@ Referencia: https://github.com/stellar/soroban-examples/tree/v23.0.0/logging
 
 ## Cómo funciona
 
-El macro [`log!`] registra una cadena. Todos los registros que ocurren durante la ejecución se envían a stdout en [`stellar-cli`] y están disponibles para que las pruebas validen o impriman.
+El macro [`log!`](https://docs.rs/soroban-sdk/latest/soroban_sdk/macro.log.html) registra una cadena. Todos los registros que ocurren durante la ejecución se envían a stdout en [`stellar-cli`](../getting-started/setup.mdx#install-the-stellar-cli) y están disponibles para que las pruebas validen o impriman.
 
 Los registros solo se envían si el contrato se construye con la opción del compilador `debug-assertions` habilitada. Esto hace que sea eficiente dejarlos en el código de forma permanente, ya que una construcción `release` regular los omitirá.
 
-Los registros solo se almacenan en los entornos de Soroban que tienen el registro habilitado. Los únicos entornos de Soroban donde el registro está habilitado son en las pruebas de Rust, y en el [`stellar-cli`].
+Los registros solo se almacenan en los entornos de Soroban que tienen el registro habilitado. Los únicos entornos de Soroban donde el registro está habilitado son en las pruebas de Rust, y en el [`stellar-cli`](../getting-started/setup.mdx#install-the-stellar-cli).
 
 Abre los archivos anteriores para seguirlo.
 
@@ -129,7 +123,7 @@ Para construir con registros utiliza la opción `--profile release-with-logs`.
 
 ### Usando el macro `log!`
 
-El macro [`log!`] construye una cadena a partir de la cadena de formato y una lista de argumentos. Los argumentos se sustituyen dondequiera que aparezca el valor `{}` en la cadena de formato.
+El macro [`log!`](https://docs.rs/soroban-sdk/latest/soroban_sdk/macro.log.html) construye una cadena a partir de la cadena de formato y una lista de argumentos. Los argumentos se sustituyen dondequiera que aparezca el valor `{}` en la cadena de formato.
 
 ```rust
 log!(&env, "Hello {}", value);
@@ -254,7 +248,7 @@ target/wasm32v1-none/release-with-logs/soroban_logging_contract.wasm
 
 ## Ejecutar el contrato
 
-Si tienes [`stellar-cli`] instalado, puedes invocar funciones del contrato usándolo. Especifica la opción `-v` para habilitar registros detallados.
+Si tienes [`stellar-cli`](../getting-started/setup.mdx#install-the-stellar-cli) instalado, puedes invocar funciones del contrato usándolo. Especifica la opción `-v` para habilitar registros detallados.
 
 <Tabs groupId="platform" defaultValue={getPlatform()}>
 <TabItem value="unix" label="macOS/Linux">
@@ -289,5 +283,3 @@ La salida debe incluir la siguiente línea.
 📔 CAAA... - Success - Log: {"vec":[{"string":"Hello {}"},{"symbol":"friend"}]}
 ```
 
-[`log!`]: https://docs.rs/soroban-sdk/latest/soroban_sdk/macro.log.html
-[`stellar-cli`]: ../getting-started/setup.mdx#install-the-stellar-cli

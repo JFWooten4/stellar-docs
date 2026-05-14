@@ -3,7 +3,7 @@ title: Account Creation
 sidebar_position: 20
 ---
 
-Accounts are the central data structure in Stellar and can only exist with a valid keypair (a public and secret key) and the required minimum balance of XLM. Read more in the [Accounts section].
+Accounts are the central data structure in Stellar and can only exist with a valid keypair (a public and secret key) and the required minimum balance of XLM. Read more in the [Accounts section](../../../learn/fundamentals/stellar-data-structures/accounts.mdx).
 
 ## User experience
 
@@ -11,23 +11,23 @@ To start, we'll have our user create an account. In BasicPay, the signup page wi
 
 :::info
 
-Since we are building a [non-custodial application], the encrypted secret key will only ever live in the browser. It will never be shared with a server or anybody else.
+Since we are building a [non-custodial application](../application-design-considerations.mdx#non-custodial-service), the encrypted secret key will only ever live in the browser. It will never be shared with a server or anybody else.
 
 :::
 
-![public and private keys](/assets/basic-pay/public-and-private-keys.png)
+![Public Private Keys](/assets/basic-pay/public-and-private-keys.png)
 
-Next, we'll trigger the user to submit a pincode to encrypt their secret key before it gets saved to their browser's `localStorage` (this is handled by the [`@stellar/typescript-wallet-sdk-km`]). The user will need to remember their pincode for future logins and to submit transactions.
+Next, we'll trigger the user to submit a pincode to encrypt their secret key before it gets saved to their browser's `localStorage` (this is handled by the [`js-stellar-wallets` SDK](https://github.com/stellar/js-stellar-wallets)). The user will need to remember their pincode for future logins and to submit transactions.
 
 With BasicPay, when the user clicks the “Signup” button, they will be asked to confirm their pincode. When they do, the `create_account` operation is triggered, and the user's account is automatically funded with XLM for the minimum balance (starting with 10,000 XLM).
 
-![funded account](/assets/basic-pay/funded-account.png)
+![Funded Account Tutorial Screenshot](/assets/basic-pay/funded-account.png)
 
-When you're ready to move the application to Pubnet, accounts will need to be funded with real XLM. This is something the application can cover itself by depositing XLM into the user's account, with the use of [sponsored reserves], or the user can cover the required balance with their own XLM.
+When you're ready to move the application to Pubnet, accounts will need to be funded with real XLM. This is something the application can cover itself by depositing XLM into the user's account, with the use of [sponsored reserves](../../guides/transactions/sponsored-reserves.mdx), or the user can cover the required balance with their own XLM.
 
 ## Code implementation
 
-We will create a Svelte `store` to interact with our user's randomly generated keypair. The store will take advantage of [`@stellar/typescript-wallet-sdk-km`] to encrypt/decrypt the keypair, as well as sign transactions.
+We will create a Svelte `store` to interact with our user's randomly generated keypair. The store will take advantage of some of the `js-stellar-wallets` SDK to encrypt/decrypt the keypair, as well as sign transactions.
 
 ### Creating the `walletStore` store
 
@@ -39,13 +39,8 @@ Our `walletStore` will make a few things possible throughout our application.
 
 ```js title="/src/lib/stores/walletStore.js"
 import { persisted } from "svelte-local-storage-store";
-import {
-  KeyManager,
-  LocalStorageKeyStore,
-  ScryptEncrypter,
-  KeyType,
-} from "@stellar/typescript-wallet-sdk-km";
-import { TransactionBuilder } from "@stellar/stellar-sdk";
+import { KeyManager, KeyManagerPlugins, KeyType } from "@stellar/wallet-sdk";
+import { TransactionBuilder } from "stellar-sdk";
 import { error } from "@sveltejs/kit";
 import { get } from "svelte/store";
 
@@ -79,7 +74,7 @@ function createWalletStore() {
             privateKey: secretKey,
           },
           password: pincode,
-          encrypterName: ScryptEncrypter.name,
+          encrypterName: KeyManagerPlugins.ScryptEncrypter.name,
         });
 
         // Set the `walletStore` fields for the `keyId` and `publicKey`
@@ -100,7 +95,11 @@ function createWalletStore() {
     },
 
     // Compares a submitted pincode to make sure it is valid for the stored, encrypted keypair.
-    confirmPincode: async ({ pincode, firstPincode = "", signup = false }) => {
+    confirmCorrectPincode: async ({
+      pincode,
+      firstPincode = "",
+      signup = false,
+    }) => {
       // If we are not signing up, make sure the submitted pincode successfully
       // decrypts and loads the stored keypair.
       if (!signup) {
@@ -148,7 +147,7 @@ export const walletStore = createWalletStore();
 // Configure a `KeyManager` for use with stored keypairs.
 const setupKeyManager = () => {
   // We make a new `KeyStore`
-  const localKeyStore = new LocalStorageKeyStore();
+  const localKeyStore = new KeyManagerPlugins.LocalStorageKeyStore();
 
   // Configure it to use `localStorage` and specify a(n optional) prefix
   localKeyStore.configure({
@@ -162,7 +161,7 @@ const setupKeyManager = () => {
   });
 
   // Configure the `KeyManager` to use the `scrypt` encrypter
-  keyManager.registerEncrypter(ScryptEncrypter);
+  keyManager.registerEncrypter(KeyManagerPlugins.ScryptEncrypter);
 
   // Return the `KeyManager` for use in other functions
   return keyManager;
@@ -188,9 +187,3 @@ Source: https://github.com/stellar/basic-payment-app/blob/main/src/lib/stellar/h
 ### Using the `walletStore` store
 
 Our `walletStore` is used in a ton of places in our application, especially in the confirmation modal when asking a user to input their pincode. Read on to see how we've done that.
-
-[accounts section]: ../../../learn/fundamentals/stellar-data-structures/accounts.mdx
-[non-custodial application]: ../application-design-considerations.mdx#non-custodial-service
-[`@stellar/typescript-wallet-sdk-km`]: https://www.npmjs.com/package/@stellar/typescript-wallet-sdk-km
-[sponsored reserves]: ../../guides/transactions/sponsored-reserves.mdx
-[contacts list]: ./contacts-list

@@ -21,30 +21,23 @@ import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
 import { getPlatform } from "@site/src/helpers/getPlatform";
 
-The [auth example] demonstrates how to implement authentication and authorization using the Soroban Host-managed auth framework.
+The [auth example](https://github.com/stellar/soroban-examples/tree/v23.0.0/auth) demonstrates how to implement authentication and authorization using the Soroban Host-managed auth framework.
 
-This example is an extension of the [storing data example].
+This example is an extension of the [storing data example](../getting-started/storing-data.mdx).
 
-[![Open in Codespaces](https://github.com/codespaces/badge.svg)][open-in-github-codespaces]
+[![Open in Codespaces](https://github.com/codespaces/badge.svg)][open-in-github-codespaces](https://github.com/codespaces/new?repo=stellar/soroban-examples&editor=web)
 
-[![Open in Codeanywhere](https://codeanywhere.com/img/open-in-codeanywhere-btn.svg)][open-in-code-anywhere]
-
-[open-in-github-codespaces]: https://github.com/codespaces/new?repo=stellar/soroban-examples&editor=web
-[open-in-code-anywhere]: https://app.codeanywhere.com/#https://github.com/stellar/soroban-examples
-[storing data example]: ../getting-started/storing-data.mdx
-[auth example]: https://github.com/stellar/soroban-examples/tree/v23.0.0/auth
+[![Open in Codeanywhere](https://codeanywhere.com/img/open-in-codeanywhere-btn.svg)][open-in-code-anywhere](https://app.codeanywhere.com/#https://github.com/stellar/soroban-examples)
 
 ## Run the Example
 
-First go through the [Setup] process to get your development environment configured, then clone the `v23.0.0` tag of `soroban-examples` repository:
-
-[setup]: ../getting-started/setup.mdx
+First go through the [Setup](../getting-started/setup.mdx) process to get your development environment configured, then clone the `v23.0.0` tag of `soroban-examples` repository:
 
 ```
 git clone -b v23.0.0 https://github.com/stellar/soroban-examples
 ```
 
-Or, skip the development environment setup and open this example in [GitHub Codespaces][open-in-github-codespaces] or [Code Anywhere][open-in-code-anywhere].
+Or, skip the development environment setup and open this example in [GitHub Codespaces](https://github.com/codespaces/new?repo=stellar/soroban-examples&editor=web) or [Code Anywhere](https://app.codeanywhere.com/#https://github.com/stellar/soroban-examples).
 
 To run the tests for the example, navigate to the `auth` directory, and use `cargo test`.
 
@@ -167,9 +160,7 @@ user.require_auth_for_args((value,).into_val(&env));
 
 ### Tests
 
-Open the [`auth/src/test.rs`] file to follow along.
-
-[`auth/src/test.rs`]: https://github.com/stellar/soroban-examples/tree/v23.0.0/auth/src/test.rs
+Open the [`auth/src/test.rs`](https://github.com/stellar/soroban-examples/tree/v23.0.0/auth/src/test.rs) file to follow along.
 
 ```rust title="auth/src/test.rs"
 #![cfg(test)]
@@ -303,13 +294,13 @@ target/wasm32v1-none/release/soroban_auth_contract.wasm
 
 ## Run the Contract
 
-If you have [`stellar-cli`] installed, you can deploy the contract and invoke its functions.
+If you have [`stellar-cli`](../getting-started/setup.mdx#install-the-stellar-cli) installed, you can invoke functions on the contract.
 
 But since we are dealing with authorization and signatures, we need to set up some identities to use for testing and get their public keys:
 
 ```sh
-stellar keys generate acc1 --network testnet
-stellar keys generate acc2 --network testnet
+stellar keys generate acc1
+stellar keys generate acc2
 stellar keys address acc1
 stellar keys address acc2
 ```
@@ -321,35 +312,6 @@ GA6S566FD3EQDUNQ4IGSLXKW3TGVSTQW3TPHPGS7NWMCEIPBOKTNCSRU
 GAJGHZ44IJXYFNOVRZGBCVKC2V62DB2KHZB7BEMYOWOLFQH4XP2TAM6B
 ```
 
-### Deploy
-
-<Tabs groupId="platform" defaultValue={getPlatform()}>
-<TabItem value="unix" label="macOS/Linux">
-
-```sh
-stellar contract deploy \
-    --wasm target/wasm32v1-none/release/soroban_auth_contract.wasm \
-    --alias auth_example \
-    --source-account acc1 \
-    --network testnet
-```
-
-</TabItem>
-<TabItem value="windows" label="Windows (PowerShell)">
-
-```powershell
-stellar contract deploy `
-    --wasm target/wasm32v1-none/release/soroban_auth_contract.wasm `
-    --alias auth_example `
-    --source-account acc1 `
-    --network testnet
-```
-
-</TabItem>
-</Tabs>
-
-### Invoke
-
 Now the contract itself can be invoked. Notice the `--source-account` must be the identity name matching the address passed to the `--user` argument. This allows `Stellar CLI` to automatically sign the necessary payload for the invocation.
 
 <Tabs groupId="platform" defaultValue={getPlatform()}>
@@ -357,9 +319,9 @@ Now the contract itself can be invoked. Notice the `--source-account` must be th
 
 ```sh
 stellar contract invoke \
-    --id auth_example \
     --source-account acc1 \
-    --network testnet \
+    --wasm target/wasm32v1-none/release/soroban_auth_contract.wasm \
+    --id 1 \
     -- \
     increment \
     --user GA6S566FD3EQDUNQ4IGSLXKW3TGVSTQW3TPHPGS7NWMCEIPBOKTNCSRU \
@@ -371,9 +333,9 @@ stellar contract invoke \
 
 ```powershell
 stellar contract invoke `
-    --id auth_example `
     --source-account acc1 `
-    --network testnet `
+    --wasm target/wasm32v1-none/release/soroban_auth_contract.wasm `
+    --id 1 `
     -- `
     increment `
     --user GA6S566FD3EQDUNQ4IGSLXKW3TGVSTQW3TPHPGS7NWMCEIPBOKTNCSRU `
@@ -390,9 +352,9 @@ Run a few more increments for both accounts.
 
 ```sh
 stellar contract invoke \
-    --id auth_example \
     --source-account acc2 \
-    --network testnet \
+    --wasm target/wasm32v1-none/release/soroban_auth_contract.wasm \
+    --id 1 \
     -- \
     increment \
     --user GAJGHZ44IJXYFNOVRZGBCVKC2V62DB2KHZB7BEMYOWOLFQH4XP2TAM6B \
@@ -401,9 +363,9 @@ stellar contract invoke \
 
 ```sh
 stellar contract invoke \
-    --id auth_example \
     --source-account acc1 \
-    --network testnet \
+    --wasm target/wasm32v1-none/release/soroban_auth_contract.wasm \
+    --id 1 \
     -- \
     increment \
     --user GA6S566FD3EQDUNQ4IGSLXKW3TGVSTQW3TPHPGS7NWMCEIPBOKTNCSRU \
@@ -412,9 +374,9 @@ stellar contract invoke \
 
 ```sh
 stellar contract invoke \
-    --id auth_example \
     --source-account acc2 \
-    --network testnet \
+    --wasm target/wasm32v1-none/release/soroban_auth_contract.wasm \
+    --id 1 \
     -- \
     increment \
     --user GAJGHZ44IJXYFNOVRZGBCVKC2V62DB2KHZB7BEMYOWOLFQH4XP2TAM6B \
@@ -425,35 +387,35 @@ stellar contract invoke \
 <TabItem value="windows" label="Windows (PowerShell)">
 
 ```powershell
-stellar contract invoke `
-    --id auth_example `
-    --source-account acc2 `
-    --network testnet `
-    -- `
-    increment `
-    --user GAJGHZ44IJXYFNOVRZGBCVKC2V62DB2KHZB7BEMYOWOLFQH4XP2TAM6B `
+stellar contract invoke \
+    --source-account acc2 \
+    --wasm target/wasm32v1-none/release/soroban_auth_contract.wasm \
+    --id 1 \
+    -- \
+    increment \
+    --user GAJGHZ44IJXYFNOVRZGBCVKC2V62DB2KHZB7BEMYOWOLFQH4XP2TAM6B \
     --value 5
 ```
 
 ```powershell
-stellar contract invoke `
-    --id auth_example `
-    --source-account acc1 `
-    --network testnet `
-    -- `
-    increment `
-    --user GA6S566FD3EQDUNQ4IGSLXKW3TGVSTQW3TPHPGS7NWMCEIPBOKTNCSRU `
+stellar contract invoke \
+    --source-account acc1 \
+    --wasm target/wasm32v1-none/release/soroban_auth_contract.wasm \
+    --id 1 \
+    -- \
+    increment \
+    --user GA6S566FD3EQDUNQ4IGSLXKW3TGVSTQW3TPHPGS7NWMCEIPBOKTNCSRU \
     --value 3
 ```
 
 ```powershell
-stellar contract invoke `
-    --id auth_example `
-    --source-account acc2 `
-    --network testnet `
-    -- `
-    increment `
-    --user GAJGHZ44IJXYFNOVRZGBCVKC2V62DB2KHZB7BEMYOWOLFQH4XP2TAM6B `
+stellar contract invoke \
+    --source-account acc2 \
+    --wasm target/wasm32v1-none/release/soroban_auth_contract.wasm \
+    --id 1 \
+    -- \
+    increment \
+    --user GAJGHZ44IJXYFNOVRZGBCVKC2V62DB2KHZB7BEMYOWOLFQH4XP2TAM6B \
     --value 10
 ```
 
@@ -463,7 +425,7 @@ stellar contract invoke `
 View the data that has been stored against each user with `stellar contract read`.
 
 ```sh
-stellar contract read --id auth_example --network testnet
+stellar contract read --id 1
 ```
 
 ```
@@ -478,10 +440,10 @@ It is also possible to preview the authorization payload that is being signed by
 
 ```sh
 stellar contract invoke \
-    --id auth_example \
     --source-account acc2 \
-    --network testnet \
     --auth \
+    --wasm target/wasm32v1-none/release/soroban_auth_contract.wasm \
+    --id 1 \
     -- \
     increment \
     --user GAJGHZ44IJXYFNOVRZGBCVKC2V62DB2KHZB7BEMYOWOLFQH4XP2TAM6B \
@@ -493,10 +455,10 @@ stellar contract invoke \
 
 ```powershell
 stellar contract invoke `
-    --id auth_example `
     --source-account acc2 `
-    --network testnet `
     --auth `
+    --wasm target/wasm32v1-none/release/soroban_auth_contract.wasm `
+    --id 1 `
     -- `
     increment `
     --user GAJGHZ44IJXYFNOVRZGBCVKC2V62DB2KHZB7BEMYOWOLFQH4XP2TAM6B `
@@ -509,8 +471,6 @@ stellar contract invoke `
 ```json
 Contract auth: [{"address_with_nonce":null,"root_invocation":{"contract_id":"0000000000000000000000000000000000000000000000000000000000000001","function_name":"increment","args":[{"object":{"address":{"account":{"public_key_type_ed25519":"c7bab0288753d58d3e21cc3fa68cd2546b5f78ae6635a6f1b3fe07e03ee846e9"}}}},{"u32":123}],"sub_invocations":[]},"signature_args":[]}]
 ```
-
-[`stellar-cli`]: ../getting-started/setup.mdx#install-the-stellar-cli
 
 ## Further reading
 
