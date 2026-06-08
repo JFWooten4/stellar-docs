@@ -25,6 +25,7 @@ alex-cordeiro:
   title: VP Engineering
   url: https://github.com/accordeiro
   image_url: https://github.com/accordeiro.png
+  page: true
   socials:
     github: accordeiro
     x: alexccordeiro
@@ -50,6 +51,7 @@ amisha-singla:
   title: Senior Software Engineer
   url: https://bugbie.blogspot.com
   image_url: https://github.com/amishas157.png
+  page: true
   socials:
     github: amishas157
     x: amishas157
@@ -160,6 +162,7 @@ chris-anatalio:
   title: Senior Developer Advocate
   url: https://github.com/anataliocs
   image_url: https://github.com/anataliocs.png
+  page: true
   socials:
     github: anataliocs
     x: canatalio
@@ -183,6 +186,7 @@ debnil-sur:
   name: Debnil Sur
   url: https://github.com/debnil
   image_url: https://github.com/debnil.png
+  page: true
   socials:
     github: debnil
     x: debnilsur
@@ -190,6 +194,7 @@ debnil-sur:
 denelle-dixon:
   name: Denelle Dixon
   title: CEO and Executive Director
+  page: true
   socials:
     x: DenelleDixon
     linkedin: denelle-dixon-967a236
@@ -208,6 +213,7 @@ dmytro-kozhevin:
   name: Dmytro Kozhevin
   url: https://github.com/dmkozh
   image_url: https://github.com/dmkozh.png
+  page: true
   socials:
     github: dmkozh
     linkedin: dmytro-kozhevin-7433b834
@@ -245,6 +251,7 @@ eric-saunders:
   title: Director of Engineering
   url: https://github.com/ire-and-curses
   image_url: https://github.com/ire-and-curses.png
+  page: true
   socials:
     github: ire-and-curses
     linkedin: eric-saunders
@@ -323,12 +330,14 @@ george-kudrayvtsev:
   url: https://teapowered.dev
   title: Senior Software Engineer
   image_url: https://github.com/shaptic.png
+  page: true
   socials:
     github: shaptic
     linkedin: george-kudrayvtsev-91624859
 ginger-baker:
   name: Ginger Baker
   title: SDF Board Member
+  page: true
   socials:
     x: gingerkbaker
     linkedin: bakerginger
@@ -337,6 +346,7 @@ graydon-hoare:
   title: Principal Architect
   url: https://github.com/graydon
   image_url: https://github.com/graydon.png
+  page: true
   socials:
     github: graydon
 ishan-singh:
@@ -379,6 +389,7 @@ jay-geng:
   title: Senior Core Engineer
   url: https://github.com/jayz22
   image_url: https://github.com/jayz22.png
+  page: true
   socials:
     github: jayz22
     linkedin: jayz22
@@ -387,6 +398,7 @@ jed-mccaleb:
   title: Chief Architect
   url: https://github.com/jedmccaleb
   image_url: https://github.com/jedmccaleb.png
+  page: true
   socials:
     github: jedmccaleb
     x: jedmccaleb
@@ -396,6 +408,7 @@ jeesun-kim:
   title: Senior Software Developer
   url: https://codeandfood.com
   image_url: https://github.com/jeesunikim.png
+  page: true
   socials:
     github: jeesunikim
     x: codeandfood
@@ -417,6 +430,7 @@ johnny-goodnow:
   name: Johnny Goodnow
   url: https://github.com/theaeolianmachine
   image_url: https://github.com/theaeolianmachine.png
+  page: true
   socials:
     linkedin: jgoodnow
     github: theaeolianmachine
@@ -425,6 +439,7 @@ jonathan-jove:
   title: Principal Engineer
   url: https://jonjove.com
   image_url: https://github.com/jonjove.png
+  page: true
   socials:
     github: jonjove
     x: jonathan_jove
@@ -438,6 +453,7 @@ julian-martinez:
   name: Julian Martinez
   url: https://github.com/Julian-dev28
   image_url: https://github.com/Julian-dev28.png
+  page: true
   socials:
     github: Julian-dev28
     x: j_dev28
@@ -485,12 +501,14 @@ leigh-mcculloch:
   title: Principal Software Engineer
   url: https://leighm.cc
   image_url: https://github.com/leighmcculloch.png
+  page: true
   socials:
     github: leighmcculloch
     x: ___leigh___
     linkedin: leighmcculloch
 lisa-nestor:
   name: Lisa Nestor
+  page: true
   socials:
     x: nestorious828
     linkedin: lisacnestor
@@ -498,6 +516,7 @@ marta-lokhova:
   name: Marta Lokhova
   url: https://github.com/marta-lokhova
   image_url: https://github.com/marta-lokhova.png
+  page: true
   socials:
     github: marta-lokhova
 matias-wald:
@@ -531,6 +550,7 @@ morley-zhi:
   name: Morley Zhi
   url: https://mo.rley.co
   image_url: https://github.com/morleyzhi.png
+  page: true
   socials:
     github: morleyzhi
     x: morley
@@ -540,6 +560,7 @@ naman-kumar:
   title: Product Manager
   url: https://github.com/namankumar
   image_url: https://github.com/namankumar.png
+  page: true
   socials:
     github: namankumar
 nando-vieira:
@@ -547,6 +568,7 @@ nando-vieira:
   title: Senior Software Engineer
   url: https://fnando.com
   image_url: https://github.com/fnando.png
+  page: true
   socials:
     github: fnando
     x: fnando
@@ -560,6 +582,7 @@ nicolas-barry:
   title: Chief Technology Officer
   url: https://keybase.io/monsieurnicolas
   image_url: https://github.com/monsieurnicolas.png
+  page: true
   socials:
     github: monsieurnicolas
     x: nicolassf
@@ -567,12 +590,14 @@ nicolas-barry:
 nicole-adair:
   name: Nicole Adair
   title: Head of Developer Relations
+  page: true
   socials:
     linkedin: nicoleadair
 nikhil-saraf:
   name: Nikhil Saraf
   url: https://github.com/nikhilsaraf
   image_url: https://github.com/nikhilsaraf.png
+  page: true
   socials:
     github: nikhilsaraf
     x: nikhilsaraf9
@@ -614,6 +639,7 @@ paul-bellamy:
   name: Paul Bellamy
   url: https://paulbellamy.com
   image_url: https://github.com/paulbellamy.png
+  page: true
   socials:
     github: paulbellamy
     x: pyrhho
@@ -622,6 +648,7 @@ piyal-basu:
   title: Product Manager, Freighter
   url: https://github.com/piyalbasu
   image_url: https://github.com/piyalbasu.png
+  page: true
   socials:
     github: piyalbasu
     linkedin: piyal-basu-837163b
@@ -636,6 +663,7 @@ riad-wahby:
   name: Riad Wahby
   url: https://github.com/kwantam
   image_url: https://github.com/kwantam.png
+  page: true
   socials:
     github: kwantam
 rick-groothuizen:
@@ -675,6 +703,7 @@ shawn-reuland:
   title: Senior Software Engineer
   url: https://github.com/sreuland
   image_url: https://github.com/sreuland.png
+  page: true
   socials:
     github: sreuland
     linkedin: shawn-reuland-71b697
@@ -699,6 +728,7 @@ steve-walker:
 sydney-wiseman:
   name: Sydney Wiseman
   title: Senior Engineering Manager
+  page: true
   socials:
     linkedin: syd-wiseman
 tamir-sen:
