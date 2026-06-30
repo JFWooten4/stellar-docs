@@ -231,7 +231,10 @@ elliot-voris:
     linkedin: elliotfriend
 emir-ayral:
   name: Emir Ayral
+  url: https://github.com/emirayral
+  image_url: https://github.com/emirayral.png
   socials:
+    github: emirayral
     x: StellarEmir
     linkedin: emirayral
 erasmus-hagen:
