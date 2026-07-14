@@ -10,22 +10,22 @@ type Props = WrapperProps<typeof DocCardListType>;
 
 interface CustomDocCardListProps {
   items: PropSidebarItem[];
-  className: string;
+  className?: string;
 }
 
 
-function DocCardListForCurrentSidebarCategory(props: CustomDocCardListProps): ReactNode {
+function DocCardListForCurrentSidebarCategory({ className }: Pick<CustomDocCardListProps, 'className'>): ReactNode {
   const category = useCurrentSidebarCategory()
 
   const exampleContractsLabels = ['Example Contracts', 'Ejemplos de contratos'];
   const howToGuidesLabels = ['How-To Guides', 'Guías de Cómo-Hacer'];
 
   if (exampleContractsLabels.includes(category.label)) {
-    return <ExampleContractsDocCardList items={category.items} className={props.className} />
+    return <ExampleContractsDocCardList items={category.items} className={className} />
   } else if (howToGuidesLabels.includes(category.label)) {
-    return <GuidesDocCardList items={category.items} className={props.className} />
+    return <GuidesDocCardList items={category.items} className={className} />
   }
-  return <DocCardList items={category.items} className={props.className} />
+  return <DocCardList items={category.items} className={className} />
 }
 
 function ExampleContractsDocCardList(props: CustomDocCardListProps): ReactNode {
@@ -67,7 +67,7 @@ export default function DocCardListWrapper(props: Props): ReactNode {
   const { items, className } = props;
 
   if (!items) {
-    return <DocCardListForCurrentSidebarCategory {...items} {...className} />
+    return <DocCardListForCurrentSidebarCategory className={className} />
   }
 
   return (
