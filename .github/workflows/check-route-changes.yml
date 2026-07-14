@@ -1,5 +1,3 @@
-name: Check Routes Removal
-
 on:
   pull_request:
     paths:
@@ -18,36 +16,42 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Check for routes removal
-        id: check-removal
+      - name: Check for route changes
+        id: check-routes
         run: |
-          # Get the list of removed lines in routes.txt
+          # Get the added and removed lines in routes.txt
           ROUTES_DIFF=$(git diff origin/${{ github.base_ref }} ${{ github.sha }} -- routes.txt)
-          
-          # Count removed lines (excluding diff metadata)
-          REMOVED_COUNT=$(echo "$ROUTES_DIFF" | { grep -E '^\-[^-]' || true; } | wc -l)
-          
-          if [ $REMOVED_COUNT -gt 0 ]; then
-            echo "routes_removed=true" >> $GITHUB_OUTPUT
-            echo "$ROUTES_DIFF" >> routes.diff
+
+          # Count changed lines, excluding diff metadata
+          ADDED_COUNT=$(printf '%s\n' "$ROUTES_DIFF" | { grep -E '^\+[^+]' || true; } | wc -l)
+          REMOVED_COUNT=$(printf '%s\n' "$ROUTES_DIFF" | { grep -E '^\-[^-]' || true; } | wc -l)
+
+          echo "added_count=$ADDED_COUNT" >> "$GITHUB_OUTPUT"
+          echo "removed_count=$REMOVED_COUNT" >> "$GITHUB_OUTPUT"
+
+          if [ "$ADDED_COUNT" -gt 0 ] || [ "$REMOVED_COUNT" -gt 0 ]; then
+            echo "routes_changed=true" >> "$GITHUB_OUTPUT"
+            printf '%s\n' "$ROUTES_DIFF" > routes.diff
           else
-            echo "routes_removed=false" >> $GITHUB_OUTPUT
+            echo "routes_changed=false" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Add route diff to summary
-        if: steps.check-removal.outputs.routes_removed == 'true'
+        if: steps.check-routes.outputs.routes_changed == 'true'
         run: |
           {
-            echo "## ⚠️ Routes removed"
+            echo "## Route changes"
+            echo "- Added: ${{ steps.check-routes.outputs.added_count }}"
+            echo "- Removed: ${{ steps.check-routes.outputs.removed_count }}"
             echo
             echo '```diff'
             cat routes.diff
             echo '```'
           } >> "$GITHUB_STEP_SUMMARY"
 
-      - name: Comment on PR (if routes were removed)
+      - name: Comment on PR (if routes changed)
         if: |
-          steps.check-removal.outputs.routes_removed == 'true' &&
+          steps.check-routes.outputs.routes_changed == 'true' &&
           github.event.pull_request.head.repo.full_name == github.repository
         uses: actions/github-script@v7
         with:
@@ -55,19 +59,29 @@ jobs:
           script: |
             const fs = require('fs')
             const diffContent = fs.readFileSync('routes.diff', 'utf8');
-            
+            const addedCount = Number('${{ steps.check-routes.outputs.added_count }}');
+            const removedCount = Number('${{ steps.check-routes.outputs.removed_count }}');
+
             // Convert escaped newlines back for display
             const formattedDiff = diffContent.replace(/%0A/g, '\n').replace(/%0D/g, '\r').replace(/%25/g, '%');
-            
-            const comment = `> [!WARNING]  
-            > This change removes routes. The diff of routes is below. Please verify that these changes to the routes are intentional and that redirects are in place if needed. Redirects can be added to \`nginx/includes/redirects.conf\`.
-            
+
+            const removalWarning = removedCount > 0
+              ? '> [!WARNING]\n> Verify that removed routes are intentional and have redirects where needed. Redirects can be added to `nginx/includes/redirects.conf`.'
+              : 'This change adds routes without removing any existing routes.';
+
+            const comment = `## Route changes
+
+            - Added: ${addedCount}
+            - Removed: ${removedCount}
+
+            ${removalWarning}
+
             \`\`\`diff
             ${formattedDiff}
             \`\`\`
-            
+
             `;
-            
+
             await github.rest.issues.createComment({
               issue_number: context.issue.number,
               owner: context.repo.owner,
