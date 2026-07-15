@@ -7,6 +7,18 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
 @import url("https://rsms.me/inter/inter.css");
 
+.meetings-sidebar-link,
+.meetings-sidebar-link:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+.meetings-sidebar-link:hover,
+.meetings-sidebar-link:focus-visible {
+  color: inherit;
+  text-decoration: underline;
+}
+
 /* Override highlighted code line bg so fix issue with contrast */
 :root:not([data-theme="dark"]) {
   --docusaurus-highlighted-code-line-bg: rgba(255, 255, 0, 0.15);

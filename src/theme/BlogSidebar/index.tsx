@@ -9,7 +9,11 @@ export default function BlogSidebarWrapper(props: Props): ReactNode {
   const sidebar = props.sidebar
     ? {
         ...props.sidebar,
-        title: <Link to={MEETING_ROUTE}>{props.sidebar.title}</Link>,
+        title: (
+          <Link className="meetings-sidebar-link" to={MEETING_ROUTE}>
+            {props.sidebar.title}
+          </Link>
+        ),
       }
     : undefined;
 
