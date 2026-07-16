@@ -80,7 +80,7 @@ to `http://localhost:3000/docs/`. This development server will auto-reload when
 it detects changes to the repository.
 
 > **Already cloned this repo before we moved to pnpm?** Delete the old
-> `node_modules` directory before running `pnpm install` — pnpm uses a different
+> `node_modules` directory before running `pnpm install`, pnpm uses a different
 > `node_modules` layout than Yarn, so installing on top of an existing one can
 > fail.
 

@@ -109,7 +109,7 @@ The operation code (e.g., `op_no_trust`) tells you exactly what went wrong.
 
 :::info[Trustlines explained]
 
-On Stellar, accounts must explicitly "trust" an asset before receiving it. This is a security feature—it prevents spam tokens. The receiver needs to add a trustline for the specific asset (like EURC) using their wallet or a Stellar tool.
+On Stellar, accounts must explicitly "trust" an asset before receiving it. This is a security feature, it prevents spam tokens. The receiver needs to add a trustline for the specific asset (like EURC) using their wallet or a Stellar tool.
 
 :::
 
@@ -155,7 +155,7 @@ View how many channel accounts are currently configured:
 
 #### 2. Add More Channel Accounts
 
-Use the `ensure` command to increase the number of channel accounts. This command is idempotent—it only creates new accounts if you have fewer than the specified number:
+Use the `ensure` command to increase the number of channel accounts. This command is idempotent, it only creates new accounts if you have fewer than the specified number:
 
 ```bash
 # Ensure you have at least 10 channel accounts
@@ -166,8 +166,8 @@ Use the `ensure` command to increase the number of channel accounts. This comman
 
 The optimal number depends on your disbursement volume:
 
-- **Low volume** (< 100 payments/day): 2–5 accounts
-- **Normal volume** (> 100 payments/day): 5–10 accounts
+- **Low volume** (< 100 payments/day): 2-5 accounts
+- **Normal volume** (> 100 payments/day): 5-10 accounts
 
 Start with a conservative number and increase if you notice slow processing times.
 
@@ -202,7 +202,7 @@ The invitation job runs on a schedule controlled by an environment variable:
 SCHEDULER_RECEIVER_INVITATION_JOB_SECONDS=30
 ```
 
-**Check:** Is this set to a reasonable interval (10–60 seconds)? If it's set too high or missing, invitations may be significantly delayed.
+**Check:** Is this set to a reasonable interval (10-60 seconds)? If it's set too high or missing, invitations may be significantly delayed.
 
 #### 2. Check SDP Logs for Submission Failures {/* #check-logs-submission-failures */}
 
@@ -223,7 +223,7 @@ docker logs <sdp-container-name> 2>&1 | grep -iE "invitation|otp|message"
 
 :::tip
 
-If you're testing, check spam/junk folders first—especially for email invitations.
+If you're testing, check spam/junk folders first, especially for email invitations.
 
 :::
 
@@ -243,7 +243,7 @@ During registration, receivers enter the contact details (phone number or email)
 
 #### 1. Check for Mismatched Contact Info (Most Common)
 
-The most frequent cause is the receiver entering a different email or phone number than what the payer submitted—often without realizing it.
+The most frequent cause is the receiver entering a different email or phone number than what the payer submitted, often without realizing it.
 
 **How to verify:** Check the `receiver_registration_attempts` table, which logs attempts from contacts that couldn't be matched to any receiver in the system.
 
@@ -275,7 +275,7 @@ During SEP-24 registration, receivers must confirm their verification value (e.g
 The number of attempts to confirm the verification value exceeded the max attempts.
 ```
 
-This is **not** related to OTP—it specifically means the receiver exceeded the maximum allowed attempts (15) for entering their verification value (PIN, date of birth, etc.). A common cause is receivers confusing the verification field with the OTP, entering the wrong type of value repeatedly.
+This is **not** related to OTP, it specifically means the receiver exceeded the maximum allowed attempts (15) for entering their verification value (PIN, date of birth, etc.). A common cause is receivers confusing the verification field with the OTP, entering the wrong type of value repeatedly.
 
 #### 1. Identify the Locked Receiver
 
@@ -328,7 +328,7 @@ Run these commands inside the TSS container:
 
 :::tip
 
-The `ensure` command is idempotent—it only creates accounts if you have fewer than the specified number. Running `ensure 10` when you already have 10 valid accounts does nothing.
+The `ensure` command is idempotent, it only creates accounts if you have fewer than the specified number. Running `ensure 10` when you already have 10 valid accounts does nothing.
 
 :::
 

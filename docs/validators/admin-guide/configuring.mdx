@@ -11,7 +11,7 @@ Before attempting to configure stellar-core, it is highly recommended to first t
 
 ## Configuration Basics
 
-After you've [installed](./installation.mdx) Stellar Core, your next step is to complete a configuration file that specifies crucial things about your node — like whether it connects to the Testnet or the Mainnet public network, what database it writes to, and which other nodes are in its [quorum set](#choosing-your-quorum-set).
+After you've [installed](./installation.mdx) Stellar Core, your next step is to complete a configuration file that specifies crucial things about your node, like whether it connects to the Testnet or the Mainnet public network, what database it writes to, and which other nodes are in its [quorum set](#choosing-your-quorum-set).
 
 All configuration for stellar-core is done with a [TOML](https://github.com/toml-lang/toml) file. By default, Stellar Core loads that file from `./stellar-core.cfg` and Debian packages will use the `/etc/stellar/stellar-core.cfg` file. You can specify a different file to load on the command line:
 
@@ -96,7 +96,7 @@ QUALITY="MEDIUM"
 
 :::note[Tier 1 quality rating]
 
-The example above uses `QUALITY="MEDIUM"`, which is appropriate for a new validator building a track record. If your organization is a [Tier 1 participant](../tier-1-orgs.mdx) (or aspiring to become one), you should declare your own organization as `QUALITY="HIGH"`. Note that `HIGH` quality requires [publishing a history archive](./publishing-history-archives.mdx) — the requirement is programmatically enforced. Declaring a lower quality level significantly reduces your weight in [leader election](#impact-of-validator-quality-on-nomination) and may limit your participation in consensus.
+The example above uses `QUALITY="MEDIUM"`, which is appropriate for a new validator building a track record. If your organization is a [Tier 1 participant](../tier-1-orgs.mdx) (or aspiring to become one), you should declare your own organization as `QUALITY="HIGH"`. Note that `HIGH` quality requires [publishing a history archive](./publishing-history-archives.mdx), the requirement is programmatically enforced. Declaring a lower quality level significantly reduces your weight in [leader election](#impact-of-validator-quality-on-nomination) and may limit your participation in consensus.
 
 :::
 
@@ -116,7 +116,7 @@ It is beneficial to take a brief detour here and explore some background informa
 
 :::
 
-No matter what kind of node you run — Basic or Full Validator — you need to select a quorum set, which consists of validators (grouped by organization) that your node checks with to determine whether to apply a transaction set to a ledger. If you want to know more about how quorum sets work, check this article about [how Stellar approaches quorums]. If you want to see what a quorum set consisting of all the Tier 1 validators looks like — a tried and true setup — check out the [public network config for a Full Validator].
+No matter what kind of node you run, Basic or Full Validator, you need to select a quorum set, which consists of validators (grouped by organization) that your node checks with to determine whether to apply a transaction set to a ledger. If you want to know more about how quorum sets work, check this article about [how Stellar approaches quorums]. If you want to see what a quorum set consisting of all the Tier 1 validators looks like, a tried and true setup, check out the [public network config for a Full Validator].
 
 A good quorum set:
 
@@ -132,7 +132,7 @@ To generate a quorum set, stellar core:
 - Sets the threshold for each of those subquorums
 - Gives weights to those subquorums based on quality
 
-While this does not absolve you of all responsibility — you still need to pick trustworthy validators and keep an eye on them to ensure that they're consistent and reliable — it does make your life easier and reduces the chances for human error.
+While this does not absolve you of all responsibility, you still need to pick trustworthy validators and keep an eye on them to ensure that they're consistent and reliable, it does make your life easier and reduces the chances for human error.
 
 ### Validator Discovery
 

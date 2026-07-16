@@ -96,7 +96,7 @@ Así que este script:
 1. genera una cuenta Soroban/Stellar
 2. construye todos los contratos
 3. despliega todos los contratos (a una red Soroban que se ejecuta localmente; recapitularé esto pronto)
-4. _binds_ contracts — that is, it creates NPM projects for each deployed contract by running `stellar contract bindings typescript`
+4. _binds_ contracts:  that is, it creates NPM projects for each deployed contract by running `stellar contract bindings typescript`
 5. importa los contratos para un uso directo en el resto de tu proyecto
 
 Recuerda que necesita hacer todo esto _de manera independiente del contrato_. ¡La plantilla de interfaz de usuario no sabe qué contratos podría encontrar! Pero necesita construir, desplegar, vincular e importar lo que haya.

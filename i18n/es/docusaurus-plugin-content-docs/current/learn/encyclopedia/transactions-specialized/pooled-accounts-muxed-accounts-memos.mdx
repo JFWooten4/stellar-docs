@@ -19,7 +19,7 @@ En el pasado, utilizamos memorandos para este propósito; sin embargo, usar cuen
 
 Una cuenta agrupada permite que un solo ID de cuenta Stellar sea compartido entre muchos usuarios. Generalmente, los servicios que utilizan cuentas agrupadas rastrean a sus clientes en una base de datos interna separada y usan la función de cuentas muxed para mapear un pago entrante y saliente al cliente interno correspondiente.
 
-Los beneficios de usar una cuenta agrupada son costos más bajos – no se requieren reservas base por cada cuenta – y menor complejidad de keys – solo necesitas gestionar una keypair. Sin embargo, con una sola cuenta agrupada, ahora es tu responsabilidad gestionar todos los saldos y pagos de los clientes individuales. Ya no puedes depender del ledger de Stellar para acumular valor, manejar errores y atomicidad, o gestionar transacciones de manera individual por cuenta.
+Los beneficios de usar una cuenta agrupada son costos más bajos, no se requieren reservas base por cada cuenta, y menor complejidad de keys, solo necesitas gestionar una keypair. Sin embargo, con una sola cuenta agrupada, ahora es tu responsabilidad gestionar todos los saldos y pagos de los clientes individuales. Ya no puedes depender del ledger de Stellar para acumular valor, manejar errores y atomicidad, o gestionar transacciones de manera individual por cuenta.
 
 ## Cuentas muxed
 
@@ -133,7 +133,7 @@ Con las cuentas fuera del camino, veamos cómo podemos gestionar la diferencia e
 
 #### Modelo de operaciones muxed
 
-La introducción de direcciones muxed como una abstracción de alto nivel—y su naturaleza experimental, optativa—significa que hay ramas de código ligeramente divergentes dependiendo de si la fuente es una cuenta muxed o no. Todavía necesitamos, por ejemplo, cargar cuentas por su dirección subyacente, porque las versiones muxed no existen realmente en el ledger de Stellar:
+La introducción de direcciones muxed como una abstracción de alto nivel, y su naturaleza experimental, optativa, significa que hay ramas de código ligeramente divergentes dependiendo de si la fuente es una cuenta muxed o no. Todavía necesitamos, por ejemplo, cargar cuentas por su dirección subyacente, porque las versiones muxed no existen realmente en el ledger de Stellar:
 
 <CodeExample>
 
@@ -153,7 +153,7 @@ function showBalance(acc) {
 
 </CodeExample>
 
-Para los pagos—nuestro enfoque para este conjunto de ejemplos—la divergencia solo importa porque queremos mostrar los saldos de la cuenta custodial.
+Para los pagos, nuestro enfoque para este conjunto de ejemplos, la divergencia solo importa porque queremos mostrar los saldos de la cuenta custodial.
 
 #### Pagos
 

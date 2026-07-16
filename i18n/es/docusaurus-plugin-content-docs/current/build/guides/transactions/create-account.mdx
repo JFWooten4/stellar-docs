@@ -20,7 +20,7 @@ Antes de crear una cuenta, necesitas generar tu propio par de claves; aprenderem
 
 Un par de claves válido por sí solo no constituye una cuenta. Para evitar que las entradas no usadas inflen el ledger, Stellar requiere que cada cuenta mantenga un [saldo mínimo](../../../learn/fundamentals/lumens.mdx#minimum-balance) de 1 XLM antes de que realmente exista.
 
-En la red de prueba, puedes pedirle a Friendbot — un servicio amable de financiación — que cree y financie la cuenta por ti. En los ejemplos del SDK, abajo, verás que "descubrimos" el endpoint de Friendbot mediante la llamada `getNetwork` del RPC, y luego enviamos una solicitud de financiación.
+En la red de prueba, puedes pedirle a Friendbot, un servicio amable de financiación, que cree y financie la cuenta por ti. En los ejemplos del SDK, abajo, verás que "descubrimos" el endpoint de Friendbot mediante la llamada `getNetwork` del RPC, y luego enviamos una solicitud de financiación.
 
 En la red pública, las cosas son un poco diferentes. Adquirirías lumens en un exchange o harías que alguien cree o patrocine una cuenta en tu nombre. Este es el propósito de la [operación `CreateAccount`](../../../learn/fundamentals/transactions/list-of-operations.mdx#create-account). Veremos en los ejemplos posteriores que dada una cuenta financiada, luego puedes crear una cuenta secundaria en la red con un saldo inicial.
 

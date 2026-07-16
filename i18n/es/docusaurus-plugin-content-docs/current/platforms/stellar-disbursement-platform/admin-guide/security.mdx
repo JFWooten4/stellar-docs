@@ -15,15 +15,15 @@ El reCAPTCHA está habilitado por defecto y puede desactivarse configurando la v
 
 La configuración está disponible en dos niveles:
 
-1. **Predeterminado del entorno** – Configura `DISABLE_RECAPTCHA=true` para aplicar la configuración globalmente a todos los tenants.
-2. **Anulación por tenant** – Cada organización puede habilitar o deshabilitar reCAPTCHA a través de sus propias configuraciones (UI o API). Cuando existe, la elección a nivel de tenant anula el valor predeterminado del entorno.
+1. **Predeterminado del entorno**: Configura `DISABLE_RECAPTCHA=true` para aplicar la configuración globalmente a todos los tenants.
+2. **Anulación por tenant**: Cada organización puede habilitar o deshabilitar reCAPTCHA a través de sus propias configuraciones (UI o API). Cuando existe, la elección a nivel de tenant anula el valor predeterminado del entorno.
 
 Usa las siguientes variables de entorno para controlar el comportamiento del reCAPTCHA:
 
-- `CAPTCHA_TYPE` – `GOOGLE_RECAPTCHA_V2` (predeterminado) o `GOOGLE_RECAPTCHA_V3`.
-- `RECAPTCHA_SITE_KEY` – Clave de sitio de Google emitida para el tipo de CAPTCHA elegido.
-- `RECAPTCHA_SITE_SECRET_KEY` – Clave secreta de Google asociada con la clave de sitio.
-- `RECAPTCHA_V3_MIN_SCORE` – Puntuación mínima permitida (0.0–1.0, por defecto 0.5) cuando `CAPTCHA_TYPE=GOOGLE_RECAPTCHA_V3`.
+- `CAPTCHA_TYPE`: `GOOGLE_RECAPTCHA_V2` (predeterminado) o `GOOGLE_RECAPTCHA_V3`.
+- `RECAPTCHA_SITE_KEY`: Clave de sitio de Google emitida para el tipo de CAPTCHA elegido.
+- `RECAPTCHA_SITE_SECRET_KEY`: Clave secreta de Google asociada con la clave de sitio.
+- `RECAPTCHA_V3_MIN_SCORE`: Puntuación mínima permitida (0.0-1.0, por defecto 0.5) cuando `CAPTCHA_TYPE=GOOGLE_RECAPTCHA_V3`.
 
 **Nota:** Desactivar reCAPTCHA en los entornos de producción (pubnet) reduce sustancialmente la protección contra abusos automatizados. Esta configuración debe usarse solo cuando se aplican controles compensatorios equivalentes.
 
@@ -47,14 +47,14 @@ Todas las rutas API autenticadas requieren que los clientes presenten una clave 
 
 Los JWT representan usuarios humanos que inician sesión a través de la UI. Después de la autenticación, la plataforma los autoriza según los roles asignados a su cuenta de usuario. Los roles principales son:
 
-- **Owner** – Control total, incluyendo creación de usuarios, asignación de roles y edición de configuración de la organización. Owner es el único rol que puede otorgar o revocar acceso a otros.
-- **Financial Controller** – Puede realizar todas las tareas operativas (carteras, activos, desembolsos, estadísticas) excepto la gestión de usuarios. Este rol es ideal para el personal financiero que ejecuta pagos.
-- **Developer** – Administra configuración técnica como carteras, activos y claves API, y puede ver estadísticas; no puede modificar usuarios ni flujos financieros.
-- **Business** – Solo lectura sobre datos comerciales (desembolsos, receptores, estadísticas) pero no tiene acceso a detalles de gestión de usuarios.
-- **Initiator** – Crea y guarda desembolsos pero no puede enviarlos. Mutuamente exclusivo del rol Approver para garantizar la separación de funciones.
-- **Approver** – Revisa y envía desembolsos pero no puede crear nuevos; mutuamente exclusivo con Initiator.
+- **Owner**: Control total, incluyendo creación de usuarios, asignación de roles y edición de configuración de la organización. Owner es el único rol que puede otorgar o revocar acceso a otros.
+- **Financial Controller**: Puede realizar todas las tareas operativas (carteras, activos, desembolsos, estadísticas) excepto la gestión de usuarios. Este rol es ideal para el personal financiero que ejecuta pagos.
+- **Developer**: Administra configuración técnica como carteras, activos y claves API, y puede ver estadísticas; no puede modificar usuarios ni flujos financieros.
+- **Business**: Solo lectura sobre datos comerciales (desembolsos, receptores, estadísticas) pero no tiene acceso a detalles de gestión de usuarios.
+- **Initiator**: Crea y guarda desembolsos pero no puede enviarlos. Mutuamente exclusivo del rol Approver para garantizar la separación de funciones.
+- **Approver**: Revisa y envía desembolsos pero no puede crear nuevos; mutuamente exclusivo con Initiator.
 
-Cada endpoint API especifica qué roles JWT pueden acceder a él—por ejemplo, las rutas de gestión de claves API (`/api-keys`) requieren Owner o Developer, mientras que la creación de desembolsos requiere Initiator o Financial Controller y el envío requiere Approver o Financial Controller.
+Cada endpoint API especifica qué roles JWT pueden acceder a él, por ejemplo, las rutas de gestión de claves API (`/api-keys`) requieren Owner o Developer, mientras que la creación de desembolsos requiere Initiator o Financial Controller y el envío requiere Approver o Financial Controller.
 
 #### Permisos de la clave API
 

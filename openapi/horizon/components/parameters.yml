@@ -261,7 +261,7 @@ components:
       name: limit
       in: query
       required: false
-      description: The maximum number of records returned. The limit can range from 1 to 200 — an upper limit that is hardcoded in Horizon for performance reasons. If this argument isn’t designated, it defaults to 20 for order books.
+      description: The maximum number of records returned. The limit can range from 1 to 200: an upper limit that is hardcoded in Horizon for performance reasons. If this argument isn’t designated, it defaults to 20 for order books.
       schema:
         type: integer
         example: 20

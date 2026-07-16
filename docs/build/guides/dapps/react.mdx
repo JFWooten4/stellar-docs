@@ -127,13 +127,13 @@ This block is where the actual token minting occurs. It's wrapped in a `try-catc
 
 The `await` keyword pauses the execution of the function until the promise returned by `sendTransaction` resolves. `sendTransaction` is a function obtained from our `useSendTransaction` hook, and it builds and sends a payment operation to the Stellar network.
 
-The `sendTransaction` method accepts two arguments: a `TransactionBuilder` instance and an options object. The `TransactionBuilder` sets up the details of the transaction, such as the source account, network passphrase, transaction fee, and operations to be performed—in this case, a payment operation.
+The `sendTransaction` method accepts two arguments: a `TransactionBuilder` instance and an options object. The `TransactionBuilder` sets up the details of the transaction, such as the source account, network passphrase, transaction fee, and operations to be performed, in this case, a payment operation.
 
 If the transaction is successful, `paymentResult` contains the result, which you log for debugging purposes. If an error occurs during the transaction, the function throws an error, which you catch and log.
 
 ## Conclusion
 
-React offers a host of high-level concepts that can drastically improve your web development process. By understanding and utilizing these concepts—such as components, prop passing, state management, asynchronous operations, and error handling—you can create scalable, maintainable, and efficient applications.
+React offers a host of high-level concepts that can drastically improve your web development process. By understanding and utilizing these concepts, such as components, prop passing, state management, asynchronous operations, and error handling, you can create scalable, maintainable, and efficient applications.
 
 Remember, the key to mastering React is practice. So, keep building and experimenting!
 

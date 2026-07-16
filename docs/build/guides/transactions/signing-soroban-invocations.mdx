@@ -33,7 +33,7 @@ Full transaction signing is the simpler approach where the same account acts as 
 3. **Client** signs the entire transaction envelope with the source account's keypair
 4. **Client** submits the signed transaction to the network
 
-When the transaction source account is the same as the address being authorized, the signature on the transaction itself implicitly authorizes the invocation—no separate auth entry signature is needed. This is called "source account authorization" and uses the `sorobanCredentialsSourceAccount` credential type.
+When the transaction source account is the same as the address being authorized, the signature on the transaction itself implicitly authorizes the invocation, no separate auth entry signature is needed. This is called "source account authorization" and uses the `sorobanCredentialsSourceAccount` credential type.
 
 ### Code example
 
@@ -92,7 +92,7 @@ async function invokeWithFullSigning(
 
 :::note[Source account authorization]
 
-For transaction signing, `prepareTransaction` handles simulation internally. Since the source account's signature on the transaction envelope implicitly authorizes the invocation, no separate auth entry signing is needed—and therefore no second simulation is required.
+For transaction signing, `prepareTransaction` handles simulation internally. Since the source account's signature on the transaction envelope implicitly authorizes the invocation, no separate auth entry signing is needed, and therefore no second simulation is required.
 
 :::
 
@@ -109,7 +109,7 @@ Auth-entry signing decouples authorization from transaction submission. The auth
 
 ### When to use
 
-- The end-user has a C-account (commonly a smart wallet) — Method 2 is the **only** option for C-accounts, as they cannot sign transaction envelopes. G-accounts can also use this method.
+- The end-user has a C-account (commonly a smart wallet): Method 2 is the **only** option for C-accounts, as they cannot sign transaction envelopes. G-accounts can also use this method.
 - The end-user doesn't (need to) have XLM to pay for fees
 - Applications want a fine-grained control over which parts of the contract invocation (and subinvocations) are authorized by each account.
 - Building smart contract protocols where the end-user doesn't submit the transaction
@@ -138,7 +138,7 @@ Transaction simulation has two modes that are critical to understand:
 
 :::warning[Enforcing Mode simulation is required for submission]
 
-The first simulation (Recording Mode) **does not execute** the `require_auth` checks — it only records which auth entries are needed. This means the resource estimates from the first simulation are **incomplete**.
+The first simulation (Recording Mode) **does not execute** the `require_auth` checks, it only records which auth entries are needed. This means the resource estimates from the first simulation are **incomplete**.
 
 The **fee-payer** must simulate in Enforcing Mode, and the **client** is strongly recommended to simulate as well to ensure fees and auth checks are correct when the contract enforces signatures:
 
@@ -149,8 +149,8 @@ The **fee-payer** must simulate in Enforcing Mode, and the **client** is strongl
 
 Running Enforcing Mode simulation provides two critical benefits:
 
-- **Validates signatures and execution** — Catches auth errors and contract failures before submission. Failed simulations cost nothing; failed submissions cost real fees.
-- **Returns accurate resource estimates** — Recording Mode underestimates fees because it skips auth validation.
+- **Validates signatures and execution**: Catches auth errors and contract failures before submission. Failed simulations cost nothing; failed submissions cost real fees.
+- **Returns accurate resource estimates**: Recording Mode underestimates fees because it skips auth validation.
 
 See [Transaction Simulation - Authorization](../../../learn/fundamentals/contract-development/contract-interactions/transaction-simulation.mdx#authorization) for more details.
 
@@ -169,7 +169,7 @@ An auth entry signature authorizes a specific invocation tree and includes:
 
 Auth entry signatures expire based on ledger numbers, not timestamps. A typical offset is between 12 and 60 ledgers (approximately 1-5 minutes). The signature is valid until and including the `signatureExpirationLedger`, but invalid at `signatureExpirationLedger + 1`.
 
-Keep expiration windows as small as viable – shorter windows are safer and result in lower transaction costs.
+Keep expiration windows as small as viable, shorter windows are safer and result in lower transaction costs.
 
 :::
 
@@ -324,7 +324,7 @@ async function submitWithSignedAuth(
 
 ### C-account (smart wallet) authorization
 
-C-accounts (contract accounts starting with `C`) cannot sign transaction envelopes—they can **only** authorize via auth entries. This is because C-accounts don't have traditional keypairs; their authorization logic is defined by the contract code itself (e.g., a smart wallet contract that verifies passkey signatures).
+C-accounts (contract accounts starting with `C`) cannot sign transaction envelopes, they can **only** authorize via auth entries. This is because C-accounts don't have traditional keypairs; their authorization logic is defined by the contract code itself (e.g., a smart wallet contract that verifies passkey signatures).
 
 For C-accounts:
 
@@ -452,11 +452,11 @@ More info on fee bump transactions can be found in the [Fee-bump transactions](.
 
 ## Further reading
 
-- [Transaction simulation](../../../learn/fundamentals/contract-development/contract-interactions/transaction-simulation.mdx) — Details on simulation and authorization modes
-- [Multi-party auth example](../../../learn/fundamentals/contract-development/contract-interactions/transaction-simulation.mdx#example-2-multi-party-authentication) — Walkthrough of multi-party signing in simulation using full transaction signing
-- [Contract authorization](../auth/contract-authorization.mdx) — How `require_auth` works in contracts
-- [Sign authorization entries with Freighter](../freighter/sign-auth-entries.mdx) — Wallet integration for auth entry signing
-- [Send to and receive from C-accounts](./send-and-receive-c-accounts.mdx) — Working with contract accounts
-- [Fee-bump transactions](./fee-bump-transactions.mdx) — Using fee bump transactions to pay for transaction fees on behalf of another account without re-signing the transaction
-- [Stellar auth example (community)](https://github.com/fazzatti/stellar-auth-example) — End-to-end auth-entry signing walkthrough
-- [Stellar Asset Contract (SAC)](../tokens/stellar-asset-contract.mdx) — Background on the SAC `transfer`, used in the code examples above
+- [Transaction simulation](../../../learn/fundamentals/contract-development/contract-interactions/transaction-simulation.mdx): Details on simulation and authorization modes
+- [Multi-party auth example](../../../learn/fundamentals/contract-development/contract-interactions/transaction-simulation.mdx#example-2-multi-party-authentication): Walkthrough of multi-party signing in simulation using full transaction signing
+- [Contract authorization](../auth/contract-authorization.mdx): How `require_auth` works in contracts
+- [Sign authorization entries with Freighter](../freighter/sign-auth-entries.mdx): Wallet integration for auth entry signing
+- [Send to and receive from C-accounts](./send-and-receive-c-accounts.mdx): Working with contract accounts
+- [Fee-bump transactions](./fee-bump-transactions.mdx): Using fee bump transactions to pay for transaction fees on behalf of another account without re-signing the transaction
+- [Stellar auth example (community)](https://github.com/fazzatti/stellar-auth-example): End-to-end auth-entry signing walkthrough
+- [Stellar Asset Contract (SAC)](../tokens/stellar-asset-contract.mdx): Background on the SAC `transfer`, used in the code examples above

@@ -1,11 +1,11 @@
 # Socket reachability scan for stellar-docs.
 # For general Socket reachability documentation, see https://docs.socket.dev/docs/full-application-reachability
-# Node project (pnpm — pnpm-lock.yaml).
+# Node project (pnpm: pnpm-lock.yaml).
 #
 # Schedule: Sun 15:36 UTC weekly. Use workflow_dispatch to run on demand.
 #
 # ============================================================================
-# Socket scan — reading the job status. (The scan step below produces this: an
+# Socket scan: reading the job status. (The scan step below produces this: an
 # exit code + an optional ::warning:: annotation, which GitHub Actions renders
 # as the job's state.)
 # ============================================================================
@@ -17,7 +17,7 @@
 #        You still get CVE detection + Tier 2 results, just reduced precision
 #        for the affected CVEs. The job is NOT failing.
 # RED    (non-zero exit): scan did not complete. Do not assume any part
-#        succeeded — could be reachability hard-failing, a missing language
+#        succeeded: could be reachability hard-failing, a missing language
 #        toolchain, the runner out of memory, a network/API error, or even the
 #        underlying CVE/SBOM detection failing. Check the logs and fix before
 #        relying on results.

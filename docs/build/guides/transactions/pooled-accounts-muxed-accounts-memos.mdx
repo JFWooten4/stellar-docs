@@ -18,7 +18,7 @@ We used memos in the past for this purpose, however, using muxed accounts is bet
 
 A pooled account allows a single Stellar account ID to be shared across many users. Generally, services that use pooled accounts track their customers in a separate, internal database and use the muxed accounts feature to map an incoming and outgoing payment to the corresponding internal customer.
 
-The benefits of using a pooled account are lower costs – no base reserves are needed for each account – and lower key complexity – you only need to manage one account keypair. However, with a single pooled account, it is now your responsibility to manage all individual customer balances and payments. You can no longer rely on the Stellar ledger to accumulate value, handle errors and atomicity, or manage transactions on an account-by-account basis.
+The benefits of using a pooled account are lower costs, no base reserves are needed for each account, and lower key complexity, you only need to manage one account keypair. However, with a single pooled account, it is now your responsibility to manage all individual customer balances and payments. You can no longer rely on the Stellar ledger to accumulate value, handle errors and atomicity, or manage transactions on an account-by-account basis.
 
 ## Muxed accounts
 
@@ -64,7 +64,7 @@ The following examples demonstrate how muxed accounts work in practice, showing 
 
 **_Note:_** _The complete code implementation for all examples follows after this section. You can run individual examples using their respective functions or execute all three sequentially using the main function._
 
-Muxed accounts (M...) are a client-side abstraction that don't actually exist on the Stellar ledger — only the underlying G account lives on-chain. This means operations like loading account data must always use the base G account, while payment operations can still provide either M or G address. The code diverges only slightly to handle this distinction between the logical muxed account and the actual account.
+Muxed accounts (M...) are a client-side abstraction that don't actually exist on the Stellar ledger, only the underlying G account lives on-chain. This means operations like loading account data must always use the base G account, while payment operations can still provide either M or G address. The code diverges only slightly to handle this distinction between the logical muxed account and the actual account.
 
 **Transaction Fees:** All transactions incur a fee (typically 100 stroops or 0.0000100 XLM). Since the custodian account is the source of all transactions in these examples, fees are always debited from the custodian's balance. You'll see this reflected in the before/after balance comparisons, where the custodian account decreases by both the payment amount and the transaction fee.
 
@@ -453,6 +453,6 @@ To learn about what other purposes memos can be used for, see our [Memos section
 
 Muxed accounts are a better approach to differentiating between individuals in a pooled account because they have better:
 
-- Shareability — rather than worrying about error-prone things like copy-pasting memo IDs, you can just share your M... address.
-- SDK support — the various SDKs support this abstraction natively, letting you create, manage, and work with muxed accounts easily. This means that you may see muxed addresses appear when parsing any of the fields that support them, so you should be ready to handle them. Refer to your SDK’s documentation for details; for example, [v7.0.0](https://github.com/stellar/js-stellar-base/releases/tag/v7.0.0) of the JavaScript SDK library stellar-base describes all of the fields and functions that relate to muxed accounts.
-- Efficiency — by combining related virtual accounts under a single account’s umbrella, you can avoid holding reserves and paying fees for all of them to exist in the ledger individually. You can also combine multiple payments to multiple destinations within a single transaction since you do not need the per-transaction memo field anymore.
+- Shareability: rather than worrying about error-prone things like copy-pasting memo IDs, you can just share your M... address.
+- SDK support: the various SDKs support this abstraction natively, letting you create, manage, and work with muxed accounts easily. This means that you may see muxed addresses appear when parsing any of the fields that support them, so you should be ready to handle them. Refer to your SDK’s documentation for details; for example, [v7.0.0](https://github.com/stellar/js-stellar-base/releases/tag/v7.0.0) of the JavaScript SDK library stellar-base describes all of the fields and functions that relate to muxed accounts.
+- Efficiency: by combining related virtual accounts under a single account’s umbrella, you can avoid holding reserves and paying fees for all of them to exist in the ledger individually. You can also combine multiple payments to multiple destinations within a single transaction since you do not need the per-transaction memo field anymore.

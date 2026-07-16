@@ -10,13 +10,13 @@
  *
  * This script rewrites intra-doc links INSIDE the generated `build/**\/*.md`
  * files to the FULL canonical URL of the served `.md` twin
- * (e.g. `https://developers.stellar.org/docs/networks.md`) — self-contained, so
+ * (e.g. `https://developers.stellar.org/docs/networks.md`): self-contained, so
  * an agent can fetch a linked page directly without resolving relative paths,
  * and consistent with how `static/llms.txt` already references pages. The site
  * origin + baseUrl are read from docusaurus.config.ts (single source of truth).
  *
  * It does NOT touch any source file in the repo and does NOT affect the HTML
- * site — it only post-processes generated build artifacts. (Verified: re-running
+ * site: it only post-processes generated build artifacts. (Verified: re-running
  * it leaves every build/**\/*.html byte-identical, and full-URL links are skipped
  * as external on re-runs, so it is idempotent.)
  *
@@ -29,7 +29,7 @@
  *    lifting it one directory up, which desyncs links authored relative to
  *    `dir/`. For any twin that has a sibling directory of the same name we pick
  *    the resolution base (the twin's own dir vs. that sibling dir) that resolves
- *    the MOST links to real twins — a per-file vote needing no assumption about
+ *    the MOST links to real twins: a per-file vote needing no assumption about
  *    README vs. category-page conventions.
  *
  * Plain non-README `.md` links already resolve and are left untouched. Anchors
@@ -52,7 +52,7 @@ import { dirname, join, resolve, relative } from 'node:path';
 const BUILD_DIR = 'build';
 const BUILD_ROOT = resolve(BUILD_DIR);
 
-// [text](target) and ![alt](target) — capture the bare target (no spaces/titles).
+// [text](target) and ![alt](target): capture the bare target (no spaces/titles).
 const LINK_RE = /(!?\[[^\]]*\]\()([^)\s]+)(\))/g;
 
 /** Read the canonical site origin + baseUrl from docusaurus.config.ts. */
@@ -148,7 +148,7 @@ function collectMd(dir) {
 
 function main() {
   if (!existsSync(BUILD_DIR)) {
-    console.warn(`[rewrite-md-links] "${BUILD_DIR}/" not found — skipping.`);
+    console.warn(`[rewrite-md-links] "${BUILD_DIR}/" not found, skipping.`);
     return;
   }
 

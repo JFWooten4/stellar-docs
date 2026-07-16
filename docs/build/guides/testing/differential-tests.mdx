@@ -53,7 +53,7 @@ Assuming the contract has been deployed, and changes are being made to the local
    #[test]
    fn differential_test() {
        assert_eq!(
-           // Baseline – the deployed contract
+           // Baseline: the deployed contract
            {
                let env = Env::default();
                let contract_id = env.register(deployed::WASM, ());
@@ -69,7 +69,7 @@ Assuming the contract has been deployed, and changes are being made to the local
                    env.events().all(),
                )
            },
-           // Local – the changed or refactored contract
+           // Local: the changed or refactored contract
            {
                let env = Env::default();
                let contract_id = env.register(IncrementContract, ());

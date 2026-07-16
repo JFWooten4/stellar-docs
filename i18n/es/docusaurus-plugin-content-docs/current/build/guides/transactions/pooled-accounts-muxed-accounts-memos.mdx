@@ -18,7 +18,7 @@ Antes usábamos memos para este propósito; sin embargo, usar cuentas muxed es m
 
 Una cuenta agrupada permite que un único ID de cuenta Stellar se comparta entre muchos usuarios. Generalmente, los servicios que usan cuentas agrupadas rastrean a sus clientes en una base de datos interna separada y usan la función de cuentas muxed para asociar un pago entrante o saliente con el cliente interno correspondiente.
 
-Los beneficios de usar una cuenta agrupada son costos más bajos — no se necesitan reservas base por cada cuenta — y menor complejidad de claves — solo necesitas administrar un keypair de cuenta. Sin embargo, con una única cuenta agrupada, ahora te corresponde gestionar todos los saldos y pagos de los clientes individuales. Ya no puedes confiar en el ledger de Stellar para acumular valor, gestionar errores y atomicidad, o administrar transacciones en base a cada cuenta individual.
+Los beneficios de usar una cuenta agrupada son costos más bajos, no se necesitan reservas base por cada cuenta, y menor complejidad de claves, solo necesitas administrar un keypair de cuenta. Sin embargo, con una única cuenta agrupada, ahora te corresponde gestionar todos los saldos y pagos de los clientes individuales. Ya no puedes confiar en el ledger de Stellar para acumular valor, gestionar errores y atomicidad, o administrar transacciones en base a cada cuenta individual.
 
 ## Cuentas muxed
 
@@ -34,7 +34,7 @@ Si deseas recibir depósitos a cuentas muxed, ten en cuenta que aún no todas la
 
 ### Formato de dirección
 
-Las cuentas muxed tienen su propio formato de dirección que empieza con el prefijo M. Por ejemplo, partiendo de una dirección tradicional de Stellar: `GA7QYNF7SOWQ3GLR2BGMZEHXAVIRZA4KVWLTJJFC7MGXUA74P7UJVSGZ`, podemos crear nuevas cuentas muxed con diferentes IDs. Los IDs están incrustados en la propia dirección — al analizar las direcciones de cuentas muxed, obtendrás la dirección G mencionada más arriba, más un número adicional.
+Las cuentas muxed tienen su propio formato de dirección que empieza con el prefijo M. Por ejemplo, partiendo de una dirección tradicional de Stellar: `GA7QYNF7SOWQ3GLR2BGMZEHXAVIRZA4KVWLTJJFC7MGXUA74P7UJVSGZ`, podemos crear nuevas cuentas muxed con diferentes IDs. Los IDs están incrustados en la propia dirección, al analizar las direcciones de cuentas muxed, obtendrás la dirección G mencionada más arriba, más un número adicional.
 
 - `MA7QYNF7SOWQ3GLR2BGMZEHXAVIRZA4KVWLTJJFC7MGXUA74P7UJUAAAAAAAAAAAACJUQ` tiene el ID 0, mientras que
 - `MA7QYNF7SOWQ3GLR2BGMZEHXAVIRZA4KVWLTJJFC7MGXUA74P7UJUAAAAAAAAAABUTGI4` tiene el ID 420.
@@ -453,6 +453,6 @@ Para aprender sobre otros propósitos para los cuales se pueden usar los memos, 
 
 Las cuentas muxed son una mejor forma de diferenciar entre individuos en una cuenta agrupada porque tienen mejor:
 
-- Compartibilidad — en lugar de preocuparte por cosas propensas a errores como copiar y pegar IDs de memo, simplemente puedes compartir tu dirección M... dirección.
-- Soporte en SDK — los distintos SDKs admiten esta abstracción de forma nativa, permitiéndote crear, gestionar y trabajar con cuentas muxed fácilmente. Esto significa que pueden aparecer direcciones muxed al analizar cualquiera de los campos que las admiten, por lo que debes estar preparado para manejarlas. Consulta la documentación de tu SDK para detalles; por ejemplo, la [v7.0.0](https://github.com/stellar/js-stellar-base/releases/tag/v7.0.0) de la biblioteca stellar-base del SDK de JavaScript describe todos los campos y funciones relacionados con las cuentas muxed.
-- Eficiencia — al combinar cuentas virtuales relacionadas bajo el paraguas de una sola cuenta, puedes evitar mantener reservas y pagar tarifas por cada una de ellas individualmente en el ledger. También puedes combinar varios pagos a múltiples destinos en una sola transacción ya que ya no necesitas el campo memo por transacción.
+- Compartibilidad: en lugar de preocuparte por cosas propensas a errores como copiar y pegar IDs de memo, simplemente puedes compartir tu dirección M... dirección.
+- Soporte en SDK: los distintos SDKs admiten esta abstracción de forma nativa, permitiéndote crear, gestionar y trabajar con cuentas muxed fácilmente. Esto significa que pueden aparecer direcciones muxed al analizar cualquiera de los campos que las admiten, por lo que debes estar preparado para manejarlas. Consulta la documentación de tu SDK para detalles; por ejemplo, la [v7.0.0](https://github.com/stellar/js-stellar-base/releases/tag/v7.0.0) de la biblioteca stellar-base del SDK de JavaScript describe todos los campos y funciones relacionados con las cuentas muxed.
+- Eficiencia: al combinar cuentas virtuales relacionadas bajo el paraguas de una sola cuenta, puedes evitar mantener reservas y pagar tarifas por cada una de ellas individualmente en el ledger. También puedes combinar varios pagos a múltiples destinos en una sola transacción ya que ya no necesitas el campo memo por transacción.

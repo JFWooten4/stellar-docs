@@ -27,7 +27,7 @@ servers:
     description: The Futurenet network
 tags:
   - name: Accounts
-    description: Users interact with the Stellar network through accounts. Everything else in the ledger—assets, offers, trustlines, etc. are owned by accounts, and accounts must authorize all changes to the ledger through signed transactions.
+    description: Users interact with the Stellar network through accounts. Everything else in the ledger: assets, offers, trustlines, etc. are owned by accounts, and accounts must authorize all changes to the ledger through signed transactions.
   - name: Assets
     description: Assets are representations of value issued on the Stellar network. An asset consists of a type, code, and issuer.
   - name: Claimable Balances
@@ -53,7 +53,7 @@ tags:
   - name: Trade Aggregations
     description: A trade aggregation represents aggregated statistics on an asset pair (base and counter) for a specific time period. Trade aggregations are useful to developers of trading clients and provide historical trade data.
   - name: Trades
-    description: When an offer is fully or partially fulfilled, a trade happens. Trades can also be caused by successful path payments, because path payments involve fulfilling offers. A trade occurs between two parties—base and counter. Which is which is either arbitrary or determined by the calling query.
+    description: When an offer is fully or partially fulfilled, a trade happens. Trades can also be caused by successful path payments, because path payments involve fulfilling offers. A trade occurs between two parties: base and counter. Which is which is either arbitrary or determined by the calling query.
   - name: Transactions
     description: Transactions are commands that modify the ledger state and consist of one or more operations.
 paths:
@@ -1776,7 +1776,7 @@ components:
       name: limit
       in: query
       required: false
-      description: The maximum number of records returned. The limit can range from 1 to 200 — an upper limit that is hardcoded in Horizon for performance reasons. If this argument isn’t designated, it defaults to 20 for order books.
+      description: The maximum number of records returned. The limit can range from 1 to 200: an upper limit that is hardcoded in Horizon for performance reasons. If this argument isn’t designated, it defaults to 20 for order books.
       schema:
         type: integer
         example: 20

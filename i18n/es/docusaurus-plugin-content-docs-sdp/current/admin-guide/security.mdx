@@ -15,15 +15,15 @@ reCAPTCHA está habilitado por defecto y puede desactivarse configurando la vari
 
 La configuración está disponible en dos niveles:
 
-1. **Configuración por defecto del entorno** – Establece `DISABLE_RECAPTCHA=true` para aplicar la configuración globalmente a todos los inquilinos.
-2. **Anulación a nivel de inquilino** – Cada organización puede habilitar o deshabilitar reCAPTCHA a través de su propia configuración (UI o API). Cuando está presente, la opción a nivel de inquilino anula la configuración por defecto del entorno.
+1. **Configuración por defecto del entorno**: Establece `DISABLE_RECAPTCHA=true` para aplicar la configuración globalmente a todos los inquilinos.
+2. **Anulación a nivel de inquilino**: Cada organización puede habilitar o deshabilitar reCAPTCHA a través de su propia configuración (UI o API). Cuando está presente, la opción a nivel de inquilino anula la configuración por defecto del entorno.
 
 Utiliza las siguientes variables de entorno para controlar el comportamiento de reCAPTCHA:
 
-- `CAPTCHA_TYPE` – `GOOGLE_RECAPTCHA_V2` (predeterminado) o `GOOGLE_RECAPTCHA_V3`.
-- `RECAPTCHA_SITE_KEY` – Clave del sitio de Google emitida para el tipo de CAPTCHA elegido.
-- `RECAPTCHA_SITE_SECRET_KEY` – Clave secreta de Google emparejada con la clave del sitio.
-- `RECAPTCHA_V3_MIN_SCORE` – Puntuación mínima permitida (0.0–1.0, predeterminado 0.5) cuando `CAPTCHA_TYPE=GOOGLE_RECAPTCHA_V3`.
+- `CAPTCHA_TYPE`: `GOOGLE_RECAPTCHA_V2` (predeterminado) o `GOOGLE_RECAPTCHA_V3`.
+- `RECAPTCHA_SITE_KEY`: Clave del sitio de Google emitida para el tipo de CAPTCHA elegido.
+- `RECAPTCHA_SITE_SECRET_KEY`: Clave secreta de Google emparejada con la clave del sitio.
+- `RECAPTCHA_V3_MIN_SCORE`: Puntuación mínima permitida (0.0-1.0, predeterminado 0.5) cuando `CAPTCHA_TYPE=GOOGLE_RECAPTCHA_V3`.
 
 **Nota:** Deshabilitar reCAPTCHA en implementaciones de producción (pubnet) reduce sustancialmente la protección contra abusos automatizados. Esta configuración debe usarse solo cuando existan controles compensatorios equivalentes.
 
@@ -47,12 +47,12 @@ Todas las rutas API autenticadas requieren que los clientes presenten una clave 
 
 Los JWT representan a usuarios humanos que inician sesión a través de la UI. Después de la autenticación, la plataforma los autoriza según los roles asignados a su cuenta de usuario. Los roles principales son:
 
-- **Propietario** – Control total, incluyendo la creación de usuarios, asignación de roles y edición de la configuración de la organización. El propietario es el único rol que puede otorgar o revocar acceso a otros.
-- **Controlador Financiero** – Puede realizar todas las tareas operativas (monederos, activos, distribuciones, estadísticas) excepto la gestión de usuarios. Este rol es ideal para el personal financiero que ejecuta pagos.
-- **Desarrollador** – Gestiona la configuración técnica como monederos, activos y claves API, y puede ver estadísticas; no puede modificar usuarios ni flujos financieros.
-- **Negocios** – Solo lectura en datos del negocio (distribuciones, destinatarios, estadísticas) pero sin acceso a detalles de gestión de usuarios.
-- **Iniciador** – Crea y guarda distribuciones pero no puede enviarlas. Mutuamente excluyente con el rol de Aprobador para garantizar la separación de funciones.
-- **Aprobador** – Revisa y envía distribuciones pero no puede crear nuevas; mutuamente excluyente con Iniciador.
+- **Propietario**: Control total, incluyendo la creación de usuarios, asignación de roles y edición de la configuración de la organización. El propietario es el único rol que puede otorgar o revocar acceso a otros.
+- **Controlador Financiero**: Puede realizar todas las tareas operativas (monederos, activos, distribuciones, estadísticas) excepto la gestión de usuarios. Este rol es ideal para el personal financiero que ejecuta pagos.
+- **Desarrollador**: Gestiona la configuración técnica como monederos, activos y claves API, y puede ver estadísticas; no puede modificar usuarios ni flujos financieros.
+- **Negocios**: Solo lectura en datos del negocio (distribuciones, destinatarios, estadísticas) pero sin acceso a detalles de gestión de usuarios.
+- **Iniciador**: Crea y guarda distribuciones pero no puede enviarlas. Mutuamente excluyente con el rol de Aprobador para garantizar la separación de funciones.
+- **Aprobador**: Revisa y envía distribuciones pero no puede crear nuevas; mutuamente excluyente con Iniciador.
 
 Cada endpoint API especifica qué roles JWT pueden acceder, por ejemplo, las rutas de gestión de claves API (`/api-keys`) requieren Propietario o Desarrollador, mientras que la creación de distribuciones requiere Iniciador o Controlador Financiero y el envío requiere Aprobador o Controlador Financiero.
 

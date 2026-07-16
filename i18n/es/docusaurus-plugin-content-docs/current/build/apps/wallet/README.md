@@ -87,4 +87,4 @@ import TsHello from "./component/ts/hello.mdx";
 ```
 
 Cuando el usuario selecciona Kotlin, "¡Hola, Kotlin!" se va a renderizar, cuando
-se selecciona TypeScript — "¡Hola, TypeScript!". Finalmente, para Flutter y Swift, no se renderizará nada.
+se selecciona TypeScript, "¡Hola, TypeScript!". Finalmente, para Flutter y Swift, no se renderizará nada.

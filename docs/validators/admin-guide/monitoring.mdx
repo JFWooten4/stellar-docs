@@ -87,13 +87,13 @@ The table below summarizes the most important fields to check at a glance. For f
 
 | Field | Where | Healthy | Investigate |
 | --- | --- | --- | --- |
-| `state` | `info` | `Synced!` | Any other value — node is not participating in consensus |
-| `ledger.age` | `info` | < 10 seconds | > 10 seconds — node may be falling behind |
-| `peers.authenticated_count` | `info` | ≥ 8 | < 3 — limited connectivity, may miss messages |
-| `quorum.qset.phase` | `info` | `EXTERNALIZE` | Other phases for extended periods — consensus stalled |
-| `quorum.qset.fail_at` | `info` / `quorum` | ≥ 2 | ≤ 1 — one more failure will halt your node |
-| `quorum.qset.missing` | `info` / `quorum` | None or few | Multiple nodes — check if quorum peers are down |
-| `quorum.transitive.intersection` | `info` / `quorum` | `true` | `false` — **critical**, network at risk of splitting |
+| `state` | `info` | `Synced!` | Any other value: node is not participating in consensus |
+| `ledger.age` | `info` | < 10 seconds | > 10 seconds: node may be falling behind |
+| `peers.authenticated_count` | `info` | ≥ 8 | < 3: limited connectivity, may miss messages |
+| `quorum.qset.phase` | `info` | `EXTERNALIZE` | Other phases for extended periods: consensus stalled |
+| `quorum.qset.fail_at` | `info` / `quorum` | ≥ 2 | ≤ 1: one more failure will halt your node |
+| `quorum.qset.missing` | `info` / `quorum` | None or few | Multiple nodes: check if quorum peers are down |
+| `quorum.transitive.intersection` | `info` / `quorum` | `true` | `false`: **critical**, network at risk of splitting |
 
 ## Peer Information
 

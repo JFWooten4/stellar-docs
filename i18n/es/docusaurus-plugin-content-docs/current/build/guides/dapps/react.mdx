@@ -127,13 +127,13 @@ Este bloque es donde ocurre la acuñación real de tokens. Está envuelto en un 
 
 La palabra clave `await` pausa la ejecución de la función hasta que la promesa devuelta por `sendTransaction` se resuelva. `sendTransaction` es una función obtenida de nuestro hook `useSendTransaction`, y construye y envía una operación de pago a la red Stellar.
 
-El método `sendTransaction` acepta dos argumentos: una instancia de `TransactionBuilder` y un objeto de opciones. El `TransactionBuilder` establece los detalles de la transacción, como la cuenta de origen, la frase de red, la tasa de transacción y las operaciones a realizar—en este caso, una operación de pago.
+El método `sendTransaction` acepta dos argumentos: una instancia de `TransactionBuilder` y un objeto de opciones. El `TransactionBuilder` establece los detalles de la transacción, como la cuenta de origen, la frase de red, la tasa de transacción y las operaciones a realizar, en este caso, una operación de pago.
 
 Si la transacción tiene éxito, `paymentResult` contiene el resultado, que registras para fines de depuración. Si ocurre un error durante la transacción, la función lanza un error, el cual capturas y registras.
 
 ## Conclusión
 
-React ofrece una variedad de conceptos de alto nivel que pueden mejorar drásticamente tu proceso de desarrollo web. Al comprender y utilizar estos conceptos—como componentes, paso de props, gestión de estado, operaciones asincrónicas y manejo de errores—puedes crear aplicaciones escalables, mantenibles y eficientes.
+React ofrece una variedad de conceptos de alto nivel que pueden mejorar drásticamente tu proceso de desarrollo web. Al comprender y utilizar estos conceptos, como componentes, paso de props, gestión de estado, operaciones asincrónicas y manejo de errores, puedes crear aplicaciones escalables, mantenibles y eficientes.
 
 Recuerda, la clave para dominar React es la práctica. ¡Así que sigue construyendo y experimentando!
 

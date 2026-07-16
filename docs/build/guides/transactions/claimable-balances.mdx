@@ -27,7 +27,7 @@ For basic parameters, see the Create Claimable Balance entry in our [List of Ope
 
 #### Additional parameters
 
-`Claim_Predicate_` Claimant — an object that holds both the destination account that can claim the ClaimableBalanceEntry and a ClaimPredicate that must evaluate to true for the claim to succeed.
+`Claim_Predicate_` Claimant, an object that holds both the destination account that can claim the ClaimableBalanceEntry and a ClaimPredicate that must evaluate to true for the claim to succeed.
 
 A ClaimPredicate is a recursive data structure that can be used to construct complex conditionals using different ClaimPredicateTypes. Below are some examples with the `Claim_Predicate_` prefix removed for readability. Note that the SDKs expect the Unix timestamps to be expressed in seconds.
 
@@ -63,7 +63,7 @@ The below code demonstrates via both the JavaScript and Go SDKs how an account (
 
 Each of these accounts can only claim the balance under unique conditions. Account B has a full minute to claim the balance before Account A can reclaim the balance back for itself.
 
-**Note:** there is no recovery mechanism for a claimable balance in general — if none of the predicates can be fulfilled, the balance cannot be recovered. The reclaim example below acts as a safety net for this situation.
+**Note:** there is no recovery mechanism for a claimable balance in general, if none of the predicates can be fulfilled, the balance cannot be recovered. The reclaim example below acts as a safety net for this situation.
 
 <Details summary="Click here to see helper functions">
 

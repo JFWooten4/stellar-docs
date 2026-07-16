@@ -453,7 +453,7 @@ Current value: <strong id="current-value" aria-live="polite">???</strong><br />
     button.classList.add("loading");
     currentValue.innerHTML =
       currentValue.innerHTML +
-      '<span class="visually-hidden"> – updating…</span>';
+      '<span class="visually-hidden">, updating…</span>';
 
     try {
       const tx = await incrementor.increment();

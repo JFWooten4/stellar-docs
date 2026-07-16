@@ -101,13 +101,13 @@ app.listen(4021);
 
 The `price` field supports two formats:
 
-**Human-readable** — A dollar-string like `"$0.001"`. The x402 SDK converts this to the equivalent on-chain amount and assumes USDC on Stellar.
+**Human-readable**, A dollar-string like `"$0.001"`. The x402 SDK converts this to the equivalent on-chain amount and assumes USDC on Stellar.
 
 ```typescript
 price: "$0.001";
 ```
 
-**Explicit asset and amount** — Specify the on-chain [SEP-41] asset contract address and the amount in base units (the smallest unit as defined by the token's `decimals`; for example, if a USDC token has 7 decimals, then 1 USDC = 10,000,000 base units).
+**Explicit asset and amount**, Specify the on-chain [SEP-41] asset contract address and the amount in base units (the smallest unit as defined by the token's `decimals`; for example, if a USDC token has 7 decimals, then 1 USDC = 10,000,000 base units).
 
 ```typescript
 price: {
@@ -180,13 +180,13 @@ If you want to run your own instance of the facilitator instead of using the hos
 
 ## Resources
 
-- [@x402/stellar (npm)](https://www.npmjs.com/package/@x402/stellar) — npm package for x402 on Stellar
-- [x402-stellar (repo)](https://github.com/stellar/x402-stellar) — Tools, examples, and references for x402 on Stellar
-- [x402 on Stellar](./README.mdx) — Overview of the x402 protocol on Stellar
-- [x402 protocol specification](https://www.x402.org/) — x402 specification and whitepaper
-- [OpenZeppelin x402 Facilitator Plugin][oz-plugin] — Source code
-- [OpenZeppelin x402 Facilitator Docs][oz-facilitator-guide] — Full configuration and setup guide
-- [OpenZeppelin Stellar Relayer SDK](https://github.com/OpenZeppelin/openzeppelin-relayer-sdk) — SDK for interacting with the Relayer
+- [@x402/stellar (npm)](https://www.npmjs.com/package/@x402/stellar): npm package for x402 on Stellar
+- [x402-stellar (repo)](https://github.com/stellar/x402-stellar): Tools, examples, and references for x402 on Stellar
+- [x402 on Stellar](./README.mdx): Overview of the x402 protocol on Stellar
+- [x402 protocol specification](https://www.x402.org/): x402 specification and whitepaper
+- [OpenZeppelin x402 Facilitator Plugin][oz-plugin]: Source code
+- [OpenZeppelin x402 Facilitator Docs][oz-facilitator-guide]: Full configuration and setup guide
+- [OpenZeppelin Stellar Relayer SDK](https://github.com/OpenZeppelin/openzeppelin-relayer-sdk): SDK for interacting with the Relayer
 
 [oz-relayer]: https://docs.openzeppelin.com/relayer/1.4.x
 [oz-plugin]: https://github.com/OpenZeppelin/relayer-plugin-x402-facilitator

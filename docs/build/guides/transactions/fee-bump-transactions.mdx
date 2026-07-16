@@ -55,18 +55,18 @@ When a fee-bump transaction is ready to be signed, it’s wrapped in a transacti
 
 A fee-bump transaction goes through a series of checks in its lifecycle to determine validity. The following conditions must be met:
 
-- **Fee account** — the fee account for the fee-bump transaction must exist on the ledger.
+- **Fee account**: the fee account for the fee-bump transaction must exist on the ledger.
 - **Fee**
   - The fee must be greater than or equal to the network minimum fee for the number of operations in the inner transaction, plus one for the fee bump.
   - The fee must also be greater than or equal to the fee specified in the inner transaction.
   - If the fee-bump transaction is taking advantage of the replace-by-fee, the fee must be 10x higher than the first transaction
-- **Fee account signature** — the fee-bump transaction envelope must contain a valid signature for the fee account. Additionally, the weight of that signature must meet the low threshold for the fee account, and the appropriate network passphrase must be part of the transaction hash signed by the fee account.
-- **Fee account balance** — the fee account must have a sufficient XLM balance to cover the fee
-- **Inner transaction** — the inner transaction must be valid, which means it must meet the requirements described in the [Validity of a Transaction section](../../../learn/fundamentals/transactions/operations-and-transactions.mdx#transaction-and-operation-validity). If validation of the inner transaction is successful, then the result is `FEE_BUMP_INNER_SUCCESS`, and the validation results from the validation of the inner transaction appear in the inner result. If the inner transaction is invalid, the result is `FEE_BUMP_INNER_FAILED`, and the fee-bump transaction is invalid because the inner transaction is invalid.
+- **Fee account signature**: the fee-bump transaction envelope must contain a valid signature for the fee account. Additionally, the weight of that signature must meet the low threshold for the fee account, and the appropriate network passphrase must be part of the transaction hash signed by the fee account.
+- **Fee account balance**: the fee account must have a sufficient XLM balance to cover the fee
+- **Inner transaction**: the inner transaction must be valid, which means it must meet the requirements described in the [Validity of a Transaction section](../../../learn/fundamentals/transactions/operations-and-transactions.mdx#transaction-and-operation-validity). If validation of the inner transaction is successful, then the result is `FEE_BUMP_INNER_SUCCESS`, and the validation results from the validation of the inner transaction appear in the inner result. If the inner transaction is invalid, the result is `FEE_BUMP_INNER_FAILED`, and the fee-bump transaction is invalid because the inner transaction is invalid.
 
 ## Application
 
-The sole purpose of a fee-bump transaction is to get an inner transaction included in a transaction set. Since the fee-bump transaction has no side effects other than paying a fee — and at the time the fee is paid the outer transaction must have been valid (otherwise nodes would not have voted for it) — there is no reason to check the validity of the fee-bump transaction at apply time. Therefore, the sequence number of the inner transaction is always consumed at apply time. The inner transaction, however, will still have its validity checked at apply time.
+The sole purpose of a fee-bump transaction is to get an inner transaction included in a transaction set. Since the fee-bump transaction has no side effects other than paying a fee, and at the time the fee is paid the outer transaction must have been valid (otherwise nodes would not have voted for it), there is no reason to check the validity of the fee-bump transaction at apply time. Therefore, the sequence number of the inner transaction is always consumed at apply time. The inner transaction, however, will still have its validity checked at apply time.
 
 Every fee-bump transaction result contains a complete inner transaction result. This inner-transaction result is exactly what would have been produced had there been no fee-bump transaction, except that the inner fee will always be 0.
 

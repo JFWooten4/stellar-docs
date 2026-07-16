@@ -12,7 +12,7 @@ _Before we get started with working with Stellar in code, consider going through
 
 ## Create a Keypair
 
-Stellar uses public key cryptography to secure every transaction: each Stellar account has a keypair consisting of a **public key** and a **secret key**. The public key is always safe to share — other people need it to identify your account and verify that you authorized a transaction. It's like an email address. The secret key, however, is private information that proves you own — and gives you access to — your account. It's like a password, and you should never share it with anyone.
+Stellar uses public key cryptography to secure every transaction: each Stellar account has a keypair consisting of a **public key** and a **secret key**. The public key is always safe to share, other people need it to identify your account and verify that you authorized a transaction. It's like an email address. The secret key, however, is private information that proves you own, and gives you access to, your account. It's like a password, and you should never share it with anyone.
 
 Before creating an account, you need to generate your own keypair; we'll learn how in the [full example](#full-example), below.
 
@@ -20,7 +20,7 @@ Before creating an account, you need to generate your own keypair; we'll learn h
 
 A valid keypair alone does not make an account. To prevent unused entries from bloating the ledger, Stellar requires every account to hold a [minimum balance](../../../learn/fundamentals/lumens.mdx#minimum-balance) of 1 XLM before it actually exists.
 
-On the test network you can ask Friendbot — a friendly funding service — to create and fund the account for you. In the SDK examples, below, you'll see that we "discover" the Friendbot endpoint via the RPC's `getNetwork` call, then issue a funding request.
+On the test network you can ask Friendbot, a friendly funding service, to create and fund the account for you. In the SDK examples, below, you'll see that we "discover" the Friendbot endpoint via the RPC's `getNetwork` call, then issue a funding request.
 
 On the public network, things are a little different. You'd acquire lumens from an exchange or have someone create or sponsor an account on your behalf. This is the purpose of the [`CreateAccount` operation](../../../learn/fundamentals/transactions/list-of-operations.mdx#create-account). We'll see in the examples, later, that given a funded account, you can then create a child account on the network with a starting balance.
 

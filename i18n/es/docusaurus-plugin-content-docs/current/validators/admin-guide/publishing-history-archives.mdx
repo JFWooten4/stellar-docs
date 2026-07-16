@@ -154,7 +154,7 @@ server {
 
 Dada la opción, lo mejor es configurar tu archivo de historia _antes de_ que tu nodo inicie la sincronización con una red existente. De esa manera, la historia de tu validador se publica a medida que te unes y luego sincronizas con la red.
 
-Sin embargo, si no has publicado un archivo durante la sincronización inicial del nodo, los pasos requeridos para crear un archivo de historia para un validador existente — en otras palabras, para actualizar un validador básico a un validador completo — son bastante sencillos. Primero, deberás detener tu instancia de `stellar-core`:
+Sin embargo, si no has publicado un archivo durante la sincronización inicial del nodo, los pasos requeridos para crear un archivo de historia para un validador existente, en otras palabras, para actualizar un validador básico a un validador completo, son bastante sencillos. Primero, deberás detener tu instancia de `stellar-core`:
 
 ```bash
 systemctl stop stellar-core # modify this if not using systemctl
@@ -197,7 +197,7 @@ La herramienta de línea de comandos [stellar-archivist](https://github.com/stel
 apt-get install stellar-archivist
 ```
 
-Si decides publicar un archivo completo — lo que permite a otros usuarios unirse a la red desde el libro mayor de génesis — puedes usar `stellar-archivist` para agregar todos los datos de historia faltantes a tu archivo parcial, y para verificar el estado y la integridad de tu archivo. Por ejemplo:
+Si decides publicar un archivo completo, lo que permite a otros usuarios unirse a la red desde el libro mayor de génesis, puedes usar `stellar-archivist` para agregar todos los datos de historia faltantes a tu archivo parcial, y para verificar el estado y la integridad de tu archivo. Por ejemplo:
 
 ```bash
 stellar-archivist scan file:///mnt/xvdf/stellar-core-archive/node_001
@@ -221,7 +221,7 @@ stellar-archivist scan file:///mnt/xvdf/stellar-core-archive/node_001
 
 Como puedes ver en la salida del comando `scan`, falta algo de historia, libro mayor, transacciones y resultados del archivo de historia local.
 
-Puedes reparar los datos faltantes usando el comando `repair` de stellar-archivist combinado con un archivo completo conocido — como el archivo público de historia SDF:
+Puedes reparar los datos faltantes usando el comando `repair` de stellar-archivist combinado con un archivo completo conocido, como el archivo público de historia SDF:
 
 ```bash
 stellar-archivist repair http://history.stellar.org/prd/core-testnet/core_testnet_001/ file:///mnt/xvdf/stellar-core-archive/node_001/

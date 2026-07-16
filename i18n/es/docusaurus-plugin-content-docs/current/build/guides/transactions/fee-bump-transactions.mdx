@@ -53,18 +53,18 @@ Cuando una transacción de suplemento de tarifa está lista para ser firmada, se
 
 Una transacción de suplemento de tarifa pasa por una serie de comprobaciones en su ciclo de vida para determinar su validez. Se deben cumplir las siguientes condiciones:
 
-- **Cuenta de tarifa** — la cuenta de tarifa para la transacción de suplemento de tarifa debe existir en el libro mayor.
+- **Cuenta de tarifa**: la cuenta de tarifa para la transacción de suplemento de tarifa debe existir en el libro mayor.
 - **Tarifa**
   - La tarifa debe ser mayor o igual a la tarifa mínima de red para el número de operaciones en la transacción interna, más uno por el suplemento de tarifa.
   - La comisión también debe ser mayor o igual a la comisión especificada en la transacción interna.
   - Si la transacción fee-bump aprovecha el reemplazo por comisión, la comisión debe ser 10 veces mayor que la de la primera transacción.
-- **Firma de la cuenta de tarifa** — el sobre de la transacción de suplemento de tarifa debe contener una firma válida para la cuenta de tarifa. Además, el peso de esa firma debe alcanzar el umbral bajo para la cuenta de comisión, y la frase de acceso de red adecuada debe formar parte del hash de la transacción firmado por la cuenta de comisión.
-- **Saldo de la cuenta de tarifa** — la cuenta de tarifa debe tener un saldo suficiente de XLM para cubrir la tarifa
-- **Transacción interna** — la transacción interna debe ser válida, lo que significa que debe cumplir con los requisitos descritos en la [sección de Validez de una Transacción](../../../learn/fundamentals/transactions/operations-and-transactions.mdx#transaction-and-operation-validity). Si la validación de la transacción interna es exitosa, el resultado es `FEE_BUMP_INNER_SUCCESS`, y los resultados de validación de la transacción interna aparecen en el resultado interno. Si la transacción interna es inválida, el resultado es `FEE_BUMP_INNER_FAILED`, y la transacción fee-bump es inválida porque la transacción interna es inválida.
+- **Firma de la cuenta de tarifa**: el sobre de la transacción de suplemento de tarifa debe contener una firma válida para la cuenta de tarifa. Además, el peso de esa firma debe alcanzar el umbral bajo para la cuenta de comisión, y la frase de acceso de red adecuada debe formar parte del hash de la transacción firmado por la cuenta de comisión.
+- **Saldo de la cuenta de tarifa**: la cuenta de tarifa debe tener un saldo suficiente de XLM para cubrir la tarifa
+- **Transacción interna**: la transacción interna debe ser válida, lo que significa que debe cumplir con los requisitos descritos en la [sección de Validez de una Transacción](../../../learn/fundamentals/transactions/operations-and-transactions.mdx#transaction-and-operation-validity). Si la validación de la transacción interna es exitosa, el resultado es `FEE_BUMP_INNER_SUCCESS`, y los resultados de validación de la transacción interna aparecen en el resultado interno. Si la transacción interna es inválida, el resultado es `FEE_BUMP_INNER_FAILED`, y la transacción fee-bump es inválida porque la transacción interna es inválida.
 
 ## Aplicación
 
-El único propósito de una transacción fee-bump es incluir una transacción interna en un conjunto de transacciones. Dado que la transacción fee-bump no tiene efectos secundarios aparte de pagar una comisión — y en el momento en que se paga la comisión la transacción externa debe haber sido válida (de lo contrario los nodos no la hubieran votado) — no hay razón para verificar la validez de la transacción fee-bump en el momento de su aplicación. Por lo tanto, el número de secuencia de la transacción interna siempre se consume al aplicar. Sin embargo, la transacción interna seguirá siendo verificada en cuanto a su validez al aplicar.
+El único propósito de una transacción fee-bump es incluir una transacción interna en un conjunto de transacciones. Dado que la transacción fee-bump no tiene efectos secundarios aparte de pagar una comisión, y en el momento en que se paga la comisión la transacción externa debe haber sido válida (de lo contrario los nodos no la hubieran votado), no hay razón para verificar la validez de la transacción fee-bump en el momento de su aplicación. Por lo tanto, el número de secuencia de la transacción interna siempre se consume al aplicar. Sin embargo, la transacción interna seguirá siendo verificada en cuanto a su validez al aplicar.
 
 Cada resultado de transacción fee-bump contiene un resultado completo de la transacción interna. Este resultado de la transacción interna es exactamente lo que se hubiera producido si no hubiera existido la transacción de suplemento de tarifa, excepto que la tarifa interna siempre será 0.
 

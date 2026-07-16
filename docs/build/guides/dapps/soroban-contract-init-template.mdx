@@ -96,7 +96,7 @@ So this script:
 1. generates a Soroban/Stellar account
 2. builds all contracts
 3. deploys all contracts (to a locally-running Soroban network; we'll recap this soon)
-4. _binds_ contracts — that is, it creates NPM projects for each deployed contract by running `stellar contract bindings typescript`
+4. _binds_ contracts:  that is, it creates NPM projects for each deployed contract by running `stellar contract bindings typescript`
 5. imports the contracts for straightforward use in the rest of your project
 
 Remember that it needs to do this all _in a contract-agnostic way_. The frontend template doesn't know what contracts it might find! But it needs to build, deploy, bind, and import whatever's there.

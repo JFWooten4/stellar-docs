@@ -27,7 +27,7 @@ Para parámetros básicos, consulta la entrada Crear saldo reclamable en nuestra
 
 #### Parámetros adicionales
 
-`Claim_Predicate_` Reclamante — un objeto que contiene tanto la cuenta destino que puede reclamar el ClaimableBalanceEntry como un ClaimPredicate que debe evaluarse como verdadero para que la reclamación tenga éxito.
+`Claim_Predicate_` Reclamante, un objeto que contiene tanto la cuenta destino que puede reclamar el ClaimableBalanceEntry como un ClaimPredicate que debe evaluarse como verdadero para que la reclamación tenga éxito.
 
 Un ClaimPredicate es una estructura de datos recursiva que puede usarse para construir condicionales complejos usando diferentes ClaimPredicateTypes. A continuación, algunos ejemplos con el prefijo `Claim_Predicate_` removido para mayor legibilidad. Ten en cuenta que los SDKs esperan que las marcas de tiempo Unix estén expresadas en segundos.
 
@@ -63,7 +63,7 @@ El código a continuación demuestra, mediante los SDKs de JavaScript y Go, cóm
 
 Cada una de estas cuentas solo puede reclamar el saldo bajo condiciones únicas. La Cuenta B tiene un minuto completo para reclamar el saldo antes de que la Cuenta A pueda recuperarlo para sí misma.
 
-**Nota:** en general no existe un mecanismo de recuperación para un saldo reclamable — si ninguno de los predicados puede cumplirse, el saldo no puede recuperarse. El ejemplo de recuperación a continuación funciona como una red de seguridad para esta situación.
+**Nota:** en general no existe un mecanismo de recuperación para un saldo reclamable, si ninguno de los predicados puede cumplirse, el saldo no puede recuperarse. El ejemplo de recuperación a continuación funciona como una red de seguridad para esta situación.
 
 <Details summary="Haz clic aquí para ver funciones auxiliares">
 

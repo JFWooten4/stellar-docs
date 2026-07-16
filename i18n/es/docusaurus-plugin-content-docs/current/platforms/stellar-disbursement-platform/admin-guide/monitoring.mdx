@@ -13,10 +13,10 @@ Esta guía explica cómo la Plataforma de Distribución Stellar (SDP) expone mé
 
 Tanto el Dashboard API como el Servicio de Envío de Transacciones (TSS) exponen puntos finales `/metrics` compatibles con Prometheus. El servidor HTTP está definido en [serve_metrics.go](https://github.com/stellar/stellar-disbursement-platform-backend/blob/develop/internal/serve/serve_metrics.go) y se controla a través de las siguientes variables de entorno:
 
-- `METRICS_PORT` – Puerto usado por el servidor de métricas del Dashboard API (por defecto [8002](https://github.com/stellar/stellar-disbursement-platform-backend/blob/develop/dev/docker-compose-sdp.yml)).
-- `METRICS_TYPE` – Backend de monitorización en uso (actualmente `PROMETHEUS`).
-- `TSS_METRICS_PORT` – Puerto usado por el servidor de métricas del TSS (por defecto [9002](https://github.com/stellar/stellar-disbursement-platform-backend/blob/develop/dev/docker-compose-tss.yml)).
-- `TSS_METRICS_TYPE` – Backend de monitorización para el TSS (por defecto `TSS_PROMETHEUS`).
+- `METRICS_PORT`: Puerto usado por el servidor de métricas del Dashboard API (por defecto [8002](https://github.com/stellar/stellar-disbursement-platform-backend/blob/develop/dev/docker-compose-sdp.yml)).
+- `METRICS_TYPE`: Backend de monitorización en uso (actualmente `PROMETHEUS`).
+- `TSS_METRICS_PORT`: Puerto usado por el servidor de métricas del TSS (por defecto [9002](https://github.com/stellar/stellar-disbursement-platform-backend/blob/develop/dev/docker-compose-tss.yml)).
+- `TSS_METRICS_TYPE`: Backend de monitorización para el TSS (por defecto `TSS_PROMETHEUS`).
 
 Cuando el servidor se inicia, monta la ruta `/metrics` y muestra contadores e histogramas específicos de solicitudes, base de datos y TSS que se alinean con los dashboards de Grafana provistos en [Grafana README](https://github.com/stellar/stellar-disbursement-platform-backend/blob/develop/resources/grafana/README.md).
 

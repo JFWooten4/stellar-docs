@@ -4,7 +4,7 @@ description: Set up session-based off-chain payments for high-frequency use on S
 sidebar_position: 30
 ---
 
-This guide explains how to use the MPP **session** intent with `@stellar/mpp`. The session intent is implemented using a [one-way payment channel](https://github.com/stellar-experimental/one-way-channel) Soroban contract — the funder deposits tokens once, then makes many off-chain payments by signing cumulative commitments. No on-chain transaction is needed per payment, making this ideal for high-frequency AI agent interactions.
+This guide explains how to use the MPP **session** intent with `@stellar/mpp`. The session intent is implemented using a [one-way payment channel](https://github.com/stellar-experimental/one-way-channel) Soroban contract, the funder deposits tokens once, then makes many off-chain payments by signing cumulative commitments. No on-chain transaction is needed per payment, making this ideal for high-frequency AI agent interactions.
 
 This worked example assumes the channel is funded in USDC. Commitment amounts and prices below are therefore denominated in USDC, because channel commitments always use the asset deposited into the channel.
 
@@ -95,8 +95,8 @@ Each commitment is cumulative. The server tracks the highest commitment it has s
 
 Before using channel mode, you need a deployed [one-way-channel contract](https://github.com/stellar-experimental/one-way-channel) on Stellar Testnet or Mainnet. The contract is initialized with:
 
-- A **commitment key** — an ed25519 keypair. The client signs commitments with the private key; the contract verifies with the public key.
-- A **token deposit** — the funder's initial balance in the channel asset. This example uses USDC.
+- A **commitment key**: an ed25519 keypair. The client signs commitments with the private key; the contract verifies with the public key.
+- A **token deposit**: the funder's initial balance in the channel asset. This example uses USDC.
 
 See the [one-way-channel repo](https://github.com/stellar-experimental/one-way-channel) for deployment instructions.
 
@@ -227,7 +227,7 @@ const commitmentKey = Keypair.fromRawEd25519Seed(
 );
 console.log(`Commitment public key: ${commitmentKey.publicKey()}`);
 
-// Polyfill global fetch — 402 responses are handled automatically
+// Polyfill global fetch: 402 responses are handled automatically
 Mppx.create({
   methods: [
     stellar.channel({
@@ -290,7 +290,7 @@ if (!SIGNER_SECRET) {
 const txHash = await close({
   channel: CHANNEL_CONTRACT,
   amount: 2000000n, // cumulative committed amount in base units (bigint)
-  signature: lastCommitmentSig, // Uint8Array — the ed25519 signature for this commitment
+  signature: lastCommitmentSig, // Uint8Array: the ed25519 signature for this commitment
   feePayer: {
     envelopeSigner: Keypair.fromSecret(SIGNER_SECRET), // signs the close transaction
   },
@@ -313,7 +313,7 @@ Channel mode uses separate subpath exports to avoid bundling unused code:
 
 ## Additional documentation
 
-- [one-way-channel contract](https://github.com/stellar-experimental/one-way-channel) — Soroban contract, deployment scripts, and parameters
-- [@stellar/mpp on GitHub](https://github.com/stellar/stellar-mpp-sdk) — Full API reference and integration tests
-- [MPP Charge Guide](./charge-guide.mdx) — Charge mode (per-request on-chain settlement)
-- [MPP Specification](https://mpp.dev) — Protocol specification
+- [one-way-channel contract](https://github.com/stellar-experimental/one-way-channel): Soroban contract, deployment scripts, and parameters
+- [@stellar/mpp on GitHub](https://github.com/stellar/stellar-mpp-sdk): Full API reference and integration tests
+- [MPP Charge Guide](./charge-guide.mdx): Charge mode (per-request on-chain settlement)
+- [MPP Specification](https://mpp.dev): Protocol specification

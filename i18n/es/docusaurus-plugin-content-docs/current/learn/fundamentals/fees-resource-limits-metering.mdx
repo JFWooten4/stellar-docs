@@ -39,7 +39,7 @@ La tarifa de recursos depende de los siguientes recursos:
 - **Accesos a entradas del ledger:** leer o escribir cualquier entrada de ledger única (cualquier clave de almacenamiento en el contexto del contrato);
 - **I/O del ledger:** el número de bytes leídos o escritos en el ledger;
 - **Tamaño de la transacción:** el tamaño de la transacción enviada a la red en bytes;
-- **Tamaño de eventos y retorno de valor:** el tamaño de los eventos producidos por el contrato y el valor de retorno de la función del contrato de nivel superior — tanto los eventos como el valor de retorno se incluyen en los metadatos de la transacción;
+- **Tamaño de eventos y retorno de valor:** el tamaño de los eventos producidos por el contrato y el valor de retorno de la función del contrato de nivel superior: tanto los eventos como el valor de retorno se incluyen en los metadatos de la transacción;
 - **Alquiler del espacio del ledger:** el pago por las extensiones TTL de entradas del ledger (es decir, pagos de alquiler) y pagos de alquiler por aumentar el tamaño de la entrada del ledger. Consulta la sección de [archivado de estado](../fundamentals/contract-development/storage/state-archival.mdx) para obtener más información sobre el arrendamiento de contratos inteligentes.
 
 :::note
@@ -112,7 +112,7 @@ Si hay múltiples transacciones ofreciendo la misma tarifa de inclusión, pero n
 
 :::note
 
-Se recomienda aplicar [límites de ledger](./transactions/operations-and-transactions.mdx#ledger-bounds) o [límites de tiempo](./transactions/operations-and-transactions.mdx#time-bounds) a las transacciones — ya sea que tu transacción llegue al ledger o falle, dependiendo de tus parámetros de tiempo y/o ledger.
+Se recomienda aplicar [límites de ledger](./transactions/operations-and-transactions.mdx#ledger-bounds) o [límites de tiempo](./transactions/operations-and-transactions.mdx#time-bounds) a las transacciones, ya sea que tu transacción llegue al ledger o falle, dependiendo de tus parámetros de tiempo y/o ledger.
 
 :::
 
@@ -177,7 +177,7 @@ Si la ejecución del contrato concluye dentro de los límites de recursos especi
 
 Hay dos métodos principales para tratar las fluctuaciones de tarifas de inclusión y precios de picos:
 
-- [**Método 1:**](#set-the-highest-fee-youre-comfortable-paying) establece la tarifa más alta que estés dispuesto a pagar. Esto no significa que pagarás esa cantidad en cada transacción — solo pagarás lo que sea necesario para entrar en el ledger. En circunstancias normales (no de picos), solo pagarás la tarifa estándar incluso con una tarifa máxima más alta establecida. Este método es simple, conveniente y eficiente, pero aún puede fallar.
+- [**Método 1:**](#set-the-highest-fee-youre-comfortable-paying) establece la tarifa más alta que estés dispuesto a pagar. Esto no significa que pagarás esa cantidad en cada transacción: solo pagarás lo que sea necesario para entrar en el ledger. En circunstancias normales (no de picos), solo pagarás la tarifa estándar incluso con una tarifa máxima más alta establecida. Este método es simple, conveniente y eficiente, pero aún puede fallar.
 - [**Método 2:**](#fee-bumps-on-past-transactions) reenvía una transacción con una tarifa más alta usando una transacción de aumento de tarifas
 
 ### Establece la tarifa más alta que estés dispuesto a pagar​

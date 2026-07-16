@@ -15,7 +15,7 @@ import { getPlatform } from "@site/src/helpers/getPlatform";
 
 It's worth knowing that `deploy` is actually a two-step process.
 
-1. **Upload the contract bytes to the network.** Soroban currently refers to this as _installing_ the contract—from the perspective of the blockchain itself, this is a reasonable metaphor. This uploads the bytes of the contract to the network, indexing it by its hash. This contract code can now be referenced by multiple contracts, which means they would have the exact same _behavior_ but separate storage state.
+1. **Upload the contract bytes to the network.** Soroban currently refers to this as _installing_ the contract: from the perspective of the blockchain itself, this is a reasonable metaphor. This uploads the bytes of the contract to the network, indexing it by its hash. This contract code can now be referenced by multiple contracts, which means they would have the exact same _behavior_ but separate storage state.
 
 2. **Instantiate the contract.** This actually creates what you probably think of as a Smart Contract. It makes a new contract ID, and associates it with the contract bytes that were uploaded in the previous step.
 

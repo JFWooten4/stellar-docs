@@ -47,7 +47,7 @@ Due to the very large size requirements, we **recommend against** retaining meta
 
 Some operators therefore prefer to shut down their stellar-core processes and _take filesystem-level snapshots_ or _database-level dumps_ of the contents of Stellar Core's database and bucket directory, after metadata generation has occurred the first time. Such snapshots can then be restored, putting stellar-core in a state containing metadata without performing full replay.
 
-Any reasonably recent state will do — if such a snapshot is a little old, stellar-core will replay ledgers from whenever the snapshot was taken to the current network state anyways — but this procedure can greatly accelerate restoring validator nodes, or cloning them to create new ones.
+Any reasonably recent state will do, if such a snapshot is a little old, stellar-core will replay ledgers from whenever the snapshot was taken to the current network state anyways, but this procedure can greatly accelerate restoring validator nodes, or cloning them to create new ones.
 
 ## History Archives
 
@@ -59,7 +59,7 @@ Use command templates in the config file to give the specifics of which services
 
 No matter what kind of node you're running, you should configure it to `get` history from one or more public archives. You can configure any number of archives to download from: Stellar Core will automatically round-robin between them.
 
-When you're [choosing your quorum set](./configuring.mdx#choosing-your-quorum-set), you should include high-quality nodes — which, by definition, publish archives — and add the location for each node's archive in the `HISTORY` field in the [validators array](./configuring.mdx#validators-array).
+When you're [choosing your quorum set](./configuring.mdx#choosing-your-quorum-set), you should include high-quality nodes, which, by definition, publish archives, and add the location for each node's archive in the `HISTORY` field in the [validators array](./configuring.mdx#validators-array).
 
 :::note
 
