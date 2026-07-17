@@ -127,9 +127,11 @@ const config: Config = {
           breadcrumbs: true,
           routeBasePath: "/docs",
           docItemComponent: "@theme/ApiItem",
-          remarkPlugins: [remarkMath, [
-            require('@docusaurus/remark-plugin-npm2yarn'), { sync: true }
-          ]],
+          remarkPlugins: [
+            remarkMath,
+            require("./src/remark/markdown-actions.cjs"),
+            [require("@docusaurus/remark-plugin-npm2yarn"), { sync: true }],
+          ],
           rehypePlugins: [rehypeKatex],
           sidebarPath: "config/sidebars.ts",
           sidebarItemsGenerator: require("./src/sidebar-generator"),

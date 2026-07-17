@@ -255,3 +255,11 @@ select[data-testid="example-pairing-select"] {
     }
   }
 }
+
+.markdown-actions-hidden-marker {
+  display: none;
+}
+
+.markdown:has(.markdown-actions-hidden-marker) .markdown-actions-container {
+  display: none;
+}
