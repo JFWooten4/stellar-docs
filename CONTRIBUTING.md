@@ -62,6 +62,7 @@ A husky pre-commit hook runs the prettier check; if it fails, run `pnpm format:m
 - Section index pages live at `parent/README.mdx` — if you're linking to a subsection's landing page, that's usually the file you want.
 - External links to other Stellar properties use `https://stellar.org/...` (no `www`).
 - SEP references use the canonical shortlinks (`https://stellar.org/protocol/sep-10`), not raw GitHub URLs.
+- Links to the current protocol XDR use the `curr` branch, such as `https://github.com/stellar/stellar-xdr/blob/curr/Stellar-ledger-entries.x#L548`. Keep historical snapshots and links to the `next` branch pinned explicitly.
 
 ### Page metadata
 

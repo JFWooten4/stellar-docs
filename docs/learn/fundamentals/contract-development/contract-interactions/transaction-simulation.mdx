@@ -56,7 +56,7 @@ We'll cover three types of invocations:
 
 #### Example 1: source account authorization.
 
-In this variant, we will leverage the "source account authorization" variant: this is when the source account on the transaction is the only one that needs to sign for the invocation (see the "source account" variant of [`SorobanCredentials`](https://github.com/stellar/stellar-xdr/blob/v22.0/Stellar-transaction.x#L586-L595)). In this scenario, the signature on the transaction itself directly implies signing the invocation.
+In this variant, we will leverage the "source account authorization" variant: this is when the source account on the transaction is the only one that needs to sign for the invocation (see the "source account" variant of [`SorobanCredentials`](https://github.com/stellar/stellar-xdr/blob/curr/Stellar-transaction.x#L585-L603)). In this scenario, the signature on the transaction itself directly implies signing the invocation.
 
 <CodeExample>
 
@@ -211,5 +211,5 @@ To keep things really simple, we won't do much coding. Instead, we'll just show 
 ```
 
 [auth-data]: stellar-transaction.mdx#authorization-data
-[auth-invoke]: https://github.com/stellar/stellar-xdr/blob/v22.0/Stellar-transaction.x#L558
+[auth-invoke]: https://github.com/stellar/stellar-xdr/blob/curr/Stellar-transaction.x#L558-L562
 [sim-tx]: ../../../../data/apis/rpc/api-reference/methods/simulateTransaction.mdx

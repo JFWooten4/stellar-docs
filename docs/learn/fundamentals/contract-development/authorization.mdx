@@ -145,8 +145,8 @@ If any of the steps above fails, then the authorization is considered unsuccessf
 
 Notice, that authentication happens just once per tree, as the whole tree needs to be signed.
 
-[soroban-auth-entry]: https://github.com/stellar/stellar-xdr/blob/e372df9f677961aac04c5a4cc80a3667f310b29f/Stellar-transaction.x#L570
-[signature payload preimage]: https://github.com/stellar/stellar-xdr/blob/e372df9f677961aac04c5a4cc80a3667f310b29f/Stellar-transaction.x#L703
+[soroban-auth-entry]: https://github.com/stellar/stellar-xdr/blob/curr/Stellar-transaction.x#L610-L614
+[signature payload preimage]: https://github.com/stellar/stellar-xdr/blob/curr/Stellar-transaction.x#L721-L760
 
 #### Matching Authorized Invocation Trees
 
@@ -166,4 +166,4 @@ During the matching process that happens for every `require_auth` host tries to 
 
 In case if the same contract function calls `require_auth` for the same `Address` multiple times (e.g. when multiple operations from the same user are being batched), every `require_auth` call still has to have a corresponding node in the `SorobanAuthorizedInvocation` tree. Due to that, there might be multiple valid trees that make all the authorization checks pass. There is nothing wrong about that - the address still must have authorized all the invocations. The only requirement for such cases to be handled correctly is to ensure that the `require_auth` calls for an `Address` happen before the corresponding sub-contract calls.
 
-[invocation-xdr]: https://github.com/stellar/stellar-xdr/blob/e372df9f677961aac04c5a4cc80a3667f310b29f/Stellar-transaction.x#L537
+[invocation-xdr]: https://github.com/stellar/stellar-xdr/blob/curr/Stellar-transaction.x#L558-L562

@@ -41,7 +41,7 @@ In the Stellar Protocol, XDR takes a handful of different forms that are importa
 
 These are the easiest to understand for anyone familiar with a programming language and includes things like integers, strings, and arrays of bytes. These are fairly straightforward to interact with, though things can get more complicated when you have aliases.
 
-For example, you have the `Uint64` alias in the Stellar Protocol (defined [Stellar-types.x](https://github.com/stellar/stellar-xdr/blob/70180d5e8d9caee9e8645ed8a38c36a8cf403cd9/Stellar-types.x#L14)), defined for readability instead of XDR's native "unsigned hyper" value. You can treat it exactly as you'd expect:
+For example, you have the `Uint64` alias in the Stellar Protocol (defined [Stellar-types.x](https://github.com/stellar/stellar-xdr/blob/curr/Stellar-types.x#L14)), defined for readability instead of XDR's native "unsigned hyper" value. You can treat it exactly as you'd expect:
 
 ```typescript
 import { xdr } from "@stellar/stellar-sdk";
@@ -74,7 +74,7 @@ As a result, many of the basic primitives can be initialized in the "intuitive" 
 
 This is where things get a little more complicated. A _union type_ is a generic type that switches between different "arms", each of which is a different internal type. When parsing an XDR union type, it's important to determine which arm is being used before you try parsing what's inside.
 
-Let's take an [`SCAddress`](https://github.com/stellar/stellar-xdr/blob/70180d5e8d9caee9e8645ed8a38c36a8cf403cd9/Stellar-contract.x#L185-L191), for example. From the type definition, we can see that it's either an account (i.e. `SC_ADDRESS_TYPE_ACCOUNT`) or the hash of a contract (`SC_ADDRESS_TYPE_CONTRACT`). Right above that definition, you can see that these are constants of the `SCAddressType` enum defined as 0 or 1, respectively.
+Let's take an [`SCAddress`](https://github.com/stellar/stellar-xdr/blob/curr/Stellar-contract.x#L177-L203), for example. From the type definition, we can see that it's either an account (i.e. `SC_ADDRESS_TYPE_ACCOUNT`) or the hash of a contract (`SC_ADDRESS_TYPE_CONTRACT`). Right above that definition, you can see that these are constants of the `SCAddressType` enum defined as 0 or 1, respectively.
 
 In general, unions follow a particular pattern: switch on the type and match the appropriate enum value. So when you have one of these unions, you need to figure out which one it is:
 
@@ -169,11 +169,11 @@ Always try to find a higher-level abstraction before digging into the raw struct
 
 Like in any C-like language, a structure is a packed object containing a bunch of fields of arbitrary types. Structures can themselves contain structures, so be sure you traverse the entire tree of fields when you're constructing one.
 
-Let's take, for example, the [`ContractEvent`](https://github.com/stellar/stellar-xdr/blob/c1a58e2f81a4d1b02adc6db9914e6f51960e1ce3/Stellar-ledger.x#L339-L358) structure. Its definition is a little complicated, so let's break it down:
+Let's take, for example, the [`ContractEvent`](https://github.com/stellar/stellar-xdr/blob/curr/Stellar-ledger.x#L371-L390) structure. Its definition is a little complicated, so let's break it down:
 
 - An `ExtensionPoint` is a way for the protocol to be extended while maintaining backwards binary compatibility.
 
-It's basically an empty slot into which you can add variations in the future. The [`SorobanTransactionMeta` structure](https://github.com/stellar/stellar-xdr/blob/c1a58e2f81a4d1b02adc6db9914e6f51960e1ce3/Stellar-ledger.x#L410) is a great example of this in action: When the structure was initially added to the protocol, it just contained the details of an invocation (events and a return value). Later, we needed more details about the invocation in the resulting metadata, so `SorobanTransactionMetaExt` was injected into the `ExtensionPoint` with a [`V1` variant](https://github.com/stellar/stellar-xdr/blob/c1a58e2f81a4d1b02adc6db9914e6f51960e1ce3/Stellar-ledger.x#L368C8-L368C35) containing metadata about fees charged as a result of the invocation.
+It's basically an empty slot into which you can add variations in the future. The [`SorobanTransactionMeta` structure](https://github.com/stellar/stellar-xdr/blob/curr/Stellar-ledger.x#L440-L452) is a great example of this in action: When the structure was initially added to the protocol, it just contained the details of an invocation (events and a return value). Later, we needed more details about the invocation in the resulting metadata, so `SorobanTransactionMetaExt` was injected into the `ExtensionPoint` with a [`V1` variant](https://github.com/stellar/stellar-xdr/blob/curr/Stellar-ledger.x#L398-L430) containing metadata about fees charged as a result of the invocation.
 
 - The `contractID` should be self-explanatory: it's the hash of the contract ID that caused this event. It's a pointer, though, because not all events are related to a specific contract. Some may come from the system, diagnostics, etc.
 

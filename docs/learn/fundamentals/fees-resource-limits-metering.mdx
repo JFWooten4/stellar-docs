@@ -152,7 +152,7 @@ Execution of Wasm instructions is accounted for as a host cost type `WasmInsnExe
 
 :::
 
-Find a complete list of host cost types and their definitions here: [`ContractCostType`](https://github.com/stellar/stellar-xdr/blob/e372df9f677961aac04c5a4cc80a3667f310b29f/Stellar-contract-config-setting.x#L92-L155).
+Find a complete list of host cost types and their definitions here: [`ContractCostType`](https://github.com/stellar/stellar-xdr/blob/curr/Stellar-contract-config-setting.x#L116-L300).
 
 ### Cost parameters
 
@@ -163,7 +163,7 @@ Cost types are carefully selected to:
 
 Each cost type has a separate model for both resource types (CPU and memory).
 
-The parameters for each model, `a` and `b`, are calibrated and fitted offline against inputs of various sizes. The collection of all model cost parameters from the network configurable entries (see [`ConfigSettingsEntry`](https://github.com/stellar/stellar-xdr/blob/e372df9f677961aac04c5a4cc80a3667f310b29f/Stellar-contract-config-setting.x#L223-L226) can be updated through network consensus.
+The parameters for each model, `a` and `b`, are calibrated and fitted offline against inputs of various sizes. The collection of all model cost parameters from the network configurable entries (see [`ConfigSettingsEntry`](https://github.com/stellar/stellar-xdr/blob/curr/Stellar-contract-config-setting.x#L398-L442) can be updated through network consensus.
 
 ### Metering process
 
