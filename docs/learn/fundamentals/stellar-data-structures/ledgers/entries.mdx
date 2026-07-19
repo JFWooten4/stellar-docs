@@ -20,70 +20,70 @@ The descriptions below summarize the linked conceptual documentation. The protoc
 
 ### 1. Account {#account}
 
-The `AccountEntry` holistically defines a Stellar account, including its balance, sequence number, thresholds, signers, and flags. Learn more in the [Accounts section](../accounts.mdx).
+An `AccountEntry` stores the on-ledger state of a Stellar `G...` account, including its XLM balance, sequence number, thresholds, signers, flags, liabilities, and sponsorship counters. It also tracks the subentries that determine the account's minimum balance. Learn more in the [Accounts section](../accounts.mdx).
 
 - **Key:** Identified by `AccountID`
 - **Entry:** Full account record including balance, sequence number, thresholds, flags, home domain, and list of signers. Tracks [subentries](../accounts.mdx#subentries) that drive the minimum balance requirement.
 
 ### 2. Trustline {#trustline}
 
-The `TrustLineEntry` defines a balance line to a non-native asset issued on the network. It is  created and updated via [`changeTrustOp`](../../transactions/list-of-operations.mdx#change-trust). Learn more in the [Trustlines section](../accounts.mdx#trustlines).
+A `TrustLineEntry` records an account's opt-in to hold a non-native asset. It tracks the asset balance, holding limit, authorization state, and buying and selling liabilities, and is created or updated through [`changeTrustOp`](../../transactions/list-of-operations.mdx#change-trust). Learn more in the [Trustlines section](../accounts.mdx#trustlines).
 
 - **Key:** `(AccountID, asset)`
 - **Entry:** Trustline state for a non-native asset. Stores the asset balance, limit, authorization flags, and trading liability counters.
 
 ### 3. Offer {#offer}
 
-The `OfferEntry` represents an offer made on the SDEX order book. Learn more in the [orderbooks DEX section](../../liquidity-on-stellar-sdex-liquidity-pools.mdx#orderbook).
+An `OfferEntry` records an account's order to sell one asset for another at a specified price on the SDEX. An unmatched amount remains on the order book until another order or path payment consumes it, or its owner cancels it. Learn more in the [SDEX order books section](../../liquidity-on-stellar-sdex-liquidity-pools.mdx#order-books).
 
 - **Key:** `(sellerID, offerID)`
 - **Entry:** A single offer on the DEX. Contains the selling and buying assets, amount, price, and [passive](../../liquidity-on-stellar-sdex-liquidity-pools.mdx#passive-offer) flags.
 
 ### 4. Account Data {#account-data}
 
-A `DataEntry` stores key-value data entries attached to an account. It is used through the [`manageDataOp`](../../transactions/list-of-operations.mdx#manage-data).
+A `DataEntry` stores an arbitrary name-value pair attached to a Stellar account. It is created, updated, or removed through [`manageDataOp`](../../transactions/list-of-operations.mdx#manage-data) and is distinct from smart contract data.
 
 - **Key:** `(accountID, dataName)`
 - **Entry:** Arbitrary key-value pair (`DataValue`) attached to an account.
 
 ### 5. Claimable Balance {#claimable-balance}
 
-The `ClaimableBalanceEntry` tracks a balance that may or may not actively be claimable. Learn more in the [Claimable Balances section](../../../../build/guides/transactions/claimable-balances.mdx).
+A `ClaimableBalanceEntry` holds an asset for one or more potential claimants until a claimant's predicate is satisfied. This allows a sender to create a payment before the recipient is ready to receive it, although a recipient still needs a trustline before claiming a non-native asset. Learn more in the [Claimable Balances guide](../../../../build/guides/transactions/claimable-balances.mdx).
 
 - **Key:** `balanceID`
 - **Entry:** Tracks the asset, amount, claimants, [predicates](../../../../build/guides/transactions/claimable-balances.mdx#other-parameters), and optional flags.
 
 ### 6. Liquidity Pool {#liquidity-pool}
 
-The `LiquidityPoolEntry` defines the configuration of a constant-product liquidity pool between two assets. Learn more in the [liquidity pools section](../../liquidity-on-stellar-sdex-liquidity-pools.mdx#liquidity-pools).
+A `LiquidityPoolEntry` stores the shared state of a constant-product market between two assets, including its parameters, reserves, total pool shares, and trustline count. Deposits and withdrawals update this state, while path payments can use the pool to exchange assets. Learn more in the [Liquidity Pools section](../../liquidity-on-stellar-sdex-liquidity-pools.mdx#liquidity-pools).
 
 - **Key:** `liquidityPoolID`
 - **Entry:** Holds pool parameters (two assets, fee rate), reserves, total pool shares, and a pool's trustline count (to prevent entry scanning).
 
 ### 7. Contract Data {#contract-data}
 
-`ContractDataEntry` stores a piece of data under a contract-defined key. Learn more in the [Persisting Contract Data section](../../contract-development/storage/persisting-data.mdx#ledger-entries).
+A `ContractDataEntry` stores one value under a contract-owned key. Its ledger key combines the owning contract, a contract-chosen value, and the storage durability; host functions let the owning contract read, write, and delete the complete entry. Learn more in the [Persisting Contract Data section](../../contract-development/storage/persisting-data.mdx#ledger-entries).
 
 - **Key:** `(contract, key, durability)`
 - **Entry:** Stores the `SCVal` value associated with that key under the contract. Used for Soroban data storage alongside keys.
 
 ### 8. Contract Code {#contract-code}
 
-The `ContractCodeEntry` contains the Wasm bytecode of a Soroban contract. Learn more in the [Smart Contracts Overview section](../../../../build/smart-contracts/overview.mdx).
+A `ContractCodeEntry` stores uploaded WebAssembly (Wasm) bytecode and its cost inputs, identified by the hash of the Wasm module. Learn more in the [Smart Contracts overview](../../../../build/smart-contracts/overview.mdx).
 
 - **Key:** `hash` of the Wasm module.
 - **Entry:** Contains the Wasm bytecode and associated cost inputs to deploy or invoke contracts. [Fee metadata](../../fees-resource-limits-metering.mdx#resource-fee) takes into account component factors like number of instructions, functions, and variables.
 
 ### 9. Config Setting {#config-setting}
 
-The `ConfigSettingEntry` holds governed network configuration values for over a dozen rules. Learn more in the [Soroban Settings section](../../../../validators/admin-guide/soroban-settings.mdx).
+A `ConfigSettingEntry` stores an active network-level parameter used by smart contract execution, resource limits, fees, or state archival. Validators modify these on-ledger settings through the network-upgrade process. Learn more in the [Soroban Settings section](../../../../validators/admin-guide/soroban-settings.mdx).
 
 - **Key:** `configSettingID` (index of setting [in list](https://github.com/stellar/stellar-xdr/blob/v27.0/Stellar-contract-config-setting.x#L373-L396))
 - **Entry:** Active value of a network-level parameter (e.g., protocol limits, compute fees, state archival). The whole validator quorum set has to agree on these values.
 
 ### 10. TTL {#ttl}
 
-The `TTLEntry` defines the time-to-live of an associated contract data or code entry. Learn more in the [State archival section](../../contract-development/storage/state-archival.mdx#ttl).
+A `TTLEntry` records the ledger sequence through which an associated contract data or code entry remains live. When that time-to-live expires, temporary data is deleted, while persistent or instance data is archived until restored. Learn more in the [State archival section](../../contract-development/storage/state-archival.mdx).
 
 - **Key:** `keyHash` (hash of associated LedgerKey).
 - **Entry:** Defines the expiration ledger sequence (`liveUntilLedgerSeq`) for temporary objects such as contract data or code.
