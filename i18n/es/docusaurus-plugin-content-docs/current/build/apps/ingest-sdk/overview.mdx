@@ -3,15 +3,15 @@ title: Resumen
 sidebar_position: 10
 ---
 
-Este tutorial describe cómo una aplicación puede aprovechar la [arquitectura CDP](https://stellar.org/blog/developers/composable-data-platform) para crear tuberías de datos de metadatos del ledger Stellar rápidas y ligeras utilizando varias selecciones de paquetes del repositorio Stellar Go [github.com/stellar/go](https://github.com/stellar/go/blob/master/) conocidos colectivamente como el SDK de 'Ingestión':
+Este tutorial explica cómo una aplicación puede aprovechar la [arquitectura CDP](https://stellar.org/blog/developers/composable-data-platform) para crear pipelines de metadatos rápidos y livianos del Stellar Ledger utilizando unos pocos paquetes selectos del repositorio de Stellar Go [github.com/stellar/go-stellar-sdk](https://github.com/stellar/go-stellar-sdk), conocidos colectivamente como el SDK de 'Ingestión':
 
 ## Los paquetes del SDK de Ingestión
 
-- `github.com/stellar/go/amount` paquete de utilidades para convertir precios de operaciones de transacciones de la red a cadena
-- `github.com/stellar/go/historyarchive` `github.com/stellar/go/support/datastore` `github.com/stellar/go/support/storage` paquete de utilidades con envoltorios convenientes para acceder a archivos de historial, y evitar aspectos de http de bajo nivel
-- `github.com/stellar/go/ingest` proporciona funcionalidad de análisis sobre los metadatos del ledger de la red, convierte a un modelo de `LedgerTransaction` más centrado en los desarrolladores
-- `github.com/stellar/go/network` proporciona configuraciones convenientes preconfiguradas para redes Testnet y Mainnet
-- `github.com/stellar/go/xdr` un enlace completo de Golang al modelo de datos de la red Stellar
+- Paquete utilitario `github.com/stellar/go-stellar-sdk/amount` para convertir precios de operaciones de transacciones en la red a cadena de texto
+- Paquete utilitario `github.com/stellar/go-stellar-sdk/historyarchive` `github.com/stellar/go-stellar-sdk/support/datastore` `github.com/stellar/go-stellar-sdk/support/storage` con wrappers convenientes para acceder a archivos históricos y evitar aspectos HTTP de bajo nivel
+- `github.com/stellar/go-stellar-sdk/ingest` proporciona funcionalidad de análisis sobre los metadatos del ledger en red, convierte al modelo más centrado en el desarrollador `LedgerTransaction`
+- `github.com/stellar/go-stellar-sdk/network` ofrece configuraciones preconfiguradas convenientes para las redes Testnet y Mainnet
+- `github.com/stellar/go-stellar-sdk/xdr` una vinculación completa en Golang al modelo de datos de la red Stellar
 
 ## Configuración del proyecto de Ingestión
 
@@ -26,7 +26,7 @@ Para usar este ejemplo de tubería CDP para datos de transacciones en vivo de la
 - Docker
 - Cuenta de Google Cloud Platform:
   - un bucket creado en Google Cloud Storage(GCS)
-  - GCP [credenciales en el entorno de la estación de trabajo](https://github.com/stellar/go/blob/master/services/galexie/README.md#set-up-gcp-credentials)
+  - Credenciales de GCP [en el entorno de la estación de trabajo](../../../data/indexers/build-your-own/galexie/admin_guide/setup.mdx#google-cloud-platform-gcp-credentials)
 
 Nuestra aplicación de ejemplo solo está interesada en un pequeño subconjunto del modelo de datos general de la red relacionado con las transferencias de activos desencadenadas por la operación de Pago y define su propio modelo de datos derivado como el objetivo del ejercicio:
 
@@ -46,25 +46,25 @@ Nuestra aplicación de ejemplo solo está interesada en un pequeño subconjunto 
 
 La aplicación de ejemplo realizará ambas tuberías del CDP. Se requieren un mínimo de dos tuberías para una arquitectura CDP de extremo a extremo completa.
 
-![](/assets/ingest-sdk/cdp_pipelines.png)
+![Architecture Diagram Screenshot](/assets/ingest-sdk/cdp-pipelines.png)
 
 ### Tubería de exportación de metadatos del Ledger
 
-Esta canalización debe iniciarse primero; es responsable de exportar la Metainformación del Stellar Ledger como archivos a un [CDP Datastore](https://github.com/stellar/go/blob/master/support/datastore/datastore.go).
+Esta pipeline debe iniciarse primero, es responsable de exportar metadatos del Stellar Ledger como archivos a un [CDP Datastore](https://github.com/stellar/go-stellar-sdk/blob/main/support/datastore/datastore.go).
 
 #### Determinar el Datastore
 
 El Datastore en CDP es una interfaz, que permite múltiples implementaciones que representan diferentes capas de almacenamiento físico que se pueden 'conectar' para exportar y consumir tuberías. Stellar proporciona el [Datastore de GCS] como la primera implementación de Datastore, y este ejemplo elige usar esta implementación existente.
 
-Habrá contribuciones de código abierto para implementaciones en otras capas de almacenamiento de las que elegir a medida que CDP crezca. Si no puedes encontrar una implementación para una capa de almacenamiento que te gustaría usar, también es posible desarrollar tu propia implementación de [Datastore](https://github.com/stellar/go/blob/master/support/datastore/datastore.go#L17), que está más allá del alcance de este ejemplo, ya que implica un ejercicio de aprendizaje separado por sí mismo, ¡pronto disponible!
+Habrá contribuciones de código abierto para implementaciones en otras capas de almacenamiento de las que elegir a medida que CDP crezca. Si no encuentras una implementación para una capa de almacenamiento que deseas usar, también es posible desarrollar tu propia implementación de [Datastore](https://github.com/stellar/go-stellar-sdk/blob/main/support/datastore/datastore.go#L17), lo cual está fuera del alcance de este ejemplo, ya que implica un ejercicio de aprendizaje separado que llegará pronto.
 
 #### Exportando metadatos de la red al Datastore
 
 Usa Galexie, un nuevo programa de línea de comandos CDP para exportar metadatos de red a datastores.
 
-- Sigue los pasos de configuración de Galexie en la [Guía del Usuario de Galexie](https://github.com/stellar/go/blob/master/services/galexie/README.md#setup), para configurar detalles del bucket de GCS y la red de destino.
+- Sigue los pasos de configuración de Galexie en la [Guía del usuario de Galexie](../../../data/indexers/build-your-own/galexie/admin_guide/setup.mdx), para configurar detalles específicos del bucket de GCS y la red objetivo.
 
-- Sigue las [instrucciones de ejecución de docker de Galexie](https://github.com/stellar/go/blob/master/services/galexie/README.md#running-galexie) para iniciar la exportación.
+- Sigue las [instrucciones de ejecución de Galexie con Docker](../../../data/indexers/build-your-own/galexie/admin_guide/running.mdx) para iniciar la exportación.
   - Para la exportación única de un rango histórico limitado de ledgers, usa `append --start <from_ledger> --end <to_ledger>`
   - Para una exportación continua de los ledgers anteriores y todos los nuevos ledgers generados en la red, usa `append --start <from_ledger>`.
 
@@ -74,13 +74,13 @@ Una tubería de consumidores recupera archivos del bucket de GCS y los usa como 
 
 #### Adaptador de entrada
 
-La 'fuente de origen' de los metadatos del ledger en una tubería. Este procesador recupera archivos [LedgerCloseMeta](https://github.com/stellar/go/blob/master/xdr/xdr_generated.go) del GCS Datastore, extrae el `LedgerCloseMeta` de cada Ledger y lo publica en la canalización de mensajería.
+La 'fuente de origen' de los metadatos del ledger en una tubería. Este procesador recupera archivos [LedgerCloseMeta](https://github.com/stellar/go-stellar-sdk/blob/main/xdr/xdr_generated.go) del GCS Datastore, extrae el `LedgerCloseMeta` para cada Ledger y lo publica en la pipeline de mensajería.
 
-El SDK de go proporciona la función auxiliar para consumidores [ApplyLedgerMetadata](https://github.com/stellar/go/blob/master/ingest/producer.go) para la recuperación automatizada, eficiente y con buffer de archivos desde el datastore remoto; el código de la aplicación puede aprovechar esto para obtener datos puros de `LedgerCloseMeta` desde una función de retorno de llamada.
+El SDK de Go proporciona la función auxiliar para consumidores [ApplyLedgerMetadata](https://github.com/stellar/go-stellar-sdk/blob/main/ingest/producer.go) para la recuperación automatizada, eficiente y en búfer de archivos desde el datastore remoto; el código de la aplicación puede aprovechar esto para adquirir datos puros de `LedgerCloseMeta` desde una función callback.
 
 #### Transformador
 
-Se suscribe en la tubería para recibir `LedgerCloseMeta`. Usa el paquete del SDK de Go [github.com/stellar/go/xdr](https://github.com/stellar/go/tree/master/xdr) para analizar el modelo de metadatos del ledger para operaciones de pago y convertirlas en una nueva instancia del modelo de datos de la aplicación `AppPayment`. Publica `AppPayment` en la tubería.
+Se suscribe en la tubería para recibir `LedgerCloseMeta`. Utiliza el paquete Go SDK [github.com/stellar/go-stellar-sdk/xdr](https://github.com/stellar/go-stellar-sdk/tree/main/xdr) para analizar el modelo de metadatos del ledger para operaciones de pago y convertirlos en nuevas instancias del modelo de datos de la aplicación `AppPayment`. Publica `AppPayment` en la tubería.
 
 #### Adaptador de salida
 

@@ -5,7 +5,6 @@ description: "Learn how conversion liquidity enables direct trading. Understand 
 sidebar_position: 42
 ---
 
-import { CodeExample } from "@site/src/components/CodeExample";
 import YouTube from "@site/src/components/YouTube";
 
 # Liquidity on Stellar: the DEX & Liquidity Pools
@@ -235,10 +234,10 @@ import (
   "fmt"
   "math"
   "strconv"
-  "github.com/stellar/go/network"
-  "github.com/stellar/go/keypair"
-  "github.com/stellar/go/txnbuild"
-  "github.com/stellar/go/clients/horizonclient"
+  "github.com/stellar/go-stellar-sdk/network"
+  "github.com/stellar/go-stellar-sdk/keypair"
+  "github.com/stellar/go-stellar-sdk/txnbuild"
+  "github.com/stellar/go-stellar-sdk/clients/horizonclient"
 )
 
 const server = "https://horizon-testnet.stellar.org"
@@ -276,7 +275,7 @@ func newTxBuilder(publicKey string) (*txnbuild.Transaction, error) {
 
 {/* RPC change transition here */}
 
-This setup gives us a simple keypair, transaction constructor, and trading assets. You cancel swap the [server URL](../../data/apis/api-providers.mdx) or [asset codes](./stellar-data-structures/assets.mdx#asset-code) to follow along with live exchange markets. Next, we'll read the current market price between AstroDollars and AstroPesos:
+This setup gives us a simple keypair, transaction constructor, and trading assets. You cancel swap the [server URL](../../data/apis/rpc/providers.mdx) or [asset codes](./stellar-data-structures/assets.mdx#asset-code) to follow along with live exchange markets. Next, we'll read the current market price between AstroDollars and AstroPesos:
 
 <CodeExample>
 
@@ -701,7 +700,7 @@ ocne hte network receives your order, the protocol ueries against avalibe liquid
 
 The first, most basic option is when a new order crosses the price set by an outstanding order. The two instantly cross once the new order gets accepted, and the transaction generates a taker `contraID` rather than an `offerID` for the "buyer" of the existing liquidity. This counter ID is a design scheme choice to return an offer ID to orders immediately executed by taking liquidity away from existing order books.
 
-In actual queries, you can ignore the arbitrarily large simulated ID in deference to the `OfferEntry` owned by a selling account making the market with standing liquidity. This standing [ledger entry](./stellar-data-structures/ledgers/ledger-entries) will update over time until all offers are filled or deleted. Each offer can be thought of as a trade with a cumulative price which we can easily find with its ID.
+In actual queries, you can ignore the arbitrarily large simulated ID in deference to the `OfferEntry` owned by a selling account making the market with standing liquidity. This standing [ledger entry](./stellar-data-structures/ledgers/entries.mdx) will update over time until all offers are filled or deleted. Each offer can be thought of as a trade with a cumulative price which we can easily find with its ID.
 
 Both path payments and liquidity pools are constantly interacting with the DEX to check for (partial) offer execution. Comparatively, [path payments](../../build/guides/transactions/path-payments.mdx) immediately execute in full or fail to send. Indeed, every new path payment and liquidity pool operation can only occur because of existing order book offers or new user swap requests.
 

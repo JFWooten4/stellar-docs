@@ -3,9 +3,6 @@ title: Publish Information About An Asset
 sidebar_position: 80
 ---
 
-import { CodeExample } from "@site/src/components/CodeExample";
-import { Alert } from "@site/src/components/Alert";
-
 Stellar assets are defined by who issued them, what they represent, and the terms and conditions for their use. These should all be defined and made public by the issuer in a [Stellar info file](https://github.com/stellar/stellar-protocol/blob/master/ecosystem/sep-0001.md). It’s crucial to provide clear information about what it represents. On Stellar, you do that by linking your issuing account to a home domain, publishing a Stellar info file on that domain, and making sure that file is complete and accurate.
 
 The most successful asset issuers give exchanges, wallets, and potential buyers lots of information about themselves in order to establish trust.
@@ -41,7 +38,7 @@ Required field for all asset issuers:
 
 - `ACCOUNTS`: A list of public keys for all the Stellar accounts associated with your asset.
 
-Listing your public keys lets users confirm that you own them. For example, when [google.com](https://google.com/) hosts a `stellar.toml` file, users can be sure that only the accounts listed on it belong to Google. If someone then says, "You need to pay your Google bill this month, send payment to address GIAMGOOGLEIPROMISE", but that key is not listed on Google's `stellar.toml`, then users know not to trust it.
+Listing your public keys lets users confirm that you own them. For example, when `google.com` hosts a `stellar.toml` file, users can be sure that only the accounts listed on it belong to Google. If someone then says, "You need to pay your Google bill this month, send payment to address GIAMGOOGLEIPROMISE", but that key is not listed on Google's `stellar.toml`, then users know not to trust it.
 
 There are several fields where you list information about your Stellar integration to aid in discoverability. If you are an anchor service, and you have set up infrastructure to interoperate with wallets and allow for in-app deposit and withdrawal of assets, make sure to include the locations of your servers on your `stellar.toml` file so those wallets know where to find relevant endpoints to query. In particular, list these:
 
@@ -133,28 +130,27 @@ You should also use the `set_options` operation to set the home domain on your i
 
 ```nginx title="Configure stellar.toml for nginx"
 server {
+  server_name my.example.com;
+  root /var/www/my.example.com;
 
-        server_name my.example.com;
-        root /var/www/my.example.com;
+  location = /.well-known/stellar.toml {
+    types { } default_type "text/plain; charset=utf-8";
+    allow all;
+    if ($request_method = 'OPTIONS') {
+      add_header 'Access-Control-Allow-Origin' '*';
+      add_header 'Access-Control-Allow-Methods' 'GET, OPTIONS';
+      add_header 'Content-Length' 0;
+      return 204;
+    }
+    if ($request_method = 'GET') {
+      add_header 'Access-Control-Allow-Origin' '*';
+      add_header 'Access-Control-Allow-Methods' 'GET, OPTIONS';
+      add_header 'Access-Control-Expose-Headers' 'Content-Length,Content-Range';
+    }
+  }
 
-        location = /.well-known/stellar.toml {
-                types { } default_type "text/plain; charset=utf-8";
-                allow all;
-                if ($request_method = 'OPTIONS') {
-                        add_header 'Access-Control-Allow-Origin' '*';
-                        add_header 'Access-Control-Allow-Methods' 'GET, OPTIONS';
-                        add_header 'Content-Length' 0;
-                        return 204;
-                }
-                if ($request_method = 'GET') {
-                        add_header 'Access-Control-Allow-Origin' '*';
-                        add_header 'Access-Control-Allow-Methods' 'GET, OPTIONS';
-                        add_header 'Access-Control-Expose-Headers' 'Content-Length,Content-Range';
-                }
-        }
-
-    // CertBot SSL configuration
-    // ...
+  // CertBot SSL configuration
+  // ...
 }
 ```
 
@@ -201,40 +197,38 @@ server
 from stellar_sdk import Keypair, Network, Server, TransactionBuilder
 from stellar_sdk.exceptions import BaseHorizonError
 
-# Configure Stellar SDK to talk to the horizon instance hosted by Stellar.org
+# Configure Stellar SDK to talk to the Horizon instance hosted by the SDF
 # To use the live network, set the hostname to horizon_url for mainnet
 server = Server(horizon_url="https://horizon-testnet.stellar.org")
 # Use the test network, if you want to use the live network, please set it to `Network.PUBLIC_NETWORK_PASSPHRASE`
 network_passphrase = Network.TESTNET_NETWORK_PASSPHRASE
 
 # Keys for accounts to issue and receive the new asset
-issuing_keypair = Keypair.from_secret(
-    "SCZANGBA5YHTNYVVV4C3U252E2B6P6F5T3U6MM63WBSBZATAQI3EBTQ4"
-)
+issuing_keypair = Keypair.from_secret("SCZANGBA5YHTNYVVV4C3U252E2B6P6F5T3U6MM63WBSBZATAQI3EBTQ4")
 issuing_public = issuing_keypair.public_key
-
 
 # Transactions require a valid sequence number that is specific to this account.
 # We can fetch the current sequence number for the source account from Horizon.
 issuing_account = server.load_account(issuing_public)
 
 transaction = (
-    TransactionBuilder(
-        source_account=issuing_account,
-        network_passphrase=network_passphrase,
-        base_fee=100,
-    )
-    .append_set_options_op(
-        home_domain="yourdomain.com"
-    )
-    .build()
+  TransactionBuilder(
+    source_account = issuing_account,
+    network_passphrase = network_passphrase,
+    base_fee = 100,
+  )
+  .append_set_options_op(
+    home_domain = "yourdomain.com"
+  )
+  .build()
 )
 transaction.sign(issuing_keypair)
+
 try:
-    transaction_resp = server.submit_transaction(transaction)
-    print(f"Transaction Resp:\n{transaction_resp}")
+  transaction_resp = server.submit_transaction(transaction)
+  print(f"Transaction Resp:\n{transaction_resp}")
 except BaseHorizonError as e:
-    print(f"Error: {e}")
+  print(f"Error: {e}")
 ```
 
 ```java
@@ -265,19 +259,19 @@ func main() {
 	}
 
 	// Build the transaction
-	tx, err := txnbuild.NewTransaction(
-		txnbuild.TransactionParams{
-	    SourceAccount:        &issuingAccount,
-			IncrementSequenceNum: true,
-			BaseFee:              txnbuild.MinBaseFee,
-			Preconditions:        txnbuild.Preconditions{TimeBounds: txnbuild.NewTimeout(100)},
-			Operations: []txnbuild.Operation{
-				&txnbuild.SetOptions{
-					HomeDomain: "yourdomain.com",
-				},
-			},
-		},
-	)
+  tx, err := txnbuild.NewTransaction(
+    txnbuild.TransactionParams{
+      SourceAccount:        &issuingAccount,
+      IncrementSequenceNum: true,
+      BaseFee:              txnbuild.MinBaseFee,
+      Preconditions:        txnbuild.Preconditions{TimeBounds: txnbuild.NewTimeout(100)},
+      Operations: []txnbuild.Operation{
+        &txnbuild.SetOptions{
+          HomeDomain: "yourdomain.com",
+        },
+      },
+    },
+  )
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -351,7 +345,7 @@ issuer="GAOO3LWBC4XF6VWRP5ESJ6IBHAISVJMSBTALHOQM2EZG7Q477UWA6L7U"
 display_decimals=7
 anchor_asset_type="crypto"
 anchor_asset="BTC"
-redemption_instructions="Use SEP6 with our federation server"
+redemption_instructions="Use SEP-6 with our federation server"
 collateral_addresses=["2C1mCx3ukix1KfegAY5zgQJV7sanAciZpv"]
 collateral_address_signatures=["304502206e21798a42fae0e854281abd38bacd1aeed3ee3738d9e1446618c4571d10"]
 
@@ -368,8 +362,3 @@ fixed_number=10000
 ```
 
 </CodeExample>
-
-[sep-0001]: https://github.com/stellar/stellar-protocol/blob/master/ecosystem/sep-0001.md
-[sep-0020]: https://github.com/stellar/stellar-protocol/blob/master/ecosystem/sep-0020.md
-[seps]: https://github.com/stellar/stellar-protocol/tree/master/ecosystem
-[twilio-guide]: https://support.twilio.com/hc/en-us/articles/223183008-Formatting-International-Phone-Numbers

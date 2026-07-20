@@ -9,13 +9,13 @@ sidebar_position: 10
 
 La Stack Stellar está compuesta por los siguientes componentes: las redes (Mainnet, Testnet y Futurenet), Stellar Core, Stellar RPC y los SDK, cada uno de los cuales desempeña un papel específico en proporcionar una infraestructura financiera resistente a fallos, accesible para cualquiera y lo suficientemente rápida y económica para atender casos de uso reales.
 
-![Stellar Stack](/assets/diagrams/stellar-tech-stack.png)
+![Stellar Stack Diagram](/assets/diagrams/stellar-tech-stack.png)
 
 ## Redes
 
 Stellar tiene tres redes: la red pública (Mainnet, también llamada Pubnet o la red pública), la red de prueba (Testnet) y una red de desarrollo (Futurenet). Mainnet es la red principal utilizada por aplicaciones en producción. El Testnet es una red más pequeña, gratuita, mantenida por SDF, que funciona como el Mainnet pero no se conecta a dinero real y es el mejor lugar para que los desarrolladores prueben sus aplicaciones. Futurenet es una red de desarrollo que puedes usar para probar características más innovadoras.
 
-Lee más sobre las diferentes redes en la [sección de redes](./networks.mdx).
+Lee más sobre las diferentes redes en la [sección de Redes](../../networks/README.mdx).
 
 ## Stellar Core
 
@@ -31,13 +31,13 @@ El RPC de Stellar es un servidor JSON RPC que proporciona una interfaz para que 
 
 SDF tiene puntos finales de RPC disponibles para Futurenet y Testnet. Estos servicios son gratuitos y son adecuados para el desarrollo y las pruebas.
 
-SDF no proporciona un punto final de RPC disponible públicamente para Mainnet. Los desarrolladores deben [seleccionar un proveedor de ecosistema](../../data/apis/api-providers.mdx) que funcione para su proyecto antes de migrar a Mainnet. En algunos casos, los proyectos pueden elegir ejecutar su propia instancia de RPC.
+SDF no proporciona un punto final de RPC disponible públicamente para Mainnet. Los desarrolladores deben [seleccionar un proveedor del ecosistema](../../data/apis/rpc/providers.mdx) que funcione para su proyecto antes de migrar a Mainnet. En algunos casos, los proyectos pueden elegir ejecutar su propia instancia de RPC.
 
 ## Horizon
 
 :::warning
 
-Horizon se considera obsoleto en favor de Stellar RPC. Aunque seguirá recibiendo actualizaciones para mantener la compatibilidad con las próximas versiones del protocolo, no recibirá desarrollo significativo de nuevas funciones.
+Horizon se acerca al final de su vida útil y finalmente será relegado en favor de Stellar RPC y las [APIs de Portfolio](../../data/indexers/README.mdx#portfolio-apis). Aunque continuará recibiendo actualizaciones para mantener la compatibilidad con los próximos lanzamientos del protocolo, no recibirá desarrollo de nuevas funcionalidades.
 
 :::
 

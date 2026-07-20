@@ -1,22 +1,19 @@
 ---
 title: 2024-08-23
-authors: naman
+authors: naman-kumar
 tags:
   - protocol
 ---
 
-<iframe
-  src="https://drive.google.com/file/d/1Eqi0znJ21aSfjXYJ10V7eByhr-sTzujY/preview"
-  width="640"
-  height="360"
-  allow="autoplay"
-></iframe>
+import DriveVideo from "@site/src/components/DriveVideo";
+
+<DriveVideo ID="1Eqi0znJ21aSfjXYJ10V7eByhr-sTzujY" />
 
 [Discord agenda thread](https://discord.com/channels/897514728459468821/900374272751591424/1275577430043525204)
 
 Los desarrolladores principales discutieron las últimas propuestas para avanzar en Stellar Core en la reunión de protocolo de esta semana.
 
-1. La propuesta para la adición de un constructor a la variante de Rust de Soroban fue introducida en una reunión de protocolo anterior ([reunión anterior](https://developers.stellar.org/meetings/2024/07/25)), documentada en [CAP-58](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0058.md). Un constructor es una función que solo se ejecutará la primera vez que se crea el contrato.
+1. La propuesta para la adición de un constructor a la variante de Rust de Soroban fue introducida en una reunión de protocolo anterior ([reunión previa](./2024-07-25.mdx)), documentada en [CAP-58](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0058.md). Un constructor es una función que solo se ejecutará la primera vez que se crea el contrato.
 2. En esta reunión, Dima discutió las actualizaciones realizadas desde la última reunión:
    1. Constructor por defecto - si un constructor no se define explícitamente, el contrato se trata como si tuviera un constructor
    2. Semántica del valor de retorno - si la transacción tiene éxito, se requiere que devuelva un valor válido

@@ -4,17 +4,20 @@ description: Split a payment into two parts by creating a claimable balance.
 sidebar_position: 20
 ---
 
-import { CodeExample } from "@site/src/components/CodeExample";
 import Details from "@theme/Details";
 
-Claimable balances were introduced in [CAP-0023](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0023.md) and are used to split a payment into two parts.
+Claimable balances were introduced in [CAP-0023](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0023.md) and are used to split a payment into two parts:
 
-- Part 1: sending account creates a payment, or ClaimableBalanceEntry, using the Create Claimable Balance operation
-- Part 2: destination account(s), or claimant(s), accepts the ClaimableBalanceEntry using the Claim Claimable Balance operation
+1. Sending account creates a payment, or ClaimableBalanceEntry, using the Create Claimable Balance operation.
+2. Destination account(s), or claimant(s), accepts the ClaimableBalanceEntry using the Claim Claimable Balance operation.
 
-Claimable balances allow an account to send a payment to another account that is not necessarily prepared to receive the payment. They can be used when you send a non-native asset to an account that has not yet established a trustline, which is useful for anchors onboarding new users. A trustline must be established by the claimant to the asset before it can claim the claimable balance, otherwise, the claim will result in an `op_no_trust` error.
+Claimable balances allow an account to send a payment to another account that is not necessarily prepared to receive the payment. They can be used when you send a non-native asset to an account that has not yet established a trustline, which is useful for anchors onboarding new users. A trustline must be established by the claimant to the asset before it can claim the claimable balance; otherwise, the claim will result in an `op_no_trust` error.
 
-It is important to note that if a claimable balance isn’t claimed, it sits on the ledger forever, taking up space and ultimately making the network less efficient. **For this reason, it is a good idea to put one of your own accounts as a claimant for a claimable balance.** Then you can accept your own claimable balance if needed, freeing up space on the network.
+:::note Claimant Permanence
+
+Unclaimed claimable balances sit on the ledger forever, taking up space and ultimately making the network less efficient. Thus, it is best practice to put one of your own accounts as a claimant (assuming no issuer clawbacks). Then you can accept your own claimable balance if needed, freeing up space and [account reserves].
+
+:::
 
 Each ClaimableBalanceEntry is a ledger entry, and each claimant in that entry increases the source account’s minimum balance by one base reserve.
 
@@ -24,26 +27,22 @@ Once a ClaimableBalanceEntry has been claimed, it is deleted.
 
 ### Create Claimable Balance
 
-For basic parameters, see the Create Claimable Balance entry in our [List of Operations section](../../../learn/fundamentals/transactions/list-of-operations.mdx#create-claimable-balance). {/* ⚠ should probably be together */}
+For basic parameters, see the Create Claimable Balance entry in our [List of Operations section](../../../learn/fundamentals/transactions/list-of-operations.mdx#create-claimable-balance). (/_ ⚠ Should probably be together _/)
 
 #### Other Parameters
 
-- **`Claim_Predicate_` Claimant**: an object that holds both the destination account that can claim the `ClaimableBalanceEntry` and a `ClaimPredicate` that must evaluate to true for the claim to succeed.
+- **`Claim_Predicate_` Claimant**: An object that holds both the destination account that can claim the `ClaimableBalanceEntry` and a `ClaimPredicate` that must evaluate to true for the claim to succeed.
 
-- **`ClaimPredicate`**: a recursive data structure that can be used to construct complex conditionals using different `ClaimPredicateTypes`. Below are some examples with the `Claim_Predicate_` prefix removed for readability. Note that the SDKs expect the Unix timestamps to be expressed in seconds.
-
+- **`ClaimPredicate`**: A recursive data structure that can be used to construct complex conditionals using different `ClaimPredicateTypes`. Below are some examples with the `Claim_Predicate_` prefix removed for readability. Note that the SDKs expect the Unix timestamps to be expressed in seconds.
   - `UNCONDITIONAL`: Can claim at any time.
   - `BEFORE_RELATIVE_TIME(X)`: Can claim if the close time of the ledger including the claim is before X seconds, plus the ledger close time in which the `ClaimableBalanceEntry` was created.
     - `NOT( BEFORE_RELATIVE_TIME(X) )`: Can claim if the close time of the ledger including the claim is at or after X seconds, plus the ledger close time in which the ClaimableBalanceEntry was created.
   - `BEFORE_ABSOLUTE_TIME(X)`: Can claim if the close time of the ledger including the claim is before X (Unix timestamp).
-    - `NOT( BEFORE_ABSOLUTE_TIME(X) )`: Can claim if the close time of the ledger, including the claim is at or after X (Unix timestamp).
-  - Can claim between X and Y Unix timestamps (given X < Y) - `AND(NOT(BEFORE_ABSOLUTE_TIME(X))`, `BEFORE_ABSOLUTE_TIME(Y))`
-
-  - `OR( BEFORE_ABSOLUTE_TIME(X)`, `NOT( BEFORE_ABSOLUTE_TIME(Y) ) )`: Can claim outside X and Y Unix timestamps (given X < Y).
-
-- **`ClaimableBalanceID`**: ClaimableBalanceID is a union with one possible type (`CLAIMABLE_BALANCE_ID_TYPE_V0`). It contains an SHA-256 hash of the [OperationID](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0023.md#user-content-fn-id-arithmatic-d2727bb47f78787e54824bc772d9861c) for Claimable Balances.
-
-- **`ClientBalanceID`**: Hex of `ClaimableBalanceID` returned after a successful `CreateClaimableBalance` operation. It is required when claiming the `ClaimableBalanceEntry` with the `ClaimClaimableBalance` operation.
+    - `NOT( BEFORE_ABSOLUTE_TIME(X) )`: Can claim if the close time of the ledger including the claim is at or after X (Unix timestamp).
+  - `AND[ NOT( BEFORE_ABSOLUTE_TIME(X) )`, `BEFORE_ABSOLUTE_TIME(Y) ]`: Can claim between X and Y Unix timestamps (given X < Y).
+  - `OR[ BEFORE_ABSOLUTE_TIME(X)`, `NOT( BEFORE_ABSOLUTE_TIME(Y) ) ]`: Can claim outside X and Y Unix timestamps (given X < Y).
+- **`ClaimableBalanceID`**: ClaimableBalanceID is a union with one possible type (`CLAIMABLE_BALANCE_ID_TYPE_V0`). It contains an SHA-256 hash of the [OperationID](https://github.com/stellar/stellar-protocol/blob/75703bbad9700e2691d89817f0a11f0339d5a6ee/core/cap-0023.md?plain=1#L356) for claimable balances. {/* TODO StrKey reprenentation */}
+- **`ClientBalanceID`**: Hex of `ClaimableBalanceID` returned after a successful `CreateClaimableBalance` operation. The `ClaimClaimableBalance` operation uses this (with zero-padding to 72 characters) to claim the `ClaimableBalanceEntry`.
 
 ### Claim Claimable Balance
 
@@ -55,7 +54,7 @@ This operation will load the `ClaimableBalanceEntry` that corresponds to the `Cl
 
 This operation claws back a claimable balance, returning the asset to the issuer account, burning it. You must claw back the entire claimable balance, not just part of it. Once a claimable balance has been claimed, use the regular clawback operation to claw it back.
 
-Clawback claimable balances require the client balance ID.
+You clawback a claimable balances with its `ClientBalanceID`.
 
 Learn more about clawbacks in our [Clawback Guide](./clawbacks.mdx).
 
@@ -67,47 +66,43 @@ The below code demonstrates how an account (Account $\mathcal{A}$) creates a Cla
 
 Each of these accounts can only claim the balance under unique conditions. $\mathcal{B}$ has a full minute to claim the balance before $\mathcal{A}$ can reclaim the balance back for itself.
 
-:::note Claimant Permanence
+The reclaim logic acts as a safety net if none of the predicates can be fulfilled.
 
-[Currently](https://github.com/stellar/stellar-protocol/discussions/1504#discussioncomment-10117060), you cannot recover a claimable balance if none of the predicates can be fulfilled. The reclaim example below acts as a safety net for this situation.
-
-:::
-
-<Details summary="Click here to see helper functions">
+<Details summary="Go Helper Functions">
 
 <CodeExample>
 
 ```go
 func fundAccount(rpcClient *client.Client, address string) error {
-	ctx := context.Background()
+  ctx := context.Background()
 
-	// Use GetNetwork method from client
-	networkResp, err := rpcClient.GetNetwork(ctx)
-	if err != nil {
-		return err
-	}
+  // Use GetNetwork method from client
+  networkResp, err := rpcClient.GetNetwork(ctx)
+  if err != nil {
+    return err
+  }
 
-	if networkResp.FriendbotURL != "" {
-		friendbotURL := networkResp.FriendbotURL + "?addr=" + url.QueryEscape(address)
-		resp, err := http.Post(friendbotURL, "application/x-www-form-urlencoded", nil)
-		if err != nil {
-			return err
-		}
-		defer resp.Body.Close()
+  if networkResp.FriendbotURL != "" {
+    friendbotURL := networkResp.FriendbotURL + "?addr=" + url.QueryEscape(address)
+    resp, err := http.Post(friendbotURL, "application/x-www-form-urlencoded", nil)
+    if err != nil {
+      return err
+    }
+    defer resp.Body.Close()
 
-		if resp.StatusCode != 200 {
-			return fmt.Errorf("friendbot failed with status: %d", resp.StatusCode)
-		}
-		return nil
-	}
+    if resp.StatusCode != 200 {
+      return fmt.Errorf("friendbot failed with status: %d", resp.StatusCode)
+    }
+    return nil
+  }
 
-	return fmt.Errorf("friendbot not configured for network - %s", networkResp.Passphrase)
+  return fmt.Errorf("friendbot not configured for network - %s", networkResp.Passphrase)
 }
 
 func panicIf(err error) {
-	if err != nil {
-		log.Fatal(err)
-	}
+  if err != nil {
+    log.Fatal(err)
+  }
 }
 ```
 
@@ -320,10 +315,13 @@ import (
   "fmt"
   "time"
 
-  sdk "github.com/stellar/go/clients/horizonclient"
-  "github.com/stellar/go/keypair"
-  "github.com/stellar/go/network"
-  "github.com/stellar/go/txnbuild"
+  "github.com/stellar/stellar-rpc/client"
+  "github.com/stellar/stellar-rpc/protocol"
+
+  "github.com/stellar/go-stellar-sdk/keypair"
+  "github.com/stellar/go-stellar-sdk/network"
+  "github.com/stellar/go-stellar-sdk/txnbuild"
+  "github.com/stellar/go-stellar-sdk/xdr"
 )
 
 func main() {
@@ -392,11 +390,11 @@ func main() {
 
 At this point, the `ClaimableBalanceEntry` exists in the ledger, but we’ll need its client balance ID to claim it, which can be done in several ways:
 
-1. The submitter of the entry ($\mathcal{A}$) can retrieve the client balance ID before submitting the transaction;
-2. The submitter parses the XDR of the transaction result’s operations; or
+1. The submitter of the entry ($\mathcal{A}$) can retrieve the client balance ID before submitting the transaction.
+2. The submitter parses the XDR of the transaction result’s operations.
 3. Someone queries the list of claimable balances.
 
-Either party could also check the [`/effects`](../../../data/apis/horizon/api-reference/resources/effects/README.mdx) of the transaction or query [`/claimable_balances`](../../../data/apis/horizon/api-reference/resources/claimablebalances/README.mdx) with different filters in Horizon. Note that while (1) may be unavailable in some SDKs as it's just a helper, the other methods are universal.
+Either party could also check the [`/effects`](../../../data/apis/horizon/api-reference/resources/effects/README.mdx) of the transaction or query [`/claimable_balances`](../../../data/apis/horizon/api-reference/resources/claimablebalances/README.mdx) with different filters in Horizon. Note that while (1) may be unavailable in some SDKs, as it’s just a helper, the other methods are universal.
 
 <CodeExample>
 
@@ -559,20 +557,69 @@ import (
 	"github.com/stellar/stellar-rpc/client"
 	"github.com/stellar/stellar-rpc/protocol"
 
-if results, ok := txResult.OperationResults(); ok {
-  // We look at the first result since our first (and only) operation in the
-  // transaction was the CreateClaimableBalanceOp.
-  operationResult := results[0].MustTr().CreateClaimableBalanceResult
-  clientBalanceID, err := xdr.MarshalHex(operationResult.BalanceId)
-  check(err)
-  fmt.Println("Balance ID (2):", clientBalanceID)
-}
+	"github.com/stellar/go-stellar-sdk/xdr"
+)
 
-// Method 3: Account B could alternatively do something like:
-balances, err := client.ClaimableBalances(sdk.ClaimableBalanceRequest{Claimant: B})
-check(err)
-clientBalanceID := balances.Embedded.Records[0].BalanceID
-fmt.Println("Balance ID (3):", clientBalanceID)
+// Replace with your claimable balance ID
+const BALANCE_ID = "00000000a4c91c4561f2d8b30dad9cf6475221b3003a3b4e12fc0cf78a13251c0e7ff665"
+
+func main() {
+	// Create RPC client
+	rpcClient := client.NewClient("https://soroban-testnet.stellar.org", nil)
+	defer rpcClient.Close()
+
+	fmt.Printf("Looking up balance ID: %s\n", BALANCE_ID)
+
+	// Parse claimable balance ID from hex
+	var claimableBalanceID xdr.ClaimableBalanceId
+	err := xdr.SafeUnmarshalHex(BALANCE_ID, &claimableBalanceID)
+	panicIf(err)
+
+	// Create ledger key for claimable balance
+	ledgerKey := xdr.LedgerKey{
+		Type: xdr.LedgerEntryTypeClaimableBalance,
+		ClaimableBalance: &xdr.LedgerKeyClaimableBalance{
+			BalanceId: claimableBalanceID,
+		},
+	}
+
+	// Convert ledger key to base64 for RPC call
+	ledgerKeyB64, err := xdr.MarshalBase64(ledgerKey)
+	panicIf(err)
+
+	fmt.Println("Fetching from RPC server...")
+
+	// Use GetLedgerEntries method from client
+	ctx := context.Background()
+	resp, err := rpcClient.GetLedgerEntries(ctx, protocol.GetLedgerEntriesRequest{
+		Keys: []string{ledgerKeyB64},
+	})
+	panicIf(err)
+
+	if len(resp.Entries) > 0 {
+		entry := resp.Entries[0]
+		fmt.Println("Found claimable balance")
+
+		// Parse the ledger entry XDR
+		var ledgerEntryData xdr.LedgerEntryData
+		err = xdr.SafeUnmarshalBase64(entry.DataXDR, &ledgerEntryData)
+		panicIf(err)
+
+		claimableBalance := ledgerEntryData.ClaimableBalance
+
+		// Display details
+		fmt.Printf("Amount: %d\n", int64(claimableBalance.Amount))
+		fmt.Printf("Asset: %s\n", claimableBalance.Asset.String())
+		// Show claimants
+		fmt.Println("\nClaimants:")
+		for i, claimant := range claimableBalance.Claimants {
+			address := claimant.V0.Destination.Address()
+			fmt.Printf("   %d. %s\n", i+1, address)
+		}
+	} else {
+		fmt.Println("Claimable balance not found")
+	}
+}
 ```
 
 </CodeExample>
@@ -645,23 +692,114 @@ try {
 ```
 
 ```go
-tx, err = txnbuild.NewTransaction(
-    txnbuild.TransactionParams{
-        SourceAccount:        &aAccount, // or Account B, depending on the condition!
-        IncrementSequenceNum: true,
-        BaseFee:              txnbuild.MinBaseFee,
-        Timebounds:           txnbuild.NewInfiniteTimeout(),
-        Operations:           []txnbuild.Operation{
-          &txnbuild.ClaimClaimableBalance{BalanceID: clientBalanceID}
-        },
-    },
+package main
+
+import (
+	"context"
+	"fmt"
+	"log"
+	"time"
+
+	"github.com/stellar/stellar-rpc/client"
+	"github.com/stellar/stellar-rpc/protocol"
+
+	"github.com/stellar/go-stellar-sdk/keypair"
+	"github.com/stellar/go-stellar-sdk/network"
+	"github.com/stellar/go-stellar-sdk/txnbuild"
 )
-check(err)
-tx, err = tx.Sign(network.TestNetworkPassphrase, aKeys)
-check(err)
-txResp, err = client.SubmitTransaction(tx)
-check(err)
-fmt.Printf("%s claimed %s\n", aKeys.Address(), clientBalanceID)
+
+// Replace with your claimable balance ID and claimant secret
+const BALANCE_ID = "00000000a4c91c4561f2d8b30dad9cf6475221b3003a3b4e12fc0cf78a13251c0e7ff665"
+const CLAIMANT_SECRET = "SBMODTOLLH2LGF4AJU5XOGHRQCGKEVJUZSAUAGJL7KGKC7XLJ3SG3F7N"
+
+func main() {
+	// Create RPC client
+	rpcClient := client.NewClient("https://soroban-testnet.stellar.org", nil)
+	defer rpcClient.Close()
+
+	// Create keypair from claimant secret
+	keypairAccA, err := keypair.ParseFull(CLAIMANT_SECRET)
+	panicIf(err)
+
+	fmt.Printf("Claiming account: %s\n", keypairAccA.Address())
+	fmt.Printf("Balance ID: %s\n", BALANCE_ID)
+
+	ctx := context.Background()
+
+	// Load the claimant account using client's LoadAccount method
+	accountA, err := rpcClient.LoadAccount(ctx, keypairAccA.Address())
+	panicIf(err)
+
+	// Create claim claimable balance operation
+	claimOp := txnbuild.ClaimClaimableBalance{
+		BalanceID: BALANCE_ID,
+	}
+
+	// Build transaction
+	fmt.Println("Building claim transaction...")
+	tx, err := txnbuild.NewTransaction(
+		txnbuild.TransactionParams{
+			SourceAccount:        accountA,
+			IncrementSequenceNum: true,
+			BaseFee:              txnbuild.MinBaseFee,
+			Preconditions:        txnbuild.Preconditions{TimeBounds: txnbuild.NewInfiniteTimeout()},
+			Operations:           []txnbuild.Operation{&claimOp},
+		},
+	)
+	panicIf(err)
+
+	// Sign transaction
+	tx, err = tx.Sign(network.TestNetworkPassphrase, keypairAccA)
+	panicIf(err)
+
+	// Get transaction XDR
+	txXDR, err := tx.Base64()
+	panicIf(err)
+
+	// Submit using RPC client's SendTransaction method
+	fmt.Println("Submitting claim transaction...")
+	sendResp, err := rpcClient.SendTransaction(ctx, protocol.SendTransactionRequest{
+		Transaction: txXDR,
+	})
+	panicIf(err)
+
+	if sendResp.Status != "PENDING" {
+		log.Fatalf("Transaction not pending: %s", sendResp.Status)
+	}
+
+	fmt.Printf("Transaction submitted: %s\n", sendResp.Hash)
+
+	// Poll for completion using RPC client's GetTransaction method
+	fmt.Println("Polling for result...")
+	for i := 0; i < 10; i++ {
+		resp, err := rpcClient.GetTransaction(ctx, protocol.GetTransactionRequest{
+			Hash: sendResp.Hash,
+		})
+		if err != nil {
+			log.Printf("Error getting transaction: %v", err)
+			time.Sleep(1 * time.Second)
+			continue
+		}
+
+		if resp.Status != protocol.TransactionStatusNotFound {
+			if resp.Status == protocol.TransactionStatusSuccess {
+				fmt.Println("\nSUCCESS: Claimable balance claimed")
+				fmt.Printf("Transaction hash: %s\n", sendResp.Hash)
+				fmt.Printf("Claimed by: %s\n", keypairAccA.Address())
+			} else {
+				fmt.Printf("Transaction failed: %s\n", resp.Status)
+				if resp.ResultXDR != "" {
+					fmt.Printf("Result XDR: %s\n", resp.ResultXDR)
+				}
+			}
+			return
+		}
+
+		time.Sleep(time.Duration(i+1) * time.Second)
+	}
+
+	fmt.Println("Transaction polling timeout")
+}
 ```
 
 </CodeExample>

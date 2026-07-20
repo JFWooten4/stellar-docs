@@ -3,7 +3,7 @@
 [![Apache 2.0 licensed](https://img.shields.io/badge/license-apache%202.0-blue.svg)](LICENSE)
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/stellar/stellar-docs)
 
-Welcome to the official home repository for [Documentation][docs] for the [Stellar network][stellar].
+Welcome to the official home repository for [Documentation](https://developers.stellar.org/docs) for the [Stellar network](https://en.wikipedia.org/wiki/Stellar_(payment_network)).
 
 ## Table of Contents <!-- omit in toc -->
 
@@ -15,19 +15,17 @@ Welcome to the official home repository for [Documentation][docs] for the [Stell
 - [Using Markdown](#using-markdown)
   - [Markdown Basics](#markdown-basics)
   - [Custom Markdown](#custom-markdown)
-    - [Alert](#alert)
-    - [Code Example](#code-example)
 
 ## Contributing
 
 Contributions are more than welcome! Thank you! 🎉
 
-Before diving in, please read our [Stellar Contribution Guide][contrib] for
+Before diving in, please read our [Stellar Contribution Guide](https://github.com/stellar/.github/blob/master/CONTRIBUTING.md) for
 details on contributing to Stellar's various repositories. Please take special
-note of the [code of conduct][coc].
+note of the [code of conduct](https://github.com/stellar/.github/blob/master/CODE_OF_CONDUCT.md).
 
-Our documentation site is built using [Docusaurus][docusaurus]. The content is
-written in [MDX][mdx], which adds a lot of cool possibilities. Even if you're
+Our documentation site is built using [Docusaurus](https://docusaurus.io). The content is
+written in [MDX](https://mdxjs.com), which adds a lot of cool possibilities. Even if you're
 unfamiliar with plain markdown, do not fear! You can still contribute in a
 helpful and meaningful way. Markdown is super easy to learn, and will come quite
 naturally after only a bit of practice. You can always help fix typos, spelling,
@@ -55,9 +53,9 @@ If you have questions, feel free to ask in the [Stellar Developer Discord](https
 
 ## Quick Start
 
-[![Open in Codespaces](https://github.com/codespaces/badge.svg)][open-in-github-codespaces]
+[![Open in Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?repo=stellar/stellar-docs&editor=web)
 
-[![Open in Codeanywhere](https://codeanywhere.com/img/open-in-codeanywhere-btn.svg)][open-in-code-anywhere]
+[![Open in Codeanywhere](https://codeanywhere.com/img/open-in-codeanywhere-btn.svg)](https://app.codeanywhere.com/#https://github.com/stellar/stellar-docs)
 
 ### Prerequisites
 
@@ -139,9 +137,9 @@ If you're unfamiliar with Markdown, there are **loads** of good tutorials and
 cheat sheets out there. Check out some of these resources to get a handle on the
 basics:
 
-- [CommonMark cheat sheet and tutorial][commonmark]
-- [Interactive markdown tutorial][tutorial]
-- [The markdown guide][guide]
+- [CommonMark cheat sheet and tutorial](https://commonmark.org/help/)
+- [Interactive markdown tutorial](https://www.markdowntutorial.com/)
+- [The markdown guide](https://www.markdownguide.org/)
 
 ### Custom Markdown
 
@@ -151,44 +149,39 @@ Our repository uses some custom React components that can be used inside the
 **Make sure that there is an empty line within the wrapper.** For example,
 
 ```text
-<Alert>
+<CodeExample>
 <!-- EMPTY LINE AFTER THE COMPONENT'S OPENING TAG IS REQUIRED -->
 
-Note: the testnet is reset every three months, so when building on it, make sure you have a plan to recreate necessary accounts and other data. For more info, check out the [best practices for using the testnet](../../learn/fundamentals/networks.mdx).
-
-<!-- EMPTY LINE BEFORE THE COMPONENT'S CLOSING TAG IS REQUIRED -->
-</Alert>
+```javascript
+console.log("hello world");
 ```
 
-#### Alert
+```python
+print("hello world")
+```
 
-![Testnet reset alert](./readme-imgs/alert.png)
-
-`<Alert />` is used to convey hints, warnings, etc. For example,
-[Build a SEP-31 Anchor on Testnet][alert-example]
-
-```markdown
-import { Alert } from "@site/src/components/Alert";
-
-<Alert>
-
-Note: the testnet is reset every three months, so when building on it, make sure you have a plan to recreate necessary accounts and other data. For more info, check out the [best practices for using the testnet](../../fundamentals-and-concepts/testnet-and-pubnet).
-
-</Alert>
+<!-- EMPTY LINE BEFORE THE COMPONENT'S CLOSING TAG IS REQUIRED -->
+</CodeExample>
 ```
 
 #### Code Example
 
-![Create account code example](./readme-imgs/code-example.png)
+![Create account code example](./static/img/github/code-example.png)
 
-`<CodeExample />` is a code snippet component. You can include snippets for more
-than one language. See an example including a snippet for `JavaScript` and
-`Python` below. It is using [Prism React Renderer][prism] for syntax
-highlighting.
+`<CodeExample />` is a code snippet component. You can use this component when
+you want to include snippets for more than one language. See an example
+including a snippet for `JavaScript` and `Python` below. It is using [Prism
+React Renderer](https://github.com/FormidableLabs/prism-react-renderer) for syntax highlighting. If you're only making a code
+snippet for a _single programming language_, you should just stick with a
+"normal" markdown code fence using backticks.
+
+> [!NOTE]
+> The `CodeExample` component has been added to the list of globally available
+> components, in `/src/theme/MDXComponents.ts`. This means it's not required to
+> `import { CodeExample } ...` in a page if you're planning to use it. It's just
+> always available in MDX file.
 
 ````markdown
-import { CodeExample } from "@site/src/components/CodeExample";
-
 <CodeExample>
 
 ```js
@@ -222,14 +215,20 @@ Languages that are currently being used in Documentation and API Reference are
 below:
 
 ```js
-// https://github.com/stellar/stellar-docs/blob/main/src/components/CodeExample.js
+// https://github.com/stellar/stellar-docs/blob/main/config/constants.ts
 
-const CODE_LANGS = {
+export const CODE_LANGS = {
   bash: 'bash',
   cpp: 'C++',
   curl: 'cURL',
+  dart: 'Flutter',
+  flutter: 'Flutter',
+  swift: 'Swift',
+  docker: 'Dockerfile',
   go: 'Go',
   html: 'html',
+  kotlin: 'Kotlin',
+  kt: 'Kotlin',
   java: 'Java',
   javascript: 'JavaScript',
   js: 'JavaScript',
@@ -237,6 +236,9 @@ const CODE_LANGS = {
   json5: 'JSON5',
   python: 'Python',
   scss: 'SCSS',
+  sql: 'SQL',
+  rust: 'Rust',
+  php: 'PHP',
   toml: 'TOML',
   ts: 'TypeScript',
   tsx: 'TSX',
@@ -245,19 +247,4 @@ const CODE_LANGS = {
 };
 ```
 
-**Remember that this is a community; we build together! 🫱🏻‍🫲🏽 Our code of conduct is [here](https://www.stellar.org/community/code-of-conduct) and our Privacy Policy is [here](https://www.stellar.org/privacy-policy).**
-
-[docs]: https://developers.stellar.org/docs
-[api]: https://developers.stellar.org/docs/data/apis
-[stellar]: https://stellar.org
-[contrib]: https://github.com/stellar/.github/blob/master/CONTRIBUTING.md
-[coc]: https://github.com/stellar/.github/blob/master/CODE_OF_CONDUCT.md
-[docusaurus]: https://docusaurus.io
-[mdx]: https://mdxjs.com
-[commonmark]: https://commonmark.org/help/
-[tutorial]: https://www.markdowntutorial.com/
-[guide]: https://www.markdownguide.org/
-[alert-example]: https://developers.stellar.org/docs/anchoring-assets/enabling-cross-border-payments/setting-up-test-server
-[prism]: https://github.com/FormidableLabs/prism-react-renderer
-[open-in-github-codespaces]: https://github.com/codespaces/new?repo=stellar/stellar-docs&editor=web
-[open-in-code-anywhere]: https://app.codeanywhere.com/#https://github.com/stellar/stellar-docs
+**Remember that this is a community; we build together! 🤝 Our code of conduct is [here](https://www.stellar.org/community/code-of-conduct) and our Privacy Policy is [here](https://www.stellar.org/privacy-policy).**

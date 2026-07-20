@@ -48,8 +48,8 @@ const fullHelpDocsPath = path.join(localRepoPath, "FULL_HELP_DOCS.md");
 const fullHelpDocsContent = fs.readFileSync(fullHelpDocsPath, "utf8");
 
 const modifiedContent = `---
-sidebar_position: 30
-description: This document contains the help content for the stellar command-line program.
+sidebar_position: 10
+description: This document contains the help content for the Stellar command-line program.
 ---
 
 ${fullHelpDocsContent}
@@ -62,7 +62,7 @@ fs.writeFileSync(
 
 fs.writeFileSync("docs/tools/cli/stellar-cli.mdx", modifiedContent);
 
-fs.cpSync(path.join(localRepoPath, "cookbook"), "docs/build/guides/cli", {
+fs.cpSync(path.join(localRepoPath, "cookbook"), "docs/tools/cli/cookbook", {
   recursive: true,
 });
 

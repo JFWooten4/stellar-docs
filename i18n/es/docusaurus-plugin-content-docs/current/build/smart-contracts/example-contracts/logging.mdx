@@ -18,48 +18,42 @@ import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
 import { getPlatform } from "@site/src/helpers/getPlatform";
 
-El [ejemplo de registro] demuestra cómo registrar con el propósito de depuración.
+El [ejemplo de registro](https://github.com/stellar/soroban-examples/tree/v23.0.0/hello_world) demuestra cómo registrar con el propósito de depuración.
 
-[![Open in Codespaces](https://github.com/codespaces/badge.svg)][open-in-github-codespaces]
+[![Abrir en Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?repo=stellar/soroban-examples&editor=web)
 
-[![Open in Codeanywhere](https://codeanywhere.com/img/open-in-codeanywhere-btn.svg)][open-in-code-anywhere]
+[![Abrir en Codeanywhere](https://codeanywhere.com/img/open-in-codeanywhere-btn.svg)](https://app.codeanywhere.com/#https://github.com/stellar/soroban-examples)
 
-Los registros en los contratos solo son visibles en las pruebas, o al ejecutar contratos utilizando [`stellar-cli`]. Los registros solo se compilan en el contrato si la opción del compilador Rust `debug-assertions` está habilitada.
+Los registros en los contratos solo son visibles en las pruebas, o al ejecutar contratos utilizando [`stellar-cli`](../getting-started/setup.mdx#install-the-stellar-cli). Los registros solo se compilan en el contrato si la opción del compilador Rust `debug-assertions` está habilitada.
 
-[open-in-github-codespaces]: https://github.com/codespaces/new?repo=stellar/soroban-examples&editor=web
-[open-in-code-anywhere]: https://app.codeanywhere.com/#https://github.com/stellar/soroban-examples
-[ejemplo de registro]: https://github.com/stellar/soroban-examples/tree/v22.0.1/hello_world
 
 :::tip
 
-Los registros no son un sustituto para la depuración paso a paso. Las pruebas de Rust para Soroban se pueden depurar paso a paso en tu IDE habilitado para Rust. Consulta [pruebas] para más detalles.
+Los registros no son un sustituto para la depuración paso a paso. Las pruebas de Rust para Soroban se pueden depurar paso a paso en tu IDE habilitado para Rust. Consulta [pruebas](../getting-started/hello-world.mdx#run-the-tests) para más detalles.
 
 :::
 
 :::caution
 
-Los registros no son accesibles por dapps y otras aplicaciones. Consulta el [ejemplo de eventos] para saber cómo producir eventos estructurados.
+Los registros no son accesibles por dapps y otras aplicaciones. Consulta el [ejemplo de eventos](./events.mdx) para saber cómo producir eventos estructurados.
 
 :::
 
-[pruebas]: ../getting-started/hello-world.mdx#run-the-tests
-[ejemplo de eventos]: events.mdx
 
 ## Ejecutar el ejemplo
 
-Primero pasa por el proceso de [Configuración] para configurar tu entorno de desarrollo, luego clona la etiqueta `v22.0.1` del repositorio `soroban-examples`:
+Primero, sigue el proceso de [Configuración](../getting-started/setup.mdx) para preparar tu entorno de desarrollo, luego clona la etiqueta `v23.0.0` del repositorio `soroban-examples`:
 
-[configuración]: ../getting-started/setup.mdx
 
+```sh
+git clone -b v23.0.0 https://github.com/stellar/soroban-examples
 ```
-git clone -b v22.0.1 https://github.com/stellar/soroban-examples
-```
 
-O bien, omite la configuración del entorno de desarrollo y abre este ejemplo en [GitHub Codespaces][open-in-github-codespaces] o en [Code Anywhere][open-in-code-anywhere].
+O bien, omite la configuración del entorno de desarrollo y abre este ejemplo en [GitHub Codespaces](https://github.com/codespaces/new?repo=stellar/soroban-examples&editor=web) o en [Code Anywhere](https://app.codeanywhere.com/#https://github.com/stellar/soroban-examples).
 
 Para ejecutar las pruebas del ejemplo, navega al directorio `logging`, y utiliza `cargo test`.
 
-```
+```sh
 cd logging
 cargo test -- --nocapture
 ```
@@ -68,13 +62,15 @@ Deberías ver la salida:
 
 ```
 running 1 test
-Hello Symbol(Dev)
+[Diagnostic Event] contract:CAAA..., topics:[log], data:["Hello {}", Dev]
+[Diagnostic Event] contract:CAAA..., topics:[log], data:["Hello {}", Dev]
+Writing test snapshot file for test "test::test" to "test_snapshots/test/test.1.json".
 test test::test ... ok
 ```
 
 ## Código
 
-```toml title="Cargo.toml"
+```toml title="logging/Cargo.toml"
 [profile.release-with-logs]
 inherits = "release"
 debug-assertions = true
@@ -82,7 +78,7 @@ debug-assertions = true
 
 ```rust title="logging/src/lib.rs"
 #![no_std]
-use soroban_sdk::{contractimpl, log, Env, Symbol};
+use soroban_sdk::{contract, contractimpl, log, Env, Symbol};
 
 #[contract]
 pub struct Contract;
@@ -95,15 +91,15 @@ impl Contract {
 }
 ```
 
-Ref: https://github.com/stellar/soroban-examples/tree/v22.0.1/logging
+Referencia: https://github.com/stellar/soroban-examples/tree/v23.0.0/logging
 
 ## Cómo funciona
 
-El macro [`log!`] registra una cadena. Todos los registros que ocurren durante la ejecución se envían a stdout en [`stellar-cli`] y están disponibles para que las pruebas validen o impriman.
+El macro [`log!`](https://docs.rs/soroban-sdk/latest/soroban_sdk/macro.log.html) registra una cadena. Todos los registros que ocurren durante la ejecución se envían a stdout en [`stellar-cli`](../getting-started/setup.mdx#install-the-stellar-cli) y están disponibles para que las pruebas validen o impriman.
 
 Los registros solo se envían si el contrato se construye con la opción del compilador `debug-assertions` habilitada. Esto hace que sea eficiente dejarlos en el código de forma permanente, ya que una construcción `release` regular los omitirá.
 
-Los registros solo se almacenan en los entornos de Soroban que tienen el registro habilitado. Los únicos entornos de Soroban donde el registro está habilitado son en las pruebas de Rust, y en el [`stellar-cli`].
+Los registros solo se almacenan en los entornos de Soroban que tienen el registro habilitado. Los únicos entornos de Soroban donde el registro está habilitado son en las pruebas de Rust, y en el [`stellar-cli`](../getting-started/setup.mdx#install-the-stellar-cli).
 
 Abre los archivos anteriores para seguirlo.
 
@@ -127,7 +123,7 @@ Para construir con registros utiliza la opción `--profile release-with-logs`.
 
 ### Usando el macro `log!`
 
-El macro [`log!`] construye una cadena a partir de la cadena de formato y una lista de argumentos. Los argumentos se sustituyen dondequiera que aparezca el valor `{}` en la cadena de formato.
+El macro [`log!`](https://docs.rs/soroban-sdk/latest/soroban_sdk/macro.log.html) construye una cadena a partir de la cadena de formato y una lista de argumentos. Los argumentos se sustituyen dondequiera que aparezca el valor `{}` en la cadena de formato.
 
 ```rust
 log!(&env, "Hello {}", value);
@@ -147,7 +143,7 @@ Los valores enviados actualmente son relativamente limitados. Mientras que valor
 
 ## Pruebas
 
-Abre el archivo `logging/src/test.rs` para seguirlo.
+Abre el archivo [`logging/src/test.rs`](https://github.com/stellar/soroban-examples/tree/v23.0.0/logging/src/test.rs) para seguir los pasos.
 
 ```rust title="logging/src/test.rs"
 extern crate std;
@@ -155,18 +151,23 @@ extern crate std;
 #[test]
 fn test() {
     let env = Env::default();
-    let contract_id = env.register(Contract, ());
+
+    let addr = Address::from_str(
+        &env,
+        "CAEAQCAIBAEAQCAIBAEAQCAIBAEAQCAIBAEAQCAIBAEAQCAIBAEAQMCJ",
+    );
+    let contract_id = env.register_at(&addr, Contract, ());
     let client = ContractClient::new(&env, &contract_id);
 
     client.hello(&symbol_short!("Dev"));
 
     let logs = env.logs().all();
-    assert_eq!(logs, std::vec!["Hello Symbol(Dev)"]);
+    assert_eq!(logs, std::vec!["[Diagnostic Event] contract:CAEAQCAIBAEAQCAIBAEAQCAIBAEAQCAIBAEAQCAIBAEAQCAIBAEAQMCJ, topics:[log], data:[\"Hello {}\", Dev]"]);
     std::println!("{}", logs.join("\n"));
 }
 ```
 
-El crate `std`, que contiene la biblioteca estándar de Rust, se importa para que la prueba pueda usar los macros `std::vec!` y `std::println!`. Dado que los contratos deben usar `#![no_std]`, las pruebas en contratos deben importar manualmente `std` para usar la funcionalidad estándar como imprimir en stdout.
+El crate `std`, que contiene la biblioteca estándar de Rust, se importa para que la prueba pueda usar los macros `std::vec!` y `std::println!`. Dado que los contratos deben usar `#![no_std]`, las pruebas en contratos deben importar manualmente `std` para usar funcionalidades de `std` como imprimir en stdout.
 
 ```rust
 extern crate std;
@@ -178,17 +179,21 @@ En cualquier prueba, lo primero que siempre se requiere es un `Env`, que es el e
 let env = Env::default();
 ```
 
-El contrato se registra con el entorno utilizando el tipo de contrato.
+El contrato se registra con el entorno utilizando el tipo de contrato. Estamos especificando exactamente en qué dirección de contrato debe desplegarse el contrato en la prueba, usando la función `env.register_at`. Esto facilita asegurar que la salida de los logs proviene de la dirección de contrato relevante.
 
 ```rust
-let contract_id = env.register(HelloContract, ());
+let addr = Address::from_str(
+    &env,
+    "CAEAQCAIBAEAQCAIBAEAQCAIBAEAQCAIBAEAQCAIBAEAQCAIBAEAQMCJ",
+);
+let contract_id = env.register_at(&addr, Contract, ());
 ```
 
 Todas las funciones públicas dentro de un bloque `impl` que está anotado con el atributo `#[contractimpl]` tienen una función correspondiente generada en un tipo de cliente generado. El tipo de cliente se nombrará igual que el tipo de contrato con `Client` añadido. Por ejemplo, en nuestro contrato, el tipo de contrato es `HelloContract`, y el cliente se llama `HelloContractClient`.
 
 ```rust
-let client = HelloContractClient::new(&env, &contract_id);
-let words = client.hello(&symbol_short!("Dev"));
+let client = ContractClient::new(&env, &contract_id);
+client.hello(&symbol_short!("Dev"));
 ```
 
 Los registros están disponibles en las pruebas a través del entorno.
@@ -197,13 +202,13 @@ Los registros están disponibles en las pruebas a través del entorno.
 let logs = env.logs().all();
 ```
 
-Se pueden validar como cualquier otro valor.
+Se pueden afirmar igual que cualquier otro valor.
 
 ```rust
-assert_eq!(logs, std::vec!["Hello Symbol(Dev)"]);
+assert_eq!(logs, std::vec!["[Diagnostic Event] contract:CAEAQCAIBAEAQCAIBAEAQCAIBAEAQCAIBAEAQCAIBAEAQCAIBAEAQMCJ, topics:[log], data:[\"Hello {}\", Dev]"]);
 ```
 
-Se pueden imprimir en stdout.
+También pueden imprimirse en stdout.
 
 ```rust
 std::println!("{}", logs.join("\n"));
@@ -243,10 +248,9 @@ target/wasm32v1-none/release-with-logs/soroban_logging_contract.wasm
 
 ## Ejecutar el contrato
 
-Si tienes [`stellar-cli`] instalado, puedes invocar funciones del contrato usándolo. Especifica la opción `-v` para habilitar registros detallados.
+Si tienes [`stellar-cli`](../getting-started/setup.mdx#install-the-stellar-cli) instalado, puedes invocar funciones del contrato usándolo. Especifica la opción `-v` para habilitar registros detallados.
 
 <Tabs groupId="platform" defaultValue={getPlatform()}>
-
 <TabItem value="unix" label="macOS/Linux">
 
 ```sh
@@ -259,7 +263,6 @@ stellar -v contract invoke \
 ```
 
 </TabItem>
-
 <TabItem value="windows" label="Windows (PowerShell)">
 
 ```powershell
@@ -272,14 +275,11 @@ stellar -v contract invoke `
 ```
 
 </TabItem>
-
 </Tabs>
 
 La salida debe incluir la siguiente línea.
 
 ```
-stellar_cli::log::event::contract_log: log="Hello Symbol(me)"
+📔 CAAA... - Success - Log: {"vec":[{"string":"Hello {}"},{"symbol":"friend"}]}
 ```
 
-[`log!`]: https://docs.rs/soroban-sdk/latest/soroban_sdk/macro.log.html
-[`stellar-cli`]: ../getting-started/setup.mdx#install-the-stellar-cli

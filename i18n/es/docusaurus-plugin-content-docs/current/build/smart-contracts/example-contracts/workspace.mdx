@@ -8,31 +8,27 @@ import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
 import { getPlatform } from "@site/src/helpers/getPlatform";
 
-El [ejemplo de espacio de trabajo] demuestra cómo se pueden desarrollar, probar y crear múltiples contratos inteligentes lado a lado en el mismo espacio de trabajo de Rust.
+El [ejemplo de espacio de trabajo](https://github.com/stellar/soroban-examples/tree/v23.0.0/workspace) demuestra cómo se pueden desarrollar, probar y crear múltiples contratos inteligentes lado a lado en el mismo espacio de trabajo de Rust.
 
-[![Abrir en Codespaces](https://github.com/codespaces/badge.svg)][open-in-github-codespaces]
+[![Abrir en Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?repo=stellar/soroban-examples&editor=web)
 
-[![Abrir en Codeanywhere](https://codeanywhere.com/img/open-in-codeanywhere-btn.svg)][open-in-code-anywhere]
+[![Abrir en Codeanywhere](https://codeanywhere.com/img/open-in-codeanywhere-btn.svg)](https://app.codeanywhere.com/#https://github.com/stellar/soroban-examples)
 
-[open-in-github-codespaces]: https://github.com/codespaces/new?repo=stellar/soroban-examples&editor=web
-[open-in-code-anywhere]: https://app.codeanywhere.com/#https://github.com/stellar/soroban-examples
-[ejemplo de espacio de trabajo]: https://github.com/stellar/soroban-examples/tree/main/workspace
 
 ## Ejecutar el Ejemplo
 
-Primero pasa por el proceso de [Configuración] para configurar tu entorno de desarrollo, luego clona el repositorio `soroban-examples`:
+Primero sigue el proceso de [Configuración](../getting-started/setup.mdx) para preparar tu entorno de desarrollo, luego clona el 'tag' `v23.0.0` del repositorio `soroban-examples`:
 
-[Configuración]: ../getting-started/setup.mdx
 
-```shell
+```sh
 git clone https://github.com/stellar/soroban-examples
 ```
 
-O, omite la configuración del entorno de desarrollo y abre este ejemplo en [GitHub Codespaces][open-in-github-codespaces] o en [Code Anywhere][open-in-code-anywhere].
+O, omite la configuración del entorno de desarrollo y abre este ejemplo en [GitHub Codespaces](https://github.com/codespaces/new?repo=stellar/soroban-examples&editor=web) o en [Code Anywhere](https://app.codeanywhere.com/#https://github.com/stellar/soroban-examples).
 
 Para ejecutar las pruebas del ejemplo usa `cargo test`.
 
-```shell
+```sh
 cd workspace
 cargo test
 ```
@@ -41,7 +37,7 @@ Deberías ver tres conjuntos de salida, uno para `contract_a`, `contract_a_inter
 
 ```text
 running 1 test
-test test::test_token_auth ... ok
+test test::test ... ok
 ```
 
 ## Código
@@ -51,6 +47,7 @@ test test::test_token_auth ... ok
 
 ```rust title="workspace/contract_a_interface/src/lib.rs"
 #![no_std]
+
 use soroban_sdk::contractclient;
 
 #[contractclient(name = "ContractAClient")]
@@ -64,6 +61,7 @@ pub trait ContractAInterface {
 
 ```rust title="workspace/contract_a/src/lib.rs"
 #![no_std]
+
 use soroban_sdk::{contract, contractimpl};
 use soroban_workspace_contract_a_interface::ContractAInterface;
 
@@ -83,6 +81,7 @@ impl ContractAInterface for ContractA {
 
 ```rust title="workspace/contract_b/src/lib.rs"
 #![no_std]
+
 use soroban_sdk::{contract, contractimpl, Address, Env};
 use soroban_workspace_contract_a_interface::ContractAClient;
 
@@ -105,6 +104,7 @@ mod test;
 
 ```rust title="workspace/src/contract_b/src/test.rs"
 #![cfg(test)]
+
 use soroban_sdk::Env;
 
 use crate::{ContractB, ContractBClient};
@@ -119,7 +119,7 @@ fn test() {
     let contract_a_id = env.register(ContractA, ());
 
     // Register contract B defined in this crate.
-    et contract_b_id = env.register(ContractB, ());
+    let contract_b_id = env.register(ContractB, ());
 
     // Create a client for calling contract B.
     let client = ContractBClient::new(&env, &contract_b_id);
@@ -133,7 +133,7 @@ fn test() {
 </TabItem>
 </Tabs>
 
-Ref: https://github.com/stellar/soroban-examples/tree/main/workspace
+Referencia: https://github.com/stellar/soroban-examples/tree/v23.0.0/workspace
 
 ## Cómo Funciona
 
@@ -199,7 +199,7 @@ Más allá de este ejemplo simple, esta técnica es versátil y útil. Por ejemp
 
 Para crear los contratos en un conjunto de archivos `.wasm`, usa el comando `stellar contract build`. Tanto `workspace/contract_a` como `workspace/contract_b` serán creados, y puedes usar un solo comando, ya que nuestro espacio de trabajo define sus `members` en el archivo `Cargo.toml`:
 
-```shell
+```sh
 stellar contract build
 ```
 
@@ -210,23 +210,23 @@ target/wasm32v1-none/release/soroban_workspace_contract_a.wasm
 target/wasm32v1-none/release/soroban_workspace_contract_b.wasm
 ```
 
-El [`stellar-cli`] sabe que el `contract_a_interface` no está destinado a ser compilado en un .wasm, porque el `Cargo.toml` del `contract_a_interface` tiene su `crate-type` configurado como `rlib` (librería rust). ¡Genial!
+El [`stellar-cli`](../getting-started/setup.mdx#install-the-stellar-cli) sabe que el `contract_a_interface` no está destinado a ser compilado en un .wasm, porque el `Cargo.toml` del `contract_a_interface` tiene su `crate-type` configurado como `rlib` (librería rust). ¡Genial!
 
 ## Ejecutar el Contrato
 
-Si tienes [`stellar-cli`] instalado, puedes invocar las funciones del contrato. Ambos contratos deben estar desplegados.
+Si tienes [`stellar-cli`](../getting-started/setup.mdx#install-the-stellar-cli) instalado, puedes invocar las funciones del contrato. Ambos contratos deben estar desplegados.
 
 <Tabs groupId="platform" defaultValue={getPlatform()}>
 <TabItem value="unix" label="macOS/Linux">
 
-```shell
+```sh
 stellar contract deploy \
-    --wasm target/wasm32v1-none/release/soroban_workspace_contract_a.wasm \
+    --wasm target/wasm32v1-none/release/soroban_workspace_contract_a.wasm
 ```
 
-```shell
+```sh
 stellar contract deploy \
-    --wasm target/wasm32v1-none/release/soroban_workspace_contract_b.wasm \
+    --wasm target/wasm32v1-none/release/soroban_workspace_contract_b.wasm
 ```
 
 </TabItem>
@@ -234,12 +234,12 @@ stellar contract deploy \
 
 ```powershell
 stellar contract deploy `
-    --wasm target/wasm32v1-none/release/soroban_workspace_contract_a.wasm `
+    --wasm target/wasm32v1-none/release/soroban_workspace_contract_a.wasm
 ```
 
 ```powershell
 stellar contract deploy `
-    --wasm target/wasm32v1-none/release/soroban_workspace_contract_b.wasm `
+    --wasm target/wasm32v1-none/release/soroban_workspace_contract_b.wasm
 ```
 
 </TabItem>
@@ -250,7 +250,7 @@ Invoca la función `add_with` de `ContractB`, pasando la dirección de `Contract
 <Tabs groupId="platform" defaultValue={getPlatform()}>
 <TabItem value="unix" label="macOS/Linux">
 
-```shell
+```sh
 stellar contract invoke \
     --id CONTRACT_B_ADDRESS \
     -- \
@@ -276,4 +276,3 @@ stellar contract invoke `
 </TabItem>
 </Tabs>
 
-[`stellar-cli`]: ../getting-started/setup.mdx#install-the-stellar-cli

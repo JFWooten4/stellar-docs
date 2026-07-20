@@ -21,30 +21,23 @@ import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
 import { getPlatform } from "@site/src/helpers/getPlatform";
 
-The [auth example] demonstrates how to implement authentication and authorization using the Soroban Host-managed auth framework.
+The [auth example](https://github.com/stellar/soroban-examples/tree/v23.0.0/auth) demonstrates how to implement authentication and authorization using the Soroban Host-managed auth framework.
 
-This example is an extension of the [storing data example].
+This example is an extension of the [storing data example](../getting-started/storing-data.mdx).
 
-[![Open in Codespaces](https://github.com/codespaces/badge.svg)][open-in-github-codespaces]
+[![Open in Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?repo=stellar/soroban-examples&editor=web)
 
-[![Open in Codeanywhere](https://codeanywhere.com/img/open-in-codeanywhere-btn.svg)][open-in-code-anywhere]
-
-[open-in-github-codespaces]: https://github.com/codespaces/new?repo=stellar/soroban-examples&editor=web
-[open-in-code-anywhere]: https://app.codeanywhere.com/#https://github.com/stellar/soroban-examples
-[storing data example]: ../getting-started/storing-data.mdx
-[auth example]: https://github.com/stellar/soroban-examples/tree/v22.0.1/auth
+[![Open in Codeanywhere](https://codeanywhere.com/img/open-in-codeanywhere-btn.svg)](https://app.codeanywhere.com/#https://github.com/stellar/soroban-examples)
 
 ## Run the Example
 
-First go through the [Setup] process to get your development environment configured, then clone the `v22.0.1` tag of `soroban-examples` repository:
-
-[setup]: ../getting-started/setup.mdx
+First go through the [Setup](../getting-started/setup.mdx) process to get your development environment configured, then clone the `v23.0.0` tag of `soroban-examples` repository:
 
 ```
-git clone -b v22.0.1 https://github.com/stellar/soroban-examples
+git clone -b v23.0.0 https://github.com/stellar/soroban-examples
 ```
 
-Or, skip the development environment setup and open this example in [GitHub Codespaces][open-in-github-codespaces] or [Code Anywhere][open-in-code-anywhere].
+Or, skip the development environment setup and open this example in [GitHub Codespaces](https://github.com/codespaces/new?repo=stellar/soroban-examples&editor=web) or [Code Anywhere](https://app.codeanywhere.com/#https://github.com/stellar/soroban-examples).
 
 To run the tests for the example, navigate to the `auth` directory, and use `cargo test`.
 
@@ -113,7 +106,7 @@ impl IncrementContract {
 }
 ```
 
-Ref: https://github.com/stellar/soroban-examples/tree/v22.0.1/auth
+Ref: https://github.com/stellar/soroban-examples/tree/v23.0.0/auth
 
 ## How it Works
 
@@ -130,7 +123,7 @@ pub enum DataKey {
 }
 ```
 
-`Address` is a universal Soroban identifier that may represent a Stellar account, a contract or an 'account contract' (a contract that defines a custom authentication scheme and authorization policies). Contracts don't need to distinguish between these internal representations though. `Address` can be used any time some network identity needs to be represented, like to distinguish between counters for different users in this example.
+`Address` is a universal Soroban identifier that may represent a Stellar account, a contract, or a contract account (a contract that defines a custom authentication scheme and authorization policies). Contracts don't need to distinguish between these internal representations though. `Address` can be used any time some network identity needs to be represented, like to distinguish between counters for different users in this example.
 
 :::tip Enum keys like `DataKey` are useful for organizing contract storage.
 
@@ -148,7 +141,7 @@ impl IncrementContract {
         user.require_auth();
 ```
 
-`require_auth` method can be called for any `Address`. Semantically `user.require_auth()` here means 'require `user` to have authorized calling `increment` function of the current `IncrementContract` instance with the current call arguments, i.e. the current `user` and `value` argument values'. In simpler terms, this ensures that the `user` has allowed incrementing their counter value and nobody else can increment it.
+The `require_auth` method can be called for any `Address`. Semantically `user.require_auth()` here means 'require `user` to have authorized calling `increment` function of the current `IncrementContract` instance with the current call arguments, i.e. the current `user` and `value` argument values'. In simpler terms, this ensures that the `user` has allowed incrementing their counter value and nobody else can increment it.
 
 When using `require_auth` the contract implementation doesn't need to worry about the signatures, authentication, and replay prevention. All these features are implemented by the Soroban host and happen automatically as long as the `Address` type is used.
 
@@ -167,11 +160,13 @@ user.require_auth_for_args((value,).into_val(&env));
 
 ### Tests
 
-Open the [`auth/src/test.rs`] file to follow along.
-
-[`auth/src/test.rs`]: https://github.com/stellar/soroban-examples/tree/v22.0.1/auth/src/test.rs
+Open the [`auth/src/test.rs`](https://github.com/stellar/soroban-examples/tree/v23.0.0/auth/src/test.rs) file to follow along.
 
 ```rust title="auth/src/test.rs"
+#![cfg(test)]
+extern crate std;
+
+#[test]
 fn test() {
     let env = Env::default();
     env.mock_all_auths();
@@ -179,23 +174,33 @@ fn test() {
     let contract_id = env.register(IncrementContract, {});
     let client = IncrementContractClient::new(&env, &contract_id);
 
-    let user_1 = Address::random(&env);
-    let user_2 = Address::random(&env);
+    let user_1 = Address::generate(&env);
+    let user_2 = Address::generate(&env);
 
     assert_eq!(client.increment(&user_1, &5), 5);
     // Verify that the user indeed had to authorize a call of `increment` with
     // the expected arguments:
     assert_eq!(
         env.auths(),
-        [(
-            // Address for which auth is performed
+        std::vec![(
+            // Address for which authorization check is performed
             user_1.clone(),
-            // Identifier of the called contract
-            contract_id.clone(),
-            // Name of the called function
-            symbol_short!("increment"),
-            // Arguments used to call `increment` (converted to the env-managed vector via `into_val`)
-            (user_1.clone(), 5_u32).into_val(&env)
+            // Invocation tree that needs to be authorized
+            AuthorizedInvocation {
+                // Function that is authorized. Can be a contract function or
+                // a host function that requires authorization.
+                function: AuthorizedFunction::Contract((
+                    // Address of the called contract
+                    contract_id.clone(),
+                    // Name of the called function
+                    symbol_short!("increment"),
+                    // Arguments used to call `increment` (converted to the env-managed vector via `into_val`)
+                    (user_1.clone(), 5_u32).into_val(&env),
+                )),
+                // The contract doesn't call any other contracts that require
+                // authorization,
+                sub_invocations: std::vec![]
+            }
         )]
     );
 
@@ -207,7 +212,6 @@ fn test() {
     assert_eq!(client.increment(&user_1, &3), 10);
     assert_eq!(client.increment(&user_2, &4), 5);
 }
-
 ```
 
 In any test the first thing that is always required is an `Env`, which is the Soroban environment that the contract will run in.
@@ -252,7 +256,7 @@ In order to verify that the `require_auth` call(s) have indeed happened, use `au
 ```rust
 assert_eq!(
     env.auths(),
-    [(
+    std::vec![(
         // Address for which auth is performed
         user_1.clone(),
         // Identifier of the called contract
@@ -265,7 +269,7 @@ assert_eq!(
 );
 ```
 
-Invoke `increment` function several more times for both users. Notice, that the values are tracked separately for each users.
+Invoke the `increment` function several more times for both users. Notice, that the values are tracked separately for each users.
 
 ```rust
 assert_eq!(client.increment(&user_1, &2), 7);
@@ -290,7 +294,7 @@ target/wasm32v1-none/release/soroban_auth_contract.wasm
 
 ## Run the Contract
 
-If you have [`stellar-cli`] installed, you can invoke functions on the contract.
+If you have [`stellar-cli`](../getting-started/setup.mdx#install-the-stellar-cli) installed, you can invoke functions on the contract.
 
 But since we are dealing with authorization and signatures, we need to set up some identities to use for testing and get their public keys:
 
@@ -311,7 +315,6 @@ GAJGHZ44IJXYFNOVRZGBCVKC2V62DB2KHZB7BEMYOWOLFQH4XP2TAM6B
 Now the contract itself can be invoked. Notice the `--source-account` must be the identity name matching the address passed to the `--user` argument. This allows `Stellar CLI` to automatically sign the necessary payload for the invocation.
 
 <Tabs groupId="platform" defaultValue={getPlatform()}>
-
 <TabItem value="unix" label="macOS/Linux">
 
 ```sh
@@ -326,7 +329,6 @@ stellar contract invoke \
 ```
 
 </TabItem>
-
 <TabItem value="windows" label="Windows (PowerShell)">
 
 ```powershell
@@ -341,13 +343,11 @@ stellar contract invoke `
 ```
 
 </TabItem>
-
 </Tabs>
 
 Run a few more increments for both accounts.
 
 <Tabs groupId="platform" defaultValue={getPlatform()}>
-
 <TabItem value="unix" label="macOS/Linux">
 
 ```sh
@@ -384,7 +384,6 @@ stellar contract invoke \
 ```
 
 </TabItem>
-
 <TabItem value="windows" label="Windows (PowerShell)">
 
 ```powershell
@@ -421,7 +420,6 @@ stellar contract invoke \
 ```
 
 </TabItem>
-
 </Tabs>
 
 View the data that has been stored against each user with `stellar contract read`.
@@ -438,7 +436,6 @@ stellar contract read --id 1
 It is also possible to preview the authorization payload that is being signed by providing `--auth` flag to the invocation:
 
 <Tabs groupId="platform" defaultValue={getPlatform()}>
-
 <TabItem value="unix" label="macOS/Linux">
 
 ```sh
@@ -454,7 +451,6 @@ stellar contract invoke \
 ```
 
 </TabItem>
-
 <TabItem value="windows" label="Windows (PowerShell)">
 
 ```powershell
@@ -470,14 +466,11 @@ stellar contract invoke `
 ```
 
 </TabItem>
-
 </Tabs>
 
 ```json
 Contract auth: [{"address_with_nonce":null,"root_invocation":{"contract_id":"0000000000000000000000000000000000000000000000000000000000000001","function_name":"increment","args":[{"object":{"address":{"account":{"public_key_type_ed25519":"c7bab0288753d58d3e21cc3fa68cd2546b5f78ae6635a6f1b3fe07e03ee846e9"}}}},{"u32":123}],"sub_invocations":[]},"signature_args":[]}]
 ```
-
-[`stellar-cli`]: ../getting-started/setup.mdx#install-the-stellar-cli
 
 ## Further reading
 
@@ -487,4 +480,4 @@ Contract auth: [{"address_with_nonce":null,"root_invocation":{"contract_id":"000
 
 [Atomic Swap](../example-contracts/atomic-swap.mdx) example demonstrates multi-party authorization where multiple users sign their parts of the contract invocation.
 
-[Custom Account](../example-contracts/custom-account.mdx) example for demonstrates an account contract that defines a custom authentication scheme and user-defined authorization policies.
+[Simple Account](../example-contracts/simple-account.mdx) example demonstrates a minimal contract account implementation and how `__check_auth` works end-to-end.

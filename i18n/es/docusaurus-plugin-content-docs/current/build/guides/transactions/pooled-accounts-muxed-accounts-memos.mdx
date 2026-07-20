@@ -4,8 +4,6 @@ description: Usa cuentas muxed para diferenciar entre cuentas individuales dentr
 sidebar_position: 60
 ---
 
-import { CodeExample } from "@site/src/components/CodeExample";
-
 Al desarrollar una aplicación o servicio en Stellar, una de las primeras decisiones que debes tomar es cómo manejar las cuentas de los usuarios.
 
 Puedes crear una cuenta Stellar para cada usuario, pero la mayoría de los servicios custodiados, incluyendo los exchanges de criptomonedas, optan por usar una única cuenta Stellar agrupada para gestionar transacciones en nombre de sus usuarios. En estos casos, la función de cuentas muxed puede mapear las transacciones a cuentas individuales a través de una base de datos interna de clientes.
@@ -28,7 +26,7 @@ Las cuentas muxed están integradas en el protocolo por conveniencia y estandari
 
 Las cuentas muxed no existen en el ledger, pero sí su cuenta base `GABC…` compartida.
 
-Las cuentas muxed están definidas en [CAP-0027](https://stellar.org/protocol/cap-27), introducidas en el Protocolo 13, y su representación en cadena está descrita en [SEP-0023](https://stellar.org/protocol/sep-23).
+Las cuentas muxed están definidas en [CAP-0027](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0027.md), introducidas en el Protocolo 13, y su representación en cadena está descrita en [SEP-0023](https://github.com/stellar/stellar-protocol/blob/master/ecosystem/sep-0023.md).
 
 Es seguro que todas las billeteras implementen el envío a cuentas muxed.
 
@@ -366,7 +364,7 @@ runAllMuxedExamples();
 
 ### Más ejemplos
 
-Como es común en la mayoría de las características a nivel de protocolo, puedes encontrar más ejemplos de uso e inspiración en la suite de pruebas correspondiente para tu SDK favorito. Por ejemplo, [aquí](https://github.com/stellar/js-stellar-base/blob/master/test/unit/muxed_account_test.js) están algunos casos de prueba en JavaScript.
+Como es común en la mayoría de las características a nivel de protocolo, puedes encontrar más ejemplos de uso e inspiración en la suite de pruebas correspondiente para tu SDK favorito. Por ejemplo, [aquí](https://github.com/stellar/js-stellar-base/blob/master/test/unit/muxed_account_test.js). están algunos casos de prueba en JavaScript.
 
 ### Preguntas frecuentes
 
@@ -381,7 +379,6 @@ Aún así, si esto ocurre, analizar una transacción con un parámetro muxed sin
 ```
 
 “destination is invalid; did you forget to enable muxing?”
-
 ```
 
 - Si tu SDK está actualizado, verás la dirección muxed (`M...`) analizada correctamente. Lo que sucede a continuación depende de tu aplicación.
@@ -434,7 +431,7 @@ Este mensaje de error indica que el `trustor` no se pudo analizar como un ID de 
 
 **¿Cómo valido direcciones Stellar?**
 
-Debes usar los métodos de validación proporcionados por tu SDK o seguir cuidadosamente el [SEP-23](https://stellar.org/protocol/sep-23). Por ejemplo, el SDK de JavaScript proporciona los siguientes métodos para validar direcciones Stellar:
+Debes usar los métodos de validación proporcionados por tu SDK o seguir cuidadosamente el [SEP-23](https://github.com/stellar/stellar-protocol/blob/master/ecosystem/sep-0023.md). Por ejemplo, el SDK de JavaScript proporciona los siguientes métodos para validar direcciones Stellar:
 
 ```ts
 namespace StrKey {
@@ -455,6 +452,6 @@ Para aprender sobre otros propósitos para los cuales se pueden usar los memos, 
 
 Las cuentas muxed son una mejor forma de diferenciar entre individuos en una cuenta agrupada porque tienen mejor:
 
-- Compartibilidad — en lugar de preocuparte por cosas propensas a errores como copiar y pegar IDs de memo, simplemente puedes compartir tu dirección M... address.
+- Compartibilidad — en lugar de preocuparte por cosas propensas a errores como copiar y pegar IDs de memo, simplemente puedes compartir tu dirección M... dirección.
 - Soporte en SDK — los distintos SDKs admiten esta abstracción de forma nativa, permitiéndote crear, gestionar y trabajar con cuentas muxed fácilmente. Esto significa que pueden aparecer direcciones muxed al analizar cualquiera de los campos que las admiten, por lo que debes estar preparado para manejarlas. Consulta la documentación de tu SDK para detalles; por ejemplo, la [v7.0.0](https://github.com/stellar/js-stellar-base/releases/tag/v7.0.0) de la biblioteca stellar-base del SDK de JavaScript describe todos los campos y funciones relacionados con las cuentas muxed.
 - Eficiencia — al combinar cuentas virtuales relacionadas bajo el paraguas de una sola cuenta, puedes evitar mantener reservas y pagar tarifas por cada una de ellas individualmente en el ledger. También puedes combinar varios pagos a múltiples destinos en una sola transacción ya que ya no necesitas el campo memo por transacción.
