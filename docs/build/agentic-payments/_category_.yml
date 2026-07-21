@@ -2,8 +2,5 @@
   "label": "Agentic Payments",
   "collapsed": false,
   "position": 35,
-  "link": {
-    "type": "doc",
-    "id": "build/agentic-payments/README"
-  }
+  "link": { "type": "doc", "id": "build/agentic-payments/README" },
 }

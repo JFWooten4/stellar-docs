@@ -110,7 +110,7 @@ pnpm build
     document within this directory structure will have a direct impact on the
     URL given to the document on the site (unless there is metadata or front
     matter that overrides these defaults.)
-  - `/docs/<subdirectory>/_category_.json` This file contains information that
+  - `/docs/<subdirectory>/_category_.yml` This file contains information that
     determines the directory's location and position within the site's sidebar.
   - `/docs/<subdirectory>/<filename>.mdx` The actual documents live in these
     files (written in Markdown), and also contains "front matter" which can
