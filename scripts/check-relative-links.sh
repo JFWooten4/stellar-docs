@@ -52,7 +52,7 @@ findings=$(
     function record_targets(token, target) {
       while (match(token,/\]\(\/docs[^)]*\)/)) {
         target=substr(token,RSTART+2,RLENGTH-3)
-        targets=targets (targets ? ", " : "") target
+        targets=targets (targets ? "\n" : "") target
         token=substr(token,RSTART+RLENGTH)
       }
     }
@@ -64,8 +64,11 @@ findings=$(
     /^~/ {
       is_removal_only = (hasrem && !haskept)
       if (!is_removal_only) {
-        if (targets && path !~ /CONTRIBUTING\.md$/)
-          print path ":" newno ": absolute link introduced: " targets " — use a relative ../path/file.mdx link"
+        if (targets && path !~ /CONTRIBUTING\.md$/) {
+          target_count=split(targets,line_targets,"\n")
+          for (i=1; i<=target_count; i++)
+            print path ":" newno ": absolute link introduced: " line_targets[i] " — use a relative ../path/file.mdx link"
+        }
         newno++
       }
       reset(); next
