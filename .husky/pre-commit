@@ -9,6 +9,6 @@ pnpm check:mdx || (echo -e "${G}Hint:${CLEAN} execute ${P}pnpm format:mdx${CLEAN
 # scripts/check-relative-links.sh (shared with CI) — only flags links introduced
 # in staged changes, never pre-existing content in untouched lines.
 scripts/check-relative-links.sh --staged || {
-  echo -e "${R}Error:${CLEAN} absolute /docs link(s) found above. Use a relative ${P}../path/file.mdx${CLEAN} link with the .mdx extension instead."
+  echo -e "${R}Error:${CLEAN} See ${P}CONTRIBUTING.md#links${CLEAN} for internal linking instructions."
   exit 1
 }

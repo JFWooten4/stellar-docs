@@ -48,7 +48,14 @@ esac
 # on every completed line except pure deletions (old-file-only).
 findings=$(
   "${diff_cmd[@]}" | awk '
-    function reset() { hasrem=0; haskept=0; flag=0 }
+    function reset() { hasrem=0; haskept=0; targets="" }
+    function record_targets(token, target) {
+      while (match(token,/\]\(\/docs[^)]*\)/)) {
+        target=substr(token,RSTART+2,RLENGTH-3)
+        targets=targets (targets ? ", " : "") target
+        token=substr(token,RSTART+RLENGTH)
+      }
+    }
     /^diff --git / { infile=0; reset(); next }
     /^--- /        { next }
     /^\+\+\+ /     { path=substr($0,7); sub(/\t.*/,"",path); infile=1; next }
@@ -57,8 +64,8 @@ findings=$(
     /^~/ {
       is_removal_only = (hasrem && !haskept)
       if (!is_removal_only) {
-        if (flag && path !~ /CONTRIBUTING\.md$/)
-          print path ":" newno ": absolute /docs link introduced in added content — use a relative ../path/file.mdx link"
+        if (targets && path !~ /CONTRIBUTING\.md$/)
+          print path ":" newno ": absolute link introduced: " targets " — use a relative ../path/file.mdx link"
         newno++
       }
       reset(); next
@@ -66,7 +73,10 @@ findings=$(
     {
       pfx = substr($0,1,1); tok = substr($0,2)
       if (pfx == "-")      { hasrem = 1 }
-      else if (pfx == "+") { haskept = 1; if (tok ~ /\]\(\/docs/) flag = 1 }
+      else if (pfx == "+") {
+        haskept = 1
+        if (tok ~ /\]\(\/docs[^)]*\)/) record_targets(tok)
+      }
       else                 { haskept = 1 }   # context token (leading space)
     }
   '
@@ -76,7 +86,7 @@ if [ -n "$findings" ]; then
   echo "$findings"
   echo ""
   echo "Fix: replace the absolute /docs/... link with a relative link ending in .mdx"
-  echo "(e.g. ../getting-started/setup.mdx). See docs/platforms/anchor-platform/CONTRIBUTING.md."
+  echo "(e.g. ../getting-started/setup.mdx). See CONTRIBUTING.md#links."
   exit 1
 fi
 

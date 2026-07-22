@@ -58,9 +58,25 @@ A husky pre-commit hook runs the prettier check; if it fails, run `pnpm format:m
 
 ### Links
 
-- **Internal links are relative file paths, including the `.mdx` extension**: `[fees](../../learn/fundamentals/fees-resource-limits-metering.mdx#inclusion-fee)`. Docusaurus resolves these at build time, so a broken path fails the build instead of shipping a 404.
-- Section index pages live at `parent/README.mdx` — if you're linking to a subsection's landing page, that's usually the file you want.
-- External links to other Stellar properties use `https://stellar.org/...` (no `www`).
+- **Link to internal documentation with a file path relative to the current document, including the `.mdx` extension.** Use `./` for a file in the same directory or `../` to move up directories:
+
+  ```md
+  [Set up your environment](./setup.mdx)
+
+  [Learn about inclusion fees](../../learn/fundamentals/fees-resource-limits-metering.mdx#inclusion-fee)
+  ```
+
+  Do not use a published route such as `/docs/learn/...`. Docusaurus validates relative source links at build time, so a broken path fails the build instead of shipping a 404. The pre-commit hook rejects new absolute `/docs` links.
+
+- Section index pages live at `parent/README.mdx`. Link to that file when the destination is a section's landing page.
+- Add an explicit ID to a heading that other pages link to, so editing the heading text does not break its inbound links:
+
+  ```md
+  ## Inclusion fee {#inclusion-fee}
+  ```
+
+- Put an external link's destination inline instead of defining it elsewhere in the file: `[SEP-10](https://stellar.org/protocol/sep-10)`. Links to other Stellar properties use `https://stellar.org/...` (no `www`).
+- Links in generated API reference pages are an exception: update them in their OpenAPI source descriptions, use the full canonical `https://...` URL, and run `pnpm api` to regenerate the pages.
 
 ### Page metadata
 
