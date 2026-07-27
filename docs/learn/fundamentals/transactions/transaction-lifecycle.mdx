@@ -3,54 +3,52 @@ title: Transaction Lifecycle
 sidebar_position: 30
 ---
 
-### 1. Creation (Transaction Creator)
+### 1. Create
 
-A user creates a transaction by setting the source account, sequence number, list of operations and their respective parameters, fee or fee-bump, and optionally a memo and/or preconditions.
+A user creates a transaction by setting its source account, sequence number, operations, fee, and any optional memo or preconditions.
 
-#### 1b. Transaction Simulation
+#### 1b. Simulate
 
-Smart contract transactions undergo transaction simulation, where the transaction is run in a simulated environment to check for errors and ensure it can be executed successfully. Read more in the [Transaction Simulation section](../contract-development/contract-interactions/transaction-simulation.mdx).
+Smart contract transactions are run in a simulated environment to check for errors and assemble the data they need to execute. Learn more about [simulation](../contract-development/contract-interactions/transaction-simulation.mdx).
 
-### 2. Signing (Transaction Signers)
+### 2. Sign
 
-Once the transaction is complete, it becomes a transaction envelope containing the transaction itself and a list of signers. All the required signatures must be collected and added to the transaction envelope’s list of signers. Commonly, it’s just the signature of the account doing the transaction, but more complicated setups can require collecting signatures from multiple parties. Read more about signatures in the [Signatures and Multisig section](./signatures-multisig.mdx).
+The completed transaction is wrapped in a transaction envelope that carries its signatures. A simple transaction often needs only its source account’s signature; a multisignature setup may require several. Learn more about [signatures and multisig](./signatures-multisig.mdx).
 
-### 3. Submitting (Transaction Submitter)
+### 3. Submit
 
-After signing, the transaction can now be submitted to the Stellar network. If the transaction is invalid, it will be rejected immediately by Stellar Core, the account’s sequence number will not be incremented, and no fee will be consumed from the source account. Only one transaction (and one sequence number) for the same account can be consumed per ledger. Transactions are typically submitted using Stellar RPC, but you can also submit the transaction directly to an instance of Stellar Core.
+The signed transaction is submitted to the Stellar network, typically through [Stellar RPC](../../../data/apis/rpc/README.mdx). Stellar Core immediately rejects an invalid transaction without consuming its source account’s sequence number or fee. A transaction can also be submitted directly to a Stellar Core node.
 
-### 4. Propagating (Validator)
+### 4. Propagate
 
-Once Stellar Core has determined that a transaction is valid, it will propagate the transaction to all other servers to which it’s connected. This way, a valid transaction is flooded to the entire Stellar network.
+After validating the transaction, Stellar Core floods it to connected peers, which relay it across the network.
 
-### 5. Crafting a candidate transaction set (Validator)
+### 5. Build a candidate set
 
-When it’s time to close the ledger, each Stellar Core validator takes all valid transactions it is aware of since the last ledger close and collects them into a candidate transaction set. If it hears about any incoming transactions now, it puts them aside for the next ledger close. If the number of operations in the candidate transaction set is greater than the maximum number of operations per ledger, transactions will be prioritized by their fee for inclusion in the set.
+When it is time to close a ledger, each validator collects the valid transactions it knows about into a candidate set encoded as [transaction-set XDR](https://github.com/stellar/stellar-xdr/blob/main/Stellar-ledger.x#L226-L245). Transactions arriving after construction begins wait for the next ledger. If demand exceeds a ledger limit, [surge pricing](../fees-resource-limits-metering.mdx#surge-pricing) prioritizes transactions for inclusion.
 
-### 6. Nominating a transaction set (Validator)
+### 6. Nominate
 
-Once each validator has crafted a candidate transaction set, the set is nominated to the network.
+Each validator nominates its candidate set through [SCP nomination](../stellar-consensus-protocol.mdx#nomination-protocol).
 
-### 7. Stellar Consensus Protocol (SCP) determines the final transaction set (Validator Network)
+### 7. Reach consensus
 
-SCP resolves any differences between candidate transaction sets and ultimately determines a single transaction set to apply, the close time of the ledger, and any upgrades to the protocol that need to be applied network-wide at the apply time.
+[SCP](../stellar-consensus-protocol.mdx) resolves differences among candidate sets and selects the transaction set, close time, and protocol upgrades for the ledger.
 
-If a transaction doesn’t make it into the transaction set, it is kept around in memory to be added to the next transaction set on a best-effort basis.
+Transactions omitted from the final set remain in each validator’s local queue for best-effort inclusion in a later ledger. Stellar Core ages queued transactions by source account ([queue policy](https://github.com/stellar/stellar-core/blob/master/src/herder/TransactionQueue.h#L50-L58)). After four ledger closes, it evicts and bans all queued transactions from that source account for 10 ledgers ([constants](https://github.com/stellar/stellar-core/blob/master/src/herder/HerderImpl.cpp#L62-L63)).
 
-If a transaction is kept in memory after a certain number of ledger closes, it will be banned for several additional ledgers. This means no attempt will be made to include it in a candidate transaction set additional ledgers during this time.
+### 8. Determine apply order
 
-### 8. Transaction apply order is determined (Validator Network)
+After SCP finalizes the transaction set, every validator derives the same apply order from the set’s hash. Stellar Core’s [`ApplyTxSorter`](https://github.com/stellar/stellar-core/blob/master/src/herder/TxSetFrame.cpp#L179-L195) orders transactions using their full hashes and the final transaction-set hash. This deterministic mixing makes relative order difficult to predict before the set is known. Transactions from the same source account still follow sequence-number order.
 
-Once SCP agrees on a particular transaction set, the apply order is computed for the transaction set. This shuffles the set's order to create uncertainty for competing transactions.
+### 9. Collect fees
 
-### 9. Fees are collected (Validator)
+Before executing transactions, Stellar Core processes fees and sequence numbers for the entire set in a single pass ([source](https://github.com/stellar/stellar-core/blob/master/src/ledger/LedgerManagerImpl.cpp#L2425-L2544)).
 
-Fees are collected for all transactions simultaneously.
+### 10. Apply transactions
 
-### 10. Application (Validator)
+Stellar Core applies each transaction in the computed order. It consumes the source account’s sequence number, rechecks validity, and runs the transaction’s operations in their specified order. If an operation fails, the entire transaction fails and any changes from its earlier operations are rolled back. Its fee and sequence number remain consumed.
 
-Each transaction is applied in the previously-determined order. For each transaction, the account’s sequence number is consumed (increased by 1), the transaction’s validity is rechecked, and each operation is applied in the order they occur in the transaction. Operations may fail at this stage due to errors that can occur outside of the transaction and operation validity checks. For example, an insufficient balance for a payment is not checked at submission and would fail at this time. The entire transaction will fail if any operation fails, and all previous operations will be rolled back.
+### 11. Apply upgrades
 
-### 11. Protocol Upgrades (Validator)
-
-Finally, upgrades are run if an upgrade took place. This can include arbitrary logic to upgrade the ledger state for protocol upgrades, along with ledger header modifications, including the protocol version, base fee, maximum number of operations per ledger, etc. Once this has been completed, the life cycle begins anew.
+Finally, Stellar Core applies any protocol upgrades selected by SCP. An upgrade can change ledger state or header values such as the protocol version, base fee, and operation limit. The lifecycle then begins again.
