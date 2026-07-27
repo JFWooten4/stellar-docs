@@ -261,12 +261,12 @@ Learn more about signers operations and key weight: [Signature and Multisignatur
 | Inflation Destination | account ID | Account of the inflation destination. |
 | Clear flags | integer | Indicates which [account](../stellar-data-structures/accounts.mdx) flags to clear. These account-level flags are primarily used by asset issuers. For details about the flags, please refer to the [Asset Design Considerations page](../../../tokens/control-asset-access.mdx). The bit mask integer subtracts from the existing flags of the account. This allows for setting specific bits without knowledge of existing flags. |
 | Set flags | integer | Indicates which [account](../stellar-data-structures/accounts.mdx) flags to set. These account-level flags are primarily used by asset issuers. For details about the flags, please refer to the [Asset Design Considerations page](../../../tokens/control-asset-access.mdx#controlling-access-to-an-asset-with-flags) The bit mask integer adds onto the existing flags of the account. This allows for setting specific bits without knowledge of existing flags. |
-| Master weight | integer | A number from 0-255 (inclusive) representing the weight of the master key. If the weight of the master key is updated to 0, it is effectively disabled. |
-| Low threshold | integer | A number from 0-255 (inclusive) representing the threshold this account sets on all operations it performs that have [a low threshold](../../fundamentals/transactions/signatures-multisig.mdx). |
-| Medium threshold | integer | A number from 0-255 (inclusive) representing the threshold this account sets on all operations it performs that have [a medium threshold](../../fundamentals/transactions/signatures-multisig.mdx). |
-| High threshold | integer | A number from 0-255 (inclusive) representing the threshold this account sets on all operations it performs that have [a high threshold](../../fundamentals/transactions/signatures-multisig.mdx). |
+| Master weight | integer | A number from 0–255 (inclusive) representing the weight of the master key. If the weight of the master key is updated to 0, it is effectively disabled. |
+| Low threshold | integer | A number from 0–255 (inclusive) representing the threshold this account sets on all operations it performs that have [a low threshold](../../fundamentals/transactions/signatures-multisig.mdx). |
+| Medium threshold | integer | A number from 0–255 (inclusive) representing the threshold this account sets on all operations it performs that have [a medium threshold](../../fundamentals/transactions/signatures-multisig.mdx). |
+| High threshold | integer | A number from 0–255 (inclusive) representing the threshold this account sets on all operations it performs that have [a high threshold](../../fundamentals/transactions/signatures-multisig.mdx). |
 | Home domain | string | Sets the home domain of an account. See [Federation](../../glossary.mdx#federation). |
-| Signer | \{Public Key, weight} | Add, update, or remove a signer from an account. Signer weight is a number from 0-255 (inclusive). The signer is deleted if the weight is 0. |
+| Signer | \{Public Key, weight} | Add, update, or remove a signer from an account. Signer weight is a number from 0–255 (inclusive). The signer is deleted if the weight is 0. |
 
 **Possible errors**:
 

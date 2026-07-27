@@ -167,7 +167,7 @@ An auth entry signature authorizes a specific invocation tree and includes:
 
 :::note[Signature expiration]
 
-Auth entry signatures expire based on ledger numbers, not timestamps. A typical offset is between 12 and 60 ledgers (approximately 1-5 minutes). The signature is valid until and including the `signatureExpirationLedger`, but invalid at `signatureExpirationLedger + 1`.
+Auth entry signatures expire based on ledger numbers, not timestamps. A typical offset is between 12 and 60 ledgers (approximately 1–5 minutes). The signature is valid until and including the `signatureExpirationLedger`, but invalid at `signatureExpirationLedger + 1`.
 
 Keep expiration windows as small as viable – shorter windows are safer and result in lower transaction costs.
 
