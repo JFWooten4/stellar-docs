@@ -240,7 +240,7 @@ export async function getContractId(signer: string) {
  * A wrapper function so it's easier for our client-side code to access the
  * `/api/fund/[address]` endpoint we have created.
  *
- * @param address - The contract address to fund on the Testnet
+ * @param address - The contract address to fund on Testnet
  */
 export async function fundContract(address: string) {
   return fetch(`/api/fund/${address}`).then(async (res) => {

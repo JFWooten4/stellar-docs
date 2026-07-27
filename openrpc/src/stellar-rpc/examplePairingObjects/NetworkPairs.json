@@ -1,7 +1,7 @@
 {
     "TestnetNetworkConfig": {
         "name": "Testnet Network Configuration",
-        "description": "Example request to the `getNetwork` method for a node connected to the Stellar Testnet network.",
+        "description": "Example request to the `getNetwork` method for a node connected to Stellar Testnet.",
         "params": [],
         "result": {
             "name": "getNetworkResult",
@@ -14,7 +14,7 @@
     },
     "FuturenetNetworkConfig": {
         "name": "Futurenet Network Configuration",
-        "description": "Example request to the `getNetwork` method for a node connected to the Stellar Futurenet network.",
+        "description": "Example request to the `getNetwork` method for a node connected to Stellar Futurenet.",
         "params": [],
         "result": {
             "name": "getNetworkResult",

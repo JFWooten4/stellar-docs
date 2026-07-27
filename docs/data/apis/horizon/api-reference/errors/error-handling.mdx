@@ -81,8 +81,8 @@ let transaction = new StellarSdk.TransactionBuilder(account, { fee })
   .build();
 
 // Sign this transaction with the secret key
-// NOTE: signing is transaction is network specific. Test network transactions
-// won't work in the public network. To switch networks, use the Network object
+// NOTE: signing a transaction is network-specific. Testnet transactions
+// won't work on Mainnet. To switch networks, use the Network object
 // as explained above (look for StellarSdk.Network).
 let sourceKeypair = StellarSdk.Keypair.fromSecret(sourceSecretKey);
 transaction.sign(sourceKeypair);

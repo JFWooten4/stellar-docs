@@ -7,7 +7,7 @@ sidebar_position: 70
 
 # Issue an Asset Tutorial
 
-In this tutorial, we will walk through the steps to issue an asset on the Stellar test network.
+In this tutorial, we will walk through the steps to issue an asset on Stellar Testnet.
 
 :::note
 
@@ -574,9 +574,9 @@ server
 from stellar_sdk import Asset, Keypair, Network, Server, TransactionBuilder
 
 # Configure Stellar SDK to talk to the Horizon instance hosted by SDF
-# To use the live network, set the hostname to horizon_url for mainnet
+# To use Mainnet, set the hostname to horizon_url for Mainnet.
 server = Server(horizon_url="https://horizon-testnet.stellar.org")
-# Use test network, if you need to use public network, please set it to `Network.PUBLIC_NETWORK_PASSPHRASE`
+# Use Testnet. To use Mainnet, set this to `Network.PUBLIC_NETWORK_PASSPHRASE`.
 network_passphrase = Network.TESTNET_NETWORK_PASSPHRASE
 
 # Keys for accounts to issue and receive the new asset

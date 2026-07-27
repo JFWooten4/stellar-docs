@@ -373,11 +373,11 @@ This ABI can also be generated as a typescript library to ease development in yo
 
 Now that we have our basic UI components in place, let's integrate them with the Stellar blockchain using the Stellar SDK. It is imperative to know that the Stellar blockchain has three major networks:
 
-- Public network (also called Mainnet): This is the main Stellar network where real transactions take place.
-- Test network: This is a test environment for developers to test their applications without using real lumens.
-- Futurenet network: This is a network for testing new features before they are deployed to the public network.
+- Mainnet (also called the Public Network): This is the Stellar network where real transactions take place.
+- Testnet: This is a test environment for developers to test their applications without using real lumens.
+- Futurenet: This is a network for testing new features before they are deployed to Mainnet.
 
-For this guide, we'll be using the Test network to avoid using real lumens during development. Read more about the [Stellar networks here](../../../networks/README.mdx).
+For this guide, we'll be using Testnet to avoid using real lumens during development. Read more about the [Stellar networks here](../../../networks/README.mdx).
 
 ### Setting up the Stellar SDK
 
@@ -398,7 +398,7 @@ const transaction = new StellarSdk.TransactionBuilder(account, {
 
 In the above snippet, we import the Stellar SDK and create a server instance for the Stellar Testnet.
 
-We also create a transaction builder instance with the appropriate network passphrase. The `BASE_FEE` is the minimum fee required for a transaction on the Stellar network. while the `Networks.TESTNET` is the network passphrase for the Stellar Testnet. When using the public network, you can replace `TESTNET` with `PUBLIC` or `FUTURENET` for the Futurenet network.
+We also create a transaction builder instance with the appropriate network passphrase. The `BASE_FEE` is the minimum fee required for a transaction on the Stellar network, while `Networks.TESTNET` is the network passphrase for Stellar Testnet. When using Mainnet, you can replace `TESTNET` with `PUBLIC`, or use `FUTURENET` for Futurenet.
 
 ### Interacting with the Stellar network
 

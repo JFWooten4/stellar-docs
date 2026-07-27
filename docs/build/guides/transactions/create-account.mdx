@@ -6,7 +6,7 @@ description: Learn about creating Stellar accounts, keypairs, funding, and accou
 
 # Create an Account
 
-_Before we get started with working with Stellar in code, consider going through the following examples using the [Stellar Lab](https://lab.stellar.org). The lab allows you to create accounts, fund accounts on the Stellar test network, build transactions, run any operation, and inspect responses from Horizon via the Endpoint Explorer._
+_Before we get started with working with Stellar in code, consider going through the following examples using the [Stellar Lab](https://lab.stellar.org). The lab allows you to create accounts, fund accounts on Testnet, build transactions, run any operation, and inspect responses from Horizon via the Endpoint Explorer._
 
 [Accounts](../../../learn/fundamentals/stellar-data-structures/accounts.mdx) are a fundamental building block of Stellar: they hold all your balances, allow you to send and receive payments, and let you place offers to buy and sell assets. Since pretty much everything on Stellar is in some way tied to an account, the first thing you generally need to do when you start developing is create one. This beginner-level tutorial walks through the three building blocks you'll need: [generating keys](#create-a-keypair), [funding an account](#create-an-account), and [fetching balances](#fetch-balances).
 
@@ -22,9 +22,9 @@ A valid keypair alone does not make an account. To prevent unused entries from b
 
 Alternatively, an account can be created with a `startingBalance` of `0` when another account sponsors its reserves ([CAP-33](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0033.md) sponsored reserves): the sponsor carries the two base reserves on the new account's behalf, so the account exists without holding the minimum balance itself. See the [Sponsored Reserves guide](sponsored-reserves.mdx) for how to set this up.
 
-On the test network you can ask Friendbot — a friendly funding service — to create and fund the account for you. In the SDK examples, below, you'll see that we "discover" the Friendbot endpoint via the RPC's `getNetwork` call, then issue a funding request.
+On Testnet you can ask Friendbot — a friendly funding service — to create and fund the account for you. In the SDK examples, below, you'll see that we "discover" the Friendbot endpoint via the RPC's `getNetwork` call, then issue a funding request.
 
-On the public network, things are a little different. You'd acquire lumens from an exchange or have someone create or sponsor an account on your behalf. This is the purpose of the [`CreateAccount` operation](../../../learn/fundamentals/transactions/list-of-operations.mdx#create-account). We'll see in the examples, later, that given a funded account, you can then create a child account on the network with a starting balance.
+On Mainnet, things are a little different. You'd acquire lumens from an exchange or have someone create or sponsor an account on your behalf. This is the purpose of the [`CreateAccount` operation](../../../learn/fundamentals/transactions/list-of-operations.mdx#create-account). We'll see in the examples, later, that given a funded account, you can then create a child account on the network with a starting balance.
 
 ## Fetch Balances
 

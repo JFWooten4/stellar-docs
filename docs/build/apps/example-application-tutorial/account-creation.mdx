@@ -176,7 +176,7 @@ const setupKeyManager = () => {
 After we've registered the user, we need to fund the account on the Stellar network. As discussed previously, there are multiple ways to accomplish this task, but we are using Friendbot to ensure the user has some Testnet XLM to experiment with.
 
 ```js title="/src/lib/stellar/horizonQueries.js"
-// Fund an account using the Friendbot utility on the Testnet.
+// Fund an account using the Friendbot utility on Testnet.
 export async function fundWithFriendbot(publicKey) {
   console.log(`i am requesting a friendbot funding for ${publicKey}`);
   await server.friendbot(publicKey).call();

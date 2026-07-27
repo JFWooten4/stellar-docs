@@ -7,9 +7,9 @@ description: "Explore the different networks, including Mainnet, Testnet, and Fu
 
 # Networks
 
-Stellar has three networks: the public network (Mainnet, also called Pubnet or the Public Network), the test network (Testnet), and a dev network (Futurenet).
+Stellar has three networks: Mainnet (also called Pubnet or the Public Network), Testnet, and Futurenet.
 
-- **Mainnet** is the main network used by applications in production. It connects to real financial rails and requires XLM to cover minimum balances, transaction fees, and rent.
+- **Mainnet** is the network used by applications in production. It connects to real financial rails and requires XLM to cover minimum balances, transaction fees, and rent.
 - **Testnet** is a smaller, free-to-use network maintained by SDF that functions like Mainnet but doesn't connect to real money. It resets on a regular cadence, making it the best place for developers to test applications in a stable environment that mirrors Mainnet functionality.
 - **Futurenet** is a dev network for testing bleeding-edge features. It resets whenever necessary, so it's less predictable than Testnet, but it's where new features are introduced before stable releases.
 
@@ -71,7 +71,7 @@ Check out [this How-To Guide](../build/guides/basics/automate-reset-data.mdx) on
 
 ## Test data automation
 
-It is recommended that you have testing infrastructure that can repopulate the Testnet and Futurenet with useful data after a reset. This will make testing more reliable and will help you scale your testing infrastructure to a private network if you choose to do so. For example, you may want to:
+It is recommended that you have testing infrastructure that can repopulate Testnet and Futurenet with useful data after a reset. This will make testing more reliable and will help you scale your testing infrastructure to a private network if you choose to do so. For example, you may want to:
 
 - Generate issuers of assets for testing the development of a wallet;
 - Generate orders on the order book (both current and historical) for testing the development of a trading client;
@@ -115,7 +115,7 @@ The IDs for the Stellar Mainnet, Testnet, and Futurenet are:
 - Creating test accounts (with funding from Friendbot);
 - Developing applications and contracts and exploring tutorials on Stellar without the potential to lose any assets;
 - Testing existing applications against new releases or release candidates of Stellar Core, Horizon, and the Stellar RPC;
-- Performing data analysis on a smaller, non-trivial data set compared to the Mainnet.
+- Performing data analysis on a smaller, non-trivial data set compared to Mainnet.
 
 ### Testnet and Futurenet are bad for
 
@@ -124,7 +124,7 @@ The IDs for the Stellar Mainnet, Testnet, and Futurenet are:
 - Long-term storage of data on the network since the network resets periodically;
 - A testing infrastructure that requires more control over the test environment, such as:
   - The ability to control the data reset frequency;
-  - The need to secure private or sensitive data (before launching on the Mainnet). You can always run your own test network for use cases that don’t work well with SDF’s Testnet.
+  - The need to secure private or sensitive data (before launching on Mainnet). You can always run your own test network for use cases that don’t work well with SDF’s Testnet.
 
 ## Moving your project from Testnet or Futurenet to production
 
@@ -134,4 +134,4 @@ See above sections for the network passphrase for each network.
 
 For applications that don’t rely on the state of the network (such as specific accounts needing to exist), you move to production by changing the network passphrase and ensuring your Horizon instance is connected to Mainnet.
 
-If you’ve been running a Stellar Core or Horizon instance against the Testnet and want to switch to production, changing the passphrase will require both respective databases to be completely reinitialized. If you run your own RPC on Testnet or Futurenet, you may want to use an RPC service when you move to Mainnet. Check out the RPC service providers [here](../data/apis/rpc/providers.mdx).
+If you’ve been running a Stellar Core or Horizon instance against Testnet and want to switch to production, changing the passphrase will require both respective databases to be completely reinitialized. If you run your own RPC on Testnet or Futurenet, you may want to use an RPC service when you move to Mainnet. Check out the RPC service providers [here](../data/apis/rpc/providers.mdx).

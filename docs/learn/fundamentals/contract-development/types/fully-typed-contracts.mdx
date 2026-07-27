@@ -33,7 +33,7 @@ So that's what Stellar CLI gives you.
 
 A unique CLI for each smart contract. Constructed on-the-fly, right from the on-chain interface types. Including the author's comments. An _implicit CLI_.
 
-For example, calling the native asset contract on the Test network:
+For example, calling the native asset contract on Testnet:
 
 ```bash
 $ stellar contract invoke --network testnet --id CDLZFC3SYJYDZT7K67VZ75HPJVIEUVNIXF47ZG2FB2RMQQVU2HHGCYSC -- --help
@@ -87,7 +87,7 @@ const xlm = contract.Client.from({
 });
 ```
 
-Like the CLI, this will fetch the contract from the live network and parse the contract's types/spec. It will auto-generate a class that allows you to ergonomically call the contract's methods:
+Like the CLI, this will fetch the contract from Testnet and parse the contract's types/spec. It will auto-generate a class that allows you to ergonomically call the contract's methods:
 
 ```js
 xlm.balance({ id: "G123…" });

@@ -140,13 +140,13 @@ const services = {
         {
           name: "Testnet",
           url: "https://soroban-testnet.stellar.org:443",
-          summary: "Publicly available RPC server maintained by SDF, operating on the Testnet test network.",
+          summary: "Publicly available RPC server maintained by SDF, operating on Testnet.",
           description: "Testnet is meant to be a stable network that runs a production (or near-production) version of the Stellar network."
         },
         {
           name: "Futurenet",
           url: "https://rpc-futurenet.stellar.org:443",
-          summary: "Publicly available RPC server maintained by SDF, operating on the Futurenet test network.",
+          summary: "Publicly available RPC server maintained by SDF, operating on Futurenet.",
           description: "Futurenet is meant to be a bleeding-edge, experimental network that runs an early, test version of the Stellar network."
         }
       ],
