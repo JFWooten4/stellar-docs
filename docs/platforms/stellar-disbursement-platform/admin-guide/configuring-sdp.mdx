@@ -32,25 +32,25 @@ For the most up-to-date configuration, you can run the following command in the 
 
 Operational Configuration allows controlling metrics, logging, and other operational aspects of the SDP Core Service.
 
-- `PORT` - The port on which the SDP Core Service will listen for incoming HTTP requests. Default: 8000.
-- `LOG_LEVEL` - Determines the verbosity level of logs. Options: "TRACE", "DEBUG", "INFO", "WARN", "ERROR", "FATAL", or "PANIC". Default: "TRACE".
-- `METRICS_PORT` - The port on which the SDP Core Service will expose its metrics. Default: 8002.
-- `METRICS_TYPE` - The type of metrics to expose. Options: "PROMETHEUS". Default: "PROMETHEUS".
-- `CRASH_TRACKER_TYPE` - The crash tracker type to use. Options: "SENTRY", "DRY_RUN". Default: "DRY_RUN".
-- `SENTRY_DSN` - 🔑 The DSN (client key) of the Sentry project. If not provided, Sentry will not be used.
-- `ENVIRONMENT` - The environment where the application is running. Example: "development", "staging", "production". Default: "development".
-- `BASE_URL` - The SDP backend server's base URL. Default: "http://localhost:8000". Tenant-specific URLs will be configured during the [tenant provisioning process](./advanced-configuration#provisioning-tenants).
-- `SDP_UI_BASE_URL` - The SDP UI/dashboard Base URL used to send the invitation link when a new user is created. Tenant-specific URLs will be configured during the [tenant provisioning process](./advanced-configuration#provisioning-tenants).
+- `PORT`: The port on which the SDP Core Service will listen for incoming HTTP requests. Default: 8000.
+- `LOG_LEVEL`: Determines the verbosity level of logs. Options: "TRACE", "DEBUG", "INFO", "WARN", "ERROR", "FATAL", or "PANIC". Default: "TRACE".
+- `METRICS_PORT`: The port on which the SDP Core Service will expose its metrics. Default: 8002.
+- `METRICS_TYPE`: The type of metrics to expose. Options: "PROMETHEUS". Default: "PROMETHEUS".
+- `CRASH_TRACKER_TYPE`: The crash tracker type to use. Options: "SENTRY", "DRY_RUN". Default: "DRY_RUN".
+- `SENTRY_DSN`: 🔑 The DSN (client key) of the Sentry project. If not provided, Sentry will not be used.
+- `ENVIRONMENT`: The environment where the application is running. Example: "development", "staging", "production". Default: "development".
+- `BASE_URL`: The SDP backend server's base URL. Default: "http://localhost:8000". Tenant-specific URLs will be configured during the [tenant provisioning process](./advanced-configuration#provisioning-tenants).
+- `SDP_UI_BASE_URL`: The SDP UI/dashboard Base URL used to send the invitation link when a new user is created. Tenant-specific URLs will be configured during the [tenant provisioning process](./advanced-configuration#provisioning-tenants).
 
 ### Database Configuration
 
 The following configurations are related to the PostgreSQL database used by the SDP Core Service.
 
-- `DATABASE_URL` - 🔑 The connection string for the PostgreSQL database. Format is `postgres://username:password@host:port/database?sslmode=disable`. Default: "postgres://localhost:5432/sdp?sslmode=disable".
-- `DB_MAX_OPEN_CONNS` - Maximum open connections per pool to the database. Default: 20.
-- `DB_MAX_IDLE_CONNS` - Maximum idle connections retained in the pool. Default: 2.
-- `DB_CONN_MAX_IDLE_TIME_SECONDS` - Close idle connections after N seconds. Default: 10.
-- `DB_CONN_MAX_LIFETIME_SECONDS` - Recycle connections after N seconds. Default: 300.
+- `DATABASE_URL`: 🔑 The connection string for the PostgreSQL database. Format is `postgres://username:password@host:port/database?sslmode=disable`. Default: "postgres://localhost:5432/sdp?sslmode=disable".
+- `DB_MAX_OPEN_CONNS`: Maximum open connections per pool to the database. Default: 20.
+- `DB_MAX_IDLE_CONNS`: Maximum idle connections retained in the pool. Default: 2.
+- `DB_CONN_MAX_IDLE_TIME_SECONDS`: Close idle connections after N seconds. Default: 10.
+- `DB_CONN_MAX_LIFETIME_SECONDS`: Recycle connections after N seconds. Default: 300.
 
 ### Messaging Configuration
 
@@ -63,86 +63,86 @@ Messaging Configuration allows configuring the messaging service used to send me
 
 The following configurations are required when using AWS SES or SNS to send emails or SMS messages.
 
-- `AWS_ACCESS_KEY_ID` - 🔑 The AWS access key ID.
-- `AWS_REGION` - The AWS region where the SES service is available.
-- `AWS_SECRET_ACCESS_KEY` - 🔑 The AWS secret access key.
-- `AWS_SES_SENDER_ID` - The email that AWS SES will use as the sender when sending emails. Required when `EMAIL_SENDER_TYPE` is set to "AWS_EMAIL".
-- `AWS_SNS_SENDER_ID` - The sender ID to use when sending SMS messages using AWS SNS. Required when `SMS_SENDER_TYPE` is set to "AWS_SMS".
+- `AWS_ACCESS_KEY_ID`: 🔑 The AWS access key ID.
+- `AWS_REGION`: The AWS region where the SES service is available.
+- `AWS_SECRET_ACCESS_KEY`: 🔑 The AWS secret access key.
+- `AWS_SES_SENDER_ID`: The email that AWS SES will use as the sender when sending emails. Required when `EMAIL_SENDER_TYPE` is set to "AWS_EMAIL".
+- `AWS_SNS_SENDER_ID`: The sender ID to use when sending SMS messages using AWS SNS. Required when `SMS_SENDER_TYPE` is set to "AWS_SMS".
 
 #### Twilio Configuration
 
 The following configurations are required when `SMS_SENDER_TYPE=TWILIO_SMS`.
 
-- `TWILIO_ACCOUNT_SID` - 🔑 The Twilio account SID.
-- `TWILIO_AUTH_TOKEN` - 🔑 The Twilio auth token.
-- `TWILIO_SERVICE_SID` - The Twilio service SID.
+- `TWILIO_ACCOUNT_SID`: 🔑 The Twilio account SID.
+- `TWILIO_AUTH_TOKEN`: 🔑 The Twilio auth token.
+- `TWILIO_SERVICE_SID`: The Twilio service SID.
 
 The following configurations are required when `SMS_SENDER_TYPE=TWILIO_WHATSAPP`.
 
-- `TWILIO_ACCOUNT_SID` - 🔑 The Twilio account SID.
-- `TWILIO_AUTH_TOKEN` - 🔑 The Twilio auth token.
-- `TWILIO_SERVICE_SID` - The Twilio service SID.
-- `TWILIO_WHATSAPP_FROM_NUMBER` - The WhatsApp Business number used to send messages (with whatsapp: prefix).
-- `TWILIO_WHATSAPP_RECEIVER_INVITATION_TEMPLATE_SID` - The Twilio Content SID for WhatsApp receiver invitation template (starts with HX).
-- `TWILIO_WHATSAPP_RECEIVER_OTP_TEMPLATE_SID` - The Twilio Content SID for WhatsApp receiver OTP template (starts with HX).
+- `TWILIO_ACCOUNT_SID`: 🔑 The Twilio account SID.
+- `TWILIO_AUTH_TOKEN`: 🔑 The Twilio auth token.
+- `TWILIO_SERVICE_SID`: The Twilio service SID.
+- `TWILIO_WHATSAPP_FROM_NUMBER`: The WhatsApp Business number used to send messages (with whatsapp: prefix).
+- `TWILIO_WHATSAPP_RECEIVER_INVITATION_TEMPLATE_SID`: The Twilio Content SID for WhatsApp receiver invitation template (starts with HX).
+- `TWILIO_WHATSAPP_RECEIVER_OTP_TEMPLATE_SID`: The Twilio Content SID for WhatsApp receiver OTP template (starts with HX).
 
 The following configurations are required when `EMAIL_SENDER_TYPE=TWILIO_EMAIL`.
 
-- `TWILIO_SENDGRID_API_KEY` - 🔑 The API key for the Twilio SendGrid (email) service.
-- `TWILIO_SENDGRID_SENDER_ADDRESS` - The email address used to send emails via Twilio SendGrid.
+- `TWILIO_SENDGRID_API_KEY`: 🔑 The API key for the Twilio SendGrid (email) service.
+- `TWILIO_SENDGRID_SENDER_ADDRESS`: The email address used to send emails via Twilio SendGrid.
 
 #### General Messaging Configuration
 
-- `MAX_INVITATION_RESEND_ATTEMPTS` - The maximum number of attempts to (auto) resend the invitation to the Receiver Wallets. Default: 3.
+- `MAX_INVITATION_RESEND_ATTEMPTS`: The maximum number of attempts to (auto) resend the invitation to the Receiver Wallets. Default: 3.
 
 ### Stellar Configuration
 
 Stellar Configuration allows configuring accounts, transactions, and other Stellar-related settings.
 
-- `NETWORK_PASSPHRASE` - The Stellar network passphrase. Default "Test SDF Network ; September 2015".
-- `HORIZON_URL` - The URL of the Horizon server to use for submitting transactions. Default "https://horizon-testnet.stellar.org/".
-- `SEP10_SIGNING_PUBLIC_KEY` - The public key of the Stellar account that signs the SEP-10 transactions. It's also used to sign URLs.
-- `SEP10_SIGNING_PRIVATE_KEY` - 🔑 The private key of the Stellar account that signs the SEP-10 transactions. It's also used to sign URLs.
-- `MAX_BASE_FEE` - The max base fee for submitting a Stellar transaction. Default: 10000.
-- `SEP10_CLIENT_ATTRIBUTION_REQUIRED` - Determines if the SEP-10 client attribution is required. Default: true.
+- `NETWORK_PASSPHRASE`: The Stellar network passphrase. Default "Test SDF Network ; September 2015".
+- `HORIZON_URL`: The URL of the Horizon server to use for submitting transactions. Default "https://horizon-testnet.stellar.org/".
+- `SEP10_SIGNING_PUBLIC_KEY`: The public key of the Stellar account that signs the SEP-10 transactions. It's also used to sign URLs.
+- `SEP10_SIGNING_PRIVATE_KEY`: 🔑 The private key of the Stellar account that signs the SEP-10 transactions. It's also used to sign URLs.
+- `MAX_BASE_FEE`: The max base fee for submitting a Stellar transaction. Default: 10000.
+- `SEP10_CLIENT_ATTRIBUTION_REQUIRED`: Determines if the SEP-10 client attribution is required. Default: true.
 
 #### Channel Accounts Configuration
 
 The following configuration is required for using the [channel-accounts CLI](./cli-manual#channel-accounts-command) to manage channel accounts.
 
-- `CHANNEL_ACCOUNT_ENCRYPTION_PASSPHRASE` - 🔑 A Stellar ed25519 secret key (starting with `S`) used to encrypt/decrypt the channel accounts' private keys. When not set, it will default to the value of `DISTRIBUTION_SEED`.
+- `CHANNEL_ACCOUNT_ENCRYPTION_PASSPHRASE`: 🔑 A Stellar ed25519 secret key (starting with `S`) used to encrypt/decrypt the channel accounts' private keys. When not set, it will default to the value of `DISTRIBUTION_SEED`.
 
 #### Distribution Accounts Configuration
 
 The following configurations are related to the distribution accounts used to send funds to recipients. This configuration should match the configuration in the SDP Core Service.
 
-- `DISTRIBUTION_ACCOUNT_ENCRYPTION_PASSPHRASE` - 🔑 A Stellar ed25519 secret key (starting with `S`) used to encrypt/decrypt the in-memory distribution accounts' private keys.
-- `DISTRIBUTION_PUBLIC_KEY` - The public key of the HOST's Stellar distribution account. Used to disburse funds, create channel accounts and tenant distribution accounts.
-- `DISTRIBUTION_SEED` - 🔑 The private key of the HOST's Stellar distribution account. Used to disburse funds, create channel accounts and tenant distribution accounts.
+- `DISTRIBUTION_ACCOUNT_ENCRYPTION_PASSPHRASE`: 🔑 A Stellar ed25519 secret key (starting with `S`) used to encrypt/decrypt the in-memory distribution accounts' private keys.
+- `DISTRIBUTION_PUBLIC_KEY`: The public key of the HOST's Stellar distribution account. Used to disburse funds, create channel accounts and tenant distribution accounts.
+- `DISTRIBUTION_SEED`: 🔑 The private key of the HOST's Stellar distribution account. Used to disburse funds, create channel accounts and tenant distribution accounts.
 
 ### Security Configuration
 
 Security Configuration allows configuring the security aspects of the SDP Core Service.
 
-- `CORS_ALLOWED_ORIGINS` - Specifies the domains allowed to make cross-origin requests. "_" means all domains are allowed. Domains can contain wildcards, e.g., "https://_.example.com".
-- `SEP24_JWT_SECRET` - 🔑 The secret used to sign the JWT token for SEP-24 transactions. This secret is used during the receiver wallet registration flow.
+- `CORS_ALLOWED_ORIGINS`: Specifies the domains allowed to make cross-origin requests. "_" means all domains are allowed. Domains can contain wildcards, e.g., "https://_.example.com".
+- `SEP24_JWT_SECRET`: 🔑 The secret used to sign the JWT token for SEP-24 transactions. This secret is used during the receiver wallet registration flow.
 
 #### Dashboard Authentication Configuration
 
 The following configurations are related to dashboard user authentication and authorization.
 
-- `RESET_TOKEN_EXPIRATION_HOURS` - The expiration time in hours of the Reset Password Token. Default: 24 (hours).
-- `EC256_PUBLIC_KEY` - The EC256 Public Key used to validate the token signature. This EC key needs to be at least as strong as prime256v1 (P-256).
-- `EC256_PRIVATE_KEY` - 🔑 The EC256 Private Key used to sign the authentication token. This EC key needs to be at least as strong as prime256v1 (P-256).
-- `DISABLE_MFA` - Disables Multi-Factor Authentication (MFA) for the SDP dashboard users.
-- `DISABLE_RECAPTCHA` - Disables Google reCAPTCHA v2 for the SDP dashboard users. This flag doesn't affect the reCAPTCHA used during the SEP-24 flow.
+- `RESET_TOKEN_EXPIRATION_HOURS`: The expiration time in hours of the Reset Password Token. Default: 24 (hours).
+- `EC256_PUBLIC_KEY`: The EC256 Public Key used to validate the token signature. This EC key needs to be at least as strong as prime256v1 (P-256).
+- `EC256_PRIVATE_KEY`: 🔑 The EC256 Private Key used to sign the authentication token. This EC key needs to be at least as strong as prime256v1 (P-256).
+- `DISABLE_MFA`: Disables Multi-Factor Authentication (MFA) for the SDP dashboard users.
+- `DISABLE_RECAPTCHA`: Disables Google reCAPTCHA v2 for the SDP dashboard users. This flag doesn't affect the reCAPTCHA used during the SEP-24 flow.
 
 #### Recaptcha Configuration
 
 The following configurations are required when using Google reCAPTCHA v2 to protect the SDP Core Service from bots. ReCaptcha is used both for dashboard users and receivers of funds during the SEP-24 flow.
 
-- `RECAPTCHA_SITE_KEY` - The Google reCAPTCHA v2 - I'm not a robot site key.
-- `RECAPTCHA_SITE_SECRET_KEY` - 🔑 The reCAPTCHA site secret key used to validate reCAPTCHA responses.
+- `RECAPTCHA_SITE_KEY`: The Google reCAPTCHA v2 - I'm not a robot site key.
+- `RECAPTCHA_SITE_SECRET_KEY`: 🔑 The reCAPTCHA site secret key used to validate reCAPTCHA responses.
 
 ### Background Jobs Configuration
 
@@ -162,9 +162,9 @@ The following configurations are required when using Google reCAPTCHA v2 to prot
 
 The following configurations are required when using the Bridge Integration.
 
-- `ENABLE_BRIDGE_INTEGRATION` - Determines if the bridge integration is enabled.
-- `BRIDGE_BASE_URL` - The base URL of the bridge API. Default: `"https://api.bridge.xyz"`.
-- `BRIDGE_API_KEY` - 🔑 The API key for the bridge integration. Required if `ENABLE_BRIDGE_INTEGRATION` is set to true.
+- `ENABLE_BRIDGE_INTEGRATION`: Determines if the bridge integration is enabled.
+- `BRIDGE_BASE_URL`: The base URL of the bridge API. Default: `"https://api.bridge.xyz"`.
+- `BRIDGE_API_KEY`: 🔑 The API key for the bridge integration. Required if `ENABLE_BRIDGE_INTEGRATION` is set to true.
 
 ## Transaction Submission Service (TSS)
 
@@ -180,51 +180,51 @@ For the most up-to-date configuration, you can run the following command in the 
 
 ### General Configuration
 
-- `QUEUE_POLLING_INTERVAL` - Polling interval (seconds) to query the database for pending transactions to process. Default: 6.
+- `QUEUE_POLLING_INTERVAL`: Polling interval (seconds) to query the database for pending transactions to process. Default: 6.
 
 ### Operational Configuration
 
 Operational Configuration allows controlling metrics, logging, and other operational aspects of the Transaction Submission Servic (TSS)
 
-- `LOG_LEVEL` - Determines the verbosity level of logs. Options: "TRACE", "DEBUG", "INFO", "WARN", "ERROR", "FATAL", or "PANIC". Default: "TRACE".
-- `TSS_METRICS_PORT` - The port on which the TSS will expose its metrics. Default: 9002.
-- `TSS_METRICS_TYPE` - The type of metrics to expose. Options: "PROMETHEUS". Default: "PROMETHEUS".
-- `CRASH_TRACKER_TYPE` - The crash tracker type to use. Options: "SENTRY", "DRY_RUN". Default: "DRY_RUN".
-- `SENTRY_DSN` - 🔑 The DSN (client key) of the Sentry project. If not provided, Sentry will not be used.
-- `ENVIRONMENT` - The environment where the application is running. Example: "development", "staging", "production". Default: "development".
+- `LOG_LEVEL`: Determines the verbosity level of logs. Options: "TRACE", "DEBUG", "INFO", "WARN", "ERROR", "FATAL", or "PANIC". Default: "TRACE".
+- `TSS_METRICS_PORT`: The port on which the TSS will expose its metrics. Default: 9002.
+- `TSS_METRICS_TYPE`: The type of metrics to expose. Options: "PROMETHEUS". Default: "PROMETHEUS".
+- `CRASH_TRACKER_TYPE`: The crash tracker type to use. Options: "SENTRY", "DRY_RUN". Default: "DRY_RUN".
+- `SENTRY_DSN`: 🔑 The DSN (client key) of the Sentry project. If not provided, Sentry will not be used.
+- `ENVIRONMENT`: The environment where the application is running. Example: "development", "staging", "production". Default: "development".
 
 ### Database Configuration
 
 The following configurations are related to the PostgreSQL database used by the SDP Core Service.
 
-- `DATABASE_URL` - 🔑 The connection string for the PostgreSQL database. Format is `postgres://username:password@host:port/database?sslmode=disable`. Default: "postgres://localhost:5432/sdp?sslmode=disable".
-- `DB_MAX_OPEN_CONNS` - Maximum open connections per pool to the database. Default: 20.
-- `DB_MAX_IDLE_CONNS` - Maximum idle connections retained in the pool. Default: 2.
-- `DB_CONN_MAX_IDLE_TIME_SECONDS` - Close idle connections after N seconds. Default: 10.
-- `DB_CONN_MAX_LIFETIME_SECONDS` - Recycle connections after N seconds. Default: 300.
+- `DATABASE_URL`: 🔑 The connection string for the PostgreSQL database. Format is `postgres://username:password@host:port/database?sslmode=disable`. Default: "postgres://localhost:5432/sdp?sslmode=disable".
+- `DB_MAX_OPEN_CONNS`: Maximum open connections per pool to the database. Default: 20.
+- `DB_MAX_IDLE_CONNS`: Maximum idle connections retained in the pool. Default: 2.
+- `DB_CONN_MAX_IDLE_TIME_SECONDS`: Close idle connections after N seconds. Default: 10.
+- `DB_CONN_MAX_LIFETIME_SECONDS`: Recycle connections after N seconds. Default: 300.
 
 ### Stellar Configuration
 
 Stellar Configuration allows configuring accounts, transactions, and other Stellar-related settings.
 
-- `NETWORK_PASSPHRASE` - The Stellar network passphrase. Default "Test SDF Network ; September 2015".
-- `HORIZON_URL` - The URL of the Horizon server to use for submitting transactions. Default "https://horizon-testnet.stellar.org/".
-- `MAX_BASE_FEE` - The max base fee for submitting a Stellar transaction. Default: 10000.
+- `NETWORK_PASSPHRASE`: The Stellar network passphrase. Default "Test SDF Network ; September 2015".
+- `HORIZON_URL`: The URL of the Horizon server to use for submitting transactions. Default "https://horizon-testnet.stellar.org/".
+- `MAX_BASE_FEE`: The max base fee for submitting a Stellar transaction. Default: 10000.
 
 #### Channel Accounts Configuration
 
 The following configurations are required for using channel accounts to submit transactions to the Stellar network.
 
-- `NUM_CHANNEL_ACCOUNTS` - Number of channel accounts to utilize for transaction submission. Default: 2.
-- `CHANNEL_ACCOUNT_ENCRYPTION_PASSPHRASE` - 🔑 A Stellar ed25519 secret key (starting with `S`) used to encrypt/decrypt the channel accounts' private keys. When not set, it will default to the value of the 'DISTRIBUTION_SEED' option.
+- `NUM_CHANNEL_ACCOUNTS`: Number of channel accounts to utilize for transaction submission. Default: 2.
+- `CHANNEL_ACCOUNT_ENCRYPTION_PASSPHRASE`: 🔑 A Stellar ed25519 secret key (starting with `S`) used to encrypt/decrypt the channel accounts' private keys. When not set, it will default to the value of the 'DISTRIBUTION_SEED' option.
 
 #### Distribution Accounts Configuration
 
 The following configurations are related to the distribution accounts used to send funds to recipients. This configuration should match the configuration in the SDP Core Service.
 
-- `DISTRIBUTION_ACCOUNT_ENCRYPTION_PASSPHRASE` - 🔑 A Stellar ed25519 secret key (starting with `S`) used to encrypt/decrypt the in-memory distribution accounts' private keys.
-- `DISTRIBUTION_PUBLIC_KEY` - The public key of the HOST's Stellar distribution account. Used to disburse funds, create channel accounts and tenant distribution accounts.
-- `DISTRIBUTION_SEED` - 🔑 The private key of the HOST's Stellar distribution account. Used to disburse funds, create channel accounts and tenant distribution accounts.
+- `DISTRIBUTION_ACCOUNT_ENCRYPTION_PASSPHRASE`: 🔑 A Stellar ed25519 secret key (starting with `S`) used to encrypt/decrypt the in-memory distribution accounts' private keys.
+- `DISTRIBUTION_PUBLIC_KEY`: The public key of the HOST's Stellar distribution account. Used to disburse funds, create channel accounts and tenant distribution accounts.
+- `DISTRIBUTION_SEED`: 🔑 The private key of the HOST's Stellar distribution account. Used to disburse funds, create channel accounts and tenant distribution accounts.
 
 ## Dashboard
 
@@ -232,8 +232,8 @@ The SDP Dashboard is a web application that allows users to manage their account
 
 ### General Configuration
 
-- `API_URL` - The base URL of the SDP Core Service. Default: "http://localhost:8000".
-- `STELLAR_EXPERT_URL` - The base URL of the Stellar Expert explorer. Default: "https://stellar.expert/explorer/testnet".
-- `HORIZON_URL` - The base URL of the Horizon server. Default: "https://horizon-testnet.stellar.org".
-- `RECAPTCHA_SITE_KEY` - The Google reCAPTCHA v2 - I'm not a robot site key. This key needs to match the key used in the SDP Core Service.
-- `SINGLE_TENANT_MODE` - When set to `"true"`, it enables the single-tenant mode, which is useful for local development or single-tenant setups. In addition to set it to true, you'll need to configure the default tenant by calling the [`POST /tenants/default-tenant`](../api-reference/default-tenant.api.mdx) request. Default: "false".
+- `API_URL`: The base URL of the SDP Core Service. Default: "http://localhost:8000".
+- `STELLAR_EXPERT_URL`: The base URL of the Stellar Expert explorer. Default: "https://stellar.expert/explorer/testnet".
+- `HORIZON_URL`: The base URL of the Horizon server. Default: "https://horizon-testnet.stellar.org".
+- `RECAPTCHA_SITE_KEY`: The Google reCAPTCHA v2 - I'm not a robot site key. This key needs to match the key used in the SDP Core Service.
+- `SINGLE_TENANT_MODE`: When set to `"true"`, it enables the single-tenant mode, which is useful for local development or single-tenant setups. In addition to set it to true, you'll need to configure the default tenant by calling the [`POST /tenants/default-tenant`](../api-reference/default-tenant.api.mdx) request. Default: "false".

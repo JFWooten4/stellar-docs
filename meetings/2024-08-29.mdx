@@ -14,7 +14,7 @@ CAP Core team deliberated on the proposed CAPs:
 
 1. Addition of a constructor to Soroban's flavor of Rust. [CAP](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0058.md)
    1. Team's concern was about potential break in compatibility, which Dima had addressed. There were no further concerns.
-2. Addition of BLS12-381 curve and required field arithmetics - [CAP](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0059.md)
+2. Addition of BLS12-381 curve and required field arithmetics: [CAP](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0059.md)
    1. Team's concern was about providing functions to check invalid input. It's too computationally expensive to do the check at the contract layer so the it may need to be implemented as a host function. Jay is seeking ecosystem input around use cases that require strict input validation.
    2. There were no further concerns.
 3. Increase performance by upgrading Soroban's VM. [CAP Discussion](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0060.md)

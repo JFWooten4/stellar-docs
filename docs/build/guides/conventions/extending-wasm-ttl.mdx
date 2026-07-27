@@ -194,7 +194,7 @@ Let's walk through the key parts of this function:
 Why `setReadOnly()`? A few reasons:
 
 - It's faster and uses fewer resources
-- It's safer - we can't accidentally change data we're not supposed to
+- It's safer: we can't accidentally change data we're not supposed to
 - The `ExtendFootprintTTLOp` operation needs it
 
 2. Adding the operation: After setting up the Soroban data, we add the `extendFootprintTtl` operation to our transaction. We're telling it to extend the TTL to 500,000 ledgers with `extendTo: 500_000`.

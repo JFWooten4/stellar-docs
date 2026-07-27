@@ -48,19 +48,19 @@ items:
 
 ### Field Explanations
 
-- **`id`** (Required) - The asset identifier in the format `SCHEMA:CODE:(ISSUER)` or `stellar:native` representing XLM, the native Stellar asset. For example, `stellar:USDC:GBBD47IF6LWK7P7MDEVSCWR7DPUWV3NY3DTQEVFL4NAT4AQH3ZLLFLA5` represents Circle USD. For fiat currencies, use `iso4217:CODE` (e.g., `iso4217:USD`, `iso4217:CAD`).
+- **`id`** (Required): The asset identifier in the format `SCHEMA:CODE:(ISSUER)` or `stellar:native` representing XLM, the native Stellar asset. For example, `stellar:USDC:GBBD47IF6LWK7P7MDEVSCWR7DPUWV3NY3DTQEVFL4NAT4AQH3ZLLFLA5` represents Circle USD. For fiat currencies, use `iso4217:CODE` (e.g., `iso4217:USD`, `iso4217:CAD`).
 
-- **`distribution_account`** - The Stellar account address that holds the asset for distribution. Not needed for fiat assets (`iso4217`).
+- **`distribution_account`**: The Stellar account address that holds the asset for distribution. Not needed for fiat assets (`iso4217`).
 
-- **`significant_decimals`** - The number of decimal places the asset supports.
+- **`significant_decimals`**: The number of decimal places the asset supports.
 
-- **`sep6`** - Enables SEP-6 and configures deposit/withdraw limits and methods per asset.
+- **`sep6`**: Enables SEP-6 and configures deposit/withdraw limits and methods per asset.
 
-- **`sep24`** - Enables SEP-24 interactive flows and their per-asset settings.
+- **`sep24`**: Enables SEP-24 interactive flows and their per-asset settings.
 
-- **`sep31`** - Enables SEP-31 cross-border payment support for the asset.
+- **`sep31`**: Enables SEP-31 cross-border payment support for the asset.
 
-- **`sep38`** - Enables SEP-38 quotes and `exchangeable_assets` for supported currency pairs.
+- **`sep38`**: Enables SEP-38 quotes and `exchangeable_assets` for supported currency pairs.
 
 ## Wallet Clients Configuration
 
@@ -94,24 +94,24 @@ items:
 
 **Custodial Client Configuration:**
 
-- **`name`** (Required) - A unique identifier for the client.
+- **`name`** (Required): A unique identifier for the client.
 
-- **`type: custodial`** (Required) - The type of the client. Must be set to `custodial` for custodial clients.
+- **`type: custodial`** (Required): The type of the client. Must be set to `custodial` for custodial clients.
 
-- **`signing_keys`** (Required) - A list of Stellar public keys used for client SEP-10 authentication. The anchor uses these keys to verify that requests are coming from the authorized client.
+- **`signing_keys`** (Required): A list of Stellar public keys used for client SEP-10 authentication. The anchor uses these keys to verify that requests are coming from the authorized client.
 
-- **`callback_urls`** (Optional) - URLs to which the service can send callbacks for different SEP types.
-  - **`sep6`** - Callback URL for SEP-6 (deposit/withdrawal) transaction status updates
-  - **`sep24`** - Callback URL for SEP-24 (interactive deposit/withdrawal) transaction status updates
-  - **`sep31`** - Callback URL for SEP-31 (cross-border payments) transaction status updates
-  - **`sep12`** - Callback URL for SEP-12 (KYC) customer information updates
+- **`callback_urls`** (Optional): URLs to which the service can send callbacks for different SEP types.
+  - **`sep6`**: Callback URL for SEP-6 (deposit/withdrawal) transaction status updates
+  - **`sep24`**: Callback URL for SEP-24 (interactive deposit/withdrawal) transaction status updates
+  - **`sep31`**: Callback URL for SEP-31 (cross-border payments) transaction status updates
+  - **`sep12`**: Callback URL for SEP-12 (KYC) customer information updates
 
 **Noncustodial Client Configuration:**
 
-- **`name`** (Required) - A unique identifier for the client, similar to custodial clients. Typically a name that clearly represents the client entity.
+- **`name`** (Required): A unique identifier for the client, similar to custodial clients. Typically a name that clearly represents the client entity.
 
-- **`type: noncustodial`** (Required) - The type of the client. Must be set to `noncustodial` for noncustodial clients. Noncustodial clients allow users to control their own private keys, and the wallet acts as an interface to user-controlled accounts.
+- **`type: noncustodial`** (Required): The type of the client. Must be set to `noncustodial` for noncustodial clients. Noncustodial clients allow users to control their own private keys, and the wallet acts as an interface to user-controlled accounts.
 
-- **`domains`** (Required) - A list of domains associated with the client, used to verify the client's identity.
+- **`domains`** (Required): A list of domains associated with the client, used to verify the client's identity.
 
-- **`callback_urls`** (Optional) - URLs to which the service can send callbacks for different SEP types. Works the same way as for custodial clients (see above).
+- **`callback_urls`** (Optional): URLs to which the service can send callbacks for different SEP types. Works the same way as for custodial clients (see above).

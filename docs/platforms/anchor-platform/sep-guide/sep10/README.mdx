@@ -227,8 +227,8 @@ These fields should match the configuration options set in the [Enable SEP-10](#
 
 `WEB_AUTH_ENDPOINT` - The URL where the authentication service is running. This is the URL that clients will use to authenticate with the anchor. The endpoint must support:
 
-- `GET <WEB_AUTH_ENDPOINT>` - Request a challenge
-- `POST <WEB_AUTH_ENDPOINT>` - Exchange signed challenge for session JWT
+- `GET <WEB_AUTH_ENDPOINT>`: Request a challenge
+- `POST <WEB_AUTH_ENDPOINT>`: Exchange signed challenge for session JWT
 
 `SIGNING_KEY` - The public key corresponding to the private key specified in `SECRET_SEP10_SIGNING_SEED`. This key is used to sign authentication challenges presented to wallet applications.
 
@@ -244,11 +244,11 @@ These fields should match the configuration options set in the [Enable SEP-10](#
 
 The SEP-10 authentication flow consists of two steps:
 
-1. **GET `/auth`** - Request a challenge transaction
+1. **GET `/auth`**: Request a challenge transaction
    - Parameters: `account` (required), `memo` (optional), `home_domain` (optional), `client_domain` (optional)
    - Returns: A challenge transaction in XDR format
 
-2. **POST `/auth`** - Validate the signed challenge and receive a JWT
+2. **POST `/auth`**: Validate the signed challenge and receive a JWT
    - Body: `{ "transaction": "<signed_challenge_xdr>" }`
    - Returns: `{ "token": "<jwt_token>" }`
 

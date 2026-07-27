@@ -277,9 +277,9 @@ debug-assertions = true
 
 In this project we will need to create 3 files:
 
-- `src/lib.rs` - This is where we will write our vault smart contract logic.
-- `src/test.rs` - This is where we will write our tests.
-- `src/token.rs` - This is file inherits the token contact that we imported earlier. It's also where we will write our token creation logic.
+- `src/lib.rs`: This is where we will write our vault smart contract logic.
+- `src/test.rs`: This is where we will write our tests.
+- `src/token.rs`: This is file inherits the token contact that we imported earlier. It's also where we will write our token creation logic.
 
 To interact with the token contract, we'll use a built in interface that you can find in the `token_interface.rs` tab. This interface includes the `initialize` and `mint` functions that we will use to create and mint tokens for us to use in our vault contract. If you want to see the full code of the token contract, you can check it out [here](https://github.com/stellar/soroban-examples/tree/main/token/src).
 

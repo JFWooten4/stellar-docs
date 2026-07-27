@@ -123,8 +123,8 @@ These fields should match the configuration options set in the [Enable SEP-45](#
 
 `WEB_AUTH_FOR_CONTRACTS_ENDPOINT` - The URL where the authentication service is running. This is the URL that clients will use to authenticate with the anchor. The endpoint must support:
 
-- `GET <WEB_AUTH_FOR_CONTRACTS_ENDPOINT>` - Request authorization entries
-- `POST <WEB_AUTH_FOR_CONTRACTS_ENDPOINT>` - Exchange signed authorization entries for session JWT
+- `GET <WEB_AUTH_FOR_CONTRACTS_ENDPOINT>`: Request authorization entries
+- `POST <WEB_AUTH_FOR_CONTRACTS_ENDPOINT>`: Exchange signed authorization entries for session JWT
 
 `WEB_AUTH_CONTRACT_ID` - The contract ID of the SEP-45 contract. This is the contract that will be used to construct the challenge. The contract must implement the `web_auth_verify` function as described in the [SEP-45 specification][sep-45]. This should match `SEP45_WEB_AUTH_CONTRACT_ID`.
 

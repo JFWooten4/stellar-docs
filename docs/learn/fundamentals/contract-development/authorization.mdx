@@ -15,9 +15,9 @@ View the [authorization starter guide](../../../build/guides/auth/contract-autho
 
 Soroban aims to provide a light-weight, but flexible and extensible framework that allows contracts to implement arbitrarily complex authorization rules, while providing built-in implementation for some common tasks (such as replay prevention). The framework consists of the following components:
 
-- Contract-specific authorization - custom authorization rules implemented by contracts using the private contract storage and abstract accounts.
-- Account abstraction - allows users to customize their authentication rules and define universal authorization policies via contract account. This includes the built-in support for Stellar accounts.
-- Host-based authorization library - ensures integrity between contract accounts and regular contracts. Also defines the structured signature payload format, ensures replay prevention and takes care of providing the correct signature contexts.
+- Contract-specific authorization: custom authorization rules implemented by contracts using the private contract storage and abstract accounts.
+- Account abstraction: allows users to customize their authentication rules and define universal authorization policies via contract account. This includes the built-in support for Stellar accounts.
+- Host-based authorization library: ensures integrity between contract accounts and regular contracts. Also defines the structured signature payload format, ensures replay prevention and takes care of providing the correct signature contexts.
 
 Soroban host also provides some cryptographic functions (signature verification, hashing) which may be useful for contract account implementations.
 

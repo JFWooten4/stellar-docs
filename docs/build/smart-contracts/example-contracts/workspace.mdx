@@ -187,8 +187,8 @@ Defining the contract interface with a `trait` separately is optional. It's a gr
 
 `ContractB` has one function, `add_with`, that requires three arguments:
 
-- `contract: Address` - The address of a contract which implements that required client interface, `ContractAInterface`.
-- `x: u32` and `y: u32` - The two numbers we want to (safely) compute the sum of.
+- `contract: Address`: The address of a contract which implements that required client interface, `ContractAInterface`.
+- `x: u32` and `y: u32`: The two numbers we want to (safely) compute the sum of.
 
 `ContractB` invokes `ContractA`'s `add` function, returning its value back to the original invoker. It's a bit of a long round-trip for this simple example, but it illustrates a really powerful way you can separate out interface/trait definitions from contract logic and share it and its client in a multi-contract workspace.
 

@@ -170,15 +170,15 @@ A `cargo-fuzz` project is its own crate, which lives in the `fuzz` subdirectory 
 
 Our `soroban-examples/fuzzing` directory looks like
 
-- `Cargo.toml` - this is the contract's manifest
+- `Cargo.toml`: this is the contract's manifest
 - `Cargo.lock`
 - `src`
-  - `lib.rs` - this is the contract code
-- `fuzz` - this is the fuzzing crate
-  - `Cargo.toml` - this is fuzzing crate's manifest
+  - `lib.rs`: this is the contract code
+- `fuzz`: this is the fuzzing crate
+  - `Cargo.toml`: this is fuzzing crate's manifest
   - `Cargo.lock`
   - `fuzz_targets`
-    - `fuzz_target_1.rs` - this is a single fuzz test
+    - `fuzz_target_1.rs`: this is a single fuzz test
     - `fuzz_target_2.rs`
 
 There are special considerations to note in the configuration of both the [contract's manifest] and the [fuzzing crate's manifest].

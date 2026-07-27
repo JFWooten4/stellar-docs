@@ -17,9 +17,9 @@ There are no monetary rewards for being a validator on the Stellar network. Inst
 
 There are three desired properties of consensus mechanisms: fault tolerance, safety, and liveness.
 
-- Fault tolerance - the system can continue operating despite node failures or malfunctions
-- Safety - no two nodes ever agree on different values, guarantees nodes will produce the same block
-- Liveness - a node can output a value without the participation of any misbehaving nodes
+- Fault tolerance: the system can continue operating despite node failures or malfunctions
+- Safety: no two nodes ever agree on different values, guarantees nodes will produce the same block
+- Liveness: a node can output a value without the participation of any misbehaving nodes
 
 Consensus mechanisms can typically only prioritize two out of three of these properties. SCP prioritizes fault tolerance and safety over liveness. Because of prioritizing safety, blocks can sometimes get stuck while waiting for nodes to agree.
 
@@ -84,8 +84,8 @@ A node may start the ballot protocol as soon as it confirms a candidate. After i
 
 The ballot protocol ensures that the network can unanimously confirm and apply nominated transaction sets. It consists of two steps:
 
-1. Prepare - verifies that a node’s quorum slice has the right value and is willing to commit it
-2. Commit - ensures that a node’s quorum slice actually commits the value
+1. Prepare: verifies that a node’s quorum slice has the right value and is willing to commit it
+2. Commit: ensures that a node’s quorum slice actually commits the value
 
 ## White paper
 

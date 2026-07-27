@@ -908,12 +908,12 @@ All public functions within an `impl` block that has been annotated with the `#[
 
 The six tests created for this example contract test a range of possible conditions and ensure the contract responds appropriately to each one:
 
-- **`test()`** - This function makes use of a variety of the built-in token functions to test the "predictable" way an asset might be interacted with by a user, as well as an administrator.
-- **`test_burn()`** - This function ensures a `burn()` invocation decreases a user's balance, and that a `burn_from()` invocation decreases a user's balance as well as consuming another user's allowance of that balance.
-- **`transfer_insufficient_balance()`** - This function ensures a `transfer()` invocation panics when the `from` user doesn't have the balance to cover it.
-- **`transfer_from_insufficient_allowance()`** - This function ensures a user with an existing allowance for someone else's balance cannot make a `transfer()` greater than that allowance.
-- **`decimal_is_over_eighteen()`** - This function tests that constructing a token with too high of a decimal precision will not succeed.
-- **`test_zero_allowance()`** - This function makes sure that a `transfer_from()` with an zero balance doesn't create an empty allowance.
+- **`test()`**: This function makes use of a variety of the built-in token functions to test the "predictable" way an asset might be interacted with by a user, as well as an administrator.
+- **`test_burn()`**: This function ensures a `burn()` invocation decreases a user's balance, and that a `burn_from()` invocation decreases a user's balance as well as consuming another user's allowance of that balance.
+- **`transfer_insufficient_balance()`**: This function ensures a `transfer()` invocation panics when the `from` user doesn't have the balance to cover it.
+- **`transfer_from_insufficient_allowance()`**: This function ensures a user with an existing allowance for someone else's balance cannot make a `transfer()` greater than that allowance.
+- **`decimal_is_over_eighteen()`**: This function tests that constructing a token with too high of a decimal precision will not succeed.
+- **`test_zero_allowance()`**: This function makes sure that a `transfer_from()` with an zero balance doesn't create an empty allowance.
 
 ## Build the Contract
 

@@ -23,9 +23,9 @@ Note, that in the specific cases the interface doesn't have to be fully implemen
 
 For any given contract function, there are three requirements that should be consistent with the interface described here:
 
-- Function interface (name and arguments) - if not consistent, then the users simply won't be able to use the function at all. This is the hard requirement.
-- Authorization - the users have to authorize the token function calls with all the arguments of the invocation (see the interface comments). If this is inconsistent, then the contract token may have issues with getting the correct signatures from the users and may also confuse the wallet software.
-- Events - the token has to emit the events in the specified format. If inconsistent, then the token may not be handled correctly by the downstream systems such as block explorers.
+- Function interface (name and arguments): if not consistent, then the users simply won't be able to use the function at all. This is the hard requirement.
+- Authorization: the users have to authorize the token function calls with all the arguments of the invocation (see the interface comments). If this is inconsistent, then the contract token may have issues with getting the correct signatures from the users and may also confuse the wallet software.
+- Events: the token has to emit the events in the specified format. If inconsistent, then the token may not be handled correctly by the downstream systems such as block explorers.
 
 ### Code
 

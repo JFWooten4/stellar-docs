@@ -22,7 +22,7 @@ While BN254 host functions provide the cryptographic operations needed for proof
 ### Resources
 
 - [P25 Preview examples](https://github.com/jayz22/soroban-examples/tree/p25-preview/p25-preview)
-- [Soroban SDK BN254 documentation - types and functions](https://docs.rs/soroban-sdk/latest/soroban_sdk/_migrating/v25_bn254/index.html)
+- [Soroban SDK BN254 documentation: types and functions](https://docs.rs/soroban-sdk/latest/soroban_sdk/_migrating/v25_bn254/index.html)
 - [CAP-74 proposal](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0074.md)
 - [Noir Ultrahonk Soroban Verifier Contract](https://github.com/indextree/ultrahonk_soroban_contract)
 - [Noir documentation (circuits)](https://noir-lang.org/docs)
@@ -38,8 +38,8 @@ The Poseidon host functions expose the underlying _permutation primitives_, not 
 
 In the Rust `soroban-sdk`, these functions are exposed through the `CryptoHazmat` interface and require enabling the SDK's `hazmat-crypto` feature — they are not accessible with the default SDK features.
 
-- `poseidon_permutation` - performs the Poseidon permutation on an input vector of field elements
-- `poseidon2_permutation` - performs the Poseidon2 permutation on an input vector of field elements
+- `poseidon_permutation`: performs the Poseidon permutation on an input vector of field elements
+- `poseidon2_permutation`: performs the Poseidon2 permutation on an input vector of field elements
 
 ### Resources
 

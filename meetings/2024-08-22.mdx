@@ -14,9 +14,9 @@ Core Developers discussed the latest proposals to advance Stellar Core in this w
 
 1. The proposal for addition of a constructor to Soroban’s flavor of Rust was introduced in a previous protocol meeting ([previous meeting](./2024-07-25.mdx)), documented in [CAP-58](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0058.md). A constructor is a function that will only be executed the first time the contract is created.
 2. In this meeting, Dima discussed the updates made since the last meeting:
-   1. Default constructor - if a constructor is not defined explicitly, the contract is treated as if it has a constructor
-   2. Semantics of the return value - if the transactions succeeds, it is required to return a valid value
-   3. Constructor interaction with custom accounts - custom accounts must be aware of the context that they are authorizing.
+   1. Default constructor: if a constructor is not defined explicitly, the contract is treated as if it has a constructor
+   2. Semantics of the return value: if the transactions succeeds, it is required to return a valid value
+   3. Constructor interaction with custom accounts: custom accounts must be aware of the context that they are authorizing.
 3. Graydon discussed the upgrade to the Wasmi virtual machine, documented in [CAP-60](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0060.md). Wasmi works by translating WebAssembly code to to an Internal Representation (IR) and then executing it. The upgrade is impactful in two ways.
    1. Translating from WebAssembly to IR takes longer but the execution of the resulting IR is performant.
    2. The upgrade introduces lazy compilation. Of all functions in a contract, only ones that are called in a given transaction will translated thus reducing both latency and fees.

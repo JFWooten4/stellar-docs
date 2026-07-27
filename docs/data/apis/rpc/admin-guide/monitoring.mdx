@@ -13,10 +13,10 @@ You will see many of the default Go and Process metrics (prefixed by `go_` and `
 
 We also expose metrics related to Stellar RPC (prefixed by `soroban_rpc`). There are many, but some notable ones are:
 
-- `soroban_rpc_transactions_count` - count of transactions ingested with a sliding window of 10m
-- `soroban_rpc_events_count` - count of events ingested with a sliding window of 10m
-- `soroban_rpc_ingest_local_latest_ledger` - latest ledger ingested
-- `soroban_rpc_db_round_trip_time_seconds` - time required to run `SELECT 1` query in the DATABASE
+- `soroban_rpc_transactions_count`: count of transactions ingested with a sliding window of 10m
+- `soroban_rpc_events_count`: count of events ingested with a sliding window of 10m
+- `soroban_rpc_ingest_local_latest_ledger`: latest ledger ingested
+- `soroban_rpc_db_round_trip_time_seconds`: time required to run `SELECT 1` query in the DATABASE
 
 Stellar RPC also provides logging to console for:
 
