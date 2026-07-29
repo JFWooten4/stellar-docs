@@ -35,7 +35,7 @@ Each validator nominates its candidate set through [SCP nomination](../stellar-c
 
 [SCP](../stellar-consensus-protocol.mdx) resolves differences among candidate sets and selects the transaction set, close time, and protocol upgrades for the ledger.
 
-Transactions omitted from the final set remain in each validator’s local queue for best-effort inclusion in a later ledger. Stellar Core ages queued transactions by source account ([queue policy](https://github.com/stellar/stellar-core/blob/master/src/herder/TransactionQueue.h#L50-L58)). After four ledger closes, it evicts and bans all queued transactions from that source account for 10 ledgers ([constants](https://github.com/stellar/stellar-core/blob/master/src/herder/HerderImpl.cpp#L62-L63)).
+Transactions omitted from the final set remain in each validator’s local queue for best-effort inclusion in a later ledger. Stellar Core [ages queued transactions by source account](https://github.com/stellar/stellar-core/blob/master/src/herder/TransactionQueue.h#L50-L58). After its [four-ledger timeout](https://github.com/stellar/stellar-core/blob/master/src/herder/HerderImpl.cpp#L62-L63), it evicts and bans all queued transactions from that source account for 10 ledgers.
 
 ### 8. Determine apply order
 
@@ -43,7 +43,7 @@ After SCP finalizes the transaction set, every validator derives the same apply 
 
 ### 9. Collect fees
 
-Before executing transactions, Stellar Core processes fees and sequence numbers for the entire set in a single pass ([source](https://github.com/stellar/stellar-core/blob/master/src/ledger/LedgerManagerImpl.cpp#L2425-L2544)).
+Before executing transactions, Stellar Core [processes fees and sequence numbers](https://github.com/stellar/stellar-core/blob/master/src/ledger/LedgerManagerImpl.cpp#L2425-L2544) for the entire set in a single pass.
 
 ### 10. Apply transactions
 
