@@ -41,7 +41,7 @@ In addition to the ledger entries that are created during the contract upload/de
 | **Persistence** | Permanently deleted when TTL ledger is reached | Can be archived even if contract instance is active. Lifetime is independent from contract instance. | Shares the lifetime of the contract instance. Data accessible if instance TTL not reached. |
 | **Recovery** | Cannot be restored | `RestoreFootprintOp` | `extendFootprintTTLOp` |
 | **Capacity** | Unlimited | Unlimited | Limited |
-| **Use Cases** | Time-bounded or easily re-creatable data (e.g. price oracles, signatures). Not suitable for correctness checks | Long-term user data that must persist beyond TTL (e.g. balances) | Shared contract state tied to contract instance (e.g. admin accounts, contract metadata) |
+| **Use Cases** | Time-bounded or easily re-creatable data (_e.g._ price oracles, signatures). Not suitable for correctness checks | Long-term user data that must persist beyond TTL (_e.g._ balances) | Shared contract state tied to contract instance (_e.g._ admin accounts, contract metadata) |
 
 ## Invoke Contracts
 
@@ -71,7 +71,7 @@ To view the Environment Meta, please consider using Stellar Lab's Contract Explo
 
 Contracts can optionally include a custom Wasm section named `contractmetav0`, which contains a serialized `SCMetaEntry`. This section is not used by the network itself, but allows contracts to embed arbitrary metadata, including contract name, version, author, supported interfaces, source repo, or home domain. Applications and tooling can read this metadata to provide richer developer experiences, better indexing, or enhanced contract discovery. For reference, please see [SEP-46 Contract Meta](https://github.com/stellar/stellar-protocol/blob/master/ecosystem/sep-0046.md).
 
-To add metadata to Contract Meta, please use the Stellar CLI command `stellar contract build --meta <meta>`, or use the Rust SDK (e.g. `contractmeta!(key="name", val="Defi Swap Contract")`).
+To add metadata to Contract Meta, please use the Stellar CLI command `stellar contract build --meta <meta>`, or use the Rust SDK (_e.g._ `contractmeta!(key="name", val="Defi Swap Contract")`).
 
 To view the Contract Meta, please use the Stellar Lab's Contract Explorer, or the Stellar CLI command `stellar contract info meta --contract-id <contract-id>`.
 

@@ -40,7 +40,7 @@ The resource fee depends on the following resources:
 - **Ledger I/O:** the number of bytes read from or written to the ledger;
 - **Transaction size:** the size of the transaction submitted to the network in bytes;
 - **Events & return value size:** the size of the events produced by the contract and the return value of the top-level contract function — both events and return value are included in transaction metadata;
-- **Ledger space rent:** the payment for the ledger entry TTL extensions (i.e., rent payments) and rent payments for increasing ledger entry size. Refer to the [state archival](../fundamentals/contract-development/storage/state-archival.mdx) section for more information about smart contract rent.
+- **Ledger space rent:** the payment for the ledger entry TTL extensions (_i.e._, rent payments) and rent payments for increasing ledger entry size. Refer to the [state archival](../fundamentals/contract-development/storage/state-archival.mdx) section for more information about smart contract rent.
 
 :::note
 
@@ -159,7 +159,7 @@ Find a complete list of host cost types and their definitions here: [`ContractCo
 Cost types are carefully selected to:
 
 1. Serve as comprehensive building blocks for all significant contract execution costs;
-2. Ensure each component cost increases at most linearly (i.e., constant or linear) with respect to its input. That is, `y = a + bx`, where `y` is the cost output, `x` is the input, and `a` & `b` are the constant and linear model parameters, respectively.
+2. Ensure each component cost increases at most linearly (_i.e._, constant or linear) with respect to its input. That is, `y = a + bx`, where `y` is the cost output, `x` is the input, and `a` & `b` are the constant and linear model parameters, respectively.
 
 Each cost type has a separate model for both resource types (CPU and memory).
 

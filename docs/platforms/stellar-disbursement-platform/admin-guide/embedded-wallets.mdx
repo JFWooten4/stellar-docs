@@ -77,7 +77,7 @@ The Embedded Wallet flow includes the following steps:
 2. **Invitation Sent**: The SDP sends an invitation link to each receiver via SMS or email. The link is unique per receiver.
 3. **Passkey Creation**: The receiver clicks the link and creates a passkey using their device's biometric authentication
 4. **Wallet Deployment**: The SDP deploys a smart contract wallet on the Stellar network, controlled by the receiver's passkey
-5. **Verification**: The receiver completes identity verification (e.g., entering an OTP or date of birth)
+5. **Verification**: The receiver completes identity verification (_e.g._, entering an OTP or date of birth)
 6. **Payment Transfer**: Once verified, the SDP automatically transfers the disbursement funds to the receiver's contract wallet
 
 :::danger
@@ -92,7 +92,7 @@ When a receiver logs in with their passkey, several things happen:
 
 - The frontend uses **WebAuthn** to authenticate the receiver with their biometric or device PIN
 - The backend verifies the authentication using the stored public key
-- A **wallet-auth JWT** is generated for SDP APIs (e.g., profile and RPC access)
+- A **wallet-auth JWT** is generated for SDP APIs (_e.g._, profile and RPC access)
 - The SDP **sponsors transactions** on behalf of the receiver, covering all network fees
 - Payments are made using **Stellar Asset Contract (SAC)** transfers to the smart contract address
 
@@ -124,12 +124,12 @@ When creating a new disbursement, select **"Embedded Wallet"** as the wallet pro
 
 - **Registration Contact Type**: Choose how receivers will be contacted (Email or SMS)
 - **Wallet Provider**: Select "Embedded Wallet" from the dropdown
-- **Asset**: Choose the asset to disburse (e.g., USDC, XLM)
-- **Verification Type**: Select what information receivers must verify (e.g., PIN, date of birth)
+- **Asset**: Choose the asset to disburse (_e.g._, USDC, XLM)
+- **Verification Type**: Select what information receivers must verify (_e.g._, PIN, date of birth)
 
 :::note
 
-There is also a "None" option, but using it is only recommended for low-risk scenarios due to security concerns (e.g. disbursing small amounts).
+There is also a "None" option, but using it is only recommended for low-risk scenarios due to security concerns (_e.g._ disbursing small amounts).
 
 :::
 

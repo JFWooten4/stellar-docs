@@ -82,7 +82,7 @@ Here are some example alerts to consider with potential causes and solutions.
 
 ## Logs
 
-Horizon will output logs to operating system's standard out. It will log on all aspects of runtime, including HTTP requests and ingestion. Typically, there are very few `warn` or `error` severity level messages emitted. The default severity level logged in Horizon is configured to `LOG_LEVEL=info`, this environment configuration parameter can be set to one of `trace, debug, info, warn, error`. The verbosity of log output is inverse of the severity level chosen. I.e. for most verbose logs use 'trace', for least verbose logs use 'error'.
+Horizon will output logs to operating system's standard out. It will log on all aspects of runtime, including HTTP requests and ingestion. Typically, there are very few `warn` or `error` severity level messages emitted. The default severity level logged in Horizon is configured to `LOG_LEVEL=info`, this environment configuration parameter can be set to one of `trace, debug, info, warn, error`. The verbosity of log output is inverse of the severity level chosen. _i.e._ for most verbose logs use 'trace', for least verbose logs use 'error'.
 
 For production deployments, we recommend using the default severity setting of `info` level and choose a log capture strategy depending on the deployment.
 

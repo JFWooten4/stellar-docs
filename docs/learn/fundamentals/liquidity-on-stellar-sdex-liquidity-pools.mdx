@@ -29,7 +29,7 @@ An order book is a record of outstanding orders on a network, and each record si
 
 A couple of notes on order books on Stellar:
 
-- The term “offers” usually refers specifically to ask orders. In Stellar, however, all orders are stored as selling- i.e., the system automatically converts bids to asks. Because of this, the terms “offer” and “order” are used interchangeably in the Stellar ecosystem.
+- The term “offers” usually refers specifically to ask orders. In Stellar, however, all orders are stored as selling- _i.e._, the system automatically converts bids to asks. Because of this, the terms “offer” and “order” are used interchangeably in the Stellar ecosystem.
 - Order books contain all orders that are acceptable to parties on either side to make a trade.
 - Some assets will have a small or nonexistent order book between them. In these cases, Stellar facilitates path payments, which we’ll discuss later.
 
@@ -39,7 +39,7 @@ To view an order book chart, see the [Order Book Wikipedia Page](https://en.wiki
 
 An account can create orders to buy or sell assets using the Manage Buy Offer, Manage Sell Offer, or Passive Order operations. The account must hold the asset it wants to exchange, and it must trust the issuer of the asset it is trying to buy.
 
-Orders in Stellar behave like limit orders in traditional markets. When an account initiates an order, it is checked against the existing orderbook for that asset pair. If the submitted order is a marketable order (for a marketable buy limit order, the limit price is at or above the ask price; for a marketable sell limit order, the limit price is at or below the bid price), it is filled at the existing order price for the available quantity at that price. If the order is not marketable (i.e., does not cross an existing order), the order is saved on the orderbook until it is either consumed by another order, consumed by a path payment, or canceled by the account that created the order.
+Orders in Stellar behave like limit orders in traditional markets. When an account initiates an order, it is checked against the existing orderbook for that asset pair. If the submitted order is a marketable order (for a marketable buy limit order, the limit price is at or above the ask price; for a marketable sell limit order, the limit price is at or below the bid price), it is filled at the existing order price for the available quantity at that price. If the order is not marketable (_i.e._, does not cross an existing order), the order is saved on the orderbook until it is either consumed by another order, consumed by a path payment, or canceled by the account that created the order.
 
 Each order constitutes a selling obligation for the selling asset and buying obligation for the buying asset. These obligations are stored in the account (for lumens) or trustline (for other assets) owned by the account creating the order. Any operation that would cause an account to be unable to satisfy its obligations — such as sending away too much balance — will fail. This guarantees that any order in the orderbook can be executed entirely.
 

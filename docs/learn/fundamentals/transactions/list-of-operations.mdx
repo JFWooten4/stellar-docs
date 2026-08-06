@@ -65,7 +65,7 @@ Sends an amount in a specific asset to a destination account
 | `PAYMENT_UNDERFUNDED` | -2 | The source account (sender) does not have enough funds to send `amount` and still satisfy its selling liabilities. Note that if sending XLM, the sender must additionally maintain its minimum XLM reserve. |
 | `PAYMENT_SRC_NO_TRUST` | -3 | The source account does not trust the issuer of the asset it is trying to send. |
 | `PAYMENT_SRC_NOT_AUTHORIZED` | -4 | The source account is not authorized to send this payment. |
-| `PAYMENT_NO_DESTINATION` | -5 | The receiving account does not exist. Note that this error will **not** be returned if the receiving account is the issuer of `asset` (i.e, when the asset is being _burned_). |
+| `PAYMENT_NO_DESTINATION` | -5 | The receiving account does not exist. Note that this error will **not** be returned if the receiving account is the issuer of `asset` (_i.e._, when the asset is being _burned_). |
 | `PAYMENT_NO_TRUST` | -6 | The receiver does not trust the issuer of the asset being sent. For more information, see the [Assets section](../stellar-data-structures/assets.mdx). |
 | `PAYMENT_NOT_AUTHORIZED` | -7 | The destination account is not authorized by the asset's issuer to hold the asset. |
 | `PAYMENT_LINE_FULL` | -8 | The destination account (receiver) does not have sufficient limits to receive `amount` and still satisfy its buying liabilities. |
@@ -600,7 +600,7 @@ Learn more about claimable balances: [Claimable Balances Guide](../../../build/g
 
 Allows issuing account to configure authorization and trustline flags to an asset
 
-The Asset parameter is of the `TrustLineAsset` type. If you are modifying a trustline to a regular asset (i.e. one in a Code:Issuer format), this is equivalent to the Asset type. If you are modifying a trustline to a pool share, however, this is composed of the liquidity pool's unique ID.
+The Asset parameter is of the `TrustLineAsset` type. If you are modifying a trustline to a regular asset (_i.e._ one in a Code:Issuer format), this is equivalent to the Asset type. If you are modifying a trustline to a pool share, however, this is composed of the liquidity pool's unique ID.
 
 Learn more about flags: [Flags Glossary Entry](../../glossary.mdx#flags)
 

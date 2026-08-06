@@ -148,7 +148,7 @@ impl IncrementContract {
         user.require_auth();
 ```
 
-The `require_auth` method can be called for any `Address`. Semantically `user.require_auth()` here means 'require `user` to have authorized calling `increment` function of the current `IncrementContract` instance with the current call arguments, i.e. the current `user` and `value` argument values'. In simpler terms, this ensures that the `user` has allowed incrementing their counter value and nobody else can increment it.
+The `require_auth` method can be called for any `Address`. Semantically `user.require_auth()` here means 'require `user` to have authorized calling `increment` function of the current `IncrementContract` instance with the current call arguments, _i.e._ the current `user` and `value` argument values'. In simpler terms, this ensures that the `user` has allowed incrementing their counter value and nobody else can increment it.
 
 When using `require_auth` the contract implementation doesn't need to worry about the signatures, authentication, and replay prevention. All these features are implemented by the Soroban host and happen automatically as long as the `Address` type is used.
 

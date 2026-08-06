@@ -255,12 +255,12 @@ Here is a list of basic failure conditions and their expected behavior for funct
 #### Admin functions:
 
 - If the admin did not authorize the call, the function should trap.
-- If the admin attempts to perform an invalid action (e.g., minting a negative amount), the function should trap.
+- If the admin attempts to perform an invalid action (_e.g._, minting a negative amount), the function should trap.
 
 #### Token functions:
 
-- If the caller is not authorized to perform the action (e.g., transferring tokens without proper authorization), the function should trap.
-- If the action would result in an invalid state (e.g., transferring more tokens than available in the balance or allowance), the function should trap.
+- If the caller is not authorized to perform the action (_e.g._, transferring tokens without proper authorization), the function should trap.
+- If the action would result in an invalid state (_e.g._, transferring more tokens than available in the balance or allowance), the function should trap.
 
 ### Example: Handling Insufficient Allowance in `burn_from` function
 

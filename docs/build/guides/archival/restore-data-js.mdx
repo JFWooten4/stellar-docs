@@ -14,7 +14,7 @@ This is a pretty likely occurrence: my piece of persistent data is archived beca
 
 If you find that a piece of persistent data is archived, it can be restored using a Stellar transaction containing a `RestoreFootprintOp` operation. We'll make two assumptions for the sake of this guide:
 
-- The contract instance itself is still live (i.e., others have been extending its TTL while you've been away).
+- The contract instance itself is still live (_i.e._, others have been extending its TTL while you've been away).
 - You don't know how your archived data is represented on the ledger.
 
 The restoration process we'll use involves three discrete steps:

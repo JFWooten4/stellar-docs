@@ -259,7 +259,7 @@ print(
 
 To understand this, we need a handle on how smart contract deployment works:
 
-- When you deploy a contract, first the code is "installed" (i.e. uploaded onto the blockchain), creating a `LedgerEntry` with the Wasm byte-code that can be uniquely identified by its hash (that is, the hash of the uploaded code itself).
+- When you deploy a contract, first the code is "installed" (_i.e._ uploaded onto the blockchain), creating a `LedgerEntry` with the Wasm byte-code that can be uniquely identified by its hash (that is, the hash of the uploaded code itself).
 - Then, when a contract _instance_ is "instantiated," we create a `LedgerEntry` with a reference to that code's hash. This means many contracts can point to the same Wasm code.
 
 Thus, fetching the contract code is a two-step process:

@@ -75,7 +75,7 @@ As a result, many of the basic primitives can be initialized in the "intuitive" 
 
 This is where things get a little more complicated. A _union type_ is a generic type that switches between different "arms", each of which is a different internal type. When parsing an XDR union type, it's important to determine which arm is being used before you try parsing what's inside.
 
-Let's take an [`SCAddress`](https://github.com/stellar/stellar-xdr/blob/70180d5e8d9caee9e8645ed8a38c36a8cf403cd9/Stellar-contract.x#L185-L191), for example. From the type definition, we can see that it's either an account (i.e. `SC_ADDRESS_TYPE_ACCOUNT`) or the hash of a contract (`SC_ADDRESS_TYPE_CONTRACT`). Right above that definition, you can see that these are constants of the `SCAddressType` enum defined as 0 or 1, respectively.
+Let's take an [`SCAddress`](https://github.com/stellar/stellar-xdr/blob/70180d5e8d9caee9e8645ed8a38c36a8cf403cd9/Stellar-contract.x#L185-L191), for example. From the type definition, we can see that it's either an account (_i.e._ `SC_ADDRESS_TYPE_ACCOUNT`) or the hash of a contract (`SC_ADDRESS_TYPE_CONTRACT`). Right above that definition, you can see that these are constants of the `SCAddressType` enum defined as 0 or 1, respectively.
 
 In general, unions follow a particular pattern: switch on the type and match the appropriate enum value. So when you have one of these unions, you need to figure out which one it is:
 
@@ -119,7 +119,7 @@ else:
 
 You can see the references for these in the documentation ([Python](https://stellar-sdk.readthedocs.io/en/stable/api.html#scaddress) and [JavaScript](https://github.com/stellar/js-stellar-base/blob/master/types/curr.d.ts#L13881-L13886), respectively).
 
-It's worth noting that you _could_ just use the defined enum constants directly, e.g.
+It's worth noting that you _could_ just use the defined enum constants directly, _e.g._
 
 ```typescript
 import { xdr } from "@stellar/stellar-sdk";
@@ -210,7 +210,7 @@ In this short and sweet example we can see tons of the nuances we've discussed i
 - We access the `.name` field of the event type, which turns it into a human-readable string rather than an opaque structure, just like we discussed in [Unions](#unions), earlier.
 - We inspect _deeply_ into the `body` member to extract the `topics` and `data` fields separately, converting each of those opaque `ScVal`ues into JavaScript-friendly equivalents.
 
-In the last part, we "abuse" the fact that there is only one variation of the `body` union we discussed: there is only the initial version (an arm with `v == 0`), so we can use the `.value()` accessor to give us the underlying value directly rather than going through the rigamarole of differentiating the different cases. Calling `.v0()` would have been equivalent, but the benefit here is that if a `v == 1` variation is introduced that _also_ has a `topics` array and a `data` field (i.e. it adds additional fields rather than changing the v0 structure), this code will continue to work!
+In the last part, we "abuse" the fact that there is only one variation of the `body` union we discussed: there is only the initial version (an arm with `v == 0`), so we can use the `.value()` accessor to give us the underlying value directly rather than going through the rigamarole of differentiating the different cases. Calling `.v0()` would have been equivalent, but the benefit here is that if a `v == 1` variation is introduced that _also_ has a `topics` array and a `data` field (_i.e._ it adds additional fields rather than changing the v0 structure), this code will continue to work!
 
 There are many cases in which the different union arms share structure, and `.value()` lets you take advantage of that.
 

@@ -109,7 +109,7 @@ env.as_contract(&contract_id, || {
 // ... repeat with `client.extend_instance` and `client.extend_temporary` ...
 ```
 
-In order to test the extension thresholds (i.e. maximum current TTL that requires extension), we need to increase the ledger sequence number:
+In order to test the extension thresholds (_i.e._ maximum current TTL that requires extension), we need to increase the ledger sequence number:
 
 ```rust
 // Now bump the ledger sequence by 5000 in order to sanity-check
@@ -157,7 +157,7 @@ env.as_contract(&contract_id, || {
 });
 ```
 
-Persistent entries are more subtle: when a transaction that is executed on-chain contains a persistent entry that has been archived (i.e., it has its TTL expired) in the footprint, then the entry will be automatically restored. Automatic restoration is mostly transparent, the main side effect is the increased fees. (see [`test_persistent_entry_auto_restored`](https://github.com/stellar/soroban-examples/blob/v23.0.0/ttl/src/test.rs#L136) test for the full scenario):
+Persistent entries are more subtle: when a transaction that is executed on-chain contains a persistent entry that has been archived (_i.e._, it has its TTL expired) in the footprint, then the entry will be automatically restored. Automatic restoration is mostly transparent, the main side effect is the increased fees. (see [`test_persistent_entry_auto_restored`](https://github.com/stellar/soroban-examples/blob/v23.0.0/ttl/src/test.rs#L136) test for the full scenario):
 
 ```rust
 // Extend the persistent entry TTL to 5000 ledgers.

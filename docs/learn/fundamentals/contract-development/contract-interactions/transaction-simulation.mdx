@@ -32,7 +32,7 @@ These records are added to a [`SorobanAuthorizedInvocation`][auth-invoke] tree a
 
 Given this information from simulation, the client only needs to provide these trees and nonces to the `Address`es involved the invocation for signing, then build the final transaction by combining simulation output with the corresponding signatures.
 
-Note that the "recording" auth mode _never_ emulates authorization failures. This is because failing authorization is always an "exceptional" situation (i.e., the `Address`es for which you don't anticipate successful authorization shouldn't be used in the first place). It is similar to how, for example, the [`simulateTransaction`][sim-tx] mechanism doesn't emulate failures caused by the incorrect footprint.
+Note that the "recording" auth mode _never_ emulates authorization failures. This is because failing authorization is always an "exceptional" situation (_i.e._, the `Address`es for which you don't anticipate successful authorization shouldn't be used in the first place). It is similar to how, for example, the [`simulateTransaction`][sim-tx] mechanism doesn't emulate failures caused by the incorrect footprint.
 
 If you'd like to validate signatures, you should use [`simulateTransaction`][sim-tx] in authorization ["enforcement" mode](#enforcing-mode), which will verify the signatures before executing the transaction on-chain.
 

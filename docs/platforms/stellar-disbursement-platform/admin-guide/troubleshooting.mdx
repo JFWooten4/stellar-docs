@@ -97,13 +97,13 @@ Look for the `operation codes` at the end of the error message:
 Extras=transaction: tx_fee_bump_inner_failed - inner transaction: tx_failed - operation codes: [ op_no_trust ]
 ```
 
-The operation code (e.g., `op_no_trust`) tells you exactly what went wrong.
+The operation code (_e.g._, `op_no_trust`) tells you exactly what went wrong.
 
 #### Common Operation Codes
 
 | Code | Meaning | Solution |
 | --- | --- | --- |
-| `op_no_trust` | Receiver hasn't established a trustline for this asset | Receiver must add a trustline for the asset (e.g., EURC) before they can receive it |
+| `op_no_trust` | Receiver hasn't established a trustline for this asset | Receiver must add a trustline for the asset (_e.g._, EURC) before they can receive it |
 | `op_underfunded` | Source account doesn't have enough of the asset | Fund the distribution account with more of the asset |
 | `op_no_destination` | Destination account doesn't exist | Receiver must create and fund their Stellar account first |
 
@@ -231,7 +231,7 @@ If you're testing, check spam/junk folders first—especially for email invitati
 
 Double-check that the receiver's contact information (email, phone number) in the disbursement file is:
 
-- Correctly formatted (e.g., phone numbers include country code)
+- Correctly formatted (_e.g._, phone numbers include country code)
 - Valid and reachable
 - Not a duplicate that was already processed
 
@@ -269,7 +269,7 @@ If the contact info matches but the OTP still isn't arriving, the issue is likel
 
 ### Receiver Verification Locked Out {/* #receiver-verification-locked-out */}
 
-During SEP-24 registration, receivers must confirm their verification value (e.g., date of birth or PIN) to prove their identity. If a receiver enters the wrong value too many times, the system locks them out and displays:
+During SEP-24 registration, receivers must confirm their verification value (_e.g._, date of birth or PIN) to prove their identity. If a receiver enters the wrong value too many times, the system locks them out and displays:
 
 ```
 The number of attempts to confirm the verification value exceeded the max attempts.
@@ -340,6 +340,6 @@ If you've worked through the relevant sections and the issue persists:
 
 1. **Collect logs** from all relevant services (SDP, TSS, Anchor Platform)
 2. **Note the exact error message** and when it started occurring
-3. **Check for recent changes** to configuration, environment, or network (e.g., testnet reset)
+3. **Check for recent changes** to configuration, environment, or network (_e.g._, testnet reset)
 
 Contact us either by opening an issue on our [Backend GitHub repository](https://github.com/stellar/stellar-disbursement-platform-backend/issues) or [Frontend GitHub repository](https://github.com/stellar/stellar-disbursement-platform-frontend/issues) with the details above and the version of SDP you're running. We'll help you troubleshoot further! We're also available on Discord in the [#bulk-disbursements](https://discord.com/channels/897514728459468821/1310800776331006002) channel.

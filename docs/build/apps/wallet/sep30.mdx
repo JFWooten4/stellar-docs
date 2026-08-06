@@ -8,7 +8,7 @@ import { WalletCodeExample } from "@site/src/components/WalletCodeExample";
 
 <Header />
 
-The [Sep-30] standard defines the standard way for an individual (e.g., a user or wallet) to regain access to their Stellar account after losing its private key without providing any third party control of the account. During this flow the wallet communicates with one or more recovery signer servers to register the wallet for a later recovery if it's needed.
+The [Sep-30] standard defines the standard way for an individual (_e.g._, a user or wallet) to regain access to their Stellar account after losing its private key without providing any third party control of the account. During this flow the wallet communicates with one or more recovery signer servers to register the wallet for a later recovery if it's needed.
 
 ## Create Recoverable Account
 
@@ -42,7 +42,7 @@ let recoveryKp = wallet.stellar.account.createKeyPair()
 
 </WalletCodeExample>
 
-The `accountKp` is the wallet's main account. The `deviceKp` we will be adding to the wallet as a signer so a device (eg. a mobile device a wallet is hosted on) can take control of the account. And the `recoveryKp` will be used to identify the key with the recovery servers.
+The `accountKp` is the wallet's main account. The `deviceKp` we will be adding to the wallet as a signer so a device (_e.g._ a mobile device a wallet is hosted on) can take control of the account. And the `recoveryKp` will be used to identify the key with the recovery servers.
 
 Next, let's identify the recovery servers and create our recovery object:
 

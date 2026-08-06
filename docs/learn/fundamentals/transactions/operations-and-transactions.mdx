@@ -129,7 +129,7 @@ This is similar to the minimum sequence age, except it is expressed as a number 
 
 Valid if submitted with signatures that fulfill each of the extra signers
 
-A transaction can specify up to two extra signers as a precondition, meaning it must have signatures that correspond to those extra signers, even if those signatures would not otherwise be required to authorize the transaction (i.e., for its sources account or operations).
+A transaction can specify up to two extra signers as a precondition, meaning it must have signatures that correspond to those extra signers, even if those signatures would not otherwise be required to authorize the transaction (_i.e._, for its sources account or operations).
 
 The additional signers can be of any type besides the pre-authorized transaction signer since to pre-authorize a transaction, you need to know its hash, but be hash must include the extra signers. This Catch-22 relationship means including this type of extra signer will return an error.
 

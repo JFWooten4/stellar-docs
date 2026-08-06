@@ -324,11 +324,11 @@ async function submitWithSignedAuth(
 
 ### C-account (smart wallet) authorization
 
-C-accounts (contract accounts starting with `C`) cannot sign transaction envelopes—they can **only** authorize via auth entries. This is because C-accounts don't have traditional keypairs; their authorization logic is defined by the contract code itself (e.g., a smart wallet contract that verifies passkey signatures).
+C-accounts (contract accounts starting with `C`) cannot sign transaction envelopes—they can **only** authorize via auth entries. This is because C-accounts don't have traditional keypairs; their authorization logic is defined by the contract code itself (_e.g._, a smart wallet contract that verifies passkey signatures).
 
 For C-accounts:
 
-- The auth entry signature is produced by the contract's authentication mechanism (e.g., passkeys, multisig logic)
+- The auth entry signature is produced by the contract's authentication mechanism (_e.g._, passkeys, multisig logic)
 - A separate G-account must always act as the transaction source to pay fees
 - Wallet interfaces and signing utilities provide `signAuthEntry` APIs for this purpose
 

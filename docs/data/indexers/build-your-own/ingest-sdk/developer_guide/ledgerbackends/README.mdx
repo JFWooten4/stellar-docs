@@ -5,7 +5,7 @@ sidebar_position: 10
 
 A ledger backend is a source of Stellar network ledger data. The ingest SDK supports two primary ledger backends, both implementing the [ledgerbackend](https://github.com/stellar/go-stellar-sdk/blob/main/ingest/ledgerbackend/ledger_backend.go) interface. This interface always returns ledger data as [LedgerCloseMeta](#ledgerclosemeta-structure), which is XDR-encoded ledger metadata object.
 
-1. **[Captive Core](./captivecore.mdx)** – Invokes the `stellar-core` binary as a subprocess which connects to the live Stellar network and fetches network data (i.e., ledgers).
+1. **[Captive Core](./captivecore.mdx)** – Invokes the `stellar-core` binary as a subprocess which connects to the live Stellar network and fetches network data (_i.e._, ledgers).
 2. **[BufferedStorageBackend](./bufferedstoragebackend.mdx)** – Retrieves ledger metadata from cloud storage.
 3. **[RPCLedgerBackend](./rpcledgerbackend.mdx)** – Retrieves ledger metadata from an RPC server.
 

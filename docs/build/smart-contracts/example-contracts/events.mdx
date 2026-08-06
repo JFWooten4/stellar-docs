@@ -162,7 +162,7 @@ Event data will, by default, conform to the data structure in the defined `struc
 
 ### Publishing
 
-Publishing an event is done by calling the `publish` function on the created event struct. The function returns nothing on success, and panics on failure. Possible failure reasons can include malformed inputs (e.g. topic count exceeds limit) and running over the resource budget (TBD). Once successfully published, the new event will be available to applications consuming the events.
+Publishing an event is done by calling the `publish` function on the created event struct. The function returns nothing on success, and panics on failure. Possible failure reasons can include malformed inputs (_e.g._ topic count exceeds limit) and running over the resource budget (TBD). Once successfully published, the new event will be available to applications consuming the events.
 
 ```rust
 IncrementEvent { count }.publish(&env);

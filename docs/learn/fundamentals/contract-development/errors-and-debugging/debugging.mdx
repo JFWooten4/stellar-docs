@@ -25,7 +25,7 @@ Deciding between these two modes and making the most of them while debugging req
 
 ## Local-testing mode
 
-It is possible (and encouraged during development) to compile Soroban contracts **natively** (eg. as x86-64 or AArch64 code) and link against the host environment **directly**, such that the contract is not a guest running in a Wasm virtual machine at all: it is simply one native library calling another -- its host -- and both host and contract are linked together as a single program, together with a test harness.
+It is possible (and encouraged during development) to compile Soroban contracts **natively** (_e.g._ as x86-64 or AArch64 code) and link against the host environment **directly**, such that the contract is not a guest running in a Wasm virtual machine at all: it is simply one native library calling another -- its host -- and both host and contract are linked together as a single program, together with a test harness.
 
 This configuration is referred to as **"local-testing mode"** and since it eliminates the Wasm virtual machine from the debugging experience it has many advantages:
 

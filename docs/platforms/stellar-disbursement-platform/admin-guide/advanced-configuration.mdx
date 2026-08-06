@@ -111,7 +111,7 @@ To enable multi-tenancy, you must update your configuration to disable single-te
 The SDP identifies the tenant for each request using one of the following methods, in order of precedence:
 
 1.  **HTTP Header**: The `SDP-Tenant-Name` header.
-2.  **Subdomain**: The prefix of the hostname (e.g., `tenant1` in `tenant1.sdp.stellar.org`).
+2.  **Subdomain**: The prefix of the hostname (_e.g._, `tenant1` in `tenant1.sdp.stellar.org`).
 
 #### HTTP Header
 
@@ -140,7 +140,7 @@ sdp:
 
 :::note
 
-Ensure your DNS provider has a wildcard A record (e.g., `*.sdp.stellar.org`) pointing to your Ingress Controller's Load Balancer IP.
+Ensure your DNS provider has a wildcard A record (_e.g._, `*.sdp.stellar.org`) pointing to your Ingress Controller's Load Balancer IP.
 
 :::
 
@@ -245,7 +245,7 @@ The following environment variables configure the SDP backend for Embedded Walle
 | `ENABLE_EMBEDDED_WALLETS` | Enable embedded wallet features. Set to `true` to activate. | `false` | Yes |
 | `EMBEDDED_WALLETS_WASM_HASH` | The WASM hash of the deployed smart contract for embedded wallets. This is network-specific. | - | Yes (when enabled) |
 | `RPC_URL` | The URL of the Stellar RPC server. Required for interacting with smart contracts. | - | Yes (when enabled) |
-| `RPC_REQUEST_AUTH_HEADER_KEY` | The HTTP header name for authenticating requests to a protected RPC server (e.g., `X-API-Key`). Optional. | - | No |
+| `RPC_REQUEST_AUTH_HEADER_KEY` | The HTTP header name for authenticating requests to a protected RPC server (_e.g._, `X-API-Key`). Optional. | - | No |
 | `RPC_REQUEST_AUTH_HEADER_VALUE` | The value of the authentication header for protected RPC servers. Optional. | - | No |
 | `ENABLE_SEP45` | Enable SEP-45 web authentication for smart contracts. Recommended for Embedded Wallets. | `false` | No |
 | `SEP45_CONTRACT_ID` | The contract ID for SEP-45 authentication. Required when SEP-45 is enabled. | - | When SEP45 enabled |

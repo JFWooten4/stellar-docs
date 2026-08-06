@@ -47,7 +47,7 @@ stellar contract deploy \
 
 #### Generate bindings for the deployed contract
 
-Now we can (again) use the Stellar CLI to generate bindings from the contract we've just deployed. You can also generate these bindings from your local Wasm file using the `--wasm-hash` parameter. The `--overwrite` parameter is used to tell the CLI that it should output the generated bindings package, even if it finds the directory is not empty (i.e., we're re-binding a contract because we've modified the code and redeployed it).
+Now we can (again) use the Stellar CLI to generate bindings from the contract we've just deployed. You can also generate these bindings from your local Wasm file using the `--wasm-hash` parameter. The `--overwrite` parameter is used to tell the CLI that it should output the generated bindings package, even if it finds the directory is not empty (_i.e._, we're re-binding a contract because we've modified the code and redeployed it).
 
 ```shell
 stellar contract bindings typescript \

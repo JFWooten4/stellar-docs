@@ -142,7 +142,7 @@ impl AccountContract {
 }
 ```
 
-This function allows users to set and modify the per-token spend limit described above. The neat trick here is that `require_auth` can be used for the `current_contract_address()`, i.e. the account contract may be used to verify authorization for its own administrative functions. This way there is no need to write duplicate authorization and authentication logic.
+This function allows users to set and modify the per-token spend limit described above. The neat trick here is that `require_auth` can be used for the `current_contract_address()`, _i.e._ the account contract may be used to verify authorization for its own administrative functions. This way there is no need to write duplicate authorization and authentication logic.
 
 ### `__check_auth`
 
@@ -307,7 +307,7 @@ fn verify_authorization_policy(
 }
 ```
 
-We verify the policy per `Context`. i.e. per one `require_auth` call for the address of this account. The policy for the account contract itself enforces every signer to have signed the method call.
+We verify the policy per `Context`. _i.e._ per one `require_auth` call for the address of this account. The policy for the account contract itself enforces every signer to have signed the method call.
 
 ```rust
 fn verify_authorization_policy(

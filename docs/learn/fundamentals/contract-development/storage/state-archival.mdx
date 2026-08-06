@@ -33,7 +33,7 @@ The general usage and interface are identical for all storage types. They differ
 
 - Cheapest fees.
 - Permanently deleted when TTL goes to 0, cannot be restored.
-- Suitable for time-bounded data (i.e. price oracles, signatures, etc.) and easily recreateable data.
+- Suitable for time-bounded data (_i.e._ price oracles, signatures, etc.) and easily recreateable data.
 - Unlimited amount of storage.
 
 ### `Instance`
@@ -42,7 +42,7 @@ The general usage and interface are identical for all storage types. They differ
 - Archived when TTL goes to 0, is automatically restored via the `InvokeHostFunction` operation (or restored manually by using the `RestoreFootprintOp` operation in rare cases).
 - Shares the same TTL as the contract instance. If the contract instance has not been archived, instance data is guaranteed to be accessible and not archived.
 - Limited amount of storage available.
-- Suitable for "shared" contract state that cannot be `Temporary` (i.e. admin accounts, contract metadata, etc.).
+- Suitable for "shared" contract state that cannot be `Temporary` (_i.e._ admin accounts, contract metadata, etc.).
 
 ### `Persistent`
 
@@ -50,7 +50,7 @@ The general usage and interface are identical for all storage types. They differ
 - Archived when TTL goes to 0, is automatically restored via the `InvokeHostFunction` operation (or restored manually by using the `RestoreFootprintOp` operation in rare cases).
 - Does not share the same TTL as the contract instance. If the contract instance is not archived, `Persistent` data may be archived and need to be restored before invoking the contract.
 - Unlimited amount of storage.
-- Suitable for user data that cannot be `Temporary` (i.e. balances).
+- Suitable for user data that cannot be `Temporary` (_i.e._ balances).
 
 ## Contract Data Automatic Restoration
 
@@ -101,7 +101,7 @@ Here are some important points to keep in mind when it comes to archived entries
 
 ### Live Until Ledger
 
-Each `ContractData` and `ContractCode` entry has a `liveUntilLedger` field stored in its `LedgerEntry`. The entry is no longer live (i.e. either archived or deleted depending on storage type) when `current_ledger > liveUntilLedger`.
+Each `ContractData` and `ContractCode` entry has a `liveUntilLedger` field stored in its `LedgerEntry`. The entry is no longer live (_i.e._ either archived or deleted depending on storage type) when `current_ledger > liveUntilLedger`.
 
 ### TTL
 
@@ -209,7 +209,7 @@ Both restoring and extending the TTL of ledger entries follows a three-step proc
 
 1. **Identify the ledger entries**. This usually means acquiring them from a Stellar RPC server as part of your initial transaction simulation (see the [transaction simulation docs](../contract-interactions/transaction-simulation.mdx) and the [`simulateTransaction`](../../../../data/apis/rpc/api-reference/methods/simulateTransaction.mdx) RPC method).
 
-2. **Prepare your operation**. This means describing the ledger entries within the corresponding operation (i.e., `ExtendFootprintTTLOp` or `RestoreFootprintOp`) and its ledger footprint (the `SorobanTransactionData` field), then simulating it to fill out fee and resource usage information (when restoring, you usually have simulation results already).
+2. **Prepare your operation**. This means describing the ledger entries within the corresponding operation (_i.e._, `ExtendFootprintTTLOp` or `RestoreFootprintOp`) and its ledger footprint (the `SorobanTransactionData` field), then simulating it to fill out fee and resource usage information (when restoring, you usually have simulation results already).
 
 3. **Submit the transaction** and start again with what you were trying to do in the first place.
 
@@ -230,7 +230,7 @@ In the following code, we will also leverage [`Server.prepareTransaction`](https
 
 We'll start with the likeliest occurrence: my piece of persistent data is archived because I haven't interacted with my contract in a while. How do I make it accessible again?
 
-In this example, we will assume two things: the contract itself is still live (i.e. others have been extending its TTL while you've been away) and you don't know how your archived data is represented on the ledger. If you did, you could skip the steps below where we figure that out and just set up the restoration footprint directly. The process involves three discrete steps:
+In this example, we will assume two things: the contract itself is still live (_i.e._ others have been extending its TTL while you've been away) and you don't know how your archived data is represented on the ledger. If you did, you could skip the steps below where we figure that out and just set up the restoration footprint directly. The process involves three discrete steps:
 
 1. Simulate our transaction as we normally would.
 2. If the simulation indicated it, we perform restoration via [`Operation.restoreFootprint`](https://stellar.github.io/js-stellar-sdk/Operation.html#.restoreFootprint) using its hints.

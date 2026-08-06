@@ -17,7 +17,7 @@ The events from both categories are combined into a single slice (allEvents) for
 The filtering system uses Stellar data types from the Stellar Go SDK for accurate matching:
 
 - **Asset Matching**: Converts filter criteria into `xdr.Asset` objects and uses `assetPkg.NewProtoAsset()` for accurate protobuf asset comparison via `event.GetAsset().Equals(protoAsset)`
-- **Event Type Matching**: Uses the actual event type constants from the token_transfer package (e.g., `token_transfer.TransferEvent`)
+- **Event Type Matching**: Uses the actual event type constants from the token*transfer package (\_e.g.*, `token_transfer.TransferEvent`)
 - **Contract Filtering**: Matches exact contract addresses from the event metadata
 
 ```go
