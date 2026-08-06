@@ -13,11 +13,11 @@ The term "custom token" has been deprecated in favor of "contract token". View t
 
 # Token Interface
 
-Token contracts, including the Stellar Asset Contract and example token implementations expose the following common interface.
+Token contracts, including the [Stellar Asset Contract](./stellar-asset-contract.mdx) and example token implementations expose the following common interface.
 
 Tokens deployed on Soroban can implement any interface they choose, however, they should satisfy the following interface to be interoperable with contracts built to support Soroban's built-in tokens.
 
-Note, that in the specific cases the interface doesn't have to be fully implemented. For example, the contract token may not implement the administrative interface compatible with the Stellar Asset Contract - it won't stop it from being usable in the contracts that only perform the regular user operations (transfers, allowances, balances etc.).
+Note, that in the specific cases the interface doesn't have to be fully implemented. For example, the contract token may not implement the administrative interface compatible with the [Stellar Asset Contract](./stellar-asset-contract.mdx) - it won't stop it from being usable in the contracts that only perform the regular user operations (transfers, allowances, balances etc.).
 
 ### Compatibility Requirements
 
@@ -196,11 +196,11 @@ The `approve` function overwrites the previous value with `amount`, so it is pos
 
 The event shapes in the interface above are the ones a SEP-41 contract token emits. A [Stellar Asset Contract](./stellar-asset-contract.mdx) — the built-in contract every Stellar asset has — emits the same event names with **one extra topic**: the asset's [SEP-11](https://github.com/stellar/stellar-protocol/blob/master/ecosystem/sep-0011.md) identifier, always last.
 
-Code written against the shapes above will therefore mis-parse an event emitted by a Stellar Asset Contract, reading the asset identifier as a missing field or ignoring it entirely.
+Code written against the shapes above will therefore mis-parse an event emitted by a [Stellar Asset Contract](./stellar-asset-contract.mdx), reading the asset identifier as a missing field or ignoring it entirely.
 
-[CAP-0067](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0067.md) is the normative source for the Stellar Asset Contract shapes below, and for the unification of classic events described further down.
+[CAP-0067](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0067.md) is the normative source for the [Stellar Asset Contract](./stellar-asset-contract.mdx) shapes below, and for the unification of classic events described further down.
 
-| Event | SEP-41 contract token | Stellar Asset Contract |
+| Event | SEP-41 contract token | [Stellar Asset Contract](./stellar-asset-contract.mdx) |
 | --- | --- | --- |
 | `approve` | `["approve", from, spender]` | `["approve", from, spender, sep0011_asset]` |
 | `transfer` | `["transfer", from, to]` | `["transfer", from, to, sep0011_asset]` |
@@ -210,7 +210,7 @@ Code written against the shapes above will therefore mis-parse an event emitted 
 | `set_authorized` | not part of this interface | `["set_authorized", id, sep0011_asset]` |
 | `set_admin` | not part of this interface | `["set_admin", admin, sep0011_asset]` |
 
-On the Stellar Asset Contract side, the extra topic does not change the data payload: `amount: i128` for `transfer`, `mint`, `burn`, and `clawback`; `[amount: i128, live_until_ledger: u32]` for `approve`; `authorize: bool` for `set_authorized`; and `new_admin: Address` for `set_admin`. When the destination of a Stellar Asset Contract `transfer` or `mint` carries a multiplexing id, the data becomes `{ amount: i128, to_muxed_id }: Map` instead — see [Monitoring Payments as event stream](../build/guides/transactions/send-and-receive-payments.mdx#monitoring-payments-as-event-stream) for a worked example.
+On the [Stellar Asset Contract](./stellar-asset-contract.mdx) side, the extra topic does not change the data payload: `amount: i128` for `transfer`, `mint`, `burn`, and `clawback`; `[amount: i128, live_until_ledger: u32]` for `approve`; `authorize: bool` for `set_authorized`; and `new_admin: Address` for `set_admin`. When the destination of a [Stellar Asset Contract](./stellar-asset-contract.mdx) `transfer` or `mint` carries a multiplexing id, the data becomes `{ amount: i128, to_muxed_id }: Map` instead — see [Monitoring Payments as event stream](../build/guides/transactions/send-and-receive-payments.mdx#monitoring-payments-as-event-stream) for a worked example.
 
 A SEP-41 contract token keeps whatever payload the interface above documents for it, so do not carry these payload shapes back across the table.
 
@@ -222,7 +222,7 @@ When the asset issuer is one side of the transfer, the contract emits a differen
 
 #### Telling a classic operation from a contract invocation
 
-Since protocol 23, classic operations emit these same events, published under the asset's Stellar Asset Contract address whether or not that contract has been deployed — see [Tracking the movement of value](../learn/fundamentals/stellar-data-structures/events.mdx#tracking-the-movement-of-value).
+Since protocol 23, classic operations emit these same events, published under the asset's [Stellar Asset Contract](./stellar-asset-contract.mdx) address whether or not that contract has been deployed — see [Tracking the movement of value](../learn/fundamentals/stellar-data-structures/events.mdx#tracking-the-movement-of-value).
 
 Not all of them, though. `approve` and `set_admin` are never emitted by a classic operation, because no classic operation is equivalent to them: allowances and contract administration exist only on the contract side. So those two always come from a contract invocation, and the rest — `transfer`, `mint`, `burn`, `clawback`, and `set_authorized` — can come from either path.
 

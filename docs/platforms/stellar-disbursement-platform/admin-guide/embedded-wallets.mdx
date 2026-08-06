@@ -94,7 +94,7 @@ When a receiver logs in with their passkey, several things happen:
 - The backend verifies the authentication using the stored public key
 - A **wallet-auth JWT** is generated for SDP APIs (e.g., profile and RPC access)
 - The SDP **sponsors transactions** on behalf of the receiver, covering all network fees
-- Payments are made using **Stellar Asset Contract (SAC)** transfers to the smart contract address
+- Payments are made using **[Stellar Asset Contract (SAC)](../../../tokens/stellar-asset-contract.mdx)** transfers to the smart contract address
 
 ---
 
@@ -218,7 +218,7 @@ Once verification is complete, the SDP automatically transfers the disbursement 
 **Payment Process:**
 
 1. The SDP queues a payment transaction to the receiver's contract address
-2. The payment uses a **Stellar Asset Contract (SAC) transfer** to move funds from the distribution account to the contract wallet
+2. The payment uses a **[Stellar Asset Contract (SAC)](../../../tokens/stellar-asset-contract.mdx) transfer** to move funds from the distribution account to the contract wallet
 3. The transaction is **fee-sponsored** by the distribution account, so the receiver pays nothing
 4. Once confirmed on the network, the funds are available in the receiver's embedded wallet
 
@@ -242,7 +242,7 @@ To learn more about the technologies behind Embedded Wallets, check out these re
 
 - [SEP-24: Hosted Deposit and Withdrawal](https://github.com/stellar/stellar-protocol/blob/master/ecosystem/sep-0024.md) - Interactive deposit/withdrawal flow
 - [SEP-45: Smart Contract Domain Verification](https://github.com/stellar/stellar-protocol/blob/master/ecosystem/sep-0045.md) - Web authentication for smart contracts
-- [Stellar Asset Contract (SAC)](https://developers.stellar.org/docs/learn/smart-contract-internals/stellar-asset-contract) - Token standard for Stellar smart contracts
+- [Stellar Asset Contract (SAC)](../../../tokens/stellar-asset-contract.mdx) - Token standard for Stellar smart contracts
 
 ### Smart Contracts
 

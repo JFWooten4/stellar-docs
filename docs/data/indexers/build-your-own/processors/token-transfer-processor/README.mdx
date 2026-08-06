@@ -27,7 +27,7 @@ For more details on operational modes, see the [Modes of Operation](#modes-of-op
   - Claimable balance operations
   - Liquidity pool operations
   - Clawback operations
-  - Stellar Asset Contract events
+  - [Stellar Asset Contract](../../../../../tokens/stellar-asset-contract.mdx) events
   - [SEP-41](https://github.com/stellar/stellar-protocol/blob/master/ecosystem/sep-0041.md) compliant token events
 
 - Generates CAP-67 standardized token events:
@@ -85,7 +85,7 @@ Every token transfer event includes comprehensive metadata to provide context ab
 | `ledgerSequence` | `uint32` | The ledger number where this event occurred. This provides chronological ordering across the entire network. |
 | `txHash` | `string` | The transaction hash that generated this event. This allows you to trace events back to their originating transaction. |
 | `operationIndex` | `uint32*` | The one-based index of the operation within the transaction that caused this event as defined by [SEP-35](https://github.com/stellar/stellar-protocol/blob/master/ecosystem/sep-0035.md). This field is `nil` for transaction-level events like fees. |
-| `contractAddress` | `string` | The contract address associated with the asset/token being moved. For classic operations or Stellar Asset Contract Events, this field will be the contractId of the underlying classic asset. This enables integration with Stellar's smart contract ecosystem. |
+| `contractAddress` | `string` | The contract address associated with the asset/token being moved. For classic operations or [Stellar Asset Contract](../../../../../tokens/stellar-asset-contract.mdx) events, this field will be the contractId of the underlying classic asset. This enables integration with Stellar's smart contract ecosystem. |
 
 :::note
 

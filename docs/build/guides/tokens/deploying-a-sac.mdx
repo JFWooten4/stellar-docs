@@ -33,7 +33,7 @@ Before you begin, make sure you have the following:
 
 ## 1. Define the SacDeployer contract
 
-The SacDeployer contract will be responsible for deploying the Stellar Asset Contract. Here is the code for the SacDeployer contract:
+The SacDeployer contract will be responsible for deploying the [Stellar Asset Contract](../../../tokens/stellar-asset-contract.mdx). Here is the code for the SacDeployer contract:
 
 ```rust title="lib.rs"
 use soroban_sdk::{contract, contractimpl, Env, Address, Bytes};
@@ -59,7 +59,7 @@ impl SacDeployer {
 
 - `SacDeployer` contract: this contract defines the `deploy_sac` function to handle the deployment of the SAC.
 - `deploy_sac` function:
-  - `env.deployer().with_stellar_asset(serialized_asset)`: creates a deployer configured to deploy a Stellar Asset Contract using the provided serialized asset.
+  - `env.deployer().with_stellar_asset(serialized_asset)`: creates a deployer configured to deploy a [Stellar Asset Contract](../../../tokens/stellar-asset-contract.mdx) using the provided serialized asset.
   - `deployer.deploy()`: Deploys the SAC and returns the address of the deployed contract.
 
 ## 2. Testing the deployment
@@ -95,6 +95,6 @@ fn test() {
 
 ### Conclusion
 
-By following this guide, you’ve successfully deployed a Stellar Asset Contract from within another contract using the Soroban Rust SDK. This approach enables smart contracts to handle SAC deployments dynamically, providing flexibility for various use cases in the Stellar ecosystem.
+By following this guide, you’ve successfully deployed a [Stellar Asset Contract](../../../tokens/stellar-asset-contract.mdx) from within another contract using the Soroban Rust SDK. This approach enables smart contracts to handle SAC deployments dynamically, providing flexibility for various use cases in the Stellar ecosystem.
 
 For further details, refer to the Soroban SDK documentation and explore more advanced features and configurations.

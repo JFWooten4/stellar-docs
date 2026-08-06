@@ -141,7 +141,7 @@ For a detailed code example, see the section 'Monitoring Payments -> Using the H
 
 Since the release of the Unified Asset Events ([CAP-67](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0067.md)) on Protocol 23, a number of transactions involving Stellar assets now emit standardized events that can be ingested by both the Horizon API and the Stellar RPC. If funds are sent through a 'payment' operation or by invoking the 'transfer' function of the asset contract, the same kind of event is emitted for both cases.
 
-To monitor these payments, the method '[getEvents](../../../data/apis/rpc/api-reference/methods/getEvents.mdx)' of the Stellar RPC is used to stream events emitted by the Stellar Asset Contract. A filter can be used to specify the target asset (SAC contract ID) and accounts.
+To monitor these payments, the method '[getEvents](../../../data/apis/rpc/api-reference/methods/getEvents.mdx)' of the Stellar RPC is used to stream events emitted by the [Stellar Asset Contract](../../../tokens/stellar-asset-contract.mdx). A filter can be used to specify the target asset (SAC contract ID) and accounts.
 
 **From a G address**
 
