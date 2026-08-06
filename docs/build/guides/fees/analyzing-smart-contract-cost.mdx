@@ -6,6 +6,31 @@ description: Create efficient and cost-effective contracts
 
 Several factors influence how quickly and efficiently your smart contracts execute on the Stellar network. This guide will help you understand these factors and provide tips on how to write cost-effective contracts.
 
+## Measure before you optimize
+
+Contract cost is multidimensional. CPU and memory are important, but a transaction can also reach limits for ledger entry reads and writes, bytes read and written, event and return-value size, transaction size, or individual ledger entry size. Review [how fees, resource limits, and metering work](../../../learn/fundamentals/fees-resource-limits-metering.mdx), and compare measurements with the current [network limits](https://lab.stellar.org/network-limits) instead of copying fixed values into tests. Network configuration can change through validator votes.
+
+Use several layers of measurement during development:
+
+1. Run unit tests frequently to catch regressions in CPU and memory use.
+2. For realistic cost comparisons, build optimized Wasm and test the compiled contract. Native Rust tests do not include costs such as Wasm execution, VM instantiation, or dispatching host functions. The [integration testing guide](../testing/integration-tests.mdx) shows how to import and register a built Wasm file in a test.
+3. Use `stellar contract invoke --cost` or [`simulateTransaction`](../../../data/apis/rpc/api-reference/methods/simulateTransaction.mdx) to inspect the full transaction footprint and resource estimate without committing state.
+4. Test representative worst-case inputs and complete cross-contract call trees. Optimize the largest resource consumers, then repeat the same measurements to verify the improvement.
+
+Simulation estimates execution against a recent ledger snapshot. It is useful for comparing implementations, but it does not guarantee inclusion or success: ledger state, network contention, inclusion fees, and the network configuration can change before submission.
+
+:::info[Historical walkthroughs]
+
+The archived **Cost Driven Smart Contract Development** articles provide worked examples of [reducing host calls and allocations (Part 1)](https://web.archive.org/web/20240314173512/https://kalepail.com/blockchain/show-me-the-bill-part-1) and [measuring a wider range of transaction resources (Part 2)](https://web.archive.org/web/20240314173517/https://kalepail.com/blockchain/show-me-the-bill-part-2). They were written in 2024, so some commands, SDK APIs, and numeric network limits shown there are outdated. Use the current documentation linked above for those details.
+
+:::
+
+## Minimize host and guest boundary crossings
+
+Smart contracts execute as Wasm in the **guest**, while storage, cryptography, events, cross-contract calls, and SDK container objects are implemented by the **host**. Each host operation is metered. See [Environment Concepts](../../../learn/fundamentals/contract-development/environment-concepts.mdx#host-and-guest) for details.
+
+Host functions provide essential shared functionality and are often more efficient than reimplementing complex operations in Wasm. However, repeatedly moving or modifying data through host objects inside a tight loop can be expensive. For example, mutating a large `Bytes` value one element at a time may perform a host call and create a new immutable host object for every update. When practical, do local computation in fixed-size Rust arrays or other guest values, convert the completed value to an SDK host type once, and then call the required host function. Measure both approaches because the best boundary depends on the operation and input size.
+
 ## How to optimize smart contract cost:
 
 Complex contracts with numerous conditions, loops, and computations require more processing power on Stellar. This can lead to higher gas costs (transaction fees) and slower execution times.
