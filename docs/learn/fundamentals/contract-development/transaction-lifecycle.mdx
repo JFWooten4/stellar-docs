@@ -1,0 +1,17 @@
+---
+sidebar_position: 50
+title: Transaction Lifecycle
+description: Understand how smart contract transactions are simulated, submitted, and confirmed.
+---
+
+Smart contract transactions follow the same lifecycle as other Stellar transactions, with an additional [simulation step](./contract-interactions/transaction-simulation.mdx) before signing and submission. Simulation, previously called preflight, runs the transaction against a recent ledger snapshot without committing its effects. It identifies the ledger footprint, resource limits and fees, and authorization entries required for the invocation. The client assembles this simulation output into the transaction before collecting signatures.
+
+Because ledger state can change between simulation and execution, simulation does not guarantee that a transaction will succeed. Clients should set appropriate time or ledger bounds and handle failures caused by stale state by rebuilding and simulating the transaction again.
+
+Submission through Stellar RPC is asynchronous. [`sendTransaction`](../../../data/apis/rpc/api-reference/methods/sendTransaction.mdx) validates and queues the transaction, then returns its hash and an initial status rather than waiting for a ledger to close. Use that hash with [`getTransaction`](../../../data/apis/rpc/api-reference/methods/getTransaction.mdx), or an SDK polling helper, until the transaction reaches a final `SUCCESS` or `FAILED` status. A temporary `NOT_FOUND` response can occur before RPC ingests the ledger containing the transaction.
+
+:::info
+
+For the complete network-wide process, from transaction creation and signing through propagation, consensus, and application, see [Transaction Lifecycle](../transactions/transaction-lifecycle.mdx).
+
+:::
