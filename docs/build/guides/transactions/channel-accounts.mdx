@@ -204,24 +204,27 @@ public static void main(String[] args) {
 package main
 
 import (
+  "context"
+
   "github.com/stellar/go-stellar-sdk/clients/horizonclient"
+  "github.com/stellar/go-stellar-sdk/clients/rpcclient"
   "github.com/stellar/go-stellar-sdk/keypair"
   "github.com/stellar/go-stellar-sdk/network"
-  "github.com/stellar/go-stellar-sdk/protocols/horizon"
   "github.com/stellar/go-stellar-sdk/txnbuild"
 )
 
 func main() {
   server := horizonclient.DefaultTestNetClient
+  rpcClient := rpcclient.NewClient("https://soroban-testnet.stellar.org", nil)
+  defer rpcClient.Close()
+  ctx := context.Background()
 
   secretKey := "SDY5TRQSEUSHS7UX26QMNMZ4X543UWZQPJZ7LQQUA3NAKDFVYTAWAB74"
   sourceKeypair, _ := keypair.ParseFull(secretKey)
-  sourceAccount, _ := server.AccountDetail(horizonclient.AccountRequest{
-    AccountID: sourceKeypair.Address(),
-  })
+  sourceAccount, _ := rpcClient.LoadAccount(ctx, sourceKeypair.Address())
 
   txParams := txnbuild.TransactionParams{
-    SourceAccount:        &sourceAccount,
+    SourceAccount:        sourceAccount,
     IncrementSequenceNum: true,
     BaseFee:              100,
     Network:              network.TestNetworkPassphrase,
@@ -503,6 +506,9 @@ func main() {
   }
 
   server := horizonclient.DefaultTestNetClient
+  rpcClient := rpcclient.NewClient("https://soroban-testnet.stellar.org", nil)
+  defer rpcClient.Close()
+  ctx := context.Background()
 
   var channelKeypairs []*keypair.Full
   for _, secret := range channelAccountSecrets {
@@ -511,10 +517,9 @@ func main() {
     channelKeypairs = append(channelKeypairs, kp)
   }
 
-  var channelAccounts []horizon.Account
+  var channelAccounts []txnbuild.Account
   for _, kp := range channelKeypairs {
-    accountRequest := horizonclient.AccountRequest{AccountID: kp.Address()}
-    account, err := server.AccountDetail(accountRequest)
+    account, err := rpcClient.LoadAccount(ctx, kp.Address())
     check(err)
     channelAccounts = append(channelAccounts, account)
   }
@@ -522,9 +527,6 @@ func main() {
   // Example hot primary account, generally only use the public key with pre-signed tx
   primaryAccountSecret := "SB6NB3SRNRQTHUXF7PQPWJP7RWY2LCL43IDWRUUSXKJOTY5SBUOVPKWL"
   primaryKeypair, err := keypair.ParseFull(primaryAccountSecret)
-  check(err)
-  primaryAccountRequest := horizonclient.AccountRequest{AccountID: primaryKeypair.Address()}
-  primaryAccount, err := server.AccountDetail(primaryAccountRequest)
   check(err)
 
   // 500 example recipients
@@ -544,14 +546,14 @@ func main() {
         Destination: recipients,
         Amount:      "10",
         Asset:       txnbuild.NativeAsset{},
-        SourceAccount: &primaryKeypair.Address(),
+        SourceAccount: primaryKeypair.Address(),
       }
       txOps = append(txOps, &paymentOp)
     }
 
     tx, err := txnbuild.NewTransaction(
       txnbuild.TransactionParams{
-        SourceAccount:        &channelAccount,
+        SourceAccount:        channelAccount,
         IncrementSequenceNum: true,
         Operations:           txOps,
         BaseFee:              640,

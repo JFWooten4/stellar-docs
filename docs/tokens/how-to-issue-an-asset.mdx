@@ -261,19 +261,22 @@ Transaction transaction = new TransactionBuilder(distributorAccount, Network.TES
 
 ```go
 import (
-  "github.com/stellar/go-stellar-sdk/clients/horizonclient"
+  "context"
+
+  "github.com/stellar/go-stellar-sdk/clients/rpcclient"
   "github.com/stellar/go-stellar-sdk/keypair"
   "github.com/stellar/go-stellar-sdk/network"
   "github.com/stellar/go-stellar-sdk/txnbuild"
 )
 
-client := horizonclient.DefaultTestNetClient
-distributorAccountRequest := horizonclient.AccountRequest{AccountID: distributorKeypair.Address()}
-distributorAccount, _ := client.AccountDetail(distributorAccountRequest)
+rpcClient := rpcclient.NewClient("https://soroban-testnet.stellar.org", nil)
+defer rpcClient.Close()
+ctx := context.Background()
+distributorAccount, _ := rpcClient.LoadAccount(ctx, distributorKeypair.Address())
 
 transaction, _ := txnbuild.NewTransaction(
   txnbuild.TransactionParams{
-    SourceAccount:        &distributorAccount,
+    SourceAccount:        distributorAccount,
     IncrementSequenceNum: true,
     BaseFee:              txnbuild.MinBaseFee,
     Operations: []txnbuild.Operation{
@@ -339,7 +342,7 @@ Transaction transaction = new TransactionBuilder(...)
 // to show that these operations can be "chained" together.
 transaction, _ := txnbuild.NewTransaction(
   txnbuild.TransactionParams{
-    SourceAccount:        &issuerAccount,
+    SourceAccount:        issuerAccount,
     IncrementSequenceNum: true,
     BaseFee:              txnbuild.MinBaseFee,
     Operations: []txnbuild.Operation{
@@ -405,7 +408,7 @@ Transaction lockAccountTransaction = new TransactionBuilder(...)
 ```go
 lockAccountTransaction, _ := txnbuild.NewTransaction(
   txnbuild.TransactionParams{
-    SourceAccount:        &issuerAccount,
+    SourceAccount:        issuerAccount,
     IncrementSequenceNum: true,
     BaseFee:              txnbuild.MinBaseFee,
     Operations: []txnbuild.Operation{
@@ -475,12 +478,11 @@ Transaction transaction = new TransactionBuilder(...)
 ```
 
 ```go
-issuerAccountRequest := horizonclient.AccountRequest{AccountID: issuerKeypair.Address()}
-issuerAccount, _ := client.AccountDetail(issuerAccountRequest)
+issuerAccount, _ := rpcClient.LoadAccount(ctx, issuerKeypair.Address())
 
 transaction, _ := txnbuild.NewTransaction(
   txnbuild.TransactionParams{
-    SourceAccount:        &issuerAccount,
+    SourceAccount:        issuerAccount,
     IncrementSequenceNum: true,
     BaseFee:              txnbuild.MinBaseFee,
     Operations: []txnbuild.Operation{
@@ -676,7 +678,10 @@ server.submitTransaction(sendAstroDollars);
 package main
 
 import (
+  "context"
+
   "github.com/stellar/go-stellar-sdk/clients/horizonclient"
+  "github.com/stellar/go-stellar-sdk/clients/rpcclient"
   "github.com/stellar/go-stellar-sdk/keypair"
   "github.com/stellar/go-stellar-sdk/network"
   "github.com/stellar/go-stellar-sdk/txnbuild"
@@ -685,6 +690,9 @@ import (
 
 func main() {
   client := horizonclient.DefaultTestNetClient
+  rpcClient := rpcclient.NewClient("https://soroban-testnet.stellar.org", nil)
+  defer rpcClient.Close()
+  ctx := context.Background()
 
   // Remember, these are just examples, so replace them with your own seeds.
   issuerSeed := "SDR4C2CKNCVK4DWMTNI2IXFJ6BE3A6J3WVNCGR6Q3SCMJDTSVHMJGC6U"
@@ -699,11 +707,8 @@ func main() {
   issuer, err := keypair.ParseFull(issuerSeed)
   distributor, err := keypair.ParseFull(distributorSeed)
 
-  request := horizonclient.AccountRequest{AccountID: issuer.Address()}
-  issuer_account, err := client.AccountDetail(request)
-
-  request = horizonclient.AccountRequest{AccountID: distributor.Address()}
-  distributorAccount, err := client.AccountDetail(request)
+  issuerAccount, err := rpcClient.LoadAccount(ctx, issuer.Address())
+  distributorAccount, err := rpcClient.LoadAccount(ctx, distributor.Address())
 
   // Create an object to represent the new asset
   astroDollar := txnbuild.CreditAsset{Code: "AstroDollar", Issuer: issuer.Address()}
@@ -712,7 +717,7 @@ func main() {
   // issuer.
   tx, err := txnbuild.NewTransaction(
     txnbuild.TransactionParams{
-      SourceAccount:        distributorAccount.AccountID,
+      SourceAccount:        distributorAccount,
       IncrementSequenceNum: true,
       BaseFee:              txnbuild.MinBaseFee,
       Preconditions: txnbuild.Preconditions{
@@ -738,7 +743,7 @@ func main() {
   // Second, the issuing account actually sends a payment using the asset
   tx, err = txnbuild.NewTransaction(
     txnbuild.TransactionParams{
-      SourceAccount:        issuer_account.AccountID,
+      SourceAccount:        issuerAccount,
       IncrementSequenceNum: true,
       BaseFee:              txnbuild.MinBaseFee,
       Preconditions: txnbuild.Preconditions{

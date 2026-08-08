@@ -252,10 +252,13 @@ server.submitTransaction(setHomeDomain);
 ```go
 func main() {
 	client := horizonclient.DefaultTestNetClient
+	rpcClient := rpcclient.NewClient("https://soroban-testnet.stellar.org", nil)
+	defer rpcClient.Close()
+	ctx := context.Background()
 
 	// Keys for issuing account
 	issuingKeypair := keypair.MustParseFull("SCZANGBA5YHTNYVVV4C3U252E2B6P6F5T3U6MM63WBSBZATAQI3EBTQ4")
-	issuingAccount, err := client.AccountDetail(horizonclient.AccountRequest{AccountID: issuingKeypair.Address()})
+	issuingAccount, err := rpcClient.LoadAccount(ctx, issuingKeypair.Address())
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -263,7 +266,7 @@ func main() {
 	// Build the transaction
   tx, err := txnbuild.NewTransaction(
     txnbuild.TransactionParams{
-      SourceAccount:        &issuingAccount,
+      SourceAccount:        issuingAccount,
       IncrementSequenceNum: true,
       BaseFee:              txnbuild.MinBaseFee,
       Preconditions:        txnbuild.Preconditions{TimeBounds: txnbuild.NewTimeout(100)},
