@@ -159,7 +159,7 @@ Once the sending organization has registered the customers involved in the trans
 
 ### Firm vs. Indicative Quotes
 
-Requests for quotes will have a `type` parameter that is either [`indicative`][indicative] or [`firm`][firm]. If `type=firm`, your response must include the `id` & `expires_at` date-time field and reserve the liquidity needed to fulfil this quote until the quote expires. If `type=indicative`, do not return `id` or `expires_at` fields because the rate provided will not be used in a transaction.
+Requests for quotes will have a `type` parameter that is either `indicative` or `firm`. An indicative quote is an estimate that will not be used in a transaction, while a firm quote commits your business to the quoted rate until it expires. If `type=firm`, your response must include the `id` and `expires_at` date-time fields and reserve the liquidity needed to fulfill this quote until it expires. If `type=indicative`, do not return `id` or `expires_at` fields.
 
 Note that the client may request that the quote expires after a specific date-time using the `expires_after` parameter. Your business must honor this request by returning an `expires_at` value that is at or after the requested date-time or reject the request with a 400 Bad Request response, which will be forwarded to the client.
 
@@ -604,8 +604,6 @@ items:
 [ap-sep10]: ../sep10/README.mdx
 [sep12]: https://github.com/stellar/stellar-protocol/blob/master/ecosystem/sep-0012.md
 [demo-wallet]: https://demo-wallet.stellar.org
-[indicative]: https://www.investopedia.com/terms/i/indicativequote.asp
-[firm]: https://www.investopedia.com/terms/f/firmquote.asp
 [get-customer]: ../../api-reference/callbacks/get-customer.api.mdx
 [put-customer]: ../../api-reference/callbacks/put-customer.api.mdx
 [get-rate]: ../../api-reference/callbacks/get-rates.api.mdx
