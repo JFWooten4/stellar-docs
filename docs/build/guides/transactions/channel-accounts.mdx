@@ -861,9 +861,8 @@ func main() {
 
   // index = 0-4 in our example
   for index, account := range channelAccounts {
-    simpleAccount := txnbuild.NewSimpleAccount(account.AccountID, account.Sequence)
 		channelAccountsTracker[index] = map[string]interface{}{
-			"account": &simpleAccount,
+			"account": account,
 			"keypair": channelKeypairs[index],
 			"state":   "available",
 		}
@@ -883,7 +882,7 @@ func main() {
 			if channelData["state"] == "available" {
 				channelData["state"] = "active"
 
-				sourceAccount := channelData["account"].(*txnbuild.SimpleAccount)
+				sourceAccount := channelData["account"].(txnbuild.Account)
 				txBundle := txnbuild.TransactionParams{
 					SourceAccount:        sourceAccount,
 					BaseFee:              txnbuild.MinBaseFee * 10,
