@@ -2,7 +2,7 @@
 
 Thank you for helping make the [Stellar developer docs](https://developers.stellar.org) better! 🎉
 
-This document covers how we work: what makes a PR easy to merge, the conventions we hold the content to, and the policies we apply to changes to the site itself. For environment setup, repository structure, and our custom markdown features, see the [README](README.md).
+This document covers how we work: what makes a PR easy to merge, the conventions we hold the content to, and the policies we apply to changes to the site itself. Learn more about environment setup, repository structure, and our custom markdown features in the [README](README.md).
 
 Before diving in, please read the org-wide [Stellar Contribution Guide](https://github.com/stellar/.github/blob/master/CONTRIBUTING.md) and [Code of Conduct](https://github.com/stellar/.github/blob/master/CODE_OF_CONDUCT.md).
 
@@ -43,7 +43,7 @@ These guidelines exist because they're the difference between a PR that merges i
 
 ## Development Quickstart
 
-We use [pnpm](https://pnpm.io/). See the [README](README.md#quick-start) for full setup.
+We use [pnpm](https://pnpm.io/). Learn more about setup in the [README's Quick Start section](README.md#quick-start).
 
 ```bash
 pnpm install        # install dependencies

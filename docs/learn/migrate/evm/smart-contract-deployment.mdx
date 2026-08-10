@@ -281,7 +281,7 @@ In this project we will need to create 3 files:
 - `src/test.rs` - This is where we will write our tests.
 - `src/token.rs` - This is file inherits the token contact that we imported earlier. It's also where we will write our token creation logic.
 
-To interact with the token contract, we'll use a built in interface that you can find in the `token_interface.rs` tab. The token sets its admin and metadata in a `__constructor` function, which the host runs as part of the deployment itself, and exposes a `mint` function that we will use to mint tokens for our vault contract. Because the constructor runs at deployment, there is no separate initialization call to make — or to front-run. If you want to see the full code of the token contract, you can check it out [here](https://github.com/stellar/soroban-examples/tree/main/token/src).
+To interact with the token contract, we'll use a built in interface that you can find in the `token_interface.rs` tab. The token sets its admin and metadata in a `__constructor` function, which the host runs as part of the deployment itself, and exposes a `mint` function that we will use to mint tokens for our vault contract. Because the constructor runs at deployment, there is no separate initialization call to make — or to front-run. You can also view the [full token contract source](https://github.com/stellar/soroban-examples/tree/main/token/src).
 
 <Tabs>
 <TabItem value="lib.rs" label="src/lib.rs">

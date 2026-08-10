@@ -59,9 +59,9 @@ let u64 = new xdr.Uint64("1_000_000_000_000_000");
 u64 = new xdr.Uint64(1_000_000_000_000_000n);
 ```
 
-You can see the full set of options to construct a `Uint64` in the definition for `UnsignedHyper` in the TypeScript definition here: [curr.d.ts](https://github.com/stellar/js-stellar-base/blob/master/types/curr.d.ts#L127-L136). In fact, this file should be your primary guide to navigating the XDR if you're using JavaScript.
+Learn more about the full set of options for constructing a `Uint64` in the [`UnsignedHyper` TypeScript definition](https://github.com/stellar/js-stellar-base/blob/master/types/curr.d.ts#L127-L136). In fact, this file should be your primary guide to navigating the XDR if you're using JavaScript.
 
-Other languages, such as Python (see `stellar-sdk`'s [uint64.html](https://stellar-sdk.readthedocs.io/en/stable/_modules/stellar_sdk/xdr/uint64.html) documentation), support arbitrarily-sized integers by default, so there are no such variations:
+Other languages, such as Python (learn more in the [`stellar-sdk` `uint64` documentation](https://stellar-sdk.readthedocs.io/en/stable/_modules/stellar_sdk/xdr/uint64.html)), support arbitrarily-sized integers by default, so there are no such variations:
 
 ```python
 from stellar_sdk import xdr
@@ -117,7 +117,7 @@ else:
 
 </CodeExample>
 
-You can see the references for these in the documentation ([Python](https://stellar-sdk.readthedocs.io/en/stable/api.html#scaddress) and [JavaScript](https://github.com/stellar/js-stellar-base/blob/master/types/curr.d.ts#L13881-L13886), respectively).
+Learn more in the corresponding documentation for [Python](https://stellar-sdk.readthedocs.io/en/stable/api.html#scaddress) and [JavaScript](https://github.com/stellar/js-stellar-base/blob/master/types/curr.d.ts#L13881-L13886).
 
 It's worth noting that you _could_ just use the defined enum constants directly, e.g.
 
@@ -142,7 +142,7 @@ switch (scAddr.switch().value) {
 
 However, this is generally more error-prone and harder to read. You can also refer to them by their _name_ (`.name` in JS and `str(...)` in Python): this is marginally better for readability but worse for performance since you're doing string comparisons. It's very useful for logs, user-facing rendering, or other debugging, though.
 
-Unions appear in _many_ places throughout the XDR and they can be just one arm or a whole _bunch_ of arms. For example, the **s**mart **c**ontract **val**ue `ScVal` has 22 possible values since it's the universal representation for a value inside of a smart contract. You can see all of them being inspected in the JavaScript utility [`scValToNative`](https://stellar.github.io/js-stellar-sdk/js-stellar-base_src_scval.js.html#line279).
+Unions appear in _many_ places throughout the XDR and they can be just one arm or a whole _bunch_ of arms. For example, the **s**mart **c**ontract **val**ue `ScVal` has 22 possible values since it's the universal representation for a value inside of a smart contract. Learn more about how the JavaScript utility [`scValToNative`](https://stellar.github.io/js-stellar-sdk/js-stellar-base_src_scval.js.html#line279) inspects them.
 
 Remember, XDR is the lowest level of communication on the Stellar Network. Generally speaking, there are high-level abstractions that should help with these structures. For example, the above parsing routine is exactly the purpose of the [`Address.fromScAddress`](https://stellar.github.io/js-stellar-sdk/Address.html#.fromScAddress) and [`Address.from_xdr_sc_address`](https://stellar-sdk.readthedocs.io/en/stable/api.html#stellar_sdk.address.Address) abstractions in the JavaScript and Python SDKs, respectively. This greatly simplifies your code:
 
