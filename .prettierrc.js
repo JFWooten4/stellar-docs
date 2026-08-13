@@ -2,9 +2,9 @@ module.exports = {
   ...require("@stellar/prettier-config"),
   overrides: [
     {
-      files: "*.mdx",
+      files: ["*.md", "*.mdx"],
       options: {
-        proseWrap: "never", // Minimize `mdx` diffs with simpler content lines
+        proseWrap: "never", // Minimize Markdown and MDX diffs with simpler content lines
       },
     },
   ],
