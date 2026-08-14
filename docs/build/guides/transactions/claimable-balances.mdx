@@ -39,7 +39,7 @@ A ClaimPredicate is a recursive data structure that can be used to construct com
 - Can claim between X and Y Unix timestamps (given X < Y) - `AND(NOT(BEFORE_ABSOLUTE_TIME(X))`, `BEFORE_ABSOLUTE_TIME(Y))`
 - Can claim outside X and Y Unix timestamps (given X < Y) - `OR(BEFORE_ABSOLUTE_TIME(X)`, `NOT(BEFORE_ABSOLUTE_TIME(Y))`
 
-`ClaimableBalanceID` ClaimableBalanceID is a union with one possible type (`CLAIMABLE_BALANCE_ID_TYPE_V0`). It contains an SHA-256 hash of the OperationID for Claimable Balances.
+`ClaimableBalanceID` is a union with one possible type (`CLAIMABLE_BALANCE_ID_TYPE_V0`). It contains an SHA-256 hash of the OperationID for Claimable Balances and has a [`B...` StrKey representation](../../../learn/fundamentals/data-format/strkey.mdx#claimable-balance-ids).
 
 A successful Create Claimable Balance operation will return a Balance ID, which is required when claiming the ClaimableBalanceEntry with the Claim Claimable Balance operation.
 

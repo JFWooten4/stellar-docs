@@ -1,0 +1,43 @@
+---
+title: StrKey Encoding
+sidebar_position: 3
+description: Understand Stellar's checksummed Base32 encoding for typed identifiers.
+---
+
+A StrKey (string key) is Stellar's human-readable encoding for a typed binary identifier. Despite the name, not every StrKey represents a cryptographic key: contract IDs, liquidity pool IDs, and claimable balance IDs also use this format.
+
+## Encoding
+
+A StrKey encodes the following byte sequence using uppercase Base32 without padding:
+
+```text
+version byte || payload || CRC16-XModem checksum
+```
+
+The two-byte checksum is calculated over the version byte and payload and stored in little-endian order. The version byte identifies the payload type and produces the recognizable first character.
+
+| Prefix | Identifier                        | Payload      |
+| ------ | --------------------------------- | ------------ |
+| `G`    | Ed25519 public key (account ID)   | 32 bytes     |
+| `S`    | Ed25519 secret seed               | 32 bytes     |
+| `M`    | Muxed account                     | 40 bytes     |
+| `T`    | Pre-authorized transaction signer | 32 bytes     |
+| `X`    | Hash-X signer                     | 32 bytes     |
+| `P`    | Ed25519 signed-payload signer     | 40–100 bytes |
+| `C`    | Contract ID                       | 32 bytes     |
+| `L`    | Liquidity pool ID                 | 32 bytes     |
+| `B`    | Claimable balance ID              | 33 bytes     |
+
+The prefix alone does not make a StrKey valid. A decoder must also verify the Base32 encoding, version byte, payload length, and checksum. The checksum detects accidental corruption; it does not authenticate the value. Treat `S...` secret-seed StrKeys as credentials and never expose them.
+
+Use a Stellar SDK or the [`stellar-strkey` reference implementation](https://docs.rs/stellar-strkey) to encode and validate StrKeys instead of implementing the format manually.
+
+## Claimable balance IDs
+
+A V0 claimable balance payload contains a one-byte `00` discriminant followed by its 32-byte hash, so its `B...` StrKey is 58 characters long. The same logical ID encoded as XDR hex uses the four-byte `00000000` union discriminant followed by the hash, producing 72 hexadecimal characters. Check which representation an API or SDK expects before passing the ID.
+
+For example, the Python SDK [encodes and decodes](https://github.com/StellarCN/py-stellar-base/blob/96c1910a84ffe1ae926b8dc77daee9c3e8afa937/tests/test_strkey.py#L326-L344) the payload `003f0c34bf93ad0d9971d04ccc90f705511c838aad9734a4a2fb0d7a03fc7fe89a` as:
+
+```text
+BAAD6DBUX6J22DMZOHIEZTEQ64CVCHEDRKWZONFEUL5Q26QD7R76RGR4TU
+```
