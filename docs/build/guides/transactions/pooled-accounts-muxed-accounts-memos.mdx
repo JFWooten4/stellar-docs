@@ -18,7 +18,7 @@ We used memos in the past for this purpose, however, using muxed accounts is bet
 
 A pooled account allows a single Stellar account ID to be shared across many users. Generally, services that use pooled accounts track their customers in a separate, internal database and use the muxed accounts feature to map an incoming and outgoing payment to the corresponding internal customer.
 
-The benefits of using a pooled account are lower costs – no base reserves are needed for each account – and lower key complexity – you only need to manage one account keypair. However, with a single pooled account, it is now your responsibility to manage all individual customer balances and payments. You can no longer rely on the Stellar ledger to accumulate value, handle errors and atomicity, or manage transactions on an account-by-account basis.
+The benefits of using a pooled account are lower costs – no [base reserves](../../../learn/fundamentals/lumens.mdx#base-reserves) are needed for each account – and lower key complexity – you only need to manage one account keypair. However, with a single pooled account, it is now your responsibility to manage all individual customer balances and payments. You can no longer rely on the Stellar ledger to accumulate value, handle errors and atomicity, or manage transactions on an account-by-account basis.
 
 ## Muxed accounts
 

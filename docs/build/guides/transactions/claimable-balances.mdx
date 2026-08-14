@@ -15,7 +15,7 @@ Claimable balances allow an account to send a payment to another account that is
 
 It is important to note that if a claimable balance isn’t claimed, it sits on the ledger forever, taking up space and ultimately making the network less efficient. **For this reason, it is a good idea to put one of your own accounts as a claimant for a claimable balance.** Then you can accept your own claimable balance if needed, freeing up space on the network.
 
-Each ClaimableBalanceEntry is a ledger entry, and each claimant in that entry increases the source account’s minimum balance by one base reserve.
+Each ClaimableBalanceEntry is a ledger entry, and each claimant in that entry increases the source account’s minimum balance by one [base reserve](../../../learn/fundamentals/lumens.mdx#base-reserves).
 
 Once a ClaimableBalanceEntry has been claimed, it is deleted.
 
