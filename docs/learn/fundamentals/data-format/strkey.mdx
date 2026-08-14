@@ -8,25 +8,29 @@ A StrKey (string key) is Stellar's human-readable encoding for a typed binary id
 
 ## Encoding
 
-A StrKey encodes the following byte sequence using uppercase Base32 without padding:
+A StrKey [encodes](https://github.com/stellar/rs-stellar-strkey/blob/0f133c3c87dccc0e6a8e67182230658970f7d660/src/convert.rs#L62-L75) the following byte sequence using uppercase Base32 without padding:
 
 ```text
 version byte || payload || CRC16-XModem checksum
 ```
 
-The two-byte checksum is calculated over the version byte and payload and stored in little-endian order. The version byte identifies the payload type and produces the recognizable first character.
+The two-byte checksum is calculated over the version byte and payload and stored in little-endian order. The version byte identifies the payload type. Its high five bits become the first Base32 symbol, producing the recognizable prefix; the low three bits are zero in every currently assigned version byte. For example, the `M` version is `0x60`, or `01100000` in binary, so its first five bits are `01100`, the Base32 value for `M`.
 
-| Prefix | Identifier                        | Payload      |
-| ------ | --------------------------------- | ------------ |
-| `G`    | Ed25519 public key (account ID)   | 32 bytes     |
-| `S`    | Ed25519 secret seed               | 32 bytes     |
-| `M`    | Muxed account                     | 40 bytes     |
-| `T`    | Pre-authorized transaction signer | 32 bytes     |
-| `X`    | Hash-X signer                     | 32 bytes     |
-| `P`    | Ed25519 signed-payload signer     | 40–100 bytes |
-| `C`    | Contract ID                       | 32 bytes     |
-| `L`    | Liquidity pool ID                 | 32 bytes     |
-| `B`    | Claimable balance ID              | 33 bytes     |
+The [canonical version-byte assignments](https://github.com/stellar/rs-stellar-strkey/blob/0f133c3c87dccc0e6a8e67182230658970f7d660/src/typ.rs) and [reference encoders](https://github.com/stellar/rs-stellar-strkey/tree/0f133c3c87dccc0e6a8e67182230658970f7d660/src) define these decoded payloads:
+
+| Prefix | Leading bits | Version byte | Identifier | Decoded StrKey payload |
+| --- | --- | --- | --- | --- |
+| `G` | `00110` | `0x30` | Ed25519 public key (account ID) | 32-byte Ed25519 public key |
+| `S` | `10010` | `0x90` | Ed25519 secret seed | 32-byte Ed25519 seed |
+| `M` | `01100` | `0x60` | Muxed account | 32-byte Ed25519 public key + big-endian `uint64` ID |
+| `T` | `10011` | `0x98` | Pre-authorized transaction signer | 32-byte transaction-signature-payload hash |
+| `X` | `10111` | `0xb8` | Hash-X signer | 32-byte SHA-256 hash of the signer's preimage |
+| `P` | `01111` | `0x78` | Ed25519 signed-payload signer | 32-byte public key + XDR variable opaque payload (1–64 bytes) |
+| `C` | `00010` | `0x10` | Contract ID | 32-byte contract ID hash |
+| `L` | `01011` | `0x58` | Liquidity pool ID | 32-byte liquidity pool ID hash |
+| `B` | `00001` | `0x08` | Claimable balance ID | One-byte balance-ID type (`00` for V0) + 32-byte balance hash |
+
+These rows describe the bytes inside the StrKey envelope, which are not always a byte-for-byte copy of the corresponding XDR object. The protocol's [`AccountID`, signer keys, `ContractID`, `PoolID`, and `ClaimableBalanceID`](https://github.com/stellar/stellar-xdr/blob/70180d5e8d9caee9e8645ed8a38c36a8cf403cd9/Stellar-types.x) are discriminated unions or aliases. An `M...` payload follows the layout defined by [SEP-23](https://github.com/stellar/stellar-protocol/blob/master/ecosystem/sep-0023.md#specification): the public key followed by the 64-bit multiplexing ID, although the corresponding [XDR `MuxedAccount`](https://github.com/stellar/stellar-xdr/blob/70180d5e8d9caee9e8645ed8a38c36a8cf403cd9/Stellar-transaction.x#L21-L34) struct lists the ID first. A `P...` payload uses the signed-payload signer's XDR representation, including its four-byte big-endian length and zero padding to a four-byte boundary, so its total decoded payload length is 40–100 bytes.
 
 The prefix alone does not make a StrKey valid. A decoder must also verify the Base32 encoding, version byte, payload length, and checksum. The checksum detects accidental corruption; it does not authenticate the value. Treat `S...` secret-seed StrKeys as credentials and never expose them.
 
