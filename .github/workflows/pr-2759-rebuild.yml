@@ -8,8 +8,12 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: pr-2759-rebuild
+  cancel-in-progress: true
+
 jobs:
-  rebuild:
+  stage-result:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout PR branch
@@ -22,22 +26,6 @@ jobs:
 
       - name: Verify expected PR head
         run: test "$(git rev-parse HEAD)" = "4819b546b557963fa01c37bb98d55ef60f42e267"
-
-      - name: Install pnpm
-        uses: pnpm/action-setup@v6
-
-      - name: Setup Node
-        uses: actions/setup-node@v7.0.0
-        with:
-          node-version: '24'
-          cache: 'pnpm'
-          cache-dependency-path: '**/pnpm-lock.yaml'
-
-      - name: Enable Corepack
-        run: corepack enable
-
-      - name: Install dependencies
-        run: pnpm install --prefer-offline --frozen-lockfile
 
       - name: Update links to flattened pages
         shell: python
@@ -98,29 +86,10 @@ jobs:
           if not changed:
               raise SystemExit('No flattened-page references needed updating')
 
-      - name: Copy files from Stellar CLI
-        run: pnpm stellar-cli:build -- --cli-ref='main'
-
-      - name: Fix CLI links
-        run: pnpm stellar-cli:fix-links
-
-      - name: Check MDX formatting
-        run: git update-index -g && pnpm ci:mdx
-
-      - name: Build docs
-        run: pnpm build
-
-      - name: Restore transient Stellar CLI outputs
-        run: |
-          git restore --source=HEAD --staged --worktree -- docs/tools/cli src/helpers/stellarCli.ts
-          pnpm ci:mdx
-          git add -u
-          echo 'Clean staged delta:'
-          git status --short
-
       - name: Create bot-authored result commit
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -u
           git commit -m '🔗 Update flattened page references'
           git push --force origin HEAD:automation/pr-2759-result
