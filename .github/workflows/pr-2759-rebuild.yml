@@ -1,0 +1,136 @@
+name: Rebuild PR 2759
+
+on:
+  push:
+    branches:
+      - automation/pr-2759-rebuild
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout PR branch
+        uses: actions/checkout@v7.0.1
+        with:
+          repository: JFWooten4/stellar-docs
+          ref: 2731-flatten-single-page-readmes
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v6
+
+      - name: Setup Node
+        uses: actions/setup-node@v7.0.0
+        with:
+          node-version: '24'
+          cache: 'pnpm'
+          cache-dependency-path: '**/pnpm-lock.yaml'
+
+      - name: Enable Corepack
+        run: corepack enable
+
+      - name: Install dependencies
+        run: pnpm install --prefer-offline --frozen-lockfile
+
+      - name: Update links to flattened pages
+        shell: python
+        run: |
+          from pathlib import Path
+          import os
+          import re
+
+          root = Path.cwd().resolve()
+          moves = {
+              Path('docs/data/analytics/hubble/developer-guide/connecting-to-bigquery/README.mdx'):
+                  Path('docs/data/analytics/hubble/developer-guide/connecting-to-bigquery.mdx'),
+              Path('docs/data/apis/horizon/api-reference/resources/liquiditypools/README.mdx'):
+                  Path('docs/data/apis/horizon/api-reference/resources/liquiditypools.mdx'),
+              Path('docs/platforms/anchor-platform/sep-guide/sep1/README.mdx'):
+                  Path('docs/platforms/anchor-platform/sep-guide/sep1.mdx'),
+              Path('docs/platforms/anchor-platform/sep-guide/sep10/README.mdx'):
+                  Path('docs/platforms/anchor-platform/sep-guide/sep10.mdx'),
+              Path('docs/platforms/anchor-platform/sep-guide/sep45/README.mdx'):
+                  Path('docs/platforms/anchor-platform/sep-guide/sep45.mdx'),
+          }
+
+          # Match local Markdown source paths ending in README.mdx, with an optional
+          # query/anchor. The replacement is computed relative to each source file,
+          # so this also catches references outside the files touched by the PR.
+          pattern = re.compile(
+              r'(?P<path>(?:(?:\.\.?/)+|(?:[A-Za-z0-9_.-]+/)+)[A-Za-z0-9_./-]*README\.mdx)'
+              r'(?P<suffix>[?#][^\s)\]}>"\']*)?'
+          )
+
+          changed = []
+          for source in root.rglob('*'):
+              if source.suffix not in {'.md', '.mdx'} or not source.is_file():
+                  continue
+              text = source.read_text(encoding='utf-8')
+
+              def replace(match):
+                  raw = match.group('path')
+                  suffix = match.group('suffix') or ''
+                  candidate = (source.parent / raw).resolve()
+                  try:
+                      repo_path = candidate.relative_to(root)
+                  except ValueError:
+                      return match.group(0)
+                  new_repo_path = moves.get(repo_path)
+                  if new_repo_path is None:
+                      return match.group(0)
+                  new_abs = root / new_repo_path
+                  rel = os.path.relpath(new_abs, source.parent).replace(os.sep, '/')
+                  if raw.startswith('./') and not rel.startswith('.'):
+                      rel = './' + rel
+                  return rel + suffix
+
+              updated = pattern.sub(replace, text)
+              if updated != text:
+                  source.write_text(updated, encoding='utf-8')
+                  changed.append(str(source.relative_to(root)))
+
+          print('Updated references in:')
+          for path in changed:
+              print(f'  {path}')
+          if not changed:
+              raise SystemExit('No flattened-page references needed updating')
+
+      - name: Copy files from Stellar CLI
+        run: pnpm stellar-cli:build -- --cli-ref='main'
+
+      - name: Fix CLI links
+        run: pnpm stellar-cli:fix-links
+
+      - name: Check MDX formatting
+        run: git update-index -g && pnpm ci:mdx
+
+      - name: Check new absolute internal links
+        run: |
+          git remote add upstream https://github.com/stellar/stellar-docs.git || true
+          git fetch upstream main --depth=1
+          scripts/check-relative-links.sh --range 'upstream/main...HEAD' \
+            || { echo '::error::New absolute /docs link(s) found above.'; exit 1; }
+
+      - name: Build docs
+        run: pnpm build
+
+      - name: Verify generated routes are committed
+        run: |
+          echo 'Tracked changes after successful build:'
+          git status --short
+
+      - name: Commit successful rebuild to PR branch
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -u
+          if git diff --cached --quiet; then
+            echo 'No changes to commit.'
+            exit 0
+          fi
+          git commit -m '🔗 Update flattened page references'
+          git push origin HEAD:2731-flatten-single-page-readmes
