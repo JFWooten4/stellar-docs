@@ -4,9 +4,11 @@ on:
   push:
     branches:
       - automation/pr-2759-rebuild
+    paths:
+      - .github/workflows/test-pr-autofix-lint.yml
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   lint:
@@ -16,6 +18,7 @@ jobs:
         uses: actions/checkout@v7.0.1
         with:
           ref: main
+          fetch-depth: 0
 
       - name: Install pnpm
         uses: pnpm/action-setup@v6
@@ -33,5 +36,26 @@ jobs:
       - name: Install dependencies
         run: pnpm install --prefer-offline --frozen-lockfile
 
-      - name: Lint
-        run: pnpm lint
+      - name: Test lint baseline
+        id: lint
+        run: |
+          set +e
+          pnpm lint > "$RUNNER_TEMP/lint.log" 2>&1
+          status=$?
+          set -e
+          echo "status=$status" >> "$GITHUB_OUTPUT"
+          tail -n 120 "$RUNNER_TEMP/lint.log"
+
+      - name: Report result on helper branch
+        env:
+          LINT_STATUS: ${{ steps.lint.outputs.status }}
+        run: |
+          set -euo pipefail
+          git fetch origin automation/pr-2759-rebuild
+          git switch -C lint-result origin/automation/pr-2759-rebuild
+          printf 'lint_status=%s\n' "$LINT_STATUS" > lint-baseline-result.txt
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add lint-baseline-result.txt
+          git commit -m 'Report lint baseline' || exit 0
+          git push origin HEAD:automation/pr-2759-rebuild
