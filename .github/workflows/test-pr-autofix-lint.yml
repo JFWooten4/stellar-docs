@@ -1,4 +1,4 @@
-name: Test PR autofix lint baseline
+name: Validate PR autofix workflows
 
 on:
   push:
@@ -11,51 +11,40 @@ permissions:
   contents: write
 
 jobs:
-  lint:
+  validate:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout main
+      - name: Checkout automation branch
         uses: actions/checkout@v7.0.1
         with:
-          ref: main
+          ref: automation/pr-autofix
           fetch-depth: 0
 
-      - name: Install pnpm
-        uses: pnpm/action-setup@v6
-
-      - name: Setup Node
-        uses: actions/setup-node@v7.0.0
-        with:
-          node-version: '24'
-          cache: 'pnpm'
-          cache-dependency-path: '**/pnpm-lock.yaml'
-
-      - name: Enable Corepack
-        run: corepack enable
-
-      - name: Install dependencies
-        run: pnpm install --prefer-offline --frozen-lockfile
-
-      - name: Test lint baseline
-        id: lint
+      - name: Parse workflow YAML
+        id: yaml
         run: |
           set +e
-          pnpm lint > "$RUNNER_TEMP/lint.log" 2>&1
+          ruby -ryaml -e '
+            ARGV.each do |file|
+              data = YAML.load_file(file)
+              raise "missing jobs in #{file}" unless data.is_a?(Hash) && data["jobs"].is_a?(Hash)
+              puts "parsed #{file}"
+            end
+          ' .github/workflows/pr-autofix.yml .github/workflows/pr-autofix-apply.yml
           status=$?
           set -e
           echo "status=$status" >> "$GITHUB_OUTPUT"
-          tail -n 120 "$RUNNER_TEMP/lint.log"
 
       - name: Report result on helper branch
         env:
-          LINT_STATUS: ${{ steps.lint.outputs.status }}
+          YAML_STATUS: ${{ steps.yaml.outputs.status }}
         run: |
           set -euo pipefail
           git fetch origin automation/pr-2759-rebuild
-          git switch -C lint-result origin/automation/pr-2759-rebuild
-          printf 'lint_status=%s\n' "$LINT_STATUS" > lint-baseline-result.txt
+          git switch -C validation-result origin/automation/pr-2759-rebuild
+          printf 'yaml_status=%s\n' "$YAML_STATUS" > automation-validation-result.txt
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add lint-baseline-result.txt
-          git commit -m 'Report lint baseline' || exit 0
+          git add automation-validation-result.txt
+          git commit -m 'Report autofix workflow validation' || exit 0
           git push origin HEAD:automation/pr-2759-rebuild
