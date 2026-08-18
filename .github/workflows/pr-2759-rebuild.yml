@@ -20,6 +20,15 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Verify expected bot rebuild
+        run: |
+          test "$(git rev-parse HEAD)" = "5cc40ba986bd58e2ae951a85abb9b00685fd6698"
+          echo "BASE=$(git rev-parse HEAD^)" >> "$GITHUB_ENV"
+
+      - name: Restore transient Stellar CLI outputs
+        run: |
+          git restore --source="$BASE" --staged --worktree -- docs/tools/cli src/helpers/stellarCli.ts
+
       - name: Install pnpm
         uses: pnpm/action-setup@v6
 
@@ -35,69 +44,6 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install --prefer-offline --frozen-lockfile
-
-      - name: Update links to flattened pages
-        shell: python
-        run: |
-          from pathlib import Path
-          import os
-          import re
-
-          root = Path.cwd().resolve()
-          moves = {
-              Path('docs/data/analytics/hubble/developer-guide/connecting-to-bigquery/README.mdx'):
-                  Path('docs/data/analytics/hubble/developer-guide/connecting-to-bigquery.mdx'),
-              Path('docs/data/apis/horizon/api-reference/resources/liquiditypools/README.mdx'):
-                  Path('docs/data/apis/horizon/api-reference/resources/liquiditypools.mdx'),
-              Path('docs/platforms/anchor-platform/sep-guide/sep1/README.mdx'):
-                  Path('docs/platforms/anchor-platform/sep-guide/sep1.mdx'),
-              Path('docs/platforms/anchor-platform/sep-guide/sep10/README.mdx'):
-                  Path('docs/platforms/anchor-platform/sep-guide/sep10.mdx'),
-              Path('docs/platforms/anchor-platform/sep-guide/sep45/README.mdx'):
-                  Path('docs/platforms/anchor-platform/sep-guide/sep45.mdx'),
-          }
-
-          # Match local Markdown source paths ending in README.mdx, with an optional
-          # query/anchor. The replacement is computed relative to each source file,
-          # so this also catches references outside the files touched by the PR.
-          pattern = re.compile(
-              r'(?P<path>(?:(?:\.\.?/)+|(?:[A-Za-z0-9_.-]+/)+)[A-Za-z0-9_./-]*README\.mdx)'
-              r'(?P<suffix>[?#][^\s)\]}>"\']*)?'
-          )
-
-          changed = []
-          for source in root.rglob('*'):
-              if source.suffix not in {'.md', '.mdx'} or not source.is_file():
-                  continue
-              text = source.read_text(encoding='utf-8')
-
-              def replace(match):
-                  raw = match.group('path')
-                  suffix = match.group('suffix') or ''
-                  candidate = (source.parent / raw).resolve()
-                  try:
-                      repo_path = candidate.relative_to(root)
-                  except ValueError:
-                      return match.group(0)
-                  new_repo_path = moves.get(repo_path)
-                  if new_repo_path is None:
-                      return match.group(0)
-                  new_abs = root / new_repo_path
-                  rel = os.path.relpath(new_abs, source.parent).replace(os.sep, '/')
-                  if raw.startswith('./') and not rel.startswith('.'):
-                      rel = './' + rel
-                  return rel + suffix
-
-              updated = pattern.sub(replace, text)
-              if updated != text:
-                  source.write_text(updated, encoding='utf-8')
-                  changed.append(str(source.relative_to(root)))
-
-          print('Updated references in:')
-          for path in changed:
-              print(f'  {path}')
-          if not changed:
-              raise SystemExit('No flattened-page references needed updating')
 
       - name: Copy files from Stellar CLI
         run: pnpm stellar-cli:build -- --cli-ref='main'
@@ -118,19 +64,18 @@ jobs:
       - name: Build docs
         run: pnpm build
 
-      - name: Verify generated routes are committed
+      - name: Remove transient build inputs from final commit
         run: |
-          echo 'Tracked changes after successful build:'
+          git restore --source="$BASE" --staged --worktree -- docs/tools/cli src/helpers/stellarCli.ts
+          pnpm ci:mdx
+          git add -u
+          echo 'Final tracked delta before rewrite:'
           git status --short
 
-      - name: Commit successful rebuild to PR branch
+      - name: Replace rebuild with clean bot commit
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -u
-          if git diff --cached --quiet; then
-            echo 'No changes to commit.'
-            exit 0
-          fi
+          git reset --soft "$BASE"
           git commit -m '🔗 Update flattened page references'
-          git push origin HEAD:2731-flatten-single-page-readmes
+          git push --force-with-lease origin HEAD:2731-flatten-single-page-readmes
