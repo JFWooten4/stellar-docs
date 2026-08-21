@@ -1,0 +1,57 @@
+name: Create weekly developer meeting notes issue
+
+on:
+  schedule:
+    - cron: "0 15 * * 5"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  create-issue:
+    name: Create meeting notes issue
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create issue for the latest developer meeting
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const now = new Date();
+            const daysSinceThursday = (now.getUTCDay() - 4 + 7) % 7;
+            const meeting = new Date(now);
+            meeting.setUTCDate(now.getUTCDate() - daysSinceThursday);
+
+            const meetingDate = meeting.toISOString().slice(0, 10);
+            const title = `Add Stellar Developer Meeting notes for ${meetingDate}`;
+            const { owner, repo } = context.repo;
+
+            const search = await github.rest.search.issuesAndPullRequests({
+              q: `repo:${owner}/${repo} is:issue in:title "${title}"`,
+              per_page: 100,
+            });
+
+            const duplicate = search.data.items.some((issue) => issue.title === title);
+            if (duplicate) {
+              core.notice(`Issue already exists: ${title}`);
+              return;
+            }
+
+            const body = [
+              "This issue tracks adding the corresponding `.mdx` file for this week's Stellar Developer Meeting.",
+              "",
+              "### Meeting to add",
+              "",
+              `- [ ] **${meetingDate}** — Add the meeting notes in the relevant directory, including the recording link and topic/title when available.`,
+              "",
+              "@kaankacar, this is the weekly reminder to add the meeting notes when the recording is available.",
+            ].join("\n");
+
+            await github.rest.issues.create({
+              owner,
+              repo,
+              title,
+              body,
+              assignees: ["kaankacar"],
+            });
