@@ -1,23 +1,28 @@
 ---
 title: "2026-02-26"
-authors: carstenjacobsen
-tags: [developer]
+description: "Air date: 02/26/2026 In this protocol meeting we had two CAPs to discuss and that was CAP-81 and CAP-82. CAP-81: This CAP introduces a simpler and more efficient eviction scan proc"
+authors:
+  - garand-tyson
+  - jay-geng
+tags: [developer, CAP-81, CAP-82]
 ---
 
 import YouTube from "@site/src/components/YouTube";
 
 <YouTube ID="nLxODJal-xQ" />
 
-## Protocol Discussion
+### Key Points
 
-In this protocol meeting we had two CAPs to discuss and that was CAP-81 and CAP-82.
+- Faster State Eviction (CAP-81)
+  - This CAP introduces a simpler and more efficient eviction scan process. Instead of scanning the BucketList, the new eviction scan just uses in-memory Soroban state. This simplifies the logic while reducing disk reads and speeding up eviction speed.
+  - Entries are ordered by expiration ledger and key, with separate handling for temporary and persistent state. This allows the system to evict entries closer to their archival ledger while controlling limits on both entry count and bytes written to the archive.
+- Checked `Int256` Arithmetic (CAP-82)
+  - This CAP adds checked variants of the existing 256-bit integer arithmetic host functions. Unlike the existing functions which trap on overflow, the checked variants return `Void` on overflow, allowing contracts to handle arithmetic errors gracefully.
+- CAP-81 & CAP-82: In-Memory Eviction Scans and Checked 256-bit Math
+  - Simplified Eviction Scans and Overflow-Safe 256-bit Host Functions
 
-CAP-81: This CAP introduces a simpler and more efficient eviction scan process. Instead of scanning the BucketList, the new eviction scan just uses in-memory Soroban state. This simplifies the logic while reducing disk reads and speeding up eviction speed.
+### Resources
 
-CAP-82: This CAP adds checked variants of the existing 256-bit integer arithmetic host functions. Unlike the existing functions which trap on overflow, the checked variants return Void on overflow, allowing contracts to handle arithmetic errors gracefully.
+- [CAP-81](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0081.md) - [Discussion](https://github.com/orgs/stellar/discussions/1868)
+- [CAP-82](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0082.md) - [Discussion](https://github.com/orgs/stellar/discussions/1834)
 
-Read more about the proposals here:
-
-[CAP-81](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0081.md) - [Discussion](https://github.com/orgs/stellar/discussions/1868)
-
-[CAP-82](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0082.md) - [Discussion](https://github.com/orgs/stellar/discussions/1834)

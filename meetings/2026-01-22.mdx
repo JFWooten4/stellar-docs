@@ -1,27 +1,52 @@
 ---
 title: "2026-01-22"
-authors: carstenjacobsen
-tags: [developer]
+description: "The OpenZeppelin team recaps their Q4 Soroban library releases and how they improve financial math, transaction UX, and on-chain governance. The session also covers current protocol governance discussions, including proposals for emergency protections and network resource changes."
+authors: [carsten-jacobsen, dmytro-kozhevin]
+tags:
+  - developer
+  - spotlight
+  - CAP-77
+  - CAP-78
+  - CAP-79
 ---
 
 import YouTube from "@site/src/components/YouTube";
 
+## OpenZeppelin Q4 Releases: WAD Math, Fee Abstraction, and Timelock Governance {#part-1}
+
 <YouTube ID="pq4xrdRzfIs" />
 
-## OpenZeppelin Q4 Releases
+OpenZeppelin reviews three major Soroban releases—Smart Accounts, Vault, and RWA—showing how programmable authorization, standardized yield vaults, and compliant real-world asset tokens extend Stellar with better UX, composability, and regulatory tooling.
 
-In this year’s first Stellar Developer Meeting, on Thursday, January 22nd at 8am PT on Twitch, we will catch up with Ozgun and Boyan from the OpenZeppelin team and take a look at the libraries released in Q4 last year.
+### Key Topics
+
+- New `WAD` fixed-point decimal type (18 decimals) for deterministic, high-precision arithmetic in Soroban smart contracts
+- Ergonomic Rust API: operator overloading, safe conversions (token amounts/prices), and checked math variants for overflow/div-by-zero
+- Fee Abstraction module: lets users pay transaction fees in non-XLM tokens via a relay + fee-forwarder contract flow (useful for classic accounts; “missing piece” for smart accounts)
+- Two fee-forwarder flavors: permissionless (trustless) and permissioned (owner-controlled allowed tokens/relayers)
+- Governance package kickoff with a timelock contract to enforce execution delays for safer upgrades and exits
+
+### Resources
+
+- [OpenZeppelin Soroban Contracts](https://github.com/OpenZeppelin/openzeppelin-contracts-soroban)
+
+## CAP-77 Ledger Key Freezing, CAP-78 TTL Policies, and CAP-79 StrKey/Address Conversions {#part-2}
 
 <YouTube ID="CetcWbsdRdE" />
 
-## Protocol Discussion
+We had three CAPs prepared for this meeting. CAP-77 introduces a way to make ledger keys inaccessible via a network configuration upgrade voted on by validators. CAP-78 proposes an interface that lets developers specify TTL extension policies (for example, "if an entry TTL is less than 29 days, extend it to a 30-day TTL"). CAP-79 adds host functions for converting Stellar StrKey strings to and from Address/MuxedAddress objects.
 
-We had three CAPs prepared for this meeting. CAP-77 will provide a way to make ledger keys inaccessible based on the network configuration upgrade performed with a validator vote. CAP-78 proposes an interface which allows developers to specify TTL extension policies such as 'if an entry TTL is less than 29 days, extend it to have 30 days TTL'. CAP-79 introduces host functions for converting Stellar strkey format strings to/from Address/MuxedAddress objects.
+### Key Topics
 
-Read more about the proposals here:
+- CAP-77: Proposes a validator-voted network upgrade mechanism to make specific ledger keys inaccessible (an emergency tool motivated by past corruption and incident response needs)
+- CAP-77 (edge cases): Discusses tricky edge cases for classic entries and DEX behavior, with a goal of being “surgical” (minimizing broader network disruption)
+- CAP-78: Proposes a contract interface for TTL extension policies (e.g., “if TTL < N days, extend to N days”) to standardize and simplify rent/TTL management
+- CAP-79: Adds host functions to convert StrKey strings to/from `Address` and `MuxedAddress` (including support for muxed/max-address-style identifiers)
+- Closing note: Reminder/discussion of SLP-4 to raise network resource limits and lower non-refundable fees to enable more on-chain work at lower cost
 
-[CAP-77](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0077.md) - [Discussion](https://github.com/orgs/stellar/discussions/1811)
+### Resources
 
-[CAP-78](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0078.md) - [Discussion](https://github.com/orgs/stellar/discussions/1825)
+- [CAP-77: Ability to freeze ledger keys via network configuration](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0077.md) · [Discussion](https://github.com/orgs/stellar/discussions/1811)
+- [CAP-78: Host functions for performing limited TTL extensions](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0078.md) · [Discussion](https://github.com/orgs/stellar/discussions/1825)
+- [CAP-79: Host functions for muxed address strkey conversions](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0079.md) · [Discussion](https://github.com/orgs/stellar/discussions/1840)
 
-[CAP-79](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0079.md) - [Discussion](https://github.com/orgs/stellar/discussions/1840)

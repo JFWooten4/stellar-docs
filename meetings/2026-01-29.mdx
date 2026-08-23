@@ -1,21 +1,31 @@
 ---
 title: "2026-01-29"
-authors: carstenjacobsen
-tags: [developer]
+description: "We have one new CAP to discuss and that is CAP-80. This proposal adds BN254 Multi-Scalar Multiplication and modular arithmetic used in a variety of ZK proof applications."
+authors:
+  - carsten-jacobsen
+  - dmytro-kozhevin
+  - jay-geng
+  - matias-wald
+  - siddharth-suresh
+tags: [developer, CAP-73, CAP-80]
 ---
 
 import YouTube from "@site/src/components/YouTube";
 
 <YouTube ID="TXuKiEEwEsU" />
 
-## Protocol Discussion
+This protocol meeting covers CAP-80, which extends Stellar’s BN254 host support with multi-scalar multiplication and modular arithmetic to significantly speed up ZK-proof workloads. The session also includes a follow-up on CAP-73, focused on improving Soroban interoperability by making it easier to create new accounts and handle trustlines intentionally.
 
-We have one new CAP to discuss and that is CAP-80. This proposal adds BN254 Multi-Scalar Multiplication and modular arithmetic used in a variety of ZK proof applications. Adding host support for these will greatly improve the performance of these use cases.
+### Key Points
 
-We also follow up on a previous CAP - the CAP-73.
+- CAP-80: adds BN254 G1 multi-scalar multiplication (MSM), BN254 modular arithmetic host functions, and on-curve checks to improve ZK performance
+- Rationale: reduces expensive guest-side math and avoids repeated point conversion overhead from many add/mul calls
+- Expected impact: major performance gains for contracts using BN254-heavy proving workflows
+- CAP-73 follow-up: enables creating new G-accounts when transferring XLM from Soroban (still requires covering the base reserve)
+- CAP-73 trustlines: proposes an explicit trust(...) function to create missing trustlines when authorized, rather than doing it implicitly during transfers
 
-Read more about the proposal here:
+### Resources
 
-[CAP-80](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0080.md) - [Discussion](https://github.com/orgs/stellar/discussions/1826)
+- [CAP-73 Allow SAC to create G-account balances](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0073.md) · [Discussion](https://github.com/orgs/stellar/discussions/1668)
+- [CAP-80 Host functions for efficient ZK BN254 use cases](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0080.md) · [Discussion](https://github.com/orgs/stellar/discussions/1826)
 
-[CAP-73](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0073.md) - [Discussion](https://github.com/orgs/stellar/discussions/1668)
