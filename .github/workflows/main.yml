@@ -1,90 +1,15 @@
 name: Build, format MDX and Lint
 
 on:
-  push:
-    branches:
-      - plain-meetings
   pull_request:
     branches:
       - main
 
   workflow_dispatch:
 
-permissions:
-  contents: write
-
 jobs:
-  split-year-meetings:
-    if: github.event_name == 'push' && github.ref == 'refs/heads/plain-meetings'
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout source branch
-        uses: actions/checkout@v7.0.1
-        with:
-          fetch-depth: 0
-
-      - name: Create one-commit year branches
-        shell: bash
-        run: |
-          set -euo pipefail
-          source_sha="$(git rev-parse HEAD)"
-          source_parent="$(git rev-parse HEAD^)"
-          git fetch origin main
-          main_sha="$(git rev-parse origin/main)"
-          git config user.name "John Wooten"
-          git config user.email "60260750+JFWooten4@users.noreply.github.com"
-
-          goodnow_block='goodnow:
-            name: Johnny Goodnow
-            url: https://github.com/theaeolianmachine
-            image_url: https://github.com/theaeolianmachine.png
-            page: true
-            socials:
-              linkedin: jgoodnow
-              github: theaeolianmachine'
-
-          john_block='john:
-            name: John Wooten
-            url: https://wooten.link
-            image_url: https://github.com/JFWooten4.png
-            socials:
-              github: jfwooten4
-              x: jfwooten4
-              linkedin: jfwooten4'
-
-          for year in 2019 2020 2021 2022 2023 2024 2025 2026; do
-            branch="${year}-meetings"
-            git switch --detach "$main_sha"
-            git switch -C "$branch"
-
-            mapfile -t files < <(git ls-tree -r --name-only "$source_sha" -- meetings | grep -E "^meetings/${year}-[0-9]{2}-[0-9]{2}\\.mdx$")
-            if [[ ${#files[@]} -eq 0 ]]; then
-              echo "No meeting files found for ${year}" >&2
-              exit 1
-            fi
-            for file in "${files[@]}"; do
-              git checkout "$source_sha" -- "$file"
-            done
-
-            if [[ "$year" == "2019" ]]; then
-              printf '\n%s\n%s\n' "$goodnow_block" "$john_block" >> meetings/authors.yml
-            elif [[ "$year" =~ ^(2020|2021|2022|2023|2024)$ ]]; then
-              printf '\n%s\n' "$john_block" >> meetings/authors.yml
-            fi
-
-            git add meetings
-            git commit -m "Add ${year} meetings" -m "Co-authored-by: Codex Web <noreply@openai.com>"
-            git push origin "HEAD:refs/heads/${branch}"
-          done
-
-          git switch -C plain-meetings "$source_sha"
-          git checkout "$source_parent" -- .github/workflows/main.yml
-          git add .github/workflows/main.yml
-          git commit -m "Restore workflow after meeting split" -m "Co-authored-by: Codex Web <noreply@openai.com>"
-          git push origin HEAD:plain-meetings
-
   complete:
-    if: always() && github.event_name != 'push'
+    if: always()
     needs: [ mdx-format, build ]
     runs-on: ubuntu-latest
     steps:
@@ -92,7 +17,6 @@ jobs:
         run: exit 1
 
   mdx-format:
-    if: github.event_name != 'push'
     runs-on: ubuntu-latest
 
     steps:
@@ -129,7 +53,7 @@ jobs:
       - name: No new absolute internal /docs links
         # Canonical rule lives in scripts/check-relative-links.sh (shared with
         # the pre-commit hook). Only flags absolute /docs links introduced by
-        # this PR's diff, not pre-existing repo content in untouched lines.
+        # this PR's diff, not pre-existing content in untouched lines.
         run: |
           base="${{ github.base_ref }}"
           scripts/check-relative-links.sh --range "origin/${base:-main}...HEAD" \
@@ -138,5 +62,5 @@ jobs:
 
 
   build:
-    if: github.event_name != 'push'
     uses: ./.github/workflows/build.yml
+
