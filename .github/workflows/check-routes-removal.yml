@@ -1,59 +1,76 @@
 name: Check Routes Removal
 
 on:
-  pull_request:
+  pull_request_target:
     paths:
       - 'routes.txt'
+
+permissions:
+  contents: read
+  issues: write
 
 jobs:
   check-routes-removal:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v7.0.1
-        with:
-          fetch-depth: 0
-
-      - name: Check for routes removal
-        id: check-removal
-        run: |
-          # Get the list of removed lines in routes.txt
-          ROUTES_DIFF=$(git diff origin/${{ github.base_ref }} ${{ github.sha }} -- routes.txt)
-          
-          # Count removed lines (excluding diff metadata)
-          REMOVED_COUNT=$(echo "$ROUTES_DIFF" | { grep -E '^\-[^-]' || true; } | wc -l)
-          
-          if [ $REMOVED_COUNT -gt 0 ]; then
-            echo "routes_removed=true" >> $GITHUB_OUTPUT
-            echo "$ROUTES_DIFF" >> routes.diff
-          else
-            echo "routes_removed=false" >> $GITHUB_OUTPUT
-          fi
-
-      - name: Comment on PR (if routes were removed)
-        if: steps.check-removal.outputs.routes_removed == 'true'
+      - name: Check for removed routes and comment
         uses: actions/github-script@v9
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const fs = require('fs')
-            const diffContent = fs.readFileSync('routes.diff', 'utf8');
-            
-            // Convert escaped newlines back for display
-            const formattedDiff = diffContent.replace(/%0A/g, '\n').replace(/%0D/g, '\r').replace(/%25/g, '%');
-            
+            const pullRequest = context.payload.pull_request;
+
+            const decodeContent = (file) =>
+              Buffer.from(file.content, file.encoding).toString('utf8');
+
+            const { data: baseFile } = await github.rest.repos.getContent({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              path: 'routes.txt',
+              ref: pullRequest.base.sha,
+            });
+
+            let headContent = '';
+            try {
+              const { data: headFile } = await github.rest.repos.getContent({
+                owner: pullRequest.head.repo.owner.login,
+                repo: pullRequest.head.repo.name,
+                path: 'routes.txt',
+                ref: pullRequest.head.sha,
+              });
+              headContent = decodeContent(headFile);
+            } catch (error) {
+              if (error.status !== 404) throw error;
+            }
+
+            const baseRoutes = decodeContent(baseFile)
+              .split(/\r?\n/)
+              .filter(Boolean);
+            const headRoutes = new Set(
+              headContent.split(/\r?\n/).filter(Boolean),
+            );
+            const removedRoutes = baseRoutes.filter((route) => !headRoutes.has(route));
+
+            if (removedRoutes.length === 0) {
+              core.info('No routes were removed.');
+              return;
+            }
+
+            const formattedDiff = removedRoutes
+              .map((route) => `-${route}`)
+              .join('\n');
+
             const comment = `> [!WARNING]  
-            > This change removes routes. The diff of routes is below. Please verify that these changes to the routes are intentional and that redirects are in place if needed. Redirects can be added to \`nginx/includes/redirects.conf\`.
-            
+            > This change removes routes. The removed routes are below. Please verify that these changes are intentional and that redirects are in place if needed. Redirects can be added to \`nginx/includes/redirects.conf\`.
+
             \`\`\`diff
             ${formattedDiff}
             \`\`\`
-            
             `;
-            
-            github.rest.issues.createComment({
-              issue_number: context.issue.number,
+
+            await github.rest.issues.createComment({
+              issue_number: pullRequest.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: comment
+              body: comment,
             });
