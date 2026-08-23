@@ -1,6 +1,7 @@
 ---
 title: "2025-07-24"
-authors: carstenjacobsen
+description: "Discussion with PaltaLabs on the Stellar Hacks hackathon, focusing on building with Soroswap and DeFindex, including smart contract architecture, APIs, and ideas for hackathon projects."
+authors: [carsten-jacobsen, esteban-iglesias]
 tags: [developer]
 ---
 
@@ -8,12 +9,36 @@ import YouTube from "@site/src/components/YouTube";
 
 <YouTube ID="mSABuOLuZs8" />
 
-In this meeting we are talking to Esteban and Francisco from PaltaLabs. Stellar Hacks is currently running a hackathon in collaboration with PaltaLabs, where the goal is to build using their projects Soroswap and DeFindex.
+This session features a conversation with Esteban and Francisco from PaltaLabs about the ongoing Stellar Hacks hackathon and how developers can build on Soroswap and DeFindex. The discussion walks through the motivation behind the hackathon, what participants can still work on, and how PaltaLabs’ tooling lowers the barrier to building DeFi applications on Stellar.
 
-Let's see how the hackathon is going, and some advice if you are still considering entering, there's still time to enter!
+The team provides a practical overview of Soroswap as a DEX and aggregator on Soroban, along with DeFIndex as a vault and strategy framework for yield and savings products. The meeting emphasizes real-world developer workflows, available APIs and SDKs, and concrete ideas for hackathon submissions.
 
-Links:
+### Key Topics
 
-- [Hackathon](https://dorahacks.io/hackathon/stellar-hacks-paltalabs/detail)
-- [Soroswap](https://docs.soroswap.finance)
-- [DeFindex](https://docs.defindex.io)
+- Overview of the Stellar Hacks hackathon with PaltaLabs and remaining time to participate
+- Soroswap architecture:
+  - AMM for creating and managing liquidity pools
+  - Aggregator smart contract to route trades across multiple AMMs
+  - Public routing API to compute optimal trade distribution
+- Using Soroswap’s router contract for swaps, liquidity management, and pool creation
+- Trade splitting across protocols and how the routing API supplies optimal paths
+- Open-source Soroswap indexer built with SubQuery and GraphQL for analytics and bots
+- DeFIndex overview:
+  - Vaults as user-facing savings accounts
+  - Strategies as pluggable smart contracts connecting to DeFi protocols
+- Example DeFIndex strategies, including auto-compounding and blended yield approaches
+- Vault roles (manager, rebalancer, fee receiver, emergency) and safety constraints
+- Ideas for hackathon projects:
+  - Smart wallets and integrations
+  - New DeFIndex strategies
+  - Rebalancer bots and automation
+  - LP token use cases and staking designs
+- APIs and SDKs for both Soroswap and DeFIndex to simplify frontend integration
+- Developer support via documentation, Postman collections, and community channels
+
+### Resources
+
+- [Hackathon](https://dorahacks.io/hackathon/stellar-hacks-paltalabs)
+- [Soroswap Documentation](https://docs.soroswap.finance)
+- [DeFIndex Documentation](https://docs.defindex.io)
+

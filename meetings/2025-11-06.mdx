@@ -1,17 +1,62 @@
 ---
 title: "2025-11-06"
-authors: carstenjacobsen
-tags: [developer]
+description: "OpenZeppelin reviews three major Soroban releases—Smart Accounts, Vault, and RWA—showing how programmable authorization, standardized yield vaults, and compliant real-world asset tokens extend Stellar with better UX, composability, and regulatory tooling."
+authors: [carsten-jacobsen]
+tags: [spotlight, CAP-71]
 ---
 
 import YouTube from "@site/src/components/YouTube";
 
 <YouTube ID="-T3Ia32nnP0" />
 
-In this meeting we do a walkthrough of OpenZeppelin’s Q3 library releases for Smart Account, Vault and RWA.
+This session covers OpenZeppelin’s Q3 Soroban releases and how they address common developer challenges around authorization, yield strategies, and compliant asset issuance. The discussion highlights how account abstraction, standardized vault interfaces, and modular compliance layers can be composed together to build safer, more user-friendly Stellar dApps.
 
-Links to docs:
+The presenters focus on practical design tradeoffs: abstracting cryptographic complexity behind smart accounts, preventing known economic exploits in vault math, and enabling real-world asset tokens to meet jurisdiction-specific compliance requirements while remaining reusable and extensible.
 
-- Smart Account: https://docs.openzeppelin.com/stellar-contracts/accounts/smart-account
-- Vault: https://docs.openzeppelin.com/stellar-contracts/tokens/vault/vault
-- RWA: https://docs.openzeppelin.com/stellar-contracts/tokens/rwa/rwa
+### Key Topics
+
+- Smart Account framework
+  - Implements account abstraction on Soroban using the custom account interface
+  - Authorization is defined through up to 15 context rules per account
+    - Each rule combines signers, scopes, policies, and validity windows
+  - Supports multiple signer types
+    - Delegated signers (Soroban accounts/contracts via `require_auth_for_args`)
+    - External signers routed through verifier contracts (enables new curves without redeploying accounts)
+  - Policies are modular contracts (stateful or stateless)
+    - Examples: multisig thresholds, spending limits, subscription windows
+    - Lifecycle hooks: install, can_enforce, enforce, uninstall
+  - Enables use cases such as passkey-first wallets, time-limited dApp sessions, automated multisig, bots/AI agents with bounded permissions
+  - Discussion around naming clarity and the need for more end-to-end demos
+- Vault (ERC-4626–style yield interface)
+  - Standardized API for managed yield strategies
+  - Deposits mint shares; redemptions burn shares; yield accrues by increasing assets-per-share
+  - Detailed walkthrough of rounding rules for mint/redeem vs withdraw/deposit
+  - Explanation of “inflation attacks” via donations + zero-share mints
+  - Mitigation using decimal offsets and consistent rounding behavior
+  - Specification merged during the session with contributions from GS Maxi (Sentinel F)
+- RWA (Real World Assets) token stack
+  - Base compliant fungible token with additional controls
+    - Forced transfers
+    - Full or partial balance freezing
+    - Recovery flows for lost keys
+    - Pausability
+  - Identity layer
+    - Claim-based by default (e.g., KYC, residency), capped at 15 topics
+    - Trusted issuers sign claims
+    - Designed to be swappable (Merkle- or ZK-based alternatives possible)
+  - Compliance layer
+    - Pre- and post-hooks on transfer, mint, and burn
+    - Multiple compliance modules can observe the same hook
+    - Designed for reuse across multiple tokens (e.g., shared bank rule sets)
+  - Access control options
+    - Simple owner model or granular role-based control
+  - Extensions
+    - Document Manager for anchoring off-chain legal documents via hashes
+
+### Resources
+
+- [Smart Account docs](https://docs.openzeppelin.com/stellar-contracts/accounts/smart-account)
+- [Vault docs](https://docs.openzeppelin.com/stellar-contracts/tokens/vault/vault)
+- [RWA docs](https://docs.openzeppelin.com/stellar-contracts/tokens/rwa/rwa)
+- [CAP-0071](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0071.md)
+

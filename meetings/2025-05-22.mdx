@@ -1,11 +1,46 @@
 ---
 title: "2025-05-22"
-authors: carstenjacobsen
-tags: [developer]
+description: "A walkthrough of OpenZeppelin Monitor for Stellar, explaining how to configure contract monitoring and alerting via Soroban RPC, with examples for tracking function calls and events and sending notifications to common channels."
+authors: [carsten-jacobsen]
+tags: [spotlight]
 ---
 
 import YouTube from "@site/src/components/YouTube";
 
 <YouTube ID="UT8XXdcssQ8" />
 
-At this Stellar Developer Meeting we are having a chat with Bram Hoogenkamp from OpenZeppelin about the OpenZeppelin Monitor - providing monitoring and alerting for smart contracts.
+This meeting introduces the OpenZeppelin Monitor as an open-source monitoring and alerting tool for Soroban smart contracts. Bram Hoogenkamp walks through the repository, the core configuration files, and how developers can set up monitors without changing their contracts—by watching function calls, events, and transaction outcomes via Soroban RPC.
+
+The demo shows how to configure alerts for a real contract and deliver notifications to channels like Telegram, Slack, Discord, or email. The conversation also touches on how monitors can pair with upcoming relayer support to enable automated incident-response actions such as pausing contracts.
+
+### Key Topics
+
+- What OpenZeppelin Monitor provides:
+  - Off-chain monitoring for Soroban contracts using Soroban RPC
+  - Alerting/notification when specified conditions are met
+  - No contract-side changes required; logic is configured externally
+- Repository and setup:
+  - Rust-based implementation with local binary execution and Docker support
+  - Example configs and docs to bootstrap new users quickly
+- Core configuration components:
+  - Network config (RPC URL, block confirmations, polling schedule)
+  - Monitor config (contract address, contract spec, conditions)
+  - Triggers (Slack/Discord/Telegram/email/webhook/custom script)
+  - Optional filters to pre-filter blocks before applying monitor logic
+- Monitoring capabilities:
+  - Monitor specific contract function calls (by signature) and apply parameter-based expressions
+  - Monitor emitted events, including positional parameter filtering where spec support is limited
+  - Monitor transaction-level outcomes (e.g., trigger only on successful execution)
+- Demo flow highlights:
+  - Configuring a monitor for `swap` calls on a DEX contract
+  - Replaying a known block to validate configuration and trigger a test alert
+  - RPC retention considerations mentioned for replaying older blocks
+- Automation and incident response direction:
+  - Custom scripts can forward context to external systems
+  - Planned integration with OpenZeppelin relayers (Soroban support “coming soon”) to enable actions like pausing contracts after suspicious events
+
+### Resources
+
+- [OpenZeppelin Monitor Repository](https://github.com/OpenZeppelin/openzeppelin-monitor)
+- [OpenZeppelin Monitor's Documentation](https://docs.openzeppelin.com/monitor)
+

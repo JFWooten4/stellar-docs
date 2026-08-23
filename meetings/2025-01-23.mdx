@@ -1,27 +1,107 @@
 ---
 title: "2025-01-23"
-authors: carstenjacobsen
-tags: [developer]
+description: "This overview highlights Soroban smart contracts, Soroban RPC, and Stellar Core."
+authors:
+  - bastian-koh
+  - carsten-jacobsen
+  - garand-tyson
+  - siddharth-suresh
+  - timothy-baker
+tags:
+  - developer
+  - spotlight
+  - CAP-57
+  - CAP-62
+  - CAP-65
+  - CAP-66
 ---
 
 import YouTube from "@site/src/components/YouTube";
 
-<YouTube ID="51SitOUZySk" />
+## Hoops Finance Update: Risk Analytics, Pool Rankings, and API Keys {#part-1}
 
-<b>Part 1</b>
+<YouTube ID="izkwfSLc4dQ" />
 
-In this week's meeting Hoops Finance's founders Bastian and Tim talk about the progress they have made, some design considerations and the future of Hoops Finance.
+In this week's meeting, Hoops Finance founders Bastian and Tim shared a product update focused on making DeFi liquidity data easier to understand and integrate. They walked through a redesigned UI that ranks pools across multiple protocols and introduces a risk scoring approach intended to make liquidity pools more “human readable” for users evaluating opportunities.
+
+They also demoed an authentication flow with developer API keys, plus early work on “AI-friendly” endpoints that return compact, schema-described responses meant for tool consumption (not LLM-generated answers). The longer-term direction discussed was automated liquidity management via account/strategy contracts, with audits and staged rollout planned before enabling real funds.
+
+### Key Topics
+
+- Hoops Finance UI refresh with simplified navigation across Pools and Tokens views
+- Pool aggregation across multiple ecosystem AMMs (e.g., Aquarius, Soroswap, Phoenix; Blend integration in progress)
+- Pool rankings and analytics surfaced for decision-making:
+  - APR, volume, TVL, fees, and protocol/pair details
+  - Proprietary pool risk score built from multiple inputs (including social/market signals), with ongoing tuning
+- Data quality and validation plans:
+  - Cross-checking against other ecosystem data sources
+  - A future validation system intended to improve correctness guarantees
+- Tokens view for liquidity/volume leaderboards and quick inspection links to explorers/contracts
+- Auth + developer tooling:
+  - Discord-based login
+  - API key generation for developers
+  - Interactive API playground and documentation
+  - API keys expected to become required for browser/client-side usage (origin-based controls)
+- “AI endpoints” design:
+  - Compact/truncated outputs to reduce token/overhead
+  - Include schema alongside data for easier parsing
+  - Emphasis on preventing hallucinations by keeping responses grounded in API data
+- Roadmap direction (high level):
+  - Automated liquidity strategies via account contracts with installable strategies
+  - Strategy-driven rebalancing, reward claiming, and liquidity movement
+  - Swap aggregation/adapters to normalize interactions across different pool types
+  - Wallet/passkey-based signer support planned, with passkeys positioned as the long-term UX path
+- Launch posture:
+  - Avoid encouraging real-money usage until contracts are audited
+  - Expect staged feature releases (e.g., swaps/liquidity first; automation later)
+
+### Resources
+
+- [CAP-0057: Soroban State Archival Proofs](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0057.md)
+- [CAP-0062: Partial State Archival](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0062.md)
+- [CAP-0065: Reusable Soroban Module Cache](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0065.md)
+- [CAP-0066: In-Memory Soroban State](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0066.md)
+
+## CAP-62 Partial State Archival and CAP-66 In-Memory Soroban State {#part-2}
 
 <YouTube ID="JDlIL5y5bn8" />
 
-<b>Part 2</b>
+This recording covers proposed Soroban state archival and performance changes planned around Protocol 23. The core theme was separating live Soroban state from archived state to unlock faster execution, fairer fees, and a smoother restore experience—without immediately requiring full “delete-from-validators + proof-based restore” mechanics.
 
-Recording from a protocol meeting where two Core Advancement Proposals -
+The proposal introduces partial state archival (evicting expired entries from the live state into a validator-maintained hot archive that is not yet deleted), then leverages that separation to cache live Soroban state in memory. A major UX improvement discussed is automatic restore during `invokeHostFunction`, while still keeping incentives to manage TTL and rent costs.
 
-CAP-62 (Soroban Live State Prioritization) and CAP-66 (Soroban In-memory Read Resource) where discussed.
+### Key Topics
 
-Here's are some resources to read up on:
+- Why state archival matters long-term, and why “full archival” is being deferred for now
+- CAP-62: Partial state archival
+  - Evict expired entries from live state into a hot archive database
+  - Validators keep the hot archive (no deletion/merkle-proof requirement yet)
+  - Designed as a stepping stone toward eventual full archival
+- CAP-66: In-memory live Soroban state
+  - Live Soroban state cached in RAM due to a soft cap enforced by fees/rent mechanics
+  - Classic state remains on disk (no rent/archival yet → runaway RAM risk)
+- Fee model refinement:
+  - Proposal to base Soroban write fees on live Soroban state size (not total classic + Soroban)
+  - Rationale: classic state dominates size today; Soroban fees should respond to Soroban usage
+- Resource model changes:
+  - Split reads into in-memory vs on-disk resources
+  - No in-memory read bytes limit (still capped by entry count + CPU metering)
+  - Disk reads still metered/limited for classic state and archived-state access
+- Automatic restore:
+  - `invokeHostFunction` can restore archived footprint entries automatically
+  - Reduces multi-tx flows and improves UX, but restores are not “free” (disk reads/fees still apply)
+- Limits and edge cases:
+  - Automatic restore may not cover scenarios where too many archived entries exceed on-disk limits
+  - In those cases, explicit restore/TTL extension flows remain necessary
+- Operational/implementation notes raised in Q&A:
+  - Ability to detect live vs archived status during simulation via captive-core/RPC querying
+  - Upgrade-time concerns about reinterpreting config settings and initializing new targets safely
+  - Why exposing SQL-like query primitives directly from core DB isn’t the direction (bucketing + specialized storage)
 
-CAP-62 - https://github.com/stellar/stellar-protocol/blob/master/core/cap-0062.md<br /> Discussion - https://github.com/stellar/stellar-protocol/discussions/1575
+### Resources
 
-CAP-66 - https://github.com/stellar/stellar-protocol/blob/master/core/cap-0066.md<br /> Discussion - https://github.com/stellar/stellar-protocol/discussions/1585
+- [CAP-0062](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0062.md) — [Discussion](https://github.com/stellar/stellar-protocol/discussions/1575)
+- [CAP-0066](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0066.md) — [Discussion](https://github.com/stellar/stellar-protocol/discussions/1585)
+- [CAP-0057: Soroban State Archival Proofs](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0057.md)
+- [CAP-0065: Reusable Soroban Module Cache](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0065.md)
+
