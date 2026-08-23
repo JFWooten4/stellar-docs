@@ -1,101 +1,15 @@
 name: Build, format MDX and Lint
 
 on:
-  push:
-    branches:
-      - plain-meetings
   pull_request:
     branches:
       - main
 
   workflow_dispatch:
 
-permissions:
-  contents: write
-
 jobs:
-  normalize-added-meeting-authors:
-    if: github.event_name == 'push' && github.ref == 'refs/heads/plain-meetings'
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout branch
-        uses: actions/checkout@v7.0.1
-        with:
-          fetch-depth: 0
-
-      - name: Set added meeting authors to john
-        shell: bash
-        run: |
-          git fetch origin main
-          python - <<'PY'
-          from pathlib import Path
-          import subprocess
-
-          goodnow = {
-              'meetings/2019-01-24.mdx',
-              'meetings/2019-03-07.mdx',
-              'meetings/2019-03-14.mdx',
-              'meetings/2019-03-21.mdx',
-              'meetings/2019-03-28.mdx',
-              'meetings/2019-04-04.mdx',
-              'meetings/2019-06-13.mdx',
-              'meetings/2019-06-27.mdx',
-              'meetings/2019-07-25.mdx',
-          }
-
-          added = subprocess.check_output(
-              ['git', 'diff', '--diff-filter=A', '--name-only', 'origin/main...HEAD', '--', 'meetings/*.mdx'],
-              text=True,
-          ).splitlines()
-
-          changed = 0
-          for name in added:
-              if name in goodnow:
-                  continue
-              path = Path(name)
-              lines = path.read_text().splitlines(keepends=True)
-              end = next(i for i in range(1, len(lines)) if lines[i].strip() == '---')
-              idx = next(i for i in range(1, end) if lines[i].startswith('authors:'))
-              newline = '\n' if lines[idx].endswith('\n') else ''
-              replacement = [f'authors: john{newline}']
-              stop = idx + 1
-              if lines[idx].strip() == 'authors:':
-                  while stop < end and (lines[stop].startswith(' ') or lines[stop].startswith('\t')):
-                      stop += 1
-              new_lines = lines[:idx] + replacement + lines[stop:]
-              if new_lines != lines:
-                  path.write_text(''.join(new_lines))
-                  changed += 1
-                  print(f'{name}: authors: john')
-
-          authors = Path('meetings/authors.yml')
-          text = authors.read_text()
-          if not any(line == 'john:' for line in text.splitlines()):
-              if text and not text.endswith('\n'):
-                  text += '\n'
-              text += '''john:\n  name: John Wooten\n  url: https://jfwooten4.com\n  image_url: https://github.com/JFWooten4.png\n  socials:\n    github: jfwooten4\n    x: jfwooten4\n    linkedin: jfwooten4\n'''
-              authors.write_text(text)
-              print('meetings/authors.yml: added john')
-
-          print(f'Updated {changed} added meeting file(s)')
-          PY
-          git checkout HEAD^ -- .github/workflows/main.yml
-
-      - name: Commit author normalization
-        shell: bash
-        run: |
-          git config user.name "John Wooten"
-          git config user.email "60260750+JFWooten4@users.noreply.github.com"
-          git add meetings .github/workflows/main.yml
-          if git diff --cached --quiet; then
-            echo "No author changes needed."
-            exit 0
-          fi
-          git commit -m "Normalize added meeting authors" -m "Co-authored-by: Codex Web <noreply@openai.com>"
-          git push origin HEAD:plain-meetings
-
   complete:
-    if: always() && github.event_name != 'push'
+    if: always()
     needs: [ mdx-format, build ]
     runs-on: ubuntu-latest
     steps:
@@ -103,7 +17,6 @@ jobs:
         run: exit 1
 
   mdx-format:
-    if: github.event_name != 'push'
     runs-on: ubuntu-latest
 
     steps:
@@ -140,12 +53,14 @@ jobs:
       - name: No new absolute internal /docs links
         # Canonical rule lives in scripts/check-relative-links.sh (shared with
         # the pre-commit hook). Only flags absolute /docs links introduced by
-        # this PR's diff, not pre-existing repo content in untouched lines.
+        # this PR's diff, not pre-existing content in untouched lines.
         run: |
           base="${{ github.base_ref }}"
           scripts/check-relative-links.sh --range "origin/${base:-main}...HEAD" \
             || { echo "::error::New absolute /docs link(s) found above."; exit 1; }
 
+
+
   build:
-    if: github.event_name != 'push'
     uses: ./.github/workflows/build.yml
+
