@@ -1,0 +1,46 @@
+---
+title: "2024-07-24"
+description: "A hands-on walkthrough of Soroban smart contracts in Rust: using Okashi and the Stellar CLI to build, deploy, and invoke a simple storage contract, then exploring a more advanced staking-style contract with enums-as-storage keys, token mint/burn flows, and cross-contract calls."
+authors: john
+tags: [tutorial]
+---
+
+import YouTube from "@site/src/components/YouTube";
+
+<YouTube ID="LNU-xgZbCIE" />
+
+Julian introduces the fundamentals of writing Soroban smart contracts in Rust, focusing on how contract functions, data types, and contract storage work in practice. The session starts with a simple “set/get” example to show how values are stored and retrieved on-ledger, plus common patterns like default fallbacks when a key doesn’t exist.
+
+From there, the workshop shifts into developer tooling: using Okashi for rapid iteration and then using the Stellar CLI locally to initialize a project, generate keys, build WASM, deploy to testnet, and invoke contract functions. The latter portion expands into a staking-style contract to demonstrate more advanced storage patterns, authorization, token interactions, and cross-contract calls.
+
+### Key Topics
+
+- Okashi ([deprecated](https://x.com/Okashidev/status/1895579419663876296)) workflow overview: code editor, contract function panel, and console output for quick iteration
+- Soroban/Rust setup basics:
+  - `#![no_std]` for smaller WASM and reduced ledger/storage bloat
+  - `soroban_sdk` and common types (`Env`, `Symbol`, `String`, `symbol_short`)
+  - Contract structure patterns using `#[contract]` + `#[contractimpl]`
+- Simple storage contract (setter/getter pattern):
+  - Setting a value via `env.storage().instance().set(...)`
+  - Reading a value via `env.storage().instance().get(...)`
+  - Returning a default `String` when a key is missing (error handling instead of assuming a value exists)
+- Stellar CLI local workflow:
+  - Install toolchain + CLI, scaffold a contract project, and build to WASM
+  - Generate and manage keys for signing (`stellar keys generate`, `stellar keys ls/show`)
+  - Deploy to testnet and invoke functions via `stellar contract deploy/invoke`
+  - Address conventions recap (e.g., public account vs contract id vs secret key prefixes)
+- Staking-style contract tour (advanced patterns):
+  - Using an enum as a structured storage key map (e.g., `DataKey::{Admin, Token, ShareToken, IsActive, ...}`)
+  - Admin gating via authorization (`require_auth`) and `assert` checks against stored admin
+  - Campaign state toggles (`start_campaign`, `stop_campaign`) and status checks
+  - Deposit/withdraw flows tied to campaign activity
+  - Cross-contract token calls using a client interface:
+    - `transfer` of deposit token into the contract
+    - Minting/burning a “share token” to represent participation
+- Testing overview:
+  - Simulated `Env`, mocked addresses, minting setup balances
+  - End-to-end test validating deposit updates, share token mint, and withdrawal cleanup
+
+### Resources
+
+- [Okashi GitHub](https://github.com/okashi-dev)

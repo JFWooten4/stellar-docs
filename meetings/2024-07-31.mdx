@@ -1,0 +1,52 @@
+---
+title: "2024-07-31"
+description: "A practical walkthrough of building full-stack dApps on Stellar with Soroban—scaffolding an Astro frontend, generating TypeScript bindings, connecting Freighter, and deploying a crowdfunding-style example that mints and deposits tokens on testnet while highlighting Soroban RPC, auth, and fee mechanics."
+authors: john
+tags: [tutorial]
+---
+
+import YouTube from "@site/src/components/YouTube";
+
+<YouTube ID="pfviOwq9gOQ" />
+
+This session focuses on the end-to-end developer experience for Soroban dApps: starting from a minimal “hello world” contract call in an Astro app, then layering in generated TypeScript bindings so the frontend can interact with contracts through strongly-typed client methods. Julian Martinez walks through an ad hoc, code-first session on building full-stack dApps with Soroban.
+
+It then shifts to a more complete crowdfunding-style example dApp, unpacking the contract design (storage keys, campaign state, deposits/withdrawals, and token transfers) and demonstrating a full flow on testnet—from minting a demo token to depositing into a campaign—while touching on Soroban RPC configuration, auth requirements, and typical deployment considerations. Live demos cover scaffolding a project, calling contracts from a frontend, and wiring wallet signing with Freighter.
+
+### Key Topics
+
+- Project scaffolding with `stellar contract init` using an Astro template to bootstrap a Soroban-enabled frontend
+- Local setup essentials: Rust toolchain, compiling contracts to WASM, and installing the Stellar CLI
+- Environment configuration for testnet, including Soroban RPC endpoint and network passphrase values
+- Using the Stellar CLI to:
+  - build contracts (`stellar contract build`)
+  - deploy contracts (`stellar contract deploy`)
+  - generate TypeScript bindings (`stellar contract bindings typescript`)
+- How generated bindings behave like on-demand npm packages:
+  - embed network metadata (passphrase, contract ID)
+  - expose contract methods with typed arguments for easy frontend calls
+- Frontend read-only contract calls (simple `hello(...)`) to validate wiring before signing transactions
+- Adding wallet connectivity via the Freighter API:
+  - gating access with `isAllowed()` / `setAllowed()`
+  - retrieving the wallet address via `getUserInfo()`
+  - displaying the connected public key in the UI
+- Example dApp deep dive (crowdfunding contract):
+  - storage model (recipient, deadline, target amount, token address, per-user deposits)
+  - campaign state machine (`Running`, `Success`, `Expired`)
+  - authorization patterns like `require_auth()` to ensure callers match the signing address
+  - cross-contract calls through a token client interface for transfers
+  - deposit flow: user → contract address, then emit events and track balances
+  - withdraw flow: contract → recipient, reset per-user storage, emit events
+- Deployment and signing considerations:
+  - generating/funding identities via CLI scripting
+  - pinning a CLI version locally in a repo for reproducible builds
+  - browser wallet requirements (HTTPS) prompting deployment to a hosted environment for signing
+- Demonstrated user flow on testnet:
+  - connect wallet
+  - mint demo tokens
+  - deposit tokens into the campaign and observe state updates
+
+### Resources
+
+- [`stellar/soroban-astro-template`](https://github.com/stellar/soroban-astro-template)
+- [`stellar/soroban-dex-example-dapp`](https://github.com/stellar/soroban-dex-example-dapp)
