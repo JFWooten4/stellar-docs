@@ -1,0 +1,104 @@
+name: Normalize meeting authors
+
+on:
+  push:
+    branches:
+      - meetings-collective
+    paths:
+      - .github/workflows/normalize-meeting-authors.yml
+
+permissions:
+  contents: write
+
+jobs:
+  normalize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
+
+      - name: Normalize meeting author frontmatter
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin main:refs/remotes/origin/main
+
+          python3 <<'PY'
+          import pathlib
+          import re
+          import subprocess
+
+          def git(*args):
+              return subprocess.check_output(["git", *args], text=True)
+
+          def author_span(lines):
+              if not lines or lines[0].strip() != "---":
+                  return None
+              try:
+                  fm_end = next(i for i in range(1, len(lines)) if lines[i].strip() == "---")
+              except StopIteration:
+                  return None
+              for i in range(1, fm_end):
+                  if re.match(r"^authors\s*:", lines[i]):
+                      j = i + 1
+                      if lines[i].split(":", 1)[1].strip():
+                          return i, j
+                      while j < fm_end:
+                          if re.match(r"^[A-Za-z0-9_-]+\s*:", lines[j]):
+                              break
+                          j += 1
+                      return i, j
+              return None
+
+          def replace_authors(text, replacement):
+              lines = text.splitlines(keepends=True)
+              span = author_span(lines)
+              if span:
+                  start, end = span
+                  lines[start:end] = replacement
+              else:
+                  try:
+                      fm_end = next(i for i in range(1, len(lines)) if lines[i].strip() == "---")
+                  except StopIteration:
+                      raise ValueError("missing YAML frontmatter terminator")
+                  insert_at = next((i for i in range(1, fm_end) if re.match(r"^tags\s*:", lines[i])), fm_end)
+                  lines[insert_at:insert_at] = replacement
+              return "".join(lines)
+
+          rows = git("diff", "--name-status", "origin/main...HEAD", "--", "meetings").splitlines()
+          for row in rows:
+              parts = row.split("\t")
+              status = parts[0][0]
+              path = parts[-1]
+              if not path.endswith(".mdx"):
+                  continue
+
+              p = pathlib.Path(path)
+              current = p.read_text()
+
+              if status == "A":
+                  replacement = ["authors: john\n"]
+              else:
+                  main_text = git("show", f"origin/main:{path}")
+                  main_lines = main_text.splitlines(keepends=True)
+                  span = author_span(main_lines)
+                  if span is None:
+                      raise ValueError(f"main has no authors field: {path}")
+                  replacement = main_lines[span[0]:span[1]]
+
+              updated = replace_authors(current, replacement)
+              if updated != current:
+                  p.write_text(updated)
+          PY
+
+          rm .github/workflows/normalize-meeting-authors.yml
+
+          git config user.name "Codex Web"
+          git config user.email "noreply@openai.com"
+          git add -A
+          git commit -m "Normalize meeting authors" -m "Set authors to john for meeting files added relative to main and restore existing meeting-file author frontmatter to match main exactly.
+
+Co-authored-by: Codex Web <noreply@openai.com>"
+          git push origin HEAD:meetings-collective
