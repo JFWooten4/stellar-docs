@@ -1,15 +1,69 @@
 name: Build, format MDX and Lint
 
 on:
+  push:
+    branches:
+      - plain-meetings
   pull_request:
     branches:
       - main
 
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
+  restore-date-titles:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/plain-meetings'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v7.0.1
+        with:
+          fetch-depth: 0
+
+      - name: Restore date-style meeting titles
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          changed = 0
+          for path in sorted(Path('meetings').glob('*.mdx')):
+              text = path.read_text()
+              title = path.stem
+              updated, count = re.subn(
+                  r'(?m)^title:\s*.*$',
+                  f'title: "{title}"',
+                  text,
+                  count=1,
+              )
+              if count and updated != text:
+                  path.write_text(updated)
+                  changed += 1
+                  print(f'{path}: {title}')
+
+          print(f'Updated {changed} meeting title(s)')
+          PY
+          git checkout HEAD^ -- .github/workflows/main.yml
+
+      - name: Commit date titles
+        shell: bash
+        run: |
+          git config user.name "John Wooten"
+          git config user.email "60260750+JFWooten4@users.noreply.github.com"
+          git add meetings .github/workflows/main.yml
+          if git diff --cached --quiet; then
+            echo "No meeting titles needed updating."
+            exit 0
+          fi
+          git commit -m "Restore date-style meeting titles" -m "Co-authored-by: Codex Web <noreply@openai.com>"
+          git push origin HEAD:plain-meetings
+
   complete:
-    if: always()
+    if: always() && github.event_name != 'push'
     needs: [ mdx-format, build ]
     runs-on: ubuntu-latest
     steps:
@@ -17,6 +71,7 @@ jobs:
         run: exit 1
 
   mdx-format:
+    if: github.event_name != 'push'
     runs-on: ubuntu-latest
 
     steps:
@@ -53,7 +108,7 @@ jobs:
       - name: No new absolute internal /docs links
         # Canonical rule lives in scripts/check-relative-links.sh (shared with
         # the pre-commit hook). Only flags absolute /docs links introduced by
-        # this PR's diff, not pre-existing content in untouched lines.
+        # this PR's diff, not pre-existing repo content in untouched lines.
         run: |
           base="${{ github.base_ref }}"
           scripts/check-relative-links.sh --range "origin/${base:-main}...HEAD" \
@@ -62,5 +117,5 @@ jobs:
 
 
   build:
+    if: github.event_name != 'push'
     uses: ./.github/workflows/build.yml
-
