@@ -1,68 +1,15 @@
 name: Build, format MDX and Lint
 
 on:
-  push:
-    branches:
-      - meetings-collective
   pull_request:
     branches:
       - main
 
   workflow_dispatch:
 
-permissions:
-  contents: write
-
 jobs:
-  remove-transcripts:
-    if: github.event_name == 'push' && github.ref == 'refs/heads/meetings-collective'
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout branch
-        uses: actions/checkout@v7.0.1
-        with:
-          fetch-depth: 0
-
-      - name: Remove transcript blocks and restore workflow
-        shell: bash
-        run: |
-          python - <<'PY'
-          from pathlib import Path
-          import re
-
-          pattern = re.compile(
-              r'\n?<details>\s*\n\s*<summary>Video Transcript</summary>\s*\n.*?</details>\s*\n?',
-              re.DOTALL,
-          )
-
-          removed = 0
-          for path in sorted(Path('meetings').glob('*.mdx')):
-              text = path.read_text()
-              updated, count = pattern.subn('\n', text)
-              if count:
-                  path.write_text(updated)
-                  removed += count
-                  print(f'{path}: removed {count} transcript block(s)')
-
-          print(f'Removed {removed} transcript block(s) total')
-          PY
-          git checkout HEAD^ -- .github/workflows/main.yml
-
-      - name: Commit transcript-only cleanup
-        shell: bash
-        run: |
-          git config user.name "John Wooten"
-          git config user.email "60260750+JFWooten4@users.noreply.github.com"
-          git add meetings .github/workflows/main.yml
-          if git diff --cached --quiet; then
-            echo "No transcript blocks remain."
-            exit 0
-          fi
-          git commit -m "Remove remaining meeting transcripts" -m "Co-authored-by: Codex Web <noreply@openai.com>"
-          git push origin HEAD:meetings-collective
-
   complete:
-    if: always() && github.event_name != 'push'
+    if: always()
     needs: [ mdx-format, build ]
     runs-on: ubuntu-latest
     steps:
@@ -70,7 +17,6 @@ jobs:
         run: exit 1
 
   mdx-format:
-    if: github.event_name != 'push'
     runs-on: ubuntu-latest
 
     steps:
@@ -113,6 +59,8 @@ jobs:
           scripts/check-relative-links.sh --range "origin/${base:-main}...HEAD" \
             || { echo "::error::New absolute /docs link(s) found above."; exit 1; }
 
+
+
   build:
-    if: github.event_name != 'push'
     uses: ./.github/workflows/build.yml
+
