@@ -19,7 +19,7 @@ Meru’s clients get invoices, virtual cards, and local withdrawals while Meru s
 
 - Overview of Meru’s product offering:
   - Meru gives freelancers a USD bank account that connects to platforms such as Upwork/Deel, lets them hold dollars, issue invoices, and withdraw locally (including via MoneyGram partnerships).
-  - The team tackled wallet fee-bumping, passkey recovery, and Blend integration (Node/Python/Rust backend, Flutter/React frontend, SNS/SQS event architecture) to sponsor XLM fees and handle SEP-0030 recovery.
+  - The team tackled wallet fee-bumping, passkey recovery, and Blend integration (Node/Python/Rust backend, Flutter/React frontend, SNS/SQS event architecture) to sponsor XLM fees and handle SEP-30 recovery.
   - They plan to surface DeFi yield via Blend primitives, leaning on audited tooling, RPC definitions, and SDKs (`stellar_flutter_sdk` + `blend-sdk-js`) for a developer-friendly rollout.
 - Blend Integration
   - Use of Blend as a liquidity and yield primitive on Stellar
@@ -30,7 +30,7 @@ Meru’s clients get invoices, virtual cards, and local withdrawals while Meru s
   - Event-driven architecture leveraging SNS and SQS
 - Wallet and protocol challenges:
   - Fee bumping and fee sponsorship for user transactions
-  - Implementing passkey-based recovery flows using `SEP-0030`
+  - Implementing passkey-based recovery flows using `SEP-30`
   - Reliance on Soroban RPC definitions and SDKs for reliability
 - Tooling and SDKs
   - Use of `stellar_flutter_sdk` and `blend-sdk-js` to streamline integration
@@ -38,5 +38,5 @@ Meru’s clients get invoices, virtual cards, and local withdrawals while Meru s
 ### Resources
 
 - [Meru integration slides](https://docs.google.com/presentation/d/1Fu4AkB0mrvOkK6UDFJHgKwCV-Ul4JRF-xPqTYJ3CQqw)
-- [SEP-30: Account Recovery](https://github.com/stellar/stellar-protocol/blob/master/ecosystem/sep-0030.md)
+- [SEP-30 — Account Recovery: multi-party recovery of Stellar accounts](https://github.com/stellar/stellar-protocol/blob/master/ecosystem/sep-0030.md)
 - [Meru updates on X](https://x.com/getmeru)

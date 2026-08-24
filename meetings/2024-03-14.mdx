@@ -36,28 +36,28 @@ The discussion emphasized reducing overall execution costs, improving cost accur
   - Core Team feedback focused on correctness, cost impact, and long-term maintainability
   - Final decisions to be communicated via email
 - Cryptography and host functionality
-  - `CAP-0051` by `@leigh`: add support for `secp256r1` verification as a host function
+  - `CAP-51` by `@leigh`: add support for `secp256r1` verification as a host function
     - Enables WebAuthn-style authentication and broader cryptographic interoperability
     - Discussed scope and implications for Soroban authorization
 - TTL and lifecycle management
-  - `CAP-0053` by `@tdep`: separate functions for extending TTL of contract instance and contract code
+  - `CAP-53` by `@tdep`: separate functions for extending TTL of contract instance and contract code
     - Allows more granular and cost-efficient lifetime management
     - Avoids overpaying for long-lived code when instances change frequently
 - Soroban cost model refinements
-  - `CAP-0054` by `@graydon`: refine VM instantiation costs
+  - `CAP-54` by `@graydon`: refine VM instantiation costs
     - Breaks monolithic VM instantiation cost into more accurate components
     - Aims to better reflect actual resource usage
-  - `CAP-0055` by `@graydon`: reduce costs by linking fewer host functions during VM instantiation
+  - `CAP-55` by `@graydon`: reduce costs by linking fewer host functions during VM instantiation
     - Lowers overhead for contracts that do not use the full host function surface
-  - `CAP-0056` by `@graydon`: cache parsed Wasm modules within a transaction
+  - `CAP-56` by `@graydon`: cache parsed Wasm modules within a transaction
     - Avoids repeated parsing when multiple invocations reference the same Wasm
     - Improves performance and reduces redundant computation
 
 ### Resources
 
 - [Official developer mailing list approvals](https://groups.google.com/g/stellar-dev/c/6MKQSn22H8c)
-- [CAP-0051: secp256r1 verification](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0051.md)
-- [CAP-0053: separate TTL extension for instance and code](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0053.md)
-- [CAP-0054: refined Soroban VM cost model](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0054.md)
-- [CAP-0055: reduce host function linking costs](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0055.md)
-- [CAP-0056: cache parsed Wasm modules](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0056.md)
+- [CAP-51 — Smart Contract Host Functionality: Secp256r1 Verification](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0051.md)
+- [CAP-53: Separate host functions to extend the TTL for contract instance and contract code](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0053.md)
+- [CAP-54: Soroban refined VM instantiation cost model](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0054.md)
+- [CAP-55: Soroban streamlined linking](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0055.md)
+- [CAP-56: Soroban intra-transaction module caching](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0056.md)

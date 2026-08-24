@@ -7,7 +7,7 @@ authors:
   - kalepail
   - leigh-mcculloch
   - naman-kumar
-tags: [developer, CAP-52, CAP-53]
+tags: [developer, CAP-52]
 ---
 
 import DriveVideo from "@site/src/components/DriveVideo";
@@ -27,14 +27,14 @@ The group examined performance characteristics, interface scope, and long-term m
    - What does it mean for secp256r1 to be added as a host function vs. as a signer type?
      - As a host function, user can sign soroban auth entries. Need another Stellar account to fund and submit tx to the chain. The latter can be done by a Stellar account which may be operated by a wallet or a contract.
      - \_\_check_auth is invoked when the contract being interacted with calls require_auth
-3. [CAP-0052](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0052.md) was drafted to introduce encoding/decoding functions for Base64, which is needed by WebAuthN. Considerations discussed in the meeting:
+3. [CAP-52 — Smart Contract Host Functionality: Base64 Encoding/Decoding](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0052.md) was drafted to introduce encoding/decoding functions for Base64, which is needed by WebAuthN. Considerations discussed in the meeting:
    - Performance: 1066 bytes that costs 1M instr to encode a 32byte hash; so the cost is very small and it’s questionable whether a host function is required.
    - Interface required two functions (encode/decode)
    - Implementation wise, WebAuthN requires url alphabet and padding, which decoder likely needs to support. Should we use symbols or ints? Do we need custom alphabets?
    - Do we really need more encoding schemes? Isn’t XDR enough?
    - Expensive auth mechanisms, i.e. webauthn, cannot be coupled with contracts with heavy business logic (which might be a lot of contracts), thus making adoption problematic.
    - We should probably add building blocks to enable the ecosystem to add new use cases.
-4. [CAP-0053](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0053.md) was drafted to introduce encoding/decoding functions for JSON, which is needed by WebAuthN. Considerations discussed in the meeting:
+4. A separate proposal was drafted to introduce encoding/decoding functions for JSON, which is needed by WebAuthN. Considerations discussed in the meeting:
    - Performance: 3.9Kb, 2.5M CPU instr.
    - If the size of the input blob is unknown, execution time will increase.
    - Valuable to have such a lightweight function that’ll be used in various place.
@@ -53,5 +53,4 @@ The group examined performance characteristics, interface scope, and long-term m
 
 ### Resources
 
-- [CAP-0052: Base64 encoding/decoding](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0052.md)
-- [CAP-0053: JSON encoding/decoding](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0053.md)
+- [CAP-52 — Smart Contract Host Functionality: Base64 Encoding/Decoding](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0052.md)
