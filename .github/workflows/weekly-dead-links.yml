@@ -1,0 +1,96 @@
+name: Weekly dead-link check
+
+on:
+  schedule:
+    - cron: '0 14 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7.0.1
+
+      - name: Check links
+        id: initial
+        uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2
+        with:
+          args: >-
+            --no-progress
+            --exclude-path node_modules
+            --exclude-path .git
+            './**/*.md'
+            './**/*.mdx'
+          fail: false
+          failIfEmpty: false
+          jobSummary: false
+          output: lychee/initial.md
+
+      - name: Retry broken links for 10 minutes
+        id: retry
+        if: steps.initial.outputs.exit_code != '0'
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          mkdir -p lychee
+
+          for attempt in $(seq 1 10); do
+            echo "Broken links detected. Waiting 60 seconds before retry ${attempt}/10..."
+            sleep 60
+
+            if lychee \
+              --no-progress \
+              --format markdown \
+              --mode task \
+              --output lychee/final.md \
+              --exclude-path node_modules \
+              --exclude-path .git \
+              './**/*.md' \
+              './**/*.mdx'; then
+              echo "All links recovered on retry ${attempt}/10."
+              echo "persistent=false" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+          done
+
+          echo "persistent=true" >> "$GITHUB_OUTPUT"
+
+      - name: Open or update dead-link issue
+        if: steps.retry.outputs.persistent == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          issue_title="Dead links detected by weekly link check"
+
+          {
+            echo "The weekly link checker found links that remained unreachable after the initial scan and 10 one-minute retries."
+            echo
+            echo "Workflow run: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+            echo
+            cat lychee/final.md
+          } > lychee/issue.md
+
+          existing_issue="$(
+            gh issue list \
+              --state open \
+              --limit 100 \
+              --json number,title \
+              --jq '.[] | select(.title == "Dead links detected by weekly link check") | .number' \
+              | head -n 1
+          )"
+
+          if [[ -n "$existing_issue" ]]; then
+            gh issue comment "$existing_issue" --body-file lychee/issue.md
+          else
+            gh issue create --title "$issue_title" --body-file lychee/issue.md
+          fi
+
+          exit 1
