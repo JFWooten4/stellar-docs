@@ -56,11 +56,21 @@ kaankacar:
   image_url: https://github.com/kaankacar.png
   socials:
     github: kaankacar
-john:
-  name: John Wooten
-  url: https://wooten.link
-  image_url: https://github.com/JFWooten4.png
+chad-ostrowski:
+  name: Chad Ostrowski
+  title: CEO, Aha Labs
+  url: https://stellar.org/blog/foundation-news/building-smart-contracts-faster-talking-efficient-development-w-aha-labs-co-founder-chad-o
+  image_url: https://github.com/chadoh.png
   socials:
-    github: jfwooten4
-    x: jfwooten4
-    linkedin: jfwooten4
+    github: chadoh
+    x: chadoh
+    linkedin: chadoh
+willem-wyndham:
+  name: Willem Wyndham
+  title: CTO, Aha Labs
+  url: https://github.com/willemneal
+  image_url: https://github.com/willemneal.png
+  socials:
+    github: willemneal
+    x: willemneal
+    linkedin: willem-wyndham
