@@ -1,6 +1,6 @@
 ---
 title: "Smart Contract Storage Interaction Lifecycle"
-description: "A deep technical discussion on Soroban’s smart contract storage model, interaction lifecycle, and concurrency guarantees, covering how CAP-53, CAP-52, and CAP-46-2 work together to enable deterministic execution, parallelism, and safe contract evolution."
+description: "A deep technical discussion on Soroban’s smart contract storage model, interaction lifecycle, and concurrency guarantees, covering how CAP-46-5, CAP-46-4, and CAP-46-2 work together to enable deterministic execution, parallelism, and safe contract evolution."
 authors:
   - graydon-hoare
   - jonathan-jove
@@ -13,9 +13,9 @@ tags:
   - CAP-46-1
   - CAP-46-2
   - CAP-46-3
+  - CAP-46-4
   - CAP-46-5
   - CAP-50
-  - CAP-52
 ---
 
 import YouTube from "@site/src/components/YouTube";
@@ -24,7 +24,7 @@ import YouTube from "@site/src/components/YouTube";
 
 This discussion continues Project Jump Cannon by focusing on how Soroban smart contracts store data, declare access patterns, and safely interact with the Stellar ledger. The session explores why storage design, determinism, and explicit access declarations are foundational for enabling parallel execution without sacrificing correctness.
 
-The conversation walks through three closely related CAPs—CAP-53 (now CAP-46-5), CAP-52 (Base64 Encoding/Decoding), and updates to CAP-47 (now CAP-46-2). Together, these proposals define how contracts persist state, how Core pre-validates read/write behavior, and how contracts are created, upgraded, or removed while keeping ledger metadata manageable.
+The conversation walks through three closely related CAPs—CAP-53 (now CAP-46-5), CAP-52 (Smart Contract Interactions (Minimal), now CAP-46-4), and updates to CAP-47 (now CAP-46-2). Together, these proposals define how contracts persist state, how Core pre-validates read/write behavior, and how contracts are created, upgraded, or removed while keeping ledger metadata manageable.
 
 ### Key Topics
 
@@ -39,7 +39,7 @@ The conversation walks through three closely related CAPs—CAP-53 (now CAP-46-5
 - Point-access-only storage APIs:
   - Rationale for excluding range queries to preserve static footprints and parallel execution.
   - How developers can model higher-level structures (maps, tuples) within stored values.
-- CAP-52 minimal contract interactions:
+- CAP-52 (now CAP-46-4) minimal contract interactions:
   - New invoke-contract transaction shape and host functions.
   - Contract-defined authorization and replay-prevention strategies.
   - Design trade-offs around developer flexibility versus foot-gun risk.
@@ -63,12 +63,12 @@ The conversation walks through three closely related CAPs—CAP-53 (now CAP-46-5
 - [CAP-0046-02: Smart Contract Life Cycle](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0046-02.md)
 - [CAP-0046-05: Smart Contract Data](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0046-05.md)
 - [CAP-0050: Smart Contract Interactions](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0050.md)
-- [CAP-0052: Base64 Encoding/Decoding](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0052.md)
+- [CAP-46-4: Smart Contract Interactions (Minimal)](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0046-04.md)
 
 <details>
   <summary>Video Transcript</summary>
 
-[00:00] Okay. So I think we're gonna get started and hopefully David will soon join. So hey everyone welcome to another protocol meeting I'm filling in for Justin today I am seeing this. So in these meetings we discuss potential protocol changes these changes are outlined in these documents called CAPs or Core Advancement Proposals and the big change we're working on right. Now is Project Jump Cannon, which are, which is a feature to introduce native smart contracts on Stellar. So we've divided this massive change into a set of composable CAPs and the agenda specifically for today is we're going to talk about [CAP-53](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0046-05.md) smart contract data this was recently published by Graydon we're going to talk about [CAP-52](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0052.md) smart contract interactions minimal, which was recently introduced by John and we're going to talk about the smart
+[00:00] Okay. So I think we're gonna get started and hopefully David will soon join. So hey everyone welcome to another protocol meeting I'm filling in for Justin today I am seeing this. So in these meetings we discuss potential protocol changes these changes are outlined in these documents called CAPs or Core Advancement Proposals and the big change we're working on right. Now is Project Jump Cannon, which are, which is a feature to introduce native smart contracts on Stellar. So we've divided this massive change into a set of composable CAPs and the agenda specifically for today is we're going to talk about [CAP-53](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0046-05.md) smart contract data this was recently published by Graydon we're going to talk about [CAP-52](https://github.com/stellar/stellar-protocol/blob/5c1a513d7d10dc003e030576c8f4b2bef8055b7e/core/cap-0052.md) smart contract interactions minimal, which was recently introduced by John and we're going to talk about the smart
 
 [01:00] contract life cycle [CAP-47](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0046-02.md), which was recently updated by Siddharth and requires some for the discussion. So let's do this graded can you kick this off with a review of [CAP-53](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0046-05.md) yeah just give me one second all right got it yeah sorry I just I had the pull request open. And then I actually wanted to switch over to the merged version of it. So this is a fairly straightforward CAP it's not really introducing anything, that probably will be a surprise to anyone here it's just formalizing something, that was left out or left sort of for future CAPs in the modularization, that we've been doing splitting off conversation into different pieces so, that we can work on them separately and land them separately. But it's fairly tightly related to the
 
@@ -146,7 +146,7 @@ The conversation walks through three closely related CAPs—CAP-53 (now CAP-46-5
 
 [38:00] actually the other component of Stellar's multisig, that we get is aliasing. Because you can have an account identifier. And then you can attach other keys to it. And so Stellar accounts provide these two concepts aliasing. And then multisig and I think you know there's been the concern address presented, that you know we shouldn't just implement the multi-sig, that exists on classic over on smart. Because there's a lot of trade-offs with doing, that. But the aliasing alone is like a feature, that I think, that's worth us exploring like what will, that look like. Because it allows people to do things like rotate their keys or have multiple devices or using the same address and. If I understand correctly John you're saying, that aliasing
 
-[39:00] capability could actually just be a contract yeah, that's exactly what I'm saying any other questions on [CAP-52](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0052.md) I think. Because it's. So fresh we probably need a bit more time to get into the weeds John could you elaborate a little bit on how you see replay prevention happening. So I see in the CAP, that there's this announce, that concept exists yeah could you elaborate a little bit with how you see contracts would typically do, that yeah I'm happy to do, that. So this whole replay prevention thing
+[39:00] capability could actually just be a contract yeah, that's exactly what I'm saying any other questions on [CAP-52](https://github.com/stellar/stellar-protocol/blob/5c1a513d7d10dc003e030576c8f4b2bef8055b7e/core/cap-0052.md) I think. Because it's. So fresh we probably need a bit more time to get into the weeds John could you elaborate a little bit on how you see replay prevention happening. So I see in the CAP, that there's this announce, that concept exists yeah could you elaborate a little bit with how you see contracts would typically do, that yeah I'm happy to do, that. So this whole replay prevention thing
 
 [40:00] gets kind of annoying in this proposal, that's one of like the big downsides of this approach, that I pointed out in [CAP-50](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0050.md). When I said like why we shouldn't do this, which is basically like every contract ends up implementing their own replay prevention. When wherever it's needed and this means, that like things get pretty annoying fast for example like on Stellar you like consider stuff center today you might like submit a transaction and you know you have replay prevention on it. Because the sequence number and you also have like you know a deadline effectively you know the max time and you know, that. If you get to, that point everything is done it can't execute or it has already executed. But like. If you want, that functionality here you also have to implement the deadlines in your contract and all these other things and everything just gets kind of annoying fast basically. Now again same kind of thing, that i
 

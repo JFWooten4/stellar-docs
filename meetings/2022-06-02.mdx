@@ -14,9 +14,9 @@ tags:
   - legacy
   - CAP-46-1
   - CAP-46-2
+  - CAP-46-4
   - CAP-46-5
   - CAP-49
-  - CAP-52
 ---
 
 import YouTube from "@site/src/components/YouTube";
@@ -60,7 +60,7 @@ The conversation then shifts to one of the most debated open questions in Jump C
 - [CAP-0046-02: Smart Contract Life Cycle](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0046-02.md)
 - [CAP-0046-05: Smart Contract Data](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0046-05.md)
 - [CAP-0049: Smart Contract Asset Interoperability with Wrapper](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0049.md)
-- [CAP-0052: Base64 Encoding/Decoding](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0052.md)
+- [CAP-46-4: Smart Contract Interactions (Minimal)](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0046-04.md)
 
 <details>
   <summary>Video Transcript</summary>
@@ -153,7 +153,7 @@ The conversation then shifts to one of the most debated open questions in Jump C
 
 [43:00] with most of those approaches. But cryptography apis become error-prone really quickly and I don't want to surface a lot of, that to users unless they ask for it unless they're going out of their way to say I personally want to do some fancy cryptography for the average person who's just creating an asset I really want them to not be forced to copy paste and possibly get wrong the use of a cryptography api, that's requirement slash desire number one and requirement desire number two is ideally. If that code is gonna be in every single contract and it's the only thing, that differs from one contract to another or. If it's a. If it's standardized preamble in every single contract on every single path it would be nice just from a code size and execution performance perspective to factor it out as well. So I'm just I know the authorization point is not the only part of interop. But to me it's the only part, that I actually care about I do not care about the other aspects
 
-[44:00] right. So I think, that what you just described I think is, that's kind of what is touched on in all this yeah in [CAP-52](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0052.md) the authorization model, though for payments is and going back to, that right is it is different it's different and, that's why they are like things done in a certain way in [CAP-52](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0052.md). But I do agree, that I know as we try to figure out like the actual interop story with classic it would be we can avoid having I mean having like a yeah like good solid base implementation, that people can just you know import in their thing. And then just works mostly without having to implement those things and. But like the key part of, that the absolute most
+[44:00] right. So I think, that what you just described I think is, that's kind of what is touched on in all this yeah in [CAP-52](https://github.com/stellar/stellar-protocol/blob/5c1a513d7d10dc003e030576c8f4b2bef8055b7e/core/cap-0052.md) the authorization model, though for payments is and going back to, that right is it is different it's different and, that's why they are like things done in a certain way in [CAP-52](https://github.com/stellar/stellar-protocol/blob/5c1a513d7d10dc003e030576c8f4b2bef8055b7e/core/cap-0052.md). But I do agree, that I know as we try to figure out like the actual interop story with classic it would be we can avoid having I mean having like a yeah like good solid base implementation, that people can just you know import in their thing. And then just works mostly without having to implement those things and. But like the key part of, that the absolute most
 
 [45:00] important part of, that from my perspective is the authorization aspect of it you want to. allow or require people to fiddle other parts it doesn't matter quite. So much. But and user writing your own authorization group is just a disaster we have too many crickets can somebody make it I don't like well I do have a question. So returning to what tomorrow sort of started this threat this head where he started it, which was
 

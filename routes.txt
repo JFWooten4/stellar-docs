@@ -1028,6 +1028,7 @@
 /meetings/tags/cap-46-1
 /meetings/tags/cap-46-2
 /meetings/tags/cap-46-3
+/meetings/tags/cap-46-4
 /meetings/tags/cap-46-5
 /meetings/tags/cap-46-6
 /meetings/tags/cap-46-7
