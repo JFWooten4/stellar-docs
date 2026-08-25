@@ -1,6 +1,6 @@
 ---
 title: "2024-06-20"
-description: This overview summarizes a spotlight discussion on Meru’s integration with Blend, covering non-custodial financial services for freelancers, fee sponsorship, and Soroban-based DeFi primitives.
+description: This overview summarizes a spotlight discussion on Meru's integration with Blend, covering non-custodial financial services for freelancers, fee sponsorship, and Soroban-based DeFi primitives.
 authors: [amilcar-erazo, naman-kumar]
 tags: [spotlight, SEP-30]
 ---
@@ -11,11 +11,11 @@ import DriveVideo from "@site/src/components/DriveVideo";
 
 This spotlight session featured Kirckz discussing Meru, a financial services application built for freelancers and remote workers in Latin America. The presentation walked through how Meru combines USD accounts, its own anchoring infrastructure, and Stellar-based primitives to deliver a non-custodial user experience.
 
-Meru’s clients get invoices, virtual cards, and local withdrawals while Meru sponsors fees and integrates with Blend for yield. The discussion highlights architectural choices like SDK usage and the operational challenges of sponsoring fees, supporting recovery, and surfacing DeFi yield in a production setting.
+Meru's clients get invoices, virtual cards, and local withdrawals while Meru sponsors fees and integrates with Blend for yield. The discussion highlights architectural choices like SDK usage and the operational challenges of sponsoring fees, supporting recovery, and surfacing DeFi yield in a production setting.
 
 ### Key Topics
 
-- Overview of Meru’s product offering:
+- Overview of Meru's product offering:
   - Meru gives freelancers a USD bank account that connects to platforms such as Upwork/Deel, lets them hold dollars, issue invoices, and withdraw locally (including via MoneyGram partnerships).
   - The team tackled wallet fee-bumping, passkey recovery, and Blend integration (Node/Python/Rust backend, Flutter/React frontend, SNS/SQS event architecture) to sponsor XLM fees and handle SEP-30 recovery.
   - They plan to surface DeFi yield via Blend primitives, leaning on audited tooling, RPC definitions, and SDKs (`stellar_flutter_sdk` + `blend-sdk-js`) for a developer-friendly rollout.

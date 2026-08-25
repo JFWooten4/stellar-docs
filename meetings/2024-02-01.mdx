@@ -18,7 +18,7 @@ import AudioPlayer from "@site/src/components/AudioPlayer";
 
 This session explored a proposal to add a Soroban host function for verifying `secp256r1` signatures, primarily to support WebAuthn-style authentication flows. The motivation is to better connect off-chain authentication (passkeys, phones, platform authenticators) with on-chain authorization, improving usability for end-user applications like wallets.
 
-The discussion focused on scope (verification vs recovery), developer experience implications, missing primitives needed for WebAuthn payloads, and how such functionality fits Soroban’s “batteries included” philosophy.
+The discussion focused on scope (verification vs recovery), developer experience implications, missing primitives needed for WebAuthn payloads, and how such functionality fits Soroban's "batteries included" philosophy.
 
 ### Key Topics
 
@@ -28,10 +28,10 @@ The discussion focused on scope (verification vs recovery), developer experience
 - `secp256r1` is supported by phones, passkeys, and enables an app to replace passwords. This is a massive benefit to user-facing applications like wallets.
 - Pros and cons of the interface: blockchains generally implement the recovery interface over the verification interface but verification is easier for developers as it reduces burden on the client and the network.
 - The WebAuthN use case requires encoding and decoding of `base64` payloads and decoding JSON blobs, which is not currently supported in Soroban.
-- While there are hacky ways of accomplishing the latter, it’s not a great developer experience and final implementation is susceptible to breakages on updates.
+- While there are hacky ways of accomplishing the latter, it's not a great developer experience and final implementation is susceptible to breakages on updates.
 - It is also costly to bundle decoding with verification in guest.
 - Soroban has always led with a batteries included mindset. Keeping in line with that approach, it makes sense to further investigate and determine whether a host function makes sense for these as well.
-- Leigh’s implementation may require further evaluation of the crates used for ECDSA and `p256`.
+- Leigh's implementation may require further evaluation of the crates used for ECDSA and `p256`.
 - Brief discussion around proposed process for adding of a host function by a non-core dev.
 
 ### Resources
