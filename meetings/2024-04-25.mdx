@@ -21,7 +21,7 @@ The discussion centered on removing the need for a separate storage system for e
 - RPC nodes can generate proofs for archived state during preflight
 - Captive-core can be directly queried for archived state, meaning that RPC/Horizon instances can potentially service queries for archival state
 
-2. [The draft proposal](https://docs.google.com/document/d/1FAs3Yfo-o-gVqccrP29NSG8ysRvdEoyvuL7ywV4ijXI) lays out the state archival architecture: evicted persistent entries get archived into the Hot/Cold archives, recorded via the Archive State Tree, and exposed through RPC/RestoreOp proofs instead of a separate ESS.
+2. The draft proposal lays out the state archival architecture: evicted persistent entries get archived into the Hot/Cold archives, recorded via the Archive State Tree, and exposed through RPC/RestoreOp proofs instead of a separate ESS.
 
 - Validators drop expired persistent entries into the Hot Archive, snapshot it into immutable AST subtrees, and publish Merkle roots (plus binary fuse filters) so RPC can produce restoration proofs without replaying history.
 - RPC/captive-core access to archived state during preflight enables proofs to be attached by clients, while restore flows ensure each archived version can only be restored once and cannot be recreated with different data.
@@ -34,4 +34,5 @@ The discussion centered on removing the need for a separate storage system for e
 
 ### Resources
 
+- [Draft state archival proposal](https://docs.google.com/document/d/1FAs3Yfo-o-gVqccrP29NSG8ysRvdEoyvuL7ywV4ijXI)
 - [CAP-57: State Archival Persistent Entry Eviction](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0057.md) ([Discussion: Persistent Entry Eviction](https://github.com/stellar/stellar-protocol/discussions/1480))
