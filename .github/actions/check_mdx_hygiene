@@ -1,0 +1,40 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require_relative "lib/changed_lines"
+
+base_sha = ENV.fetch("BASE_SHA")
+head_sha = ENV.fetch("HEAD_SHA")
+changed = ChangedLines.ranges(base_sha:, head_sha:)
+errors = []
+
+changed.each do |path, ranges|
+  next unless File.file?(path)
+
+  lines = File.readlines(path, chomp: true)
+  lines.each_with_index do |line, index|
+    line_number = index + 1
+    next unless ChangedLines.changed?(ranges, line_number)
+
+    if line.match?(/^\s*```\s*$/)
+      errors << "#{path}:#{line_number}: fenced code blocks need a language"
+    end
+
+    if line.match?(/!\[\s*\]\([^)]*\)/)
+      errors << "#{path}:#{line_number}: Markdown images need descriptive alt text"
+    end
+
+    if line.match?(/<img\b/i) && !line.match?(/\balt\s*=/i)
+      errors << "#{path}:#{line_number}: <img> elements need an alt attribute"
+    end
+  end
+end
+
+if errors.empty?
+  puts "MDX hygiene checks passed"
+  exit 0
+end
+
+warn errors.join("\n")
+warn "\nFix the new Markdown/MDX issues above before merging."
+exit 1
