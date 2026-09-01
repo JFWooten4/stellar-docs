@@ -1,0 +1,45 @@
+name: Ruby docs checks
+
+on:
+  pull_request:
+    paths:
+      - "**/*.md"
+      - "**/*.mdx"
+      - ".github/actions/**"
+      - ".github/workflows/ruby-docs-checks.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  docs-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+
+      - name: Check Markdown and MDX hygiene
+        if: github.event_name == 'pull_request'
+        run: .github/actions/check_mdx_hygiene
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+
+      - name: Check meeting frontmatter
+        if: github.event_name == 'pull_request'
+        run: .github/actions/check_meeting_frontmatter
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+
+      - name: Explain manual run
+        if: github.event_name == 'workflow_dispatch'
+        run: echo "These checks evaluate PR-added lines and therefore run automatically on pull requests."
