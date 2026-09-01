@@ -1,0 +1,46 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require "date"
+require_relative "lib/changed_lines"
+
+base_sha = ENV.fetch("BASE_SHA")
+head_sha = ENV.fetch("HEAD_SHA")
+changed = ChangedLines.ranges(base_sha:, head_sha:)
+errors = []
+
+changed.each_key do |path|
+  next unless path.match?(%r{\Ameetings/\d{4}-\d{2}-\d{2}\.mdx\z})
+  next unless File.file?(path)
+
+  expected_title = File.basename(path, ".mdx")
+  begin
+    Date.iso8601(expected_title)
+  rescue Date::Error
+    errors << "#{path}: filename is not a valid ISO date"
+    next
+  end
+
+  content = File.read(path)
+  frontmatter = content.match(/\A---\s*\n(.*?)\n---\s*\n/m)&.captures&.first
+  unless frontmatter
+    errors << "#{path}: missing YAML frontmatter"
+    next
+  end
+
+  title = frontmatter[/^title:\s*["']?([^"'\n]+)["']?\s*$/, 1]&.strip
+  authors = frontmatter[/^authors:\s*(.+)$/, 1]&.strip
+  tags = frontmatter[/^tags:\s*(.+)$/, 1]&.strip
+
+  errors << "#{path}: title must match #{expected_title}" unless title == expected_title
+  errors << "#{path}: frontmatter must include authors" if authors.to_s.empty?
+  errors << "#{path}: frontmatter must include tags" if tags.to_s.empty?
+end
+
+if errors.empty?
+  puts "Meeting frontmatter checks passed"
+  exit 0
+end
+
+warn errors.join("\n")
+exit 1
