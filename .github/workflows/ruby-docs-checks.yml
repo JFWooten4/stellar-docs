@@ -28,14 +28,14 @@ jobs:
 
       - name: Check Markdown and MDX hygiene
         if: github.event_name == 'pull_request'
-        run: .github/actions/check_mdx_hygiene
+        run: ruby .github/actions/check_mdx_hygiene
         env:
           BASE_SHA: ${{ github.event.pull_request.base.sha }}
           HEAD_SHA: ${{ github.event.pull_request.head.sha }}
 
       - name: Check meeting frontmatter
         if: github.event_name == 'pull_request'
-        run: .github/actions/check_meeting_frontmatter
+        run: ruby .github/actions/check_meeting_frontmatter
         env:
           BASE_SHA: ${{ github.event.pull_request.base.sha }}
           HEAD_SHA: ${{ github.event.pull_request.head.sha }}
