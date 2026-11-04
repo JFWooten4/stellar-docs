@@ -153,17 +153,38 @@ jobs:
       - name: Apply and constrain validated patch
         if: steps.pr.outputs.run == 'true' && steps.artifact.outputs.has_changes == 'true'
         working-directory: work
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_NUMBER: ${{ steps.pr.outputs.pr_number }}
         run: |
           set -euo pipefail
           patch="$RUNNER_TEMP/pr-autofix/autofix.patch"
+
+          # Privileged apply must not trust redirect changes from PR artifacts.
+          # Recompute them using trusted default-branch code and compare patches.
+          if git apply --numstat "$patch" | awk '$3 == "nginx/includes/redirects.conf" {found=1} END {exit !found}'; then
+            base_sha="$(gh api "repos/${GITHUB_REPOSITORY}/pulls/${PR_NUMBER}" --jq '.base.sha')"
+            trusted="$RUNNER_TEMP/trusted-check-doc-redirects.py"
+            gh api "repos/${GITHUB_REPOSITORY}/contents/scripts/check_doc_redirects.py?ref=${GITHUB_SHA}" --jq '.content' | base64 -d > "$trusted"
+            test -s "$trusted"
+            git fetch --depth=1 "https://github.com/${GITHUB_REPOSITORY}.git" "$base_sha"
+            python3 "$trusted" --base "$base_sha" --head HEAD --mode fix \
+              --pr-url "${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/pull/${PR_NUMBER}"
+            git diff --binary -- nginx/includes/redirects.conf > "$RUNNER_TEMP/expected-redirect.patch"
+            git checkout -- nginx/includes/redirects.conf
+          fi
           git apply --check "$patch"
           git apply --index "$patch"
+          if [[ -f "$RUNNER_TEMP/expected-redirect.patch" ]]; then
+            git diff --cached --binary -- nginx/includes/redirects.conf > "$RUNNER_TEMP/applied-redirect.patch"
+            diff -u "$RUNNER_TEMP/expected-redirect.patch" "$RUNNER_TEMP/applied-redirect.patch"
+          fi
 
           count=0
           while IFS= read -r -d '' path; do
             count=$((count + 1))
             case "$path" in
-              routes.txt|docs/*.md|docs/*.mdx|src/pages/*.md|src/pages/*.mdx|meetings/*.md|meetings/*.mdx|src/*.js|src/*.jsx|src/*.ts|src/*.tsx)
+              nginx/includes/redirects.conf|routes.txt|docs/*.md|docs/*.mdx|src/pages/*.md|src/pages/*.mdx|meetings/*.md|meetings/*.mdx|src/*.js|src/*.jsx|src/*.ts|src/*.tsx)
                 ;;
               *)
                 echo "::error::Artifact attempted to change disallowed path: $path"
@@ -191,7 +212,7 @@ jobs:
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git commit -m '🤖 Apply automated PR fixes'
+          git commit -m '🔩 Apply validated PR autofixes' -m 'Apply validated formatting, generated routes, and documentation redirects.' -m 'Co-authored-by: ChatGPT 6 <noreply@openai.com>'
           echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
       - name: Push bot commit
@@ -239,7 +260,7 @@ jobs:
           set -euo pipefail
           marker='<!-- stellar-docs-pr-autofix -->'
           body="$marker
-          Autofix found a validated formatting, lint, or generated-route patch, but the upstream workflow could not push to this PR branch. Download and extract the \`pr-autofix-*\` artifact from the [autofix run]($RUN_URL), then run \`git apply autofix.patch\` on the PR branch."
+          Autofix produced a validated formatting, lint, generated-route, or redirect patch but could not push to this PR branch. Any added redirect contains a comment explaining the move and its originating PR. Download and extract the \`pr-autofix-*\` artifact from the [autofix run]($RUN_URL), then run \`git apply autofix.patch\` on the PR branch."
 
           comment_id="$(gh api --paginate "repos/${GITHUB_REPOSITORY}/issues/${PR_NUMBER}/comments" \
             --jq ".[] | select(.body | contains(\"$marker\")) | .id" | head -n 1)"

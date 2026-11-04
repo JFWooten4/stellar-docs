@@ -46,6 +46,9 @@ jobs:
       - name: Install dependencies
         run: pnpm install --prefer-offline --frozen-lockfile
 
+      - name: Test redirect regression behavior
+        run: python3 -m unittest discover -s tests -p test_doc_redirects.py
+
       - name: Generate formatting and lint fixes
         run: |
           set -euo pipefail
@@ -65,6 +68,18 @@ jobs:
           git reset --hard "$HEAD_SHA"
           git clean -fd
 
+      - name: Generate safe documentation redirects
+        env:
+          PR_URL: ${{ github.server_url }}/${{ github.repository }}/pull/${{ github.event.pull_request.number }}
+        run: |
+          set -euo pipefail
+          git remote add base "https://github.com/${GITHUB_REPOSITORY}.git"
+          git fetch base "refs/heads/${BASE_REF}:refs/remotes/base/${BASE_REF}"
+          python3 scripts/check_doc_redirects.py --base "base/${BASE_REF}" --head HEAD --mode fix --pr-url "$PR_URL"
+          git diff --binary -- nginx/includes/redirects.conf > "$RUNNER_TEMP/redirect.patch"
+          git reset --hard "$HEAD_SHA"
+          git clean -fd
+
       - name: Assemble autofix patch
         id: patch
         run: |
@@ -75,6 +90,10 @@ jobs:
           fi
           if [[ -s "$RUNNER_TEMP/routes.patch" ]]; then
             git apply "$RUNNER_TEMP/routes.patch"
+          fi
+
+          if [[ -s "$RUNNER_TEMP/redirect.patch" ]]; then
+            git apply "$RUNNER_TEMP/redirect.patch"
           fi
 
           git diff --binary > "$RUNNER_TEMP/autofix.patch"
@@ -93,7 +112,7 @@ jobs:
           while IFS= read -r -d '' path; do
             count=$((count + 1))
             case "$path" in
-              routes.txt|docs/*.md|docs/*.mdx|src/pages/*.md|src/pages/*.mdx|meetings/*.md|meetings/*.mdx|src/*.js|src/*.jsx|src/*.ts|src/*.tsx)
+              nginx/includes/redirects.conf|routes.txt|docs/*.md|docs/*.mdx|src/pages/*.md|src/pages/*.mdx|meetings/*.md|meetings/*.mdx|src/*.js|src/*.jsx|src/*.ts|src/*.tsx)
                 ;;
               *)
                 echo "::error::Autofix attempted to change disallowed path: $path"
@@ -122,6 +141,11 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git commit -m 'Autofix validation tree'
 
+      - name: Validate documentation redirect coverage
+        env:
+          PR_URL: ${{ github.server_url }}/${{ github.repository }}/pull/${{ github.event.pull_request.number }}
+        run: python3 scripts/check_doc_redirects.py --base "base/${BASE_REF}" --head HEAD --mode check --pr-url "$PR_URL"
+
       - name: Check MDX formatting
         run: git update-index -g && pnpm ci:mdx
 
@@ -131,8 +155,6 @@ jobs:
       - name: Check new absolute internal links
         run: |
           set -euo pipefail
-          git remote add base "https://github.com/${GITHUB_REPOSITORY}.git"
-          git fetch base "$BASE_REF" --depth=1
           scripts/check-relative-links.sh --range "base/${BASE_REF}...HEAD" \
             || { echo "::error::New absolute /docs link(s) found above."; exit 1; }
 

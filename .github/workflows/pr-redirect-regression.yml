@@ -1,0 +1,33 @@
+name: Check documentation redirect regressions
+
+on:
+  pull_request:
+    paths:
+      - "docs/**"
+      - "nginx/includes/redirects.conf"
+      - "scripts/check_doc_redirects.py"
+      - "tests/test_doc_redirects.py"
+      - ".github/workflows/pr-redirect-regression.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  redirect-check:
+    name: Preserve moved documentation URLs
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7.0.1
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Run redirect regression tests
+        run: python3 -m unittest discover -s tests -p test_doc_redirects.py
+      - name: Verify moved page redirects
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          PR_URL: ${{ github.server_url }}/${{ github.repository }}/pull/${{ github.event.pull_request.number }}
+        run: |
+          set -euo pipefail
+          git fetch --depth=1 origin "$BASE_SHA"
+          python3 scripts/check_doc_redirects.py --base "$BASE_SHA" --head HEAD --mode check --pr-url "$PR_URL"
