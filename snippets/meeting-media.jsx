@@ -1,5 +1,3 @@
-// Shared Mintlify meeting players, based on the former Docusaurus DriveVideo and AudioPlayer.
-// Keep video URLs and playback behavior centralized for the meeting archive.
 const VideoFrame = ({ children }) => (
   <div
     className="relative mx-auto my-4 aspect-video w-full overflow-hidden rounded-2xl"
